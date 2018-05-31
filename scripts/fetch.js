@@ -37,16 +37,17 @@ Response.prototype = {
         
     },
     json:function(){
-        if(this.bodyUsed){
-            throw new Error();
-        }
-        this.bodyUsed = true;
+        return this.text().then(function(v){
+            JSON.parse(v);
+        });
+        
     },
     arrayBuffer:function(){
         if(this.bodyUsed){
             throw new Error();
         }
         this.bodyUsed = true;
+        return readComingMessage(this._comingMessaage);
     },
     blob:function(){
         if(this.bodyUsed){
