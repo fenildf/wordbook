@@ -7,7 +7,8 @@
         "email": "pallyoung@163.com"
     },
     "scripts": {
-        "source": "node scripts/source.js",
+        "bookurl": "node scripts/bookurl.js",
+        "wordbook":"node scripts/wordbook.js",
         "test": "jest"
     },
     "devDependencies": {
