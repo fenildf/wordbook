@@ -1,0 +1,16 @@
+{
+    "name": "wordbook",
+    "private": true,
+    "version": "0.0.1",
+    "author": {
+        "name": "Spencer Ye",
+        "email": "pallyoung@163.com"
+    },
+    "scripts": {
+        "source": "node scripts/source.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^23.1.0"
+    }
+}
