@@ -9,9 +9,6 @@ import Item from './../Item';
 class ProgressItem extends Component {
     constructor(...props) {
         super(...props);
-        this.state = {
-            width: 0
-        }
     }
     _onLayout = ({ nativeEvent }) => {
         let { width } = nativeEvent.layout;
@@ -26,15 +23,10 @@ class ProgressItem extends Component {
             style,
             children
         } = this.props;
-        let width = this.state.width * progress;
         return (
             <Item
                 style={style}
-                onLayout={this._onLayout}
                 onPress={onPress} >
-                {progress ? <View
-                    style={[styles.background, { width}]}
-                /> : null}
                 {children}
             </Item>
         );
