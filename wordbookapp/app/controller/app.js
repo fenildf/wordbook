@@ -4,6 +4,11 @@ function appInit(){
     }
 }
 
+function appNavigate($payload){
+    return $payload();
+
+}
 export default {
-    appInit
+    appInit,
+    appNavigate
 }

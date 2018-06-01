@@ -10,6 +10,7 @@ import {
     onError
 }  from 'febrest';
 
+require('./router');
 import action from './action';
 //设置主题
 Theme.setTheme(BaseTheme);

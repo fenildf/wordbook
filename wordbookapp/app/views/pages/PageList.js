@@ -9,8 +9,7 @@ import {
     Text
 }from 'react-native';
 import NavigationManager from './../../util/NavigationManager';
-// import Component from './../components/ScreenComponent';
-// import {TabNavigator,DrawerNavigator} from 'react-navigation';
+
 
 import {Theme} from 'react-native-improver';
 var currentTheme = Theme.getTheme();
