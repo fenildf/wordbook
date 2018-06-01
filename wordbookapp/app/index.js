@@ -13,11 +13,12 @@ import {
 import { Theme } from 'react-native-improver';
 var currentTheme = Theme.getTheme();
 import { createStackNavigator } from 'react-navigation';
-import Routes from './views/routes/Routes';
+import Routes from './routes';
 import { NativeManager } from './native';
 import BuildConfig from './BuildConfig';
 import Loading from './views/components/Loading';
-import Screen from './views/components/Screen'
+import Screen from './views/components/Screen';
+import {createDispatcher} from 'react-febrest';
 
 function createNavigation(initialRouteName, initialRouteParams) {
     return createStackNavigator(Routes, {

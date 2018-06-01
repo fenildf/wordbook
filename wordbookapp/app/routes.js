@@ -1,6 +1,6 @@
 'use strict'
-import pages from './../pages';
-import Screen from './../components/Screen';
+import pages from './views/pages';
+import Screen from './views/components/Screen';
 
 
 var routes = {};
