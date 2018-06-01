@@ -6,44 +6,45 @@ import {
 } from 'react-native';
 
 import Text from './../../components/Text';
-import Section from './../../components/Section';
+import SectionL from './../../components/Section';
 import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
-class Book extends ScreenComponent{
+
+class Section extends ScreenComponent{
     constructor(...props){
         super(...props);
         let params = this.getScreen().getNavigation().state.params||{};
-        let book = params.book||{}
+        let section = params.section||{}
         this.navigationOptions = {
-            title:book.name||'单词本'
+            title:section.name||'单词本'
         }
         this.state = {
-            sections:[],
-            book
+            words:[],
+            section
         }
         this.dispatcher = createDispatcher(this,this._onData);
     }
-    _onData(){
-
+    _onData(data){
     }
 
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_SECTIONS,{bookName:this.state.book.name})
+        let section = this.state.section
+        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.book_name,sectionName:section.name})
     }
     
     render(){
         return (
             <ScrollView >
-                <Section 
+                <SectionL 
                     onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{section:item}})}
-                    data={this.state.sections}/>
+                    data={this.state.words}/>
             </ScrollView>
         )
     }
 }
 
 
-export default Book;
+export default Section;

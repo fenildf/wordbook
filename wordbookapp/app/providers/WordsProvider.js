@@ -84,13 +84,21 @@ function getDataBySql(sql) {
     })
 }
 
-function getData(type) {
+function getData(type,payload) {
     let sqlString;
-
+    payload = payload;
     switch (type) {
         case 'books':
             sqlString = `select * from books as b`;
-            return getDataBySql(sqlString)
+            return getDataBySql(sqlString);
+        case 'sections':
+            sqlString = `select * from sections as b where book_name="${payload.bookName||'*'}"`;
+            return getDataBySql(sqlString);
+        case 'words':
+            sqlString = `select * from words as b where book_name="${payload.bookName||'%'}" and section_name="${payload.sectionName||'%'}"`;
+            return getDataBySql(sqlString);
+
+        
     }
 }
 class WordsProvider extends Provider {

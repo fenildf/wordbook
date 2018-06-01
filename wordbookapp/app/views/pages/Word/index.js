@@ -6,23 +6,23 @@ import {
 } from 'react-native';
 
 import Text from './../../components/Text';
-import Section from './../../components/Section';
+import SectionL from './../../components/Section';
 import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
-class Book extends ScreenComponent{
+
+class Word extends ScreenComponent{
     constructor(...props){
         super(...props);
         let params = this.getScreen().getNavigation().state.params||{};
-        let book = params.book||{}
+        let word = params.section||{}
         this.navigationOptions = {
-            title:book.name||'单词本'
+            title:word.name||'单词本'
         }
         this.state = {
-            sections:[],
-            book
+            sections:[]
         }
         this.dispatcher = createDispatcher(this,this._onData);
     }
@@ -31,13 +31,13 @@ class Book extends ScreenComponent{
     }
 
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_SECTIONS,{bookName:this.state.book.name})
+        
     }
     
     render(){
         return (
             <ScrollView >
-                <Section 
+                <SectionL 
                     onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{section:item}})}
                     data={this.state.sections}/>
             </ScrollView>
@@ -46,4 +46,4 @@ class Book extends ScreenComponent{
 }
 
 
-export default Book;
+export default Word;
