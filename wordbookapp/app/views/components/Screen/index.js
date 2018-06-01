@@ -69,11 +69,6 @@ function Screen(component) {
                 callback = this._readyList.shift();
             }
         }
-        reload() {
-            super.componentWillMount && super.componentWillMount();
-            this.forceUpdate();
-            setTimeout(() => super.componentDidMount && super.componentDidMount(), 100);
-        }
         alert(config) {
             this._ready(() => this.refs[ALERT_REF].show(config));
         }
@@ -97,10 +92,11 @@ function Screen(component) {
             this.refs[HEADER_REF]&&this.refs[HEADER_REF].updateInfo(props); 
         }
         render() {
-            var navigation = this.props.navigation;
-            var headerProps = {
+            let {navigation} = this.props;
+            let params = navigation?(navigation.state.params?navigation.state.params:{}):{}
+            let headerProps = {
                 ...this.navigationOptions||{header:null},
-                ...navigation&&navigation.state.params || {}
+                ...params
             }
             return <View
                 collapsable={true}
@@ -108,7 +104,6 @@ function Screen(component) {
                 <NavigationHeader
                     ref = {HEADER_REF}
                     navigation = {navigation}
-                    getHeaderProps = {()=>$Screen.headerProps}
                     {...headerProps}/>
                 <View
                     collapsable={true}
@@ -122,7 +117,6 @@ function Screen(component) {
     }
     $Screen.navigationOptions = {
         header:function(props){
-            $Screen.headerProps = props;
             return null;
         }
     }
