@@ -14,7 +14,7 @@ import { Theme } from 'react-native-improver';
 var currentTheme = Theme.getTheme();
 import routes from './routes';
 import { NativeManager } from './native';
-import createStackNavigator from './util/createStackNavigator';
+import NavigationManager from './util/NavigationManager';
 import Screen from './views/components/Screen';
 import {createDispatcher} from 'react-febrest';
 
@@ -41,7 +41,7 @@ class Entry extends Component {
         InteractionManager.runAfterInteractions(() => {
 
             let initialRouteName = NativeManager.ENV === 'DEBUG' ? 'PageList' : 'Main';
-            this.state.navigation = createStackNavigator(routes,{initialRouteName});
+            this.state.navigation = NavigationManager.createStackNavigator(routes,{initialRouteName});
             this.setState({ inited: true });
             InteractionManager.runAfterInteractions(() => NativeManager.hideLoadingView())
         });
@@ -52,7 +52,7 @@ class Entry extends Component {
         this.setState({
             inited: true,
             navigationKey: this.state.navigationKey + 1,
-            navigation: createStackNavigator(routes,{initialRouteName,initialRouteParams})
+            navigation: NavigationManager.createStackNavigator(routes,{initialRouteName,initialRouteParams})
         });
     }
     render() {
