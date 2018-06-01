@@ -102,7 +102,7 @@ db.serialize(function () {
 db.close(function(){
 
     const ANDROID_DB_PATH = 'wordbookapp/android/app/src/main/assets/data/database.db';
-    const IOS_DB_PATH = 'wordbookapp/ios/shici/data/database.db';
+    const IOS_DB_PATH = 'wordbookapp/ios/wordbookapp/data/database.db';
     var input = fs.createReadStream(PATH);
     var output1 = fs.createWriteStream(ANDROID_DB_PATH);
     var output2 = fs.createWriteStream(IOS_DB_PATH);
