@@ -1,4 +1,4 @@
-package com.domain.views;
+package site.spencer.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.domain.wordbookapp.R;
+import site.spencer.wordbookapp.R;
 
 /**
  * Created by Spencer on 2017/12/1.

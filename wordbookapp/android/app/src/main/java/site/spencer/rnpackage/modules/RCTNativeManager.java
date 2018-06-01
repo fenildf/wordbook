@@ -1,11 +1,11 @@
-package com.domain.rnpackage.modules;
+package site.spencer.rnpackage.modules;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 
-import com.domain.wordbookapp.MainActivity;
-import com.domain.wordbookapp.BuildConfig;
+import site.spencer.wordbookapp.MainActivity;
+import site.spencer.wordbookapp.BuildConfig;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;

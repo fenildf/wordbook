@@ -101,13 +101,15 @@ def enableSeparateBuildPerCPUArchitecture = false
  * Run Proguard to shrink the Java bytecode in release builds.
  */
 def enableProguardInReleaseBuilds = false
+def APP_NAME = '单词本'
+
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.domain.wordbookapp"
+        applicationId "site.spencer.wordbookapp"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
@@ -127,21 +129,28 @@ android {
     buildTypes {
         debug {
             buildConfigField ("String", "ENV", '"DEBUG"')
+            resValue "string", "app_name", "${APP_NAME}Debug"
             minifyEnabled false
+            applicationIdSuffix ".debug"
         }
         release {
             minifyEnabled enableProguardInReleaseBuilds
             buildConfigField ("String", "ENV", '"PROD"')
+            resValue "string", "app_name", "${APP_NAME}"
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
         uatrelease {
             minifyEnabled enableProguardInReleaseBuilds
             buildConfigField ("String", "ENV", '"UAT"')
+            resValue "string", "app_name", "${APP_NAME}uat"
+            applicationIdSuffix ".uat"
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
         ftrelease {
             minifyEnabled enableProguardInReleaseBuilds
             buildConfigField ("String", "ENV", '"FT"')
+            resValue "string", "app_name", "${APP_NAME}ft"
+            applicationIdSuffix ".ft"
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
