@@ -7,36 +7,68 @@ const fs = require('fs');
  * 创建db,并移到app目录下
 */
 
-const PATH = 'wordbook/database.db';
+const PATH = 'wordbooks/database.db';
 
 if (fs.existsSync(PATH)) {
     fs.unlinkSync(PATH)
 }
 
 
-const db = new SQLITE.Database(PATH);
+
+const files = fs.readdirSync('wordbooks');
 
 const tables = [];
 
-const 
+const books = [];
+const sections = [];
+const words = [];
 
+files.forEach(function(file){
+    if(/\.json$/.test(file)){
+        let data = JSON.parse(fs.readFileSync('wordbooks/'+file));
+        let bookname = data.name;
+        books.push({name:bookname});
+        data.children.forEach(function(section){
+            let sectionname = section.name;
+            sections.push({name:sectionname,book_name:bookname});
+            section.children.forEach(function(word){
+                words.push({section_name:sectionname,book_name:bookname,name:word.name});
+            })
+        });
+        
+    }
+});
 tables.push({
     name: 'books',
     column: [
         'id integer primary key autoincrement not null',
         'name text not null'
-    ]
+    ],
+    source:books
 });
 
+tables.push({
+    name: 'sections',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null',
+        'book_name text not null'
+    ],
+    source:sections
+});
 tables.push({
     name: 'words',
     column: [
         'id integer primary key autoincrement not null',
-        'book_id integer not null',
         'name text not null',
-        'section_name text not null',
-    ]
+        'book_name text not null',
+        'section_name text not null'
+    ],
+    source:words
 });
+
+const db = new SQLITE.Database(PATH);
+
 function getColumn(item) {
     return item.match(/^[\S]*?(?=\s)/)[0];
 }
@@ -46,7 +78,9 @@ db.serialize(function () {
             table.column.join(',') +
             ");");
         if (table.source) {
-            let columns =table.column;
+            let columns =table.column.map(function (item) {
+                return getColumn(item);
+            });
             let update = db.prepare("INSERT OR REPLACE  INTO " +
                 table.name +
                 "(" + columns.join(',') +
