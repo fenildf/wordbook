@@ -1,4 +1,4 @@
-package site.spencer.views;
+package host.spencer.views;
 
 import android.content.Context;
 import android.graphics.Canvas;

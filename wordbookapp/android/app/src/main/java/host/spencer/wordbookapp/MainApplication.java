@@ -1,8 +1,8 @@
-package site.spencer.wordbookapp;
+package host.spencer.wordbookapp;
 
 import android.app.Application;
 
-import site.spencer.rnpackage.RNPackage;
+import host.spencer.rnpackage.RNPackage;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;

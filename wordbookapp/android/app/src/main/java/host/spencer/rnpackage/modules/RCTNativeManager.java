@@ -1,4 +1,4 @@
-package site.spencer.rnpackage.modules;
+package host.spencer.rnpackage.modules;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;

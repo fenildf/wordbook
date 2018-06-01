@@ -1,7 +1,7 @@
-package site.spencer.rnpackage;
+package host.spencer.rnpackage;
 
 
-import site.spencer.rnpackage.modules.RCTNativeManager;
+import host.spencer.rnpackage.modules.RCTNativeManager;
 import com.facebook.react.LazyReactPackage;
 import com.facebook.react.bridge.ModuleSpec;
 import com.facebook.react.bridge.NativeModule;

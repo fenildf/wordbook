@@ -1,10 +1,10 @@
-package site.spencer.wordbookapp;
+package host.spencer.wordbookapp;
 
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import site.spencer.views.LoadingView;
+import host.spencer.views.LoadingView;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
