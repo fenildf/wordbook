@@ -25,6 +25,7 @@
     "react-native-alertui": "^1.0.0",
     "react-native-improver": "^0.2.0",
     "react-native-modalui": "^1.0.4",
+    "react-native-sqlite-storage": "^3.3.5",
     "react-native-storage-tool": "0.0.1",
     "react-navigation": "^2.0.4"
   }
