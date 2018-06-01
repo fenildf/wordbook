@@ -4,8 +4,8 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 
-import site.spencer.wordbookapp.MainActivity;
-import site.spencer.wordbookapp.BuildConfig;
+import host.spencer.wordbookapp.MainActivity;
+import host.spencer.wordbookapp.BuildConfig;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;

@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import site.spencer.wordbookapp.R;
+import host.spencer.wordbookapp.R;
 
 /**
  * Created by Spencer on 2017/12/1.
