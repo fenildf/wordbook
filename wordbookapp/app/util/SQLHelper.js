@@ -1,29 +1,25 @@
 import SQLite from 'react-native-sqlite-storage';
 
-let user, content;
+let database;
 
 var readyPromise;
 
 function ready() {
-    if (user) {
+    if (database) {
         return Promise.resolve();
     }
     if (readyPromise) {
         return readyPromise;
     } else {
         readyPromise = new Promise(function (resolve, reject) {
-            content = SQLite.openDatabase(
-                { name: "content", createFromLocation: "~data/data.db" },
-                function () {
-                    user = SQLite.openDatabase(
-                        { name: "user", createFromLocation: "~data/user.db" },
-                        function () {
-                            user.attach('content', 'content', function () {
-                                resolve();
-                                readyPromise = undefined;
-                            })
-                        }
-                    )
+            database = SQLite.openDatabase(
+                { name: "data", createFromLocation: "~data/database.db" },
+                function(){
+                    resolve();
+                    readyPromise = null;
+                },
+                function(){
+                    
                 }
             )
         });
@@ -36,13 +32,9 @@ function error(err){
     console.log('execute sql err:',err);
 }
 
-function executeSql(type, sql, data = []) {
+function executeSql(sql, data = []) {
     return ready().then(() => new Promise((resolve, reject) => {
-        let db = user;
-        if (type === 'content') {
-            db = content;
-        }
-        db.transaction(tx => {
+        database.transaction(tx => {
             tx.executeSql(
                 sql,
                 data,
@@ -58,6 +50,6 @@ function executeSql(type, sql, data = []) {
 
 
 
-export  {
+export  default{
     executeSql
 }

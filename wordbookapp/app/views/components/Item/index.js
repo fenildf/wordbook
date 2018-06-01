@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import {
     TouchableOpacity,
-    View
+    View,
+    StyleSheet
 } from 'react-native'
 
 function Item(props){
@@ -9,6 +10,7 @@ function Item(props){
         <TouchableOpacity
             onPress={props.onPress}
             activeOpacity={1}
+            onLayout={props.onLayout}
             style={[styles.item,props.style]}
             >
             {props.children}
@@ -18,6 +20,7 @@ function Item(props){
 
 const styles = StyleSheet.create({
     item:{
+        backgroundColor:'#fff',
         height:44,
         flexDirection:'row'
     }

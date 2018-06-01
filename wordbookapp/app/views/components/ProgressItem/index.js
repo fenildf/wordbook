@@ -14,7 +14,7 @@ class ProgressItem extends Component {
         }
     }
     _onLayout = ({ nativeEvent }) => {
-        let { width } = nativeEvent.layouts;
+        let { width } = nativeEvent.layout;
         if (width !== this.state.width) {
             this.setState({ width });
         }
@@ -26,14 +26,15 @@ class ProgressItem extends Component {
             style,
             children
         } = this.props;
+        let width = this.state.width * progress;
         return (
             <Item
                 style={style}
                 onLayout={this._onLayout}
                 onPress={onPress} >
-                <View
-                    style={[styles.background, { width: this.state.width }]}
-                    />
+                {progress ? <View
+                    style={[styles.background, { width}]}
+                /> : null}
                 {children}
             </Item>
         );
@@ -42,10 +43,10 @@ class ProgressItem extends Component {
 
 const styles = StyleSheet.create({
     background: {
-        backgroundColor:'#ff534d',
-        position:'absolute',
-        bottom:0,
-        top:0
+        backgroundColor: '#ff534d',
+        position: 'absolute',
+        bottom: 0,
+        top: 0
     }
 })
 export default ProgressItem;
