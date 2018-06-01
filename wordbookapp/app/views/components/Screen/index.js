@@ -18,6 +18,7 @@ const TOAST_REF = 'TOAST_REF';
 var ID = 1;
 
 const SCREEN_INSTS = [];
+let CURRENT_SCREEN;
 function Screen(component) {
     class $Screen extends component {
         static childContextTypes = {
@@ -54,9 +55,9 @@ function Screen(component) {
         componentDidMount() {
             this._isReady = true;
             this._fireReadyList();
+            let { navigation } = this.props;
             let state = navigation ? navigation.state : {};
-            let params = state.params ? state.params : {};
-            let key = params.key;
+            let key = state.key;
 
             if (key) {
                 this._key = key;
@@ -147,6 +148,9 @@ function Screen(component) {
 }
 
 function getScreen(key) {
+    if(!key){
+        return CURRENT_SCREEN;
+    }
     return SCREEN_INSTS[key];
 }
 Screen.getScreen = getScreen;

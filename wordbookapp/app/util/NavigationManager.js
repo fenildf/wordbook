@@ -29,6 +29,7 @@ function createRouter(routeConfigMap, stackRouterConfig) {
         s.routes.forEach((route, index) => {
             route.index = index;
         });
+        currentRoute = getActiveRoute(s);
         return s;
     }
     return router;
@@ -59,10 +60,12 @@ function createStackNavigator(routeConfigMap, stackRouterConfig) {
     }
 }
 
-function getCurrentScreen(){
-    if(currentRoute){
+function getCurrentScreen() {
+    if (currentRoute) {
         return Screen.getScreen(currentRoute.key);
-    }
+    }else{
+        return Screen.getScreen();
+    };
 }
 function navigate(...args) {
     let navigation = getCurrentNavigation();
@@ -99,12 +102,12 @@ function getCurrentNavigation() {
 }
 
 export default {
-    // navigate,
-    // goBack,
-    // addListener,
-    // setParams,
-    // getParam,
-    // dispatch,
-    // getCurrentNavigation,
+    navigate,
+    goBack,
+    addListener,
+    setParams,
+    getParam,
+    dispatch,
+    getCurrentNavigation,
     createStackNavigator
 }
