@@ -6,44 +6,83 @@ import {
 } from 'react-native';
 
 import Text from './../../components/Text';
-import SectionL from './../../components/Section';
 import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
-import {createDispatcher} from 'react-febrest';
-import {dispatch} from 'febrest';
+import { createDispatcher } from 'react-febrest';
+import { dispatch } from 'febrest';
 import actions from '../../../constants/actions';
+import Footer from './Footer';
+import Main from './Main';
+import StyleSheet from './../../../util/StyleSheet';
 
-class Word extends ScreenComponent{
-    constructor(...props){
+import Meaning from './Meaning';
+class Word extends ScreenComponent {
+    constructor(...props) {
         super(...props);
-        let params = this.getScreen().getNavigation().state.params||{};
-        let word = params.section||{}
+        let params = this.getScreen().getNavigation().state.params || {};
+        let word = params.word || {}
+        let words = params.words;
         this.navigationOptions = {
-            title:word.name||'单词本'
+            title: ''
         }
         this.state = {
-            sections:[]
+            words: words,
+            word
         }
-        this.dispatcher = createDispatcher(this,this._onData);
+        this.dispatcher = createDispatcher(this, this._onData);
     }
-    _onData(){
+    _onData() {
 
     }
 
     componentDidMount() {
-        
+
     }
-    
-    render(){
+    _onRemember = () => {
+        this._next();
+    }
+    _next(){
+        let {
+            word,
+            showMeaing
+        } = this.state;
+        let index = word.index++;
+        let nWord = this.state.words[index];
+        if(nWord){
+            this.setState({word:nWord});
+        }
+    }
+    _onForget = () => {
+        this._next();
+    }
+    render() {
+        let {
+            word,
+            showMeaing
+        } = this.state;
         return (
-            <ScrollView >
-                <SectionL 
-                    onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{section:item}})}
-                    data={this.state.sections}/>
-            </ScrollView>
+            <View
+                style={styles.wrapper}>
+                <Main
+                    word={word} />
+                <Meaning />
+                <Footer
+                    onRemember={this._onRemember}
+                    onForget={this._onForget}
+                />
+            </View>
+
         )
     }
 }
 
+const styles = StyleSheet.create(function (theme) {
+    return {
+        wrapper: {
+            flex: 1,
+            backgroundColor: '#fff'
+        }
+    }
+});
 
 export default Word;

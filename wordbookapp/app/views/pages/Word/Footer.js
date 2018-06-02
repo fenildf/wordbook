@@ -1,0 +1,80 @@
+'use strict'
+
+import React from 'react';
+
+import FontIcon from './../../components/FontIcon';
+import Text from './../../components/Text';
+import {View} from 'react-native';
+import TouchableOpacity from './../../components/TouchableOpacity'; 
+import StyleSheet from './../../../util/StyleSheet';
+import IconItem from './../../components/IconItem';
+function Footer(props){
+    let {
+        onRemember,
+        onForget,
+        onShowMeaning
+    } = props;
+
+    return (
+        <View
+            style={styles.row}>
+            <TouchableOpacity
+                onPress={onRemember}
+                style={[styles.item,styles.i1]}>
+                <Text
+                    style={styles.text}>
+                    认识的
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                onPress={onForget}
+                style={[styles.item,styles.i2]}>
+                <Text
+                    style={styles.text}>
+                    忘记了
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                onPress={onShowMeaning}
+                style={[styles.item,,styles.i3]}>
+                <Text
+                    style={styles.text}>
+                    给我一个解释
+                </Text>
+            </TouchableOpacity>
+        </View>
+    );
+}
+
+
+const styles = StyleSheet.create(function(theme){
+    return {
+        row:{
+            flexDirection:'row',
+            height:theme.itemHeightM,
+
+        },
+        item:{
+            flex:1,
+            alignItems:'center',
+            justifyContent:'center'
+        },
+        i1:{
+           backgroundColor:'#e0bfc8' 
+
+        },
+        i2:{
+            backgroundColor:'#88b7c9' 
+
+        },
+        i3:{
+            backgroundColor:'#51658a' 
+        },
+        text:{
+            color:'#fff'
+        }
+    }
+});
+
+
+export default Footer;

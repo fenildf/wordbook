@@ -2,7 +2,8 @@
 import React from 'react'
 
 import {
-    View
+    View,
+    InteractionManager
 } from 'react-native';
 
 import Text from './../../components/Text';
@@ -28,7 +29,10 @@ class Book extends ScreenComponent{
         }
         this.dispatcher = createDispatcher(this,this._onData);
     }
-    _onData(data){
+    componentDidUpdate(){
+        // InteractionManager.runAfterInteractions(()=>{
+        //     this.refs.List.scrollToIndex({index:300,animated:true})
+        // });
     }
 
     componentDidMount() {
@@ -38,9 +42,12 @@ class Book extends ScreenComponent{
         let {name} = this.state.book
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:name})
     }
-    _renderItem=({item})=>{
+    _renderItem=({item,index})=>{
+        let {book:{name},words} = this.state;
+        item.index = index;
         return (
             <Word 
+                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Word',params:{bookName:name,word:item,words}})}
                 word={item}/>
         )
     }
@@ -50,8 +57,12 @@ class Book extends ScreenComponent{
     render(){
         return (
             <FlatList 
+                ref='List'
                 renderItem={this._renderItem}
                 keyExtractor={this._keyExtractor}
+                getItemLayout={(data, index) => (
+                    {length: 48, offset: 48 * index, index}
+                )}
                 data={this.state.words} />
         )
     }
