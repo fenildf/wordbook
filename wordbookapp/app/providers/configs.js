@@ -4,6 +4,10 @@ export default [
         type:'word'
     },
     {
+        name:'meaning',
+        type:'meaning'
+    },
+    {
         name:'myWordBook',
         type:'storage'
     },                     

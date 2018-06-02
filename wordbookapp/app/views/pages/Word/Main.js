@@ -10,7 +10,7 @@ import StyleSheet from './../../../util/StyleSheet';
 import IconItem from './../../components/IconItem';
 function Main(props){
     let {
-        onPress,
+        onShowMeaning,
         word
     } = props;
 
@@ -18,6 +18,11 @@ function Main(props){
         <View
             style={styles.wrapper}>
             <Text>{word.name}</Text>
+            <TouchableOpacity
+                onPress={onShowMeaning}>
+                <Text
+                    style={styles.color}>给我一个解释</Text>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -26,9 +31,14 @@ function Main(props){
 const styles = StyleSheet.create(function(theme){
     return {
         wrapper:{
-            flex:1,
-            justifyContent:'center',
-            alignItems:'center'
+            justifyContent:'space-between',
+            alignItems:'center',
+            height:theme.itemHeightM,
+            flexDirection:'row',
+            paddingHorizontal:theme.paddingHorizontal
+        },
+        color:{
+            color:'#b8879c'
         }
     }
 });

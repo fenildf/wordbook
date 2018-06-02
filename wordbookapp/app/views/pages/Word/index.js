@@ -27,12 +27,13 @@ class Word extends ScreenComponent {
         }
         this.state = {
             words: words,
-            word
+            word,
+            meaning:null
         }
         this.dispatcher = createDispatcher(this, this._onData);
     }
-    _onData() {
-
+    _onData(data) {
+        
     }
 
     componentDidMount() {
@@ -41,31 +42,43 @@ class Word extends ScreenComponent {
     _onRemember = () => {
         this._next();
     }
-    _next(){
+    _next() {
         let {
             word,
-            showMeaing
+            meaning
         } = this.state;
         let index = word.index++;
         let nWord = this.state.words[index];
-        if(nWord){
-            this.setState({word:nWord});
+        if (nWord) {
+            this.setState({ word: nWord, meaning: null });
         }
     }
     _onForget = () => {
         this._next();
     }
+    _onShowMeaning = () => {
+        let {
+            word,
+            meaning
+        } = this.state;
+        if(meaning){
+            return;
+        }
+        this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
+    }
     render() {
         let {
             word,
-            showMeaing
+            meaning
         } = this.state;
         return (
             <View
                 style={styles.wrapper}>
                 <Main
+                    onShowMeaning={this._onShowMeaning}
                     word={word} />
-                <Meaning />
+                <Meaning
+                    meaning={meaning} />
                 <Footer
                     onRemember={this._onRemember}
                     onForget={this._onForget}

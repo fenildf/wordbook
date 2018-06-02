@@ -16,6 +16,8 @@ import WordsProvider from './providers/WordsProvider';
 
 import StorageProvider from './providers/StorageProvider';
 
+import MeaningProvider from './providers/MeaningProvider';
+
 import providerConfigs from './providers/configs';
 //设置主题
 Theme.setTheme(BaseTheme);
@@ -24,6 +26,8 @@ createActions(action)
 
 useProvider('word',WordsProvider);
 useProvider('storage',StorageProvider);
+useProvider('meaning',MeaningProvider);
+
 injectProvider(providerConfigs);
 
 onError(function(error){

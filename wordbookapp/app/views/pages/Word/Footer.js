@@ -12,15 +12,24 @@ function Footer(props){
     let {
         onRemember,
         onForget,
-        onShowMeaning
+        onPreview
     } = props;
 
     return (
         <View
             style={styles.row}>
             <TouchableOpacity
-                onPress={onRemember}
+                onPress={onPreview}
                 style={[styles.item,styles.i1]}>
+                <Text
+                    style={styles.text}>
+                    上一个
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                onPress={onRemember}
+
+                style={[styles.item,styles.i2]}>
                 <Text
                     style={styles.text}>
                     认识的
@@ -28,18 +37,10 @@ function Footer(props){
             </TouchableOpacity>
             <TouchableOpacity
                 onPress={onForget}
-                style={[styles.item,styles.i2]}>
-                <Text
-                    style={styles.text}>
-                    忘记了
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-                onPress={onShowMeaning}
                 style={[styles.item,,styles.i3]}>
                 <Text
                     style={styles.text}>
-                    给我一个解释
+                    忘记了
                 </Text>
             </TouchableOpacity>
         </View>

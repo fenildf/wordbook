@@ -26,8 +26,16 @@ function getWords(word, $payload) {
         return { words };
     });
 }
+
+function getMeaning(meaning,$payload){
+    let payload = $payload();
+    return meaning(payload).then(response=>{
+        return {meaning:response};
+    })
+}
 export default {
     getBooks,
     getSections,
-    getWords
+    getWords,
+    getMeaning
 }

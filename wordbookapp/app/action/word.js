@@ -14,5 +14,9 @@ export default [
     {
         key:actions.WORD_GET_WORDS,
         controller:word.getWords
+    },
+    {
+        key:actions.WORD_GET_MEANING,
+        controller:word.getMeaning
     }
 ]
