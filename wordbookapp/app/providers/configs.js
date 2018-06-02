@@ -9,28 +9,22 @@ export default [
     },
     {
         name:'myWordBook',
-        type:'storage'
+        type:'storage',
+        defaultState:{
+            '我的生词本':{
+                name:'我的生词本',
+                count:0,
+                type:'book2'
+            },
+            '我的单词本':{
+                name:'我的单词本',
+                count:0,
+                type:'book1'
+            },
+        }
     },                     
     {
         name:'myStudyWord',
-        type:'storage'
-    },
-    {
-        name:'myStudyBook',
         type:'storage',
-        defaultState:{
-            name:'单词本',
-            count:0,
-            type:'book1'
-        }
-    },
-    {
-        name:'myNewBook',
-        type:'storage',
-        defaultState:{
-            name:'生词本',
-            count:0,
-            type:'book2'
-        }
     }
 ]
