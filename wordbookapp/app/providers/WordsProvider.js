@@ -112,7 +112,7 @@ class WordsProvider extends Provider {
     setState() {
         return;
     }
-    getState($payload) {
+    getState() {
         return getData
 
     }

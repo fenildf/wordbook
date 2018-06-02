@@ -3,7 +3,7 @@
     [
       "febrest",
       {
-        "include":["app/controllers"]
+        "include":["app/controller"]
       }
     ]
   ],
