@@ -45,10 +45,12 @@ class Title extends Component {
     render() {
         return <View
             style={{
+                flex:1,
                 overflow: 'hidden',
                 flexDirection: 'row',
                 alignItems: 'center',
-                paddingLeft:20
+                paddingLeft:20,
+                paddingRight:20,
             }}>
             {this.props.children}
         </View>
@@ -95,7 +97,7 @@ export default class Header extends Component {
         if (typeof this.state.leftButton === 'object') {
             return <Button
                 type='left'
-                onPress={this.state.onLeftButtonPress}
+                onPress={()=>this.state.onLeftButtonPress&&this.state.onLeftButtonPress()}
                 children={this.state.leftButton} />;
         } else if ((navigation.state.index !== 0 || APPContext.isLoginPopupShow)) {
             return <Button
@@ -112,7 +114,7 @@ export default class Header extends Component {
         if (typeof this.state.rightButton === 'object') {
             return <Button
                 type='right'
-                onPress={this.state.onLeftButtonPress}
+                onPress={()=>this.state.onRightButtonPress&&this.state.onRightButtonPress()}
                 children={this.state.rightButton} />;
         } else {
             return null;

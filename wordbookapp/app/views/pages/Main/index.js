@@ -7,53 +7,78 @@ import {
     FlatList,
     TouchableOpacity,
     StyleSheet
-}from 'react-native';
+} from 'react-native';
 
 import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
 import ProgressItem from './../../components/ProgressItem';
-import {createDispatcher} from 'react-febrest';
-import {dispatch} from 'febrest';
+import { createDispatcher } from 'react-febrest';
+import { dispatch } from 'febrest';
 
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';
 import SectionTitle from './../../components/SectionTitle';
 import AddButton from './AddButton';
-class Main extends ScreenComponent{
-    constructor(...props){
+import BookItem from './BookItem';
+class Main extends ScreenComponent {
+    constructor(...props) {
         super(...props);
         this.navigationOptions = {
-            title:'我的单词本',
+            title: '我的单词本',
         }
         this.state = {
-            books:[]
+            books: []
         }
-        this.dispatcher = createDispatcher(this,this._onData);
+        this.dispatcher = createDispatcher(this, this._onData);
+        this.dispatcher.watch(this._watch);
     }
-    _onData(data){
+    _onData(data) {
     }
-   
+    _watch=(changed)=> {
+        if (changed.myWordBook) {
+            this._getBooks();
+        }
+    }
+
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_BOOKS);
+        this._getBooks();
+    }
+    componentWillUnmount() {
+        this.dispatcher.release();
     }
     
-    render(){
-       return  (
-        <ScrollView
-            style={styles.wrapper}>
-            <AddButton 
-                onPress={this._addBook}/>
-        </ScrollView>
-       
-       )
+    _getBooks() {
+        this.dispatcher.dispatch(actions.USER_GET_BOOKS);
     }
-    _addBook=()=>{
-        this.dispatcher.dispatch(actions.APP_NAVIGATE,{routeName:'AddBook'});
+    _renderItems() {
+        let books = this.state.books;
+        return books.map((book) => {
+            return (
+                <BookItem
+                    book={book}
+                    onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Book',params:{book}})}
+                    key={book.name} />
+            );
+        });
+    }
+    render() {
+        return (
+            <ScrollView
+                style={styles.wrapper}>
+                {this._renderItems()}
+                <AddButton
+                    onPress={this._addBook} />
+            </ScrollView>
+
+        )
+    }
+    _addBook = () => {
+        this.dispatcher.dispatch(actions.APP_NAVIGATE, { routeName: 'AddBook' });
     }
 }
 const styles = StyleSheet.create({
-    wrapper:{
-        flex:1
+    wrapper: {
+        flex: 1
     }
 })
 export default Main;
