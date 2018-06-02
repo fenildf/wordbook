@@ -6,6 +6,7 @@ import TouchableOpacity from './../../components/TouchableOpacity';
 
 import React from 'react';
 import StyleSheet from './../../../util/StyleSheet';
+import IconItem from './../../components/IconItem';
 class SelectableItem extends React.Component{
     constructor(...props){
         super(...props);
@@ -33,14 +34,12 @@ class SelectableItem extends React.Component{
         let {selected} = this.state;
         let name = selected?'ios-radio-button-on':'ios-radio-button-off';
         return (
-            <TouchableOpacity
+            <IconItem
                 style={styles.row}
+                iconName={name}
                 onPress={this._selected}>
-                <FontIcon 
-                    color='##D12A00'
-                    name={name}/>
                 <Text style={styles.name}>{this.props.name} ({this.props.count})</Text>
-            </TouchableOpacity>
+            </IconItem>
         );
     }
 }
@@ -49,7 +48,11 @@ const styles = StyleSheet.create(function(theme){
         row:{
             flexDirection:'row',
             height:theme.itemHeightM,
-            alignItems:'center'
+            alignItems:'center',
+            backgroundColor:'#fff',
+            borderBottomWidth:theme.px,
+            borderBottomColor:theme.borderColor,
+            paddingHorizontal:theme.paddingHorizontal
         },
         name:{
             marginLeft:8

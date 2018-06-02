@@ -2,23 +2,41 @@
 
 import React from 'react';
 
-import FontIcom from './../../components/FontIcon';
+import FontIcon from './../../components/FontIcon';
+import Text from './../../components/Text';
+
 import TouchableOpacity from './../../components/TouchableOpacity'; 
 import StyleSheet from './../../../util/StyleSheet';
+import IconItem from './../../components/IconItem';
 function AddButton(props){
     let {
         onPress 
     } = props;
 
     return (
-        <TouchableOpacity
+        <IconItem 
+            onPress={onPress}
             style={styles.button}
-            onPress={onPress}>
-        </TouchableOpacity>
+            iconName='ios-add-circle-outline'>
+             <Text>
+                添加单词本
+            </Text>
+        </IconItem>
     );
 }
 
 
+const styles = StyleSheet.create(function(theme){
+    return {
+        button:{
+            flexDirection:'row',
+            height:theme.itemHeightM,
+            alignItems:'center',
+            backgroundColor:'#fff',
+
+        }
+    }
+});
 
 
 export default AddButton;

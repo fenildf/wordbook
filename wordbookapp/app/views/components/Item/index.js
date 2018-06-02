@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
 import {
     TouchableOpacity,
-    View,
-    StyleSheet
+    View
 } from 'react-native'
+
+import StyleSheet from './../../../util/StyleSheet'
 
 function Item(props){
     return (
@@ -18,11 +19,15 @@ function Item(props){
     );
 }
 
-const styles = StyleSheet.create({
-    item:{
-        backgroundColor:'#fff',
-        height:44,
-        flexDirection:'row'
+const styles = StyleSheet.create(function(theme){
+    return {
+        item:{
+            backgroundColor:'#fff',
+            height:48,
+            flexDirection:'row',
+            alignItems:'center',
+            paddingHorizontal:theme.paddingHorizontal
+        }
     }
 });
 

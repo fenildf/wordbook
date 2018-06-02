@@ -17,7 +17,7 @@ class AddBook extends ScreenComponent {
     constructor(...props) {
         super(...props);
         this.navigationOptions = {
-            title: '我的单词本',
+            title: '添加单词本',
         }
         this.state = {
             books: []
@@ -58,4 +58,4 @@ const styles = StyleSheet.create(function (theme) {
         }
     }
 })
-export default Main;
+export default AddBook;
