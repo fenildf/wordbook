@@ -98,7 +98,7 @@ function getData(type,payload) {
             sql1 = `select * from sections as b where book_name="${payload.bookName||'%'}"`;
             return getDataBySql(sql1);
         case 'words':
-            sql2= `select * from words as b where book_name="${payload.bookName||'%'}" and section_name="${payload.sectionName||'%'}"`;
+            sql1= `select * from words as b where book_name="${payload.bookName||'%'}"`;
             return getDataBySql(sql1);
 
         

@@ -6,5 +6,9 @@ export default [
     {
         name:'myWordBook',
         type:'storage'
+    },                     
+    {
+        name:'myStudyWord',
+        type:'storage'
     }
 ]

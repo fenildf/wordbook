@@ -54,7 +54,6 @@ class Section extends React.Component {
 const styles = StyleSheet.create(function (theme) {
     return {
         section: {
-            marginHorizontal: 14
         },
         titleWrapper: {
             marginVertical: 14

@@ -12,6 +12,8 @@ import ScrollView from './../../components/ScrollView';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
+import FlatList from './../../components/FlatList';
+import Word from './Word';
 class Book extends ScreenComponent{
     constructor(...props){
         super(...props);
@@ -21,26 +23,36 @@ class Book extends ScreenComponent{
             title:book.name||'单词本'
         }
         this.state = {
-            sections:[],
+            words:[],
             book
         }
         this.dispatcher = createDispatcher(this,this._onData);
     }
-    _onData(){
-
+    _onData(data){
     }
 
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_SECTIONS,{bookName:this.state.book.name})
+        this._getWords();
     }
-    
+    _getWords(){
+        let {name} = this.state.book
+        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:name})
+    }
+    _renderItem=({item})=>{
+        return (
+            <Word 
+                word={item}/>
+        )
+    }
+    _keyExtractor=(item)=>{
+        return item.id+'';
+    }
     render(){
         return (
-            <ScrollView >
-                <Section 
-                    onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{section:item}})}
-                    data={this.state.sections}/>
-            </ScrollView>
+            <FlatList 
+                renderItem={this._renderItem}
+                keyExtractor={this._keyExtractor}
+                data={this.state.words} />
         )
     }
 }
