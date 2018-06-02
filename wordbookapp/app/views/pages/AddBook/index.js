@@ -37,7 +37,7 @@ class AddBook extends ScreenComponent {
                 <SelectableItem
                     key={book.name}
                     name={book.name}
-                    count={book.wordcount}/>
+                    count={book.count}/>
             )
         });
     }   

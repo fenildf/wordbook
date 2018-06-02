@@ -84,19 +84,22 @@ function getDataBySql(sql) {
     })
 }
 
+function getCountBySql(){
+
+}
 function getData(type,payload) {
-    let sqlString;
+    let sql1,sql2;
     payload = payload;
     switch (type) {
         case 'books':
-            sqlString = `select * from books as b`;
-            return getDataBySql(sqlString);
+            sql1 = `select book_name as name,count(book_name) as count from words group by book_name`
+            return getDataBySql(sql1);
         case 'sections':
-            sqlString = `select * from sections as b where book_name="${payload.bookName||'*'}"`;
-            return getDataBySql(sqlString);
+            sql1 = `select * from sections as b where book_name="${payload.bookName||'%'}"`;
+            return getDataBySql(sql1);
         case 'words':
-            sqlString = `select * from words as b where book_name="${payload.bookName||'%'}" and section_name="${payload.sectionName||'%'}"`;
-            return getDataBySql(sqlString);
+            sql2= `select * from words as b where book_name="${payload.bookName||'%'}" and section_name="${payload.sectionName||'%'}"`;
+            return getDataBySql(sql1);
 
         
     }
