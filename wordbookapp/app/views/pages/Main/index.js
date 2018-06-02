@@ -18,6 +18,7 @@ import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';
 import Section  from './Section';
+import SectionTitle from './../../components/SectionTitle';
 class Main extends ScreenComponent{
     constructor(...props){
         super(...props);
@@ -40,10 +41,8 @@ class Main extends ScreenComponent{
        return  (
         <ScrollView
             style={styles.wrapper}>
-            <Section 
-                data={this.state.books}
-                onItemPress={(item)=>dispatch(actions.APP_NAVIGATE,{routeName:'Book',params:{book:item}})}
-                title='单词本'/>
+            <SectionTitle 
+                title='我的单词本'/>
 
         </ScrollView>
        

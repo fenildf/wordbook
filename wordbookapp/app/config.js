@@ -13,6 +13,9 @@ import {
 require('./router');
 import action from './action';
 import WordsProvider from './providers/WordsProvider';
+
+import StorageProvider from './providers/StorageProvider';
+
 import providerConfigs from './providers/configs';
 //设置主题
 Theme.setTheme(BaseTheme);

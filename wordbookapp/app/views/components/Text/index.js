@@ -5,7 +5,8 @@ import {Text as RNText} from 'react-native';
 
 const defaultStyle = {
     fontSize:14,
-    fontWeight:'200'
+    fontWeight:'200',
+    color:'#333'
 }
 class Text extends RNText{
     render(){
