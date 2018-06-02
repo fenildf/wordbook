@@ -21,7 +21,8 @@ class FontIcon extends Component {
         let {
             name,
             size,
-            color
+            color,
+            style
         } = this.props;
 
         size = typeof size === 'number' ? size : (SIZE[size] ? SIZE[size] : 0);
@@ -29,6 +30,7 @@ class FontIcon extends Component {
             <Icon
                 name={name}
                 size={size}
+                style={style}
                 color={color} />
         )
     }

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import { NavigationActions } from 'react-navigation';
-import { autoSize } from 'react-native-improver';
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { autoSize,px2dp } from 'react-native-improver';
+import { View } from 'react-native';
+import Text from './../Text';
+import TouchableOpacity from './../TouchableOpacity';
 const IOS = Platform.OS === 'ios';
+import FontIcon from './../FontIcon';
 class Button extends Component {
     constructor(...props) {
         super(...props);
@@ -12,32 +15,27 @@ class Button extends Component {
         var type = this.props.type;
         var styles = {
             left: {
-                left: 20,
+                paddingLeft:20,
                 justifyContent: 'flex-start',
             },
             right: {
-                right: 20,
+                paddingRight:20,
                 justifyContent: 'flex-end',
             },
             back: {
-                left: 0,
+                paddingLeft:20,
                 justifyContent: 'flex-start',
-                width: 120
             }
         }
-        return <View
+        return <TouchableOpacity
+            onPress={this.props.onPress}
             style={{
-                width: 100,
                 flexDirection: 'row',
-                position: 'absolute',
-                top: IOS ? 20 : 0,
-                bottom: 0,
                 alignItems: 'center',
-                justifyContent: 'center',
                 ...styles[type]
             }}>
             {this.props.children}
-        </View>
+        </TouchableOpacity>
     }
 }
 class Title extends Component {
@@ -47,15 +45,10 @@ class Title extends Component {
     render() {
         return <View
             style={{
-                position: 'absolute',
-                top: IOS ? 20 : 0,
-                bottom: 0,
-                left: 60,
-                right: 60,
                 overflow: 'hidden',
                 flexDirection: 'row',
                 alignItems: 'center',
-                justifyContent: 'center',
+                paddingLeft:20
             }}>
             {this.props.children}
         </View>
@@ -67,9 +60,11 @@ export default class Header extends Component {
         this.state = {
             title: this.props.title,
             canGoBack: false,
-            show: this.props.header === null ? false : true,
+            header: this.props.header === null ? false : true,
             leftButton: this.props.leftButton,
             rightButton: this.props.rightButton,
+            onLeftButtonPress:this.props.onLeftButtonPress,
+            onRightButtonPress:this.props.onRightButtonPress,
             props: this.props
         }
     }
@@ -88,7 +83,9 @@ export default class Header extends Component {
         nextState.props = nextProps;
         return nextState;
     }
+    _mergePropsToState(){
 
+    }
     updateInfo(info) {
         this.setState(info);
     }
@@ -98,27 +95,24 @@ export default class Header extends Component {
         if (typeof this.state.leftButton === 'object') {
             return <Button
                 type='left'
+                onPress={this.state.onLeftButtonPress}
                 children={this.state.leftButton} />;
         } else if ((navigation.state.index !== 0 || APPContext.isLoginPopupShow)) {
             return <Button
                 type='back'
+                onPress={navigation.state.index !== 0 ? () => navigation.goBack() : () => APPContext.hideLoginPopup()}
                 children={this._backButton(navigation)} />;
         }
         return null;
     }
     _backButton(navigation) {
-        return <TouchableOpacity
-            style={{ flex: 1, justifyContent: 'center', paddingLeft: 20, }}
-            onPress={navigation.state.index !== 0 ? () => navigation.goBack() : () => APPContext.hideLoginPopup()}
-            children={
-                <Image source={require('./Arrow.png')} />
-            }
-        />
+        return <FontIcon style={{marginRight:20}} name='ios-arrow-round-back-outline'/>
     }
     _renderRightButton() {
         if (typeof this.state.rightButton === 'object') {
             return <Button
                 type='right'
+                onPress={this.state.onLeftButtonPress}
                 children={this.state.rightButton} />;
         } else {
             return null;
@@ -129,17 +123,17 @@ export default class Header extends Component {
         if (typeof this.state.title === 'function') {
             child = this.state.title;
         } else {
-            child = <Text style={[{ fontSize: 18 }, this.props.titleStyle]}>{this.state.title}</Text>
+            child = <Text style={[{ fontSize: 14 }, this.props.titleStyle]}>{this.state.title}</Text>
         }
         return <Title>{child}</Title>
     }
     render() {
-        if (!this.state.show) {
+        if (!this.state.header) {
             return null;
         }
         return <View
             style={[
-                { backgroundColor: '#fff' },
+                { backgroundColor: '#fff',borderBottomColor:'#f5f5f5',borderBottomWidth:px2dp(1) },
                 this.props.style,
                 {
                     height: IOS ? 64 : 44,
@@ -147,9 +141,9 @@ export default class Header extends Component {
                     paddingTop: IOS ? 20 : 0,
                 }
             ]}>
+            {this._renderLeftButton()}
             {this._renderTitle()}
             {this._renderRightButton()}
-            {this._renderLeftButton()}
         </View>
     }
 }

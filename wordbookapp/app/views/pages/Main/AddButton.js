@@ -16,8 +16,7 @@ function AddButton(props){
     return (
         <IconItem 
             onPress={onPress}
-            style={styles.button}
-            iconName='ios-add-circle-outline'>
+            style={styles.button}>
              <Text>
                 添加单词本
             </Text>
