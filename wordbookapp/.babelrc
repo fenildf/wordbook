@@ -1,3 +1,11 @@
 {
+  "plugins": [
+    [
+      "febrest",
+      {
+        "include":["app/controllers"]
+      }
+    ]
+  ],
   "presets": ["react-native"]
 }
