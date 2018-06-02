@@ -23,6 +23,7 @@ Theme.setTheme(BaseTheme);
 createActions(action)
 
 useProvider('word',WordsProvider);
+useProvider('storage',StorageProvider);
 injectProvider(providerConfigs);
 
 onError(function(error){
