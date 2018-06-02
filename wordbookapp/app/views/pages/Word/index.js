@@ -47,7 +47,18 @@ class Word extends ScreenComponent {
             word,
             meaning
         } = this.state;
-        let index = word.index++;
+        let index = word.index+1;
+        let nWord = this.state.words[index];
+        if (nWord) {
+            this.setState({ word: nWord, meaning: null });
+        }
+    }
+    _preview=()=>{
+        let {
+            word,
+            meaning
+        } = this.state;
+        let index = word.index-1;
         let nWord = this.state.words[index];
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
@@ -81,6 +92,7 @@ class Word extends ScreenComponent {
                     meaning={meaning} />
                 <Footer
                     onRemember={this._onRemember}
+                    onPreview={this._preview}
                     onForget={this._onForget}
                 />
             </View>
