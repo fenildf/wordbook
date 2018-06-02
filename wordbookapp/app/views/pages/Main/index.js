@@ -24,7 +24,7 @@ class Main extends ScreenComponent {
     constructor(...props) {
         super(...props);
         this.navigationOptions = {
-            title: '我的单词本',
+            title: '单词本',
         }
         this.state = {
             books: []
