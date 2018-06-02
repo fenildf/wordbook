@@ -87,10 +87,10 @@ function Sentence(props) {
 }
 
 function renderWordParts(wordParts) {
-    return wordParts.map(function (part) {
+    return wordParts.map(function (part,i) {
         return (
             <View
-                key={part.word_parts}>
+                key={part.word_parts+i}>
                 <Text>
                     {part.word_parts}
                 </Text>

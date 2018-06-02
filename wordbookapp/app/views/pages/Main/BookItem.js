@@ -26,7 +26,7 @@ function BookItem(props){
                 </Text>
                 <Text
                     style={styles.position}>
-                    当前位置{book.position}/{book.count}
+                    共有单词{book.count}个    {book.now?'上次学习时间'+new Date(book.now).toISOString():''}
                 </Text>
             </View>
         </IconItem>

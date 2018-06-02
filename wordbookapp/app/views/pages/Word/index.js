@@ -22,18 +22,23 @@ class Word extends ScreenComponent {
         let params = this.getScreen().getNavigation().state.params || {};
         let word = params.word || {}
         let words = params.words;
+        let bookName = params.bookName;
         this.navigationOptions = {
-            title: ''
+            title: bookName
         }
         this.state = {
             words: words,
             word,
+            bookName,
             meaning:null
         }
         this.dispatcher = createDispatcher(this, this._onData);
     }
     _onData(data) {
-        
+        switch(data.key){
+            case actions.USER_MARK_WORD:
+                return true;
+        }
     }
 
     componentDidMount() {
@@ -41,6 +46,7 @@ class Word extends ScreenComponent {
     }
     _onRemember = () => {
         this._next();
+        this._mark(this.state.word,true);
     }
     _next() {
         let {
@@ -52,6 +58,13 @@ class Word extends ScreenComponent {
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
         }
+    }
+    _mark(word,isRemember){
+        this.dispatcher.dispatch(actions.USER_MARK_WORD,{
+            bookName:this.state.bookName,
+            isRemember,
+            word
+        });
     }
     _preview=()=>{
         let {
@@ -66,6 +79,7 @@ class Word extends ScreenComponent {
     }
     _onForget = () => {
         this._next();
+        this._mark(this.state.word,false);
     }
     _onShowMeaning = () => {
         let {
