@@ -57,6 +57,8 @@ class Word extends ScreenComponent {
         let nWord = this.state.words[index];
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
+        }else{
+            this.getScreen().toast('当前已经是最后一个');
         }
     }
     _mark(word,isRemember){
@@ -75,6 +77,8 @@ class Word extends ScreenComponent {
         let nWord = this.state.words[index];
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
+        }else{
+            this.getScreen().toast('当前已经是第一个');
         }
     }
     _onForget = () => {

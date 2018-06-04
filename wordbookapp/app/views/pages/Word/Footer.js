@@ -40,7 +40,7 @@ function Footer(props){
                 style={[styles.item,,styles.i3]}>
                 <Text
                     style={styles.text}>
-                    忘记了
+                    不认识
                 </Text>
             </TouchableOpacity>
         </View>
