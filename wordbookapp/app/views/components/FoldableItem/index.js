@@ -11,7 +11,7 @@ class FoldableItem extends Component {
     constructor(...props) {
         super(...props);
         this.state = {
-            fold: this.props.defaultUnfold
+            fold: !this.props.defaultUnfold
         }
     }
     toggle=()=>{

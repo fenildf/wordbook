@@ -65,6 +65,7 @@ function Sentence(props) {
     let data = props.data;
     return (
         <FoldableItem
+            defaultUnfold={true}
             titleStyle={styles.titleStyle}
             title='例句'>
             {data.map(function (s) {
@@ -90,7 +91,7 @@ function renderWordParts(wordParts) {
     return wordParts.map(function (part,i) {
         return (
             <View
-                key={part.word_parts+i}>
+                key={i+part.word_parts+i}>
                 <Text>
                     {part.word_parts}
                 </Text>
