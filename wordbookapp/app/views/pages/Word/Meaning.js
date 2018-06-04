@@ -91,7 +91,7 @@ function renderWordParts(wordParts) {
     return wordParts.map(function (part,i) {
         return (
             <View
-                key={i+part.word_parts+i}>
+                key={i}>
                 <Text>
                     {part.word_parts}
                 </Text>
@@ -199,10 +199,13 @@ function Meaning(props) {
     } = props;
 
     return (
-        <ScrollView
+        <View
             style={styles.wrapper}>
-            {renderMeading(meaning)}
-        </ScrollView>
+            <ScrollView>
+                {renderMeading(meaning)}
+            </ScrollView>
+        </View>
+        
     );
 }
 
@@ -210,12 +213,12 @@ function Meaning(props) {
 const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
-            flex: 2,
+            flex: 1,
             marginLeft: theme.paddingHorizontal,
             paddingRight: theme.paddingHorizontal,
             borderTopColor: theme.borderColor,
             borderTopWidth: theme.px,
-            paddingVertical: theme.paddingHorizontal
+            paddingVertical: theme.paddingHorizontal,
         },
         titleStyle: {
             color: '#8fb7d1'
