@@ -17,7 +17,7 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "babel-plugin-febrest": "^0.1.1",
+    "babel-plugin-febrest": "^1.0.0",
     "febrest": "^0.6.2-beta",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
