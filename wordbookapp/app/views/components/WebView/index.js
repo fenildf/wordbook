@@ -8,14 +8,18 @@ class WebView extends Component{
     constructor(...props){
         super(...props);
     }
+    execJavascript(js){
+
+    }
     render(){
         let props = this.props;
         let injectedJavaScript = props.injectedJavaScript;
         return (
             <Web 
                 {...props}
-                injectedJavaScript={}
                 />
         )
     }
 }
+
+export default WebView;
