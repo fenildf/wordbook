@@ -1,14 +1,18 @@
 import React,{Component} from 'react'
 import WebView from './../WebView';
+import assembleHTML from './assembleHTML';
 
 class Voice extends Component{
-    constructor(...props);
+    constructor(...props){
+        super(...props);
+    }
     render(){
 
-        let html = assembleHTML();
+        let html = assembleHTML(this.props.voice);
         return (
-            <WebView 
-                source={html}/> 
+            <WebView
+                style={this.props.style}
+                source={{html}}/> 
         );
     }
 }

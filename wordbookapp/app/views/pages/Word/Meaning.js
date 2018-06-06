@@ -10,6 +10,7 @@ import StyleSheet from './../../../util/StyleSheet';
 import IconItem from './../../components/IconItem';
 import ScrollView from './../../components/ScrollView';
 import FoldableItem from './../../components/FoldableItem';
+import Voice from './../../components/Voice';
 
 function renderMeading(meaning) {
     if (!meaning) {
@@ -43,10 +44,23 @@ function BasicMeaning(props) {
     let parts = symbols.parts;
     return (
         <View>
-            <Text
-                style={[styles.marginBottom]}>
-                英[{symbols.ph_en}]   美[{symbols.ph_am}]
-            </Text>
+            <View style={[styles.marginBottom, styles.row]}>
+                <Text>
+                    英
+                </Text>
+                <View
+                    style={styles.voice}>
+                        <Voice voice={symbols.ph_en_mp3} />
+                </View>
+                <Text>[{symbols.ph_en}]</Text>
+                <Text>
+                    美
+                </Text>
+                <View style={styles.voice}>
+                    <Voice voice={symbols.ph_am_mp3} />
+                </View>
+                <Text>[{symbols.ph_am}]</Text>
+            </View>
             {
                 parts.map(function (part) {
                     return (
@@ -77,8 +91,8 @@ function Sentence(props) {
                             {s.Network_en}
                         </Text>
                         <Text
-                             style={[styles.marginBottom]}>
-                             {s.Network_cn}
+                            style={[styles.marginBottom]}>
+                            {s.Network_cn}
                         </Text>
                     </View>
                 )
@@ -88,7 +102,7 @@ function Sentence(props) {
 }
 
 function renderWordParts(wordParts) {
-    return wordParts.map(function (part,i) {
+    return wordParts.map(function (part, i) {
         return (
             <View
                 key={i}>
@@ -109,12 +123,12 @@ function renderStemsAffixes(stems_affixes) {
                 key={stems.value_en}
                 style={[styles.marginBottom]}>
                 <Text
-                     style={[styles.marginBottom]}>
-                     {stems.value_en}{stems.value_cn}
+                    style={[styles.marginBottom]}>
+                    {stems.value_en}{stems.value_cn}
                 </Text>
                 <Text
-                     style={[styles.marginBottom]}>
-                     {stems.word_buile}
+                    style={[styles.marginBottom]}>
+                    {stems.word_buile}
                 </Text>
             </View>
         );
@@ -153,8 +167,8 @@ function renderMeaing(means) {
             <View
                 key={i + ''}>
                 <Text
-                     style={[styles.marginBottom]}>
-                     {mean.word_mean}
+                    style={[styles.marginBottom]}>
+                    {mean.word_mean}
                 </Text>
                 {mean.sentences.map(function (sentence) {
                     return (
@@ -183,8 +197,8 @@ function EEMeaning(props) {
                     <View
                         key={meaning.part_name}>
                         <Text
-                             style={[styles.marginBottom]}>
-                             {meaning.part_name}
+                            style={[styles.marginBottom]}>
+                            {meaning.part_name}
                         </Text>
                         {renderMeaing(meaning.means)}
                     </View>
@@ -205,7 +219,7 @@ function Meaning(props) {
                 {renderMeading(meaning)}
             </ScrollView>
         </View>
-        
+
     );
 }
 
@@ -220,14 +234,23 @@ const styles = StyleSheet.create(function (theme) {
             borderTopWidth: theme.px,
             paddingVertical: theme.paddingHorizontal,
         },
+        row: {
+            flexDirection: 'row',
+            alignItems:'center'
+
+        },
+        voice:{
+            height:18,
+            width:20
+        },
         titleStyle: {
             color: '#8fb7d1'
         },
-        symbols:{
+        symbols: {
 
         },
-        marginBottom:{
-            marginBottom:8
+        marginBottom: {
+            marginBottom: 8
         }
     }
 });

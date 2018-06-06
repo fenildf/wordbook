@@ -74,7 +74,6 @@ class WebView extends Component {
                 ref={WEB_REF}
                 bounces={false}
                 {...props}
-                source={{ html: '<div>123456</div>' }}
                 onMessage={this._onMessage}
                 injectedJavaScript={assemebleJavaScript(injectedJavaScript)}
             />
