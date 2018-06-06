@@ -1,4 +1,6 @@
 'use strict'
+
+/**todos body clientHeight 拿不到 先写死 */
 function assembleHTML(voice) {
     return `
     <!DOCTYPE html>
@@ -10,14 +12,12 @@ function assembleHTML(voice) {
         <title></title>
         <style>
             html,body{
-                height:100%;
-                width:100%;
+                overflow:hidden;
             }
             #canvas{
                 position:absolute;
                 top:0;
                 left:0;
-                backgroundColor:#fff
             }
             #audio{
                 display:none;
@@ -29,16 +29,18 @@ function assembleHTML(voice) {
         <canvas id="canvas"></canvas>
         
         <script>
+            
             window.onload = function(){
+               
                 var canvas = document.getElementById('canvas');
-                var height = document.body.clientHeight*2;
-                var width = document.body.clientWidth*2;
-                
-                var audio = document.getElementById('audio');;
+                var height = 18*2;
+                var width = 20*2;
+
+                var audio = document.getElementById('audio');
                 canvas.height = height;
                 canvas.width = width;
                 canvas.style.cssText = "height:"+(height/2)+"px;width:"+(width/2)+"px;";
-                
+
                 var context = canvas.getContext('2d');
                 var color = '#1db7fd';
                 var isPlaying = false;
@@ -49,10 +51,11 @@ function assembleHTML(voice) {
                         playVoice();
                     }
                 },false);
-                audio.ended = function(){
+
+                audio.onended = function(){
+                    alert();
                     stopAnimation();
                     isPlaying = false;
-                    audio.currentTime = 0;
                 }
                 context.fillStyle = color;
                 context.strokeStyle = color;
@@ -143,6 +146,7 @@ function assembleHTML(voice) {
 
                 function playVoice(){
                     playAnimation();
+                    audio.currentTime = 0;
                     audio.play();
                     isPlaying = true;
                     
@@ -152,7 +156,6 @@ function assembleHTML(voice) {
                     isPlaying = false;
                     if(audio.played){
                         audio.pause();
-                        audio.currentTime = 0;
                     }
                     
                     
