@@ -12,6 +12,7 @@ class Voice extends Component{
         return (
             <WebView
                 style={this.props.style}
+                mediaPlaybackRequiresUserAction={false}
                 source={{html}}/> 
         );
     }

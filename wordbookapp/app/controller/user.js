@@ -29,8 +29,8 @@ function getBooks(myWordBook,myStudyWord){
     myStudyWord = myStudyWord ||{};
     let books = Object.values(myWordBook);
     let studyWords = Object.values(myStudyWord);
-    let myStudyBook = myWordBook['我的单词本'];
-    let myNewBook = myWordBook['我的生词本'];
+    let myStudyBook = myWordBook['我的单词本']||{};
+    let myNewBook = myWordBook['我的生词本']||{};
     myStudyBook.count = studyWords.length;
     let count = studyWords.reduce(function(l,i){
         if(!i.isRemember){
