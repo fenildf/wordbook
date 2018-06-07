@@ -48,18 +48,13 @@ function BasicMeaning(props) {
                 <Text>
                     英
                 </Text>
-                <View
-                    style={styles.voice}>
-                        <Voice voice={symbols.ph_en_mp3} />
-                </View>
-                <Text>[{symbols.ph_en}]</Text>
+                {symbols.ph_en_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_en_mp3} />:null}
+                <Text style={styles.marginLeft}>[{symbols.ph_en}]</Text>
                 <Text>
                     美
                 </Text>
-                <View style={styles.voice}>
-                    <Voice voice={symbols.ph_am_mp3} />
-                </View>
-                <Text>[{symbols.ph_am}]</Text>
+                {symbols.ph_am_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_am_mp3} />:null}
+                <Text style={styles.marginLeft}>[{symbols.ph_am}]</Text>
             </View>
             {
                 parts.map(function (part) {
@@ -242,6 +237,9 @@ const styles = StyleSheet.create(function (theme) {
         voice:{
             height:18,
             width:20
+        },
+        marginLeft:{
+            marginLeft:4
         },
         titleStyle: {
             color: '#8fb7d1'

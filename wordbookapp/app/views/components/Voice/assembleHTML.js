@@ -42,16 +42,15 @@ function assembleHTML(voice) {
             var context = canvas.getContext('2d');
             var color = '#1db7fd';
             var isPlaying = false;
-            document.addEventListener('touchstart',function(){
-                if(isPlaying){
-                    stopVoice();
-                }else{
-                    playVoice();
-                }
-            },false);
+            // document.addEventListener('touchstart',function(){
+            //     if(isPlaying){
+            //         stopVoice();
+            //     }else{
+            //         playVoice();
+            //     }
+            // },false);
 
             audio.onended = function(){
-                alert();
                 stopAnimation();
                 isPlaying = false;
             }
@@ -145,6 +144,7 @@ function assembleHTML(voice) {
             function playVoice(){
                 nativeWebView && nativeWebView.invokeMethod('play');
                 playAnimation();
+                audio.pause();
                 audio.currentTime = 0;
                 audio.play();
                 isPlaying = true;
@@ -161,6 +161,7 @@ function assembleHTML(voice) {
             document.onNativeLoad = function(){
                 try{
                     nativeWebView && nativeWebView.injectMethod('stop',stopVoice);
+                    nativeWebView && nativeWebView.injectMethod('play',playVoice);
                 }catch(e){
                     
                 }
@@ -168,6 +169,7 @@ function assembleHTML(voice) {
             }
             try{
                 nativeWebView && nativeWebView.injectMethod('stop',stopVoice);
+                nativeWebView && nativeWebView.injectMethod('play',playVoice);
             }catch(e){
                 
             }
