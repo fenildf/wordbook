@@ -145,7 +145,7 @@ function assembleHTML(voice) {
                 }
 
                 function playVoice(){
-                    playAnimation();
+                    // playAnimation();
                     audio.currentTime = 0;
                     audio.play();
                     isPlaying = true;
@@ -157,7 +157,6 @@ function assembleHTML(voice) {
                     if(audio.played){
                         audio.pause();
                     }
-                    
                     
                 }
                 stopVoice();
