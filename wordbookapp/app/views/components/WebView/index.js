@@ -21,9 +21,6 @@ class WebView extends Component {
         this._callbacks = [];
         this._methods = null;
     }
-    execJavascript(js) {
-
-    }
     invokeMethod(method, params, callback) {
         let data = {method,params, type: 'invokeMethod'};
         if(callback){
@@ -40,14 +37,14 @@ class WebView extends Component {
     }
     _onMessage = ({ nativeEvent }) => {
         try {
-            data = JSON.parse(data);
+            data = JSON.parse(nativeEvent.data);
             switch (data.type) {
                 case 'invokeMethod':
                     let method = this._methods[data.method];
                     if (method) {
                         Promise.resolve(method.apply(null, data.params)).then((result)=>{
                             this._postData({
-                                callback
+                                result
                             })
                         });
                     }

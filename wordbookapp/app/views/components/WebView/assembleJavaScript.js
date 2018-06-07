@@ -22,12 +22,12 @@ function bridge() {
                 params: params||[],
                 type:'invokeMethod'
             }
-
             if (callback) {
                 callbacks.push(callback);
                 message.callback = callbacks.length - 1;
             }
             window.postMessage(JSON.stringify(message),'*');
+
         },
         injectMethod:function(methodName,method){
             methods[methodName] = method;
@@ -39,26 +39,29 @@ function bridge() {
     window.nativeWebView.injectMethod.toString = function(){
         return 'function injectMethod() { [native code] }'
     }
-    window.document.addEventListener('message', function (data) {
+    window.document.addEventListener('message', function (event) {
         try{
-            data = JSON.parse(data);
+            data = JSON.parse(event.data);
             switch (data.type){
                 case 'invokeMethod':
                     if(data.method){
                         methods[data.method].apply(null,data.params);
                     }
+                    break;
                 case 'invokeMethodCallback':
                     if(data.callback){
                         callbacks[data.callback].apply(null,data.params);
                         delete  callbacks[data.callback];
                     }
+                    break;
             }
             
         }catch(e){
 
         }
     });
-    setTimeout( ()=>nativeWebView.invokeMethod('hello'),4000)
+    document.onNativeLoad && document.onNativeLoad();
+    document.onNativeLoad = undefined;
 }
 
 function assembleJavaScript(userJavaScript) {
