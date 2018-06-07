@@ -50,7 +50,7 @@ function BasicMeaning(props) {
                 </Text>
                 {symbols.ph_en_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_en_mp3} />:null}
                 <Text style={styles.marginLeft}>[{symbols.ph_en}]</Text>
-                <Text>
+                <Text style={styles.marginLeft}>
                     美
                 </Text>
                 {symbols.ph_am_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_am_mp3} />:null}
