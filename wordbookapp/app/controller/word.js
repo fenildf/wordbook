@@ -1,5 +1,5 @@
 
-
+import user from './user';
 function getBooks(word, myWordBook) {
     myWordBook = myWordBook || {};
     return word('books').then((books) => {
@@ -23,11 +23,13 @@ function getWords(word,myStudyWord,$payload) {
     let payload = $payload();
     myStudyWord = myStudyWord ||{};
     let studyWords = Object.values(myStudyWord);
-
+    let now = Date.now();
     if(payload.bookName === '我的单词本'){
        return {words:studyWords};
     }else if(payload.bookName === '我的生词本'){
-        return {words:studyWords.filter(word=>!word.isRemember)};
+        return {words:studyWords.filter(word=>{
+            return !user.isTempRemember(word,now);
+        })};
     }
     return word('words', payload).then((words) => {
         return { words };
