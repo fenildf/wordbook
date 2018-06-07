@@ -144,10 +144,15 @@ function assembleHTML(voice) {
             function playVoice(){
                 nativeWebView && nativeWebView.invokeMethod('play');
                 playAnimation();
-                audio.pause();
-                audio.currentTime = 0;
-                audio.play();
+                audio.load();
+                // audio.currentTime = 0;
                 isPlaying = true;
+                audio.oncanplay = function () {  
+                    audio.play();
+                    setTimeout(function(){
+                        audio.onended&&audio.onended(); 
+                    },audio.duration*1000);
+                }  
                 
             }
             function stopVoice(){
