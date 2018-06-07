@@ -110,6 +110,8 @@ function markWord($payload, myWordBook, myStudyWord, $persist) {
             }
         } else {
             studyWord.isRemember = false;
+            studyWord.isTempRemember = false;
+            studyWord.firstRememberTime = 0;
             studyWord.rememberTimes = 0;
         }
     }

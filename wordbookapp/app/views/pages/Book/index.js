@@ -28,15 +28,24 @@ class Book extends ScreenComponent{
             book
         }
         this.dispatcher = createDispatcher(this,this._onData);
+        this.dispatcher.watch(this._onProviderChange)
+
     }
     componentDidUpdate(){
         // InteractionManager.runAfterInteractions(()=>{
         //     this.refs.List.scrollToIndex({index:300,animated:true})
         // });
     }
-
+    componentWillUnmount(){
+        this.dispatcher.release();
+    }
     componentDidMount() {
         this._getWords();
+    }
+    _onProviderChange=(change)=>{
+        if(change.myStudyWord){
+            this._getWords();
+        }
     }
     _getWords(){
         let {name} = this.state.book

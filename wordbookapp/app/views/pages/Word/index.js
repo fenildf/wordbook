@@ -33,6 +33,7 @@ class Word extends ScreenComponent {
             meaning:null
         }
         this.dispatcher = createDispatcher(this, this._onData);
+        this.dispatcher.watch(this._onProviderChange)
     }
     _onData(data) {
         switch(data.key){
@@ -40,7 +41,14 @@ class Word extends ScreenComponent {
                 return true;
         }
     }
-
+    _onProviderChange=(change)=>{
+        if(change.myStudyWord){
+            this._fetchData();
+        }
+    }
+    componentWillUnmount(){
+        this.dispatcher.release();
+    }
     componentDidMount() {
 
     }
@@ -48,13 +56,24 @@ class Word extends ScreenComponent {
         this._next();
         this._mark(this.state.word,true);
     }
+    _fetchData(){
+        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:this.state.bookName});
+    }
+    _findWordIndex(word,words){
+        let i=0,l =words.length;
+        while(word.name !== words[i].name && i<l){
+            i++;
+        }
+        return i;
+    }
     _next() {
         let {
             word,
-            meaning
+            meaning,
+            words
         } = this.state;
-        let index = word.index+1;
-        let nWord = this.state.words[index];
+        let index = this._findWordIndex(word,words);
+        let nWord = words[index+1];
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
         }else{
@@ -71,10 +90,11 @@ class Word extends ScreenComponent {
     _preview=()=>{
         let {
             word,
-            meaning
+            meaning,
+            words
         } = this.state;
-        let index = word.index-1;
-        let nWord = this.state.words[index];
+        let index = this._findWordIndex(word,words);
+        let nWord = words[index-1];
         if (nWord) {
             this.setState({ word: nWord, meaning: null });
         }else{
