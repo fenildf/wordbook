@@ -1,23 +1,26 @@
-function addBook($payload, myWordBook, $persist) {
-    myWordBook = myWordBook || {};
+function addBook($payload, $persist) {
     let books = $payload();
+    let userWordBook = {
+
+    }
+    let now = Date.now();
     for (let name in books) {
-        if (myWordBook[name]) {
+        if (userWordBook[name]) {
             continue;
         } else {
             let book = books[name];
-            myWordBook[name] = {
+            userWordBook[name] = {
                 name: book.name,
                 count: book.count,
-                createTime: Date.now(),
-                lastReadTime: Date.now,
+                createTime: now,
+                lastReadTime: now,
                 position: 0,
                 currentWord: ''
             }
         }
 
     }
-    $persist('myWordBook', myWordBook);
+    $persist('word', { items: Object.values(userWordBook), type: 'wordBook' });
     return {
         ok: true
     }
@@ -25,29 +28,12 @@ function addBook($payload, myWordBook, $persist) {
 
 
 function getBooks(word) {
-    // myWordBook = myWordBook || {};
-    // myStudyWord = myStudyWord || {};
-    // let books = Object.values(myWordBook);
-    // let studyWords = Object.values(myStudyWord);
-    // let myStudyBook = myWordBook['我的单词本'] || {};
-    // let myNewBook = myWordBook['我的生词本'] || {};
-    // myStudyBook.count = studyWords.length;
-    // let now = Date.now();
-    // let count = studyWords.reduce(function (l, i) {
-    //     if (!isTempRemember(i,now)) {
-    //         l++;
-    //     }
-    //     return l;
-    // }, 0);
-    // myNewBook.count = count;
-    // books.unshift(myStudyBook);
-    // books.unshift(myNewBook);
-    return word('wordBook').then((books)=>{
+    return word('wordBook').then((books) => {
         return {
             books
         }
     })
-    
+
 }
 
 /** 
@@ -62,26 +48,34 @@ const TEMP_TIME_INTERVAL = 4 * 3600 * 1000;
 const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
-function isTempRemember(studyWord,now){
-    return isRealRemember(studyWord,now) || (now - studyWord.firstRememberTime < TEMP_TIME_INTERVAL);
+function isTempRemember(studyWord, now) {
+    return isRealRemember(studyWord, now) || (now - studyWord.firstRememberTime < TEMP_TIME_INTERVAL);
 }
 function isRealRemember(studyWord, now) {
     return studyWord.isRemember ||
-       (studyWord.isTempRemember &&
-        studyWord.rememberTimes > 3 &&
-        (now - studyWord.firstRememberTime > THREE_DAY_MILLISECONDS));
+        (studyWord.isTempRemember &&
+            studyWord.rememberTimes > 3 &&
+            (now - studyWord.firstRememberTime > THREE_DAY_MILLISECONDS));
 }
-function markWord($payload, myWordBook, myStudyWord, $persist) {
-    myWordBook = myWordBook || {};
-    myStudyWord = myStudyWord || {};
+function markWord($payload, $persist) {
     let payload = $payload();
-    let book = myWordBook[payload.bookName];
+    let now = Date.now();
+
+    let book = {
+        name: payload.bookName,
+        lastReadTime: now
+    };
     let word = payload.word;
     let isRemember = payload.isRemember;
     let wordName = word.name;
-    let studyWord = myStudyWord[wordName];
-    book.lastReadTime = now;
-    let now = Date.now()+86400000;
+    let studyWord = {
+        name: wordName,
+        name: word.name,
+        isRemember,
+        isTempRemember: isRemember,
+        lastReadTime: now,
+    };
+
     let today = new Date();
     today.setHours(0);
     today.setMinutes(0);
@@ -103,12 +97,12 @@ function markWord($payload, myWordBook, myStudyWord, $persist) {
 
         if (isRemember) {
             //首次记住的时间
-            if(!studyWord.rememberTimes||studyWord.rememberTimes===0){
+            if (!studyWord.rememberTimes || studyWord.rememberTimes === 0) {
                 studyWord.rememberTimes = 0;
                 studyWord.firstRememberTime = now;
             }
             studyWord.rememberTimes++;
-            if(isRealRemember(studyWord,now)){
+            if (isRealRemember(studyWord, now)) {
                 studyWord.isRemember = true;
             }
         } else {
@@ -120,7 +114,6 @@ function markWord($payload, myWordBook, myStudyWord, $persist) {
     }
 
     $persist('myStudyWord', myStudyWord);
-    $persist('myWordBook', myWordBook);
 }
 export default {
     addBook,

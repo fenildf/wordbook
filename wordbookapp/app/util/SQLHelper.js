@@ -62,9 +62,19 @@ function insertOrReplace(tableName,columns,data){
     return executeSql(sql);
 }
 
+function insertOrIgnore(tableName,columns,data){
+    let sql = "INSERT OR IGNORE INTO " +
+                tableName +
+                "(" + columns.join(',') +
+                ") VALUES (" +
+                data.map(v=>'"'+v+'"').join(',') +
+                ")";
 
+    return executeSql(sql);
+}
 export  default{
     executeSql,
     createTable,
-    insertOrReplace
+    insertOrReplace,
+    insertOrIgnore
 }

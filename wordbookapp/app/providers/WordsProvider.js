@@ -1,16 +1,11 @@
 'use strict'
 import { Provider } from 'febrest';
-import SQLiteHelper from './../util/SQLHelper';
+import SQLHelper from './../util/SQLHelper';
 
 function executeSql(sql) {
-    return SQLiteHelper.executeSql(sql);
+    return SQLHelper.executeSql(sql);
 }
 
-function updateSql(table_name, data, keys) {
-    return data.map(function (item) {
-        return `insert or replace into ${table_name} (${keys.join(',')}) values (${item.join(',')})`;
-    })
-}
 
 function removeSql(table_name, data, condition) {
     if (data && data.length > 0) {
@@ -83,11 +78,34 @@ function getDataBySql(sql) {
         return collection;
     })
 }
-
+function insertOrReplace(table, column, data) {
+    return SQLHelper.insertOrReplace(table, column, data)
+}
 const TEMP_TIME_INTERVAL = 4 * 3600 * 1000;
 const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
+function setData(data) {
+    switch (data.type) {
+        case 'wordBook':
+            return data.items.map((book)=>{
+                let name = book.name;
+                let count = book.count;
+                let position = book.position;
+                let current_word = book.currentWord;
+                let create_time = book.createTime;
+                let last_read_time = book.lastReadTime || create_time;
+                let column = [];
+                let data = [];
+                
+                return insertOrReplace(
+                    'user_word_book ',
+                    ['name', 'count', 'position', 'current_word', 'create_time', 'last_read_time'],
+                    [name, count, position, current_word, create_time, last_read_time],
+                );
+            });                
+    }
+}
 function getData(type, payload) {
     let sql1, sql2;
     payload = payload;
@@ -120,10 +138,10 @@ function getData(type, payload) {
             sql1 = `select name from classify`
             return getDataBySql(sql1);
         case 'books':
-            if(payload.unselect){
+            if (payload.unselect) {
                 sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words
                         where book_name not in (select name from user_word_book) group by book_name ORDER BY classify`
-            }else{
+            } else {
                 sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
             }
             return getDataBySql(sql1);
@@ -138,7 +156,7 @@ function getData(type, payload) {
             } else if (payload.bookName === '我的单词本') {
                 let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
                 sql1 = `select ${dateString} as name,"我的单词本" as bookName,id,"我的单词本" as classify from user_study_word group by ${dateString}`;
-            }else{
+            } else {
                 sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName || '%'}"`;
             }
             return getDataBySql(sql1);
@@ -154,8 +172,8 @@ class WordsProvider extends Provider {
         super(config);
         this.state = config.state || {};
     }
-    setState() {
-        return;
+    setState(state) {
+        return setData(state);
     }
     getState() {
         return getData
