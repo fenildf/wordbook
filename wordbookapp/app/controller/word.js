@@ -17,13 +17,10 @@ function getClassify(word,myWordBook){
 
     });
 }
-function getBooks(word, myWordBook) {
-    myWordBook = myWordBook || {};
-    return word('books').then((books) => {
+function getBooks(word) {
+    return word('books',{unselect:true}).then((books) => {
         return {
-            books: books.filter(book => {
-                return !myWordBook[book.name];
-            })
+            books
         };
     });
 }

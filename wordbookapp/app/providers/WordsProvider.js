@@ -120,7 +120,12 @@ function getData(type, payload) {
             sql1 = `select name from classify`
             return getDataBySql(sql1);
         case 'books':
-            sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
+            if(payload.unselect){
+                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words
+                        where book_name not in (select name from user_word_book) group by book_name ORDER BY classify`
+            }else{
+                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
+            }
             return getDataBySql(sql1);
         case 'sections':
             if (payload.bookName === '我的生词本') {

@@ -43,7 +43,6 @@ function getBooks(word) {
     // books.unshift(myStudyBook);
     // books.unshift(myNewBook);
     return word('wordBook').then((books)=>{
-        console.log(books)
         return {
             books
         }
