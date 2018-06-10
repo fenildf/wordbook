@@ -20,7 +20,7 @@ function Item(props) {
             style={styles.button}>
             <Text
                 style={styles.name}>
-                {data.name}
+                {data.name||data.section_name}
             </Text>
         </Row>
     );

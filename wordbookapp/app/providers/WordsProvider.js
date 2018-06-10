@@ -107,7 +107,7 @@ function getData(type, payload) {
                     let now = Date.now();
                     return getDataBySql(`select count(name) as count from user_study_word 
                                         where is_remember != 'true' or 
-                                        (remember_times>=1 and first_remember_time-${now}<${TEMP_TIME_INTERVAL})`).then(([book]) => {
+                                        (remember_times>=1 and first_remember_time-${now}>${TEMP_TIME_INTERVAL})`).then(([book]) => {
                             data.unshift({
                                 name: '我的生词本',
                                 count: book.count
@@ -129,11 +129,18 @@ function getData(type, payload) {
             return getDataBySql(sql1);
         case 'sections':
             if (payload.bookName === '我的生词本') {
-
+                let now = Date.now();
+                let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
+                sql1 = `select ${dateString} as name,"我的生词本" as bookName,id,"我的生词本" as classify from user_study_word
+                        where is_remember != 'true' or 
+                        (remember_times>=1 and first_remember_time-${now}<${TEMP_TIME_INTERVAL})
+                        group by ${dateString}`;
             } else if (payload.bookName === '我的单词本') {
-
+                let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
+                sql1 = `select ${dateString} as name,"我的单词本" as bookName,id,"我的单词本" as classify from user_study_word group by ${dateString}`;
+            }else{
+                sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName || '%'}"`;
             }
-            sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName || '%'}"`;
             return getDataBySql(sql1);
         case 'words':
             sql1 = `select * from words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;

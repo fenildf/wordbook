@@ -59,7 +59,7 @@ class Book extends ScreenComponent{
         )
     }
     _keyExtractor=(item)=>{
-        return (item.id||item.name)+'';
+        return (item.id||item.name||item.section_name)+'';
     }
     render(){
         return (
