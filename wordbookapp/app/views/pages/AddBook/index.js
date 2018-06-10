@@ -91,6 +91,8 @@ class AddBook extends ScreenComponent {
                 ref='ScrollView'
                 style={styles.wrapper}>
                 {this._renderBooks()}
+                <View 
+                    style={styles.margin}/>
             </ScrollView>
 
         )
@@ -107,7 +109,10 @@ const styles = StyleSheet.create(function (theme) {
         },
         itemStyle: {
             backgroundColor: '#fff',
-            paddingLeft: theme.paddingHorizontal
+            paddingLeft: theme.paddingHorizontal,
+        },
+        margin:{
+            height:theme.itemHeightM
         }
     }
 })
