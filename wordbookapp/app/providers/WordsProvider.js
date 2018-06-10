@@ -96,7 +96,7 @@ function getData(type,payload) {
             sql1 = `select name from classify`
             return getDataBySql(sql1);
         case 'books':
-            sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name`
+            sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
             return getDataBySql(sql1);
         case 'sections':
             sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName||'%'}"`;
