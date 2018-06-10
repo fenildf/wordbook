@@ -50,6 +50,7 @@ function appInit(myStudyWord, myWordBook,word) {
         'create_time interger not null',
         'remember_times interger default(0)',
         'first_remember_time interger',
+        'remember_time interger',
         'user_id default(1)'
 
     ]));
@@ -66,7 +67,7 @@ function appInit(myStudyWord, myWordBook,word) {
     return Promise.all(tasks).then(() => {
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
-                word('studyWord').then(function(data){
+                word('wordSection').then(function(data){
                     console.log(data,222)
                 })
                 word('wordBook').then(function(data){

@@ -24,27 +24,31 @@ function addBook($payload, myWordBook, $persist) {
 }
 
 
-function getBooks(myWordBook, myStudyWord) {
-    myWordBook = myWordBook || {};
-    myStudyWord = myStudyWord || {};
-    let books = Object.values(myWordBook);
-    let studyWords = Object.values(myStudyWord);
-    let myStudyBook = myWordBook['我的单词本'] || {};
-    let myNewBook = myWordBook['我的生词本'] || {};
-    myStudyBook.count = studyWords.length;
-    let now = Date.now();
-    let count = studyWords.reduce(function (l, i) {
-        if (!isTempRemember(i,now)) {
-            l++;
-        }
-        return l;
-    }, 0);
-    myNewBook.count = count;
+function getBooks(word) {
+    // myWordBook = myWordBook || {};
+    // myStudyWord = myStudyWord || {};
+    // let books = Object.values(myWordBook);
+    // let studyWords = Object.values(myStudyWord);
+    // let myStudyBook = myWordBook['我的单词本'] || {};
+    // let myNewBook = myWordBook['我的生词本'] || {};
+    // myStudyBook.count = studyWords.length;
+    // let now = Date.now();
+    // let count = studyWords.reduce(function (l, i) {
+    //     if (!isTempRemember(i,now)) {
+    //         l++;
+    //     }
+    //     return l;
+    // }, 0);
+    // myNewBook.count = count;
     // books.unshift(myStudyBook);
     // books.unshift(myNewBook);
-    return {
-        books
-    }
+    return word('wordBook').then((books)=>{
+        console.log(books)
+        return {
+            books
+        }
+    })
+    
 }
 
 /** 
@@ -78,7 +82,7 @@ function markWord($payload, myWordBook, myStudyWord, $persist) {
     let wordName = word.name;
     let studyWord = myStudyWord[wordName];
     book.lastReadTime = now;
-    let now = Date.now();
+    let now = Date.now()+86400000;
     let today = new Date();
     today.setHours(0);
     today.setMinutes(0);

@@ -84,20 +84,38 @@ function getDataBySql(sql) {
     })
 }
 
-function getCountBySql(){
+const TEMP_TIME_INTERVAL = 4 * 3600 * 1000;
+const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
+const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
-}
-function getData(type,payload) {
-    let sql1,sql2;
+function getData(type, payload) {
+    let sql1, sql2;
     payload = payload;
 
     switch (type) {
-        case 'studyWord':
-            sql1 = 'select * from user_study_word';
+        case 'wordSection':
+            sql1 = 'select strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime")) as section_name,count(name) as count from user_study_word group by section_name';
             return getDataBySql(sql1);
         case 'wordBook':
-            sql1 = 'select * from user_word_book';
-            return getDataBySql(sql1);
+            sql1 = 'select name,count,create_time as createTime from user_word_book where name != "我的单词本" and name != "我的生词本"';
+            return getDataBySql(sql1).then(data => {
+                return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
+                    data.unshift({
+                        name: '我的单词本',
+                        count: book.count
+                    });
+                    let now = Date.now();
+                    return getDataBySql(`select count(name) as count from user_study_word 
+                                        where is_remember != 'true' or 
+                                        (remember_times>=1 and first_remember_time-${now}<${TEMP_TIME_INTERVAL})`).then(([book]) => {
+                            data.unshift({
+                                name: '我的生词本',
+                                count: book.count
+                            });
+                            return data;
+                        })
+                })
+            });
         case 'classify':
             sql1 = `select name from classify`
             return getDataBySql(sql1);
@@ -105,13 +123,18 @@ function getData(type,payload) {
             sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
             return getDataBySql(sql1);
         case 'sections':
-            sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName||'%'}"`;
+            if (payload.bookName === '我的生词本') {
+
+            } else if (payload.bookName === '我的单词本') {
+
+            }
+            sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName || '%'}"`;
             return getDataBySql(sql1);
         case 'words':
-            sql1= `select * from words as b where book_name="${payload.bookName||'%'}" and section_name="${payload.sectionName||'%'}"`;
+            sql1 = `select * from words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
             return getDataBySql(sql1);
 
-        
+
     }
 }
 class WordsProvider extends Provider {
