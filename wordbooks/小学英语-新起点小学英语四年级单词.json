@@ -1,0 +1,556 @@
+{
+	"name": "新起点小学英语四年级单词",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "新起点小学英语四年级 上册",
+			"children": [
+				{
+					"name": "crayon"
+				},
+				{
+					"name": "cut"
+				},
+				{
+					"name": "draw"
+				},
+				{
+					"name": "finally"
+				},
+				{
+					"name": "first"
+				},
+				{
+					"name": "get ready"
+				},
+				{
+					"name": "glue"
+				},
+				{
+					"name": "invitation"
+				},
+				{
+					"name": "next"
+				},
+				{
+					"name": "paper"
+				},
+				{
+					"name": "party"
+				},
+				{
+					"name": "pen"
+				},
+				{
+					"name": "practice"
+				},
+				{
+					"name": "scissors"
+				},
+				{
+					"name": "stick"
+				},
+				{
+					"name": "then"
+				},
+				{
+					"name": "with"
+				},
+				{
+					"name": "write"
+				},
+				{
+					"name": "also"
+				},
+				{
+					"name": "baseball"
+				},
+				{
+					"name": "cycling"
+				},
+				{
+					"name": "game"
+				},
+				{
+					"name": "hiking"
+				},
+				{
+					"name": "hockey"
+				},
+				{
+					"name": "jogging"
+				},
+				{
+					"name": "often"
+				},
+				{
+					"name": "sometimes"
+				},
+				{
+					"name": "sport"
+				},
+				{
+					"name": "tennis"
+				},
+				{
+					"name": "bumper car"
+				},
+				{
+					"name": "concert"
+				},
+				{
+					"name": "cool"
+				},
+				{
+					"name": "drive"
+				},
+				{
+					"name": "exciting"
+				},
+				{
+					"name": "go to the movies"
+				},
+				{
+					"name": "just"
+				},
+				{
+					"name": "Lego"
+				},
+				{
+					"name": "puzzle"
+				},
+				{
+					"name": "so-so"
+				},
+				{
+					"name": "weekend"
+				},
+				{
+					"name": "careful"
+				},
+				{
+					"name": "climb"
+				},
+				{
+					"name": "climb over"
+				},
+				{
+					"name": "cross"
+				},
+				{
+					"name": "crosswalk"
+				},
+				{
+					"name": "dangerous"
+				},
+				{
+					"name": "downstairs"
+				},
+				{
+					"name": "fence"
+				},
+				{
+					"name": "footbridge"
+				},
+				{
+					"name": "play with fire"
+				},
+				{
+					"name": "rule"
+				},
+				{
+					"name": "safe"
+				},
+				{
+					"name": "sidewalk"
+				},
+				{
+					"name": "stop"
+				},
+				{
+					"name": "touch"
+				},
+				{
+					"name": "traffic light"
+				},
+				{
+					"name": "underpass"
+				},
+				{
+					"name": "use"
+				},
+				{
+					"name": "CD player"
+				},
+				{
+					"name": "dictionary"
+				},
+				{
+					"name": "eraser"
+				},
+				{
+					"name": "help"
+				},
+				{
+					"name": "math problem"
+				},
+				{
+					"name": "pass"
+				},
+				{
+					"name": "ruler"
+				},
+				{
+					"name": "beauty shop"
+				},
+				{
+					"name": "computer programmer"
+				},
+				{
+					"name": "cook"
+				},
+				{
+					"name": "dentist"
+				},
+				{
+					"name": "hairdresser"
+				},
+				{
+					"name": "hospital"
+				},
+				{
+					"name": "hotel"
+				},
+				{
+					"name": "mailman"
+				},
+				{
+					"name": "post office"
+				},
+				{
+					"name": "salesclerk"
+				},
+				{
+					"name": "singer"
+				},
+				{
+					"name": "store"
+				}
+			]
+		},
+		{
+			"name": "新起点小学英语四年级 下册",
+			"children": [
+				{
+					"name": "across from"
+				},
+				{
+					"name": "bakery"
+				},
+				{
+					"name": "bank"
+				},
+				{
+					"name": "between"
+				},
+				{
+					"name": "bookstore"
+				},
+				{
+					"name": "building"
+				},
+				{
+					"name": "cinema"
+				},
+				{
+					"name": "coffee shop"
+				},
+				{
+					"name": "community"
+				},
+				{
+					"name": "crossing"
+				},
+				{
+					"name": "drugstore"
+				},
+				{
+					"name": "forward"
+				},
+				{
+					"name": "gas station"
+				},
+				{
+					"name": "go straight"
+				},
+				{
+					"name": "grocery store"
+				},
+				{
+					"name": "newspaper stand"
+				},
+				{
+					"name": "next to"
+				},
+				{
+					"name": "park"
+				},
+				{
+					"name": "police station"
+				},
+				{
+					"name": "restaurant"
+				},
+				{
+					"name": "turn left"
+				},
+				{
+					"name": "turn right"
+				},
+				{
+					"name": "zoo"
+				},
+				{
+					"name": "buy a skateboard"
+				},
+				{
+					"name": "city"
+				},
+				{
+					"name": "department store"
+				},
+				{
+					"name": "fly a kite"
+				},
+				{
+					"name": "gallery"
+				},
+				{
+					"name": "museum"
+				},
+				{
+					"name": "see an art show"
+				},
+				{
+					"name": "see dinosaurs"
+				},
+				{
+					"name": "square"
+				},
+				{
+					"name": "stadium"
+				},
+				{
+					"name": "street"
+				},
+				{
+					"name": "subway station"
+				},
+				{
+					"name": "university"
+				},
+				{
+					"name": "visit the library"
+				},
+				{
+					"name": "watch a soccer match"
+				},
+				{
+					"name": "Australia"
+				},
+				{
+					"name": "Big Ben"
+				},
+				{
+					"name": "Canada"
+				},
+				{
+					"name": "cherry blossom"
+				},
+				{
+					"name": "China"
+				},
+				{
+					"name": "CN Tower"
+				},
+				{
+					"name": "Disneyland"
+				},
+				{
+					"name": "Eiffel Tower"
+				},
+				{
+					"name": "France"
+				},
+				{
+					"name": "Japan"
+				},
+				{
+					"name": "London"
+				},
+				{
+					"name": "Los Angeles"
+				},
+				{
+					"name": "opera house"
+				},
+				{
+					"name": "Paris"
+				},
+				{
+					"name": "Sydney"
+				},
+				{
+					"name": "Tokyo"
+				},
+				{
+					"name": "Toronto"
+				},
+				{
+					"name": "United Kingdom"
+				},
+				{
+					"name": "United States"
+				},
+				{
+					"name": "beach"
+				},
+				{
+					"name": "bus"
+				},
+				{
+					"name": "car"
+				},
+				{
+					"name": "learn Wushu"
+				},
+				{
+					"name": "Mount Tai"
+				},
+				{
+					"name": "plane"
+				},
+				{
+					"name": "safari park"
+				},
+				{
+					"name": "see a flower show"
+				},
+				{
+					"name": "see elephants"
+				},
+				{
+					"name": "see the Buddha Palace"
+				},
+				{
+					"name": "see the sunrise"
+				},
+				{
+					"name": "see wild animals"
+				},
+				{
+					"name": "Shaolin Temple"
+				},
+				{
+					"name": "ship"
+				},
+				{
+					"name": "swim"
+				},
+				{
+					"name": "take pictures"
+				},
+				{
+					"name": "Thailand"
+				},
+				{
+					"name": "Tibet"
+				},
+				{
+					"name": "train"
+				},
+				{
+					"name": "travel plans"
+				},
+				{
+					"name": "vacation"
+				},
+				{
+					"name": "West Lake"
+				},
+				{
+					"name": "collect coins"
+				},
+				{
+					"name": "collect dolls"
+				},
+				{
+					"name": "collect stamps"
+				},
+				{
+					"name": "collect stickers"
+				},
+				{
+					"name": "hike"
+				},
+				{
+					"name": "hobby"
+				},
+				{
+					"name": "keep a diary"
+				},
+				{
+					"name": "knit"
+				},
+				{
+					"name": "make models"
+				},
+				{
+					"name": "paint pictures"
+				},
+				{
+					"name": "play chess"
+				},
+				{
+					"name": "play computer games"
+				},
+				{
+					"name": "read stories"
+				},
+				{
+					"name": "sew"
+				},
+				{
+					"name": "travel"
+				},
+				{
+					"name": "cell phone"
+				},
+				{
+					"name": "communication"
+				},
+				{
+					"name": "mail a postcard"
+				},
+				{
+					"name": "mailbox"
+				},
+				{
+					"name": "make a phone call"
+				},
+				{
+					"name": "pay phone"
+				},
+				{
+					"name": "send a short message"
+				},
+				{
+					"name": "send an e-mail"
+				},
+				{
+					"name": "write a letter"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,580 @@
+{
+	"name": "新起点小学英语六年级单词",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "新起点小学英语六年级 上册",
+			"children": [
+				{
+					"name": "Chinese tea"
+				},
+				{
+					"name": "east"
+				},
+				{
+					"name": "Elephant Trunk Hill"
+				},
+				{
+					"name": "Mount Emei"
+				},
+				{
+					"name": "Mount Tai"
+				},
+				{
+					"name": "north"
+				},
+				{
+					"name": "province"
+				},
+				{
+					"name": "silk"
+				},
+				{
+					"name": "snow-capped mountains"
+				},
+				{
+					"name": "south"
+				},
+				{
+					"name": "the Mogao Caves"
+				},
+				{
+					"name": "the Potala Palace"
+				},
+				{
+					"name": "the Shaolin Temple"
+				},
+				{
+					"name": "the Stone Forest"
+				},
+				{
+					"name": "the warriors"
+				},
+				{
+					"name": "Tibet"
+				},
+				{
+					"name": "west"
+				},
+				{
+					"name": "Yellow Mountain"
+				},
+				{
+					"name": "Africa"
+				},
+				{
+					"name": "Asia"
+				},
+				{
+					"name": "Australia"
+				},
+				{
+					"name": "Chinese"
+				},
+				{
+					"name": "continent"
+				},
+				{
+					"name": "Egypt"
+				},
+				{
+					"name": "Europe"
+				},
+				{
+					"name": "French"
+				},
+				{
+					"name": "Japanese"
+				},
+				{
+					"name": "kangaroo"
+				},
+				{
+					"name": "koala"
+				},
+				{
+					"name": "North America"
+				},
+				{
+					"name": "Oceania"
+				},
+				{
+					"name": "pyramid"
+				},
+				{
+					"name": "Russia"
+				},
+				{
+					"name": "Russian"
+				},
+				{
+					"name": "South America"
+				},
+				{
+					"name": "Spain"
+				},
+				{
+					"name": "Thailand"
+				},
+				{
+					"name": "the United States"
+				},
+				{
+					"name": "butterfly"
+				},
+				{
+					"name": "centimeter"
+				},
+				{
+					"name": "crocodile"
+				},
+				{
+					"name": "giraffe"
+				},
+				{
+					"name": "heavy"
+				},
+				{
+					"name": "hippo"
+				},
+				{
+					"name": "hummingbird"
+				},
+				{
+					"name": "insect"
+				},
+				{
+					"name": "kilometre"
+				},
+				{
+					"name": "lion"
+				},
+				{
+					"name": "mammal"
+				},
+				{
+					"name": "meter"
+				},
+				{
+					"name": "ostrich"
+				},
+				{
+					"name": "penguin"
+				},
+				{
+					"name": "reptile"
+				},
+				{
+					"name": "shark"
+				},
+				{
+					"name": "strong"
+				},
+				{
+					"name": "ton"
+				},
+				{
+					"name": "whale"
+				},
+				{
+					"name": "wing"
+				},
+				{
+					"name": "zebra"
+				},
+				{
+					"name": "angry"
+				},
+				{
+					"name": "excited"
+				},
+				{
+					"name": "happy"
+				},
+				{
+					"name": "nervous"
+				},
+				{
+					"name": "proud"
+				},
+				{
+					"name": "sad"
+				},
+				{
+					"name": "surprised"
+				},
+				{
+					"name": "worried"
+				},
+				{
+					"name": "actor"
+				},
+				{
+					"name": "American"
+				},
+				{
+					"name": "artist"
+				},
+				{
+					"name": "Beijing Opera"
+				},
+				{
+					"name": "Chinese"
+				},
+				{
+					"name": "compose"
+				},
+				{
+					"name": "Danish"
+				},
+				{
+					"name": "English"
+				},
+				{
+					"name": "German"
+				},
+				{
+					"name": "invent"
+				},
+				{
+					"name": "inventor"
+				},
+				{
+					"name": "light bulb"
+				},
+				{
+					"name": "musician"
+				},
+				{
+					"name": "national anthem"
+				},
+				{
+					"name": "scientist"
+				},
+				{
+					"name": "shrimp"
+				},
+				{
+					"name": "story"
+				},
+				{
+					"name": "writer"
+				},
+				{
+					"name": "astronaut"
+				},
+				{
+					"name": "cloud"
+				},
+				{
+					"name": "detective"
+				},
+				{
+					"name": "earth"
+				},
+				{
+					"name": "housework"
+				},
+				{
+					"name": "Mars"
+				},
+				{
+					"name": "moon"
+				},
+				{
+					"name": "ocean"
+				},
+				{
+					"name": "peace"
+				},
+				{
+					"name": "pill"
+				},
+				{
+					"name": "pollution"
+				},
+				{
+					"name": "president"
+				},
+				{
+					"name": "principal"
+				},
+				{
+					"name": "professor"
+				},
+				{
+					"name": "robot"
+				},
+				{
+					"name": "spaceship"
+				},
+				{
+					"name": "sun"
+				}
+			]
+		},
+		{
+			"name": "新起点小学英语六年级 下册",
+			"children": [
+				{
+					"name": "attend"
+				},
+				{
+					"name": "basic"
+				},
+				{
+					"name": "claw"
+				},
+				{
+					"name": "develop"
+				},
+				{
+					"name": "knock"
+				},
+				{
+					"name": "leader"
+				},
+				{
+					"name": "lock"
+				},
+				{
+					"name": "nut"
+				},
+				{
+					"name": "personal"
+				},
+				{
+					"name": "quickly"
+				},
+				{
+					"name": "software"
+				},
+				{
+					"name": "common"
+				},
+				{
+					"name": "modern"
+				},
+				{
+					"name": "moose"
+				},
+				{
+					"name": "once"
+				},
+				{
+					"name": "teeny tiny"
+				},
+				{
+					"name": "bored"
+				},
+				{
+					"name": "everywhere"
+				},
+				{
+					"name": "litter box"
+				},
+				{
+					"name": "make sure"
+				},
+				{
+					"name": "poor"
+				},
+				{
+					"name": "push"
+				},
+				{
+					"name": "sick"
+				},
+				{
+					"name": "fantasy"
+				},
+				{
+					"name": "folder"
+				},
+				{
+					"name": "photography"
+				},
+				{
+					"name": "reason"
+				},
+				{
+					"name": "sign"
+				},
+				{
+					"name": "bloom"
+				},
+				{
+					"name": "cost"
+				},
+				{
+					"name": "decide"
+				},
+				{
+					"name": "degree"
+				},
+				{
+					"name": "disappearing"
+				},
+				{
+					"name": "during"
+				},
+				{
+					"name": "example"
+				},
+				{
+					"name": "fire"
+				},
+				{
+					"name": "however"
+				},
+				{
+					"name": "return"
+				},
+				{
+					"name": "seed"
+				},
+				{
+					"name": "such as"
+				},
+				{
+					"name": "temperature"
+				},
+				{
+					"name": "wake up"
+				},
+				{
+					"name": "chemistry"
+				},
+				{
+					"name": "Chicago"
+				},
+				{
+					"name": "cranberry"
+				},
+				{
+					"name": "Ghana"
+				},
+				{
+					"name": "graduate"
+				},
+				{
+					"name": "Italian"
+				},
+				{
+					"name": "Korean"
+				},
+				{
+					"name": "lunar calendar"
+				},
+				{
+					"name": "Marie Curie"
+				},
+				{
+					"name": "Montreal"
+				},
+				{
+					"name": "Nobel Prize"
+				},
+				{
+					"name": "Ottawa"
+				},
+				{
+					"name": "peace"
+				},
+				{
+					"name": "physics"
+				},
+				{
+					"name": "pumpkin pie"
+				},
+				{
+					"name": "Quebec"
+				},
+				{
+					"name": "radium"
+				},
+				{
+					"name": "Secretary-General"
+				},
+				{
+					"name": "turkey"
+				},
+				{
+					"name": "Vancouver"
+				},
+				{
+					"name": "agree"
+				},
+				{
+					"name": "alone"
+				},
+				{
+					"name": "beauty"
+				},
+				{
+					"name": "continue"
+				},
+				{
+					"name": "follow"
+				},
+				{
+					"name": "finish"
+				},
+				{
+					"name": "Germany"
+				},
+				{
+					"name": "kilometre"
+				},
+				{
+					"name": "magic"
+				},
+				{
+					"name": "sail"
+				},
+				{
+					"name": "sailor"
+				},
+				{
+					"name": "zeppelin"
+				},
+				{
+					"name": "cave"
+				},
+				{
+					"name": "construct"
+				},
+				{
+					"name": "hit"
+				},
+				{
+					"name": "hold"
+				},
+				{
+					"name": "lift"
+				},
+				{
+					"name": "machine"
+				},
+				{
+					"name": "outer space"
+				},
+				{
+					"name": "sense"
+				},
+				{
+					"name": "sly"
+				},
+				{
+					"name": "suddenly"
+				},
+				{
+					"name": "volcano"
+				},
+				{
+					"name": "wizard"
+				}
+			]
+		}
+	]
+}

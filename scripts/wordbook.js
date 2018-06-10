@@ -30,23 +30,24 @@ function seekItems(items,childrenHTML){
     return items.map((item)=>{
         let id = item.match(/#panel[\d]{1,}/)[0];
         let name = item.match(/(?=>).*?(?=<)/)[0].replace('>','');
-        let children = childrenHTML[id.match(/[\d]{1,}/)[0]-1].match(/<a href="[\w\+]*?\.html" class="inlink">[\w\s]*?<\/a>/gi);
+        let children = childrenHTML[id.match(/[\d]{1,}/)[0]-1].match(/<a href="[\w\+\-]*?\.html" class="inlink">[-\w\s]*?<\/a>/gi);
         return Item(name,children.map((child,i)=>{
-            return Item(child.match(/>[\w\s]*?(?=<)/)[0].replace('>',''));
+            return Item(child.match(/>[\w\s-]*?(?=<)/)[0].replace('>',''));
         }));
     });
 
 }
-function book(name,html){
+function book(classify,name,html){
     try{
         let items = html.match(/<a href="#panel[\d]{1,}" class="inlink">[\s\S]*?<\/a>/gi);
         let childrenHTML = html.match(/<ul class="txtlist arrow">[\s\S]*?<\/ul>/gi).slice(1);
         let children = seekItems(items,childrenHTML);
         let book = {
             name,
+            classify,
             children
         };
-        let bPath = bookPath(name);
+        let bPath = bookPath(classify+'-'+name);
         fs.createWriteStream(bPath).end(JSON.stringify(book,null,'\t'));
 
     }catch(e){
@@ -60,11 +61,12 @@ bookurls.forEach(function(item,i){
     // }
     let {
         name,
+        classify,
         url
     } = item;
     fetch(url,{headers:{'user-agent':USER_AGENT}}).then(function(response){
         response.text().then(function(html){
-            book(name,html);
+            book(classify,name,html);
         });
     })
 })

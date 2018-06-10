@@ -1,0 +1,379 @@
+{
+	"name": "北师大版小学英语一年级单词",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "北师大版小学英语一年级 上册",
+			"children": [
+				{
+					"name": "Ann"
+				},
+				{
+					"name": "ant"
+				},
+				{
+					"name": "apple"
+				},
+				{
+					"name": "balloon"
+				},
+				{
+					"name": "banana"
+				},
+				{
+					"name": "hello"
+				},
+				{
+					"name": "hi"
+				},
+				{
+					"name": "Ken"
+				},
+				{
+					"name": "Mocky"
+				},
+				{
+					"name": "boy"
+				},
+				{
+					"name": "cat"
+				},
+				{
+					"name": "crocodile"
+				},
+				{
+					"name": "dog"
+				},
+				{
+					"name": "duck"
+				},
+				{
+					"name": "girl"
+				},
+				{
+					"name": "monkey"
+				},
+				{
+					"name": "please"
+				},
+				{
+					"name": "teacher"
+				},
+				{
+					"name": "thank you"
+				},
+				{
+					"name": "bag"
+				},
+				{
+					"name": "book"
+				},
+				{
+					"name": "chair"
+				},
+				{
+					"name": "egg"
+				},
+				{
+					"name": "elephant"
+				},
+				{
+					"name": "fish"
+				},
+				{
+					"name": "frog"
+				},
+				{
+					"name": "pencil"
+				},
+				{
+					"name": "blue"
+				},
+				{
+					"name": "brown"
+				},
+				{
+					"name": "gift"
+				},
+				{
+					"name": "green"
+				},
+				{
+					"name": "hammer"
+				},
+				{
+					"name": "hat"
+				},
+				{
+					"name": "no"
+				},
+				{
+					"name": "red"
+				},
+				{
+					"name": "yellow"
+				},
+				{
+					"name": "yes"
+				},
+				{
+					"name": "ball"
+				},
+				{
+					"name": "car"
+				},
+				{
+					"name": "doll"
+				},
+				{
+					"name": "five"
+				},
+				{
+					"name": "four"
+				},
+				{
+					"name": "ice cream"
+				},
+				{
+					"name": "insect"
+				},
+				{
+					"name": "jacket"
+				},
+				{
+					"name": "jeep"
+				},
+				{
+					"name": "one"
+				},
+				{
+					"name": "teddy bear"
+				},
+				{
+					"name": "three"
+				},
+				{
+					"name": "train"
+				},
+				{
+					"name": "two"
+				},
+				{
+					"name": "cake"
+				},
+				{
+					"name": "eight"
+				},
+				{
+					"name": "key"
+				},
+				{
+					"name": "kite"
+				},
+				{
+					"name": "lock"
+				},
+				{
+					"name": "lollipop"
+				},
+				{
+					"name": "nine"
+				},
+				{
+					"name": "seven"
+				},
+				{
+					"name": "six"
+				},
+				{
+					"name": "ten"
+				}
+			]
+		},
+		{
+			"name": "北师大版小学英语一年级 下册",
+			"children": [
+				{
+					"name": "bird"
+				},
+				{
+					"name": "lion"
+				},
+				{
+					"name": "monkey"
+				},
+				{
+					"name": "mouse"
+				},
+				{
+					"name": "nest"
+				},
+				{
+					"name": "net"
+				},
+				{
+					"name": "panda"
+				},
+				{
+					"name": "rabbit"
+				},
+				{
+					"name": "tiger"
+				},
+				{
+					"name": "circle"
+				},
+				{
+					"name": "heart"
+				},
+				{
+					"name": "octopus"
+				},
+				{
+					"name": "ostrich"
+				},
+				{
+					"name": "peacock"
+				},
+				{
+					"name": "pig"
+				},
+				{
+					"name": "rectangle"
+				},
+				{
+					"name": "square"
+				},
+				{
+					"name": "star"
+				},
+				{
+					"name": "triangle"
+				},
+				{
+					"name": "chicken"
+				},
+				{
+					"name": "French fries"
+				},
+				{
+					"name": "hamburgers"
+				},
+				{
+					"name": "juice"
+				},
+				{
+					"name": "milk"
+				},
+				{
+					"name": "noodles"
+				},
+				{
+					"name": "pizza"
+				},
+				{
+					"name": "queen"
+				},
+				{
+					"name": "quilt"
+				},
+				{
+					"name": "rain"
+				},
+				{
+					"name": "rice"
+				},
+				{
+					"name": "robot"
+				},
+				{
+					"name": "brother"
+				},
+				{
+					"name": "father"
+				},
+				{
+					"name": "friend"
+				},
+				{
+					"name": "mother"
+				},
+				{
+					"name": "salad"
+				},
+				{
+					"name": "sandwich"
+				},
+				{
+					"name": "sister"
+				},
+				{
+					"name": "tea"
+				},
+				{
+					"name": "tomato"
+				},
+				{
+					"name": "dress"
+				},
+				{
+					"name": "pants"
+				},
+				{
+					"name": "shirt"
+				},
+				{
+					"name": "shoes"
+				},
+				{
+					"name": "socks"
+				},
+				{
+					"name": "sweater"
+				},
+				{
+					"name": "umbrella"
+				},
+				{
+					"name": "violin"
+				},
+				{
+					"name": "watch"
+				},
+				{
+					"name": "watermelon"
+				},
+				{
+					"name": "can"
+				},
+				{
+					"name": "dance"
+				},
+				{
+					"name": "jump"
+				},
+				{
+					"name": "run"
+				},
+				{
+					"name": "swim"
+				},
+				{
+					"name": "walk"
+				},
+				{
+					"name": "X-ray"
+				},
+				{
+					"name": "yo-yo"
+				},
+				{
+					"name": "zebra"
+				},
+				{
+					"name": "zoo"
+				}
+			]
+		}
+	]
+}
