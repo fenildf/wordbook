@@ -4,6 +4,10 @@ import word from './../controller/word';
 
 export default [
     {
+        key:actions.WORD_GET_CLASSIFY,
+        controller:word.getClassify
+    },
+    {
         key:actions.WORD_GET_BOOKS,
         controller:word.getBooks
     },

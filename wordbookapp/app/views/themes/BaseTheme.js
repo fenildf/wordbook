@@ -13,7 +13,10 @@ var BaseTheme = {
     itemHeightM:48,
     itemHeightL:36,
     itemHeightH:60,
-    paddingHorizontal:16
+    paddingHorizontal:16,
+    navigationHeaderBackgroundColor:'#fff',
+    navigationHeaderColor:'#333',
+    navigationHeaderFontSize:14
 }
 
 export default BaseTheme;

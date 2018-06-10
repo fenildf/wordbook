@@ -90,9 +90,13 @@ function getCountBySql(){
 function getData(type,payload) {
     let sql1,sql2;
     payload = payload;
+
     switch (type) {
+        case 'classify':
+            sql1 = `select name from classify`
+            return getDataBySql(sql1);
         case 'books':
-            sql1 = `select book_name as name,count(book_name) as count from words group by book_name`
+            sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name`
             return getDataBySql(sql1);
         case 'sections':
             sql1 = `select * from sections as b where book_name="${payload.bookName||'%'}"`;

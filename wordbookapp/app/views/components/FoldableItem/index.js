@@ -16,6 +16,19 @@ class FoldableItem extends Component {
     }
     toggle=()=>{
         this.setState({fold:!this.state.fold});
+        this.props.onStateChange&&this.props.onStateChange(!this.state.fold);
+    }
+    fold(){
+        if(this.state.fold){
+            return;
+        }
+        this.setState({fold:true});
+    }
+    unfold(){
+        if(!this.state.fold){
+            return;
+        }
+        this.setState({fold:false});
     }
     render() {
         let { fold } = this.state;

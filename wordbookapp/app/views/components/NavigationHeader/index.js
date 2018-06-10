@@ -7,6 +7,7 @@ import Text from './../Text';
 import TouchableOpacity from './../TouchableOpacity';
 const IOS = Platform.OS === 'ios';
 import FontIcon from './../FontIcon';
+import StyleSheet from './../../../util/StyleSheet';
 class Button extends Component {
     constructor(...props) {
         super(...props);
@@ -44,14 +45,7 @@ class Title extends Component {
     }
     render() {
         return <View
-            style={{
-                flex:1,
-                overflow: 'hidden',
-                flexDirection: 'row',
-                alignItems: 'center',
-                paddingLeft:20,
-                paddingRight:20,
-            }}>
+            style={styles.title}>
             {this.props.children}
         </View>
     }
@@ -108,7 +102,7 @@ export default class Header extends Component {
         return null;
     }
     _backButton(navigation) {
-        return <FontIcon style={{marginRight:20}} name='ios-arrow-round-back-outline'/>
+        return <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>
     }
     _renderRightButton() {
         if (typeof this.state.rightButton === 'object') {
@@ -125,7 +119,7 @@ export default class Header extends Component {
         if (typeof this.state.title === 'function') {
             child = this.state.title;
         } else {
-            child = <Text style={[{ fontSize: 14 }, this.props.titleStyle]}>{this.state.title}</Text>
+            child = <Text style={[styles.titleText, this.props.titleStyle]}>{this.state.title}</Text>
         }
         return <Title>{child}</Title>
     }
@@ -135,7 +129,7 @@ export default class Header extends Component {
         }
         return <View
             style={[
-                { backgroundColor: '#fff',borderBottomColor:'#f5f5f5',borderBottomWidth:px2dp(1) },
+                styles.header,
                 this.props.style,
                 {
                     height: IOS ? 64 : 44,
@@ -149,3 +143,30 @@ export default class Header extends Component {
         </View>
     }
 }
+
+
+const styles = StyleSheet.create(function(theme){
+    return {
+        header:{
+            backgroundColor: theme.navigationHeaderBackgroundColor,
+            borderBottomColor:theme.borderColor,
+            borderBottomWidth:theme.px
+        },
+        title:{
+            flex:1,
+            overflow: 'hidden',
+            flexDirection: 'row',
+            alignItems: 'center',
+            paddingLeft:20,
+            paddingRight:20,
+        },
+        titleText:{ 
+            fontSize: theme.navigationHeaderFontSize,
+            color:theme.navigationHeaderColor
+        },
+        backArrow:{
+            marginRight:20,
+            color:theme.navigationHeaderColor
+        }
+    }
+});

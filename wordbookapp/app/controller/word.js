@@ -1,5 +1,22 @@
 
 import user from './user';
+
+function getClassify(word,myWordBook){
+    return getBooks(word,myWordBook).then(state=>{
+        let books = state.books;
+        let classify = {};
+        books.forEach(book=>{
+            let items = classify[book.classify]||{
+                children:[],
+                name:book.classify
+            };
+            items.children.push(book);
+            classify[book.classify] = items;
+        });
+        return {classify:Object.values(classify)};
+
+    });
+}
 function getBooks(word, myWordBook) {
     myWordBook = myWordBook || {};
     return word('books').then((books) => {
@@ -46,5 +63,6 @@ export default {
     getBooks,
     getSections,
     getWords,
-    getMeaning
+    getMeaning,
+    getClassify
 }

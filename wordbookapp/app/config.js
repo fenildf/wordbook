@@ -1,8 +1,7 @@
 'use strict'
-import {Theme} from 'react-native-improver';
-import BaseTheme from './views/themes/BaseTheme';
 import {NativeManager} from './native';
 import BuildConfig from './BuildConfig';
+require('./views/themes');
 import {
     useProvider,
     injectProvider,
@@ -19,8 +18,7 @@ import StorageProvider from './providers/StorageProvider';
 import MeaningProvider from './providers/MeaningProvider';
 
 import providerConfigs from './providers/configs';
-//设置主题
-Theme.setTheme(BaseTheme);
+
 
 createActions(action)
 

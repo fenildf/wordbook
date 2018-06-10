@@ -12,8 +12,11 @@ import StyleSheet from './../../../util/StyleSheet';
 
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';
-import SelectableItem from './SelectableItem';
+import BookSection from './BookSection';
 import NavigationManager from './../../../util/NavigationManager';
+
+import FoldableItem from './../../components/FoldableItem';
+
 class AddBook extends ScreenComponent {
     constructor(...props) {
         super(...props);
@@ -23,7 +26,7 @@ class AddBook extends ScreenComponent {
             onRightButtonPress:this._onRightButtonPress
         }
         this.state = {
-            books: []
+            classify: []
         }
         this._selectedBooks = {
 
@@ -37,7 +40,7 @@ class AddBook extends ScreenComponent {
         NavigationManager.goBack();
     }
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_BOOKS);
+        this.dispatcher.dispatch(actions.WORD_GET_CLASSIFY);
     }
     _selectedItem=(isSelected,book)=>{
         if(isSelected){
@@ -47,14 +50,15 @@ class AddBook extends ScreenComponent {
         }
     }
     _renderBooks(){
-        let books = this.state.books;
-        return books.map((book)=>{
+        let classify = this.state.classify;
+        return classify.map((item,index)=>{
             return (
-                <SelectableItem
-                    onSelected={(isSelected)=>this._selectedItem(isSelected,book)}
-                    key={book.name}
-                    name={book.name}
-                    count={book.count}/>
+                <FoldableItem
+                    key={item.name}
+                    itemStyle={[styles.itemStyle,styles.borderTop]}
+                    title={item.name}>
+                    {BookSection(item.children,this._selectedItem)}
+                </FoldableItem>
             )
         });
     } 
@@ -77,6 +81,16 @@ const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
             flex: 1
+        },
+        borderTop:{
+            borderBottomWidth:theme.px,
+            borderBottomColor:theme.borderColor,
+            borderTopWidth:theme.px,
+            borderTopColor:theme.borderColor
+        },
+        itemStyle:{
+            backgroundColor:'#fff',
+            paddingLeft:theme.paddingHorizontal
         }
     }
 })

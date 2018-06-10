@@ -50,9 +50,9 @@ const styles = StyleSheet.create(function(theme){
             height:theme.itemHeightM,
             alignItems:'center',
             backgroundColor:'#fff',
-            borderBottomWidth:theme.px,
-            borderBottomColor:theme.borderColor,
-            paddingHorizontal:theme.paddingHorizontal
+            borderTopWidth:theme.px,
+            borderTopColor:theme.borderColor,
+            marginLeft:theme.paddingHorizontal
         },
         name:{
             marginLeft:8
