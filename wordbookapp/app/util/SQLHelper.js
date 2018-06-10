@@ -47,9 +47,24 @@ function executeSql(sql, data = []) {
     }))
 }
 
+function createTable(name,column){
+   let sql =  "CREATE TABLE IF NOT EXISTS " + name + "(" +column.join(',') +");";
+   return executeSql(sql);
+}
+function insertOrReplace(tableName,columns,data){
+    let sql = "INSERT OR REPLACE INTO " +
+                tableName +
+                "(" + columns.join(',') +
+                ") VALUES (" +
+                data.map(v=>'"'+v+'"').join(',') +
+                ")";
 
+    return executeSql(sql);
+}
 
 
 export  default{
-    executeSql
+    executeSql,
+    createTable,
+    insertOrReplace
 }
