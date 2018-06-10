@@ -47,7 +47,7 @@ function appInit(myStudyWord, myWordBook,word) {
         'is_remember  default(0)',
         'is_temp_remember  default(0)',
         'last_read_time interger not null',
-        'create_time interger default()',
+        'create_time interger default(strftime("%s","now")*1000 )',
         'remember_times interger default(0)',
         'first_remember_time interger',
         'remember_time interger',
