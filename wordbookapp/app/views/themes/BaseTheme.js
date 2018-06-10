@@ -8,7 +8,7 @@ var BaseTheme = {
     f4: 16,
     f5: 18,
     f6: 20,
-    px:1/PixelRatio.get(),
+    px:px2dp(1),
     borderColor:'#c5c5c5',
     itemHeightM:48,
     itemHeightL:36,

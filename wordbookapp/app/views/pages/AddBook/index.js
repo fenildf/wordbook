@@ -55,7 +55,7 @@ class AddBook extends ScreenComponent {
             return (
                 <FoldableItem
                     key={item.name}
-                    itemStyle={[styles.itemStyle,styles.borderTop]}
+                    style={[styles.itemStyle,styles.borderTop]}
                     title={item.name}>
                     {BookSection(item.children,this._selectedItem)}
                 </FoldableItem>
@@ -83,10 +83,8 @@ const styles = StyleSheet.create(function (theme) {
             flex: 1
         },
         borderTop:{
-            borderBottomWidth:theme.px,
-            borderBottomColor:theme.borderColor,
             borderTopWidth:theme.px,
-            borderTopColor:theme.borderColor
+            borderColor:theme.borderColor
         },
         itemStyle:{
             backgroundColor:'#fff',
