@@ -21,14 +21,15 @@ class Word extends ScreenComponent {
         super(...props);
         let params = this.getScreen().getNavigation().state.params || {};
         let word = params.word || {}
-        let words = params.words;
+        let sectionName = params.sectionName;
         let bookName = params.bookName;
         this.navigationOptions = {
             title: bookName
         }
         this.state = {
-            words: words,
+            words: [],
             word,
+            sectionName,
             bookName,
             meaning:null
         }
@@ -50,14 +51,18 @@ class Word extends ScreenComponent {
         this.dispatcher.release();
     }
     componentDidMount() {
-
+        this._fetchData();
     }
     _onRemember = () => {
         this._next();
         this._mark(this.state.word,true);
     }
     _fetchData(){
-        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:this.state.bookName});
+        let {
+            bookName,
+            sectionName
+        } = this.state;
+        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName,sectionName});
     }
     _findWordIndex(word,words){
         let i=0,l =words.length;

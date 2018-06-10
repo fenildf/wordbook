@@ -5,13 +5,14 @@ import {
     View
 } from 'react-native';
 
-import Text from './../../components/Text';
-import SectionL from './../../components/Section';
 import ScreenComponent from './../../components/ScreenComponent';
-import ScrollView from './../../components/ScrollView';
+import FlatList from './../../components/FlatList';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
+import Item from './Item';
+import StyleSheet from './../../../util/StyleSheet';
+
 
 class Section extends ScreenComponent{
     constructor(...props){
@@ -32,19 +33,40 @@ class Section extends ScreenComponent{
 
     componentDidMount() {
         let section = this.state.section
-        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.book_name,sectionName:section.name})
+        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.bookName,sectionName:section.name})
     }
-    
+    _renderItem=({item,index})=>{
+        let {section} = this.state;
+        return (
+            <Item 
+                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Word',params:{bookName:section.bookName,sectionName:section.name,word:item}})}
+                data={item}/>
+        )
+    }
+    _keyExtractor=(item)=>{
+        return (item.id||item.name)+'';
+    }
     render(){
         return (
-            <ScrollView >
-                <SectionL 
-                    onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Word',params:{bookName:name,word:item,words}})}
-                    data={this.state.words}/>
-            </ScrollView>
+            <FlatList 
+                ref='List'
+                renderItem={this._renderItem}
+                keyExtractor={this._keyExtractor}
+                getItemLayout={(data, index) => (
+                    {length: 48, offset: 48 * index, index}
+                )}
+                style={styles.wrapper}
+                data={this.state.words} />
         )
     }
 }
 
-
+const styles = StyleSheet.create(function(theme){
+    return {
+        wrapper:{
+            flex:1,
+            backgroundColor:'#fff'
+        }
+    }
+});
 export default Section;
