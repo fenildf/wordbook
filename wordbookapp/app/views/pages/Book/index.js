@@ -6,15 +6,14 @@ import {
     InteractionManager
 } from 'react-native';
 
-import Text from './../../components/Text';
-import Section from './../../components/Section';
+
 import ScreenComponent from './../../components/ScreenComponent';
-import ScrollView from './../../components/ScrollView';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
 import FlatList from './../../components/FlatList';
-import Word from './Word';
+import Item from './Item';
+import StyleSheet from './../../../util/StyleSheet';
 class Book extends ScreenComponent{
     constructor(...props){
         super(...props);
@@ -54,9 +53,9 @@ class Book extends ScreenComponent{
     _renderItem=({item,index})=>{
         let {book:{name}} = this.state;
         return (
-            <Word 
-                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{bookName:name,section:item.name}})}
-                word={item}/>
+            <Item 
+                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{bookName:name,section:item}})}
+                data={item}/>
         )
     }
     _keyExtractor=(item)=>{
@@ -71,10 +70,19 @@ class Book extends ScreenComponent{
                 getItemLayout={(data, index) => (
                     {length: 48, offset: 48 * index, index}
                 )}
+                style={styles.wrapper}
                 data={this.state.sections} />
         )
     }
 }
 
+const styles = StyleSheet.create(function(theme){
+    return {
+        wrapper:{
+            flex:1,
+            backgroundColor:'#fff'
+        }
+    }
+});
 
 export default Book;
