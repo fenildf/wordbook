@@ -74,7 +74,6 @@ function Sentence(props) {
     let data = props.data;
     return (
         <FoldableItem
-            defaultUnfold={true}
             titleStyle={styles.titleStyle}
             title='例句'>
             {data.map(function (s) {
@@ -136,6 +135,7 @@ function StemsAffixes(props) {
     }
     return (
         <FoldableItem
+            fold={true}
             titleStyle={styles.titleStyle}
             title='词根词缀'>
             {data.map(function (s) {
@@ -185,6 +185,7 @@ function EEMeaning(props) {
     }
     return (
         <FoldableItem
+            fold={true}
             titleStyle={styles.titleStyle}
             title='英英释义'>
             {data.map(function (meaning) {

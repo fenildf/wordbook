@@ -52,7 +52,6 @@ const styles = StyleSheet.create(function(theme){
             backgroundColor:'#fff',
             borderTopWidth:theme.px,
             borderTopColor:theme.borderColor,
-            marginLeft:theme.paddingHorizontal
         },
         name:{
             marginLeft:8

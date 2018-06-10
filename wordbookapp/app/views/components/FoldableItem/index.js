@@ -11,42 +11,52 @@ class FoldableItem extends Component {
     constructor(...props) {
         super(...props);
         this.state = {
-            fold: !this.props.defaultUnfold
+            fold: !!this.props.fold,
         }
     }
-    toggle=()=>{
-        this.setState({fold:!this.state.fold});
-        this.props.onStateChange&&this.props.onStateChange(!this.state.fold);
+    toggle = () => {
+        let fold = this.props.fold;
+        if(fold===undefined){
+            fold = this.state.fold;
+        }
+        if (this.props.onStateChange) {
+            this.props.onStateChange(!fold);
+        } else {
+            this.setState({ fold: !fold});
+        }
     }
-    fold(){
-        if(this.state.fold){
+    fold() {
+        if (this.state.fold) {
             return;
         }
-        this.setState({fold:true});
+        this.toggle();
     }
-    unfold(){
-        if(!this.state.fold){
+    unfold() {
+        if (!this.state.fold) {
             return;
         }
-        this.setState({fold:false});
+        this.toggle();
     }
     render() {
         let { fold } = this.state;
+        if (this.props.fold !== undefined) {
+            fold = this.props.fold;
+        }
         return (
             <View
-                style={[styles.view,this.props.style]}>
+                style={[styles.view, this.props.style]}>
                 <Item
-                    style={[styles.item,this.props.itemStyle]}
+                    style={[styles.item, this.props.itemStyle]}
                     onPress={this.toggle}>
                     <Text
-                        style={[styles.title,this.props.titleStyle]}>
+                        style={[styles.title, this.props.titleStyle]}>
                         {this.props.title}
                     </Text>
                 </Item>
-                {!fold?this.props.children:null}
+                {!fold ? this.props.children : null}
             </View>
         )
-        ;
+            ;
     }
 }
 
@@ -56,11 +66,11 @@ const styles = StyleSheet.create(function (theme) {
         view: {
             backgroundColor: '#fff',
         },
-        item:{
-            paddingHorizontal:0
+        item: {
+            paddingHorizontal: 0
         },
-        title:{
-            
+        title: {
+
         }
     }
 });
