@@ -23,28 +23,57 @@ const books = [];
 const sections = [];
 const words = [];
 
-files.forEach(function(file){
-    if(/\.json$/.test(file)){
-        let data = JSON.parse(fs.readFileSync('wordbooks/'+file));
+files.forEach(function (file) {
+    if (/\.json$/.test(file)) {
+        let data = JSON.parse(fs.readFileSync('wordbooks/' + file));
         let bookname = data.name;
-        books.push({name:bookname});
-        data.children.forEach(function(section){
+        let classify = data.classify;
+        books.push({ name: bookname,book_classify:classify });
+        data.children.forEach(function (section) {
             let sectionname = section.name;
-            sections.push({name:sectionname,book_name:bookname});
-            section.children.forEach(function(word){
-                words.push({section_name:sectionname,book_name:bookname,name:word.name});
+            sections.push({ name: sectionname, book_name: bookname,book_classify:classify });
+            section.children.forEach(function (word) {
+                words.push({ section_name: sectionname, book_name: bookname, name: word.name,book_classify:classify });
             })
         });
-        
+
     }
+});
+tables.push({
+    name: 'classify',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null'
+    ],
+    source: [
+        {
+            name: '小学英语'
+        },
+        {
+            name: '初中英语'
+        },
+        {
+            name: '高中英语'
+        },
+        {
+            name: '大学英语'
+        },
+        {
+            name: '雅思托福'
+        },
+        {
+            name:'成人考试'
+        }
+    ]
 });
 tables.push({
     name: 'books',
     column: [
         'id integer primary key autoincrement not null',
-        'name text not null'
+        'name text not null',
+        'book_classify text not null'
     ],
-    source:books
+    source: books
 });
 
 tables.push({
@@ -52,9 +81,10 @@ tables.push({
     column: [
         'id integer primary key autoincrement not null',
         'name text not null',
-        'book_name text not null'
+        'book_name text not null',
+        'book_classify text not null'
     ],
-    source:sections
+    source: sections
 });
 tables.push({
     name: 'words',
@@ -62,9 +92,10 @@ tables.push({
         'id integer primary key autoincrement not null',
         'name text not null',
         'book_name text not null',
-        'section_name text not null'
+        'section_name text not null',
+        'book_classify text not null'
     ],
-    source:words
+    source: words
 });
 
 const db = new SQLITE.Database(PATH);
@@ -78,7 +109,7 @@ db.serialize(function () {
             table.column.join(',') +
             ");");
         if (table.source) {
-            let columns =table.column.map(function (item) {
+            let columns = table.column.map(function (item) {
                 return getColumn(item);
             });
             let update = db.prepare("INSERT OR REPLACE  INTO " +
@@ -99,7 +130,7 @@ db.serialize(function () {
     });
 })
 
-db.close(function(){
+db.close(function () {
 
     const ANDROID_DB_PATH = 'wordbookapp/android/app/src/main/assets/data/database.db';
     const IOS_DB_PATH = 'wordbookapp/ios/wordbookapp/data/database.db';
