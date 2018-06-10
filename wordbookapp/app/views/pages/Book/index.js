@@ -24,7 +24,7 @@ class Book extends ScreenComponent{
             title:book.name||'单词本'
         }
         this.state = {
-            words:[],
+            sections:[],
             book
         }
         this.dispatcher = createDispatcher(this,this._onData);
@@ -48,15 +48,14 @@ class Book extends ScreenComponent{
         }
     }
     _getWords(){
-        let {name} = this.state.book
-        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:name})
+        let {name,classify} = this.state.book
+        this.dispatcher.dispatch(actions.WORD_GET_SECTIONS,{bookName:name,classify})
     }
     _renderItem=({item,index})=>{
-        let {book:{name},words} = this.state;
-        item.index = index;
+        let {book:{name}} = this.state;
         return (
             <Word 
-                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Word',params:{bookName:name,word:item,words}})}
+                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{bookName:name,section:item.name}})}
                 word={item}/>
         )
     }
@@ -72,7 +71,7 @@ class Book extends ScreenComponent{
                 getItemLayout={(data, index) => (
                     {length: 48, offset: 48 * index, index}
                 )}
-                data={this.state.words} />
+                data={this.state.sections} />
         )
     }
 }

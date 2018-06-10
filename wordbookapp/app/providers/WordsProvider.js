@@ -99,7 +99,7 @@ function getData(type,payload) {
             sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name`
             return getDataBySql(sql1);
         case 'sections':
-            sql1 = `select * from sections as b where book_name="${payload.bookName||'%'}"`;
+            sql1 = `select name,book_name,id,book_classify as classify from sections as b where book_name="${payload.bookName||'%'}"`;
             return getDataBySql(sql1);
         case 'words':
             sql1= `select * from words as b where book_name="${payload.bookName||'%'}"`;

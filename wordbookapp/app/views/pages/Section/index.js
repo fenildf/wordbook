@@ -39,7 +39,7 @@ class Section extends ScreenComponent{
         return (
             <ScrollView >
                 <SectionL 
-                    onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Section',params:{section:item}})}
+                    onItemPress={item=>dispatch(actions.APP_NAVIGATE,{routeName:'Word',params:{bookName:name,word:item,words}})}
                     data={this.state.words}/>
             </ScrollView>
         )
