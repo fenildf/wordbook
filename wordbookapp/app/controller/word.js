@@ -1,8 +1,8 @@
 
 import user from './user';
 
-function getClassify(word,myWordBook){
-    return getBooks(word,myWordBook).then(state=>{
+function getClassify(word){
+    return getBooks(word).then(state=>{
         let books = state.books;
         let classify = {};
         books.forEach(book=>{
