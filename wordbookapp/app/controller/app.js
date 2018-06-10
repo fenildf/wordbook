@@ -7,7 +7,7 @@ function fixOldVersion(myStudyWord, myWordBook) {
             let name = word.name;
             let is_remember = word.isRemember||false;
             let is_temp_remember = word.isTempRemember ||is_remember;
-            let create_time = word.create_time || 0;
+            let create_time = word.createTime || 0;
             let last_read_time = word.lastReadTime || create_time;
             let remember_times = word.rememberTimes || 0;
             let first_remember_time = word.firtstRememberTime||0;
@@ -24,7 +24,7 @@ function fixOldVersion(myStudyWord, myWordBook) {
             let count = book.count||0;
             let position = book.position ||0;
             let current_word = book.currentWord || 'null';
-            let create_time = book.create_time || 0;
+            let create_time = book.createTime || 0;
             let last_read_time = book.lastReadTime || create_time;
 
             tasks.push(SQLHelper.insertOrReplace(
@@ -38,7 +38,7 @@ function fixOldVersion(myStudyWord, myWordBook) {
    
 }
 
-function appInit(myStudyWord, myWordBook) {
+function appInit(myStudyWord, myWordBook,word) {
     let tasks = [];
 
     tasks.push(SQLHelper.createTable('user_study_word', [
@@ -50,6 +50,7 @@ function appInit(myStudyWord, myWordBook) {
         'create_time interger not null',
         'remember_times interger default(0)',
         'first_remember_time interger',
+        'user_id default(1)'
 
     ]));
     tasks.push(SQLHelper.createTable('user_word_book', [
@@ -59,11 +60,18 @@ function appInit(myStudyWord, myWordBook) {
         'position integer',
         'current_word text',
         'create_time interger not null',
-        'last_read_time interger not null'
+        'last_read_time interger not null',
+        'user_id default(1)'
     ]));
     return Promise.all(tasks).then(() => {
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
+                word('studyWord').then(function(data){
+                    console.log(data,222)
+                })
+                word('wordBook').then(function(data){
+                    console.log(data,333)
+                })
                 return {
                     init: true
                 }

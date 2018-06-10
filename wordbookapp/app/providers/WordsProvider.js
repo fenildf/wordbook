@@ -92,6 +92,12 @@ function getData(type,payload) {
     payload = payload;
 
     switch (type) {
+        case 'studyWord':
+            sql1 = 'select * from user_study_word';
+            return getDataBySql(sql1);
+        case 'wordBook':
+            sql1 = 'select * from user_word_book';
+            return getDataBySql(sql1);
         case 'classify':
             sql1 = `select name from classify`
             return getDataBySql(sql1);
