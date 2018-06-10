@@ -12,13 +12,21 @@ class FoldableItem extends Component {
         super(...props);
         this.state = {
             fold: !!this.props.fold,
+            propsFold:this.props.fold
+        }
+    }
+    static getDerivedStateFromProps(props,state){
+        if(props.fold!==state.propsFold){
+            return {
+                fold:props.fold,
+                propsFold:props.fold
+            }
+        }else{
+            return null;
         }
     }
     toggle = () => {
-        let fold = this.props.fold;
-        if(fold===undefined){
-            fold = this.state.fold;
-        }
+        let fold = this.state.fold;
         if (this.props.onStateChange) {
             this.props.onStateChange(!fold);
         } else {
@@ -39,9 +47,6 @@ class FoldableItem extends Component {
     }
     render() {
         let { fold } = this.state;
-        if (this.props.fold !== undefined) {
-            fold = this.props.fold;
-        }
         return (
             <View
                 style={[styles.view, this.props.style]}>
