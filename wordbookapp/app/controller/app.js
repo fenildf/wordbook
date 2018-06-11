@@ -40,14 +40,13 @@ function fixOldVersion(myStudyWord, myWordBook) {
 
 function appInit(myStudyWord, myWordBook,word) {
     let tasks = [];
-
     tasks.push(SQLHelper.createTable('user_study_word', [
         'id integer primary key autoincrement not null',
         'name text not null UNIQUE',
         'is_remember  default(0)',
         'is_temp_remember  default(0)',
         'last_read_time interger not null',
-        'create_time interger default(strftime("%s","now")*1000 )',
+        'create_time interger default(CURRENT_TIMESTAMP*1000)',
         'remember_times interger default(0)',
         'first_remember_time interger',
         'remember_time interger',
