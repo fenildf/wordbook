@@ -32,7 +32,7 @@ function getSections(word, $payload) {
 
 }
 
-function getWords(word) {
+function getWords(word, $payload) {
     let payload = $payload();
     return word('words', payload).then((words) => {
         return { words };

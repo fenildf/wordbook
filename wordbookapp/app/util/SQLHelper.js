@@ -30,6 +30,7 @@ function ready() {
 }
 function error(err){
     console.log('execute sql err:',err);
+    alert(err.message);
 }
 
 function executeSql(sql, data = []) {
@@ -56,7 +57,23 @@ function insertOrReplace(tableName,columns,data){
                 tableName +
                 "(" + columns.join(',') +
                 ") VALUES (" +
-                data.map(v=>'"'+v+'"').join(',') +
+                data.map(v=>{
+                    if(/\(.*?\)/.test(v)){
+                        return v;
+                    }else{
+                        return '"'+v+'"';
+                    }
+                }).join(',') +
+                ")";
+
+    return executeSql(sql);
+}
+function insertOrReplace2(tableName,columns,data){
+    let sql = "INSERT OR REPLACE INTO " +
+                tableName +
+                "(" + columns.join(',') +
+                ") VALUES (" +
+                data.join(',') +
                 ")";
 
     return executeSql(sql);
@@ -76,5 +93,6 @@ export  default{
     executeSql,
     createTable,
     insertOrReplace,
+    insertOrReplace2,
     insertOrIgnore
 }

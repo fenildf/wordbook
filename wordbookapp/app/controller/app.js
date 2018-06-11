@@ -11,10 +11,11 @@ function fixOldVersion(myStudyWord, myWordBook) {
             let last_read_time = word.lastReadTime || create_time;
             let remember_times = word.rememberTimes || 0;
             let first_remember_time = word.firtstRememberTime||0;
+            let remember_time = first_remember_time;
             tasks.push(SQLHelper.insertOrReplace(
                 'user_study_word',
-                ['name','is_remember','is_temp_remember','last_read_time','create_time','remember_times','first_remember_time'],
-                [name,is_remember,is_temp_remember,last_read_time,create_time,remember_times,first_remember_time],
+                ['name','is_remember','is_temp_remember','last_read_time','create_time','remember_times','first_remember_time','remember_time'],
+                [name,is_remember,is_temp_remember,last_read_time,create_time,remember_times,first_remember_time,remember_time],
             ));
         });
     }
@@ -46,7 +47,7 @@ function appInit(myStudyWord, myWordBook,word) {
         'is_remember  default(0)',
         'is_temp_remember  default(0)',
         'last_read_time interger not null',
-        'create_time interger default(CURRENT_TIMESTAMP*1000)',
+        'create_time interger',
         'remember_times interger default(0)',
         'first_remember_time interger',
         'remember_time interger',
@@ -70,6 +71,7 @@ function appInit(myStudyWord, myWordBook,word) {
                     console.log(data,222)
                 })
                 word('wordBook').then(function(data){
+                    alert(JSON.stringify(data))
                     console.log(data,333)
                 })
                 return {

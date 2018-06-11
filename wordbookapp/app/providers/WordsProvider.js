@@ -81,6 +81,9 @@ function getDataBySql(sql) {
 function insertOrReplace(table, column, data) {
     return SQLHelper.insertOrReplace(table, column, data)
 }
+function insertOrReplace2(table, column, data){
+    return SQLHelper.insertOrReplace2(table, column, data)
+}
 const TEMP_TIME_INTERVAL = 4 * 3600 * 1000;
 const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
@@ -93,17 +96,41 @@ function setData(data) {
                 let count = book.count;
                 let position = book.position;
                 let current_word = book.currentWord;
-                let create_time = book.createTime;
+                let create_time = book.createTime||Date.now();
                 let last_read_time = book.lastReadTime || create_time;
-                let column = [];
-                let data = [];
+                let column = ['name', 'count', 'position', 'current_word','create_time','last_read_time'];
+                let data =  [name, count, position, current_word, `ifnull(select create_time from user_word_book where name = "${name}",${create_time})`, last_read_time];
                 
                 return insertOrReplace(
                     'user_word_book ',
-                    ['name', 'count', 'position', 'current_word', 'create_time', 'last_read_time'],
-                    [name, count, position, current_word, create_time, last_read_time],
+                    column,
+                    data
+                    
                 );
-            });                
+            });  
+        case 'userStudyWord':
+            return data.items.map((word)=>{
+                let name = word.name;
+                let is_temp_remember = word.isTempRemember;
+                let last_read_time = word.lastReadTime;
+        
+                
+                return insertOrReplace2(
+                    'user_study_word ',
+                    ['name', 'is_remember', 'is_temp_remember', 'last_read_time', 'create_time','remember_times','first_remember_time','remember_time'],
+                    [
+                        `"${name}"`, 
+                        is_temp_remember?`ifnull("is_remember",1)`:'0',
+                        is_temp_remember?'1':'0', 
+                        `"${last_read_time}"`,
+                        `ifnull(create_time,${last_read_time})` , 
+                        is_temp_remember?`ifnull(remember_times,0)+1`:'0',
+                        is_temp_remember?`ifnull(first_remember_time,${last_read_time})`:'null',
+                        is_temp_remember?last_read_time:'null',
+                    ],
+                );
+            });  
+
     }
 }
 function getData(type, payload) {

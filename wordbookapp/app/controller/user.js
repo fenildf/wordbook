@@ -12,7 +12,6 @@ function addBook($payload, $persist) {
             userWordBook[name] = {
                 name: book.name,
                 count: book.count,
-                createTime: now,
                 lastReadTime: now,
                 position: 0,
                 currentWord: ''
@@ -67,53 +66,13 @@ function markWord($payload, $persist) {
     };
     let word = payload.word;
     let isRemember = payload.isRemember;
-    let wordName = word.name;
     let studyWord = {
-        name: wordName,
         name: word.name,
-        isRemember,
         isTempRemember: isRemember,
         lastReadTime: now,
     };
 
-    let today = new Date();
-    today.setHours(0);
-    today.setMinutes(0);
-    today.setSeconds(0);
-    today.setMilliseconds(0);
-    if (!studyWord) {
-        studyWord = {
-            name: word.name,
-            isRemember,
-            isTempRemember: isRemember,
-            createTime: now,
-            lastReadTime: now,
-        }
-        book.position++;
-        myStudyWord[wordName] = studyWord;
-    } else {
-        studyWord.lastReadTime = now;
-        studyWord.isTempRemember = isRemember;
-
-        if (isRemember) {
-            //首次记住的时间
-            if (!studyWord.rememberTimes || studyWord.rememberTimes === 0) {
-                studyWord.rememberTimes = 0;
-                studyWord.firstRememberTime = now;
-            }
-            studyWord.rememberTimes++;
-            if (isRealRemember(studyWord, now)) {
-                studyWord.isRemember = true;
-            }
-        } else {
-            studyWord.isRemember = false;
-            studyWord.isTempRemember = false;
-            studyWord.firstRememberTime = 0;
-            studyWord.rememberTimes = 0;
-        }
-    }
-
-    $persist('myStudyWord', myStudyWord);
+    $persist('word', {type:'userStudyWord',items:[studyWord]});
 }
 export default {
     addBook,
