@@ -99,7 +99,9 @@ function setData(data) {
                 let create_time = book.createTime||Date.now();
                 let last_read_time = book.lastReadTime || create_time;
                 let column = ['name', 'count', 'position', 'current_word','create_time','last_read_time'];
-                let data =  [name, count, position, current_word, `ifnull(select create_time from user_word_book where name = "${name}",${create_time})`, last_read_time];
+                let data =  [name, count, position, current_word, 
+                            `ifnull((select create_time from user_word_book where name = '${name}'),${create_time})`,
+                            last_read_time];
                 
                 return insertOrReplace(
                     'user_word_book ',
@@ -120,7 +122,7 @@ function setData(data) {
                     ['name', 'is_remember', 'is_temp_remember', 'last_read_time', 'create_time','remember_times','first_remember_time','remember_time'],
                     [
                         `"${name}"`, 
-                        is_temp_remember?`ifnull("is_remember",1)`:'0',
+                        is_temp_remember?`1`:'0',
                         is_temp_remember?'1':'0', 
                         `"${last_read_time}"`,
                         `ifnull(create_time,${last_read_time})` , 
