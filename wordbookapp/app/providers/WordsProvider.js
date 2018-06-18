@@ -75,7 +75,6 @@ function getDataBySql(sql) {
             let item = rows.item(i);
             collection.push(item);
         }
-        console.log(collection)
         return collection;
     })
 }
