@@ -13,7 +13,7 @@ function ready() {
     } else {
         readyPromise = new Promise(function (resolve, reject) {
             database = SQLite.openDatabase(
-                { name: "data2", createFromLocation: "~data/database.db" },
+                { name: "word", createFromLocation: "~data/database.db" },
                 function(){
                     resolve();
                     readyPromise = null;
