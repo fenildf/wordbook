@@ -3,11 +3,11 @@ import SQLHelper from './../util/SQLHelper';
 function fixOldVersion(myStudyWord, myWordBook) {
     let tasks = [];
     if(myStudyWord){
-        Object.values(myStudyWord).forEach(word=>{
+        Object.values(myStudyWord).forEach((word,i)=>{
             let name = word.name;
             let is_remember = word.isRemember||0;
             let is_temp_remember = word.isTempRemember ||is_remember;
-            let create_time = word.createTime || 0;
+            let create_time = word.lastReadTime || 0;
             let last_read_time = word.lastReadTime || create_time;
             let remember_times = word.rememberTimes || 0;
             let first_remember_time = word.firtstRememberTime||0;
