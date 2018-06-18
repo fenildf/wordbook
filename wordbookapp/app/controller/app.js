@@ -5,7 +5,7 @@ function fixOldVersion(myStudyWord, myWordBook) {
     if(myStudyWord){
         Object.values(myStudyWord).forEach(word=>{
             let name = word.name;
-            let is_remember = word.isRemember||false;
+            let is_remember = word.isRemember||0;
             let is_temp_remember = word.isTempRemember ||is_remember;
             let create_time = word.createTime || 0;
             let last_read_time = word.lastReadTime || create_time;
@@ -67,13 +67,6 @@ function appInit(myStudyWord, myWordBook,word) {
     return Promise.all(tasks).then(() => {
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
-                word('wordSection').then(function(data){
-                    console.log(data,222)
-                })
-                word('wordBook').then(function(data){
-                    alert(JSON.stringify(data))
-                    console.log(data,333)
-                })
                 return {
                     init: true
                 }

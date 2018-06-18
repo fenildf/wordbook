@@ -75,6 +75,7 @@ function getDataBySql(sql) {
             let item = rows.item(i);
             collection.push(item);
         }
+        console.log(collection)
         return collection;
     })
 }
@@ -136,7 +137,7 @@ function setData(data) {
     }
 }
 function getData(type, payload) {
-    let sql1, sql2;
+    let sql1;
     payload = payload;
 
     switch (type) {
@@ -179,8 +180,8 @@ function getData(type, payload) {
                 let now = Date.now();
                 let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
                 sql1 = `select ${dateString} as name,"我的生词本" as bookName,id,"我的生词本" as classify from user_study_word
-                        where is_remember != 'true' or 
-                        (remember_times>=1 and first_remember_time-${now}<${TEMP_TIME_INTERVAL})
+                        where first_remember_time-${now}<${TEMP_TIME_INTERVAL} and 
+                        (remember_time-${now} <${THREE_DAY_MILLISECONDS})
                         group by ${dateString}`;
             } else if (payload.bookName === '我的单词本') {
                 let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
@@ -190,7 +191,22 @@ function getData(type, payload) {
             }
             return getDataBySql(sql1);
         case 'words':
-            sql1 = `select * from words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
+            if (payload.bookName === '我的单词本') {
+                let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
+                sql1 = `select name as name,"我的单词本" as book_name,id,"我的单词本" as book_classify,
+                        ${dateString} as section_name from user_study_word
+                        where ${dateString} = '${payload.sectionName}' `;
+            } else if (payload.bookName === '我的生词本') {
+                let now = Date.now();
+                let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
+                sql1 = `select name as name,"我的单词本" as book_name,id,"我的单词本" as book_classify,
+                        ${dateString} as section_name from user_study_word
+                        where ${dateString} = '${payload.sectionName}'
+                        and first_remember_time-${now}<${TEMP_TIME_INTERVAL} and 
+                        (remember_time-${now} <${THREE_DAY_MILLISECONDS})`;
+            } else {
+                sql1 = `select * from words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
+            }
             return getDataBySql(sql1);
 
 
