@@ -125,9 +125,9 @@ function setData(data) {
                         is_temp_remember?`1`:'0',
                         is_temp_remember?'1':'0', 
                         `"${last_read_time}"`,
-                        `ifnull(create_time,${last_read_time})` , 
-                        is_temp_remember?`ifnull(remember_times,0)+1`:'0',
-                        is_temp_remember?`ifnull(first_remember_time,${last_read_time})`:'null',
+                        `ifnull((select create_time from user_study_word where name = '${name}'),${last_read_time})` , 
+                        is_temp_remember?`ifnull((select remember_times from user_study_word where name = '${name}'),0)+1`:'0',
+                        is_temp_remember?`ifnull(((select first_remember_time from user_study_word where name = '${name}')),${last_read_time})`:'null',
                         is_temp_remember?last_read_time:'null',
                     ],
                 );
