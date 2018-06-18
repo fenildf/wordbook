@@ -11,13 +11,10 @@ import {
 
 import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
-import ProgressItem from './../../components/ProgressItem';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
 
 import actions from '../../../constants/actions';
-import Text from './../../components/Text';
-import SectionTitle from './../../components/SectionTitle';
 import AddButton from './AddButton';
 import BookItem from './BookItem';
 class Main extends ScreenComponent {
@@ -35,7 +32,7 @@ class Main extends ScreenComponent {
     _onData(data) {
     }
     _watch=(changed)=> {
-        if (changed.myWordBook) {
+        if (changed.word) {
             this._getBooks();
         }
     }

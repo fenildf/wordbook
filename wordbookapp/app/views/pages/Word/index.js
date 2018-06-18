@@ -43,7 +43,7 @@ class Word extends ScreenComponent {
         }
     }
     _onProviderChange=(change)=>{
-        if(change.myStudyWord){
+        if(change.word){
             this._fetchData();
         }
     }

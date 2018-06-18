@@ -42,7 +42,7 @@ class Book extends ScreenComponent{
         this._getWords();
     }
     _onProviderChange=(change)=>{
-        if(change.myStudyWord){
+        if(change.word){
             this._getWords();
         }
     }
