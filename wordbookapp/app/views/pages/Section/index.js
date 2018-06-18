@@ -27,10 +27,16 @@ class Section extends ScreenComponent{
             section
         }
         this.dispatcher = createDispatcher(this,this._onData);
+        this.dispatcher.watch(this._onProviderChange)
     }
     _onData(data){
     }
-
+    _onProviderChange=(change)=>{
+        if(change.word){
+            let section = this.state.section
+            this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.bookName,sectionName:section.name})
+        }
+    }
     componentDidMount() {
         let section = this.state.section
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.bookName,sectionName:section.name})

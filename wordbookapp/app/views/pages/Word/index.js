@@ -34,7 +34,7 @@ class Word extends ScreenComponent {
             meaning:null
         }
         this.dispatcher = createDispatcher(this, this._onData);
-        this.dispatcher.watch(this._onProviderChange)
+        // this.dispatcher.watch(this._onProviderChange)
     }
     _onData(data) {
         switch(data.key){
