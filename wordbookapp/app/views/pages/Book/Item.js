@@ -2,10 +2,7 @@
 
 import React from 'react';
 
-import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
-import { View } from 'react-native';
-import TouchableOpacity from './../../components/TouchableOpacity';
 import StyleSheet from './../../../util/StyleSheet';
 import Row from './../../components/Item';
 function Item(props) {
