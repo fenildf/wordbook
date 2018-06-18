@@ -154,8 +154,8 @@ function getData(type, payload) {
                     });
                     let now = Date.now();
                     return getDataBySql(`select count(name) as count from user_study_word 
-                                        where is_remember != 'true' or 
-                                        (remember_times>=1 and first_remember_time-${now}>${TEMP_TIME_INTERVAL})`).then(([book]) => {
+                                        where first_remember_time-${now}<${TEMP_TIME_INTERVAL} and 
+                                        (remember_time-${now} <${THREE_DAY_MILLISECONDS})`).then(([book]) => {
                             data.unshift({
                                 name: '我的生词本',
                                 count: book.count
@@ -199,7 +199,7 @@ function getData(type, payload) {
             } else if (payload.bookName === '我的生词本') {
                 let now = Date.now();
                 let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
-                sql1 = `select name as name,"我的单词本" as book_name,id,"我的单词本" as book_classify,
+                sql1 = `select name as name,"我的生词本" as book_name,id,"我的生词本" as book_classify,
                         ${dateString} as section_name from user_study_word
                         where ${dateString} = '${payload.sectionName}'
                         and first_remember_time-${now}<${TEMP_TIME_INTERVAL} and 
