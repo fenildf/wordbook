@@ -142,7 +142,7 @@ function getData(type, payload) {
             sql1 = 'select strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime")) as section_name,count(name) as count from user_study_word group by section_name';
             return getDataBySql(sql1);
         case 'wordBook':
-            sql1 = 'select name,count,create_time as createTime from user_word_book where name != "我的单词本" and name != "我的生词本"';
+            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from books group by name)';
             return getDataBySql(sql1).then(data => {
                 return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
                     data.unshift({
