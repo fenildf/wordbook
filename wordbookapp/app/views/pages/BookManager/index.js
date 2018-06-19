@@ -56,7 +56,7 @@ class BookManager extends Component{
             );
         });
     }
-    _deleteBooks(){
+    _deleteBooks=()=>{
         dispatch(actions.USER_REMOVE_BOOKS,this._selectedBooks);
         dispatch(actions.APP_NAVIGATE_GOBACK);
         

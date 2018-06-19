@@ -40,7 +40,7 @@ function removeBooks($payload, $persist){
             }
         }
     }
-    //$persist('word', { items: Object.values(userWordBook), type: 'wordBookRemove' });
+    $persist('word', { items: Object.values(userWordBook), type: 'wordBookRemove' });
     return {
         ok: true
     }
