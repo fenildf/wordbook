@@ -11,12 +11,14 @@ import IconItem from './../../components/IconItem';
 function BookItem(props){
     let {
         onPress,
-        book
+        book,
+        onLongPress
     } = props;
 
     return (
         <IconItem 
             onPress={onPress}
+            onLongPress={onLongPress}
             style={styles.button}>
             <View
                 style={styles.main}>

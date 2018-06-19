@@ -20,6 +20,7 @@ class IconItem extends Component {
     render() {
         let {
             onPress,
+            onLongPress,
             style,
             children,
             iconName,
@@ -28,6 +29,7 @@ class IconItem extends Component {
         return (
             <Item
                 style={style}
+                onLongPress={onLongPress}
                 onPress={onPress} >
                 {iconName?
                     <FontIcon 

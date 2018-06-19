@@ -10,6 +10,7 @@ function Item(props){
     return (
         <TouchableOpacity
             onPress={props.onPress}
+            onLongPress={props.onLongPress}
             activeOpacity={1}
             onLayout={props.onLayout}
             style={[styles.item,props.style]}

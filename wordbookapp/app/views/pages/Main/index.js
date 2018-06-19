@@ -53,6 +53,7 @@ class Main extends ScreenComponent {
             return (
                 <BookItem
                     book={book}
+                    onLongPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'BookManager'})}
                     onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Book',params:{book}})}
                     key={book.name} />
             );

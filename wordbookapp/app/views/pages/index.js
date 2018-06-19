@@ -5,5 +5,6 @@ module.exports = {
     Book:require('./Book').default,
     AddBook:require('./AddBook').default,
     Section:require('./Section').default,
-    Word:require('./Word').default
+    Word:require('./Word').default,
+    BookManager:require('./BookManager').default
 }
