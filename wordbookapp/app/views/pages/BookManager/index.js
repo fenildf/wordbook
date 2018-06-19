@@ -12,6 +12,7 @@ import ScrollView from './../../components/ScrollView';
 import actions from '../../../constants/actions';
 import StyleSheet from './../../../util/StyleSheet';
 import Item from './Item';
+import Button from './Button';
 
 class BookManager extends Component{
     constructor(...props){
@@ -23,6 +24,7 @@ class BookManager extends Component{
             books:[]
         }
         this.dispatcher = createDispatcher(this);
+        this._selectedBooks = {};
     }
     componentDidMount() {
         this._fetchData();
@@ -33,6 +35,13 @@ class BookManager extends Component{
     _fetchData(){
         this.dispatcher.dispatch(actions.USER_GET_CUSTOMIZED_BOOKS);
     }
+    _onSelected(isSelected,book){
+        if (isSelected) {
+            this._selectedBooks[book.name] = book;
+        } else {
+            delete this._selectedBooks[book.name];
+        }
+    }
     _renderItems(){
         let {books} = this.state;
         if(!books){
@@ -41,10 +50,16 @@ class BookManager extends Component{
         return books.map(book=>{
             return (
                 <Item 
+                    onSelected={(isSelected)=>this._onSelected(isSelected,book)}
                     key={book.name}
                     book={book}/>
             );
         });
+    }
+    _deleteBooks(){
+        dispatch(actions.USER_REMOVE_BOOKS,this._selectedBooks);
+        dispatch(actions.APP_NAVIGATE_GOBACK);
+        
     }
     render(){
         return (
@@ -54,6 +69,8 @@ class BookManager extends Component{
                     style={styles.wrapper}>
                     {this._renderItems()}
                 </ScrollView>
+                <Button 
+                    onPress={this._deleteBooks}/>
             </View>
         );
     }

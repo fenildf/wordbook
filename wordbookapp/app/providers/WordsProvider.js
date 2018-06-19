@@ -89,8 +89,16 @@ const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
 function setData(data) {
-    switch (data.type) {            
-        case 'wordBook':
+    switch (data.type) {    
+        case 'wordBookRemove':
+            let condition = 'name in (';
+            data.items.forEach(book=>{
+                condition +=`"${book.name}",`;
+            }); 
+            condition = condition.slice(0,-1);
+            condition +=')'; 
+            return SQLHelper.remove('user_word_book',condition);    
+        case 'wordBookAdd':
             return data.items.map((book)=>{
                 let name = book.name;
                 let count = book.count;
@@ -222,7 +230,6 @@ class WordsProvider extends Provider {
     }
     getState() {
         return getData
-
     }
 }
 

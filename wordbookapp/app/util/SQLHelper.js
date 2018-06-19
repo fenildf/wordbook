@@ -89,10 +89,16 @@ function insertOrIgnore(tableName,columns,data){
 
     return executeSql(sql);
 }
+function remove(tableName,condition){
+    let sql = 'DELETE FROM ' + tableName+' where '+condition;
+    console.log(sql)
+    return executeSql(sql);
+}
 export  default{
     executeSql,
     createTable,
     insertOrReplace,
     insertOrReplace2,
-    insertOrIgnore
+    insertOrIgnore,
+    remove
 }

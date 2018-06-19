@@ -19,12 +19,32 @@ function addBook($payload, $persist) {
         }
 
     }
-    $persist('word', { items: Object.values(userWordBook), type: 'wordBook' });
+    $persist('word', { items: Object.values(userWordBook), type: 'wordBookAdd' });
     return {
         ok: true
     }
 }
+function removeBooks($payload, $persist){
+    let books = $payload();
+    let userWordBook = {
 
+    }
+    for (let name in books) {
+        if (userWordBook[name]) {
+            continue;
+        } else {
+            let book = books[name];
+            userWordBook[name] = {
+                name: book.name,
+                removed:true
+            }
+        }
+    }
+    //$persist('word', { items: Object.values(userWordBook), type: 'wordBookRemove' });
+    return {
+        ok: true
+    }
+}
 /**
  * 
  * @param {*} word 
@@ -92,5 +112,6 @@ export default {
     markWord,
     isRealRemember,
     isTempRemember,
-    getCustomizedBooks
+    getCustomizedBooks,
+    removeBooks
 }
