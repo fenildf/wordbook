@@ -25,7 +25,11 @@ function addBook($payload, $persist) {
     }
 }
 
-
+/**
+ * 
+ * @param {*} word 
+ * @deprecated 准备移除,修改这部分的获取逻辑
+ */
 function getBooks(word) {
     return word('wordBook').then((books) => {
         return {
@@ -33,6 +37,14 @@ function getBooks(word) {
         }
     })
 
+}
+
+function getCustomizedBooks(word){
+    return word('wordCustomizedBook').then((books) => {
+        return {
+            books
+        }
+    })
 }
 
 /** 
@@ -79,5 +91,6 @@ export default {
     getBooks,
     markWord,
     isRealRemember,
-    isTempRemember
+    isTempRemember,
+    getCustomizedBooks
 }

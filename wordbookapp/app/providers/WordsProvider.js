@@ -89,7 +89,7 @@ const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
 function setData(data) {
-    switch (data.type) {
+    switch (data.type) {            
         case 'wordBook':
             return data.items.map((book)=>{
                 let name = book.name;
@@ -138,6 +138,9 @@ function getData(type, payload) {
     payload = payload;
 
     switch (type) {
+        case 'wordCustomizedBook':
+            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from books group by name)';
+            return getDataBySql(sql1);
         case 'wordSection':
             sql1 = 'select strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime")) as section_name,count(name) as count from user_study_word group by section_name';
             return getDataBySql(sql1);

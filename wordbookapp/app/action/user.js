@@ -14,5 +14,9 @@ export default [
     {
         key:actions.USER_MARK_WORD,
         controller:user.markWord
+    },
+    {
+        key:actions.USER_GET_CUSTOMIZED_BOOKS,
+        controller:user.getCustomizedBooks
     }
 ]
