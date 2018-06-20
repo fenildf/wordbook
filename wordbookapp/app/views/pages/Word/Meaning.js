@@ -2,15 +2,13 @@
 
 import React from 'react';
 
-import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
 import { View } from 'react-native';
-import TouchableOpacity from './../../components/TouchableOpacity';
 import StyleSheet from './../../../util/StyleSheet';
-import IconItem from './../../components/IconItem';
 import ScrollView from './../../components/ScrollView';
 import FoldableItem from './../../components/FoldableItem';
 import Voice from './../../components/Voice';
+import EmptyText from './EmptyText';
 
 function renderMeading(meaning) {
     if (!meaning) {
@@ -18,8 +16,9 @@ function renderMeading(meaning) {
     }
     if (meaning.error) {
         return (
-            <Text>抱歉，未能找到该单词的解释。</Text>
-        );
+            <EmptyText 
+                text='抱歉，未能找到该单词的解释。'/>
+        )
     }
     return [
         <BasicMeaning
@@ -39,60 +38,73 @@ function renderMeading(meaning) {
 }
 
 function BasicMeaning(props) {
-    let data = props.data;
-    let symbols = data.symbols[0];
-    let parts = symbols.parts;
-    return (
-        <View>
-            <View style={[styles.marginBottom, styles.row]}>
-                <Text>
-                    英
-                </Text>
-                {symbols.ph_en_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_en_mp3} />:null}
-                <Text style={styles.marginLeft}>[{symbols.ph_en}]</Text>
-                <Text style={styles.marginLeft}>
-                    美
-                </Text>
-                {symbols.ph_am_mp3?<Voice style={[styles.voice,styles.marginLeft]} voice={symbols.ph_am_mp3} />:null}
-                <Text style={styles.marginLeft}>[{symbols.ph_am}]</Text>
-            </View>
-            {
-                parts.map(function (part) {
-                    return (
-                        <Text
-                            key={part.part}>
-                            {part.part}{part.means.join(';')}
-                        </Text>
-                    )
-                })
-            }
+    try {
+        let data = props.data;
+        let symbols = data.symbols[0];
+        let parts = symbols.parts;
+        return (
+            <View>
+                <View style={[styles.marginBottom, styles.row]}>
+                    <Text>
+                        英
+                    </Text>
+                    {symbols.ph_en_mp3 ? <Voice style={[styles.voice, styles.marginLeft]} voice={symbols.ph_en_mp3} /> : null}
+                    <Text style={styles.marginLeft}>[{symbols.ph_en}]</Text>
+                    <Text style={styles.marginLeft}>
+                        美
+                    </Text>
+                    {symbols.ph_am_mp3 ? <Voice style={[styles.voice, styles.marginLeft]} voice={symbols.ph_am_mp3} /> : null}
+                    <Text style={styles.marginLeft}>[{symbols.ph_am}]</Text>
+                </View>
+                {
+                    parts.map(function (part) {
+                        return (
+                            <Text
+                                key={part.part}>
+                                {part.part}{part.means.join(';')}
+                            </Text>
+                        )
+                    })
+                }
 
-        </View>
-    )
+            </View>
+        )
+    } catch (e) {
+        return (
+            <EmptyText 
+                text='抱歉，未能找到该单词的解释。'/>
+        )
+    }
+
 }
 function Sentence(props) {
-    let data = props.data;
-    return (
-        <FoldableItem
-            titleStyle={styles.titleStyle}
-            title='例句'>
-            {data.map(function (s) {
-                return (
-                    <View
-                        style={[styles.marginBottom]}
-                        key={s.Network_id}>
-                        <Text style={[styles.marginBottom]}>
-                            {s.Network_en}
-                        </Text>
-                        <Text
-                            style={[styles.marginBottom]}>
-                            {s.Network_cn}
-                        </Text>
-                    </View>
-                )
-            })}
-        </FoldableItem>
-    );
+    try {
+        let data = props.data;
+        return (
+            <FoldableItem
+                titleStyle={styles.titleStyle}
+                title='例句'>
+                {data.map(function (s) {
+                    return (
+                        <View
+                            style={[styles.marginBottom]}
+                            key={s.Network_id}>
+                            <Text style={[styles.marginBottom]}>
+                                {s.Network_en}
+                            </Text>
+                            <Text
+                                style={[styles.marginBottom]}>
+                                {s.Network_cn}
+                            </Text>
+                        </View>
+                    )
+                })}
+            </FoldableItem>
+        );
+    } catch (e) {
+        return null;
+    }
+
 }
 
 function renderWordParts(wordParts) {
@@ -129,32 +141,35 @@ function renderStemsAffixes(stems_affixes) {
     })
 }
 function StemsAffixes(props) {
-    let data = props.data;
-    if (!data) {
+    try {
+        let data = props.data;
+        if (!data) {
+            return null;
+        }
+        return (
+            <FoldableItem
+                fold={true}
+                titleStyle={styles.titleStyle}
+                title='词根词缀'>
+                {data.map(function (s) {
+                    return (
+                        <View
+                            key={s.type_value}>
+                            <Text>
+                                {s.type}
+                                {s.type_value}
+                                {s.type_exp}
+                            </Text>
+                            <View>
+                                {renderWordParts(s.word_parts)}
+                            </View>
+                        </View>
+                    )
+                })}
+            </FoldableItem>)
+    } catch (e) {
         return null;
     }
-    return (
-        <FoldableItem
-            fold={true}
-            titleStyle={styles.titleStyle}
-            title='词根词缀'>
-            {data.map(function (s) {
-                return (
-                    <View
-                        key={s.type_value}>
-                        <Text>
-                            {s.type}
-                            {s.type_value}
-                            {s.type_exp}
-                        </Text>
-                        <View>
-                            {renderWordParts(s.word_parts)}
-                        </View>
-                    </View>
-                )
-            })}
-        </FoldableItem>
-    );
 }
 function renderMeaing(means) {
     return means.map(function (mean, i) {
@@ -232,15 +247,15 @@ const styles = StyleSheet.create(function (theme) {
         },
         row: {
             flexDirection: 'row',
-            alignItems:'center'
+            alignItems: 'center'
 
         },
-        voice:{
-            height:18,
-            width:20
+        voice: {
+            height: 18,
+            width: 20
         },
-        marginLeft:{
-            marginLeft:4
+        marginLeft: {
+            marginLeft: 4
         },
         titleStyle: {
             color: '#8fb7d1'
