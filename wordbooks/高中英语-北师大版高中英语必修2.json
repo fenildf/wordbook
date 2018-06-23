@@ -1,0 +1,928 @@
+{
+	"name": "北师大版高中英语必修2",
+	"classify": "高中英语",
+	"children": [
+		{
+			"name": "Unit 1",
+			"children": [
+				{
+					"name": "cultural"
+				},
+				{
+					"name": "relic"
+				},
+				{
+					"name": "rare"
+				},
+				{
+					"name": "valuable"
+				},
+				{
+					"name": "survive"
+				},
+				{
+					"name": "vase"
+				},
+				{
+					"name": "dynasty"
+				},
+				{
+					"name": "Taj Mahal "
+				},
+				{
+					"name": "ivory"
+				},
+				{
+					"name": "dragon"
+				},
+				{
+					"name": "amber"
+				},
+				{
+					"name": "in search of "
+				},
+				{
+					"name": "Frederick William I "
+				},
+				{
+					"name": "Prussia n."
+				},
+				{
+					"name": "amaze"
+				},
+				{
+					"name": "select"
+				},
+				{
+					"name": "honey"
+				},
+				{
+					"name": "design"
+				},
+				{
+					"name": "fancy"
+				},
+				{
+					"name": "style"
+				},
+				{
+					"name": "decorate"
+				},
+				{
+					"name": "jewel"
+				},
+				{
+					"name": "artist"
+				},
+				{
+					"name": "belong"
+				},
+				{
+					"name": "Peter the Great "
+				},
+				{
+					"name": "in return "
+				},
+				{
+					"name": "Czar"
+				},
+				{
+					"name": "troop"
+				},
+				{
+					"name": "St Petersburg"
+				},
+				{
+					"name": "reception"
+				},
+				{
+					"name": "Catherine "
+				},
+				{
+					"name": "at war "
+				},
+				{
+					"name": "remove"
+				},
+				{
+					"name": "less than "
+				},
+				{
+					"name": "wooden"
+				},
+				{
+					"name": "doubt"
+				},
+				{
+					"name": "K"
+				},
+				{
+					"name": "the Baltic Sea "
+				},
+				{
+					"name": "mystery"
+				},
+				{
+					"name": "former"
+				},
+				{
+					"name": "worth prep. "
+				},
+				{
+					"name": "rebuild"
+				},
+				{
+					"name": "local"
+				},
+				{
+					"name": "apart"
+				},
+				{
+					"name": "Leningrad"
+				},
+				{
+					"name": "painting"
+				},
+				{
+					"name": "castle"
+				},
+				{
+					"name": "Windsor Castle "
+				},
+				{
+					"name": "trial"
+				},
+				{
+					"name": "eyewitness"
+				},
+				{
+					"name": "evidence"
+				},
+				{
+					"name": "Jan Hasek "
+				},
+				{
+					"name": "Czech Republic "
+				},
+				{
+					"name": "explode"
+				},
+				{
+					"name": "entrance"
+				},
+				{
+					"name": "Hans Braun "
+				},
+				{
+					"name": "sailor"
+				},
+				{
+					"name": "sink"
+				},
+				{
+					"name": "Anna Petrov "
+				},
+				{
+					"name": "maid"
+				},
+				{
+					"name": "Berlin"
+				},
+				{
+					"name": "think highly of "
+				},
+				{
+					"name": "Johann Webber "
+				},
+				{
+					"name": "informal"
+				},
+				{
+					"name": "debate"
+				}
+			]
+		},
+		{
+			"name": "Unit 2",
+			"children": [
+				{
+					"name": "ancient"
+				},
+				{
+					"name": "compete"
+				},
+				{
+					"name": "take part in "
+				},
+				{
+					"name": "medal"
+				},
+				{
+					"name": "stand for "
+				},
+				{
+					"name": "mascot"
+				},
+				{
+					"name": "Pausanias "
+				},
+				{
+					"name": "Greece"
+				},
+				{
+					"name": "magical"
+				},
+				{
+					"name": "volunteer"
+				},
+				{
+					"name": "homeland"
+				},
+				{
+					"name": "regular"
+				},
+				{
+					"name": "basis"
+				},
+				{
+					"name": "athlete"
+				},
+				{
+					"name": "admit"
+				},
+				{
+					"name": "slave"
+				},
+				{
+					"name": "nowadays"
+				},
+				{
+					"name": "gymnastics n."
+				},
+				{
+					"name": "athletics n."
+				},
+				{
+					"name": "stadium n."
+				},
+				{
+					"name": "gymnasium "
+				},
+				{
+					"name": "as well "
+				},
+				{
+					"name": "host"
+				},
+				{
+					"name": "responsibility"
+				},
+				{
+					"name": "olive"
+				},
+				{
+					"name": "wreath"
+				},
+				{
+					"name": "replace"
+				},
+				{
+					"name": "motto"
+				},
+				{
+					"name": "swift"
+				},
+				{
+					"name": "similarity"
+				},
+				{
+					"name": "Athens"
+				},
+				{
+					"name": "charge"
+				},
+				{
+					"name": "physical"
+				},
+				{
+					"name": "fine"
+				},
+				{
+					"name": "poster"
+				},
+				{
+					"name": "advertise"
+				},
+				{
+					"name": "Atlanta"
+				},
+				{
+					"name": "princess"
+				},
+				{
+					"name": "glory"
+				},
+				{
+					"name": "bargain"
+				},
+				{
+					"name": "prince"
+				},
+				{
+					"name": "hopeless"
+				},
+				{
+					"name": "Hippomenes "
+				},
+				{
+					"name": "foolish"
+				},
+				{
+					"name": "goddess"
+				},
+				{
+					"name": "pain"
+				},
+				{
+					"name": "one after another "
+				},
+				{
+					"name": "deserve"
+				},
+				{
+					"name": "striker"
+				}
+			]
+		},
+		{
+			"name": "Unit 3",
+			"children": [
+				{
+					"name": "abacus"
+				},
+				{
+					"name": "calculator"
+				},
+				{
+					"name": "PC"
+				},
+				{
+					"name": "laptop"
+				},
+				{
+					"name": "PDA "
+				},
+				{
+					"name": "analytical"
+				},
+				{
+					"name": "calculate"
+				},
+				{
+					"name": "universal"
+				},
+				{
+					"name": "simplify"
+				},
+				{
+					"name": "sum"
+				},
+				{
+					"name": "Charles Babbage "
+				},
+				{
+					"name": "operator n."
+				},
+				{
+					"name": "logical"
+				},
+				{
+					"name": "technology"
+				},
+				{
+					"name": "revolution"
+				},
+				{
+					"name": "artificial"
+				},
+				{
+					"name": "intelligence"
+				},
+				{
+					"name": "Alan Turing "
+				},
+				{
+					"name": "solve"
+				},
+				{
+					"name": "mathematical"
+				},
+				{
+					"name": "from"
+				},
+				{
+					"name": "reality"
+				},
+				{
+					"name": "designer"
+				},
+				{
+					"name": "personal"
+				},
+				{
+					"name": "tube"
+				},
+				{
+					"name": "transistor"
+				},
+				{
+					"name": "chip"
+				},
+				{
+					"name": "as a result "
+				},
+				{
+					"name": "total"
+				},
+				{
+					"name": "n. "
+				},
+				{
+					"name": "so"
+				},
+				{
+					"name": "network"
+				},
+				{
+					"name": "web"
+				},
+				{
+					"name": "application"
+				},
+				{
+					"name": "finance"
+				},
+				{
+					"name": "mobile"
+				},
+				{
+					"name": "rocket"
+				},
+				{
+					"name": "explore"
+				},
+				{
+					"name": "Mars"
+				},
+				{
+					"name": "anyhow adv."
+				},
+				{
+					"name": "goal"
+				},
+				{
+					"name": "happiness"
+				},
+				{
+					"name": "human race "
+				},
+				{
+					"name": "supporting"
+				},
+				{
+					"name": "download"
+				},
+				{
+					"name": "programmer"
+				},
+				{
+					"name": "virus"
+				},
+				{
+					"name": "android"
+				},
+				{
+					"name": "signal"
+				},
+				{
+					"name": "teammate"
+				},
+				{
+					"name": "Nagoya"
+				},
+				{
+					"name": "Seattle"
+				},
+				{
+					"name": "type"
+				},
+				{
+					"name": "vt. "
+				},
+				{
+					"name": "in a way "
+				},
+				{
+					"name": "coach"
+				},
+				{
+					"name": "arise"
+				},
+				{
+					"name": "with the help of "
+				},
+				{
+					"name": "electronic"
+				},
+				{
+					"name": "appearance"
+				},
+				{
+					"name": "character"
+				},
+				{
+					"name": "mop"
+				},
+				{
+					"name": "vt. "
+				},
+				{
+					"name": "deal with "
+				},
+				{
+					"name": "watch over "
+				},
+				{
+					"name": "naughty"
+				},
+				{
+					"name": "niece"
+				},
+				{
+					"name": "spoil"
+				}
+			]
+		},
+		{
+			"name": "Unit 4",
+			"children": [
+				{
+					"name": "wildlife"
+				},
+				{
+					"name": "protection"
+				},
+				{
+					"name": "wild"
+				},
+				{
+					"name": "habitat"
+				},
+				{
+					"name": "threaten"
+				},
+				{
+					"name": "decrease"
+				},
+				{
+					"name": "endanger"
+				},
+				{
+					"name": "die out "
+				},
+				{
+					"name": "loss"
+				},
+				{
+					"name": "reserve"
+				},
+				{
+					"name": "hunt"
+				},
+				{
+					"name": "zone"
+				},
+				{
+					"name": "in peace "
+				},
+				{
+					"name": "in danger "
+				},
+				{
+					"name": "Daisy"
+				},
+				{
+					"name": "species"
+				},
+				{
+					"name": "carpet"
+				},
+				{
+					"name": "respond"
+				},
+				{
+					"name": "distant"
+				},
+				{
+					"name": "fur"
+				},
+				{
+					"name": "antelope"
+				},
+				{
+					"name": "Zimbabwe"
+				},
+				{
+					"name": "relief n."
+				},
+				{
+					"name": "laughter"
+				},
+				{
+					"name": "mercy"
+				},
+				{
+					"name": "certain"
+				},
+				{
+					"name": "importance"
+				},
+				{
+					"name": "WWF"
+				},
+				{
+					"name": "rub"
+				},
+				{
+					"name": "protect"
+				},
+				{
+					"name": "mosquito"
+				},
+				{
+					"name": "millipede "
+				},
+				{
+					"name": "insect"
+				},
+				{
+					"name": "contain"
+				},
+				{
+					"name": "powerful"
+				},
+				{
+					"name": "affect"
+				},
+				{
+					"name": "attention"
+				},
+				{
+					"name": "appreciate"
+				},
+				{
+					"name": "succeed"
+				},
+				{
+					"name": "Indonesia"
+				},
+				{
+					"name": "rhino"
+				},
+				{
+					"name": "secure"
+				},
+				{
+					"name": "income"
+				},
+				{
+					"name": "employ"
+				},
+				{
+					"name": "harm"
+				},
+				{
+					"name": "Milu deer "
+				},
+				{
+					"name": "bite"
+				},
+				{
+					"name": "extinction"
+				},
+				{
+					"name": "dinosaur"
+				},
+				{
+					"name": "come into being "
+				},
+				{
+					"name": "county"
+				},
+				{
+					"name": "inspect"
+				},
+				{
+					"name": "unexpected"
+				},
+				{
+					"name": "incident"
+				},
+				{
+					"name": "dust"
+				},
+				{
+					"name": "according to "
+				},
+				{
+					"name": "Mauritius"
+				},
+				{
+					"name": "disappearance"
+				},
+				{
+					"name": "fierce"
+				},
+				{
+					"name": "so that "
+				},
+				{
+					"name": "ending"
+				},
+				{
+					"name": "faithfully"
+				},
+				{
+					"name": "Colombus monkey "
+				}
+			]
+		},
+		{
+			"name": "Unit 5",
+			"children": [
+				{
+					"name": "classical"
+				},
+				{
+					"name": "roll"
+				},
+				{
+					"name": "rock"
+				},
+				{
+					"name": "orchestra"
+				},
+				{
+					"name": "rap"
+				},
+				{
+					"name": "folk"
+				},
+				{
+					"name": "jazz"
+				},
+				{
+					"name": "choral"
+				},
+				{
+					"name": "the Monkees "
+				},
+				{
+					"name": "musician"
+				},
+				{
+					"name": "dream of "
+				},
+				{
+					"name": "karaoke"
+				},
+				{
+					"name": "pretend"
+				},
+				{
+					"name": "to be honest "
+				},
+				{
+					"name": "attach"
+				},
+				{
+					"name": "form"
+				},
+				{
+					"name": "fame"
+				},
+				{
+					"name": "passer"
+				},
+				{
+					"name": "earn"
+				},
+				{
+					"name": "extra"
+				},
+				{
+					"name": "instrument"
+				},
+				{
+					"name": "perform"
+				},
+				{
+					"name": "pub"
+				},
+				{
+					"name": "cash"
+				},
+				{
+					"name": "studio"
+				},
+				{
+					"name": "millionaire"
+				},
+				{
+					"name": "play jokes on "
+				},
+				{
+					"name": "actor"
+				},
+				{
+					"name": "rely"
+				},
+				{
+					"name": "broadcast"
+				},
+				{
+					"name": "humorous"
+				},
+				{
+					"name": "familiar"
+				},
+				{
+					"name": "or so "
+				},
+				{
+					"name": "break up "
+				},
+				{
+					"name": "reunite"
+				},
+				{
+					"name": "attractive"
+				},
+				{
+					"name": "addition"
+				},
+				{
+					"name": "sort out "
+				},
+				{
+					"name": "excitement"
+				},
+				{
+					"name": "ballad"
+				},
+				{
+					"name": "overnight"
+				},
+				{
+					"name": "dip"
+				},
+				{
+					"name": "tadpole"
+				},
+				{
+					"name": "lily"
+				},
+				{
+					"name": "confident"
+				},
+				{
+					"name": "Freddy"
+				},
+				{
+					"name": "brief"
+				},
+				{
+					"name": "devotion"
+				},
+				{
+					"name": "afterwards"
+				},
+				{
+					"name": "invitation"
+				},
+				{
+					"name": "beard"
+				},
+				{
+					"name": "sensitive"
+				},
+				{
+					"name": "painful"
+				},
+				{
+					"name": "above all "
+				}
+			]
+		}
+	]
+}

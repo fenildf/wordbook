@@ -1336,7 +1336,7 @@ function saveBook(book){
  let children;
  source.forEach((l,i)=>{
     if(/^[一二三四五六]年级/.test(l)){
-        let bookName=l.slice(0,4);
+        let bookName=name+l.slice(0,4);
         if(book){
             saveBook(book);
         }
