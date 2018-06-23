@@ -38,8 +38,8 @@ function renderMeading(meaning) {
 }
 
 function BasicMeaning(props) {
+    let data = props.data;
     try {
-        let data = props.data;
         let symbols = data.symbols[0];
         let parts = symbols.parts;
         return (
@@ -70,6 +70,10 @@ function BasicMeaning(props) {
             </View>
         )
     } catch (e) {
+        if(data.translate_result){
+            return <EmptyText 
+                        text={data.translate_result}/>
+        }
         return (
             <EmptyText 
                 text='抱歉，未能找到该单词的解释。'/>
