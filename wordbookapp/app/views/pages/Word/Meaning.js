@@ -89,6 +89,7 @@ function Sentence(props) {
                         <View
                             style={[styles.marginBottom]}
                             key={s.Network_id}>
+                            {s.tts_mp3 ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.tts_mp3} /> : null}
                             <Text style={[styles.marginBottom]}>
                                 {s.Network_en}
                             </Text>
