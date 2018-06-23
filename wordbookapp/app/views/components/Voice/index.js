@@ -3,6 +3,8 @@ import WebView from './../WebView';
 import assembleHTML from './assembleHTML';
 import TouchableOpacity from '../TouchableOpacity';
 
+let CURRENT_PALYER;
+
 class Voice extends Component {
     constructor(...props) {
         super(...props);
@@ -11,7 +13,9 @@ class Voice extends Component {
         this.refs.webview.injectMethod('play', this._onPlay);
     }
     componentWillUnmount() {
-
+        if(CURRENT_PALYER===this){
+            CURRENT_PALYER = void(0);
+        }
     }
     stop() {
         this.refs.webview.invokeMethod('stop');
@@ -20,6 +24,10 @@ class Voice extends Component {
 
     }
     play(){
+        if(CURRENT_PALYER){
+            CURRENT_PALYER.stop();
+        }
+        CURRENT_PALYER = this;
         this.refs.webview.invokeMethod('play'); 
     }
     _play=()=>{
