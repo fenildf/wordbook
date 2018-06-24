@@ -8,37 +8,76 @@ const fs = require('fs');
 */
 
 const PATH = 'wordbooks/database.db';
+const USER_DB_PATH = 'wordbooks/user.db';
 
-if (fs.existsSync(PATH)) {
-    fs.unlinkSync(PATH)
+function createDB(path,tables,targets){
+    if (fs.existsSync(path)) {
+        fs.unlinkSync(path)
+    }
+    const db = new SQLITE.Database(path);
+    db.serialize(function () {
+        tables.forEach(function (table) {
+            db.run("CREATE TABLE IF NOT EXISTS " + table.name + "(" +
+                table.column.join(',') +
+                ");");
+            if (table.source) {
+                let columns = table.column.map(function (item) {
+                    return getColumn(item);
+                });
+                let update = db.prepare("INSERT OR REPLACE  INTO " +
+                    table.name +
+                    "(" + columns.join(',') +
+                    ") VALUES (" +
+                    table.column.map(function () {
+                        return '?'
+                    }).join(',') +
+                    ")"); //
+                table.source.forEach(function (item, k) {
+                    update.run.apply(update, columns.map(function (c) {
+                        return item[c];
+                    }));
+                });
+                update.finalize();
+            }
+        });
+    });
+    db.close(function () {
+    
+        var input = fs.createReadStream(path);
+        var output1 = fs.createWriteStream(targets[0]);
+        var output2 = fs.createWriteStream(targets[1]);
+    
+        input.pipe(output1);
+        input.pipe(output2);
+    });
 }
-
 
 
 const files = fs.readdirSync('wordbooks');
 
 const tables = [];
+const userTables = [];
 
 const books = [];
 const sections = [];
 const words = [];
 
-// files.forEach(function (file) {
-//     if (/\.json$/.test(file)) {
-//         let data = JSON.parse(fs.readFileSync('wordbooks/' + file));
-//         let bookname = data.name;
-//         let classify = data.classify;
-//         books.push({ name: bookname,book_classify:classify });
-//         data.children.forEach(function (section) {
-//             let sectionname = section.name;
-//             sections.push({ name: sectionname, book_name: bookname,book_classify:classify });
-//             section.children.forEach(function (word) {
-//                 words.push({ section_name: sectionname, book_name: bookname, name: word.name,book_classify:classify });
-//             })
-//         });
+files.forEach(function (file) {
+    if (/\.json$/.test(file)) {
+        let data = JSON.parse(fs.readFileSync('wordbooks/' + file));
+        let bookname = data.name;
+        let classify = data.classify;
+        books.push({ name: bookname,book_classify:classify });
+        data.children.forEach(function (section) {
+            let sectionname = section.name;
+            sections.push({ name: sectionname, book_name: bookname,book_classify:classify });
+            section.children.forEach(function (word) {
+                words.push({ section_name: sectionname, book_name: bookname, name: word.name,book_classify:classify });
+            })
+        });
 
-//     }
-// });
+    }
+});
 tables.push({
     name: 'classify',
     column: [
@@ -97,7 +136,7 @@ tables.push({
     ],
     source: words
 });
-tables.push({
+userTables.push({
     name: 'user_word_book',
     column: [
         'id integer primary key autoincrement not null',
@@ -111,7 +150,7 @@ tables.push({
     ]
 });
 
-tables.push({
+userTables.push({
     name: 'user_study_word',
     column: [
         'id integer primary key autoincrement not null',
@@ -128,46 +167,16 @@ tables.push({
 });
 
 
-const db = new SQLITE.Database(PATH);
-
 function getColumn(item) {
     return item.match(/^[\S]*?(?=\s)/)[0];
 }
-db.serialize(function () {
-    tables.forEach(function (table) {
-        db.run("CREATE TABLE IF NOT EXISTS " + table.name + "(" +
-            table.column.join(',') +
-            ");");
-        if (table.source) {
-            let columns = table.column.map(function (item) {
-                return getColumn(item);
-            });
-            let update = db.prepare("INSERT OR REPLACE  INTO " +
-                table.name +
-                "(" + columns.join(',') +
-                ") VALUES (" +
-                table.column.map(function () {
-                    return '?'
-                }).join(',') +
-                ")"); //
-            table.source.forEach(function (item, k) {
-                update.run.apply(update, columns.map(function (c) {
-                    return item[c];
-                }));
-            });
-            update.finalize();
-        }
-    });
-})
 
-db.close(function () {
+createDB(PATH,tables,[
+    'wordbookapp/android/app/src/main/assets/data/word.db',
+    'wordbookapp/ios/wordbookapp/data/word.db']
+);
 
-    const ANDROID_DB_PATH = 'wordbookapp/android/app/src/main/assets/data/database.db';
-    const IOS_DB_PATH = 'wordbookapp/ios/wordbookapp/data/database.db';
-    var input = fs.createReadStream(PATH);
-    var output1 = fs.createWriteStream(ANDROID_DB_PATH);
-    var output2 = fs.createWriteStream(IOS_DB_PATH);
-
-    input.pipe(output1);
-    input.pipe(output2);
-})
+// createDB(USER_DB_PATH,tables,[
+//     'wordbookapp/android/app/src/main/assets/data/database.db',
+//     'wordbookapp/ios/wordbookapp/data/database.db']
+// );
