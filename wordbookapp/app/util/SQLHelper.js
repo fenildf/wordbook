@@ -68,6 +68,13 @@ function insertOrReplace(tableName,columns,data){
 
     return executeSql(sql);
 }
+function transaction(fn){
+    return ready().then(() => new Promise((resolve, reject) => {
+        database.transaction(tx => {
+            fn(tx);
+        },error,resolve);
+    })) 
+}
 function insertOrReplace2(tableName,columns,data){
     let sql = "INSERT OR REPLACE INTO " +
                 tableName +
@@ -100,5 +107,6 @@ export  default{
     insertOrReplace,
     insertOrReplace2,
     insertOrIgnore,
-    remove
+    remove,
+    transaction
 }

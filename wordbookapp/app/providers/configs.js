@@ -8,6 +8,11 @@ export default [
         type:'meaning'
     },
     {
+        name:'dbversion',
+        storage:true,
+        defaultState:1
+    },
+    {
         name:'myWordBook',
         type:'storage',
         defaultState:{

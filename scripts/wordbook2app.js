@@ -42,10 +42,10 @@ files.forEach(path=>{
 
         data.children.forEach(function (section) {
             let sectionname = section.name;
+            content+= `#${sectionname}:`
             let words = section.children.map(function (word) {
-                return word.name;
+                content+= `${word.name},`
             });
-            content+= `#${sectionname}:${JSON.stringify(words)}`
         });
         books.push(content);
     }
