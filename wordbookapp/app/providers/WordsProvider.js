@@ -114,8 +114,7 @@ function setData(data) {
                 return insertOrReplace2(
                     'user_word_book ',
                     column,
-                    data
-                    
+                    data                    
                 );
             });  
         case 'userStudyWord':
@@ -135,7 +134,7 @@ function setData(data) {
                         is_temp_remember?`ifnull((select remember_times from user_study_word where name = '${name}'),0)+1`:'0',
                         is_temp_remember?`ifnull(((select first_remember_time from user_study_word where name = '${name}')),${last_read_time})`:'null',
                         is_temp_remember?last_read_time:'null',
-                    ],
+                    ]
                 );
             });  
 
@@ -153,7 +152,7 @@ function getData(type, payload) {
             sql1 = 'select strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime")) as section_name,count(name) as count from user_study_word group by section_name';
             return getDataBySql(sql1);
         case 'wordBook':
-            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from books group by name)';
+            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from wordbook.books group by name)';
             return getDataBySql(sql1).then(data => {
                 return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
                     data.unshift({
@@ -177,10 +176,10 @@ function getData(type, payload) {
             return getDataBySql(sql1);
         case 'books':
             if (payload.unselect) {
-                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words
+                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from wordbook.words
                         where book_name not in (select name from user_word_book) group by book_name ORDER BY classify`
             } else {
-                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from words group by book_name ORDER BY classify`
+                sql1 = `select book_name as name,book_classify as classify,count(book_name) as count from wordbook.words group by book_name ORDER BY classify`
             }
             return getDataBySql(sql1);
         case 'sections':
@@ -195,7 +194,7 @@ function getData(type, payload) {
                 let dateString = 'strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime"))';
                 sql1 = `select ${dateString} as name,"我的单词本" as bookName,id,"我的单词本" as classify from user_study_word group by ${dateString}`;
             } else {
-                sql1 = `select name,book_name as bookName,id,book_classify as classify from sections as b where book_name="${payload.bookName || '%'}"`;
+                sql1 = `select name,book_name as bookName,id,book_classify as classify from wordbook.sections as b where book_name="${payload.bookName || '%'}"`;
             }
             return getDataBySql(sql1);
         case 'words':
@@ -213,7 +212,7 @@ function getData(type, payload) {
                         and ${now} - ifnull(remember_time,0)>${TEMP_TIME_INTERVAL} and 
                         ${now} - ifnull(first_remember_time,${now}) <${THREE_DAY_MILLISECONDS}`;
             } else {
-                sql1 = `select * from words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
+                sql1 = `select * from wordbook.words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
             }
             return getDataBySql(sql1);
 

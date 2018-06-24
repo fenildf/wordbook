@@ -1,5 +1,4 @@
 import SQLHelper from './../util/SQLHelper';
-import words from './../asserts/words';
 
 function fixOldVersion(myStudyWord, myWordBook) {
     let tasks = [];
@@ -37,7 +36,7 @@ function fixOldVersion(myStudyWord, myWordBook) {
 
 let time = Date.now();
 
-function fillTableWithBook() {
+function fillTableWithBook($persist,$connect) {
     let iterator = words.iterator();
     let book = iterator.next();
     let tasks = [];
@@ -78,15 +77,12 @@ function fillTableWithBook() {
                     if (c == ':') {
                         sectionname = temp;
                         tx.executeSql(sectionSql, [sectionname,bookname, classify], () => {}, (err) => console.log(err));
-                        i++;
                         temp = '';
                     } else if(c == ','){
                         tx.executeSql(wordSql,[temp,bookname,sectionname,classify], () => {}, (err) => console.log(err));
                         temp = '';
-                        i++;
                     } else if (c == '#') {
                         temp = '';
-                        i++;
                     } else {
                         temp += c;
                     }
@@ -99,7 +95,7 @@ function fillTableWithBook() {
     return tasks;
 }
 
-function appInit(myStudyWord, myWordBook, word, dbversion) {
+function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
     let tasks = [];
     tasks.push(SQLHelper.createTable('user_study_word', [
         'id integer primary key autoincrement not null',
@@ -124,9 +120,6 @@ function appInit(myStudyWord, myWordBook, word, dbversion) {
         'last_read_time interger not null',
         'user_id default(1)'
     ]));
-    if (dbversion !== words.version) {
-        tasks = tasks.concat(fillTableWithBook());
-    }
     return Promise.all(tasks).then(() => {
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
