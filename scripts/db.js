@@ -23,22 +23,22 @@ const books = [];
 const sections = [];
 const words = [];
 
-files.forEach(function (file) {
-    if (/\.json$/.test(file)) {
-        let data = JSON.parse(fs.readFileSync('wordbooks/' + file));
-        let bookname = data.name;
-        let classify = data.classify;
-        books.push({ name: bookname,book_classify:classify });
-        data.children.forEach(function (section) {
-            let sectionname = section.name;
-            sections.push({ name: sectionname, book_name: bookname,book_classify:classify });
-            section.children.forEach(function (word) {
-                words.push({ section_name: sectionname, book_name: bookname, name: word.name,book_classify:classify });
-            })
-        });
+// files.forEach(function (file) {
+//     if (/\.json$/.test(file)) {
+//         let data = JSON.parse(fs.readFileSync('wordbooks/' + file));
+//         let bookname = data.name;
+//         let classify = data.classify;
+//         books.push({ name: bookname,book_classify:classify });
+//         data.children.forEach(function (section) {
+//             let sectionname = section.name;
+//             sections.push({ name: sectionname, book_name: bookname,book_classify:classify });
+//             section.children.forEach(function (word) {
+//                 words.push({ section_name: sectionname, book_name: bookname, name: word.name,book_classify:classify });
+//             })
+//         });
 
-    }
-});
+//     }
+// });
 tables.push({
     name: 'classify',
     column: [
@@ -97,6 +97,36 @@ tables.push({
     ],
     source: words
 });
+tables.push({
+    name: 'user_word_book',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null UNIQUE',
+        'count integer',
+        'position integer',
+        'current_word text',
+        'create_time interger not null',
+        'last_read_time interger not null',
+        'user_id default(1)'
+    ]
+});
+
+tables.push({
+    name: 'user_study_word',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null UNIQUE',
+        'is_remember  default(0)',
+        'is_temp_remember  default(0)',
+        'last_read_time interger not null',
+        'create_time interger',
+        'remember_times interger default(0)',
+        'first_remember_time interger',
+        'remember_time interger',
+        'user_id default(1)'
+    ],
+});
+
 
 const db = new SQLITE.Database(PATH);
 
