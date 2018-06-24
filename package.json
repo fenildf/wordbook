@@ -9,6 +9,7 @@
     "scripts": {
         "bookurl": "node scripts/bookurl.js",
         "wordbook": "node scripts/wordbook.js",
+        "wordbook2app": "node scripts/wordbook2app.js",
         "db2app": "node scripts/db.js",
         "test": "jest"
     },
