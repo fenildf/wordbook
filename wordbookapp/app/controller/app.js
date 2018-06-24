@@ -84,7 +84,7 @@ function fillTableWithBook() {
                         tx.executeSql(wordSql,[temp,bookname,sectionname,classify], () => {}, (err) => console.log(err));
                         temp = '';
                         i++;
-                    } if (c == '#') {
+                    } else if (c == '#') {
                         temp = '';
                         i++;
                     } else {
