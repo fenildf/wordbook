@@ -96,31 +96,33 @@ function fillTableWithBook($persist,$connect) {
 }
 
 function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
-    let tasks = [];
-    tasks.push(SQLHelper.createTable('user_study_word', [
-        'id integer primary key autoincrement not null',
-        'name text not null UNIQUE',
-        'is_remember  default(0)',
-        'is_temp_remember  default(0)',
-        'last_read_time interger not null',
-        'create_time interger',
-        'remember_times interger default(0)',
-        'first_remember_time interger',
-        'remember_time interger',
-        'user_id default(1)'
-
-    ]));
-    tasks.push(SQLHelper.createTable('user_word_book', [
-        'id integer primary key autoincrement not null',
-        'name text not null UNIQUE',
-        'count integer',
-        'position integer',
-        'current_word text',
-        'create_time interger not null',
-        'last_read_time interger not null',
-        'user_id default(1)'
-    ]));
-    return Promise.all(tasks).then(() => {
+    return SQLHelper.transaction((tx)=>{
+        tx.executeSql(`CREATE TABLE IF NOT EXISTS user_study_word (${[
+            'id integer primary key autoincrement not null',
+            'name text not null UNIQUE',
+            'is_remember  default(0)',
+            'is_temp_remember  default(0)',
+            'last_read_time interger not null',
+            'create_time interger',
+            'remember_times interger default(0)',
+            'first_remember_time interger',
+            'remember_time interger',
+            'user_id default(1)'
+    
+        ].join(',')});`);
+        tx.executeSql(`CREATE TABLE IF NOT EXISTS user_word_book (${
+            [
+                'id integer primary key autoincrement not null',
+                'name text not null UNIQUE',
+                'count integer',
+                'position integer',
+                'current_word text',
+                'create_time interger not null',
+                'last_read_time interger not null',
+                'user_id default(1)'
+            ].join(',')
+        });`);
+    }).then(()=>{
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
                 console.log(Date.now()-time,'========2')
