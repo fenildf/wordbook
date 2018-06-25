@@ -34,8 +34,6 @@ function fixOldVersion(myStudyWord, myWordBook) {
 
 }
 
-let time = Date.now();
-
 function fillTableWithBook($persist,$connect) {
     let iterator = words.iterator();
     let book = iterator.next();
@@ -91,7 +89,6 @@ function fillTableWithBook($persist,$connect) {
         }(book)));
         book = iterator.next();
     };
-    console.log(Date.now()-time,'========1')
     return tasks;
 }
 
@@ -125,7 +122,6 @@ function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
     }).then(()=>{
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
-                console.log(Date.now()-time,'========2')
                 return {
                     init: true
                 }
