@@ -3,10 +3,11 @@ import SQLite from 'react-native-sqlite-storage';
 let userdb;
 let worddb;
 
-var readyPromise;
+let readyPromise;
+let isReady = false;
 
 function ready() {
-    if (worddb) {
+    if (isReady) {
         return Promise.resolve();
     }
     if (readyPromise) {
@@ -21,6 +22,7 @@ function ready() {
                        {name:'wordbook',createFromLocation:'~data/word.db'},
                        function(){
                             userdb.attach('wordbook', 'wordbook', function () {
+                                isReady = true;
                                 resolve();
                                 readyPromise = undefined;
                             });
@@ -46,8 +48,8 @@ function error(err){
 }
 
 function executeSql(sql, data = []) {
-    let db = userdb;
     return ready().then(() => new Promise((resolve, reject) => {
+        let db = userdb;
         db.transaction(tx => {
             tx.executeSql(
                 sql,
@@ -82,8 +84,8 @@ function insertOrReplace(tableName,columns,data){
     return executeSql(sql);
 }
 function transaction(fn){
-    let db = userdb;
     return ready().then(() => new Promise((resolve, reject) => {
+        let db = userdb;
         db.transaction(tx => {
             fn(tx);
         },error,resolve);
