@@ -10,6 +10,7 @@ import {
 }  from 'febrest';
 
 require('./router');
+require('./ui');
 import action from './action';
 import WordsProvider from './providers/WordsProvider';
 

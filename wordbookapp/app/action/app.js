@@ -18,5 +18,17 @@ export default [
     {
         key:actions.APP_RESET_NAVIGATOR,
         controller:app.appNavigate
+    },
+    {
+        key:actions.TOAST,
+        controller:app.trans
+    },
+    {
+        key:actions.ALERT,
+        controller:app.trans
+    },
+    {
+        key:actions.POPUP,
+        controller:app.trans
     }
 ]

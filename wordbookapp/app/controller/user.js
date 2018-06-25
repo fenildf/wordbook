@@ -40,7 +40,14 @@ function removeBooks($payload, $persist){
             }
         }
     }
-    $persist('word', { items: Object.values(userWordBook), type: 'wordBookRemove' });
+    let userWordBookArray = Object.values(userWordBook);
+    if(userWordBookArray.length<1){
+        return {
+            ok: false,
+            message:'请选择要移除的单词本'
+        }
+    }
+    $persist('word', { items: userWordBookArray, type: 'wordBookRemove' });
     return {
         ok: true
     }

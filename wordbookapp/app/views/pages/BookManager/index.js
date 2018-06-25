@@ -23,7 +23,7 @@ class BookManager extends Component{
         this.state = {
             books:[]
         }
-        this.dispatcher = createDispatcher(this);
+        this.dispatcher = createDispatcher(this,this._onData);
         this._selectedBooks = {};
     }
     componentDidMount() {
@@ -34,6 +34,19 @@ class BookManager extends Component{
     }
     _fetchData(){
         this.dispatcher.dispatch(actions.USER_GET_CUSTOMIZED_BOOKS);
+    }
+    _onData({key,state},isThis){
+        if(!isThis){
+            return;
+        }
+        switch(key){
+            case actions.USER_REMOVE_BOOKS:
+                if(state.ok){
+                    dispatch(actions.APP_NAVIGATE_GOBACK);
+                }else{
+                    dispatch(actions.TOAST,state.message);
+                }
+        }
     }
     _onSelected(isSelected,book){
         if (isSelected) {
@@ -57,8 +70,7 @@ class BookManager extends Component{
         });
     }
     _deleteBooks=()=>{
-        dispatch(actions.USER_REMOVE_BOOKS,this._selectedBooks);
-        dispatch(actions.APP_NAVIGATE_GOBACK);
+        this.dispatcher.dispatch(actions.USER_REMOVE_BOOKS,this._selectedBooks);
         
     }
     render(){

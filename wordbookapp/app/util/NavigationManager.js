@@ -109,5 +109,6 @@ export default {
     getParam,
     dispatch,
     getCurrentNavigation,
-    createStackNavigator
+    createStackNavigator,
+    getCurrentScreen
 }

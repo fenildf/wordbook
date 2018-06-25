@@ -135,7 +135,13 @@ function appNavigate($payload) {
     return $payload();
 
 }
+
+function trans($payload) {
+    return $payload();
+
+}
 export default {
     appInit,
-    appNavigate
+    appNavigate,
+    trans
 }
