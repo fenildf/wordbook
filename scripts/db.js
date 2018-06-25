@@ -176,7 +176,7 @@ createDB(PATH,tables,[
     'wordbookapp/ios/wordbookapp/data/word.db']
 );
 
-// createDB(USER_DB_PATH,tables,[
-//     'wordbookapp/android/app/src/main/assets/data/database.db',
-//     'wordbookapp/ios/wordbookapp/data/database.db']
-// );
+createDB(USER_DB_PATH,userTables,[
+    'wordbookapp/android/app/src/main/assets/data/database.db',
+    'wordbookapp/ios/wordbookapp/data/database.db']
+);
