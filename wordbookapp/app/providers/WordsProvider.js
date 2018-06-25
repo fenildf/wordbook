@@ -146,7 +146,7 @@ function getData(type, payload) {
 
     switch (type) {
         case 'wordCustomizedBook':
-            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from books group by name)';
+            sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from wordbook.books group by name)';
             return getDataBySql(sql1);
         case 'wordSection':
             sql1 = 'select strftime("%Y-%m-%d",datetime("create_time"/1000,"unixepoch","localtime")) as section_name,count(name) as count from user_study_word group by section_name';
@@ -172,7 +172,7 @@ function getData(type, payload) {
                 })
             });
         case 'classify':
-            sql1 = `select name from classify`
+            sql1 = `select name from wordbook.classify`
             return getDataBySql(sql1);
         case 'books':
             if (payload.unselect) {
