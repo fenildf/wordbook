@@ -122,6 +122,8 @@ function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
     }).then(()=>{
         return fixOldVersion(myStudyWord, myWordBook).then(
             () => {
+                $persist('myStudyWord','');
+                $persist('myWordBook','');
                 return {
                     init: true
                 }
