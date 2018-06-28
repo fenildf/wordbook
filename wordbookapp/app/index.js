@@ -11,7 +11,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 import { Theme } from 'react-native-improver';
-var currentTheme = Theme.getTheme();
+let currentTheme = Theme.getTheme();
 import routes from './views/pages';
 import { NativeManager } from './native';
 import NavigationManager from './util/NavigationManager';
@@ -29,7 +29,6 @@ class Entry extends Component {
         this.state = {
             init: false,
             navigation: null,
-            navigationKey: 0
         }
         this.dispatcher = createDispatcher(this, this._onData);
 
@@ -65,7 +64,6 @@ class Entry extends Component {
         initialRouteName = initialRouteName || NativeManager.ENV === 'DEBUG' ? 'PageList' : 'Main';
         this.setState({
             init: true,
-            navigationKey: this.state.navigationKey + 1,
             navigation: NavigationManager.createStackNavigator(routes, { initialRouteName, initialRouteParams })
         });
     }
