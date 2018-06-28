@@ -60,9 +60,6 @@ class Section extends Component{
                 ref='List'
                 renderItem={this._renderItem}
                 keyExtractor={this._keyExtractor}
-                getItemLayout={(data, index) => (
-                    {length: 48, offset: 48 * index, index}
-                )}
                 style={styles.wrapper}
                 data={this.state.words} />
         )
