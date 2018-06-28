@@ -16,7 +16,7 @@ import StyleSheet from './../../../util/StyleSheet';
 class Section extends Component{
     constructor(...props){
         super(...props);
-        let params = this.getScreen().getNavigation().state.params||{};
+        let params = this.props.navigation.state.params||{};
         let section = params.section||{}
         this.navigationOptions = {
             title:section.name||'单词本'

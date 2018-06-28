@@ -18,7 +18,7 @@ import Meaning from './Meaning';
 class Word extends Component {
     constructor(...props) {
         super(...props);
-        let params = this.getScreen().getNavigation().state.params || {};
+        let params = this.props.navigation.state.params || {};
         let word = params.word || {}
         let sectionName = params.sectionName;
         let bookName = params.bookName;

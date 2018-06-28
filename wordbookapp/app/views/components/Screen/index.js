@@ -65,6 +65,9 @@ function Screen(component) {
                 callback = this._readyList.shift();
             }
         }
+        getNavigation(){
+            return this.props.navigation();
+        }
         alert(config) {
             this._ready(() => this.refs[ALERT_REF].show(config));
         }
