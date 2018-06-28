@@ -16,6 +16,9 @@ import StyleSheet from './../../../util/StyleSheet';
 
 import Meaning from './Meaning';
 class Word extends Component {
+    static routeConfig = {
+        name:'Word'
+    }
     constructor(...props) {
         super(...props);
         let params = this.props.navigation.state.params || {};

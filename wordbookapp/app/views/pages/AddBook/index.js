@@ -17,6 +17,9 @@ import NavigationManager from './../../../util/NavigationManager';
 import FoldableItem from './../../components/FoldableItem';
 
 class AddBook extends Component {
+    static routeConfig = {
+        name:'AddBook'
+    }
     constructor(...props) {
         super(...props);
         this.navigationOptions = {

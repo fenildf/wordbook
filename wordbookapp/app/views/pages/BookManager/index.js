@@ -15,6 +15,9 @@ import Item from './Item';
 import Button from './Button';
 
 class BookManager extends Component{
+    static routeConfig = {
+        name:'BookManager'
+    }
     constructor(...props){
         super(...props);
         this.navigationOptions = {

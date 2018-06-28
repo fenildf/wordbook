@@ -14,6 +14,9 @@ import FlatList from './../../components/FlatList';
 import Item from './Item';
 import StyleSheet from './../../../util/StyleSheet';
 class Book extends Component{
+    static routeConfig = {
+        name:'Book'
+    }
     constructor(...props){
         super(...props);
         let params =  this.props.navigation.state.params||{};

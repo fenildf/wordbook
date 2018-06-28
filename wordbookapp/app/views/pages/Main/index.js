@@ -17,6 +17,9 @@ import actions from '../../../constants/actions';
 import AddButton from './AddButton';
 import BookItem from './BookItem';
 class Main extends Component {
+    static routeConfig = {
+        name:'Main'
+    }
     constructor(...props) {
         super(...props);
         this.navigationOptions = {

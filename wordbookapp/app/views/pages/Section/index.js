@@ -14,6 +14,9 @@ import StyleSheet from './../../../util/StyleSheet';
 
 
 class Section extends Component{
+    static routeConfig={
+        name:'Section'
+    }
     constructor(...props){
         super(...props);
         let params = this.props.navigation.state.params||{};
