@@ -66,7 +66,7 @@ function Screen(component) {
             }
         }
         getNavigation(){
-            return this.props.navigation();
+            return this.props.navigation;
         }
         alert(config) {
             this._ready(() => this.refs[ALERT_REF].show(config));
