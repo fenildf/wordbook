@@ -12,7 +12,6 @@ import StyleSheet from './../../../util/StyleSheet';
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';
 import BookSection from './BookSection';
-import NavigationManager from './../../../util/NavigationManager';
 
 import FoldableItem from './../../components/FoldableItem';
 
@@ -40,7 +39,7 @@ class AddBook extends Component {
     }
     _onRightButtonPress = () => {
         dispatch(actions.USER_ADD_BOOKS, this._selectedBooks);
-        NavigationManager.goBack();
+        dispatch(actions.APP_NAVIGATE_GOBACK);
     }
     componentDidMount() {
         this.dispatcher.dispatch(actions.WORD_GET_CLASSIFY);

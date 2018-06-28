@@ -77,7 +77,7 @@ function goBack(...args) {
 }
 function addListener(...args) {
     let navigation = getCurrentNavigation();
-    navigation && navigation.goBack(...args);
+    navigation && navigation.addListener(...args);
 }
 
 function setParams(...args) {
