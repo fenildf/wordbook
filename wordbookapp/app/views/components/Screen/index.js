@@ -18,7 +18,6 @@ const TOAST_REF = 'TOAST_REF';
 var ID = 1;
 
 const SCREEN_INSTS = [];
-let CURRENT_SCREEN;
 function Screen(component) {
     class $Screen extends component {
         static childContextTypes = {
@@ -148,9 +147,7 @@ function Screen(component) {
 }
 
 function getScreen(key) {
-    if(!key){
-        return CURRENT_SCREEN;
-    }
+ 
     return SCREEN_INSTS[key];
 }
 Screen.getScreen = getScreen;
