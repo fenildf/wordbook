@@ -1,5 +1,5 @@
 'use strict'
-import React from 'react';
+import React,{Component} from 'react';
 import {
     View,
     ListView,
@@ -9,7 +9,6 @@ import {
     StyleSheet
 } from 'react-native';
 
-import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
@@ -17,7 +16,7 @@ import { dispatch } from 'febrest';
 import actions from '../../../constants/actions';
 import AddButton from './AddButton';
 import BookItem from './BookItem';
-class Main extends ScreenComponent {
+class Main extends Component {
     constructor(...props) {
         super(...props);
         this.navigationOptions = {

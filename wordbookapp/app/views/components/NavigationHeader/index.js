@@ -8,6 +8,8 @@ import TouchableOpacity from './../TouchableOpacity';
 const IOS = Platform.OS === 'ios';
 import FontIcon from './../FontIcon';
 import StyleSheet from './../../../util/StyleSheet';
+import {dispatch} from 'febrest';
+import actions from './../../../constants/actions'
 class Button extends Component {
     constructor(...props) {
         super(...props);
@@ -86,22 +88,21 @@ export default class Header extends Component {
         this.setState(info);
     }
     _renderLeftButton() {
-        var leftButton;
-        var navigation = this.props.navigation;
+        let {routeState} = this.props;
         if (typeof this.state.leftButton === 'object') {
             return <Button
                 type='left'
                 onPress={()=>this.state.onLeftButtonPress&&this.state.onLeftButtonPress()}
                 children={this.state.leftButton} />;
-        } else if ((navigation.state.index !== 0 || APPContext.isLoginPopupShow)) {
+        } else if (routeState.index !== 0) {
             return <Button
                 type='back'
-                onPress={navigation.state.index !== 0 ? () => navigation.goBack() : () => APPContext.hideLoginPopup()}
-                children={this._backButton(navigation)} />;
+                onPress={()=>dispatch(actions.APP_NAVIGATE_GOBACK)}
+                children={this._backButton()} />;
         }
         return null;
     }
-    _backButton(navigation) {
+    _backButton() {
         return <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>
     }
     _renderRightButton() {

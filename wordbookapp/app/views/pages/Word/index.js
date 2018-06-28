@@ -1,12 +1,11 @@
 'use strcit'
-import React from 'react'
+import React,{Component} from 'react'
 
 import {
     View
 } from 'react-native';
 
 import Text from './../../components/Text';
-import ScreenComponent from './../../components/ScreenComponent';
 import ScrollView from './../../components/ScrollView';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
@@ -16,7 +15,7 @@ import Main from './Main';
 import StyleSheet from './../../../util/StyleSheet';
 
 import Meaning from './Meaning';
-class Word extends ScreenComponent {
+class Word extends Component {
     constructor(...props) {
         super(...props);
         let params = this.getScreen().getNavigation().state.params || {};

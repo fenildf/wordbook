@@ -1,5 +1,5 @@
 'use strcit'
-import React from 'react'
+import React,{Component} from 'react'
 
 import {
     View,
@@ -7,14 +7,13 @@ import {
 } from 'react-native';
 
 
-import ScreenComponent from './../../components/ScreenComponent';
 import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
 import FlatList from './../../components/FlatList';
 import Item from './Item';
 import StyleSheet from './../../../util/StyleSheet';
-class Book extends ScreenComponent{
+class Book extends Component{
     constructor(...props){
         super(...props);
         let params = this.getScreen().getNavigation().state.params||{};

@@ -20,36 +20,12 @@ var ID = 1;
 const SCREEN_INSTS = [];
 function Screen(component) {
     class $Screen extends component {
-        static childContextTypes = {
-            screen: PropTypes.any,
-            parent: PropTypes.any
-        }
-        static contextTypes = {
-            screen: PropTypes.any,
-            parent: PropTypes.any
-        }
         constructor(...props) {
             super(...props);
             this._readyList = [];
             this._isReady = false;
             this.navigationOptions = this.navigationOptions || { header: null };
             this._key;
-        }
-
-        getScreen() {
-            return this;
-        }
-        getParent() {
-            return null;
-        }
-        getChildContext() {
-            return {
-                parent: this,
-                screen: this
-            }
-        }
-        getNavigation() {
-            return this.props.navigation;
         }
         componentDidMount() {
             this._isReady = true;
@@ -115,8 +91,6 @@ function Screen(component) {
             let { navigation } = this.props;
             let state = navigation ? navigation.state : {};
             let params = state.params ? state.params : {};
-            let key = params.key;
-
             let headerProps = {
                 ...this.navigationOptions || { header: null },
                 ...params
@@ -126,7 +100,7 @@ function Screen(component) {
                 style={[{ flex: 1, flexDirection: 'column' }]}>
                 <NavigationHeader
                     ref={HEADER_REF}
-                    navigation={navigation}
+                    routeState={state}
                     {...headerProps} />
                 <View
                     collapsable={true}
@@ -147,7 +121,6 @@ function Screen(component) {
 }
 
 function getScreen(key) {
- 
     return SCREEN_INSTS[key];
 }
 Screen.getScreen = getScreen;
