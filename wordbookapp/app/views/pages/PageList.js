@@ -14,6 +14,9 @@ import NavigationManager from './../../util/NavigationManager';
 import {Theme} from 'react-native-improver';
 var currentTheme = Theme.getTheme();
 class PageList extends Component{
+    static routeConfig={
+        name:'PageList'
+    }
     constructor(...props){
         super(...props);
         this.navigationOptions = {

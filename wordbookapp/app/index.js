@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { Theme } from 'react-native-improver';
 var currentTheme = Theme.getTheme();
-import routes from './routeConfigs';
+import routes from './views/pages';
 import { NativeManager } from './native';
 import NavigationManager from './util/NavigationManager';
 import Screen from './views/components/Screen';
