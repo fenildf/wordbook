@@ -21,7 +21,9 @@ var BaseTheme = {
     navigationHeaderPaddingTop:IOS ? 20 : 0,
     navigationHeaderBackgroundColor:'#fff',
     navigationHeaderColor:'#333',
-    navigationHeaderFontSize:14
+    navigationHeaderFontSize:14,
+    navigationHeaderLeftButtonMargin:20,
+    navigationHeaderRightButtonMargin:20,
 }
 
 export default BaseTheme;

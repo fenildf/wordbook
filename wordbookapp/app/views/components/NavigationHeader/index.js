@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import { Platform } from 'react-native';
-import { NavigationActions } from 'react-navigation';
-import { autoSize,px2dp } from 'react-native-improver';
 import { View } from 'react-native';
 import Text from './../Text';
 import TouchableOpacity from './../TouchableOpacity';
-const IOS = Platform.OS === 'ios';
 import FontIcon from './../FontIcon';
 import StyleSheet from './../../../util/StyleSheet';
 import {dispatch} from 'febrest';
@@ -16,27 +12,9 @@ class Button extends Component {
     }
     render() {
         var type = this.props.type;
-        var styles = {
-            left: {
-                paddingLeft:20,
-                justifyContent: 'flex-start',
-            },
-            right: {
-                paddingRight:20,
-                justifyContent: 'flex-end',
-            },
-            back: {
-                paddingLeft:20,
-                justifyContent: 'flex-start',
-            }
-        }
         return <TouchableOpacity
             onPress={this.props.onPress}
-            style={{
-                flexDirection: 'row',
-                alignItems: 'center',
-                ...styles[type]
-            }}>
+            style={[styles.button,styles[type]]}>
             {this.props.children}
         </TouchableOpacity>
     }
@@ -91,16 +69,16 @@ export default class Header extends Component {
         let {routeState} = this.props;
         if (typeof this.state.leftButton === 'object') {
             return <Button
-                type='left'
+                type='leftButton'
                 onPress={()=>this.state.onLeftButtonPress&&this.state.onLeftButtonPress()}
                 children={this.state.leftButton} />;
         } else if (routeState.index !== 0) {
             return <Button
-                type='back'
+                type='leftButton'
                 onPress={()=>dispatch(actions.APP_NAVIGATE_GOBACK)}
                 children={this._backButton()} />;
         }
-        return null;
+        return <View style={styles.emptyLeftButton}/>
     }
     _backButton() {
         return <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>
@@ -108,7 +86,7 @@ export default class Header extends Component {
     _renderRightButton() {
         if (typeof this.state.rightButton === 'object') {
             return <Button
-                type='right'
+                type='rightButton'
                 onPress={()=>this.state.onRightButtonPress&&this.state.onRightButtonPress()}
                 children={this.state.rightButton} />;
         } else {
@@ -131,12 +109,6 @@ export default class Header extends Component {
         return <View
             style={[
                 styles.header,
-                this.props.style,
-                {
-                    height: IOS ? 64 : 44,
-                    flexDirection: 'row',
-                    paddingTop: IOS ? 20 : 0,
-                }
             ]}>
             {this._renderLeftButton()}
             {this._renderTitle()}
@@ -150,24 +122,39 @@ const styles = StyleSheet.create(function(theme){
     return {
         header:{
             backgroundColor: theme.navigationHeaderBackgroundColor,
-            borderBottomColor:theme.borderColor,
-            borderBottomWidth:theme.px
+            flexDirection: 'row',
+            height:theme.navigationHeaderHeight,
+            paddingTop:theme.navigationHeaderPaddingTop
         },
         title:{
             flex:1,
             overflow: 'hidden',
             flexDirection: 'row',
             alignItems: 'center',
-            paddingLeft:20,
-            paddingRight:20,
         },
         titleText:{ 
             fontSize: theme.navigationHeaderFontSize,
             color:theme.navigationHeaderColor
         },
         backArrow:{
-            marginRight:20,
             color:theme.navigationHeaderColor
+        },
+        button:{
+            flexDirection: 'row',
+            alignItems: 'center',
+        },
+        emptyLeftButton:{
+            marginRight:theme.navigationHeaderLeftButtonMargin,
+        },
+        leftButton:{
+            paddingLeft:theme.navigationHeaderLeftButtonMargin,
+            justifyContent: 'flex-start',
+            marginRight:theme.navigationHeaderLeftButtonMargin,
+        },
+        rightButton:{
+            paddingRight:theme.navigationHeaderLeftButtonMargin,
+            justifyContent: 'flex-end',
+            marginLeft:theme.navigationHeaderLeftButtonMargin,
         }
     }
 });
