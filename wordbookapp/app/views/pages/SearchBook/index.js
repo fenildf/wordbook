@@ -8,6 +8,8 @@ import {
 
 import StyleSheet from './../../../util/StyleSheet';
 
+import Header from './Header';
+
 class SearchBook extends Component{
     static routeConfig={
         name:'SearchBook'
@@ -15,7 +17,8 @@ class SearchBook extends Component{
     constructor(...props){
         super(...props);
         this.navigationOptions={
-            title:'搜索'
+            title:'搜索',
+            header:null
         }
         this.state={
 
@@ -25,6 +28,7 @@ class SearchBook extends Component{
         return (
             <View
                 style={styles.wrapper}>
+                <Header />
             </View>
         );
     }

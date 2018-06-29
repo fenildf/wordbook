@@ -92,7 +92,7 @@ class AddBook extends Component {
             <View 
                 style={styles.wrapper}>
                 <Search 
-                    onPress={dispatch(actions.APP_NAVIGATE,{routeName:'SearchBook'})}/>
+                    onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'SearchBook'})}/>
                 <ScrollView
                     ref='ScrollView'
                     style={styles.wrapper}>
