@@ -47,7 +47,9 @@ function getMeaning(meaning,$payload){
 }
 
 function searchBook(word,$payload){
-    return word('search',$payload().searchText);
+    return word('search',$payload().searchText).then((result)=>{
+        return {result}
+    });
 }
 export default {
     getBooks,

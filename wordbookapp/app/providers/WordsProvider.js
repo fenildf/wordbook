@@ -145,6 +145,13 @@ function getData(type, payload) {
     payload = payload;
 
     switch (type) {
+        case 'search':
+            sql1 =`select book_name as name,book_classify as classify,count(book_name) as count 
+                    from wordbook.words 
+                    where name like '%${payload}%' or classify like '%${payload}%'
+                    group by book_name 
+                    ORDER BY classify`;
+            return getDataBySql(sql1);
         case 'wordCustomizedBook':
             sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from wordbook.books group by name)';
             return getDataBySql(sql1);

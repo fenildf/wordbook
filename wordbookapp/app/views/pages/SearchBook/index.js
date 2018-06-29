@@ -28,22 +28,26 @@ class SearchBook extends Component{
         }
         this.dispatcher = createDispatcher(this,this._onData);
     }
-    _search(){
+    _search=()=>{
         let {searchText} = this.state;
         if(!searchText){
            return dispatch(actions.TOAST,'请输入搜索内容');
         }
         this.dispatcher.dispatch(actions.SEARCH_BOOK,{searchText});
     }
-    _onData(){
-
+    _onData({key,state}){
+        switch(key){
+            case actions.SEARCH_BOOK:
+                alert(state.result.length);
+                return true;
+        }
     }
     render(){
         return (
             <View
                 style={styles.wrapper}>
                 <Header
-                    onSubmitEditing={()=>this._search}
+                    onSubmitEditing={this._search}
                     onChangeText={(v)=>this.state.searchText = v}/>
             </View>
         );
