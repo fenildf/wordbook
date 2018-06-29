@@ -137,7 +137,6 @@ function appNavigate($payload) {
     return $payload();
 
 }
-
 function trans($payload) {
     return $payload();
 

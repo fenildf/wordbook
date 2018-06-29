@@ -22,5 +22,9 @@ export default [
     {
         key:actions.WORD_GET_MEANING,
         controller:word.getMeaning
+    },
+    {
+        key:actions.SEARCH_BOOK,
+        controller:word.searchBook
     }
 ]

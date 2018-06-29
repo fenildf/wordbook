@@ -45,10 +45,15 @@ function getMeaning(meaning,$payload){
         return {meaning:response};
     })
 }
+
+function searchBook(word,$payload){
+    return word('search',$payload().searchText);
+}
 export default {
     getBooks,
     getSections,
     getWords,
     getMeaning,
-    getClassify
+    getClassify,
+    searchBook
 }
