@@ -91,7 +91,8 @@ class AddBook extends Component {
         return (
             <View 
                 style={styles.wrapper}>
-                <Search />
+                <Search 
+                    onPress={dispatch(actions.APP_NAVIGATE,{routeName:'SearchBook'})}/>
                 <ScrollView
                     ref='ScrollView'
                     style={styles.wrapper}>
