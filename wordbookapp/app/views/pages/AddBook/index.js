@@ -14,6 +14,7 @@ import Text from './../../components/Text';
 import BookSection from './BookSection';
 
 import FoldableItem from './../../components/FoldableItem';
+import Search from './Search';
 
 class AddBook extends Component {
     static routeConfig = {
@@ -88,21 +89,25 @@ class AddBook extends Component {
     }
     render() {
         return (
-            <ScrollView
-                ref='ScrollView'
+            <View 
                 style={styles.wrapper}>
-                {this._renderBooks()}
-                <View 
-                    style={styles.margin}/>
-            </ScrollView>
-
+                <Search />
+                <ScrollView
+                    ref='ScrollView'
+                    style={styles.wrapper}>
+                    {this._renderBooks()}
+                </ScrollView>
+               
+            </View>
         )
     }
 }
 const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
-            flex: 1
+            flex: 1,
+            backgroundColor: '#fff',
+            paddingBottom:10
         },
         borderTop: {
             borderTopWidth: theme.px,
