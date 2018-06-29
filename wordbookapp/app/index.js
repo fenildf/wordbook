@@ -60,7 +60,6 @@ class Entry extends Component {
     resetNavigator(initialRouteName, initialRouteParams) {
         initialRouteName = initialRouteName || NativeManager.ENV === 'DEBUG' ? 'PageList' : 'Main';
         this.setState({
-            init: true,
             navigation: NavigationManager.createStackNavigator(routes, { initialRouteName, initialRouteParams })
         });
     }
