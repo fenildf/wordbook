@@ -142,9 +142,9 @@ function trans($payload) {
     return $payload();
 }
 function setTheme(theme,$payload){
-   return StyleSheet.setTheme(theme).then(()=>{
-       return {ok:true}
-   });
+    /**
+     * todos:主题设置功能
+    */
 }
 export default {
     appInit,

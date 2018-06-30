@@ -15,7 +15,6 @@ export default [
     {
         name:'theme',
         type:'storage',
-        defaultState:'base'
     },
     {
         name:'myWordBook',
