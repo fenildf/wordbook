@@ -42,7 +42,7 @@ class Word extends Component {
         // this.dispatcher.watch(this._onProviderChange)
     }
     _renderRightButton(){
-        return <FontIcon name='ios-sunny-outline'/>
+        return <FontIcon style={styles.icon} name='ios-sunny-outline'/>
     }
     _onRightButtonPress=()=>{
         dispatch(actions.SET_WORD_PAGE_THEME)
@@ -50,6 +50,9 @@ class Word extends Component {
     _onData(data) {
         switch(data.key){
             case actions.USER_MARK_WORD:
+                return true;
+            case actions.SET_WORD_PAGE_THEME:
+                this.setState(data.state);
                 return true;
         }
     }
@@ -160,6 +163,9 @@ const styles = StyleSheet.create(function (theme) {
         wrapper: {
             flex: 1,
             backgroundColor: theme.wordPageBackgroundColor,
+        },
+        icon:{
+            color:theme.rightButtonColor
         }
     }
 });

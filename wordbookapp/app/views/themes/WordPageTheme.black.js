@@ -6,6 +6,7 @@ var Theme = {
     wordPageNavigationHeaderBackgroundColor:'#000',
     wordPageBackgroundColor:'#000',
     wordPageNavigationHeaderColor:'#444',
+    rightButtonColor:'#fff'
 }
 
 export default Theme;

@@ -176,6 +176,7 @@ function setWordPageTheme(wordPageTheme,$persist){
     StyleSheet.addTheme(theme).then(()=>{
         $persist('wordPageTheme',name);
         return {
+            wordPageTheme:name,
             ok:true
         }
     })
