@@ -45,7 +45,7 @@ class Word extends Component {
         return <FontIcon name='ios-sunny-outline'/>
     }
     _onRightButtonPress=()=>{
-        dispatch(actions.SET_WORD_PAGE_THEME,'black')
+        dispatch(actions.SET_WORD_PAGE_THEME)
     }
     _onData(data) {
         switch(data.key){

@@ -164,12 +164,17 @@ function switchWordPageThemeWidthName(name){
             return  WordPageWhiteTheme;
     }
 }
-function setWordPageTheme($payload,$persist){
-    let payload = $payload();
-    let theme = switchWordPageThemeWidthName(payload);
+function setWordPageTheme(wordPageTheme,$persist){
+    let name;
+    if(wordPageTheme=='black'){
+        name = 'white';
+    }else{
+        name = 'black'
+    }
+    let theme = switchWordPageThemeWidthName(name);
    
     StyleSheet.addTheme(theme).then(()=>{
-        $persist('wordPageTheme',payload);
+        $persist('wordPageTheme',name);
         return {
             ok:true
         }
