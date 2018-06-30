@@ -12,7 +12,6 @@ const styles = StyleSheet.create(function(theme){
         }
     }
 })
-const 
 class Text extends RNText{
     render(){
         return React.cloneElement(super.render(),{style:[styles.defaultStyle,this.props.style]})

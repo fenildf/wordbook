@@ -11,7 +11,7 @@ var BlackTheme = {
     borderColor:'#fff',
     navigationHeaderBackgroundColor:'#000',
     backgroundColor:'#000',
-    navigationHeaderColor:'#fff',
+    navigationHeaderColor:'#444',
 }
 
 export default BlackTheme;
