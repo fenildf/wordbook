@@ -36,17 +36,25 @@ class SearchBook extends Component{
         }
         this.dispatcher.dispatch(actions.SEARCH_BOOK,{searchText});
     }
-    _onData({key,state}){
-        // switch(key){
-        //     case actions.SEARCH_BOOK:
-        //         return true;
-        // }
+    _onData({key,state},isThis){
+        if(!isThis){
+            return true;
+        }
+        switch(key){
+            case actions.USER_ADD_BOOKS:
+                dispatch(actions.TOAST,'添加成功');
+                return true;
+        }
     }
-    _renderItem({item}){
+    _add(item){
+        this.dispatcher.dispatch(actions.USER_ADD_BOOKS,{[item.name]:item});
+    }
+    _renderItem=({item})=>{
         return (
             <Item 
                 count={item.count}
                 name={item.name}
+                onPress={()=>this._add(item)}
                 classify={item.classify}/>
         );
     }
@@ -54,16 +62,17 @@ class SearchBook extends Component{
         return item.name+item.classify;
     }
     render(){
+        let {result,searchText} = this.state;
         return (
             <View
                 style={styles.wrapper}>
                 <Header
                     onSubmitEditing={this._search}
                     onChangeText={(v)=>this.state.searchText = v}/>
-                <FlatList
+                {result&&searchText?<FlatList
                     renderItem={this._renderItem} 
                     keyExtractor={this._keyExtrator}
-                    data={this.state.result}/>
+                    data={this.state.result}/>:null}
             </View>
         );
     }
