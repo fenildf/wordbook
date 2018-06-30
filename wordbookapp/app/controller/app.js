@@ -3,7 +3,7 @@ import StyleSheet from './../util/StyleSheet';
 
 import WordPageBlackTheme from './../views/themes/WordPageTheme.black';
 import WordPageWhiteTheme from './../views/themes/WordPageTheme.white';
-
+import BaseTheme from './../views/themes/BaseTheme';
 
 function fixOldVersion(myStudyWord, myWordBook) {
     let tasks = [];
@@ -97,7 +97,7 @@ function fillTableWithBook($persist,$connect) {
     return tasks;
 }
 
-function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
+function appInit(myStudyWord, myWordBook, word, dbversion,$persist,theme,wordPageTheme) {
     return SQLHelper.transaction((tx)=>{
         tx.executeSql(`CREATE TABLE IF NOT EXISTS user_study_word (${[
             'id integer primary key autoincrement not null',
@@ -129,9 +129,15 @@ function appInit(myStudyWord, myWordBook, word, dbversion,$persist) {
             () => {
                 $persist('myStudyWord','');
                 $persist('myWordBook','');
-                return {
-                    init: true
-                }
+                StyleSheet.addTheme(BaseTheme);
+                return StyleSheet.addTheme(switchWordPageThemeWidthName(wordPageTheme)).then(()=>{
+                    return {
+                        theme,
+                        wordPageTheme,
+                        init: true
+                    }
+                });
+                
             }
         )
     });
@@ -150,16 +156,18 @@ function setTheme(theme,$payload){
      * todos:主题设置功能
     */
 }
-function setWordPageTheme($payload,$persist){
-    let payload = $payload;
-    let theme;
-    switch(payload){
+function switchWordPageThemeWidthName(name){
+    switch(name){
         case 'black':
-            theme = WordPageBalckTheme;
-            break;
+            return WordPageBalckTheme;
         default:
-            theme = WordPageWhiteTheme;
+            return  WordPageWhiteTheme;
     }
+}
+function setWordPageTheme($payload,$persist){
+    let payload = $payload();
+    let theme = switchWordPageThemeWidthName(payload);
+   
     StyleSheet.addTheme(theme).then(()=>{
         $persist('wordPageTheme',payload);
         return {
