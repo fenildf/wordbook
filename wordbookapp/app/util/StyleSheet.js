@@ -1,23 +1,11 @@
 import {StyleSheet as SH} from 'react-native';
 
-import {Theme} from 'react-native-improver';
-
 let  StyleSheet = Object.create(SH);
-
-
-let _theme = {};
-let _baseTheme = {};
 let _currentTheme = {};
 
 let _updater ;
-function setTheme(theme){
-    _theme = theme;
-    _currentTheme = Object.assign({},_baseTheme,_theme);
-    return createStyleSheet();
-}
-function setBaseTheme(baseTheme){
-    _baseTheme = baseTheme;
-    _currentTheme = Object.assign({},_baseTheme,_theme);
+function addTheme(theme){
+    _currentTheme = Object.assign(_currentTheme,theme);
     return createStyleSheet();
 }
 
@@ -55,6 +43,5 @@ StyleSheet.create = function(func){
     return sh;
 }
 
-StyleSheet.setBaseTheme = setBaseTheme;
-StyleSheet.setTheme = setTheme;
+StyleSheet.addTheme = addTheme;
 export default StyleSheet;

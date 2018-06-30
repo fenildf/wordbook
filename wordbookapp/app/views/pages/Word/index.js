@@ -13,6 +13,7 @@ import actions from '../../../constants/actions';
 import Footer from './Footer';
 import Main from './Main';
 import StyleSheet from './../../../util/StyleSheet';
+import FontIcon from './../../components/FontIcon';
 
 import Meaning from './Meaning';
 class Word extends Component {

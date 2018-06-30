@@ -17,6 +17,11 @@ export default [
         type:'storage',
     },
     {
+        name:'wordPageTheme',
+        type:'storage',
+        defaultState:'white'
+    },
+    {
         name:'myWordBook',
         type:'storage',
         defaultState:{
