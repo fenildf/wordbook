@@ -14,7 +14,8 @@ export default [
     },
     {
         name:'theme',
-        type:'theme'
+        type:'storage',
+        defaultState:'base'
     },
     {
         name:'myWordBook',

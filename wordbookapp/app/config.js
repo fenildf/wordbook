@@ -17,7 +17,6 @@ import WordsProvider from './providers/WordsProvider';
 import StorageProvider from './providers/StorageProvider';
 
 import MeaningProvider from './providers/MeaningProvider';
-import ThemeProvider from './providers/ThemeProvider';
 
 
 import providerConfigs from './providers/configs';
@@ -28,7 +27,6 @@ createActions(action)
 useProvider('word',WordsProvider);
 useProvider('storage',StorageProvider);
 useProvider('meaning',MeaningProvider);
-useProvider('theme',ThemeProvider);
 
 injectProvider(providerConfigs);
 

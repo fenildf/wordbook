@@ -26,7 +26,9 @@ class Word extends Component {
         let sectionName = params.sectionName;
         let bookName = params.bookName;
         this.navigationOptions = {
-            title: bookName
+            title: bookName,
+            rightButton:this._renderRightButton(),
+            onRightButtonPress:this._onRightButtonPress
         }
         this.state = {
             words: [],
@@ -37,6 +39,11 @@ class Word extends Component {
         }
         this.dispatcher = createDispatcher(this, this._onData);
         // this.dispatcher.watch(this._onProviderChange)
+    }
+    _renderRightButton(){
+        return <FontIcon name='ios-sunny-outline'/>
+    }
+    _onRightButtonPress=()=>{
     }
     _onData(data) {
         switch(data.key){
