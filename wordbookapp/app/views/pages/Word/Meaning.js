@@ -43,7 +43,8 @@ function BasicMeaning(props) {
         let symbols = data.symbols[0];
         let parts = symbols.parts;
         return (
-            <View>
+            <View
+                style={styles.itemStyle}>
                 <View style={[styles.marginBottom, styles.row]}>
                     <Text>
                         英
@@ -86,6 +87,8 @@ function Sentence(props) {
         let data = props.data;
         return (
             <FoldableItem
+                style={styles.itemStyle}
+                itemStyle={styles.itemStyle}
                 titleStyle={styles.titleStyle}
                 title='例句'>
                 {data.map(function (s) {
@@ -154,6 +157,8 @@ function StemsAffixes(props) {
         return (
             <FoldableItem
                 fold={true}
+                style={styles.itemStyle}
+                itemStyle={styles.itemStyle}
                 titleStyle={styles.titleStyle}
                 title='词根词缀'>
                 {data.map(function (s) {
@@ -206,6 +211,8 @@ function EEMeaning(props) {
     return (
         <FoldableItem
             fold={true}
+            style={styles.itemStyle}
+            itemStyle={styles.itemStyle}
             titleStyle={styles.titleStyle}
             title='英英释义'>
             {data.map(function (meaning) {
@@ -231,7 +238,8 @@ function Meaning(props) {
     return (
         <View
             style={styles.wrapper}>
-            <ScrollView>
+            <ScrollView
+                style={styles.sv}>
                 {renderMeading(meaning)}
             </ScrollView>
         </View>
@@ -244,11 +252,18 @@ const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
             flex: 1,
+            backgroundColor:theme.wordPageBackgroundColor,
             marginLeft: theme.paddingHorizontal,
             paddingRight: theme.paddingHorizontal,
             borderTopColor: theme.borderColor,
             borderTopWidth: theme.px,
             paddingVertical: theme.paddingHorizontal,
+        },
+        itemStyle:{
+            backgroundColor:theme.wordPageBackgroundColor,
+        },
+        sv:{
+            backgroundColor:theme.wordPageBackgroundColor,
         },
         row: {
             flexDirection: 'row',

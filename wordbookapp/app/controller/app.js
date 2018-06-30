@@ -159,7 +159,7 @@ function setTheme(theme,$payload){
 function switchWordPageThemeWidthName(name){
     switch(name){
         case 'black':
-            return WordPageBalckTheme;
+            return WordPageBlackTheme;
         default:
             return  WordPageWhiteTheme;
     }
