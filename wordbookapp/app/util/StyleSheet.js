@@ -4,9 +4,49 @@ import {Theme} from 'react-native-improver';
 
 let  StyleSheet = Object.create(SH);
 
-StyleSheet.create = function(func){
-    let theme = Theme.getTheme();
-    return func(theme);
+
+let _theme = {};
+let _baseTheme = {};
+let _currentTheme = {};
+
+let _watcher;
+
+function setTheme(theme){
+    _theme = theme;
+    _currentTheme = Object.assign({},_baseTheme,_theme);
+}
+function setBaseTheme(baseTheme){
+    _baseTheme = baseTheme;
+    _currentTheme = Object.assign({},_baseTheme,_theme);
 }
 
+const STYLE_CREATOR_LIST = [];
+
+function createStyleSheet(){
+    if(_watcher){
+        clearTimeout(_watcher);
+    }
+    _watcher = setTimeout(()=>{
+        STYLE_CREATOR_LIST.forEach(f=>{
+            f();
+        })
+    },0)
+}
+StyleSheet.create = function(func){
+    let id = STYLE_CREATOR_LIST.length;
+    let _sh = {};
+    let creator = function(){
+        return SH.create(func(_currentTheme));
+    }
+    STYLE_CREATOR_LIST.push(creator);
+    _sh = creator();
+    let sh = {};
+    for(let o in _sh){
+        Object.defineProperty(sh,o,{get:()=>_sh[o]});
+    }
+    return sh;
+}
+
+StyleSheet.setBaseTheme = setBaseTheme;
+StyleSheet.setTheme = setTheme;
 export default StyleSheet;
