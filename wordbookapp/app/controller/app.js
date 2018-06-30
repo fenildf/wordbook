@@ -1,4 +1,5 @@
 import SQLHelper from './../util/SQLHelper';
+import StyleSheet from './../util/StyleSheet';
 
 function fixOldVersion(myStudyWord, myWordBook) {
     let tasks = [];
@@ -139,10 +140,13 @@ function appNavigate($payload) {
 }
 function trans($payload) {
     return $payload();
-
+}
+function setTheme(theme,$payload){
+    StyleSheet.setTheme(theme);
 }
 export default {
     appInit,
     appNavigate,
-    trans
+    trans,
+    setTheme
 }

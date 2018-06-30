@@ -9,28 +9,36 @@ let _theme = {};
 let _baseTheme = {};
 let _currentTheme = {};
 
-let _watcher;
-
+let _updater ;
 function setTheme(theme){
     _theme = theme;
     _currentTheme = Object.assign({},_baseTheme,_theme);
+    createStyleSheet();
 }
 function setBaseTheme(baseTheme){
     _baseTheme = baseTheme;
     _currentTheme = Object.assign({},_baseTheme,_theme);
+    createStyleSheet();
 }
 
 const STYLE_CREATOR_LIST = [];
 
 function createStyleSheet(){
-    if(_watcher){
-        clearTimeout(_watcher);
+    if(_updater){
+        return _updater;
     }
-    _watcher = setTimeout(()=>{
-        STYLE_CREATOR_LIST.forEach(f=>{
-            f();
-        })
-    },0)
+    _updater = new Promise((res)=>{
+        setTimeout(()=>{
+            STYLE_CREATOR_LIST.forEach(f=>{
+                f();
+            });
+            _updater = undefined;
+            res();
+        },0)
+    });
+    return _updater;
+    
+   
 }
 StyleSheet.create = function(func){
     let id = STYLE_CREATOR_LIST.length;
