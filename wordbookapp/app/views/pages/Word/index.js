@@ -150,7 +150,7 @@ const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
             flex: 1,
-            backgroundColor: '#fff'
+            backgroundColor: theme.backgroundColor,
         }
     }
 });

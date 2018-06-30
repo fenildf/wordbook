@@ -20,7 +20,7 @@ const styles = StyleSheet.create(function (theme) {
             flexDirection: 'row',
             height: theme.itemHeightM,
             alignItems: 'center',
-            backgroundColor: '#fff',
+            backgroundColor:theme.backgroundColor,
             borderTopWidth: theme.px,
             borderTopColor: theme.borderColor,
         },

@@ -42,7 +42,7 @@ const styles = StyleSheet.create(function(theme){
             flexDirection:'row',
             height:theme.itemHeightM,
             alignItems:'center',
-            backgroundColor:'#fff',
+            backgroundColor:theme.backgroundColor
 
         },
         main:{

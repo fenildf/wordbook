@@ -38,7 +38,7 @@ const styles = StyleSheet.create(function(theme){
         wrapper:{
             flexDirection:'row',
             height:theme.itemHeightH,
-            backgroundColor:'#fff',
+            backgroundColor:theme.backgroundColor,
             paddingHorizontal:theme.paddingHorizontal,
             borderTopColor:theme.borderColor,
             borderTopWidth:theme.px

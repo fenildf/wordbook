@@ -107,7 +107,7 @@ const styles = StyleSheet.create(function (theme) {
     return {
         wrapper: {
             flex: 1,
-            backgroundColor: '#fff',
+            backgroundColor: theme.backgroundColor,
             paddingBottom:10
         },
         borderTop: {
@@ -115,7 +115,7 @@ const styles = StyleSheet.create(function (theme) {
             borderColor: theme.borderColor
         },
         itemStyle: {
-            backgroundColor: '#fff',
+            backgroundColor: theme.backgroundColor,
             paddingLeft: theme.paddingHorizontal,
         },
         margin:{

@@ -72,7 +72,7 @@ const styles = StyleSheet.create(function(theme){
             backgroundColor:'#51658a' 
         },
         text:{
-            color:'#fff'
+            color:theme.color,
         }
     }
 });
