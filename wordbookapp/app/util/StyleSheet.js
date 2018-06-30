@@ -13,12 +13,12 @@ let _updater ;
 function setTheme(theme){
     _theme = theme;
     _currentTheme = Object.assign({},_baseTheme,_theme);
-    createStyleSheet();
+    return createStyleSheet();
 }
 function setBaseTheme(baseTheme){
     _baseTheme = baseTheme;
     _currentTheme = Object.assign({},_baseTheme,_theme);
-    createStyleSheet();
+    return createStyleSheet();
 }
 
 const STYLE_CREATOR_LIST = [];
@@ -44,10 +44,10 @@ StyleSheet.create = function(func){
     let id = STYLE_CREATOR_LIST.length;
     let _sh = {};
     let creator = function(){
-        return SH.create(func(_currentTheme));
+        _sh = SH.create(func(_currentTheme));
     }
     STYLE_CREATOR_LIST.push(creator);
-    _sh = creator();
+    creator();
     let sh = {};
     for(let o in _sh){
         Object.defineProperty(sh,o,{get:()=>_sh[o]});

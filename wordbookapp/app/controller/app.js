@@ -142,7 +142,9 @@ function trans($payload) {
     return $payload();
 }
 function setTheme(theme,$payload){
-    StyleSheet.setTheme(theme);
+   return StyleSheet.setTheme(theme).then(()=>{
+       return {ok:true}
+   });
 }
 export default {
     appInit,

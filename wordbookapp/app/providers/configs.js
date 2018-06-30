@@ -13,6 +13,10 @@ export default [
         defaultState:1
     },
     {
+        name:'theme',
+        type:'theme'
+    },
+    {
         name:'myWordBook',
         type:'storage',
         defaultState:{

@@ -30,5 +30,9 @@ export default [
     {
         key:actions.POPUP,
         controller:app.trans
+    },
+    {
+        key:actions.SET_THEME,
+        controller:app.setTheme
     }
 ]
