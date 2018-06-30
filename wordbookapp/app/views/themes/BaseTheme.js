@@ -11,6 +11,8 @@ var BaseTheme = {
     f4: 16,
     f5: 18,
     f6: 20,
+    color:'#333',
+    tipColor:'#888',
     px:px2dp(1),
     borderColor:'#c5c5c5',
     itemHeightM:48,

@@ -12,7 +12,8 @@ import Header from './Header';
 import {createDispatcher} from 'react-febrest'
 import actions from '../../../constants/actions';
 import {dispatch} from 'febrest';
-
+import FlatList from './../../components/FlatList';
+import Item from './Item';
 class SearchBook extends Component{
     static routeConfig={
         name:'SearchBook'
@@ -36,11 +37,21 @@ class SearchBook extends Component{
         this.dispatcher.dispatch(actions.SEARCH_BOOK,{searchText});
     }
     _onData({key,state}){
-        switch(key){
-            case actions.SEARCH_BOOK:
-                alert(state.result.length);
-                return true;
-        }
+        // switch(key){
+        //     case actions.SEARCH_BOOK:
+        //         return true;
+        // }
+    }
+    _renderItem({item}){
+        return (
+            <Item 
+                count={item.count}
+                name={item.name}
+                classify={item.classify}/>
+        );
+    }
+    _keyExtrator(item){
+        return item.name+item.classify;
     }
     render(){
         return (
@@ -49,6 +60,10 @@ class SearchBook extends Component{
                 <Header
                     onSubmitEditing={this._search}
                     onChangeText={(v)=>this.state.searchText = v}/>
+                <FlatList
+                    renderItem={this._renderItem} 
+                    keyExtractor={this._keyExtrator}
+                    data={this.state.result}/>
             </View>
         );
     }

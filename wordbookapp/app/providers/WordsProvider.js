@@ -148,7 +148,7 @@ function getData(type, payload) {
         case 'search':
             sql1 =`select book_name as name,book_classify as classify,count(book_name) as count 
                     from wordbook.words 
-                    where name like '%${payload}%' or classify like '%${payload}%'
+                    where book_name like '%${payload}%' or classify like '%${payload}%'
                     group by book_name 
                     ORDER BY classify`;
             return getDataBySql(sql1);
