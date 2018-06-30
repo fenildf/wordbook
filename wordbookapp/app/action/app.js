@@ -34,5 +34,9 @@ export default [
     {
         key:actions.SET_THEME,
         controller:app.setTheme
+    },
+    {
+        key:actions.SET_WORD_PAGE_THEME,
+        controller:app.setWordPageTheme
     }
 ]

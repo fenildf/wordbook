@@ -1,6 +1,10 @@
 import SQLHelper from './../util/SQLHelper';
 import StyleSheet from './../util/StyleSheet';
 
+import WordPageBlackTheme from './../views/themes/WordPageTheme.black';
+import WordPageWhiteTheme from './../views/themes/WordPageTheme.white';
+
+
 function fixOldVersion(myStudyWord, myWordBook) {
     let tasks = [];
     if (myStudyWord) {
@@ -146,9 +150,27 @@ function setTheme(theme,$payload){
      * todos:主题设置功能
     */
 }
+function setWordPageTheme($payload,$persist){
+    let payload = $payload;
+    let theme;
+    switch(payload){
+        case 'black':
+            theme = WordPageBalckTheme;
+            break;
+        default:
+            theme = WordPageWhiteTheme;
+    }
+    StyleSheet.addTheme(theme).then(()=>{
+        $persist('wordPageTheme',payload);
+        return {
+            ok:true
+        }
+    })
+}
 export default {
     appInit,
     appNavigate,
     trans,
-    setTheme
+    setTheme,
+    setWordPageTheme
 }

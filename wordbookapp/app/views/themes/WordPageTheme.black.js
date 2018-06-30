@@ -1,12 +1,11 @@
 'use strict'
 
 var Theme = {
-    color:'#737373',
-    tipColor:'#888',
-    borderColor:'#fff',
-    navigationHeaderBackgroundColor:'#000',
-    backgroundColor:'#000',
-    navigationHeaderColor:'#444',
+    wordPageColor:'#737373',
+    wordPageBorderColor:'#fff',
+    wordPageNavigationHeaderBackgroundColor:'#000',
+    wordPageBackgroundColor:'#000',
+    wordPageNavigationHeaderColor:'#444',
 }
 
 export default Theme;
