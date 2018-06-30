@@ -1,7 +1,4 @@
 'use strict'
-import {NativeManager} from './native';
-import BuildConfig from './BuildConfig';
-require('./views/themes');
 import {
     useProvider,
     injectProvider,
