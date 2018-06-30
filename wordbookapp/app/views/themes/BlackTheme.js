@@ -5,11 +5,12 @@ import { Dimensions,PixelRatio,Platform } from 'react-native';
 const IOS = Platform.OS === 'ios';
 
 var BlackTheme = {
-    color:'#fff',
-    tipColor:'#fff',
+    color:'#737373',
+    tipColor:'#888',
     px:px2dp(1),
     borderColor:'#fff',
-    navigationHeaderBackgroundColor:'#333',
+    navigationHeaderBackgroundColor:'#000',
+    backgroundColor:'#000',
     navigationHeaderColor:'#fff',
 }
 

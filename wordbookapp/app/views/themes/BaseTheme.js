@@ -14,6 +14,7 @@ var BaseTheme = {
     color:'#333',
     tipColor:'#888',
     px:px2dp(1),
+    backgroundColor:'#fff',
     borderColor:'#c5c5c5',
     itemHeightM:48,
     itemHeightL:36,
