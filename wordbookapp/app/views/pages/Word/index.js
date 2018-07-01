@@ -53,12 +53,12 @@ class Word extends Component {
     _onRightButtonPress=()=>{
         dispatch(actions.SET_WORD_PAGE_THEME)
     }
-    _onData(data) {
-        switch(data.key){
+    _onData({state,key}) {
+        switch(key){
             case actions.USER_MARK_WORD:
                 return true;
             case actions.SET_WORD_PAGE_THEME:
-                this.setState(data.state);
+                this.setState(state);
                 return true;
         }
     }

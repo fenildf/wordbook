@@ -20,6 +20,9 @@ class Page extends Component{
         this.state={}
         this.dispatcher = createDispatcher(this,this._onData);
     }
+    componentWillUnmount(){
+        this.dispatcher.release();
+    }
     _onData({state,key}){
         switch(key){
             case actions.WORD_GET_MEANING:

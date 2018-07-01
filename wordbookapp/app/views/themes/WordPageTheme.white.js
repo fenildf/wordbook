@@ -3,7 +3,7 @@
 var Theme = {
     wordPageColor:'#333',
     wordPageBorderColor:'#c5c5c5',
-    wordPageBorderNavigationHeaderBackgroundColor:'#fff',
+    wordPageNavigationHeaderBackgroundColor:'#fff',
     wordPageBackgroundColor:'#fff',
     navigationHeaderColor:'#333',
     rightButtonColor:'#333'
