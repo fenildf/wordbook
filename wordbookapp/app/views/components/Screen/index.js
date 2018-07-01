@@ -88,7 +88,7 @@ function Screen(component) {
             })
         }
         updateHeader(props) {
-            this.refs[HEADER_REF] && this.refs[HEADER_REF].updateInfo(props);
+            this.refs[HEADER_REF] && this.refs[HEADER_REF].update(props);
         }
         render() {
             let { navigation } = this.props;

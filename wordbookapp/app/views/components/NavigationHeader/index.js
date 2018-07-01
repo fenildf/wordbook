@@ -6,31 +6,8 @@ import FontIcon from './../FontIcon';
 import StyleSheet from './../../../util/StyleSheet';
 import {dispatch} from 'febrest';
 import actions from './../../../constants/actions'
-class Button extends Component {
-    constructor(...props) {
-        super(...props);
-    }
-    render() {
-        var type = this.props.type;
-        return <TouchableOpacity
-            onPress={this.props.onPress}
-            style={[styles.button,styles[type]]}>
-            {this.props.children}
-        </TouchableOpacity>
-    }
-}
-class Title extends Component {
-    constructor(...props) {
-        super(...props);
-    }
-    render() {
-        return <View
-            style={styles.title}>
-            {this.props.children}
-        </View>
-    }
-}
-export default class Header extends Component {
+import Header from './../Header'
+class NavigationHeader extends Component {
     constructor(...props) {
         super(...props);
         this.state = {
@@ -39,8 +16,6 @@ export default class Header extends Component {
             header: this.props.header === null ? false : true,
             leftButton: this.props.leftButton,
             rightButton: this.props.rightButton,
-            onLeftButtonPress:this.props.onLeftButtonPress,
-            onRightButtonPress:this.props.onRightButtonPress,
             props: this.props
         }
     }
@@ -62,76 +37,52 @@ export default class Header extends Component {
     _mergePropsToState(){
 
     }
-    updateInfo(info) {
+    update(info) {
         this.setState(info);
     }
     _renderLeftButton() {
         let {routeState} = this.props;
         if (typeof this.state.leftButton === 'object') {
-            return <Button
-                type='leftButton'
-                onPress={()=>this.state.onLeftButtonPress&&this.state.onLeftButtonPress()}
-                children={this.state.leftButton} />;
+            return this.state.leftButton
         } else if (routeState.index !== 0) {
-            return <Button
-                type='leftButton'
-                onPress={()=>dispatch(actions.APP_NAVIGATE_GOBACK)}
-                children={this._backButton()} />;
+            return this._backButton();
         }
-        return <View style={styles.emptyLeftButton}/>
     }
     _backButton() {
-        return <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>
+        return <TouchableOpacity 
+                    onPress={()=>dispatch(actions.APP_NAVIGATE_GOBACK)}
+                    children={<FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>}/> 
+            
     }
     _renderRightButton() {
         if (typeof this.state.rightButton === 'object') {
-            return <Button
-                type='rightButton'
-                onPress={()=>this.state.onRightButtonPress&&this.state.onRightButtonPress()}
-                children={this.state.rightButton} />;
-        } else {
-            return null;
+            return this.state.rightButton
         }
     }
     _renderTitle() {
         var child;
-        if (typeof this.state.title === 'function') {
+        if (typeof this.state.title === 'object') {
             child = this.state.title;
         } else {
             child = <Text style={[styles.titleText]}>{this.state.title}</Text>
         }
-        return <Title>{child}</Title>
+        return <View>{child}</View>
     }
     render() {
         if (!this.state.header) {
             return null;
         }
-        return <View
-            style={[
-                styles.header,
-            ]}>
-            {this._renderLeftButton()}
-            {this._renderTitle()}
-            {this._renderRightButton()}
-        </View>
+        return <Header 
+                    title={this._renderTitle()}
+                    rightButton={this._renderRightButton()}
+                    leftButton={this._renderLeftButton()}/>
     }
 }
 
+export default NavigationHeader;
 
 const styles = StyleSheet.create(function(theme){
     return {
-        header:{
-            backgroundColor: theme.navigationHeaderBackgroundColor,
-            flexDirection: 'row',
-            height:theme.navigationHeaderHeight,
-            paddingTop:theme.navigationHeaderPaddingTop
-        },
-        title:{
-            flex:1,
-            overflow: 'hidden',
-            flexDirection: 'row',
-            alignItems: 'center',
-        },
         titleText:{ 
             fontSize: theme.navigationHeaderFontSize,
             color:theme.navigationHeaderColor
@@ -139,22 +90,5 @@ const styles = StyleSheet.create(function(theme){
         backArrow:{
             color:theme.navigationHeaderColor
         },
-        button:{
-            flexDirection: 'row',
-            alignItems: 'center',
-        },
-        emptyLeftButton:{
-            marginRight:theme.navigationHeaderLeftButtonMargin,
-        },
-        leftButton:{
-            paddingLeft:theme.navigationHeaderLeftButtonMargin,
-            justifyContent: 'flex-start',
-            marginRight:theme.navigationHeaderLeftButtonMargin,
-        },
-        rightButton:{
-            paddingRight:theme.navigationHeaderLeftButtonMargin,
-            justifyContent: 'flex-end',
-            marginLeft:theme.navigationHeaderLeftButtonMargin,
-        }
     }
 });

@@ -8,11 +8,12 @@ class Button extends Component {
     }
     render() {
         var type = this.props.type;
-        return <TouchableOpacity
-            onPress={this.props.onPress}
-            style={[styles.button,styles[type]]}>
-            {this.props.children}
-        </TouchableOpacity>
+        let child = this.props.child;
+        if(child){
+            return React.cloneElement(child,{style:[child.props.style,styles[type]]})
+        }else{
+            return null;
+        }
     }
 }
 class Title extends Component {
@@ -20,10 +21,10 @@ class Title extends Component {
         super(...props);
     }
     render() {
-        return <View
-            style={styles.title}>
-            {this.props.children}
-        </View>
+        let child = this.props.child;
+        if(child){
+            return React.cloneElement(child,{style:[child.props.style,styles.title]})
+        }
     }
 }
 export default class Header extends Component {
@@ -32,35 +33,30 @@ export default class Header extends Component {
     }
    
     _renderLeftButton() {
-        if (typeof this.state.leftButton === 'object') {
+        if (typeof this.props.leftButton === 'object') {
             return <Button
-                type='leftButton'
-                onPress={()=>this.props.onLeftButtonPress&&this.props.onLeftButtonPress()}
-                children={this.props.leftButton} />;
+                    type='leftButton'
+                    child={this.props.leftButton} />;
         }
         return <View style={styles.emptyLeftButton}/>
     }
     _renderRightButton() {
-        if (typeof this.state.rightButton === 'object') {
+        if (typeof this.props.rightButton === 'object') {
             return <Button
-                type='rightButton'
-                onPress={()=>this.props.onRightButtonPress&&this.props.onRightButtonPress()}
-                children={this.props.rightButton} />;
+                    type='rightButton'
+                    child={this.props.rightButton} />;
         } else {
             return null;
         }
     }
     _renderTitle() {
-        var child;
-        return <Title>{child}</Title>
+        return <Title child={this.props.title}/>
     }
     render() {
-        if (!this.state.header) {
-            return null;
-        }
         return <View
             style={[
                 styles.header,
+                this.props.style
             ]}>
             {this._renderLeftButton()}
             {this._renderTitle()}
@@ -84,21 +80,21 @@ const styles = StyleSheet.create(function(theme){
             flexDirection: 'row',
             alignItems: 'center',
         },
-        button:{
-            flexDirection: 'row',
-            alignItems: 'center',
-        },
         emptyLeftButton:{
             marginRight:theme.navigationHeaderLeftButtonMargin,
         },
         leftButton:{
+            flexDirection: 'row',
             paddingLeft:theme.navigationHeaderLeftButtonMargin,
             justifyContent: 'flex-start',
+            alignItems: 'center',
             marginRight:theme.navigationHeaderLeftButtonMargin,
         },
         rightButton:{
+            flexDirection: 'row',
             paddingRight:theme.navigationHeaderLeftButtonMargin,
             justifyContent: 'flex-end',
+            alignItems: 'center',
             marginLeft:theme.navigationHeaderLeftButtonMargin,
         }
     }
