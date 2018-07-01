@@ -26,7 +26,7 @@ class Page extends Component{
                 this.props.word.meaning = state.meaning;
                 return false;
             case actions.SET_WORD_PAGE_THEME:
-                this.setState({theme:state.theme});
+                this.setState({theme:state.wordPageTheme});
                 return true;
         }
     }

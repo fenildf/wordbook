@@ -173,7 +173,7 @@ function setWordPageTheme(wordPageTheme,$persist){
     }
     let theme = switchWordPageThemeWidthName(name);
    
-    StyleSheet.addTheme(theme).then(()=>{
+    return StyleSheet.addTheme(theme).then(()=>{
         $persist('wordPageTheme',name);
         return {
             wordPageTheme:name,

@@ -13,6 +13,9 @@ import StyleSheet from './../../../util/StyleSheet';
 import FontIcon from './../../components/FontIcon';
 import Pages from './Pages';
 import TouchableOpacity from '../../components/TouchableOpacity';
+import Text from '../../components/Text';
+
+import Header from './../../components/Header';
 class Word extends Component {
     static routeConfig = {
         name:'Word'
@@ -25,7 +28,7 @@ class Word extends Component {
         let bookName = params.bookName;
         this.navigationOptions = {
             title: bookName,
-            rightButton:this._renderRightButton(),
+            header:null,
         }
         this.state = {
             words: [],
@@ -41,6 +44,11 @@ class Word extends Component {
         return <TouchableOpacity 
                     onPress={this._onRightButtonPress}
                     children={ <FontIcon style={styles.icon} name='ios-sunny-outline'/>}/>
+    }
+    _renderLeftButton(){
+        return <TouchableOpacity 
+                    onPress={()=>dispatch(actions.APP_NAVIGATE_GOBACK)}
+                    children={ <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>}/>
     }
     _onRightButtonPress=()=>{
         dispatch(actions.SET_WORD_PAGE_THEME)
@@ -81,6 +89,11 @@ class Word extends Component {
         return (
             <View
                 style={styles.wrapper}>
+                <Header 
+                    style={styles.header}
+                    rightButton={this._renderRightButton()}
+                    leftButton={this._renderLeftButton()}
+                    title={<View><Text style={styles.title}>{this.state.bookName}</Text></View>}/>
                 <View
                     style={styles.wrapper}>
                     {words&&words.length>0&&<Pages 
@@ -103,6 +116,16 @@ const styles = StyleSheet.create(function (theme) {
         wrapper: {
             flex: 1,
             backgroundColor: theme.wordPageBackgroundColor,
+        },
+        header:{
+            backgroundColor: theme.wordPageNavigationHeaderBackgroundColor,
+        },
+        title:{
+            fontSize:theme.navigationHeaderFontSize,
+            color:theme.wordPageNavigationHeaderColor
+        },
+        backArrow:{
+            color:theme.wordPageNavigationHeaderColor
         },
         icon:{
             color:theme.rightButtonColor
