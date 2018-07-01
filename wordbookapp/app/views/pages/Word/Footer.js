@@ -18,14 +18,14 @@ function Footer(props){
     return (
         <View
             style={styles.row}>
-            <TouchableOpacity
+            {/* <TouchableOpacity
                 onPress={onPreview}
                 style={[styles.item,styles.i1]}>
                 <Text
                     style={styles.text}>
                     上一个
                 </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity
                 onPress={onRemember}
 
