@@ -4,9 +4,6 @@ import React,{Component} from 'react'
 import {
     View
 } from 'react-native';
-
-import Text from './../../components/Text';
-import ScrollView from './../../components/ScrollView';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
 import actions from '../../../constants/actions';
@@ -14,7 +11,7 @@ import Footer from './Footer';
 import Main from './Main';
 import StyleSheet from './../../../util/StyleSheet';
 import FontIcon from './../../components/FontIcon';
-
+import Pages from './Pages';
 import Meaning from './Meaning';
 class Word extends Component {
     static routeConfig = {
@@ -67,10 +64,6 @@ class Word extends Component {
     componentDidMount() {
         this._fetchData();
     }
-    _onRemember = () => {
-        this._next();
-        this._mark(this.state.word,true);
-    }
     _fetchData(){
         let {
             bookName,
@@ -78,80 +71,21 @@ class Word extends Component {
         } = this.state;
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName,sectionName});
     }
-    _findWordIndex(word,words){
-        let i=0,l =words.length;
-        while(word.name !== words[i].name && i<l){
-            i++;
-        }
-        return i;
-    }
-    _next() {
-        let {
-            word,
-            meaning,
-            words
-        } = this.state;
-        let index = this._findWordIndex(word,words);
-        let nWord = words[index+1];
-        if (nWord) {
-            this.setState({ word: nWord, meaning: null });
-        }else{
-            this.getScreen().toast('当前已经是最后一个');
-        }
-    }
-    _mark(word,isRemember){
-        this.dispatcher.dispatch(actions.USER_MARK_WORD,{
-            bookName:this.state.bookName,
-            isRemember,
-            word
-        });
-    }
-    _preview=()=>{
-        let {
-            word,
-            meaning,
-            words
-        } = this.state;
-        let index = this._findWordIndex(word,words);
-        let nWord = words[index-1];
-        if (nWord) {
-            this.setState({ word: nWord, meaning: null });
-        }else{
-            this.getScreen().toast('当前已经是第一个');
-        }
-    }
-    _onForget = () => {
-        this._next();
-        this._mark(this.state.word,false);
-    }
-    _onShowMeaning = () => {
-        let {
-            word,
-            meaning
-        } = this.state;
-        if(meaning){
-            return;
-        }
-        this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
-    }
+    
     render() {
         let {
-            word,
-            meaning
+            words
         } = this.state;
         return (
             <View
                 style={styles.wrapper}>
-                <Main
-                    onShowMeaning={this._onShowMeaning}
-                    word={word} />
-                <Meaning
-                    meaning={meaning} />
-                <Footer
-                    onRemember={this._onRemember}
-                    onPreview={this._preview}
-                    onForget={this._onForget}
-                />
+                <Pages 
+                    style={styles.wrapper}
+                    dataSource={this.state.words}/>
+                 <Footer
+                        onRemember={this._onRemember}
+                        onForget={this._onForget}
+                    />
             </View>
 
         )
