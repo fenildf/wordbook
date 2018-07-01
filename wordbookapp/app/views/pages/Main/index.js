@@ -64,12 +64,15 @@ class Main extends Component {
     }
     render() {
         return (
-            <ScrollView
+            <View
                 style={styles.wrapper}>
-                {this._renderItems()}
+                <ScrollView
+                    style={styles.wrapper}>
+                    {this._renderItems()}
+                </ScrollView>
                 <AddButton
                     onPress={this._addBook} />
-            </ScrollView>
+            </View>
 
         )
     }

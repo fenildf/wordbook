@@ -25,6 +25,7 @@ function BookItem(props){
                 <Text
                     style={styles.name}>
                     {book.name}
+                    {book.classify&&<Text style={styles.classify}>{book.classify}</Text>}
                 </Text>
                 <Text
                     style={styles.position}>
@@ -40,20 +41,27 @@ const styles = StyleSheet.create(function(theme){
     return {
         button:{
             flexDirection:'row',
-            height:theme.itemHeightM,
-            alignItems:'center',
-            backgroundColor:theme.backgroundColor
-
+            height:theme.itemHeightH,
+            backgroundColor:theme.backgroundColor,
+            borderTopColor:theme.borderColor,
+            borderTopWidth:theme.px,
         },
         main:{
-            flexDirection:'column',
-            justifyContent:'center'
+            flex:1,
+            height:theme.itemHeightH,
+            justifyContent:'space-around',
+        },
+        classify:{
+            fontSize:theme.f2,
+            color:theme.tipColor,
+            paddingLeft:12
         },
         name:{
-            marginBottom:4
+            fontSize:theme.f3,
         },
         position:{
-            fontSize:theme.f1
+            fontSize:theme.f2,
+            color:theme.tipColor
         }
     }
 });

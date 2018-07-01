@@ -29,10 +29,12 @@ const styles = StyleSheet.create(function(theme){
     return {
         button:{
             flexDirection:'row',
-            height:theme.itemHeightM,
+            height:theme.itemHeightH,
             alignItems:'center',
-            backgroundColor:theme.backgroundColor
-
+            justifyContent:'center',
+            backgroundColor:theme.backgroundColor,
+            borderTopColor:theme.borderColor,
+            borderTopWidth:theme.px,
         }
     }
 });
