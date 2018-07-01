@@ -41,13 +41,6 @@ class Page extends Component{
         this._next();
         this._mark(this.props.word,true);
     }
-    _findWordIndex(word,words){
-        let i=0,l =words.length;
-        while(word.name !== words[i].name && i<l){
-            i++;
-        }
-        return i;
-    }
     _next() {
         this.props.onNext && this.props.onNext();
     }

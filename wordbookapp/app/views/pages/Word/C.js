@@ -11,16 +11,13 @@ class C extends Component {
     componentWillUnmount() {
         this.state.child = null;
     }
-    componentDidUpdate(prevProps, prevState) {
-        this._resolve&&this._resolve();
-        this._resolve = null;
-    }
     
     
     setChild(child){
-        this.setState({child});
         return new Promise((resolve)=>{
-            this._resolve = resolve;
+            this.setState({child},function(){
+                resolve();
+            });
         });
     }
     render(){

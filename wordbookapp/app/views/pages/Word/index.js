@@ -74,14 +74,19 @@ class Word extends Component {
     
     render() {
         let {
-            words
+            words,
+            word
         } = this.state;
         return (
             <View
                 style={styles.wrapper}>
-                <Pages 
-                    style={styles.wrapper}
-                    dataSource={this.state.words}/>
+                <View
+                    style={styles.wrapper}>
+                    {words&&words.length>0&&<Pages 
+                        style={styles.wrapper}
+                        word={word}
+                        dataSource={this.state.words}/>}
+                </View>
                  <Footer
                         onRemember={this._onRemember}
                         onForget={this._onForget}
