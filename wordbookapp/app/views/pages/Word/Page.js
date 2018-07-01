@@ -18,10 +18,17 @@ class Page extends Component{
     constructor(...props){
         super(...props);
         this.state={}
-        this.dispatcher = createDispatcher(this);
+        this.dispatcher = createDispatcher(this,this._onData);
     }
-    setData(){
-
+    _onData({state,key}){
+        switch(key){
+            case actions.WORD_GET_MEANING:
+                this.props.word.meaning = state.meaning;
+                return false;
+            case actions.SET_WORD_PAGE_THEME:
+                this.setState({theme:state.theme});
+                return true;
+        }
     }
     _onForget = () => {
         this._next();
@@ -32,8 +39,12 @@ class Page extends Component{
         let {
             meaning
         } = this.state;
+        
         if(meaning){
             return;
+        }
+        if(word.meaning){
+            return this.setState({meaning:word.meaning});
         }
         this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
     }
@@ -58,10 +69,12 @@ class Page extends Component{
             <View
                 style={styles.wrapper}>
                  <Main
+                    theme={this.state.theme}
                     onShowMeaning={this._onShowMeaning}
                     word={word} />
-                    <Meaning
-                        meaning={meaning} />
+                <Meaning
+                    theme={this.state.theme}
+                    meaning={meaning} />
             </View>
         );
     }
@@ -71,6 +84,9 @@ const styles = StyleSheet.create(function(theme){
     return {
         wrapper:{
             flex:1,
+        },
+        theme:{
+            backgroundColor:theme.wordPageBackgroundColor
         }
     }
 });
