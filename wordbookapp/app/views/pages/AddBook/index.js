@@ -15,6 +15,7 @@ import BookSection from './BookSection';
 
 import FoldableItem from './../../components/FoldableItem';
 import Search from './Search';
+import TouchableOpacity from '../../components/TouchableOpacity';
 
 class AddBook extends Component {
     static routeConfig = {
@@ -25,7 +26,6 @@ class AddBook extends Component {
         this.navigationOptions = {
             title: '添加单词本',
             rightButton: this._renderRightButton(),
-            onRightButtonPress: this._onRightButtonPress,
         }
         this.state = {
             classify: [],
@@ -84,7 +84,10 @@ class AddBook extends Component {
     }
     _renderRightButton() {
         return (
-            <Text>添加</Text>
+            <TouchableOpacity
+                onPress={this._onRightButtonPress}>
+                <Text>添加</Text>
+            </TouchableOpacity>
         )
     }
     render() {
