@@ -14,6 +14,7 @@ class Pages extends Component {
     constructor(...props) {
         super(...props);
         this.state = {
+            autoTranslate:this.props.autoTranslate
         }
         this._wordIndex = 0;
         this._position = 0;
@@ -21,6 +22,12 @@ class Pages extends Component {
     componentDidMount(){
         this._wordIndex = this._findWordIndex(this.props.word,this.props.dataSource);
         this._update();
+    }
+    componentDidUpdate(){
+        if(this.props.autoTranslate && !this.state.autoTranslate){
+            this._currentPage && this._currentPage.showMeaning();
+        }
+        this.state.autoTranslate = this.props.autoTranslate;
     }
     _setPage(page) {
         if (page===undefined) {
