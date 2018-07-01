@@ -67,6 +67,9 @@ function getCurrentScreen() {
         return Screen.getScreen();
     };
 }
+function getScreenWidthName(name){
+
+}
 function navigate(...args) {
     let navigation = getCurrentNavigation();
     navigation && navigation.navigate(...args);

@@ -38,5 +38,9 @@ export default [
     {
         key:actions.SET_WORD_PAGE_THEME,
         controller:app.setWordPageTheme
+    },
+    {
+        key:actions.APP_UPDATE_HEADER,
+        controller:app.trans
     }
 ]

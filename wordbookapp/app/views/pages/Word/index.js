@@ -12,7 +12,7 @@ import Main from './Main';
 import StyleSheet from './../../../util/StyleSheet';
 import FontIcon from './../../components/FontIcon';
 import Pages from './Pages';
-import Meaning from './Meaning';
+import TouchableOpacity from '../../components/TouchableOpacity';
 class Word extends Component {
     static routeConfig = {
         name:'Word'
@@ -26,7 +26,6 @@ class Word extends Component {
         this.navigationOptions = {
             title: bookName,
             rightButton:this._renderRightButton(),
-            onRightButtonPress:this._onRightButtonPress
         }
         this.state = {
             words: [],
@@ -39,7 +38,9 @@ class Word extends Component {
         // this.dispatcher.watch(this._onProviderChange)
     }
     _renderRightButton(){
-        return <FontIcon style={styles.icon} name='ios-sunny-outline'/>
+        return <TouchableOpacity 
+                    onPress={this._onRightButtonPress}
+                    children={ <FontIcon style={styles.icon} name='ios-sunny-outline'/>}/>
     }
     _onRightButtonPress=()=>{
         dispatch(actions.SET_WORD_PAGE_THEME)

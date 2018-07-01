@@ -34,9 +34,6 @@ class NavigationHeader extends Component {
         nextState.props = nextProps;
         return nextState;
     }
-    _mergePropsToState(){
-
-    }
     update(info) {
         this.setState(info);
     }
@@ -64,7 +61,7 @@ class NavigationHeader extends Component {
         if (typeof this.state.title === 'object') {
             child = this.state.title;
         } else {
-            child = <Text style={[styles.titleText]}>{this.state.title}</Text>
+            child = <Text style={[styles.titleText,this.state.titleStyle]}>{this.state.title}</Text>
         }
         return <View>{child}</View>
     }
@@ -74,12 +71,12 @@ class NavigationHeader extends Component {
         }
         return <Header 
                     title={this._renderTitle()}
+                    style={this.state.style}
                     rightButton={this._renderRightButton()}
                     leftButton={this._renderLeftButton()}/>
     }
 }
 
-export default NavigationHeader;
 
 const styles = StyleSheet.create(function(theme){
     return {
@@ -92,3 +89,5 @@ const styles = StyleSheet.create(function(theme){
         },
     }
 });
+
+export default NavigationHeader;
