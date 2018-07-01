@@ -4,13 +4,13 @@ import {View} from 'react-native';
 import Text from './../Text';
 import StyleSheet from './../../../util/StyleSheet';
 
-function Empty(){
+function Empty({text}){
     return (
         <View
             style={styles.wrapper}>
             <Text
                 style={styles.text}>
-                抱歉，未能找到您想要的内容。
+                {text||'此页面暂无内容'}
             </Text>
         </View>
     );

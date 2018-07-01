@@ -1,6 +1,6 @@
 import {FlatList as List} from 'react-native';
 import React from 'react';
-import Empty from './Empty'
+import Empty from './../Empty'
 
 class FlatList extends List{
     static defaultProps = {

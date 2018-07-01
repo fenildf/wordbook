@@ -13,6 +13,8 @@ import {createDispatcher} from 'react-febrest'
 import actions from '../../../constants/actions';
 import {dispatch} from 'febrest';
 import FlatList from './../../components/FlatList';
+import Empty from './../../components/Empty';
+
 import Item from './Item';
 class SearchBook extends Component{
     static routeConfig={
@@ -71,6 +73,7 @@ class SearchBook extends Component{
                     onChangeText={(v)=>this.state.searchText = v}/>
                 {result&&searchText?<FlatList
                     renderItem={this._renderItem} 
+                    ListEmptyComponent={<Empty text='抱歉，未能找到您想要的单词本。'/>}
                     keyExtractor={this._keyExtrator}
                     data={this.state.result}/>:null}
             </View>
