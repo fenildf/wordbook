@@ -281,6 +281,7 @@ const styles = StyleSheet.create(function (theme) {
 
         },
         voice: {
+            backgroundColor:theme.wordPageBackgroundColor,
             height: 18,
             width: 20
         },

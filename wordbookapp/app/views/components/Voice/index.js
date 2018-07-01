@@ -42,6 +42,7 @@ class Voice extends Component {
                 style={this.props.style}>
                 <WebView
                     ref='webview'
+                    style={{flex:1,backgroundColor:'transparent'}}
                     mediaPlaybackRequiresUserAction={false}
                     source={{ html }} />
             </TouchableOpacity>
