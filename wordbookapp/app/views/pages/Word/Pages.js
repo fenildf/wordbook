@@ -17,7 +17,6 @@ class Pages extends Component {
         }
         this._wordIndex = 0;
         this._position = 0;
-
     }
     componentDidMount(){
         this._wordIndex = this._findWordIndex(this.props.word,this.props.dataSource);
@@ -38,7 +37,7 @@ class Pages extends Component {
         return i;
     }
     _update(){
-        let {dataSource} = this.props;
+        let {dataSource,autoTranslate} = this.props;
         let item0,item1,item2,page0 = null,page1 = null,page2 = null,position;
         let {_wordIndex} = this;
         item0 = dataSource[_wordIndex-1];
@@ -49,18 +48,18 @@ class Pages extends Component {
             item1 = item2;
             item2 = {};
             page0 = <Page key={item0.name} word={item0}/>
-            page1 = <Page key={item1.name} word={item1}/>
+            page1 = <Page key={item1.name} ref={v=>this._currentPage=v} word={item1}/>
             position = 0;
         } else if (item2 == null) {
             item2 = item1;
             item1 = item0;
-            page1 = <Page key={item1.name} word={item1}/>
+            page1 = <Page key={item1.name} ref={v=>this._currentPage=v} word={item1}/>
             page2 = <Page key={item2.name} word={item2}/>
             item0 = {};
             position = 2;
         }else{
             page0 = <Page key={item0.name} word={item0}/>
-            page1 = <Page key={item1.name} word={item1}/>
+            page1 = <Page key={item1.name} ref={v=>this._currentPage=v} word={item1}/>
             page2 = <Page key={item2.name} word={item2}/>
             position = 1;
         }
@@ -71,6 +70,9 @@ class Pages extends Component {
         ).then(() => {
             this.props.onWordSelected && this.props.onWordSelected(item1);
             this._setPage(position);
+            if(this._currentPage && autoTranslate){
+                this._currentPage.showMeaning();
+            }
         })
     }
     _onPageSelected = (event) => {

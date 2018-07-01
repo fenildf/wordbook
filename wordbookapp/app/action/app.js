@@ -40,6 +40,10 @@ export default [
         controller:app.setWordPageTheme
     },
     {
+        key:actions.SET_AUTO_TRANSLATE,
+        controller:app.setAutoTranslate
+    },
+    {
         key:actions.APP_UPDATE_HEADER,
         controller:app.trans
     }

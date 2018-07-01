@@ -12,20 +12,21 @@ function Footer(props){
     let {
         onRemember,
         onForget,
-        onPreview
+        onAutoTranslate,
+        autoTranslate
     } = props;
 
     return (
         <View
             style={styles.row}>
-            {/* <TouchableOpacity
-                onPress={onPreview}
+            <TouchableOpacity
+                onPress={onAutoTranslate}
                 style={[styles.item,styles.i1]}>
                 <Text
                     style={styles.text}>
-                    上一个
+                    {autoTranslate?'取消自动翻译':'自动翻译'}
                 </Text>
-            </TouchableOpacity> */}
+            </TouchableOpacity>
             <TouchableOpacity
                 onPress={onRemember}
 

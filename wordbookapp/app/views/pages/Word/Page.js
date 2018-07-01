@@ -2,7 +2,8 @@
 import React,{Component} from 'react';
 
 import {
-    View
+    View,
+    InteractionManager
 } from 'react-native';
 
 import { createDispatcher } from 'react-febrest';
@@ -22,6 +23,9 @@ class Page extends Component{
     }
     componentWillUnmount(){
         this.dispatcher.release();
+    }
+    showMeaning(){
+        this._onShowMeaning();
     }
     _onData({state,key}){
         switch(key){

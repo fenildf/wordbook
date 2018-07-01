@@ -37,6 +37,7 @@ class Word extends Component {
             word,
             sectionName,
             bookName,
+            autoTranslate:false,
             meaning:null
         }
         this.dispatcher = createDispatcher(this, this._onData);
@@ -82,6 +83,10 @@ class Word extends Component {
         } = this.state;
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName,sectionName});
     }
+    _onAutoTranslate=()=>{
+        let {autoTranslate} = this.state;
+        this.dispatcher.dispatch(actions.SET_AUTO_TRANSLATE,!autoTranslate);
+    }
     _onForget = () => {
         this._next();
         this._mark(this.state.word,false);
@@ -106,7 +111,8 @@ class Word extends Component {
     render() {
         let {
             words,
-            word
+            word,
+            autoTranslate
         } = this.state;
         return (
             <View
@@ -122,12 +128,15 @@ class Word extends Component {
                         ref={PAGES_REF}
                         style={styles.wrapper}
                         word={word}
+                        autoTranslate={autoTranslate}
                         onWordSelected={this._onWordSelected}
                         dataSource={this.state.words}/>}
                 </View>
                  <Footer
-                        onRemember={this._onRemember}
-                        onForget={this._onForget}
+                    autoTranslate={autoTranslate}
+                    onAutoTranslate={this._onAutoTranslate}
+                    onRemember={this._onRemember}
+                    onForget={this._onForget}
                     />
             </View>
 

@@ -181,10 +181,17 @@ function setWordPageTheme(wordPageTheme,$persist){
         }
     })
 }
+
+function setAutoTranslate($payload){
+    return {
+        autoTranslate:$payload()
+    }
+}
 export default {
     appInit,
     appNavigate,
     trans,
     setTheme,
-    setWordPageTheme
+    setWordPageTheme,
+    setAutoTranslate
 }
