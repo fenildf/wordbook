@@ -33,10 +33,7 @@ class Page extends Component{
                 return true;
         }
     }
-    _onForget = () => {
-        this._next();
-        this._mark(this.props.word,false);
-    }
+ 
     _onShowMeaning = () => {
         let {word}=this.props;
         let {
@@ -51,20 +48,7 @@ class Page extends Component{
         }
         this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
     }
-    _onRemember = () => {
-        this._next();
-        this._mark(this.props.word,true);
-    }
-    _next() {
-        this.props.onNext && this.props.onNext();
-    }
-    _mark(word,isRemember){
-        dispatch(actions.USER_MARK_WORD,{
-            bookName:this.props.word.book_name,
-            isRemember,
-            word
-        });
-    }
+    
     render(){
         let {word} = this.props;
         let {meaning} = this.state;

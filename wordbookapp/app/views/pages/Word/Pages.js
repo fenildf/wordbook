@@ -69,6 +69,7 @@ class Pages extends Component {
             this.refs['C_1'].setChild(page1),
             this.refs['C_2'].setChild(page2)
         ).then(() => {
+            this.props.onWordSelected && this.props.onWordSelected(item1);
             this._setPage(position);
         })
     }
@@ -103,13 +104,10 @@ class Pages extends Component {
             return;
         }
     }
-    _onNext(i){
-        let {dataSource} = this.props;
-        let l = dataSource.length;
-        if(i>=l){
-            return;
-        }else{
-            this._setPage(++i);
+    next(){
+        let {_position} = this;
+        if(_position!==2){
+            this.refs['VIEWPAGER_REF'].setPageWithoutAnimation(2);
         }
     }
     render() {

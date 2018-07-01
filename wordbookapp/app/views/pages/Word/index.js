@@ -16,6 +16,8 @@ import TouchableOpacity from '../../components/TouchableOpacity';
 import Text from '../../components/Text';
 
 import Header from './../../components/Header';
+
+const PAGES_REF = 'PAGES_REF';
 class Word extends Component {
     static routeConfig = {
         name:'Word'
@@ -80,7 +82,27 @@ class Word extends Component {
         } = this.state;
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName,sectionName});
     }
-    
+    _onForget = () => {
+        this._next();
+        this._mark(this.state.word,false);
+    }
+    _onRemember = () => {
+        this._next();
+        this._mark(this.state.word,true);
+    }
+    _next() {
+        this.refs[PAGES_REF] && this.refs[PAGES_REF].next();
+    }
+    _onWordSelected=(word)=>{
+        this.state.word = word;
+    }
+    _mark(word,isRemember){
+        dispatch(actions.USER_MARK_WORD,{
+            bookName:this.state.bookName,
+            isRemember,
+            word
+        });
+    }
     render() {
         let {
             words,
@@ -97,8 +119,10 @@ class Word extends Component {
                 <View
                     style={styles.wrapper}>
                     {words&&words.length>0&&<Pages 
+                        ref={PAGES_REF}
                         style={styles.wrapper}
                         word={word}
+                        onWordSelected={this._onWordSelected}
                         dataSource={this.state.words}/>}
                 </View>
                  <Footer
