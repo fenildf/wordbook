@@ -25,12 +25,13 @@ class Page extends Component{
         this.dispatcher.release();
     }
     showMeaning(){
+        // this.setState({meaning:null})
         this._onShowMeaning();
     }
-    _onData({state,key}){
+    _onData({state,key},isThis){
         switch(key){
             case actions.WORD_GET_MEANING:
-                this.props.word.meaning = state.meaning;
+                isThis &&(this.props.word.meaning = state.meaning);
                 return false;
             case actions.SET_WORD_PAGE_THEME:
                 this.setState({theme:state.wordPageTheme});
