@@ -5,7 +5,7 @@ var Theme = {
     wordPageBorderColor:'#c5c5c5',
     wordPageNavigationHeaderBackgroundColor:'#fff',
     wordPageBackgroundColor:'#fff',
-    navigationHeaderColor:'#333',
+    wordPageNavigationHeaderColor:'#333',
     rightButtonColor:'#333'
 }
 

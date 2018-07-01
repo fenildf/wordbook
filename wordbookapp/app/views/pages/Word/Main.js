@@ -17,7 +17,8 @@ function Main(props){
     return (
         <View
             style={styles.wrapper}>
-            <Text>{word.name}</Text>
+            <Text
+                style={styles.name}>{word.name}</Text>
             <TouchableOpacity
                 onPress={onShowMeaning}>
                 <Text
@@ -36,6 +37,9 @@ const styles = StyleSheet.create(function(theme){
             height:theme.itemHeightM,
             flexDirection:'row',
             paddingHorizontal:theme.paddingHorizontal
+        },
+        name:{
+            color:theme.wordPageColor
         },
         color:{
             color:'#b8879c'

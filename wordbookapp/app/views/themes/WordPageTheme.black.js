@@ -1,11 +1,11 @@
 'use strict'
 
 var Theme = {
-    wordPageColor:'#737373',
+    wordPageColor:'#888',
     wordPageBorderColor:'#fff',
     wordPageNavigationHeaderBackgroundColor:'#000',
     wordPageBackgroundColor:'#000',
-    wordPageNavigationHeaderColor:'#444',
+    wordPageNavigationHeaderColor:'#666',
     rightButtonColor:'#fff'
 }
 
