@@ -35,7 +35,7 @@ function deleteDatabase(){
         SQLite.deleteDatabase({name:WORD_DB_NAME},()=>{
             resolve();
         },function(){
-            reject();
+            resolve();
         });
     })
 }
