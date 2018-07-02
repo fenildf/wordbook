@@ -1,11 +1,45 @@
 import SQLite from 'react-native-sqlite-storage';
 
 let userdb;
-let worddb;
 
 let readyPromise;
 let isReady = false;
+const WORD_DB_NAME = 'wordbook';
+const USER_DB_NAME = 'word';
 
+function openDatabase(){
+    return new Promise((resolve)=>{
+        userdb = SQLite.openDatabase(
+            //历史原因 userdb name是word
+            { name: USER_DB_NAME, createFromLocation: "~data/database.db" },
+            function(){
+                worddb = SQLite.openDatabase(
+                {name:WORD_DB_NAME,createFromLocation:'~data/word.db'},
+                function(){
+                        userdb.attach(WORD_DB_NAME, 'wordbook', function () {
+                            resolve();
+                        });
+                },
+                function(){
+
+                })
+            },
+            function(){
+                
+            }
+        )
+    });
+}
+function deleteDatabase(){
+    return new Promise((resolve,reject)=>{
+        SQLite.deleteDatabase({name:WORD_DB_NAME},()=>{
+            resolve();
+        },function(){
+            reject();
+        });
+    })
+}
+   
 function ready() {
     if (isReady) {
         return Promise.resolve();
@@ -13,34 +47,9 @@ function ready() {
     if (readyPromise) {
         return readyPromise;
     } else {
-        readyPromise = new Promise(function (resolve, reject) {
-            //历史原因 userdb name是word
-            userdb = SQLite.openDatabase(
-                { name: "word", createFromLocation: "~data/database.db" },
-                function(){
-                    worddb = SQLite.openDatabase(
-                       {name:'wordbook',createFromLocation:'~data/word.db'},
-                       function(){
-                            userdb.attach('wordbook', 'wordbook', function () {
-                                isReady = true;
-                                resolve();
-                                readyPromise = undefined;
-                            });
-                       },
-                       function(){
-
-                       }
-                    )
-                },
-                function(){
-                    
-                }
-            )
-        });
+        readyPromise = openDatabase();
         return readyPromise;
     }
-
-
 }
 function error(err){
     console.log('execute sql err:',err);
@@ -124,5 +133,7 @@ export  default{
     insertOrReplace2,
     insertOrIgnore,
     remove,
-    transaction
+    transaction,
+    deleteDatabase,
+    ready
 }
