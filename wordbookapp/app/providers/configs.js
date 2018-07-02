@@ -9,7 +9,7 @@ export default [
     },
     {
         name:'dbversion',
-        storage:true,
+        type:'storage',
         defaultState:1
     },
     {
