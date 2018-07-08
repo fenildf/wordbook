@@ -278,6 +278,7 @@ const u = [{
     "name": "河北版小学英语-Student Book 5",
     "link": "?action=courses&classid=269"
 }, {
+    "classify":"小学英语",
     "name": "河北版小学英语Student Book 6",
     "link": "?action=courses&classid=270"
 }, {
