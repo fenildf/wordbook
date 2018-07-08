@@ -1,0 +1,326 @@
+{
+	"name": "SAT数学相关词汇",
+	"classify": "出国留学",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"abscissa",
+				"absolute value",
+				"acute angle",
+				"add",
+				"adjacent angle",
+				"algebraic term",
+				"alternate angle",
+				"altitude",
+				"angle bisector",
+				"anti clockwise",
+				"approximate",
+				"arc",
+				"arithmetic mean",
+				"arithmetic progression sequence",
+				"arm"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"base",
+				"base",
+				"bisect"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cardinal",
+				"center of acircle",
+				"central angle",
+				"chord",
+				"circular cylinder",
+				"circumscribe",
+				"combination",
+				"common denominator",
+				"common divisor",
+				"common factor",
+				"common fraction",
+				"common logarithm",
+				"common multiple",
+				"common ratio",
+				"complement aryangle",
+				"complementary function",
+				"complex fraction",
+				"complex plane",
+				"composite number",
+				"concentric circles",
+				"cone",
+				"congruent",
+				"consecutive number",
+				"constant",
+				"coordinate system",
+				"corresponding angle",
+				"cros section",
+				"cube",
+				"cube",
+				"cube root"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"decagon",
+				"decimal fraction",
+				"decimal scale",
+				"denominator",
+				"depth",
+				"diagonal",
+				"diameter",
+				"difference",
+				"digit",
+				"direct proportion",
+				"distinct",
+				"divide",
+				"dividend",
+				"divisible",
+				"divisor"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"edge",
+				"endpoint",
+				"equilateral",
+				"equilateral triangle",
+				"equivalent equation",
+				"estimation",
+				"even integer",
+				"even number",
+				"exponent",
+				"exterior angle"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"face of a solid",
+				"factor",
+				"factorial",
+				"factorization",
+				"fine"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"geometric mean",
+				"geometric progression sequence",
+				"go"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"heptagon",
+				"hexagon",
+				"hypotenuse"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"improper fraction",
+				"included angle",
+				"included side",
+				"inequality",
+				"infinite decimal",
+				"inscribe",
+				"inscribed triangle",
+				"integer，whole number",
+				"intercept",
+				"interior angle",
+				"intersect",
+				"inverse",
+				"inverse function",
+				"irrational number",
+				"isosceles triangle"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"least common multiple",
+				"leastcommon denominator",
+				"leg",
+				"like terms terms",
+				"line segment",
+				"linear",
+				"linear equation",
+				"literal coefficient"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"median",
+				"midpoint",
+				"mixed number",
+				"mode",
+				"multilateral",
+				"multiple",
+				"multiply"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"natural number",
+				"negative number",
+				"negative whole number",
+				"nonagon",
+				"nonnegative",
+				"number line",
+				"numerator",
+				"numerical coefficient"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"oblique",
+				"obtuse angle",
+				"octagon",
+				"odd integer",
+				"odd number",
+				"opposite",
+				"ordinal",
+				"ordinate",
+				"origin",
+				"original equation"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"parallel lines",
+				"parallelogram",
+				"parentheses",
+				"pentagon",
+				"perimeter",
+				"permutation",
+				"perpendicular",
+				"plan",
+				"plane",
+				"plane geometry",
+				"plus",
+				"polygon",
+				"positive number",
+				"positive whole number",
+				"power",
+				"prime factor",
+				"prime number",
+				"product",
+				"proper fraction",
+				"proper subset",
+				"proportion",
+				"pythagorean theorem"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quadrant",
+				"quadrilateral",
+				"quarter",
+				"quotient"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"radian",
+				"radical sign",
+				"radius",
+				"range",
+				"rational number",
+				"rea lnumber",
+				"reciprocal",
+				"rectangle",
+				"rectangular coordinate",
+				"rectangular solid",
+				"recurring decimal",
+				"regular polygon",
+				"regular polyhedron",
+				"regular solid",
+				"remainder",
+				"rhombus",
+				"right angle",
+				"right triangle",
+				"root sign",
+				"round angle",
+				"round off",
+				"round to"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"scalene triangle",
+				"segment of a circle",
+				"semicircle",
+				"side",
+				"simple fraction",
+				"slope",
+				"solid",
+				"solution set",
+				"sphere",
+				"square",
+				"square root",
+				"straight angle",
+				"straight line",
+				"subtract",
+				"supplement aryangles",
+				"surface area"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"table",
+				"tangent",
+				"tens",
+				"times",
+				"transversal",
+				"trapezoid",
+				"treat",
+				"triangle inequality",
+				"trigonometric function",
+				"trigonometry"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"union",
+				"unit",
+				"units"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"variable",
+				"vertex",
+				"vertical angle",
+				"volume",
+				"vulgar fraction"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weighted average"
+			]
+		}
+	]
+}

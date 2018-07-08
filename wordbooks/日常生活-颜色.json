@@ -1,0 +1,259 @@
+{
+	"name": "颜色",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"amaranth",
+				"amber",
+				"amethyst",
+				"apricot",
+				"argent",
+				"ash",
+				"aubergine",
+				"auburn",
+				"azure"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"beige",
+				"bisque",
+				"black",
+				"blue",
+				"bluish",
+				"bronze",
+				"brown",
+				"buff"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cadet",
+				"camel",
+				"cameo",
+				"caramel",
+				"carmine",
+				"carnation",
+				"celadon",
+				"celeste",
+				"cerise",
+				"cherry",
+				"chestnut",
+				"chili",
+				"chinchilla",
+				"chocolate",
+				"cinnamon",
+				"claret",
+				"clay",
+				"cochineal",
+				"coffee",
+				"coral",
+				"cream",
+				"crimson",
+				"crocus",
+				"crystal"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"damson",
+				"doe",
+				"drab",
+				"dun"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"eucalyptus"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"flesh",
+				"fuchsia"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gamboge",
+				"garnet",
+				"gold",
+				"grape",
+				"gray",
+				"green",
+				"grey"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"heliotrope",
+				"henna",
+				"heron",
+				"hyacinth"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"incarnadine",
+				"indigo",
+				"iridescent",
+				"iris",
+				"ivory"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jasper",
+				"jewelry"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"khaki"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lake",
+				"laterite",
+				"lilac",
+				"lithopone"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"madder",
+				"magenta",
+				"maize",
+				"maroon",
+				"marron",
+				"mauve",
+				"mignonette",
+				"mouse",
+				"mulberry",
+				"mustard"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"navy"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"ocher",
+				"off-white",
+				"orange",
+				"orchid"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"peach",
+				"peacock blue",
+				"pink",
+				"plum",
+				"ponceau",
+				"poppy",
+				"primrose",
+				"prune",
+				"puce",
+				"purple",
+				"putty"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rainbow",
+				"raisin",
+				"rattan",
+				"red",
+				"rose",
+				"ruby",
+				"rust"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sallow",
+				"salmon",
+				"sapphire",
+				"scarlet",
+				"sepia",
+				"shell",
+				"sienna",
+				"silver",
+				"slate",
+				"snow-white",
+				"sorrel",
+				"spearmint"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tan",
+				"tangerine",
+				"taupe",
+				"tawny",
+				"terra cotta"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"ultramarine",
+				"umber"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vermilion",
+				"violet",
+				"viridian",
+				"viridis"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"white",
+				"wine",
+				"wood"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yellow"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zephyr",
+				"zinc"
+			]
+		}
+	]
+}

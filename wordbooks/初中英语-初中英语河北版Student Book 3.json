@@ -1,0 +1,435 @@
+{
+	"name": "初中英语河北版Student Book 3",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"actor",
+				"address",
+				"adult",
+				"advice",
+				"ago",
+				"almost",
+				"alone",
+				"along",
+				"already",
+				"also",
+				"ambition",
+				"another",
+				"anymore",
+				"anything",
+				"anyway",
+				"apartment",
+				"art",
+				"article",
+				"artwork"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bakery",
+				"bank",
+				"become",
+				"between",
+				"blouse",
+				"blow",
+				"boat",
+				"bookstore",
+				"born",
+				"both",
+				"box",
+				"build",
+				"building",
+				"business",
+				"but",
+				"by"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"carefully",
+				"carry",
+				"celebrate",
+				"celebration",
+				"centre",
+				"channel",
+				"check",
+				"chocolate",
+				"choose",
+				"cinema",
+				"clap",
+				"class",
+				"clock",
+				"clothing",
+				"club",
+				"coffee",
+				"collection",
+				"college",
+				"comb",
+				"comfortable",
+				"communicate",
+				"company",
+				"compete",
+				"concert",
+				"confidence",
+				"confident",
+				"cook",
+				"cool",
+				"corner",
+				"correctly",
+				"cost",
+				"cotton",
+				"cousin",
+				"cross",
+				"crossing"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"delicious",
+				"describe",
+				"dessert",
+				"diamond",
+				"diary",
+				"dictionary",
+				"difficult",
+				"dinner",
+				"dinosaur",
+				"diplomat",
+				"dislike"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"else",
+				"encourage",
+				"enjoyable",
+				"envelope",
+				"everything",
+				"exam",
+				"excellent",
+				"except",
+				"exciting"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"feast",
+				"festival",
+				"field",
+				"finally",
+				"finger",
+				"finish",
+				"fit",
+				"floor",
+				"fold",
+				"follow",
+				"football",
+				"foreign",
+				"frame",
+				"fresh",
+				"full",
+				"future"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gardening",
+				"gate",
+				"giant",
+				"glue",
+				"goal",
+				"grade",
+				"grandfather",
+				"grandmother",
+				"grandparent",
+				"gray",
+				"group",
+				"grow",
+				"guess"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hate",
+				"have",
+				"himself",
+				"hobby",
+				"hockey",
+				"hooray",
+				"hope",
+				"housework",
+				"however",
+				"hug",
+				"huge",
+				"hurry",
+				"husband"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"important",
+				"improve",
+				"information",
+				"instruction",
+				"interest",
+				"interesting",
+				"international",
+				"introduce",
+				"iron"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"join",
+				"journalist",
+				"joy",
+				"junior"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kid",
+				"kind",
+				"kitchen",
+				"knowledge"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"large",
+				"late",
+				"later",
+				"launch",
+				"lawyer",
+				"leader",
+				"librarian",
+				"library",
+				"like",
+				"lock"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"married",
+				"math",
+				"maybe",
+				"mean",
+				"meaning",
+				"member",
+				"metre",
+				"might",
+				"million",
+				"model",
+				"moment",
+				"moon",
+				"more",
+				"most",
+				"music",
+				"myself"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"national",
+				"necessary",
+				"neighbourhood",
+				"nervous",
+				"news",
+				"nobody",
+				"noise",
+				"noon",
+				"noun",
+				"number"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"office",
+				"official",
+				"opportunity",
+				"opposite",
+				"organize",
+				"ourselves",
+				"over",
+				"own"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"painting",
+				"pal",
+				"parent",
+				"pass",
+				"past",
+				"personal",
+				"phone",
+				"photo",
+				"photograph",
+				"physical",
+				"physics",
+				"piano",
+				"pie",
+				"piece",
+				"pioneer",
+				"place",
+				"plant",
+				"poor",
+				"popular",
+				"post",
+				"predict",
+				"prediction",
+				"present",
+				"pride",
+				"prize",
+				"professor",
+				"program",
+				"programmer",
+				"project",
+				"pronounce",
+				"proper",
+				"proud",
+				"pupil"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quiz"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"relax",
+				"repeat",
+				"reply",
+				"report",
+				"represent",
+				"return",
+				"rich",
+				"rocket",
+				"roll",
+				"rose",
+				"round",
+				"row"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"score",
+				"sell",
+				"sentence",
+				"shelf",
+				"show",
+				"sick",
+				"side",
+				"sidewalk",
+				"sign",
+				"silly",
+				"singer",
+				"size",
+				"smell",
+				"snap",
+				"social",
+				"someday",
+				"sometime",
+				"somewhere",
+				"special",
+				"spell",
+				"spelling",
+				"start",
+				"stay",
+				"still",
+				"story",
+				"straight",
+				"strength",
+				"strive",
+				"study",
+				"style",
+				"subject",
+				"sugar",
+				"sweep"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"technique",
+				"television",
+				"tent",
+				"term",
+				"themselves",
+				"through",
+				"tick-tock",
+				"tidy",
+				"timetable",
+				"tongue",
+				"tonight",
+				"trade",
+				"translate",
+				"translator",
+				"travel",
+				"try",
+				"turkey"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unique",
+				"united",
+				"university",
+				"until"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"viewer",
+				"violin",
+				"voice"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weekend",
+				"welcome",
+				"wide",
+				"wife",
+				"wish",
+				"without",
+				"wonder",
+				"wonderful",
+				"wood",
+				"wool",
+				"worker",
+				"wrong"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yourself"
+			]
+		}
+	]
+}

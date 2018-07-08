@@ -1,0 +1,248 @@
+{
+	"name": "小学英语深圳版第一册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"CD",
+				"call",
+				"can",
+				"can't",
+				"cat",
+				"children",
+				"class",
+				"classroom",
+				"clock",
+				"close",
+				"clown",
+				"come on",
+				"computer game"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"Young Pioneer",
+				"yellow",
+				"yes",
+				"young"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"afternoon",
+				"am",
+				"an",
+				"and",
+				"apple"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bag",
+				"ball",
+				"banana",
+				"bear",
+				"bed",
+				"big",
+				"bin",
+				"bird",
+				"black",
+				"blue",
+				"board",
+				"boy",
+				"brown",
+				"bye-bye"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dad",
+				"dance",
+				"do",
+				"do a show",
+				"dog",
+				"doll",
+				"draw"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"eight",
+				"elephant"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fat",
+				"finger",
+				"fish",
+				"five",
+				"flower",
+				"fly",
+				"for",
+				"four",
+				"fruit"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"giraffe",
+				"girl",
+				"go",
+				"grade",
+				"grass",
+				"gray",
+				"green"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"have",
+				"help",
+				"here",
+				"hole",
+				"home",
+				"how"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"in",
+				"it"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"let",
+				"let's",
+				"like",
+				"lion",
+				"look at",
+				"lychee"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"me",
+				"meet",
+				"miaow",
+				"miss",
+				"monkey",
+				"mouth",
+				"mr",
+				"much",
+				"mum"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nice",
+				"nine",
+				"nose",
+				"not"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"on",
+				"one",
+				"oops",
+				"orange",
+				"orange",
+				"our",
+				"out",
+				"ow"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"panda",
+				"pear",
+				"pen",
+				"picture",
+				"pioneer",
+				"please",
+				"point",
+				"point to",
+				"put"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rabbit",
+				"read",
+				"red",
+				"robot",
+				"run"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"salad",
+				"see",
+				"seven",
+				"short",
+				"show",
+				"sing",
+				"sit down",
+				"six",
+				"slide",
+				"small",
+				"stand",
+				"stand up",
+				"stare",
+				"storybook",
+				"swim",
+				"swimming pool"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tall",
+				"ten",
+				"thanks",
+				"that",
+				"the",
+				"thin",
+				"three",
+				"too",
+				"tow",
+				"toy",
+				"toy box",
+				"tree",
+				"turn",
+				"turtle"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"want",
+				"watch",
+				"welcome",
+				"white",
+				"wow",
+				"write",
+				"wrong"
+			]
+		}
+	]
+}

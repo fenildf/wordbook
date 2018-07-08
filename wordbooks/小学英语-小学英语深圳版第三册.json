@@ -1,0 +1,92 @@
+{
+	"name": "小学英语深圳版第三册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"about",
+				"aunt"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"birthday",
+				"brother",
+				"buy",
+				"by"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cake",
+				"candle",
+				"car",
+				"card",
+				"clerk",
+				"coke",
+				"cousin",
+				"cup"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"doctor"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"father",
+				"friend"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hair",
+				"happy",
+				"has",
+				"he"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"party",
+				"present",
+				"pretty"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"seventeen",
+				"she",
+				"sister",
+				"sixteen",
+				"sticker"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"teacher",
+				"there",
+				"thirteen",
+				"towel",
+				"twelve",
+				"twenty"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"well done"
+			]
+		}
+	]
+}

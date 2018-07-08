@@ -1,0 +1,162 @@
+{
+	"name": "小学牛津版二年级上学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "S",
+			"children": [
+				"Shanghai",
+				"scarf",
+				"shirt",
+				"sleep",
+				"slow",
+				"snow",
+				"sock",
+				"star",
+				"swim"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"apple"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bell",
+				"belt",
+				"bin",
+				"bird",
+				"biscuit",
+				"building",
+				"bus"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"car",
+				"cat",
+				"coat",
+				"cold"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dog",
+				"dress"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"egg"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fast",
+				"ferry",
+				"fish"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"girl",
+				"glove",
+				"go"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hand",
+				"hot dog"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"ice-cream"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jelly",
+				"juice"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kite"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"light"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"moon"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"on"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"park",
+				"present"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"road",
+				"run"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"taxi",
+				"train",
+				"tree"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"under"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"van"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"water",
+				"wind",
+				"winter"
+			]
+		}
+	]
+}

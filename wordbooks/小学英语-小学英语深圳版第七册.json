@@ -1,0 +1,137 @@
+{
+	"name": "小学英语深圳版第七册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"a little",
+				"also",
+				"any"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"before",
+				"below",
+				"beside",
+				"between",
+				"bowl",
+				"bread",
+				"butter"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"camera",
+				"coffee"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"decoration",
+				"dumpling"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"family",
+				"feel",
+				"fried"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"glass",
+				"ground"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hamburger",
+				"hungry"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"list",
+				"lucky",
+				"lunch box"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mall",
+				"matter",
+				"meat",
+				"menu"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"need",
+				"news",
+				"noodles"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"packet",
+				"paper",
+				"parent",
+				"piece",
+				"practise",
+				"principal",
+				"prize"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rice"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sandcastle",
+				"sandwich",
+				"say",
+				"shopping",
+				"skip",
+				"soon",
+				"stay",
+				"sunglasses"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tea",
+				"their",
+				"them",
+				"then",
+				"thirsty",
+				"throw",
+				"tofu",
+				"toilet"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"would"
+			]
+		}
+	]
+}

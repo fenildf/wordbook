@@ -1,0 +1,84 @@
+{
+	"name": "河北版小学英语Student Book 7",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"boots",
+				"bring"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"circle",
+				"clean",
+				"cook"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dry"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"line"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mittens"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"room"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"shape",
+				"shower",
+				"sink",
+				"skate",
+				"ski",
+				"snow",
+				"something",
+				"sometimes",
+				"song",
+				"special",
+				"spring",
+				"square",
+				"star",
+				"stove",
+				"summer",
+				"sun"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"think",
+				"today",
+				"toilet",
+				"tomorrow",
+				"toys",
+				"triangle"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wind",
+				"winter"
+			]
+		}
+	]
+}

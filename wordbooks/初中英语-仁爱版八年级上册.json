@@ -1,0 +1,465 @@
+{
+	"name": "仁爱版八年级上册",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"active",
+				"activity",
+				"ad",
+				"address",
+				"adult",
+				"against",
+				"agree",
+				"air",
+				"alien",
+				"almost",
+				"among",
+				"ancient",
+				"angry",
+				"another",
+				"answer",
+				"appear",
+				"arrive",
+				"article",
+				"artist"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"balloon",
+				"band",
+				"baseball",
+				"basket",
+				"bath",
+				"battle",
+				"beach",
+				"bear",
+				"become",
+				"beef",
+				"bicycle",
+				"birth",
+				"bit",
+				"body",
+				"boil",
+				"brave",
+				"brush",
+				"build",
+				"builder",
+				"butterfly",
+				"button"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"candy",
+				"care",
+				"careless",
+				"cause",
+				"century",
+				"chance",
+				"chat",
+				"cheer",
+				"children",
+				"chips",
+				"chocolate",
+				"choose",
+				"classical",
+				"clear",
+				"clearly",
+				"climate",
+				"closed",
+				"cloud",
+				"club",
+				"coffee",
+				"coin",
+				"collect",
+				"college",
+				"comic",
+				"competition",
+				"concert",
+				"continue",
+				"control",
+				"cough",
+				"count",
+				"cover",
+				"cow",
+				"crowded",
+				"cycle"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dangerous",
+				"dark",
+				"dentist",
+				"dial",
+				"dictionary",
+				"dirty",
+				"discuss",
+				"disease",
+				"dish",
+				"download",
+				"drawing",
+				"dream",
+				"drop",
+				"drum",
+				"duck",
+				"dustbin",
+				"duty"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"e-mail",
+				"eggplant",
+				"emperor",
+				"empty",
+				"energy",
+				"enough",
+				"environment",
+				"etc.",
+				"even",
+				"everybody",
+				"everyday",
+				"exam",
+				"examine",
+				"excited",
+				"exciting",
+				"exhibition",
+				"extension"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"feed",
+				"feel",
+				"fever",
+				"fight",
+				"fill",
+				"finally",
+				"fingernail",
+				"fit",
+				"flu",
+				"folk",
+				"follow",
+				"fond",
+				"foreign",
+				"foreigner",
+				"forest",
+				"form",
+				"fox",
+				"fresh",
+				"friendship",
+				"fruit",
+				"fur",
+				"future"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gold",
+				"goose",
+				"government",
+				"grandma",
+				"grandpa",
+				"grass",
+				"grow"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"happily",
+				"hate",
+				"headache",
+				"health",
+				"healthy",
+				"heart",
+				"height",
+				"herself",
+				"hey",
+				"hobby",
+				"hole",
+				"holy",
+				"honor",
+				"host",
+				"hour",
+				"however",
+				"human",
+				"humorous",
+				"hurry"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"improve",
+				"indoor",
+				"information",
+				"insect",
+				"instead",
+				"instrument",
+				"interested",
+				"into",
+				"invent",
+				"itself"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"joke",
+				"journalist",
+				"joy"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"king",
+				"knowledge"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"large",
+				"laugh",
+				"lawn",
+				"lazy",
+				"least",
+				"leave",
+				"lend",
+				"less",
+				"lift",
+				"litter",
+				"live",
+				"living",
+				"loudly",
+				"lovely",
+				"lug"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"maybe",
+				"meal",
+				"meaning",
+				"medal",
+				"medical",
+				"medicine",
+				"member",
+				"mend",
+				"might",
+				"mile",
+				"million",
+				"mind",
+				"minute",
+				"mistake",
+				"modern",
+				"motto",
+				"musician",
+				"myself"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nature",
+				"necessary",
+				"nobody",
+				"nothing",
+				"novel"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"ourselves",
+				"own"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"painting",
+				"palace",
+				"pale",
+				"patient",
+				"pay",
+				"perhaps",
+				"pick",
+				"pill",
+				"planet",
+				"plant",
+				"plate",
+				"player",
+				"pleasant",
+				"pleased",
+				"plenty",
+				"plug",
+				"pond",
+				"pop",
+				"popular",
+				"practice",
+				"pray",
+				"prefer",
+				"press",
+				"pretty",
+				"protect",
+				"pull",
+				"pyramid"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quietly"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rainforest",
+				"reach",
+				"ready",
+				"real",
+				"reason",
+				"recently",
+				"record",
+				"regard",
+				"relax",
+				"remain",
+				"repair",
+				"reporter",
+				"republic",
+				"ring",
+				"roast",
+				"robot",
+				"rose",
+				"row",
+				"rubber",
+				"runner"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sausage",
+				"save",
+				"scene",
+				"scientist",
+				"score",
+				"sea",
+				"section",
+				"serious",
+				"serve",
+				"shall",
+				"shame",
+				"share",
+				"sheep",
+				"shower",
+				"sick",
+				"side",
+				"simple",
+				"since",
+				"singer",
+				"situation",
+				"skin",
+				"sky",
+				"smoke",
+				"snake",
+				"so-so",
+				"solve",
+				"somewhere",
+				"sore",
+				"sour",
+				"south",
+				"southwest",
+				"spare",
+				"spread",
+				"stomach",
+				"stomachache",
+				"stone",
+				"strawberry",
+				"stupid",
+				"surface",
+				"sweep",
+				"symbol"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"teammate",
+				"term",
+				"terrible",
+				"than",
+				"theater",
+				"themselves",
+				"thin",
+				"throat",
+				"through",
+				"throw",
+				"tidy",
+				"tired",
+				"tiring",
+				"tomato",
+				"tomb",
+				"ton",
+				"tonight",
+				"tooth",
+				"toothache",
+				"towards",
+				"traveling",
+				"treasure",
+				"type"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unfriendly",
+				"useless"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"violin",
+				"visitor",
+				"volleyball"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wealth",
+				"weekend",
+				"weigh",
+				"weight",
+				"west",
+				"whale",
+				"whether",
+				"wife",
+				"wild",
+				"win",
+				"winner",
+				"without",
+				"wolf",
+				"wonder",
+				"wood",
+				"world-famous"
+			]
+		}
+	]
+}

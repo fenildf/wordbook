@@ -1,0 +1,112 @@
+{
+	"name": "小学英语深圳版第五册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"Christmas",
+				"centre",
+				"circle",
+				"city",
+				"coin",
+				"cold"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"SANTA",
+				"seventy",
+				"shoes",
+				"short",
+				"socks",
+				"soft",
+				"soft toy",
+				"some",
+				"square",
+				"stamp",
+				"star",
+				"supermarket",
+				"sweater"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"Turkey",
+				"table tennis",
+				"take off",
+				"time",
+				"trousers"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"badge",
+				"badminton",
+				"basketball",
+				"be",
+				"busy",
+				"but"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fashion",
+				"fashion show",
+				"fifty",
+				"football",
+				"forget"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"grandma",
+				"grandpa"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hot"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"like"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"make",
+				"marry"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"o'clock",
+				"of",
+				"outside",
+				"over there"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wear",
+				"weather",
+				"wet",
+				"with",
+				"woman",
+				"wrap"
+			]
+		}
+	]
+}

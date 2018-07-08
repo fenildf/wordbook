@@ -1,0 +1,323 @@
+{
+	"name": "动物",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"adder",
+				"albatross",
+				"alligator",
+				"alpaca",
+				"ant",
+				"armadillo",
+				"ass"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"badger",
+				"bat",
+				"bear",
+				"beaver",
+				"bee",
+				"bison",
+				"blackbird",
+				"boa",
+				"boar",
+				"buffalo",
+				"bull",
+				"bullfrog",
+				"bullock",
+				"butterfly"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"caiman",
+				"calf",
+				"camel",
+				"canary",
+				"cat",
+				"cayman",
+				"chaffinch",
+				"chameleon",
+				"chicken",
+				"chimpanzee",
+				"cicada",
+				"cob",
+				"cobra",
+				"cock",
+				"cockatoo",
+				"colt",
+				"condor",
+				"cormorant",
+				"cow",
+				"crab",
+				"cricket",
+				"crocodile",
+				"crow",
+				"cuckoo",
+				"cygnet"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"deer",
+				"dog",
+				"dolphin",
+				"donkey",
+				"dormouse",
+				"dove",
+				"dromedary",
+				"duck",
+				"duckbill"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"eagle",
+				"elephant",
+				"ewe"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"falcon",
+				"ferret",
+				"firefly",
+				"fly",
+				"foal",
+				"fowl",
+				"fox",
+				"frog"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gander",
+				"gannet",
+				"gavial",
+				"gazelle",
+				"gibbon",
+				"gilt",
+				"giraffe",
+				"glowworm",
+				"goat",
+				"goldfinch",
+				"goose",
+				"gorilla",
+				"grimalkin",
+				"grouse",
+				"guinea",
+				"gull"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hare",
+				"hawk",
+				"hedgehog",
+				"heifer",
+				"hen",
+				"heron",
+				"hippopotamus",
+				"hog",
+				"horse",
+				"hummingbird",
+				"hyena"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"iguana"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kangaroo",
+				"kingfisher",
+				"kite",
+				"kitten",
+				"kitty",
+				"koala"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lamb",
+				"lark",
+				"leopard",
+				"lion",
+				"lizard",
+				"llama",
+				"lobster",
+				"lynx"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"macaw",
+				"magpie",
+				"mallard",
+				"mantis",
+				"mare",
+				"marmot",
+				"mole",
+				"monkey",
+				"mosquito",
+				"mouse",
+				"mule",
+				"mustang"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"newt",
+				"nightingale"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"orangutan",
+				"ostrich",
+				"otter",
+				"owl",
+				"ox"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"panther",
+				"parakeet",
+				"parrot",
+				"partridge",
+				"peacock",
+				"pelican",
+				"penguin",
+				"pheasant",
+				"phoenix",
+				"pig",
+				"pigeon",
+				"piglet",
+				"platypus",
+				"plover",
+				"pony",
+				"porcupine",
+				"porpoise",
+				"ptarmigan",
+				"puma",
+				"puppy",
+				"pussy",
+				"python"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quail"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rabbit",
+				"rat",
+				"rattlesnake",
+				"reindeer",
+				"rhinoceros",
+				"robin"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"salamander",
+				"seagull",
+				"seal",
+				"shark",
+				"sheep",
+				"silkworm",
+				"sloth",
+				"snail",
+				"snake",
+				"snipe",
+				"sparrow",
+				"spider",
+				"squirrel",
+				"starling",
+				"steer",
+				"stork",
+				"swallow",
+				"swan",
+				"swift",
+				"swine"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tabby",
+				"teal",
+				"thoroughbred",
+				"thrush",
+				"tiger",
+				"toad",
+				"tomcat",
+				"tortoise",
+				"triton",
+				"tuatara",
+				"turkey",
+				"turtle",
+				"turtledove"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"viper",
+				"vole",
+				"vulture"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"walrus",
+				"weasel",
+				"whale",
+				"whitethroat",
+				"wildcat",
+				"wolf",
+				"woodpecker",
+				"worm"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yak"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zebra"
+			]
+		}
+	]
+}

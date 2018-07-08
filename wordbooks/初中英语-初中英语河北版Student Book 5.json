@@ -1,0 +1,338 @@
+{
+	"name": "初中英语河北版Student Book 5",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"accident",
+				"accidentally",
+				"acting",
+				"ad",
+				"advanced",
+				"advertising",
+				"afford",
+				"afraid",
+				"against",
+				"age",
+				"agricultural",
+				"aid",
+				"allow",
+				"ambulance",
+				"ancient",
+				"anybody",
+				"anyone",
+				"appendicitis",
+				"appendix",
+				"appliance",
+				"astronaut",
+				"athlete",
+				"audiotape",
+				"average"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bathroom",
+				"bean",
+				"beard",
+				"beat",
+				"beer",
+				"beginner",
+				"believe",
+				"bell",
+				"benefit",
+				"besides",
+				"bill",
+				"bless",
+				"blind",
+				"blood",
+				"board",
+				"bounce",
+				"breathe",
+				"bridge",
+				"bronze",
+				"bulletin",
+				"bumblebee",
+				"bury",
+				"business",
+				"butter"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"careful",
+				"careless",
+				"cash",
+				"cause",
+				"ceiling",
+				"cent",
+				"centimetre",
+				"century",
+				"certificate",
+				"champion",
+				"cheese",
+				"cheetah",
+				"cheque",
+				"chest",
+				"chimney",
+				"close",
+				"coach",
+				"coin",
+				"contain",
+				"control",
+				"cough",
+				"courage",
+				"course",
+				"crossword"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dare",
+				"deaf",
+				"deal",
+				"death",
+				"dentist",
+				"design",
+				"develop",
+				"development",
+				"devote",
+				"diet",
+				"disabled",
+				"disease",
+				"dive",
+				"dives",
+				"diving",
+				"divorce",
+				"dream",
+				"drop",
+				"drown"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"electrical",
+				"elementary",
+				"employee",
+				"event",
+				"example",
+				"experience"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"false",
+				"farther",
+				"farthest",
+				"fat",
+				"fault",
+				"fever",
+				"few",
+				"fibre",
+				"final",
+				"fire",
+				"freestyle"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"graduate",
+				"gram",
+				"great",
+				"greatly",
+				"guest",
+				"guitar"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"heart",
+				"height",
+				"honour",
+				"hospital",
+				"human",
+				"hybrid"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"illness",
+				"impossible",
+				"include",
+				"including",
+				"injure",
+				"injury",
+				"instead",
+				"intermediate"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"length",
+				"lettuce",
+				"life",
+				"lifetime",
+				"lift",
+				"lingo",
+				"list",
+				"locate",
+				"luck",
+				"lucky",
+				"lung"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mall",
+				"medal",
+				"meeting",
+				"mind",
+				"mineral",
+				"modern",
+				"money",
+				"move"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"notice",
+				"nuclear",
+				"nurse",
+				"nut"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"own"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pay",
+				"payment",
+				"peace",
+				"peanut",
+				"platform",
+				"plenty",
+				"poison",
+				"pole",
+				"potato",
+				"practise",
+				"pretend",
+				"prevent",
+				"price",
+				"produce",
+				"product",
+				"protein",
+				"public",
+				"pull",
+				"purse",
+				"push-up",
+				"puzzle"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sailor",
+				"salad",
+				"save",
+				"seem",
+				"serious",
+				"shadow",
+				"shooting",
+				"sight",
+				"silver",
+				"sit-up",
+				"situation",
+				"sleigh",
+				"slip",
+				"smoke",
+				"sneeze",
+				"soap",
+				"soda",
+				"soldier",
+				"solve",
+				"southwest",
+				"soybean",
+				"spare",
+				"spectator",
+				"spirit",
+				"springboard",
+				"sprint",
+				"storey",
+				"storybook",
+				"structure",
+				"success",
+				"such",
+				"super",
+				"supply",
+				"suppose",
+				"swimmer"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"terrible",
+				"thick",
+				"thought",
+				"tie",
+				"tomato",
+				"ton",
+				"tortoise",
+				"tower",
+				"tuberculosis",
+				"twentieth"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unusual"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"victory",
+				"vitamin",
+				"volleyball"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weak",
+				"weapon",
+				"weigh",
+				"well-known",
+				"whale",
+				"wheelchair",
+				"whether",
+				"whole",
+				"whom",
+				"wine",
+				"witness",
+				"worldwide",
+				"worse",
+				"wounded",
+				"writer"
+			]
+		}
+	]
+}

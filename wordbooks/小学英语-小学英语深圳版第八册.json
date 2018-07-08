@@ -1,0 +1,148 @@
+{
+	"name": "小学英语深圳版第八册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "D",
+			"children": [
+				"DVD"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"Easter",
+				"earth",
+				"experiment"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"Halloween",
+				"habit",
+				"happen",
+				"headache",
+				"holiday",
+				"hospital",
+				"hotel",
+				"hurry up"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"about",
+				"advice",
+				"airport"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"beautiful",
+				"bee",
+				"biting"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"camp",
+				"chocolate",
+				"choose",
+				"cold",
+				"cool",
+				"costume",
+				"crowded"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fall",
+				"far",
+				"festival",
+				"fever",
+				"follow",
+				"future"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"machine",
+				"museum"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pot",
+				"problem",
+				"prow",
+				"pumpkin"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"radio",
+				"rain",
+				"remember",
+				"rest",
+				"ride",
+				"right",
+				"root",
+				"rule"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sad",
+				"should",
+				"shouldn't",
+				"slowly",
+				"snow",
+				"snowman",
+				"sofa",
+				"soil",
+				"space",
+				"spaceship",
+				"spring",
+				"stadium",
+				"stair",
+				"station",
+				"stomachache",
+				"straight",
+				"summer",
+				"surface",
+				"swan"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"telephone",
+				"temple",
+				"the Dragon Boat Festival",
+				"tonight",
+				"toothbrush",
+				"treat",
+				"trick",
+				"try",
+				"turn"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"which",
+				"why",
+				"will",
+				"wind"
+			]
+		}
+	]
+}

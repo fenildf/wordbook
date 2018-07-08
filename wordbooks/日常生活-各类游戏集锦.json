@@ -1,0 +1,106 @@
+{
+	"name": "各类游戏集锦",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"ACT",
+				"AVG"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"DAN",
+				"DC",
+				"domino",
+				"dominoes",
+				"double blank"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"ETC"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"FC",
+				"FPG",
+				"FTG",
+				"forfeits",
+				"fps"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"GB",
+				"GG",
+				"guessing game"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"RPG",
+				"riddle"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"TAB"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bingo",
+				"blindman's buff"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"charade",
+				"crossword puzzle"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hunt-the-thimble"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lotto",
+				"ludo"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"monopoly"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"player",
+				"puss-in-the-corner"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"solitaire"
+			]
+		}
+	]
+}

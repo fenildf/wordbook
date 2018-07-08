@@ -1,0 +1,254 @@
+{
+	"name": "仁爱版九年级下册",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"absent",
+				"achieve",
+				"advertisement",
+				"alive",
+				"anniversary",
+				"ant",
+				"appearance",
+				"argument",
+				"attack",
+				"attraction",
+				"awake",
+				"award"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"babysitter",
+				"bark",
+				"battlefield",
+				"bottom"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"carve",
+				"ceremony",
+				"chairman",
+				"chalk",
+				"characteristic",
+				"chess",
+				"classic",
+				"clay",
+				"coast",
+				"cocoa",
+				"compare",
+				"congratulate",
+				"correct",
+				"creative"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"diploma",
+				"dismiss",
+				"document",
+				"dozen",
+				"duckling"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"educational",
+				"educator",
+				"elder",
+				"engineer",
+				"enjoyable",
+				"entertainment",
+				"erase",
+				"export",
+				"extremely"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fair",
+				"farewell",
+				"fear",
+				"figure",
+				"firewood",
+				"firework",
+				"flat",
+				"fly",
+				"forever",
+				"forgive",
+				"found",
+				"freedom",
+				"freeze"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gallery",
+				"gambling",
+				"generous",
+				"gentle",
+				"graduate",
+				"graduation",
+				"grand",
+				"gunpowder"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"handwriting",
+				"hard-working",
+				"hare",
+				"head",
+				"honest",
+				"hood",
+				"hug",
+				"hunter"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"imperial",
+				"instruction"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knee"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"landscape",
+				"league",
+				"lecture",
+				"license",
+				"literature",
+				"lord"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"major",
+				"match",
+				"modest",
+				"mud"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"operate",
+				"outgoing",
+				"overseas"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"package",
+				"pearl",
+				"peasant",
+				"penny",
+				"philosopher",
+				"phrase",
+				"ping-pong",
+				"pioneer",
+				"plateau",
+				"porcelain",
+				"portrait",
+				"positive",
+				"possibility",
+				"pound",
+				"president",
+				"pride",
+				"principal",
+				"principle",
+				"private",
+				"prize",
+				"promise",
+				"province",
+				"pupil"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rag",
+				"regret",
+				"reply",
+				"revolution",
+				"roof",
+				"roommate"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"safety",
+				"sail",
+				"sailor",
+				"sauce",
+				"scorpion",
+				"seaside",
+				"shopkeeper",
+				"shoulder",
+				"sink",
+				"slap",
+				"someday",
+				"stuck",
+				"sudden",
+				"sunflower",
+				"sunshine",
+				"surrounding"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tail",
+				"television",
+				"thirsty",
+				"till",
+				"topic",
+				"tortoise",
+				"trade",
+				"truth"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unforgettable",
+				"upon",
+				"usual"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"voice"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"work",
+				"workshop"
+			]
+		}
+	]
+}

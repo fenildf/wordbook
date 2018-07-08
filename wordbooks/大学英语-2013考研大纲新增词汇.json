@@ -1,0 +1,155 @@
+{
+	"name": "2013考研大纲新增词汇",
+	"classify": "大学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"accustom",
+				"alienate",
+				"allegiance",
+				"ape",
+				"archaeology"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bail",
+				"blog",
+				"botany",
+				"buzz"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"censorship",
+				"comet",
+				"contagious",
+				"converge",
+				"culprit"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"daunt",
+				"debut",
+				"default",
+				"defendant",
+				"defer",
+				"deplore",
+				"diabetes",
+				"dinosaur",
+				"dioxide"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"embryo",
+				"endorse",
+				"enre",
+				"ethic"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fiscal",
+				"franchise",
+				"freelance"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"glacier",
+				"guild"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"herald",
+				"hormone",
+				"hygiene"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"inaugurate",
+				"ivory"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lyric"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"marathon",
+				"memorandum"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"neutron",
+				"nostalgic"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"obesity",
+				"overhaul"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"plaintiff",
+				"portfolio"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"recession",
+				"redeem",
+				"rehearse"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"salient",
+				"scenario",
+				"snobbish",
+				"stagnant",
+				"statistics"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"taboo",
+				"toil",
+				"transit",
+				"turmoil"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vaccine"
+			]
+		}
+	]
+}

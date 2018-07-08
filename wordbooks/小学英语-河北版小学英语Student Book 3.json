@@ -1,0 +1,42 @@
+{
+	"name": "河北版小学英语Student Book 3",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"buy"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cat",
+				"classroom",
+				"clerk",
+				"cow"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"forty"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"shop",
+				"shopping",
+				"sixty"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tree",
+				"truck"
+			]
+		}
+	]
+}

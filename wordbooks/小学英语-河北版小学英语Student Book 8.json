@@ -1,0 +1,97 @@
+{
+	"name": "河北版小学英语Student Book 8",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "T",
+			"children": [
+				"T-shirt",
+				"teeth",
+				"thought",
+				"throw"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"before",
+				"begin",
+				"bone",
+				"bought",
+				"brush"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"catch",
+				"cloud",
+				"comb",
+				"cookies"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"flower",
+				"fly",
+				"forget"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"high",
+				"hit",
+				"homework",
+				"hour"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lie",
+				"light",
+				"lose",
+				"low"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"muscle"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pea",
+				"ping-pong",
+				"player"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"shorts",
+				"skin",
+				"skip",
+				"sky",
+				"someone",
+				"sport",
+				"strong",
+				"sugar",
+				"surprise",
+				"swim",
+				"swimsuit"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"will",
+				"win"
+			]
+		}
+	]
+}

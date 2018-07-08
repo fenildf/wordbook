@@ -1,0 +1,505 @@
+{
+	"name": "高中英语人教版选修7",
+	"classify": "高中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"Abigail",
+				"Antarctic",
+				"abandon",
+				"abolish",
+				"abolition",
+				"absence",
+				"absurd",
+				"abundant",
+				"academic",
+				"access",
+				"accessible",
+				"accommodation",
+				"accompany",
+				"acknowledge",
+				"adapt",
+				"adapt to",
+				"adequate",
+				"adjust",
+				"adjust to",
+				"affair",
+				"affection",
+				"agent",
+				"airmail",
+				"alarm",
+				"alarmed",
+				"all in all",
+				"all the best",
+				"alphabetical",
+				"ambition",
+				"ambitious",
+				"anecdote",
+				"angle",
+				"anniversary",
+				"annoy",
+				"annoyance",
+				"annoyed",
+				"annual",
+				"apology",
+				"approval",
+				"apron",
+				"aquarium",
+				"architect",
+				"armchair",
+				"arrangement",
+				"as far as one is concerned",
+				"as well as",
+				"aside",
+				"assessment",
+				"assistance",
+				"astronaut",
+				"autonomous",
+				"aware",
+				"awesome",
+				"awful"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"Bangladesh",
+				"Barry Minto",
+				"Boston",
+				"bachelor",
+				"bachelor's degree",
+				"baleen",
+				"baleen whale",
+				"bark",
+				"basement",
+				"battery",
+				"be bound to",
+				"be occupied with",
+				"bedding",
+				"bench",
+				"beneficial",
+				"biochemistry",
+				"biography",
+				"blow-hole",
+				"bonus",
+				"bound",
+				"boundary",
+				"bowling",
+				"broom",
+				"bubble",
+				"bucket",
+				"bump"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Claire",
+				"Clancy",
+				"Cuzco",
+				"cafeteria",
+				"cage",
+				"catalogue",
+				"cell",
+				"certificate",
+				"chapter",
+				"clam",
+				"clerk",
+				"click",
+				"clinic",
+				"clumsy",
+				"comb",
+				"comfort",
+				"community",
+				"companion",
+				"concept",
+				"conduct",
+				"congratulate",
+				"congratulation",
+				"conservation",
+				"contradict",
+				"counter",
+				"cuisine",
+				"cushion",
+				"cut out"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"Gladys Claffern",
+				"geographical",
+				"giant",
+				"govern",
+				"graduation",
+				"grand",
+				"grey",
+				"grill"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"Inca",
+				"Isaac Asimov",
+				"iceberg",
+				"idiom",
+				"imagination",
+				"impair",
+				"in all",
+				"in many ways",
+				"in need",
+				"in other words",
+				"in the meantime",
+				"infantile paralysis",
+				"inn",
+				"interpreter",
+				"italics"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"Jamie",
+				"Julie",
+				"jar",
+				"jog",
+				"junior"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"Kenya",
+				"keep it up"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"Lake Titicaca",
+				"Larry Belmont",
+				"Lia",
+				"Lima",
+				"lap",
+				"leap",
+				"lecture",
+				"leftover",
+				"lip",
+				"literature",
+				"loan"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Machu Picchu",
+				"Malawi",
+				"Marion",
+				"Marty",
+				"Mount Kilimanjaro",
+				"mailbox",
+				"mainstream",
+				"make fun of",
+				"makeup",
+				"master's degree",
+				"meantime",
+				"meet with",
+				"microscope",
+				"migration",
+				"minibus",
+				"motherland",
+				"muddy"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"Nepal",
+				"n.",
+				"narrow",
+				"navy",
+				"neat",
+				"necklace",
+				"net",
+				"never mind",
+				"noisy",
+				"numb"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"Papua",
+				"Peru",
+				"Philadelphia",
+				"Puno",
+				"paperwork",
+				"parallel",
+				"parrot",
+				"part-time",
+				"participate",
+				"pause",
+				"pension",
+				"pensioner",
+				"pile",
+				"platform",
+				"plough",
+				"political",
+				"politics",
+				"preparation",
+				"privilege",
+				"profit",
+				"psychologically",
+				"psychology",
+				"purchase",
+				"pure"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"Rosalyn",
+				"Rugby",
+				"receiver",
+				"recommend",
+				"rectangle",
+				"rectangular",
+				"reflect",
+				"refund",
+				"relationship",
+				"relevant",
+				"remote",
+				"requirement",
+				"resign",
+				"revise",
+				"revision",
+				"ridge",
+				"ring up",
+				"roof",
+				"routine",
+				"row"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Sally",
+				"Sam",
+				"Sanders",
+				"satisfaction",
+				"scan",
+				"scared to death",
+				"sea-slug",
+				"seal",
+				"seaside",
+				"seaweed",
+				"security",
+				"seed",
+				"seedling",
+				"seminar",
+				"set aside",
+				"settle in",
+				"sew",
+				"sewing machine",
+				"shallow",
+				"shark",
+				"sharp",
+				"shopkeeper",
+				"shore",
+				"sit around",
+				"site",
+				"slavery",
+				"sniff",
+				"snorkel",
+				"software",
+				"staff",
+				"state",
+				"steep",
+				"substitute",
+				"suck",
+				"suitable",
+				"supplement",
+				"sympathy",
+				"syndrome"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"Tanzania",
+				"tailor",
+				"talent",
+				"tank",
+				"target",
+				"tasty",
+				"teamwork",
+				"telescope",
+				"test out",
+				"textbook",
+				"the Amazon",
+				"the Andes",
+				"the Antarctic",
+				"the Foundation",
+				"the other day",
+				"theoretical",
+				"thinking",
+				"tide",
+				"tin",
+				"toast",
+				"tomb",
+				"tortoise",
+				"tractor",
+				"transfusion",
+				"travel agent",
+				"trunk",
+				"trunk library",
+				"turn around",
+				"turtle",
+				"tutor"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"Uganda",
+				"upside down",
+				"urge"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"day in and day out",
+				"declare",
+				"depth",
+				"desire",
+				"destination",
+				"dictation",
+				"digital",
+				"dignity",
+				"dimension",
+				"disability",
+				"disabled",
+				"disobey",
+				"distribute",
+				"distribution",
+				"dive",
+				"divorce",
+				"donate",
+				"draft",
+				"drag",
+				"drift net",
+				"drill",
+				"dry out",
+				"dry up",
+				"dying to"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"earphone",
+				"economic",
+				"eel",
+				"elegant",
+				"empire",
+				"encouragement",
+				"enterprise",
+				"entry",
+				"envy",
+				"essay",
+				"evil",
+				"exit",
+				"eyesight"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"favour",
+				"fellow",
+				"fiction",
+				"financial",
+				"fingernail",
+				"firm",
+				"fit in",
+				"flashlight",
+				"flee",
+				"fortnight",
+				"framework",
+				"fulfilling"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"haircut",
+				"handy",
+				"harpoon",
+				"hear from",
+				"hearing",
+				"help out",
+				"hike",
+				"holy",
+				"household",
+				"hut"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"oar",
+				"obey",
+				"occupy",
+				"offshore",
+				"oilfield",
+				"onwards",
+				"operate",
+				"opposite",
+				"optional",
+				"otherwise",
+				"out of breath",
+				"out of the question",
+				"outgoing",
+				"outwards",
+				"overboard",
+				"overweight",
+				"ox"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"qualification",
+				"queue"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vaccination",
+				"videophone",
+				"visa",
+				"vivid",
+				"voluntary"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weed",
+				"weekly",
+				"wheelchair",
+				"witness"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yell"
+			]
+		}
+	]
+}

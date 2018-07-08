@@ -1,0 +1,144 @@
+{
+	"name": "CNN student news",
+	"classify": "能力提升",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"Civil War",
+				"caboodle",
+				"caravan",
+				"catnap",
+				"clamp",
+				"commute",
+				"corp",
+				"courtyard",
+				"crossroads",
+				"cuddle"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"Filipino",
+				"feline",
+				"flail",
+				"flare",
+				"flash flood"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"Khan",
+				"Kitty",
+				"kitten"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Syria",
+				"scar",
+				"settlement",
+				"sheet",
+				"smolder",
+				"sniff",
+				"sniper",
+				"strung"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bustling"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"engulf",
+				"exclusive"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"grid"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"improvised",
+				"in ruins"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jet"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"license plate"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"maze",
+				"metro",
+				"millennia",
+				"mosque",
+				"mythology"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"overhead"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"patrol",
+				"pedigree"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rebel"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"terrestrial"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"underway",
+				"uproot"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vulnerable"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"winding"
+			]
+		}
+	]
+}

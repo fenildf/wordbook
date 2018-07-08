@@ -1,0 +1,443 @@
+{
+	"name": "化学（高分子）专业词汇",
+	"classify": "行业英语",
+	"children": [
+		{
+			"name": "N",
+			"children": [
+				"Nematic",
+				"naphthalene",
+				"network",
+				"nonpolar",
+				"nonyl",
+				"normal",
+				"nucleation"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"ablative",
+				"acetal",
+				"acetaldehyde",
+				"acetate",
+				"acetic",
+				"acetic acid",
+				"acetone",
+				"acetyl",
+				"acrylamide",
+				"acrylic",
+				"addition",
+				"additive",
+				"adhesive",
+				"aggregate",
+				"aldehyde",
+				"aliphatic",
+				"alternating",
+				"amino",
+				"amorphous",
+				"amphiphilic",
+				"amylopectin",
+				"amylose",
+				"anaerobic",
+				"anionic",
+				"apparent",
+				"aromatic",
+				"assembly",
+				"association"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"balance",
+				"beaker",
+				"benzene",
+				"benzoic acid",
+				"bimolecular",
+				"biodegradable",
+				"biodegradation",
+				"biopolymer",
+				"bisphenol",
+				"blend",
+				"block",
+				"boundary",
+				"branch",
+				"brittle",
+				"brush",
+				"bulk",
+				"butadiene",
+				"butane",
+				"butanol",
+				"butene",
+				"butyl"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"capillary",
+				"carboxylic",
+				"catalyst",
+				"cationic",
+				"cellulose",
+				"charge",
+				"chelate",
+				"chiral",
+				"coating",
+				"coefficient",
+				"coherent",
+				"column",
+				"comb",
+				"compatibility",
+				"compliance",
+				"compressive",
+				"condensation",
+				"conducting",
+				"conformation",
+				"conformational",
+				"conjugate",
+				"continuous",
+				"contour",
+				"coordination",
+				"cracking",
+				"craze",
+				"creep",
+				"crosslink",
+				"crystal",
+				"crystalline",
+				"crystallization",
+				"curing",
+				"cycloaddition",
+				"cycloalkene"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"decane",
+				"deformation",
+				"degradable",
+				"degradation",
+				"degree",
+				"dendrite",
+				"dendritic",
+				"depolymerization",
+				"dextran",
+				"diene",
+				"dimer",
+				"disorientation",
+				"distribution",
+				"dodecane",
+				"dodecyl",
+				"domain",
+				"ductile",
+				"dynamic"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"efficiency",
+				"elastic",
+				"elasticity",
+				"elastomer",
+				"elastomeric",
+				"electrostatic",
+				"element",
+				"elimination",
+				"elongation",
+				"elution",
+				"emulsion",
+				"enzymatic",
+				"epoxy",
+				"equilibrium",
+				"equivalent",
+				"ester",
+				"ethane",
+				"ethanol",
+				"ethene",
+				"ethyl",
+				"ethyl acetate",
+				"ethylene",
+				"exchange",
+				"expansion",
+				"external",
+				"extraction"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"factor",
+				"failure",
+				"ferromagnetic",
+				"fiber",
+				"flask",
+				"flexible",
+				"fluid",
+				"fluorescence",
+				"fold",
+				"formaldehyde",
+				"formamide",
+				"formic",
+				"fractionation",
+				"fracture",
+				"fragmentation",
+				"frictional",
+				"functional",
+				"functionality"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gaseous",
+				"gel",
+				"gelatin",
+				"gradient",
+				"graduated cylinder",
+				"graft",
+				"gyration"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hardness",
+				"helical",
+				"helix",
+				"heptane",
+				"heterocyclic",
+				"heterogeneous",
+				"heteropolymer",
+				"hexane",
+				"homogeneous",
+				"homopolymer",
+				"hydrodynamic",
+				"hydrophilic",
+				"hydrophobic"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"impact",
+				"indene",
+				"index",
+				"induction",
+				"inhibition",
+				"inhibitor",
+				"initiated",
+				"initiator",
+				"inorganic",
+				"insertion",
+				"intelligent",
+				"interfacial",
+				"internal",
+				"intrinsic",
+				"ion",
+				"ionomer",
+				"irrecoverable",
+				"isopropyl",
+				"isotacticity"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"ketone",
+				"kinetics"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"ladder",
+				"lamella",
+				"latex",
+				"length",
+				"lifetime",
+				"lignin",
+				"linear",
+				"liquid crystal",
+				"logarithmic",
+				"luminescence"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"macrocyclic",
+				"macromolecule",
+				"magnetic",
+				"mechanical",
+				"metastable",
+				"metathesis",
+				"methane",
+				"methanol",
+				"methyl",
+				"monocycle",
+				"monomer",
+				"multicomponent"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"octane",
+				"oligomer",
+				"organic",
+				"orientation"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"paint",
+				"parallel",
+				"pentane",
+				"pentene",
+				"pentyl",
+				"period",
+				"petroleum",
+				"phenol",
+				"phenolic",
+				"phenyl",
+				"photoconductive",
+				"photosensitive",
+				"piezoelectric",
+				"plasma",
+				"plastic",
+				"plasticizer",
+				"polar",
+				"polyacrylamide",
+				"polyacrylate",
+				"polyamide",
+				"polycarbonate",
+				"polyelectrolyte",
+				"polyethylene",
+				"polyimide",
+				"polymer",
+				"polymerization",
+				"polypeptide",
+				"polypropylene",
+				"polystyrene",
+				"polyurethane",
+				"precipitation",
+				"processing",
+				"propane",
+				"propionic acid",
+				"propyl",
+				"propylene",
+				"pyrolytic"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"radiation",
+				"radical",
+				"radius",
+				"random",
+				"reactivity",
+				"reagent",
+				"redox",
+				"reduced",
+				"refractive",
+				"reinforced",
+				"relaxation",
+				"residual",
+				"resin",
+				"retarded",
+				"retarder",
+				"reverse",
+				"reversible",
+				"rigid",
+				"rodlike",
+				"rubber"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"saturated",
+				"sedimentation",
+				"seeding",
+				"segment",
+				"segmented",
+				"sequential",
+				"shear",
+				"silicon",
+				"solvent",
+				"spectrum",
+				"spinning",
+				"spontaneous",
+				"starch",
+				"straight",
+				"strain",
+				"strength",
+				"stress",
+				"styrene",
+				"sulfide",
+				"supra",
+				"suspension",
+				"swelling"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tacticity",
+				"tapered",
+				"template",
+				"tensile",
+				"terephthalic",
+				"terminal",
+				"termination",
+				"terminator",
+				"tetra",
+				"texture",
+				"thermoplastic",
+				"thermosetting",
+				"three-dimensional",
+				"toluene",
+				"topological",
+				"transition",
+				"tricycle",
+				"tube"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unimolecular",
+				"unsaturated"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vacuum",
+				"velocity",
+				"vinyl",
+				"viscosity",
+				"volume",
+				"vulcanization"
+			]
+		},
+		{
+			"name": "X",
+			"children": [
+				"xylene"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yield",
+				"yielding"
+			]
+		}
+	]
+}

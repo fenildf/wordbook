@@ -10,8 +10,6 @@ const book = require('./Book');
 
 function parseSource(text) {
     let lines = text.split('\n');
-    console.log(lines)
-
     let b;
     let children;
     let onBookHeader = false;
@@ -58,4 +56,7 @@ function saveBook(book){
 function readText(path){
     return fs.readFileSync(path).toString();
 }
-parseSource(readText(SOURCE_DIR+'/'+sources[0]));
+
+sources.forEach((source)=>{
+    parseSource(readText(SOURCE_DIR+'/'+source))
+})

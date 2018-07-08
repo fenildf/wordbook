@@ -1,0 +1,227 @@
+{
+	"name": "小学英语深圳版第二册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"Cinderella",
+				"candy",
+				"character",
+				"cheese",
+				"cheetah",
+				"cocoa",
+				"congratulating",
+				"contest",
+				"continent",
+				"country",
+				"cream",
+				"cut"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"Egypt",
+				"England",
+				"Ethiopia",
+				"Europe",
+				"everywhere"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"Germany",
+				"gate",
+				"giant",
+				"goddess",
+				"gold"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"Italian",
+				"Italy",
+				"interesting"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"Lhasa",
+				"Little Red Riding Hood",
+				"laugh",
+				"lazy",
+				"living",
+				"lunchtime"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Mulan",
+				"marathon",
+				"medal",
+				"melt",
+				"metre",
+				"minute",
+				"mix",
+				"moon",
+				"moon cake",
+				"more",
+				"most",
+				"move",
+				"mud"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"Robin Hood",
+				"record"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Sleeping Beauty",
+				"Snow White",
+				"South America",
+				"sailfish",
+				"salt",
+				"salty",
+				"sand",
+				"sauce",
+				"second",
+				"sell",
+				"shape",
+				"shark",
+				"silver",
+				"similar",
+				"simple",
+				"sleep",
+				"smart",
+				"soup",
+				"sour",
+				"special",
+				"splendid",
+				"spoon",
+				"stew",
+				"sticky",
+				"still",
+				"story",
+				"storyteller",
+				"sun",
+				"sunrise",
+				"sunset",
+				"surfer",
+				"sweet"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"Thai",
+				"The Frog Prince",
+				"talk",
+				"taste",
+				"team",
+				"the Dead Sea",
+				"the Nile",
+				"the solar system"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"actually",
+				"add",
+				"among",
+				"anything",
+				"area",
+				"around",
+				"award"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"barbecue",
+				"beanstalk",
+				"beef",
+				"better",
+				"billion",
+				"boat",
+				"boil",
+				"branch",
+				"brave",
+				"bright",
+				"bronze",
+				"build"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dough",
+				"dragon",
+				"drop",
+				"duckling"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fact",
+				"fairy",
+				"fairy tale",
+				"famous",
+				"fight",
+				"finally",
+				"fix",
+				"float",
+				"folk",
+				"fork",
+				"funny"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"happily",
+				"hard-working",
+				"honest",
+				"hurdle"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kilometre",
+				"kind",
+				"king"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nothing"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pasta",
+				"per",
+				"person",
+				"planet",
+				"pm",
+				"popular",
+				"pork",
+				"province"
+			]
+		}
+	]
+}

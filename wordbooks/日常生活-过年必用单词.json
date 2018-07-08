@@ -1,0 +1,152 @@
+{
+	"name": "过年必用单词",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "E",
+			"children": [
+				"Eight Treasures Rice",
+				"exhibit of lanterns"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"New Year picture",
+				"New Year’s Eve"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Spring Festival couplets",
+				"short sketch",
+				"spring cleaning"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"Tang-yuan",
+				"The Lantern Festival",
+				"The Spring Festival",
+				"taboo",
+				"the beginning of Chinese New Year",
+				"traditional opera"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"ancestor cult"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bid farewell to the old year"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"chafing dish",
+				"cross talk"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dragon dance",
+				"dumpling"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"family reunion dinner",
+				"firecracker",
+				"firecracker",
+				"fireworks"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"get rid of the ill-fortune",
+				"gift money"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lantern",
+				"lion dance",
+				"lunar January",
+				"lunar calendar"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"oval kumquat"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"paper-cut",
+				"pay a New Year call",
+				"peanut brittle",
+				"poetic couplet",
+				"propose a toast"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"red date",
+				"red packet",
+				"rice cake",
+				"riddles written on lanterns"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"variety show"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"watermelon seed",
+				"winter vacation"
+			]
+		},
+		{
+			"name": "买",
+			"children": [
+				"买年货"
+			]
+		},
+		{
+			"name": "守",
+			"children": [
+				"守岁"
+			]
+		},
+		{
+			"name": "春",
+			"children": [
+				"春节联欢晚会"
+			]
+		},
+		{
+			"name": "过",
+			"children": [
+				"过年"
+			]
+		}
+	]
+}

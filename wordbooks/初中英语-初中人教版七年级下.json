@@ -1,0 +1,515 @@
+{
+	"name": "初中人教版七年级下",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"Africa",
+				"Australia",
+				"a little bit",
+				"across",
+				"across from",
+				"activity",
+				"agree",
+				"agree with",
+				"airport",
+				"always",
+				"animal",
+				"anything",
+				"apartment",
+				"arrive",
+				"article",
+				"as",
+				"assistant",
+				"at",
+				"at home",
+				"at night",
+				"ave",
+				"avenue",
+				"awful"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"Boston",
+				"back",
+				"bad",
+				"bank",
+				"bank clerk",
+				"beach",
+				"beard",
+				"beautiful",
+				"beef",
+				"beginning",
+				"behind",
+				"belt",
+				"between",
+				"bingo",
+				"bird",
+				"bit",
+				"blonde",
+				"bowl",
+				"box",
+				"bridge",
+				"brown",
+				"build",
+				"by"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Canada",
+				"cabbage",
+				"camera",
+				"camp",
+				"captain",
+				"cat",
+				"center",
+				"central",
+				"cheap",
+				"children",
+				"children\\'s palace",
+				"classmate",
+				"classroom",
+				"clean",
+				"clever",
+				"cloudy",
+				"cold",
+				"color",
+				"cook",
+				"cool",
+				"corner",
+				"country",
+				"crowded",
+				"cry",
+				"culture",
+				"curly",
+				"cute"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"Dr.",
+				"dangerous",
+				"decide",
+				"delicious",
+				"describe",
+				"dining",
+				"direction",
+				"dirty",
+				"discuss",
+				"dislike",
+				"district",
+				"do some reading",
+				"doctor",
+				"dolphin",
+				"down",
+				"drink",
+				"dumpling",
+				"during"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"France",
+				"French",
+				"Fri.",
+				"fact",
+				"fantastic",
+				"fashion",
+				"feel",
+				"fight",
+				"fish",
+				"following",
+				"friendly",
+				"front",
+				"fun"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"How about",
+				"ha",
+				"hair",
+				"hall",
+				"hallway",
+				"hard",
+				"have",
+				"have a good time",
+				"have fun",
+				"have to",
+				"heat",
+				"heavy",
+				"height",
+				"hope",
+				"hospital",
+				"host",
+				"hot",
+				"house",
+				"humid",
+				"hungry",
+				"hutong"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"Japan",
+				"Japanese",
+				"joke",
+				"juice",
+				"just"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Mon.",
+				"Moscow",
+				"Ms",
+				"madam",
+				"magazine",
+				"mail",
+				"make",
+				"mall",
+				"man",
+				"map",
+				"market",
+				"meat",
+				"medium",
+				"menu",
+				"middle",
+				"middle school",
+				"mind",
+				"money",
+				"most",
+				"mountain",
+				"museum",
+				"mutton"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"New York",
+				"New York City",
+				"No.",
+				"near",
+				"neighborhood",
+				"never",
+				"news",
+				"newspaper",
+				"next",
+				"next to",
+				"no",
+				"no talking",
+				"nobody",
+				"noodles",
+				"not any more",
+				"nothing",
+				"now",
+				"nurse"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"Paris",
+				"pal",
+				"palace",
+				"panda",
+				"park",
+				"pass",
+				"past",
+				"pay",
+				"pay phone",
+				"pen pal",
+				"penguin",
+				"person",
+				"place",
+				"play",
+				"police",
+				"police station",
+				"policeman",
+				"policewoman",
+				"pool",
+				"pop singer",
+				"popular",
+				"porridge",
+				"post",
+				"post office",
+				"potato",
+				"practice",
+				"present",
+				"pretty",
+				"put"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"RMB",
+				"rain",
+				"rainy",
+				"read",
+				"really",
+				"reason",
+				"regular",
+				"relax",
+				"relaxed",
+				"remember",
+				"report",
+				"reporter",
+				"restaurant",
+				"rice",
+				"right",
+				"rule"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Singapore",
+				"St.",
+				"Sydney",
+				"said",
+				"say",
+				"scarf",
+				"sex",
+				"shop",
+				"shop assistant",
+				"shy",
+				"singer",
+				"sir",
+				"sit",
+				"sitcom",
+				"situation",
+				"size",
+				"skill",
+				"sleep",
+				"smart",
+				"snow",
+				"soap",
+				"soap opera",
+				"sometimes",
+				"song",
+				"soup",
+				"south",
+				"special",
+				"spend",
+				"sports shoes",
+				"square",
+				"stand",
+				"star",
+				"station",
+				"stay",
+				"stop",
+				"story",
+				"straight",
+				"street",
+				"study",
+				"suggestion",
+				"summer",
+				"summer camp",
+				"sunglasses",
+				"sunny",
+				"supermarket",
+				"sure",
+				"surprised"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"TV show",
+				"TV station",
+				"Tel",
+				"Thurs.",
+				"Tian An Men Square",
+				"Tokyo",
+				"Toronto",
+				"Tues.",
+				"take",
+				"take a photo",
+				"take a walk",
+				"talk",
+				"talk about",
+				"talk show",
+				"tall",
+				"taxi",
+				"tea",
+				"teach",
+				"team",
+				"terrible",
+				"test",
+				"the Great Wall",
+				"the Palace Museum",
+				"the United Kingdom",
+				"the United States",
+				"there",
+				"thief",
+				"thin",
+				"think of",
+				"through",
+				"tiger",
+				"tour",
+				"toy",
+				"turn"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"Wed.",
+				"What about",
+				"wait",
+				"wait for",
+				"waiter",
+				"walk",
+				"wall",
+				"wallet",
+				"warm",
+				"wash",
+				"water",
+				"way",
+				"wear",
+				"weather",
+				"welcome",
+				"west",
+				"windy",
+				"winter",
+				"world",
+				"would"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"elephant",
+				"else",
+				"enjoy",
+				"everyone",
+				"exam",
+				"expensive"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"garden",
+				"geography",
+				"get",
+				"giraffe",
+				"give",
+				"go for a walk",
+				"go shopping",
+				"good-looking",
+				"grass",
+				"green tea",
+				"group",
+				"guide",
+				"gym"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"idea",
+				"if",
+				"improve",
+				"in",
+				"in fact",
+				"in front of",
+				"in order to",
+				"international",
+				"irregular",
+				"it\\'s time to"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"key ring",
+				"kind of",
+				"king",
+				"koala"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"language",
+				"large",
+				"late",
+				"later",
+				"lazy",
+				"leaf",
+				"left",
+				"library",
+				"lie",
+				"like",
+				"lion",
+				"live",
+				"look",
+				"look at",
+				"look for"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"office",
+				"on",
+				"on the right",
+				"on vacation",
+				"onion",
+				"open",
+				"other",
+				"out",
+				"outside"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quiet"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"ugly",
+				"unfriendly",
+				"uniform",
+				"unit"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vacation",
+				"visit"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yesterday",
+				"young",
+				"yours"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zoo"
+			]
+		}
+	]
+}

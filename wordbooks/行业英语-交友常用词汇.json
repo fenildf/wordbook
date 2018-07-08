@@ -1,0 +1,452 @@
+{
+	"name": "交友常用词汇",
+	"classify": "行业英语",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"Bill",
+				"Broadway show",
+				"ball",
+				"bank account",
+				"bar",
+				"baseball",
+				"basic",
+				"basketball",
+				"be settled in",
+				"be sold out",
+				"be tired of",
+				"be willing to",
+				"beautiful",
+				"begin",
+				"believe",
+				"birthday",
+				"birthday cake",
+				"birthday gift",
+				"bite",
+				"block",
+				"bowl",
+				"brand",
+				"bring with",
+				"business",
+				"by the time",
+				"by the way"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Canadian",
+				"Chinese",
+				"camp out",
+				"careful",
+				"cash",
+				"casual",
+				"catalog",
+				"catch",
+				"ceiling",
+				"celebrate",
+				"champagne",
+				"charge",
+				"charity",
+				"check",
+				"church",
+				"citizen",
+				"clinic",
+				"closest",
+				"collect",
+				"come over",
+				"comedy",
+				"comfortable",
+				"communicate",
+				"company",
+				"completely",
+				"concert",
+				"congratulation",
+				"cough",
+				"cousin",
+				"credit card",
+				"crowd"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"Egyptian",
+				"earring",
+				"easier",
+				"edge",
+				"enjoy",
+				"establish",
+				"exercise",
+				"exhibit",
+				"expensive",
+				"extra"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"Internet",
+				"idea",
+				"identification",
+				"impose",
+				"in person",
+				"inning",
+				"instead",
+				"interested",
+				"interview",
+				"introduce",
+				"inventory",
+				"invite"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"TAB",
+				"Tuesday",
+				"taught",
+				"teach",
+				"tennis",
+				"theater",
+				"thought",
+				"throw",
+				"tie",
+				"tip",
+				"together",
+				"tonight",
+				"tour",
+				"tourist",
+				"transfer",
+				"transfer to",
+				"transportation",
+				"twice"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"a couple of",
+				"a lot of",
+				"a pair of",
+				"accent",
+				"actual",
+				"actually",
+				"ad",
+				"add",
+				"adjust",
+				"advertise",
+				"advice",
+				"afford",
+				"afford to",
+				"afternoon",
+				"agent",
+				"allow",
+				"almost",
+				"already",
+				"apartment",
+				"appointment",
+				"appreciate",
+				"arrange",
+				"artwork",
+				"ask around",
+				"at least",
+				"atmosphere",
+				"attraction",
+				"available",
+				"avoid",
+				"awkward"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dance",
+				"day off",
+				"decide",
+				"decorate",
+				"department store",
+				"depend",
+				"difference",
+				"discount",
+				"dish",
+				"documentary",
+				"downtown",
+				"drug",
+				"dry",
+				"dull",
+				"duplicate"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fair",
+				"familiar with",
+				"fantastic",
+				"fast",
+				"fat",
+				"favorite",
+				"favorite kind of",
+				"fax",
+				"female",
+				"festival",
+				"film",
+				"fine",
+				"finish",
+				"flattered",
+				"flight",
+				"for fun",
+				"fresh",
+				"friend",
+				"front"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"garage",
+				"generic",
+				"generic brand",
+				"get around",
+				"get hurt",
+				"get lost",
+				"glad",
+				"grab",
+				"gratuity",
+				"greasy",
+				"grocery store",
+				"ground",
+				"guess"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"haircut",
+				"half off",
+				"hectic",
+				"hesitate",
+				"hike",
+				"hobby",
+				"hopefully",
+				"hospital",
+				"hot line",
+				"hotel",
+				"hungry",
+				"hurry"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jet-lag",
+				"join"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"language",
+				"last-minute",
+				"lately",
+				"learn",
+				"lesson",
+				"line",
+				"listen",
+				"local",
+				"locate",
+				"logo",
+				"lonely",
+				"look forward to",
+				"lost",
+				"lounge",
+				"low fat"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"madam",
+				"magazine",
+				"major",
+				"make change for",
+				"male",
+				"mall",
+				"market",
+				"match",
+				"meet",
+				"month",
+				"mood",
+				"movie",
+				"museum"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nearby",
+				"nearest",
+				"nice",
+				"nightclub",
+				"notice"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"obligation",
+				"obviously",
+				"off from work",
+				"offer",
+				"office",
+				"on sale",
+				"orchestra",
+				"order",
+				"ought to",
+				"outdoor",
+				"outside",
+				"outskirts",
+				"overtime"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"paint",
+				"painting",
+				"parade",
+				"park",
+				"particular",
+				"partner",
+				"party",
+				"patient",
+				"pay",
+				"permanently",
+				"permit",
+				"perspective",
+				"pet",
+				"piano",
+				"pick up",
+				"plan",
+				"play-off",
+				"popcorn",
+				"post card",
+				"practice",
+				"prefer",
+				"prefer A to B",
+				"preference",
+				"prescription",
+				"pretty",
+				"price",
+				"probably",
+				"problem"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"radio station",
+				"ready",
+				"really",
+				"reason",
+				"receipt",
+				"relax",
+				"remember",
+				"reservation",
+				"reserve",
+				"respond",
+				"restaurant",
+				"resume",
+				"review"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"safely",
+				"salesman",
+				"saver",
+				"scary",
+				"scenery",
+				"schedule",
+				"sculpture",
+				"secretary",
+				"seem",
+				"separate",
+				"set up",
+				"settle",
+				"several",
+				"shirt",
+				"shop",
+				"show around",
+				"sight",
+				"signature",
+				"sleep",
+				"slower",
+				"soft jazz",
+				"sometime",
+				"somewhere",
+				"sound",
+				"souvenir",
+				"spare",
+				"specific",
+				"spectacular",
+				"spend",
+				"split",
+				"stadium",
+				"stay",
+				"stock",
+				"storm",
+				"streamer",
+				"suggestion",
+				"summer",
+				"sunset",
+				"suppose",
+				"supposed to",
+				"surf",
+				"suspense",
+				"sweat shirt"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unhealthy",
+				"unpredictable",
+				"used to"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vacant",
+				"vacation",
+				"vacation",
+				"vampire",
+				"visit",
+				"volunteer"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wait",
+				"watch out",
+				"wear off",
+				"wedding",
+				"weekend",
+				"welcome",
+				"wherever",
+				"witness",
+				"wonder",
+				"wonderful",
+				"work out",
+				"world class",
+				"worse",
+				"would like to"
+			]
+		}
+	]
+}

@@ -1,0 +1,345 @@
+{
+	"name": "旅行相关单词",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"AA Film",
+				"abalone",
+				"advance deposit",
+				"air-bridge",
+				"airline coach service",
+				"airport",
+				"airport fee",
+				"airport terminal",
+				"aperitif"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"BAR-B-Q",
+				"Bakery",
+				"Bar",
+				"Beware of Pickpocket",
+				"Buses Only",
+				"Business Hours",
+				"bacon",
+				"baggage claim",
+				"baggage elevator",
+				"baggage receipt",
+				"baked potato",
+				"barbecued pork",
+				"bean curd",
+				"bird's nest",
+				"boarding pass",
+				"boiled salted duck",
+				"braised beef",
+				"breast of deer",
+				"briefcase",
+				"buffet",
+				"butter"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Cafe",
+				"Closed",
+				"Complaint Box",
+				"caddy",
+				"cancellation",
+				"carrier",
+				"casserole",
+				"check in",
+				"chef's special",
+				"chopsticks",
+				"class",
+				"coffee cup",
+				"coffee pot",
+				"conch",
+				"concourse",
+				"continental cuisine",
+				"control tower",
+				"crab meat",
+				"crispy rice",
+				"cup",
+				"curry rice",
+				"customs"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"Danger",
+				"Do Not Pass",
+				"date",
+				"departure",
+				"dim sum",
+				"dish",
+				"domestic flight",
+				"double room",
+				"dried turnip",
+				"duty-free shop"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"EMS",
+				"Entrance",
+				"Exit"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"Filling Station",
+				"For Use Only in Case of Fire",
+				"Fragile",
+				"French cuisine",
+				"French fires",
+				"family suite",
+				"fast food",
+				"fermented blank bean",
+				"flight no.",
+				"flight number",
+				"from",
+				"fruit plate"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"Give Way",
+				"Guard against Damp",
+				"gate",
+				"glass",
+				"good for passage between",
+				"gruel"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"Hands Off",
+				"Hands Wanted",
+				"honeymoon suite",
+				"hot pot"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"In Shade",
+				"Information",
+				"Insert Here",
+				"Introductions",
+				"imperial suite",
+				"international airport",
+				"international flight",
+				"international terminal"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"Keep Dry",
+				"Keep Left",
+				"Keep Right",
+				"Keep Silence",
+				"Keep in Dark Place",
+				"kimchi",
+				"knife"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"Lost and Found",
+				"laundry",
+				"light luggage",
+				"lobster",
+				"luggage",
+				"luggage locker"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Mechanical",
+				"Menu",
+				"mashed potatoes",
+				"meat broth",
+				"meat bun",
+				"menu",
+				"mini suite",
+				"miso shiru",
+				"mug"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"No Admittance",
+				"No Angling",
+				"No Bills",
+				"No Cycling in the School",
+				"No Entry",
+				"No Honking",
+				"No Passing",
+				"No Smoking",
+				"No U Turn",
+				"No Visitors",
+				"Not for Sale",
+				"name of passenger",
+				"name tag",
+				"napkin",
+				"no litter",
+				"noodles with gravy"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"Off",
+				"Office Hours",
+				"On",
+				"On Sale",
+				"One-way Street",
+				"Open",
+				"omelette",
+				"on change",
+				"open here"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"Pause",
+				"Poison",
+				"Pub",
+				"Pull",
+				"Push",
+				"paper towel",
+				"parking",
+				"pastries",
+				"penthouse suite",
+				"pickled cucumbers",
+				"pickled vegetables",
+				"picnic lunch",
+				"pig's knuckle",
+				"plain noodle",
+				"plain rice",
+				"plane No.",
+				"plate",
+				"poached egg",
+				"porter",
+				"prawn",
+				"preserved beancurd",
+				"preserved egg",
+				"preserved meat",
+				"presidential suite",
+				"pudding"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"SOS",
+				"Safety First",
+				"Seat by Number",
+				"Shooting Prohibited",
+				"Shut",
+				"Split Here",
+				"Staff Only",
+				"Stop",
+				"sake",
+				"salted duck egg",
+				"salted jelly fish",
+				"sashi",
+				"sashimi",
+				"saucer",
+				"sausage",
+				"scallops",
+				"sea cucumber",
+				"sea sturgeon",
+				"seat no.",
+				"seaweed",
+				"shark fin",
+				"shoulder bag",
+				"shuttle bus",
+				"soup spoon",
+				"specialty",
+				"standard rate",
+				"status",
+				"storage room",
+				"suit bag",
+				"suitcase",
+				"suite deluxe"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"This Side Up",
+				"Toll Free",
+				"Travel Agency",
+				"table cloth",
+				"tariff",
+				"tea pot",
+				"tea set",
+				"tea tray",
+				"ticket confirm",
+				"time",
+				"to",
+				"today's special",
+				"toothpick",
+				"transfer correspondence",
+				"transit",
+				"travelling bag",
+				"trolley",
+				"trunk"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"U Turn Ok",
+				"unmade room"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"Wet Paint"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jetway",
+				"junior suite"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rate sheets",
+				"registered",
+				"registration",
+				"reservation",
+				"rice bowl",
+				"roast meat",
+				"roast suckling pig"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"valuables"
+			]
+		}
+	]
+}

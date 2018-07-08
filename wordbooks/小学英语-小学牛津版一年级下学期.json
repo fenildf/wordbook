@@ -1,0 +1,147 @@
+{
+	"name": "小学牛津版一年级下学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"all",
+				"aunt"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bee",
+				"bird",
+				"brown",
+				"butterfly"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"card",
+				"coke",
+				"colour",
+				"cook"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"do",
+				"doctor",
+				"drink"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"eat"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"farmer",
+				"fat",
+				"fireman",
+				"fish",
+				"fisherman",
+				"fold",
+				"follow",
+				"frog"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"goodbye",
+				"grandfather",
+				"grandmother",
+				"green"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"ice-cream",
+				"in"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jelly",
+				"juice"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kite"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"like",
+				"listen"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"meat",
+				"milk",
+				"milkman"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"new",
+				"nine",
+				"noodle",
+				"nurse"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"orange",
+				"out"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tall",
+				"tell",
+				"ten",
+				"they",
+				"try",
+				"turn"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"uncle"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"very"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"well"
+			]
+		}
+	]
+}

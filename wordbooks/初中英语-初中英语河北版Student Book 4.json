@@ -1,0 +1,420 @@
+{
+	"name": "初中英语河北版Student Book 4",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"address",
+				"advantage",
+				"afar",
+				"agree",
+				"agriculture",
+				"air",
+				"alive",
+				"amazing",
+				"among",
+				"anywhere",
+				"appear",
+				"area"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bad",
+				"bag",
+				"bake",
+				"bamboo",
+				"bar",
+				"baseball",
+				"basket",
+				"bear",
+				"billion",
+				"bit",
+				"blossom",
+				"branch",
+				"bud",
+				"burn",
+				"button",
+				"buzz"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"can",
+				"candleholder",
+				"candy",
+				"captain",
+				"care",
+				"cassette",
+				"certainly",
+				"change",
+				"chase",
+				"chat",
+				"clean-up",
+				"click",
+				"climb",
+				"coal",
+				"coast",
+				"compose",
+				"conclusion",
+				"connect",
+				"contact",
+				"continent",
+				"corn",
+				"cornstarch",
+				"countryside",
+				"cover",
+				"creative",
+				"cycling"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"daylight",
+				"deck",
+				"desert",
+				"die",
+				"dig",
+				"dirty",
+				"disadvantage",
+				"discover",
+				"discuss",
+				"dissolve",
+				"distance",
+				"drive",
+				"duck",
+				"during"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"electricity",
+				"empty",
+				"end",
+				"energy",
+				"engine",
+				"engineer",
+				"enough",
+				"enter",
+				"entrance",
+				"environment",
+				"even",
+				"ever",
+				"everybody",
+				"everywhere",
+				"exactly",
+				"examine",
+				"exit",
+				"experiment",
+				"explain",
+				"explode",
+				"extinct"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fail",
+				"fantastic",
+				"fascinating",
+				"fear",
+				"feature",
+				"feed",
+				"fierce",
+				"fill",
+				"fix",
+				"float",
+				"flour",
+				"fool",
+				"force",
+				"forward",
+				"fuel",
+				"full",
+				"furniture"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"geographical",
+				"geography",
+				"giraffe",
+				"glass",
+				"goose",
+				"gorilla",
+				"grain",
+				"grow"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hen",
+				"hero",
+				"hers",
+				"herself",
+				"hide",
+				"highway",
+				"hillside",
+				"history",
+				"hold",
+				"hole",
+				"hometown",
+				"horse",
+				"humorous",
+				"hunt"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"increase",
+				"ink",
+				"internet",
+				"interview",
+				"invent",
+				"invention",
+				"inventor",
+				"iron",
+				"island",
+				"its",
+				"itself"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"joke"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"keyboard",
+				"kick",
+				"kilogram"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"large",
+				"lazy",
+				"leaf",
+				"leak",
+				"leaky",
+				"least",
+				"lend",
+				"less",
+				"licence",
+				"lid",
+				"light",
+				"lightning",
+				"liquid",
+				"litre",
+				"litter",
+				"locomotive",
+				"lovely"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"magnetic",
+				"major",
+				"match",
+				"medicine",
+				"mend",
+				"menu",
+				"message",
+				"metal",
+				"method",
+				"mix",
+				"modern",
+				"monitor",
+				"more",
+				"most",
+				"mountain",
+				"mouse",
+				"mud",
+				"must"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nothing"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"observe",
+				"ocean",
+				"oil",
+				"on",
+				"open",
+				"outdoors",
+				"over",
+				"oxygen"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"park",
+				"partly",
+				"passenger",
+				"pedal",
+				"per",
+				"percent",
+				"pet",
+				"picnic",
+				"plant",
+				"plastic",
+				"plate",
+				"playground",
+				"pleasant",
+				"pollute",
+				"pollution",
+				"population",
+				"poster",
+				"pot",
+				"pour",
+				"power",
+				"present",
+				"presentation",
+				"press",
+				"pretty",
+				"problem",
+				"protect",
+				"prove",
+				"province",
+				"push",
+				"pyramid"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"raise",
+				"rapid",
+				"rather",
+				"reason",
+				"receive",
+				"recycle",
+				"repair",
+				"reusable",
+				"reuse",
+				"ride",
+				"ring",
+				"rise",
+				"river",
+				"road",
+				"root",
+				"round",
+				"rubbish",
+				"ruler"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"science",
+				"scientific",
+				"screen",
+				"sea",
+				"seal",
+				"search",
+				"seat",
+				"second",
+				"seed",
+				"seldom",
+				"set",
+				"shade",
+				"shall",
+				"shallow",
+				"shelter",
+				"shift",
+				"ship",
+				"shout",
+				"show",
+				"shower",
+				"shy",
+				"since",
+				"skateboard",
+				"smooth",
+				"soil",
+				"solid",
+				"somebody",
+				"somewhere",
+				"sort",
+				"sound",
+				"space",
+				"spaceship",
+				"speed",
+				"spoon",
+				"spoonful",
+				"sprout",
+				"squirrel",
+				"steam",
+				"stem",
+				"still",
+				"storm",
+				"straw",
+				"succeed",
+				"sunlight",
+				"sunrise",
+				"sunset",
+				"sunshine",
+				"surface",
+				"surprise"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tear",
+				"theory",
+				"thunder",
+				"till",
+				"tool",
+				"toss",
+				"tour",
+				"town",
+				"transportation",
+				"transporter",
+				"trick",
+				"truck",
+				"type"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"water",
+				"wedding",
+				"weight",
+				"weird",
+				"whatever",
+				"wheat",
+				"wheel",
+				"which",
+				"while",
+				"wing",
+				"world"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yourselves"
+			]
+		}
+	]
+}

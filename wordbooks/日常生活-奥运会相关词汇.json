@@ -1,0 +1,267 @@
+{
+	"name": "奥运会相关词汇",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"amateur",
+				"archery",
+				"assist",
+				"athletics",
+				"away"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"backcourt",
+				"backstroke",
+				"badminton",
+				"bag",
+				"balk",
+				"base",
+				"baseball",
+				"baseman",
+				"basket",
+				"basketball",
+				"bat",
+				"batter",
+				"batting",
+				"bench",
+				"blocking",
+				"bounce",
+				"boxer",
+				"boxing",
+				"breaststroke",
+				"bridge",
+				"bunt",
+				"bunting",
+				"butterfly"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"catcher",
+				"catching",
+				"center",
+				"champion",
+				"championship",
+				"charging",
+				"cheer-leader",
+				"chest",
+				"coach",
+				"coacher",
+				"competitor",
+				"contestant",
+				"court",
+				"cover",
+				"crossover",
+				"cycling"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"decathlon",
+				"defence",
+				"diamond",
+				"discus",
+				"diving",
+				"down",
+				"dressage",
+				"dribbling"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"epee",
+				"equestrian"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fencing",
+				"field",
+				"fielder",
+				"fielding",
+				"foil",
+				"football",
+				"forwards",
+				"foul",
+				"freestyle",
+				"frontcourt"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"glove",
+				"ground",
+				"grounder",
+				"guide",
+				"gymnastics"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hammer",
+				"handball",
+				"helmet",
+				"heptathlon",
+				"hit",
+				"hitter",
+				"hockey",
+				"holding",
+				"homer",
+				"hop"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"infield",
+				"infielder",
+				"infighting",
+				"inning"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"javelin",
+				"judo",
+				"jumping"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"layup",
+				"liner"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"manager",
+				"marathon",
+				"mask",
+				"milt"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"offense",
+				"out",
+				"outfield",
+				"outfielder",
+				"overhead"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pass",
+				"pitch",
+				"pitcher",
+				"pitching",
+				"player",
+				"playoff",
+				"professional",
+				"pursuit",
+				"pushing"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"racket",
+				"rebound",
+				"record",
+				"referee",
+				"relay",
+				"riding",
+				"rim",
+				"ring",
+				"rope",
+				"rowing",
+				"run",
+				"running"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sabre",
+				"safe",
+				"sailing",
+				"score",
+				"second",
+				"shooting",
+				"shortstop",
+				"shuttle",
+				"shuttlecock",
+				"skeet",
+				"skiing",
+				"sliding",
+				"snatch",
+				"soccer",
+				"softball",
+				"spectator",
+				"speed",
+				"spin",
+				"sprint",
+				"stealing",
+				"supporter",
+				"surfing",
+				"swimming",
+				"swing"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tennis",
+				"third",
+				"throwing",
+				"tie",
+				"time-honored",
+				"timekeeper",
+				"track",
+				"trainer",
+				"trap",
+				"triathlon"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"umpire",
+				"uppercut"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vault",
+				"volleyball"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"walk",
+				"walking",
+				"winner",
+				"wrestler",
+				"wrestling"
+			]
+		}
+	]
+}

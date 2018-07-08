@@ -1,0 +1,77 @@
+{
+	"name": "化妆品",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"blusher"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cosmetic",
+				"cream"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"enamel",
+				"essence",
+				"eye shadow",
+				"eyeliner"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"foundation"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lip gloss",
+				"lipstick",
+				"lotion"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"manicure",
+				"mascara",
+				"masque",
+				"milk",
+				"mousse"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"perfume"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"shampoo",
+				"sunblock"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"toner"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"whitening"
+			]
+		}
+	]
+}

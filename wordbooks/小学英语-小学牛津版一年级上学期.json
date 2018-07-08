@@ -1,0 +1,179 @@
+{
+	"name": "小学牛津版一年级上学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "I",
+			"children": [
+				"I",
+				"is",
+				"it"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"a",
+				"act",
+				"and",
+				"apple",
+				"are",
+				"autumn"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bag",
+				"balloon",
+				"bean",
+				"bicycle",
+				"book"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"can",
+				"close"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dance",
+				"doll",
+				"down",
+				"draw"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"ear",
+				"eye"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"face",
+				"family",
+				"father",
+				"feel",
+				"fine",
+				"five",
+				"for",
+				"four",
+				"fruit"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"get",
+				"give",
+				"go",
+				"good"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hand"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jump"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"leaf",
+				"learn",
+				"lemon",
+				"little",
+				"look"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"many",
+				"me",
+				"melon",
+				"moon",
+				"mooncake",
+				"morning",
+				"mother",
+				"mouth",
+				"my"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"no",
+				"nose",
+				"not",
+				"number"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"old",
+				"one",
+				"open",
+				"orange"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"stand"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"take",
+				"talk",
+				"taro",
+				"taste",
+				"teacher",
+				"thank",
+				"that",
+				"the",
+				"this",
+				"three",
+				"to",
+				"toe",
+				"tongue",
+				"tongue-twister",
+				"touch",
+				"tree",
+				"two"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unit",
+				"up"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wash",
+				"wave",
+				"what",
+				"write"
+			]
+		}
+	]
+}

@@ -1,0 +1,341 @@
+{
+	"name": "B级考试附加词汇",
+	"classify": "高中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"aboard",
+				"account",
+				"accustomed",
+				"action",
+				"adjust",
+				"advantage",
+				"advise",
+				"alike",
+				"amount",
+				"application",
+				"appreciate",
+				"approve",
+				"arise",
+				"arrange",
+				"aside",
+				"attach",
+				"attitude",
+				"available"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"background",
+				"badly",
+				"bare",
+				"bear",
+				"besides",
+				"beyond",
+				"blame",
+				"blank",
+				"blind",
+				"board",
+				"bother",
+				"boy",
+				"breath",
+				"brief",
+				"burst",
+				"business"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"calm",
+				"capable",
+				"case",
+				"charge",
+				"comfort",
+				"complain",
+				"concentrate",
+				"concern",
+				"conduct",
+				"confidence",
+				"considerable",
+				"control",
+				"convince"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"damage",
+				"danger",
+				"delay",
+				"delay",
+				"demand",
+				"deny",
+				"depend",
+				"describe",
+				"desert",
+				"desire",
+				"despite",
+				"determine",
+				"develop",
+				"devote",
+				"differ",
+				"disappoint",
+				"dismiss",
+				"disturb",
+				"dozen",
+				"drunk",
+				"dull"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"earn",
+				"ease",
+				"educate",
+				"effect",
+				"enlarge",
+				"environment",
+				"equip",
+				"establish",
+				"estimate",
+				"exchange",
+				"expect",
+				"expense",
+				"export"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fame",
+				"fault",
+				"favor",
+				"feature",
+				"female",
+				"figure",
+				"flight",
+				"fluent",
+				"focus",
+				"fond",
+				"force",
+				"forgive",
+				"former",
+				"fulfill",
+				"function"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gain",
+				"general",
+				"gentle",
+				"gift",
+				"golden",
+				"guard"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"habbit",
+				"hang",
+				"harm",
+				"hire",
+				"honor",
+				"horizon"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"ignore",
+				"imagine",
+				"impress",
+				"improve",
+				"increase",
+				"influence",
+				"information",
+				"instant",
+				"instruction",
+				"intend",
+				"intense",
+				"interest",
+				"interview",
+				"introduce",
+				"iron",
+				"issue"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jam",
+				"jealous",
+				"joy",
+				"judge",
+				"junior",
+				"justice"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lack",
+				"land",
+				"lawyer",
+				"length",
+				"lest",
+				"likely",
+				"lonely"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"major",
+				"manage",
+				"means",
+				"minute",
+				"missing",
+				"monent"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nature"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"object",
+				"occupy",
+				"opinion",
+				"opposite",
+				"ordinary"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"participate",
+				"particular",
+				"patient",
+				"perfect",
+				"perform",
+				"personal",
+				"persuade",
+				"physical",
+				"polite",
+				"position",
+				"possible",
+				"power",
+				"practical",
+				"predict",
+				"prefer",
+				"pretend",
+				"prevent",
+				"previous",
+				"pride",
+				"primary",
+				"private",
+				"process",
+				"produce",
+				"profit",
+				"prohibit",
+				"proof",
+				"proper",
+				"proposal",
+				"protect",
+				"provide"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"qualify",
+				"quality",
+				"quantity"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"race",
+				"rare",
+				"rate",
+				"realize",
+				"reason",
+				"recognize",
+				"reduce",
+				"regard",
+				"regular",
+				"rely",
+				"remain",
+				"remind",
+				"request",
+				"require",
+				"respect",
+				"respond",
+				"responsible",
+				"rid",
+				"role",
+				"rush"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sale",
+				"satisfy",
+				"schedule",
+				"science",
+				"sense",
+				"serve",
+				"share",
+				"sight",
+				"similar",
+				"spare",
+				"spoil",
+				"stress",
+				"strike",
+				"struggl",
+				"subject",
+				"substitute",
+				"suffer",
+				"suggest",
+				"supply",
+				"suppose",
+				"survive"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unfair",
+				"urge"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"widespread",
+				"withdraw",
+				"witness",
+				"worthy"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yield"
+			]
+		}
+	]
+}

@@ -1,0 +1,181 @@
+{
+	"name": "小学牛津版三年级上学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"big",
+				"blackboard",
+				"boat",
+				"bow",
+				"box",
+				"boy"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"camera",
+				"circle",
+				"clap",
+				"classroom",
+				"clean",
+				"colour",
+				"crayon"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"egg",
+				"eight"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"flower"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gate",
+				"grandma"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hall",
+				"head",
+				"how"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"insect"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jam"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"ladybird",
+				"late",
+				"leg",
+				"library",
+				"lion",
+				"long"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mouse"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"name"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"office"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pear",
+				"pen",
+				"pencil",
+				"photograph",
+				"pig",
+				"pink",
+				"plant",
+				"playground",
+				"point"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"queen"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rabbit",
+				"rain",
+				"red",
+				"root",
+				"rubber",
+				"ruler"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sandwich",
+				"school",
+				"see",
+				"seven",
+				"shape",
+				"she",
+				"shoe",
+				"short",
+				"sister",
+				"six",
+				"slide",
+				"small",
+				"square",
+				"star",
+				"sun",
+				"sweet",
+				"swing"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tail",
+				"that",
+				"this",
+				"toilet",
+				"triangle"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"we"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yellow",
+				"you",
+				"your"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zebra"
+			]
+		}
+	]
+}

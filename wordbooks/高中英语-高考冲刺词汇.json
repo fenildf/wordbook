@@ -1,0 +1,211 @@
+{
+	"name": "高考冲刺词汇",
+	"classify": "高中英语",
+	"children": [
+		{
+			"name": "R",
+			"children": [
+				"Representative",
+				"range",
+				"recognize",
+				"reduce",
+				"reflect",
+				"remind",
+				"reward"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"abandon",
+				"adapt",
+				"admire",
+				"afford",
+				"alternative",
+				"approach",
+				"astonished",
+				"attend",
+				"available"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cafe",
+				"call",
+				"carry",
+				"case",
+				"check",
+				"choice",
+				"close",
+				"compare",
+				"complete",
+				"consider",
+				"consumer",
+				"control",
+				"convenient",
+				"cost",
+				"cover",
+				"curious"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"damage",
+				"danger",
+				"deal",
+				"delight",
+				"demand",
+				"depend",
+				"design",
+				"desire",
+				"destroy",
+				"determine",
+				"develop",
+				"devote",
+				"direction",
+				"discover",
+				"doubt"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"effect",
+				"effort",
+				"employ",
+				"encourage",
+				"entire"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fortune",
+				"fuel"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"grow"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"habit",
+				"happen",
+				"hurry"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"imagine",
+				"impress",
+				"include",
+				"insist",
+				"intend",
+				"introduce"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"judge"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knock",
+				"knowledge"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"limit",
+				"lose"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"means",
+				"mention"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"necessary"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"observe",
+				"obtain",
+				"offer",
+				"operate",
+				"outstanding",
+				"overlook"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"particular",
+				"possess",
+				"progress",
+				"protect",
+				"prove",
+				"punish"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quit"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sense",
+				"should",
+				"sight",
+				"signal",
+				"spend",
+				"standard",
+				"supply",
+				"support",
+				"suppose",
+				"survive"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"treat",
+				"typical"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"urge"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weight",
+				"worth"
+			]
+		}
+	]
+}

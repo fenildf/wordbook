@@ -1,0 +1,66 @@
+{
+	"name": "河北版小学英语Student Book 6",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"computer",
+				"corner"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"envelop",
+				"everyone"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"helped",
+				"hurt"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"men"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"played",
+				"point",
+				"postcard"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quietly"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"send",
+				"shopped",
+				"sleep",
+				"slowly",
+				"some",
+				"stamp"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"went",
+				"woman",
+				"women"
+			]
+		}
+	]
+}

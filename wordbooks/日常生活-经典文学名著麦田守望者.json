@@ -1,0 +1,401 @@
+{
+	"name": "经典文学名著麦田守望者",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"Beowulf",
+				"bang",
+				"barge",
+				"bash",
+				"bastard",
+				"bathrobe",
+				"beard",
+				"beat-up",
+				"behave",
+				"biology",
+				"black-and-white",
+				"blanket",
+				"bore",
+				"broad",
+				"brush",
+				"buck",
+				"buddy",
+				"bull",
+				"bumpy",
+				"bury"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Catcher",
+				"Caucasian",
+				"cadillac",
+				"camel",
+				"campus",
+				"cannon",
+				"cement",
+				"challenge",
+				"chapel",
+				"charm",
+				"checkup",
+				"chest",
+				"chiffonier",
+				"chin",
+				"chuck",
+				"closet",
+				"clunk",
+				"comb",
+				"commit",
+				"complicate",
+				"compulsory",
+				"conceited",
+				"concern",
+				"conference",
+				"continent",
+				"corny",
+				"cosy",
+				"crap",
+				"crew",
+				"crook",
+				"crumby",
+				"cry",
+				"curtain"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"Navajo",
+				"nasty",
+				"native",
+				"nerve"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"Pennsylvania",
+				"pajamas",
+				"pant",
+				"parlor",
+				"particular",
+				"peak",
+				"peculiar",
+				"phase",
+				"phony",
+				"pick",
+				"pile",
+				"pimple",
+				"pinch",
+				"pole",
+				"polo",
+				"posture",
+				"practically",
+				"prep",
+				"press",
+				"prince",
+				"prostitute",
+				"puke"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Saxon",
+				"sack",
+				"sadist",
+				"sadistic",
+				"sake",
+				"sarcastic",
+				"scissor",
+				"scratch",
+				"scrawny",
+				"section",
+				"senior",
+				"sense",
+				"serious",
+				"shape",
+				"shave",
+				"shifting",
+				"shot",
+				"shove",
+				"show up",
+				"shower",
+				"showing",
+				"slap",
+				"slob",
+				"sneak",
+				"sore",
+				"speed",
+				"spill",
+				"splendid",
+				"stick",
+				"stiff",
+				"stink",
+				"stoop",
+				"strad",
+				"strap",
+				"stretch",
+				"strictly",
+				"stuff",
+				"subway",
+				"suicide",
+				"superior",
+				"suppose",
+				"surround",
+				"swell"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"Yellowstone",
+				"yawn",
+				"yell"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"absolutely",
+				"academic",
+				"account",
+				"admit",
+				"aggravating",
+				"alley",
+				"alternative",
+				"amusing",
+				"annex",
+				"apiece",
+				"apply",
+				"ass",
+				"autobiography",
+				"awful",
+				"ax"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"damn",
+				"deaf",
+				"depress",
+				"depressing",
+				"desire",
+				"disgusting",
+				"disturbance",
+				"dorm",
+				"dough",
+				"drive up",
+				"drop",
+				"dump"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"essay"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fag",
+				"false",
+				"falsetto",
+				"fart",
+				"fence",
+				"fencing",
+				"fiddle",
+				"figure",
+				"fingernail",
+				"firecracker",
+				"flannel",
+				"flunk",
+				"foil",
+				"folk",
+				"frequent"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gear",
+				"giggle",
+				"gimme",
+				"glance",
+				"goddam",
+				"goner",
+				"grandstand",
+				"grippe",
+				"grope",
+				"grunt",
+				"gut",
+				"gym"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"haif",
+				"hairy",
+				"handy",
+				"heck",
+				"hell",
+				"helluva",
+				"hemisphere",
+				"hemorrhage",
+				"hint",
+				"hoarse",
+				"horny",
+				"horse",
+				"hotshot",
+				"hound"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"illiterate",
+				"inch",
+				"innumerable",
+				"instance",
+				"insult",
+				"insulting",
+				"intelligent",
+				"interrupt",
+				"ironical",
+				"irritate"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jaguar",
+				"jock",
+				"junior"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kid",
+				"kit"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lagoon",
+				"lap",
+				"leather",
+				"lecture",
+				"lemme",
+				"liable",
+				"liar",
+				"locomotive",
+				"lot",
+				"lousy"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"maid",
+				"manure",
+				"mash",
+				"meant",
+				"memorial",
+				"mold",
+				"mood",
+				"moron",
+				"mossy"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"occupied",
+				"optional",
+				"ostracize",
+				"ot",
+				"ought"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"qualm",
+				"quick",
+				"quit"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"race",
+				"racket",
+				"rate",
+				"ratty",
+				"reside",
+				"reversible",
+				"revolutionary",
+				"riddle",
+				"rip",
+				"rock",
+				"roof",
+				"rostrum",
+				"rot",
+				"round",
+				"route",
+				"routine",
+				"rye"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tab",
+				"tack",
+				"teat",
+				"terrific",
+				"terrifically",
+				"tickle",
+				"tie",
+				"torso",
+				"touchy",
+				"tough",
+				"towel",
+				"trick",
+				"truck",
+				"turd",
+				"type"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"unbutton",
+				"underneath",
+				"undertaking"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vocabulary"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wind",
+				"wing",
+				"wooden"
+			]
+		}
+	]
+}

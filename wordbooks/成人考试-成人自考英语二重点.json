@@ -1,0 +1,311 @@
+{
+	"name": "成人自考英语二重点",
+	"classify": "成人考试",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"a good deal of",
+				"above all",
+				"accomplish",
+				"accomplished",
+				"acknowledge",
+				"acquire",
+				"activity",
+				"advantage",
+				"advantageous",
+				"amount to",
+				"amplify",
+				"analytical",
+				"analyze",
+				"applicable",
+				"application",
+				"apply",
+				"appoint",
+				"appointment",
+				"appreciate",
+				"appropriate",
+				"as a rule",
+				"assemble",
+				"assembly",
+				"assignment",
+				"at a disadvantage",
+				"attain",
+				"attainment",
+				"attribute",
+				"attributive"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"barrier",
+				"basis",
+				"be deserving of",
+				"be sensitive to",
+				"bias",
+				"burden",
+				"by nature"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"capture",
+				"carry out",
+				"coincide",
+				"compassion",
+				"compassionate",
+				"compensatory",
+				"concerned",
+				"confront",
+				"conquer",
+				"conquerable",
+				"consist of",
+				"constitutional",
+				"contemplate",
+				"conventional",
+				"convict",
+				"convince",
+				"convincing",
+				"course of action",
+				"crash",
+				"curtail"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"deal with",
+				"debate",
+				"decline",
+				"deem",
+				"definitive",
+				"degrade",
+				"delighted",
+				"delightful",
+				"democratic",
+				"deprive",
+				"desirable",
+				"desire",
+				"despite",
+				"deteriorate",
+				"discredit",
+				"disorder",
+				"distinct",
+				"distinction",
+				"distinctive",
+				"distinguish from",
+				"ditch",
+				"domestic",
+				"dominance",
+				"dominant"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"efficiency",
+				"eliminate",
+				"elusive",
+				"encounter",
+				"enhance",
+				"evaluate",
+				"evolve",
+				"exceptional",
+				"external"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"feasible",
+				"flexible",
+				"formerly",
+				"foster"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"glitter"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"habitual",
+				"harmony",
+				"have no idea"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"imperative",
+				"improvise",
+				"in existence",
+				"in other words",
+				"in part",
+				"in the way",
+				"in this case",
+				"in unison",
+				"inactivate",
+				"inactive",
+				"inconsiderate",
+				"inevitable",
+				"infiltrate",
+				"initial",
+				"inspiration",
+				"inspirational",
+				"inspire",
+				"integrate",
+				"interview",
+				"interviewee",
+				"interviewer",
+				"irrelevant"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"literal"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"maintenance",
+				"make a difference to",
+				"make a guess at",
+				"make use of",
+				"marvel",
+				"marvellous",
+				"minimum",
+				"miserable",
+				"mislead",
+				"moderation",
+				"modest",
+				"monopolize",
+				"motivate"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"negative",
+				"neutral",
+				"nominate",
+				"nominated",
+				"nomination",
+				"nominee"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"open up",
+				"opt",
+				"overcome"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"partial",
+				"persist",
+				"perspective",
+				"pervasive",
+				"pledge",
+				"precede",
+				"predict",
+				"preliminary",
+				"prevail",
+				"prevalent",
+				"primarily",
+				"privilege",
+				"profound",
+				"progressive",
+				"promotion",
+				"promotional",
+				"prospect",
+				"protect against",
+				"protect from"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"recruit",
+				"refine",
+				"reinforce",
+				"repressive",
+				"resolve",
+				"respectively",
+				"restriction",
+				"revision"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"satisfaction",
+				"satisfying",
+				"scarce",
+				"shackle",
+				"shrink",
+				"simulate",
+				"skilled",
+				"span",
+				"specific",
+				"speculation about",
+				"spontaneous",
+				"strategically",
+				"subside",
+				"subtle",
+				"swallow up",
+				"synchronize",
+				"synthesis"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"take into account",
+				"take place",
+				"turn down",
+				"typical",
+				"typically"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"ultimate",
+				"under no circumstances",
+				"under the circumstances",
+				"undergo",
+				"undertake",
+				"unison",
+				"universal",
+				"up to"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vividly",
+				"voluntary"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"watch over",
+				"when it comes to",
+				"whereas",
+				"withdraw"
+			]
+		}
+	]
+}

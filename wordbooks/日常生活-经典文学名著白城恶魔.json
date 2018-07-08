@@ -1,0 +1,329 @@
+{
+	"name": "经典文学名著白城恶魔",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"Acropolis",
+				"aerialist",
+				"aesthetic",
+				"ailment",
+				"alia",
+				"alias",
+				"allusion",
+				"amalgam",
+				"amid",
+				"amphitheater",
+				"anoint",
+				"antebellum",
+				"anthracite",
+				"arsenic",
+				"astigmatic",
+				"avail",
+				"axle"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Czar",
+				"canal",
+				"caper",
+				"chaplain",
+				"chloroform",
+				"cholera",
+				"clamor",
+				"colitis",
+				"conflagration",
+				"contusion",
+				"cordially",
+				"cornice",
+				"cove",
+				"cringe"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"beatitude",
+				"benediction",
+				"betroth",
+				"betrothed",
+				"bewitch",
+				"birch",
+				"bleakness",
+				"boisterous",
+				"bordello",
+				"bough",
+				"boulder",
+				"bramble",
+				"briar",
+				"brimstone",
+				"bristle",
+				"brothel",
+				"bulrush",
+				"bunt",
+				"bustle"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dabble",
+				"delve",
+				"destitution",
+				"dignitary",
+				"dilapidate",
+				"diphtheria",
+				"disavow",
+				"discordant",
+				"disdain",
+				"don",
+				"dotage",
+				"douse",
+				"dung"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"eerie",
+				"effervescence",
+				"elixir",
+				"embankment",
+				"embellishment",
+				"emblem",
+				"enamel",
+				"encumbrance",
+				"entice",
+				"equinoctial",
+				"evanescence",
+				"exasperate",
+				"excavation",
+				"excelsior",
+				"excursion",
+				"exertion"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"faze",
+				"flaunt",
+				"fleck",
+				"flinch"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gauntlet",
+				"geranium",
+				"gild",
+				"gleaming",
+				"gore",
+				"gorse",
+				"gouge",
+				"grandeur",
+				"grudge",
+				"gruesome",
+				"guild"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"halted",
+				"hollyhock",
+				"huff",
+				"hydraulic"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"idyll",
+				"imbecile",
+				"immutable",
+				"incandescent",
+				"incognito",
+				"incongruity",
+				"indecorous",
+				"insouciance",
+				"irrefutable"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"juxtaposition"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kiln"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lackluster",
+				"lagoon",
+				"laud",
+				"lavish",
+				"licorice",
+				"loam",
+				"locomotive",
+				"lucid",
+				"lunacy",
+				"lurid",
+				"lush"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"macadam",
+				"malaise",
+				"malignant",
+				"mantel",
+				"masquerade",
+				"mausoleum",
+				"melancholia",
+				"mica",
+				"mortar",
+				"muster"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nostalgia"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"ointment",
+				"ornamental",
+				"outlandish"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"palpable",
+				"peddler",
+				"peepshow",
+				"pester",
+				"picturesque",
+				"pigment",
+				"pique",
+				"plinth",
+				"plummet",
+				"pneumonia",
+				"primrose",
+				"proliferation",
+				"propinquity",
+				"pummel",
+				"putrefaction"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quicklime"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rag",
+				"rancor",
+				"rebuke",
+				"refulgent",
+				"replevin",
+				"retrenchment",
+				"rig",
+				"rigging",
+				"rove"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"saddle",
+				"salamander",
+				"satyr",
+				"scamp",
+				"scarlet",
+				"scurry",
+				"shanty",
+				"shim",
+				"shirk",
+				"skein",
+				"sled",
+				"sod",
+				"spasm",
+				"squall",
+				"squeamish",
+				"staunch",
+				"stave",
+				"stave off",
+				"stenographer",
+				"streaky",
+				"strenuous",
+				"stump",
+				"swindle",
+				"sylvan"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tambourine",
+				"tether",
+				"throng",
+				"titillate",
+				"transient",
+				"trepan",
+				"troika",
+				"tuberculosis",
+				"tuft",
+				"tweak",
+				"typesetter",
+				"typhoid",
+				"typhus"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"ulcerate",
+				"upend",
+				"upended",
+				"utterance"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vat",
+				"veer",
+				"victual",
+				"viscera",
+				"vulgarity"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"walrus",
+				"woeful",
+				"writ"
+			]
+		}
+	]
+}

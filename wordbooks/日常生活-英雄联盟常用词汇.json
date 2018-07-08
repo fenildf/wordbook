@@ -1,0 +1,228 @@
+{
+	"name": "英雄联盟常用词汇",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"AD",
+				"ADC",
+				"AFK",
+				"AFK",
+				"AOE",
+				"AP",
+				"APC",
+				"aced",
+				"all back",
+				"ally",
+				"armor penetration",
+				"attack speed"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"B/3",
+				"Bot",
+				"b",
+				"baron",
+				"blink",
+				"bot",
+				"bottom",
+				"brb",
+				"buff"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"CD",
+				"creep",
+				"creeps",
+				"crit"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"DC",
+				"DPS",
+				"Dced",
+				"DeBuff",
+				"damage",
+				"defeat",
+				"delay",
+				"disconnect",
+				"dominate",
+				"dont fight under the tower",
+				"dont go alone",
+				"double kill"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"FB",
+				"farm",
+				"flash",
+				"frozen"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"GG",
+				"GL",
+				"gank",
+				"guys"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"HF",
+				"HP regen",
+				"have ult",
+				"heal"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"KS",
+				"kill the dragon",
+				"killing Spree"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"LAG",
+				"Lag",
+				"legendary",
+				"life steak"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Mid",
+				"magic resist",
+				"mana regen",
+				"mia",
+				"mia",
+				"mid",
+				"mis",
+				"movement speed"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"TP",
+				"Top",
+				"top",
+				"triple kill",
+				"turret",
+				"tutorial"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"executed",
+				"exhaust"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"ignite",
+				"inhibitor",
+				"invisible"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jungle"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"noob",
+				"nuke"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"offtank",
+				"oracle"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"penetration",
+				"penta kill",
+				"push"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quadro kill"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rampage",
+				"range",
+				"reconnect",
+				"regen",
+				"regroup"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"shutdown",
+				"silence",
+				"slain",
+				"slow",
+				"smite",
+				"solo",
+				"spawn",
+				"spell penetration",
+				"spell vamp",
+				"stick together",
+				"stun",
+				"summoner"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"u should back",
+				"unstoppable"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"victory",
+				"vision wards"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wards",
+				"wtf"
+			]
+		}
+	]
+}

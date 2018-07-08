@@ -1,0 +1,189 @@
+{
+	"name": "小学牛津版五年级下学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"age",
+				"ask",
+				"asleep",
+				"awake"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"beanstalk",
+				"breakfast",
+				"build"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"careful",
+				"castle",
+				"cherry",
+				"computer",
+				"constable",
+				"cushion"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"degree",
+				"different",
+				"dinosaur"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"empty",
+				"everything"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"flat",
+				"fluffy"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"giant",
+				"glasses",
+				"goal",
+				"goose"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hammer",
+				"hers"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"in front of",
+				"instrument"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"key"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lady",
+				"lamp",
+				"lost"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"millimetre",
+				"mine",
+				"move",
+				"musical"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"noisy"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"on",
+				"open",
+				"or",
+				"outside",
+				"over"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"parcel",
+				"plant",
+				"plum",
+				"poor",
+				"puppet"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rat",
+				"rich",
+				"rise",
+				"roll",
+				"rug"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"same",
+				"save",
+				"score",
+				"screwdriver",
+				"sell",
+				"shadow",
+				"shaker",
+				"shelf",
+				"shower",
+				"smoke",
+				"step",
+				"string"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tadpole",
+				"temperature",
+				"tie"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"up"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"visit"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"were",
+				"wheel",
+				"with"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yours"
+			]
+		}
+	]
+}

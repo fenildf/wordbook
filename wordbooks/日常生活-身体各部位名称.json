@@ -1,0 +1,246 @@
+{
+	"name": "身体各部位名称",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"abdomen",
+				"acne",
+				"ankle",
+				"arch",
+				"areola",
+				"arm",
+				"armpit",
+				"ass",
+				"auricle"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"back",
+				"beard",
+				"belly",
+				"body",
+				"booger",
+				"brain",
+				"breast",
+				"butt",
+				"buttock"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"calf",
+				"cavity",
+				"cell",
+				"centrosome",
+				"cerebellar",
+				"cervical",
+				"cheek",
+				"chest",
+				"chin",
+				"chloroplast",
+				"cochlea",
+				"cord",
+				"cornea",
+				"cortex",
+				"crown",
+				"cytosol"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"denture",
+				"deoxyribonucleic",
+				"dimple",
+				"double-helix"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"ear",
+				"eardrum",
+				"elbow",
+				"enamel",
+				"endoplasmic",
+				"eye",
+				"eyebrow",
+				"eyelash",
+				"eyelid"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"femur",
+				"finger",
+				"fist",
+				"flu",
+				"foot",
+				"forearm",
+				"forefinger",
+				"forehead"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"golgi",
+				"gum"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hair",
+				"hand",
+				"head",
+				"heel",
+				"helix",
+				"hip",
+				"hippocampus"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"incisor",
+				"instep"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"joint"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knee",
+				"knuckle"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"leg",
+				"lip",
+				"lumbar"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"membrane",
+				"mitochondria",
+				"molar",
+				"mole",
+				"mouth",
+				"muscle",
+				"mustache"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"nail",
+				"navel",
+				"neck",
+				"nipple",
+				"nose",
+				"nostril",
+				"nucleolus",
+				"nucleus"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"ophryon",
+				"orbital"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"palate",
+				"palm",
+				"periosteum",
+				"phalanx",
+				"philtrum",
+				"phospholipid",
+				"physical",
+				"pit",
+				"pituitary",
+				"pore",
+				"premolar",
+				"pupil"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"reticulum",
+				"retina"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"saliva",
+				"shank",
+				"shoulder",
+				"sideburn",
+				"sinew",
+				"skin",
+				"skull",
+				"sole"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"temple",
+				"tendon",
+				"thigh",
+				"thoracic",
+				"throat",
+				"thumb",
+				"thyroid",
+				"toe",
+				"tongue",
+				"tonsil",
+				"tooth",
+				"trachea"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"ulna",
+				"uvula"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vitro"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"waist",
+				"whelk",
+				"whisker",
+				"wrist"
+			]
+		}
+	]
+}

@@ -1,0 +1,335 @@
+{
+	"name": "数学术语",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"abscissa",
+				"add",
+				"addend",
+				"addition",
+				"aggregate",
+				"algebra",
+				"amplitude",
+				"angle",
+				"arc",
+				"area",
+				"arithmetic",
+				"augend",
+				"average",
+				"axiom",
+				"axis"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"barycentre",
+				"base"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"calculation",
+				"calculus",
+				"carry",
+				"center",
+				"centre",
+				"circle",
+				"circumference",
+				"coefficient",
+				"combination",
+				"complement",
+				"cone",
+				"congruent",
+				"constant",
+				"coordinate",
+				"cosecant",
+				"cosine",
+				"cotangent",
+				"cube",
+				"cylinder"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"decagon",
+				"decimal",
+				"degree",
+				"denominator",
+				"derivative",
+				"determinant",
+				"diameter",
+				"diamond",
+				"difference",
+				"differential",
+				"digit",
+				"distribution",
+				"divide",
+				"dividend",
+				"divisible",
+				"division",
+				"divisor",
+				"domain"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"element",
+				"ellipse",
+				"equation",
+				"evolution",
+				"exponent",
+				"extraction"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"factor",
+				"factorial",
+				"formula",
+				"fraction",
+				"function"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"geometry",
+				"graph"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"height",
+				"hemisphere",
+				"heptagon",
+				"hexagon",
+				"hexahedron",
+				"histogram",
+				"hyperbola",
+				"hypotenuse",
+				"hypothesis"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"icosahedron",
+				"image",
+				"incenter",
+				"inequation",
+				"infinitesimal",
+				"integer",
+				"integral",
+				"intercede",
+				"intersect",
+				"intersection",
+				"irrational"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"leg",
+				"length",
+				"limit",
+				"line",
+				"loca",
+				"locus",
+				"logarithm"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mapping",
+				"matrix",
+				"minuend",
+				"minus",
+				"monotonicity",
+				"multinomial",
+				"multiple",
+				"multiplicand",
+				"multiplication",
+				"multiplicator",
+				"multiplier",
+				"multiply"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"negative",
+				"nil",
+				"nought",
+				"null",
+				"number",
+				"numerator"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"octagon",
+				"octahedron",
+				"operation",
+				"operator",
+				"ordinate",
+				"origin"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"parabola",
+				"parallel",
+				"parallelepiped",
+				"parallelogram",
+				"parity",
+				"pentagon",
+				"per capita",
+				"percent",
+				"percentage",
+				"percentile",
+				"perimeter",
+				"period",
+				"periodicity",
+				"permutation",
+				"phase",
+				"pi",
+				"plane",
+				"plus",
+				"point",
+				"polygon",
+				"polyhedron",
+				"polynomial",
+				"positive",
+				"power",
+				"prism",
+				"probability",
+				"product",
+				"proposition",
+				"prove",
+				"pyramid"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quadrant",
+				"quadrilateral",
+				"quotient"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"radial",
+				"radian",
+				"radius",
+				"range",
+				"ratio",
+				"real number",
+				"rectangle",
+				"remainder",
+				"rhomb",
+				"rhombus",
+				"ring",
+				"rotation",
+				"round"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"secant",
+				"sector",
+				"segment",
+				"semicircle",
+				"sequence",
+				"series",
+				"set",
+				"side",
+				"significance",
+				"similar",
+				"sine",
+				"slope",
+				"solid",
+				"solution",
+				"space",
+				"sphere",
+				"square",
+				"statistics",
+				"subset",
+				"subtract",
+				"subtraction",
+				"subtrahend",
+				"sum"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"tangent",
+				"tenth",
+				"tetrahedron",
+				"theorem",
+				"times",
+				"trapezoid",
+				"triangle",
+				"trigonometry"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"undersurface",
+				"union",
+				"unknown"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"variable",
+				"variance",
+				"void",
+				"volume"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weight",
+				"width"
+			]
+		},
+		{
+			"name": "X",
+			"children": [
+				"x-axis",
+				"x-coordinate"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"y-axis"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"z-axis",
+				"zero"
+			]
+		}
+	]
+}

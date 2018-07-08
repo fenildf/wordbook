@@ -1,0 +1,318 @@
+{
+	"name": "求职常用词汇",
+	"classify": "行业英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"accomplish",
+				"accomplishment",
+				"accurate",
+				"acquire",
+				"activity",
+				"ad",
+				"advancement",
+				"advertise",
+				"agency",
+				"antique",
+				"application",
+				"apply for",
+				"appreciate",
+				"area",
+				"as a matter of fact",
+				"aspect",
+				"associate",
+				"assortment",
+				"attest",
+				"available"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"background",
+				"beneficial",
+				"benefit",
+				"bilingual",
+				"bind",
+				"bookkeeper",
+				"bottom",
+				"broker"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"career",
+				"charge",
+				"close",
+				"coincidence",
+				"colleague",
+				"come through",
+				"complete",
+				"concentrate",
+				"confirm",
+				"consider",
+				"contact",
+				"contract",
+				"convenient",
+				"corporate",
+				"course",
+				"crack",
+				"crazy",
+				"current"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"database",
+				"deadline",
+				"dealing",
+				"decline",
+				"dedicated",
+				"definite",
+				"degree",
+				"dependable",
+				"development",
+				"direction",
+				"discretion",
+				"doubt",
+				"downsizing",
+				"driven",
+				"drop"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"earning",
+				"employee",
+				"employment",
+				"environment",
+				"expertise",
+				"extent",
+				"extra-curricular"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"factor",
+				"fair",
+				"favorite",
+				"field",
+				"figure",
+				"fill out",
+				"firm",
+				"fit in",
+				"flexible",
+				"fluctuate",
+				"former",
+				"formula",
+				"front"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"geometry",
+				"get along",
+				"get laid off",
+				"goal",
+				"gossip",
+				"gradual",
+				"graduate"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"handle",
+				"hobby",
+				"horrible"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"impression",
+				"impressive",
+				"in a bind",
+				"in reference to",
+				"independent",
+				"industry",
+				"inquiring",
+				"integrity",
+				"intelligent",
+				"interview",
+				"introduction",
+				"involved"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"journalist"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knowledge"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"learner",
+				"least",
+				"levelheaded"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"mainly",
+				"major",
+				"marketing",
+				"match",
+				"media",
+				"message",
+				"minor",
+				"miss",
+				"mix",
+				"mutually"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"notice",
+				"notice"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"objective",
+				"obviously",
+				"offer",
+				"opportunity",
+				"organization",
+				"organized",
+				"overtime"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"perform",
+				"period",
+				"permanent",
+				"persistence",
+				"personal",
+				"personality",
+				"philosophy",
+				"plant",
+				"pleasure",
+				"policy",
+				"position",
+				"possibility",
+				"practical",
+				"presentation",
+				"presently",
+				"pressure",
+				"program",
+				"progress",
+				"psychology"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"qualification",
+				"qualified"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"reach",
+				"reasonable",
+				"receive",
+				"recent",
+				"receptionist",
+				"recognize",
+				"refer",
+				"reference",
+				"regarding",
+				"relax",
+				"relocate",
+				"rep",
+				"representative",
+				"respect",
+				"responsibility",
+				"responsible",
+				"resume",
+				"rounded"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"salary",
+				"schedule",
+				"screenwriter",
+				"search",
+				"seascape",
+				"secretarial",
+				"secretary",
+				"semester",
+				"set up",
+				"shoot for",
+				"situation",
+				"skill",
+				"spare",
+				"specialty",
+				"specifically",
+				"spot",
+				"staff",
+				"status",
+				"stick",
+				"stock",
+				"strength",
+				"subject",
+				"suited"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"teller",
+				"temp",
+				"temporary",
+				"thrive",
+				"to-do",
+				"treasurer",
+				"trial",
+				"typical"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"up front"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"weakness",
+				"weather",
+				"work ethic",
+				"workaholic"
+			]
+		}
+	]
+}

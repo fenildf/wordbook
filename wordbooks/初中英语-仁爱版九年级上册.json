@@ -1,0 +1,336 @@
+{
+	"name": "仁爱版九年级上册",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"achieve",
+				"action",
+				"admire",
+				"agreement",
+				"aim",
+				"aloud",
+				"already",
+				"although",
+				"amazing",
+				"anyway",
+				"army",
+				"astronaut"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"battery",
+				"bee",
+				"beg",
+				"behavior",
+				"bell",
+				"besides",
+				"beyond",
+				"billion",
+				"blanket",
+				"blood",
+				"breathe",
+				"bulb"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"carbon",
+				"cartoon",
+				"chairwoman",
+				"channel",
+				"chant",
+				"character",
+				"cheat",
+				"chemical",
+				"chemistry",
+				"chest",
+				"childhood",
+				"click",
+				"clone",
+				"cloth",
+				"coach",
+				"coal",
+				"communicate",
+				"communication",
+				"company",
+				"complete",
+				"composition",
+				"conference",
+				"connect",
+				"consider",
+				"contribution",
+				"conversation",
+				"copy",
+				"couple",
+				"craft",
+				"create",
+				"cruel"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"deaf",
+				"degree",
+				"deliver",
+				"describe",
+				"desert",
+				"destroy",
+				"develop",
+				"development",
+				"diameter",
+				"diary",
+				"difficulty",
+				"dig",
+				"direct",
+				"director",
+				"disabled",
+				"discover",
+				"discussion",
+				"disobey",
+				"distance",
+				"disturb",
+				"divide",
+				"doubt",
+				"downstairs",
+				"drug",
+				"dry"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"electric",
+				"electricity",
+				"encourage",
+				"engineer",
+				"envelope",
+				"escape",
+				"exactly",
+				"excellent",
+				"excite",
+				"expect",
+				"experiment"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fisherman",
+				"fix",
+				"flood"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gas",
+				"general",
+				"global",
+				"goddess",
+				"grammar",
+				"grandchild",
+				"granddaughter",
+				"grandson",
+				"granny",
+				"gravity"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hero",
+				"housework"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"increase",
+				"industry",
+				"influence",
+				"ink",
+				"insist",
+				"interpreter",
+				"introduction",
+				"invention"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"language",
+				"launch",
+				"law",
+				"learned",
+				"legend",
+				"leisure",
+				"level",
+				"limit"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"market",
+				"marry",
+				"master",
+				"measure",
+				"medical",
+				"mention",
+				"method",
+				"mini-world",
+				"murder"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"neither",
+				"nod",
+				"note",
+				"notebook",
+				"nowadays",
+				"nuclear"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"opinion",
+				"organization",
+				"oxygen"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"plastic",
+				"policy",
+				"population",
+				"position",
+				"possible",
+				"postman",
+				"power",
+				"praise",
+				"pressure",
+				"prevent",
+				"preview",
+				"print",
+				"prison",
+				"probably",
+				"produce",
+				"progress",
+				"proper",
+				"prove",
+				"provide",
+				"punish",
+				"purpose"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rapidly",
+				"recent",
+				"recorder",
+				"recycle",
+				"reduce",
+				"relation",
+				"relative",
+				"repeat",
+				"require",
+				"research",
+				"retell",
+				"review",
+				"rise",
+				"risk",
+				"rocket",
+				"rope",
+				"rubbish",
+				"rude"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"satellite",
+				"sawmill",
+				"screen",
+				"search",
+				"secretary",
+				"sentence",
+				"separate",
+				"servant",
+				"several",
+				"shake",
+				"shut",
+				"silence",
+				"similar",
+				"skill",
+				"social",
+				"soil",
+				"solar",
+				"sort",
+				"spaceship",
+				"speaker",
+				"stairs",
+				"state",
+				"steal",
+				"steel",
+				"stick",
+				"storm",
+				"strange",
+				"stream",
+				"succeed",
+				"support",
+				"suppose",
+				"suspect",
+				"system"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"teenager",
+				"telegram",
+				"telescope",
+				"text",
+				"throughout",
+				"tide",
+				"tiny",
+				"toilet",
+				"tongue",
+				"tool",
+				"toothbrush",
+				"toothpaste",
+				"towel",
+				"tower",
+				"translate",
+				"transportation",
+				"treatment"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"volunteer"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"whatever",
+				"whenever",
+				"whom",
+				"wise",
+				"wound"
+			]
+		}
+	]
+}

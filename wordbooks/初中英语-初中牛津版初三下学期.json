@@ -1,0 +1,443 @@
+{
+	"name": "初中牛津版初三下学期",
+	"classify": "初中英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"Asia",
+				"abbreviation",
+				"ability",
+				"adventurer",
+				"advertising",
+				"after all",
+				"aggressive",
+				"aim",
+				"aim at",
+				"allergy",
+				"ambulance",
+				"amount",
+				"ancestor",
+				"anyway",
+				"appear",
+				"aquatic",
+				"attack",
+				"attract",
+				"avalanche",
+				"average"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Cali",
+				"Colombia",
+				"cage",
+				"campaign",
+				"can",
+				"care for",
+				"cause",
+				"center",
+				"centimeter",
+				"certainly",
+				"chatline",
+				"cheetah",
+				"chimpanzee",
+				"choke",
+				"chop",
+				"civilization",
+				"clean out",
+				"clinic",
+				"cobra",
+				"colon",
+				"combine",
+				"compliment",
+				"condition",
+				"confident",
+				"confuse",
+				"count",
+				"courage",
+				"cover",
+				"crocodile",
+				"crowed",
+				"crystal",
+				"cupboard",
+				"custom",
+				"cut down on"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"E-mail",
+				"Elise",
+				"edge",
+				"educate",
+				"effect",
+				"elbow",
+				"emoticon",
+				"emotion",
+				"endangered",
+				"enormous",
+				"event",
+				"eventually",
+				"experiment",
+				"expression",
+				"eyesight"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"Himalayas",
+				"habitat",
+				"hard",
+				"harm",
+				"help out",
+				"hit",
+				"home-made",
+				"homeland",
+				"homophone"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"Lausanne",
+				"lagoon",
+				"land",
+				"lap",
+				"lead",
+				"length",
+				"light",
+				"lighting",
+				"list",
+				"long-term",
+				"look forward",
+				"lookout"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Malaysia",
+				"man-made",
+				"manatee",
+				"mangrove",
+				"manner",
+				"mark",
+				"meet up with",
+				"millimeter",
+				"mislead",
+				"model",
+				"mosquito",
+				"mostly",
+				"mountainside",
+				"mysterious"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"New Orleans",
+				"nap",
+				"napkin",
+				"nature reserve",
+				"normally",
+				"nosebleed"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"Peru",
+				"particular",
+				"passive voice",
+				"peak",
+				"peanut",
+				"per",
+				"phrase",
+				"pick",
+				"pick up",
+				"pink",
+				"planet",
+				"plastic",
+				"playful",
+				"please",
+				"pocketknife",
+				"poem",
+				"point",
+				"polluted",
+				"pound",
+				"present progressive",
+				"present simple",
+				"prevent",
+				"process",
+				"product",
+				"proper",
+				"pros and cons",
+				"proud",
+				"pull",
+				"punctuation",
+				"purple",
+				"purpose",
+				"purse"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Switzerland",
+				"safely",
+				"safety",
+				"save",
+				"scene",
+				"schoolbag",
+				"scientific",
+				"seat",
+				"seek",
+				"serve",
+				"shake",
+				"shake hands",
+				"share",
+				"shiny",
+				"short-term",
+				"sickness",
+				"size",
+				"skin",
+				"slogan",
+				"so far",
+				"society",
+				"some day",
+				"southeast",
+				"southern",
+				"southwestern",
+				"spare",
+				"specifically",
+				"speech",
+				"speed",
+				"spoon",
+				"spotted",
+				"square kilometers",
+				"stardust",
+				"step",
+				"stick",
+				"stitch",
+				"stranger",
+				"strongly",
+				"stuff",
+				"suit",
+				"suitable",
+				"suitcase",
+				"sunburned",
+				"survive",
+				"swamp",
+				"symbol"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"Utah",
+				"underwater",
+				"unfamiliar",
+				"urge"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"Winterbourne",
+				"water",
+				"wave",
+				"weigh",
+				"well",
+				"whale",
+				"whose",
+				"wipe",
+				"wood"
+			]
+		},
+		{
+			"name": "X",
+			"children": [
+				"X-ray"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bamboo",
+				"bandage",
+				"base",
+				"bathing",
+				"beauty",
+				"behavior",
+				"beside",
+				"bitten",
+				"bleeding",
+				"bow",
+				"bracket",
+				"brain",
+				"breed",
+				"broken",
+				"built",
+				"butterfly"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dart",
+				"deep",
+				"desert",
+				"disappear",
+				"disaster",
+				"discard",
+				"discover",
+				"disgusted",
+				"drop by",
+				"drop out"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"faint",
+				"fair",
+				"farm",
+				"feeling",
+				"fence",
+				"figure",
+				"first aid",
+				"fishbone",
+				"for instance",
+				"forehead",
+				"fork",
+				"form",
+				"freezing",
+				"from bad to worse",
+				"full",
+				"furry"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"garage",
+				"get ahead",
+				"get through",
+				"giant",
+				"glue",
+				"golden",
+				"government",
+				"gradually",
+				"graduate",
+				"gray",
+				"guidebook",
+				"guilty"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"immediately",
+				"indeed",
+				"infinitive",
+				"injury",
+				"inspiration",
+				"instance"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jam"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"kangaroo",
+				"keep out",
+				"kiss",
+				"knee",
+				"knife"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"occur",
+				"ocean",
+				"oil",
+				"online",
+				"ordinary",
+				"ouch",
+				"overseas"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quarrel",
+				"queue"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"rainforest",
+				"raise",
+				"recently",
+				"recycle",
+				"refrigerator",
+				"relaxed",
+				"riddle",
+				"rock",
+				"roof",
+				"root",
+				"rubbish",
+				"rude",
+				"run off"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"table manners",
+				"take part in",
+				"talk over",
+				"taste",
+				"thanks to",
+				"therefore",
+				"thick",
+				"thought",
+				"thousands of",
+				"tile",
+				"tiny",
+				"to start with",
+				"toast",
+				"top",
+				"towel",
+				"trap",
+				"treasure",
+				"treatment",
+				"trust",
+				"truth",
+				"tsunami",
+				"turn",
+				"type",
+				"typhoon",
+				"typical"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"vegetation",
+				"villager"
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"name": "河北版小学英语-Student Book 5",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"Australia",
+				"arrive",
+				"aunt"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Chinese",
+				"coat",
+				"come",
+				"country",
+				"cousin"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gray"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"this",
+				"those",
+				"ticket",
+				"train",
+				"trip"
+			]
+		}
+	]
+}

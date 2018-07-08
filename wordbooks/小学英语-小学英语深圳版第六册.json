@@ -1,0 +1,136 @@
+{
+	"name": "小学英语深圳版第六册",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "M",
+			"children": [
+				"Monday",
+				"make the bed"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Saturday",
+				"Sunday",
+				"seed",
+				"set the table",
+				"sleep",
+				"so",
+				"sometimes",
+				"sport",
+				"surprise",
+				"sweep the floor",
+				"sweets"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"Thursday",
+				"take out",
+				"tell",
+				"these",
+				"those",
+				"timetable",
+				"today",
+				"tomato"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"Wednesday",
+				"wash",
+				"wash the dishes",
+				"watch",
+				"watch TV",
+				"worry"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"always",
+				"away"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"bathroom",
+				"bean",
+				"bedroom",
+				"biscuit",
+				"bring"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cabbage",
+				"carrot",
+				"cook",
+				"corner",
+				"cute"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"dining room",
+				"dinner",
+				"dinnertime"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"from"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"helpful",
+				"him",
+				"how much"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"keep",
+				"kilo"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"later",
+				"leafy",
+				"lemonade",
+				"lesson",
+				"living room",
+				"lovely"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"onion",
+				"orange juice"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"popcorn",
+				"potato",
+				"potato chips",
+				"puppy"
+			]
+		}
+	]
+}

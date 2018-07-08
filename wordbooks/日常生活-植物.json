@@ -1,0 +1,240 @@
+{
+	"name": "植物",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "B",
+			"children": [
+				"Brazil",
+				"balsam",
+				"bamboo",
+				"baobab",
+				"bark",
+				"beech",
+				"begonia",
+				"birch",
+				"bough",
+				"box",
+				"branch"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"acorn",
+				"amaryllis",
+				"anemone",
+				"anther",
+				"apple",
+				"apricot",
+				"azalea"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"cactus",
+				"cambium",
+				"camellia",
+				"canna",
+				"carnation",
+				"chrysanthemum",
+				"coco",
+				"cone",
+				"cosmos",
+				"crocus",
+				"cycad",
+				"cypress"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"daffodil",
+				"dahlia",
+				"daisy",
+				"daphne",
+				"date",
+				"datura",
+				"dogwood"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"ebony",
+				"elder",
+				"elm"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fir",
+				"freesia",
+				"fuchsia"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gardenia",
+				"geranium",
+				"ginkgo"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hawthorn",
+				"hibiscus",
+				"hickory",
+				"holly",
+				"hyacinth",
+				"hydrangea"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"iris"
+			]
+		},
+		{
+			"name": "J",
+			"children": [
+				"jasmine",
+				"juniper"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knot"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"larch",
+				"leaf",
+				"lilac",
+				"lily",
+				"linden",
+				"locust"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"magnolia",
+				"maple",
+				"marguerite",
+				"marigold",
+				"myrtle"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"narcissus"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"oak",
+				"oleander",
+				"orange",
+				"orchid",
+				"osier",
+				"ovary"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pansy",
+				"pear",
+				"peony",
+				"petal",
+				"pine",
+				"pink",
+				"pistil",
+				"pith",
+				"plum",
+				"pollen",
+				"poplar",
+				"poppy"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quince"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"redbud",
+				"resin",
+				"rhododendron",
+				"ring",
+				"root",
+				"rose",
+				"rosewood",
+				"rowan"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sandalwood",
+				"sapling",
+				"sepal",
+				"sequoia",
+				"sprout",
+				"spruce",
+				"stalk",
+				"stamen",
+				"stump",
+				"sunflower",
+				"sycamore"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"taproot",
+				"teak",
+				"treetop",
+				"trunk",
+				"tulip",
+				"twig"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"violet"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wattle",
+				"willow",
+				"wisteria",
+				"wood"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yew",
+				"yucca"
+			]
+		}
+	]
+}

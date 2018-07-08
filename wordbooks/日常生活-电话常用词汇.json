@@ -1,0 +1,356 @@
+{
+	"name": "电话常用词汇",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "C",
+			"children": [
+				"CD",
+				"call",
+				"cancel",
+				"cancellation",
+				"catalogue",
+				"catch",
+				"center",
+				"certainly",
+				"charge",
+				"check",
+				"check in",
+				"check out",
+				"check up",
+				"checking account",
+				"child",
+				"close to",
+				"cold",
+				"collect",
+				"collect call",
+				"commercial",
+				"company",
+				"complaint",
+				"confirm",
+				"confirmation",
+				"connect",
+				"connect",
+				"connection",
+				"copy",
+				"corner",
+				"costume",
+				"cover",
+				"cross",
+				"current",
+				"currently"
+			]
+		},
+		{
+			"name": "A",
+			"children": [
+				"accrue",
+				"ad",
+				"address",
+				"admission",
+				"adult",
+				"advantage",
+				"aisle",
+				"already",
+				"annual",
+				"answering machine",
+				"appointment",
+				"appreciate",
+				"around",
+				"arrangement",
+				"asleep",
+				"assist",
+				"assistance",
+				"association",
+				"at the moment",
+				"attend",
+				"available"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"balcony",
+				"barely",
+				"be tied up",
+				"beneficial",
+				"bill",
+				"blouse",
+				"bonus",
+				"book",
+				"book up",
+				"brief",
+				"brochure",
+				"business",
+				"busy"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"deluxe",
+				"dentist",
+				"depend",
+				"deposit",
+				"describe",
+				"desire",
+				"desired",
+				"detail",
+				"dial",
+				"dictionary",
+				"different",
+				"direction",
+				"directory",
+				"disconnect",
+				"discount",
+				"distance",
+				"disturb",
+				"double",
+				"dry clean"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"estimate",
+				"excited",
+				"expect",
+				"expensive",
+				"expire",
+				"extend",
+				"extension"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"finally",
+				"find out",
+				"finish",
+				"firm",
+				"fix",
+				"flat tire",
+				"florist",
+				"forever",
+				"free of charge",
+				"front desk",
+				"full-sized"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"go over",
+				"goods",
+				"guarantee",
+				"guest"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hesitate",
+				"hold",
+				"hold on",
+				"hook",
+				"hotel",
+				"household",
+				"how about"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"in a little while",
+				"in case",
+				"in charge",
+				"in stock",
+				"in the future",
+				"in years",
+				"interest rate",
+				"international",
+				"interrupt",
+				"invitation",
+				"invite",
+				"iron"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"later",
+				"laundry",
+				"law firm",
+				"least",
+				"line",
+				"list",
+				"listing",
+				"literature",
+				"lobby",
+				"local call",
+				"locate",
+				"location",
+				"lodge",
+				"long distance call",
+				"look forward to",
+				"look over",
+				"loud"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"manager",
+				"market",
+				"material",
+				"mechanic",
+				"meeting",
+				"message",
+				"mind",
+				"miss",
+				"moment",
+				"mountain"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"notice"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"on behalf of",
+				"on duty",
+				"on the line",
+				"operator",
+				"opportunity",
+				"orchestra",
+				"order",
+				"overseas"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"pen pal",
+				"personally",
+				"pet",
+				"pick up",
+				"possible",
+				"postpone",
+				"prefer",
+				"prepare",
+				"present",
+				"price",
+				"probably",
+				"problem",
+				"protection",
+				"put off",
+				"put on hold",
+				"put through"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"reach",
+				"ready",
+				"reasonable",
+				"recognize",
+				"recommend",
+				"refer",
+				"refund",
+				"regular",
+				"relative",
+				"repair",
+				"replace",
+				"report",
+				"representative",
+				"reschedule",
+				"reservation",
+				"reserve",
+				"residence",
+				"restaurant",
+				"result",
+				"return",
+				"right",
+				"right now",
+				"ring off the hook",
+				"risk-free",
+				"round trip"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"seat",
+				"second",
+				"secretary",
+				"service",
+				"set up",
+				"sharp",
+				"show",
+				"show time",
+				"sidewalk",
+				"similar",
+				"smoking",
+				"social",
+				"sound",
+				"sound like",
+				"squeeze",
+				"stage",
+				"station",
+				"step out",
+				"step out of",
+				"stereo",
+				"store",
+				"street",
+				"subscribe",
+				"suggest",
+				"supervisor"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"term",
+				"theater",
+				"ticket",
+				"tolerate",
+				"tow",
+				"towel",
+				"transfer",
+				"treat",
+				"trip"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"understand"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"verify",
+				"view",
+				"virtually",
+				"voice",
+				"voice mail"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wake...up",
+				"weekend",
+				"window",
+				"wire",
+				"wrong"
+			]
+		}
+	]
+}

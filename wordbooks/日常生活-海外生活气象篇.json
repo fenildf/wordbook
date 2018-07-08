@@ -1,0 +1,309 @@
+{
+	"name": "海外生活气象篇",
+	"classify": "日常生活",
+	"children": [
+		{
+			"name": "A",
+			"children": [
+				"AM Showers",
+				"AM Snow Showers",
+				"AM T-Storms",
+				"air mass",
+				"avalanche"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"Clear",
+				"Clouds Early / Clearing Late",
+				"Cloudy",
+				"Cloudy / Wind",
+				"calm",
+				"chilly",
+				"clear",
+				"cloudy day",
+				"coastal climate",
+				"cold front",
+				"constant wind",
+				"continental climate",
+				"cool",
+				"cyclone"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"Drifting Snow",
+				"Drizzle",
+				"Drought",
+				"Dust",
+				"desert climate",
+				"dew",
+				"downpour"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"Epidemic",
+				"earthquake",
+				"east wind",
+				"eye of a storm"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"Fair",
+				"Famine",
+				"Few Showers",
+				"Few Snow Showers",
+				"Few Snow Showers / Wind",
+				"Fog",
+				"favorable wind",
+				"flood",
+				"fog",
+				"forest climate",
+				"freakish weather",
+				"freezing point",
+				"fresh breeze",
+				"frontal edge",
+				"frost"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"Hail",
+				"Hailstorm",
+				"Haze",
+				"Heavy Rain",
+				"Heavy Rain Icy",
+				"Heavy Snow",
+				"Heavy T-Storm",
+				"Hurricanes",
+				"hail",
+				"headwind",
+				"heat wave",
+				"heavy rain",
+				"high seas",
+				"high-pressure",
+				"highland climate",
+				"humid climate",
+				"hurricane"
+			]
+		},
+		{
+			"name": "I",
+			"children": [
+				"Isolated T-Storms",
+				"ice",
+				"ice age",
+				"ice storm",
+				"icicle",
+				"intermittent rain"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"Light Drizzle",
+				"Light Rain",
+				"Light Rain Shower",
+				"Light Rain Shower and Windy",
+				"Light Rain with Thunder",
+				"Light Snow",
+				"Light Snow Fall",
+				"Light Snow Grains",
+				"Light Snow Shower",
+				"Lightening",
+				"lahar",
+				"landslide",
+				"light breeze",
+				"light seas",
+				"lightning",
+				"littoral climate",
+				"local rains",
+				"low-pressure"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"Mist",
+				"Mostly Clear",
+				"Mostly Cloudy",
+				"Mostly Cloudy/ Windy",
+				"Mostly Sunny",
+				"maelstrom",
+				"marine climate",
+				"moderate breeze",
+				"moderate seas",
+				"monsoon climate",
+				"monster waves",
+				"mountain climate",
+				"mudflow",
+				"muggy weather"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"Natural Disaster",
+				"near gale",
+				"north wind",
+				"northeast trades",
+				"northeaster",
+				"northwester"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"PM Light Rain",
+				"PM Rain / Wind",
+				"PM Showers",
+				"PM Snow Showers",
+				"PM T-Storms",
+				"Partly Cloudy",
+				"Partly Cloudy/ Windy",
+				"plateau climate",
+				"polar climate"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"Rain",
+				"Rain / Snow Showers",
+				"Rain / Snow Showers Early",
+				"Rain / Wind",
+				"Rain Shower",
+				"Rain Shower/ Windy",
+				"Rain and Snow",
+				"rainbow",
+				"raindrops",
+				"rainfall",
+				"rainy season",
+				"rippled",
+				"rough seas"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"Scattered Showers",
+				"Scattered Showers / Wind",
+				"Scattered Snow Showers",
+				"Scattered Snow Showers / Wind",
+				"Scattered Strong Storms",
+				"Scattered T-Storms",
+				"Showers",
+				"Showers / Wind",
+				"Showers Early",
+				"Showers Late",
+				"Showers in the Vicinity",
+				"Smoke",
+				"Snow",
+				"Snow / Rain Icy Mix",
+				"Snow Shower",
+				"Snow and Fog",
+				"Snowflakes",
+				"Solar flare",
+				"Sunny",
+				"Sunny / Wind",
+				"Sunny Day",
+				"scorching heat",
+				"smooth wavelets",
+				"snow",
+				"snow flake",
+				"snowdrift",
+				"southeaster",
+				"southwester",
+				"squall",
+				"storm",
+				"strong breeze",
+				"strong gale",
+				"sub-tropical climate",
+				"supervolcano"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"T-Storms",
+				"T-Storms Early",
+				"T-Storms Late",
+				"Thunder",
+				"Thunder in the Vicinity",
+				"Tsunami",
+				"temperate arid climate",
+				"temperate climate",
+				"temperate desert climate",
+				"temperate grassy climate",
+				"thunder",
+				"tidal wave",
+				"tornado",
+				"trade wind",
+				"tropical climate",
+				"tropical marine climate",
+				"tropical monsson climate",
+				"tropical rainy climate",
+				"typhoon"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"Windy",
+				"Windy / Snowy",
+				"Windy Rain",
+				"Wintry Mix",
+				"warm front",
+				"weather forecast",
+				"welcome rain",
+				"wildfire",
+				"wind scale",
+				"winter monsoon climate"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"barometric pressure",
+				"blizzard",
+				"breeze"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"gale",
+				"gentle breeze",
+				"gusty wind"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"very high seas",
+				"very rough seas",
+				"violent storm",
+				"volcanic earthquake"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zero"
+			]
+		},
+		{
+			"name": "",
+			"children": [
+				"AM Clouds / PM Sun"
+			]
+		}
+	]
+}

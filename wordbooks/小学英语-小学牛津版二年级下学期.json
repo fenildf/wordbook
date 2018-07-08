@@ -1,0 +1,180 @@
+{
+	"name": "小学牛津版二年级下学期",
+	"classify": "小学英语",
+	"children": [
+		{
+			"name": "X",
+			"children": [
+				"X-ray"
+			]
+		},
+		{
+			"name": "B",
+			"children": [
+				"beach",
+				"bear",
+				"bed",
+				"breakfast"
+			]
+		},
+		{
+			"name": "C",
+			"children": [
+				"chick",
+				"chopsticks",
+				"climb",
+				"clock",
+				"cloud",
+				"cow"
+			]
+		},
+		{
+			"name": "D",
+			"children": [
+				"day",
+				"dinner",
+				"dirty",
+				"door",
+				"duck"
+			]
+		},
+		{
+			"name": "E",
+			"children": [
+				"elephant"
+			]
+		},
+		{
+			"name": "F",
+			"children": [
+				"fly",
+				"fork"
+			]
+		},
+		{
+			"name": "G",
+			"children": [
+				"glass"
+			]
+		},
+		{
+			"name": "H",
+			"children": [
+				"hen",
+				"hot"
+			]
+		},
+		{
+			"name": "K",
+			"children": [
+				"knife"
+			]
+		},
+		{
+			"name": "L",
+			"children": [
+				"lamp",
+				"lunch"
+			]
+		},
+		{
+			"name": "M",
+			"children": [
+				"monkey"
+			]
+		},
+		{
+			"name": "N",
+			"children": [
+				"night",
+				"nose"
+			]
+		},
+		{
+			"name": "O",
+			"children": [
+				"orange"
+			]
+		},
+		{
+			"name": "P",
+			"children": [
+				"panda",
+				"pencil",
+				"pig",
+				"plate"
+			]
+		},
+		{
+			"name": "Q",
+			"children": [
+				"quilt"
+			]
+		},
+		{
+			"name": "R",
+			"children": [
+				"ride",
+				"room",
+				"rubber"
+			]
+		},
+		{
+			"name": "S",
+			"children": [
+				"sand",
+				"sheep",
+				"shell",
+				"skip",
+				"soap",
+				"sofa",
+				"spoon",
+				"sun",
+				"sweet",
+				"swing"
+			]
+		},
+		{
+			"name": "T",
+			"children": [
+				"table",
+				"tiger",
+				"toothbrush",
+				"toothpaste",
+				"towel",
+				"tree"
+			]
+		},
+		{
+			"name": "U",
+			"children": [
+				"umbrella"
+			]
+		},
+		{
+			"name": "V",
+			"children": [
+				"van"
+			]
+		},
+		{
+			"name": "W",
+			"children": [
+				"wash",
+				"wind"
+			]
+		},
+		{
+			"name": "Y",
+			"children": [
+				"yellow"
+			]
+		},
+		{
+			"name": "Z",
+			"children": [
+				"zoo"
+			]
+		}
+	]
+}
