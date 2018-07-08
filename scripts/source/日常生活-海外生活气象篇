@@ -1,0 +1,42 @@
+#classify:日常生活
+#name:海外生活气象篇
+##A
+AM Showers,AM Snow Showers,AM T-Storms,air mass,avalanche
+##C
+Clear,Clouds Early / Clearing Late,Cloudy,Cloudy / Wind,calm,chilly,clear,cloudy day,coastal climate,cold front,constant wind,continental climate,cool,cyclone
+##D
+Drifting Snow,Drizzle,Drought,Dust,desert climate,dew,downpour
+##E
+Epidemic,earthquake,east wind,eye of a storm
+##F
+Fair,Famine,Few Showers,Few Snow Showers,Few Snow Showers / Wind,Fog,favorable wind,flood,fog,forest climate,freakish weather,freezing point,fresh breeze,frontal edge,frost
+##H
+Hail,Hailstorm,Haze,Heavy Rain,Heavy Rain Icy,Heavy Snow,Heavy T-Storm,Hurricanes,hail,headwind,heat wave,heavy rain,high seas,high-pressure,highland climate,humid climate,hurricane
+##I
+Isolated T-Storms,ice,ice age,ice storm,icicle,intermittent rain
+##L
+Light Drizzle,Light Rain,Light Rain Shower,Light Rain Shower and Windy,Light Rain with Thunder,Light Snow,Light Snow Fall,Light Snow Grains,Light Snow Shower,Lightening,lahar,landslide,light breeze,light seas,lightning,littoral climate,local rains,low-pressure
+##M
+Mist,Mostly Clear,Mostly Cloudy,Mostly Cloudy/ Windy,Mostly Sunny,maelstrom,marine climate,moderate breeze,moderate seas,monsoon climate,monster waves,mountain climate,mudflow,muggy weather
+##N
+Natural Disaster,near gale,north wind,northeast trades,northeaster,northwester
+##P
+PM Light Rain,PM Rain / Wind,PM Showers,PM Snow Showers,PM T-Storms,Partly Cloudy,Partly Cloudy/ Windy,plateau climate,polar climate
+##R
+Rain,Rain / Snow Showers,Rain / Snow Showers Early,Rain / Wind,Rain Shower,Rain Shower/ Windy,Rain and Snow,rainbow,raindrops,rainfall,rainy season,rippled,rough seas
+##S
+Scattered Showers,Scattered Showers / Wind,Scattered Snow Showers,Scattered Snow Showers / Wind,Scattered Strong Storms,Scattered T-Storms,Showers,Showers / Wind,Showers Early,Showers Late,Showers in the Vicinity,Smoke,Snow,Snow / Rain Icy Mix,Snow Shower,Snow and Fog,Snowflakes,Solar flare,Sunny,Sunny / Wind,Sunny Day,scorching heat,smooth wavelets,snow,snow flake,snowdrift,southeaster,southwester,squall,storm,strong breeze,strong gale,sub-tropical climate,supervolcano
+##T
+T-Storms,T-Storms Early,T-Storms Late,Thunder,Thunder in the Vicinity,Tsunami,temperate arid climate,temperate climate,temperate desert climate,temperate grassy climate,thunder,tidal wave,tornado,trade wind,tropical climate,tropical marine climate,tropical monsson climate,tropical rainy climate,typhoon
+##W
+Windy,Windy / Snowy,Windy Rain,Wintry Mix,warm front,weather forecast,welcome rain,wildfire,wind scale,winter monsoon climate
+##B
+barometric pressure,blizzard,breeze
+##G
+gale,gentle breeze,gusty wind
+##V
+very high seas,very rough seas,violent storm,volcanic earthquake
+##Z
+zero
+##﻿
+﻿AM Clouds / PM Sun

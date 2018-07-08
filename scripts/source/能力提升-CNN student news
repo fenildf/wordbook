@@ -1,0 +1,38 @@
+#classify:能力提升
+#name:CNN student news
+##C
+Civil War,caboodle,caravan,catnap,clamp,commute,corp,courtyard,crossroads,cuddle
+##F
+Filipino,feline,flail,flare,flash flood
+##K
+Khan,Kitty,kitten
+##S
+Syria,scar,settlement,sheet,smolder,sniff,sniper,strung
+##B
+bustling
+##E
+engulf,exclusive
+##G
+grid
+##I
+improvised,in ruins
+##J
+jet
+##L
+license plate
+##M
+maze,metro,millennia,mosque,mythology
+##O
+overhead
+##P
+patrol,pedigree
+##R
+rebel
+##T
+terrestrial
+##U
+underway,uproot
+##V
+vulnerable
+##W
+winding

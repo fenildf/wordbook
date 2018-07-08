@@ -1,0 +1,22 @@
+#classify:日常生活
+#name:化妆品
+##B
+blusher
+##C
+cosmetic,cream
+##E
+enamel,essence,eye shadow,eyeliner
+##F
+foundation
+##L
+lip gloss,lipstick,lotion
+##M
+manicure,mascara,masque,milk,mousse
+##P
+perfume
+##S
+shampoo,sunblock
+##T
+toner
+##W
+whitening
