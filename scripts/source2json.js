@@ -40,7 +40,7 @@ function parseSource(text) {
         }else{
             onBookHeader = false;
             line.split(',').forEach((word)=>{
-                children.push(word.trim());
+                children.push(book.Item(word.trim()));
             })
         }
     }
