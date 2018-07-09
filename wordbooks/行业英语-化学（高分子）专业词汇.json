@@ -5,438 +5,1092 @@
 		{
 			"name": "N",
 			"children": [
-				"Nematic",
-				"naphthalene",
-				"network",
-				"nonpolar",
-				"nonyl",
-				"normal",
-				"nucleation"
+				{
+					"name": "Nematic"
+				},
+				{
+					"name": "naphthalene"
+				},
+				{
+					"name": "network"
+				},
+				{
+					"name": "nonpolar"
+				},
+				{
+					"name": "nonyl"
+				},
+				{
+					"name": "normal"
+				},
+				{
+					"name": "nucleation"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"ablative",
-				"acetal",
-				"acetaldehyde",
-				"acetate",
-				"acetic",
-				"acetic acid",
-				"acetone",
-				"acetyl",
-				"acrylamide",
-				"acrylic",
-				"addition",
-				"additive",
-				"adhesive",
-				"aggregate",
-				"aldehyde",
-				"aliphatic",
-				"alternating",
-				"amino",
-				"amorphous",
-				"amphiphilic",
-				"amylopectin",
-				"amylose",
-				"anaerobic",
-				"anionic",
-				"apparent",
-				"aromatic",
-				"assembly",
-				"association"
+				{
+					"name": "ablative"
+				},
+				{
+					"name": "acetal"
+				},
+				{
+					"name": "acetaldehyde"
+				},
+				{
+					"name": "acetate"
+				},
+				{
+					"name": "acetic"
+				},
+				{
+					"name": "acetic acid"
+				},
+				{
+					"name": "acetone"
+				},
+				{
+					"name": "acetyl"
+				},
+				{
+					"name": "acrylamide"
+				},
+				{
+					"name": "acrylic"
+				},
+				{
+					"name": "addition"
+				},
+				{
+					"name": "additive"
+				},
+				{
+					"name": "adhesive"
+				},
+				{
+					"name": "aggregate"
+				},
+				{
+					"name": "aldehyde"
+				},
+				{
+					"name": "aliphatic"
+				},
+				{
+					"name": "alternating"
+				},
+				{
+					"name": "amino"
+				},
+				{
+					"name": "amorphous"
+				},
+				{
+					"name": "amphiphilic"
+				},
+				{
+					"name": "amylopectin"
+				},
+				{
+					"name": "amylose"
+				},
+				{
+					"name": "anaerobic"
+				},
+				{
+					"name": "anionic"
+				},
+				{
+					"name": "apparent"
+				},
+				{
+					"name": "aromatic"
+				},
+				{
+					"name": "assembly"
+				},
+				{
+					"name": "association"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"balance",
-				"beaker",
-				"benzene",
-				"benzoic acid",
-				"bimolecular",
-				"biodegradable",
-				"biodegradation",
-				"biopolymer",
-				"bisphenol",
-				"blend",
-				"block",
-				"boundary",
-				"branch",
-				"brittle",
-				"brush",
-				"bulk",
-				"butadiene",
-				"butane",
-				"butanol",
-				"butene",
-				"butyl"
+				{
+					"name": "balance"
+				},
+				{
+					"name": "beaker"
+				},
+				{
+					"name": "benzene"
+				},
+				{
+					"name": "benzoic acid"
+				},
+				{
+					"name": "bimolecular"
+				},
+				{
+					"name": "biodegradable"
+				},
+				{
+					"name": "biodegradation"
+				},
+				{
+					"name": "biopolymer"
+				},
+				{
+					"name": "bisphenol"
+				},
+				{
+					"name": "blend"
+				},
+				{
+					"name": "block"
+				},
+				{
+					"name": "boundary"
+				},
+				{
+					"name": "branch"
+				},
+				{
+					"name": "brittle"
+				},
+				{
+					"name": "brush"
+				},
+				{
+					"name": "bulk"
+				},
+				{
+					"name": "butadiene"
+				},
+				{
+					"name": "butane"
+				},
+				{
+					"name": "butanol"
+				},
+				{
+					"name": "butene"
+				},
+				{
+					"name": "butyl"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"capillary",
-				"carboxylic",
-				"catalyst",
-				"cationic",
-				"cellulose",
-				"charge",
-				"chelate",
-				"chiral",
-				"coating",
-				"coefficient",
-				"coherent",
-				"column",
-				"comb",
-				"compatibility",
-				"compliance",
-				"compressive",
-				"condensation",
-				"conducting",
-				"conformation",
-				"conformational",
-				"conjugate",
-				"continuous",
-				"contour",
-				"coordination",
-				"cracking",
-				"craze",
-				"creep",
-				"crosslink",
-				"crystal",
-				"crystalline",
-				"crystallization",
-				"curing",
-				"cycloaddition",
-				"cycloalkene"
+				{
+					"name": "capillary"
+				},
+				{
+					"name": "carboxylic"
+				},
+				{
+					"name": "catalyst"
+				},
+				{
+					"name": "cationic"
+				},
+				{
+					"name": "cellulose"
+				},
+				{
+					"name": "charge"
+				},
+				{
+					"name": "chelate"
+				},
+				{
+					"name": "chiral"
+				},
+				{
+					"name": "coating"
+				},
+				{
+					"name": "coefficient"
+				},
+				{
+					"name": "coherent"
+				},
+				{
+					"name": "column"
+				},
+				{
+					"name": "comb"
+				},
+				{
+					"name": "compatibility"
+				},
+				{
+					"name": "compliance"
+				},
+				{
+					"name": "compressive"
+				},
+				{
+					"name": "condensation"
+				},
+				{
+					"name": "conducting"
+				},
+				{
+					"name": "conformation"
+				},
+				{
+					"name": "conformational"
+				},
+				{
+					"name": "conjugate"
+				},
+				{
+					"name": "continuous"
+				},
+				{
+					"name": "contour"
+				},
+				{
+					"name": "coordination"
+				},
+				{
+					"name": "cracking"
+				},
+				{
+					"name": "craze"
+				},
+				{
+					"name": "creep"
+				},
+				{
+					"name": "crosslink"
+				},
+				{
+					"name": "crystal"
+				},
+				{
+					"name": "crystalline"
+				},
+				{
+					"name": "crystallization"
+				},
+				{
+					"name": "curing"
+				},
+				{
+					"name": "cycloaddition"
+				},
+				{
+					"name": "cycloalkene"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"decane",
-				"deformation",
-				"degradable",
-				"degradation",
-				"degree",
-				"dendrite",
-				"dendritic",
-				"depolymerization",
-				"dextran",
-				"diene",
-				"dimer",
-				"disorientation",
-				"distribution",
-				"dodecane",
-				"dodecyl",
-				"domain",
-				"ductile",
-				"dynamic"
+				{
+					"name": "decane"
+				},
+				{
+					"name": "deformation"
+				},
+				{
+					"name": "degradable"
+				},
+				{
+					"name": "degradation"
+				},
+				{
+					"name": "degree"
+				},
+				{
+					"name": "dendrite"
+				},
+				{
+					"name": "dendritic"
+				},
+				{
+					"name": "depolymerization"
+				},
+				{
+					"name": "dextran"
+				},
+				{
+					"name": "diene"
+				},
+				{
+					"name": "dimer"
+				},
+				{
+					"name": "disorientation"
+				},
+				{
+					"name": "distribution"
+				},
+				{
+					"name": "dodecane"
+				},
+				{
+					"name": "dodecyl"
+				},
+				{
+					"name": "domain"
+				},
+				{
+					"name": "ductile"
+				},
+				{
+					"name": "dynamic"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"efficiency",
-				"elastic",
-				"elasticity",
-				"elastomer",
-				"elastomeric",
-				"electrostatic",
-				"element",
-				"elimination",
-				"elongation",
-				"elution",
-				"emulsion",
-				"enzymatic",
-				"epoxy",
-				"equilibrium",
-				"equivalent",
-				"ester",
-				"ethane",
-				"ethanol",
-				"ethene",
-				"ethyl",
-				"ethyl acetate",
-				"ethylene",
-				"exchange",
-				"expansion",
-				"external",
-				"extraction"
+				{
+					"name": "efficiency"
+				},
+				{
+					"name": "elastic"
+				},
+				{
+					"name": "elasticity"
+				},
+				{
+					"name": "elastomer"
+				},
+				{
+					"name": "elastomeric"
+				},
+				{
+					"name": "electrostatic"
+				},
+				{
+					"name": "element"
+				},
+				{
+					"name": "elimination"
+				},
+				{
+					"name": "elongation"
+				},
+				{
+					"name": "elution"
+				},
+				{
+					"name": "emulsion"
+				},
+				{
+					"name": "enzymatic"
+				},
+				{
+					"name": "epoxy"
+				},
+				{
+					"name": "equilibrium"
+				},
+				{
+					"name": "equivalent"
+				},
+				{
+					"name": "ester"
+				},
+				{
+					"name": "ethane"
+				},
+				{
+					"name": "ethanol"
+				},
+				{
+					"name": "ethene"
+				},
+				{
+					"name": "ethyl"
+				},
+				{
+					"name": "ethyl acetate"
+				},
+				{
+					"name": "ethylene"
+				},
+				{
+					"name": "exchange"
+				},
+				{
+					"name": "expansion"
+				},
+				{
+					"name": "external"
+				},
+				{
+					"name": "extraction"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"factor",
-				"failure",
-				"ferromagnetic",
-				"fiber",
-				"flask",
-				"flexible",
-				"fluid",
-				"fluorescence",
-				"fold",
-				"formaldehyde",
-				"formamide",
-				"formic",
-				"fractionation",
-				"fracture",
-				"fragmentation",
-				"frictional",
-				"functional",
-				"functionality"
+				{
+					"name": "factor"
+				},
+				{
+					"name": "failure"
+				},
+				{
+					"name": "ferromagnetic"
+				},
+				{
+					"name": "fiber"
+				},
+				{
+					"name": "flask"
+				},
+				{
+					"name": "flexible"
+				},
+				{
+					"name": "fluid"
+				},
+				{
+					"name": "fluorescence"
+				},
+				{
+					"name": "fold"
+				},
+				{
+					"name": "formaldehyde"
+				},
+				{
+					"name": "formamide"
+				},
+				{
+					"name": "formic"
+				},
+				{
+					"name": "fractionation"
+				},
+				{
+					"name": "fracture"
+				},
+				{
+					"name": "fragmentation"
+				},
+				{
+					"name": "frictional"
+				},
+				{
+					"name": "functional"
+				},
+				{
+					"name": "functionality"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gaseous",
-				"gel",
-				"gelatin",
-				"gradient",
-				"graduated cylinder",
-				"graft",
-				"gyration"
+				{
+					"name": "gaseous"
+				},
+				{
+					"name": "gel"
+				},
+				{
+					"name": "gelatin"
+				},
+				{
+					"name": "gradient"
+				},
+				{
+					"name": "graduated cylinder"
+				},
+				{
+					"name": "graft"
+				},
+				{
+					"name": "gyration"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hardness",
-				"helical",
-				"helix",
-				"heptane",
-				"heterocyclic",
-				"heterogeneous",
-				"heteropolymer",
-				"hexane",
-				"homogeneous",
-				"homopolymer",
-				"hydrodynamic",
-				"hydrophilic",
-				"hydrophobic"
+				{
+					"name": "hardness"
+				},
+				{
+					"name": "helical"
+				},
+				{
+					"name": "helix"
+				},
+				{
+					"name": "heptane"
+				},
+				{
+					"name": "heterocyclic"
+				},
+				{
+					"name": "heterogeneous"
+				},
+				{
+					"name": "heteropolymer"
+				},
+				{
+					"name": "hexane"
+				},
+				{
+					"name": "homogeneous"
+				},
+				{
+					"name": "homopolymer"
+				},
+				{
+					"name": "hydrodynamic"
+				},
+				{
+					"name": "hydrophilic"
+				},
+				{
+					"name": "hydrophobic"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"impact",
-				"indene",
-				"index",
-				"induction",
-				"inhibition",
-				"inhibitor",
-				"initiated",
-				"initiator",
-				"inorganic",
-				"insertion",
-				"intelligent",
-				"interfacial",
-				"internal",
-				"intrinsic",
-				"ion",
-				"ionomer",
-				"irrecoverable",
-				"isopropyl",
-				"isotacticity"
+				{
+					"name": "impact"
+				},
+				{
+					"name": "indene"
+				},
+				{
+					"name": "index"
+				},
+				{
+					"name": "induction"
+				},
+				{
+					"name": "inhibition"
+				},
+				{
+					"name": "inhibitor"
+				},
+				{
+					"name": "initiated"
+				},
+				{
+					"name": "initiator"
+				},
+				{
+					"name": "inorganic"
+				},
+				{
+					"name": "insertion"
+				},
+				{
+					"name": "intelligent"
+				},
+				{
+					"name": "interfacial"
+				},
+				{
+					"name": "internal"
+				},
+				{
+					"name": "intrinsic"
+				},
+				{
+					"name": "ion"
+				},
+				{
+					"name": "ionomer"
+				},
+				{
+					"name": "irrecoverable"
+				},
+				{
+					"name": "isopropyl"
+				},
+				{
+					"name": "isotacticity"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"ketone",
-				"kinetics"
+				{
+					"name": "ketone"
+				},
+				{
+					"name": "kinetics"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"ladder",
-				"lamella",
-				"latex",
-				"length",
-				"lifetime",
-				"lignin",
-				"linear",
-				"liquid crystal",
-				"logarithmic",
-				"luminescence"
+				{
+					"name": "ladder"
+				},
+				{
+					"name": "lamella"
+				},
+				{
+					"name": "latex"
+				},
+				{
+					"name": "length"
+				},
+				{
+					"name": "lifetime"
+				},
+				{
+					"name": "lignin"
+				},
+				{
+					"name": "linear"
+				},
+				{
+					"name": "liquid crystal"
+				},
+				{
+					"name": "logarithmic"
+				},
+				{
+					"name": "luminescence"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"macrocyclic",
-				"macromolecule",
-				"magnetic",
-				"mechanical",
-				"metastable",
-				"metathesis",
-				"methane",
-				"methanol",
-				"methyl",
-				"monocycle",
-				"monomer",
-				"multicomponent"
+				{
+					"name": "macrocyclic"
+				},
+				{
+					"name": "macromolecule"
+				},
+				{
+					"name": "magnetic"
+				},
+				{
+					"name": "mechanical"
+				},
+				{
+					"name": "metastable"
+				},
+				{
+					"name": "metathesis"
+				},
+				{
+					"name": "methane"
+				},
+				{
+					"name": "methanol"
+				},
+				{
+					"name": "methyl"
+				},
+				{
+					"name": "monocycle"
+				},
+				{
+					"name": "monomer"
+				},
+				{
+					"name": "multicomponent"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"octane",
-				"oligomer",
-				"organic",
-				"orientation"
+				{
+					"name": "octane"
+				},
+				{
+					"name": "oligomer"
+				},
+				{
+					"name": "organic"
+				},
+				{
+					"name": "orientation"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"paint",
-				"parallel",
-				"pentane",
-				"pentene",
-				"pentyl",
-				"period",
-				"petroleum",
-				"phenol",
-				"phenolic",
-				"phenyl",
-				"photoconductive",
-				"photosensitive",
-				"piezoelectric",
-				"plasma",
-				"plastic",
-				"plasticizer",
-				"polar",
-				"polyacrylamide",
-				"polyacrylate",
-				"polyamide",
-				"polycarbonate",
-				"polyelectrolyte",
-				"polyethylene",
-				"polyimide",
-				"polymer",
-				"polymerization",
-				"polypeptide",
-				"polypropylene",
-				"polystyrene",
-				"polyurethane",
-				"precipitation",
-				"processing",
-				"propane",
-				"propionic acid",
-				"propyl",
-				"propylene",
-				"pyrolytic"
+				{
+					"name": "paint"
+				},
+				{
+					"name": "parallel"
+				},
+				{
+					"name": "pentane"
+				},
+				{
+					"name": "pentene"
+				},
+				{
+					"name": "pentyl"
+				},
+				{
+					"name": "period"
+				},
+				{
+					"name": "petroleum"
+				},
+				{
+					"name": "phenol"
+				},
+				{
+					"name": "phenolic"
+				},
+				{
+					"name": "phenyl"
+				},
+				{
+					"name": "photoconductive"
+				},
+				{
+					"name": "photosensitive"
+				},
+				{
+					"name": "piezoelectric"
+				},
+				{
+					"name": "plasma"
+				},
+				{
+					"name": "plastic"
+				},
+				{
+					"name": "plasticizer"
+				},
+				{
+					"name": "polar"
+				},
+				{
+					"name": "polyacrylamide"
+				},
+				{
+					"name": "polyacrylate"
+				},
+				{
+					"name": "polyamide"
+				},
+				{
+					"name": "polycarbonate"
+				},
+				{
+					"name": "polyelectrolyte"
+				},
+				{
+					"name": "polyethylene"
+				},
+				{
+					"name": "polyimide"
+				},
+				{
+					"name": "polymer"
+				},
+				{
+					"name": "polymerization"
+				},
+				{
+					"name": "polypeptide"
+				},
+				{
+					"name": "polypropylene"
+				},
+				{
+					"name": "polystyrene"
+				},
+				{
+					"name": "polyurethane"
+				},
+				{
+					"name": "precipitation"
+				},
+				{
+					"name": "processing"
+				},
+				{
+					"name": "propane"
+				},
+				{
+					"name": "propionic acid"
+				},
+				{
+					"name": "propyl"
+				},
+				{
+					"name": "propylene"
+				},
+				{
+					"name": "pyrolytic"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"radiation",
-				"radical",
-				"radius",
-				"random",
-				"reactivity",
-				"reagent",
-				"redox",
-				"reduced",
-				"refractive",
-				"reinforced",
-				"relaxation",
-				"residual",
-				"resin",
-				"retarded",
-				"retarder",
-				"reverse",
-				"reversible",
-				"rigid",
-				"rodlike",
-				"rubber"
+				{
+					"name": "radiation"
+				},
+				{
+					"name": "radical"
+				},
+				{
+					"name": "radius"
+				},
+				{
+					"name": "random"
+				},
+				{
+					"name": "reactivity"
+				},
+				{
+					"name": "reagent"
+				},
+				{
+					"name": "redox"
+				},
+				{
+					"name": "reduced"
+				},
+				{
+					"name": "refractive"
+				},
+				{
+					"name": "reinforced"
+				},
+				{
+					"name": "relaxation"
+				},
+				{
+					"name": "residual"
+				},
+				{
+					"name": "resin"
+				},
+				{
+					"name": "retarded"
+				},
+				{
+					"name": "retarder"
+				},
+				{
+					"name": "reverse"
+				},
+				{
+					"name": "reversible"
+				},
+				{
+					"name": "rigid"
+				},
+				{
+					"name": "rodlike"
+				},
+				{
+					"name": "rubber"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"saturated",
-				"sedimentation",
-				"seeding",
-				"segment",
-				"segmented",
-				"sequential",
-				"shear",
-				"silicon",
-				"solvent",
-				"spectrum",
-				"spinning",
-				"spontaneous",
-				"starch",
-				"straight",
-				"strain",
-				"strength",
-				"stress",
-				"styrene",
-				"sulfide",
-				"supra",
-				"suspension",
-				"swelling"
+				{
+					"name": "saturated"
+				},
+				{
+					"name": "sedimentation"
+				},
+				{
+					"name": "seeding"
+				},
+				{
+					"name": "segment"
+				},
+				{
+					"name": "segmented"
+				},
+				{
+					"name": "sequential"
+				},
+				{
+					"name": "shear"
+				},
+				{
+					"name": "silicon"
+				},
+				{
+					"name": "solvent"
+				},
+				{
+					"name": "spectrum"
+				},
+				{
+					"name": "spinning"
+				},
+				{
+					"name": "spontaneous"
+				},
+				{
+					"name": "starch"
+				},
+				{
+					"name": "straight"
+				},
+				{
+					"name": "strain"
+				},
+				{
+					"name": "strength"
+				},
+				{
+					"name": "stress"
+				},
+				{
+					"name": "styrene"
+				},
+				{
+					"name": "sulfide"
+				},
+				{
+					"name": "supra"
+				},
+				{
+					"name": "suspension"
+				},
+				{
+					"name": "swelling"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tacticity",
-				"tapered",
-				"template",
-				"tensile",
-				"terephthalic",
-				"terminal",
-				"termination",
-				"terminator",
-				"tetra",
-				"texture",
-				"thermoplastic",
-				"thermosetting",
-				"three-dimensional",
-				"toluene",
-				"topological",
-				"transition",
-				"tricycle",
-				"tube"
+				{
+					"name": "tacticity"
+				},
+				{
+					"name": "tapered"
+				},
+				{
+					"name": "template"
+				},
+				{
+					"name": "tensile"
+				},
+				{
+					"name": "terephthalic"
+				},
+				{
+					"name": "terminal"
+				},
+				{
+					"name": "termination"
+				},
+				{
+					"name": "terminator"
+				},
+				{
+					"name": "tetra"
+				},
+				{
+					"name": "texture"
+				},
+				{
+					"name": "thermoplastic"
+				},
+				{
+					"name": "thermosetting"
+				},
+				{
+					"name": "three-dimensional"
+				},
+				{
+					"name": "toluene"
+				},
+				{
+					"name": "topological"
+				},
+				{
+					"name": "transition"
+				},
+				{
+					"name": "tricycle"
+				},
+				{
+					"name": "tube"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"unimolecular",
-				"unsaturated"
+				{
+					"name": "unimolecular"
+				},
+				{
+					"name": "unsaturated"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vacuum",
-				"velocity",
-				"vinyl",
-				"viscosity",
-				"volume",
-				"vulcanization"
+				{
+					"name": "vacuum"
+				},
+				{
+					"name": "velocity"
+				},
+				{
+					"name": "vinyl"
+				},
+				{
+					"name": "viscosity"
+				},
+				{
+					"name": "volume"
+				},
+				{
+					"name": "vulcanization"
+				}
 			]
 		},
 		{
 			"name": "X",
 			"children": [
-				"xylene"
+				{
+					"name": "xylene"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yield",
-				"yielding"
+				{
+					"name": "yield"
+				},
+				{
+					"name": "yielding"
+				}
 			]
 		}
 	]

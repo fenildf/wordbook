@@ -5,1055 +5,2913 @@
 		{
 			"name": "C",
 			"children": [
-				"CIF",
-				"cad",
-				"call",
-				"call on",
-				"campaign",
-				"candidate",
-				"canteen",
-				"canvas",
-				"canvass",
-				"capacity",
-				"capital",
-				"capital gains tax",
-				"caption",
-				"capture",
-				"case study",
-				"cash",
-				"cash flow",
-				"catalogue",
-				"catastrophe",
-				"chain",
-				"challenger",
-				"channel",
-				"charge",
-				"chart",
-				"checkout",
-				"chief",
-				"chief executive officer",
-				"circular",
-				"circulate",
-				"claim",
-				"client",
-				"closed shop",
-				"cold",
-				"commercialise",
-				"commission",
-				"commitment",
-				"commodity",
-				"company",
-				"compensate",
-				"compensation",
-				"compete",
-				"competition",
-				"competitive",
-				"competitor",
-				"component",
-				"concentrated marketing",
-				"condition",
-				"configuration",
-				"conflict",
-				"conglomerate",
-				"consolidate",
-				"consortium",
-				"constant",
-				"consultant",
-				"consumables",
-				"consumer durables",
-				"consumer goods",
-				"contingency",
-				"continuum",
-				"contract",
-				"contractor",
-				"contribute",
-				"contribution",
-				"conversion",
-				"conveyor",
-				"core time",
-				"corporation tax",
-				"cost",
-				"cost-effective",
-				"costing",
-				"credit",
-				"credit control",
-				"credit limit",
-				"credit rating",
-				"creditor",
-				"creditworthiness",
-				"crisis",
-				"critical",
-				"critical path analysis",
-				"currency",
-				"current",
-				"current account",
-				"current asset",
-				"current assets",
-				"current liabilities",
-				"curriculum vitae",
-				"customise",
-				"cut-throat",
-				"cycle inventory",
-				"cycle time"
+				{
+					"name": "CIF"
+				},
+				{
+					"name": "cad"
+				},
+				{
+					"name": "call"
+				},
+				{
+					"name": "call on"
+				},
+				{
+					"name": "campaign"
+				},
+				{
+					"name": "candidate"
+				},
+				{
+					"name": "canteen"
+				},
+				{
+					"name": "canvas"
+				},
+				{
+					"name": "canvass"
+				},
+				{
+					"name": "capacity"
+				},
+				{
+					"name": "capital"
+				},
+				{
+					"name": "capital gains tax"
+				},
+				{
+					"name": "caption"
+				},
+				{
+					"name": "capture"
+				},
+				{
+					"name": "case study"
+				},
+				{
+					"name": "cash"
+				},
+				{
+					"name": "cash flow"
+				},
+				{
+					"name": "catalogue"
+				},
+				{
+					"name": "catastrophe"
+				},
+				{
+					"name": "chain"
+				},
+				{
+					"name": "challenger"
+				},
+				{
+					"name": "channel"
+				},
+				{
+					"name": "charge"
+				},
+				{
+					"name": "chart"
+				},
+				{
+					"name": "checkout"
+				},
+				{
+					"name": "chief"
+				},
+				{
+					"name": "chief executive officer"
+				},
+				{
+					"name": "circular"
+				},
+				{
+					"name": "circulate"
+				},
+				{
+					"name": "claim"
+				},
+				{
+					"name": "client"
+				},
+				{
+					"name": "closed shop"
+				},
+				{
+					"name": "cold"
+				},
+				{
+					"name": "commercialise"
+				},
+				{
+					"name": "commission"
+				},
+				{
+					"name": "commitment"
+				},
+				{
+					"name": "commodity"
+				},
+				{
+					"name": "company"
+				},
+				{
+					"name": "compensate"
+				},
+				{
+					"name": "compensation"
+				},
+				{
+					"name": "compete"
+				},
+				{
+					"name": "competition"
+				},
+				{
+					"name": "competitive"
+				},
+				{
+					"name": "competitor"
+				},
+				{
+					"name": "component"
+				},
+				{
+					"name": "concentrated marketing"
+				},
+				{
+					"name": "condition"
+				},
+				{
+					"name": "configuration"
+				},
+				{
+					"name": "conflict"
+				},
+				{
+					"name": "conglomerate"
+				},
+				{
+					"name": "consolidate"
+				},
+				{
+					"name": "consortium"
+				},
+				{
+					"name": "constant"
+				},
+				{
+					"name": "consultant"
+				},
+				{
+					"name": "consumables"
+				},
+				{
+					"name": "consumer durables"
+				},
+				{
+					"name": "consumer goods"
+				},
+				{
+					"name": "contingency"
+				},
+				{
+					"name": "continuum"
+				},
+				{
+					"name": "contract"
+				},
+				{
+					"name": "contractor"
+				},
+				{
+					"name": "contribute"
+				},
+				{
+					"name": "contribution"
+				},
+				{
+					"name": "conversion"
+				},
+				{
+					"name": "conveyor"
+				},
+				{
+					"name": "core time"
+				},
+				{
+					"name": "corporation tax"
+				},
+				{
+					"name": "cost"
+				},
+				{
+					"name": "cost-effective"
+				},
+				{
+					"name": "costing"
+				},
+				{
+					"name": "credit"
+				},
+				{
+					"name": "credit control"
+				},
+				{
+					"name": "credit limit"
+				},
+				{
+					"name": "credit rating"
+				},
+				{
+					"name": "creditor"
+				},
+				{
+					"name": "creditworthiness"
+				},
+				{
+					"name": "crisis"
+				},
+				{
+					"name": "critical"
+				},
+				{
+					"name": "critical path analysis"
+				},
+				{
+					"name": "currency"
+				},
+				{
+					"name": "current"
+				},
+				{
+					"name": "current account"
+				},
+				{
+					"name": "current asset"
+				},
+				{
+					"name": "current assets"
+				},
+				{
+					"name": "current liabilities"
+				},
+				{
+					"name": "curriculum vitae"
+				},
+				{
+					"name": "customise"
+				},
+				{
+					"name": "cut-throat"
+				},
+				{
+					"name": "cycle inventory"
+				},
+				{
+					"name": "cycle time"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"FOB",
-				"facilities",
-				"facilities layout",
-				"facilities location",
-				"factoring",
-				"fail-safe system",
-				"feasibility study",
-				"feedback",
-				"field",
-				"file",
-				"fill",
-				"financial",
-				"financing",
-				"finished goods",
-				"finished goods inventory",
-				"fire",
-				"firm",
-				"fiscal",
-				"fix",
-				"fix up",
-				"fixed asset",
-				"fixed costs",
-				"fixed rate",
-				"flagship",
-				"flexible",
-				"flextime",
-				"flier",
-				"float",
-				"flop",
-				"flow shop",
-				"fluctuate",
-				"follow-up",
-				"forecast",
-				"framework",
-				"franchise",
-				"franchisee",
-				"franchiser",
-				"fraud",
-				"freebie",
-				"freelance",
-				"fringe benefits",
-				"frozen asset",
-				"full milk"
+				{
+					"name": "FOB"
+				},
+				{
+					"name": "facilities"
+				},
+				{
+					"name": "facilities layout"
+				},
+				{
+					"name": "facilities location"
+				},
+				{
+					"name": "factoring"
+				},
+				{
+					"name": "fail-safe system"
+				},
+				{
+					"name": "feasibility study"
+				},
+				{
+					"name": "feedback"
+				},
+				{
+					"name": "field"
+				},
+				{
+					"name": "file"
+				},
+				{
+					"name": "fill"
+				},
+				{
+					"name": "financial"
+				},
+				{
+					"name": "financing"
+				},
+				{
+					"name": "finished goods"
+				},
+				{
+					"name": "finished goods inventory"
+				},
+				{
+					"name": "fire"
+				},
+				{
+					"name": "firm"
+				},
+				{
+					"name": "fiscal"
+				},
+				{
+					"name": "fix"
+				},
+				{
+					"name": "fix up"
+				},
+				{
+					"name": "fixed asset"
+				},
+				{
+					"name": "fixed costs"
+				},
+				{
+					"name": "fixed rate"
+				},
+				{
+					"name": "flagship"
+				},
+				{
+					"name": "flexible"
+				},
+				{
+					"name": "flextime"
+				},
+				{
+					"name": "flier"
+				},
+				{
+					"name": "float"
+				},
+				{
+					"name": "flop"
+				},
+				{
+					"name": "flow shop"
+				},
+				{
+					"name": "fluctuate"
+				},
+				{
+					"name": "follow-up"
+				},
+				{
+					"name": "forecast"
+				},
+				{
+					"name": "framework"
+				},
+				{
+					"name": "franchise"
+				},
+				{
+					"name": "franchisee"
+				},
+				{
+					"name": "franchiser"
+				},
+				{
+					"name": "fraud"
+				},
+				{
+					"name": "freebie"
+				},
+				{
+					"name": "freelance"
+				},
+				{
+					"name": "fringe benefits"
+				},
+				{
+					"name": "frozen asset"
+				},
+				{
+					"name": "full milk"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"Public Relations",
-				"packaging",
-				"parent company",
-				"part-time",
-				"participate",
-				"partnership",
-				"patent",
-				"pay",
-				"payroll",
-				"peak",
-				"penetrate",
-				"penetration",
-				"pension",
-				"per annum",
-				"perform",
-				"performance",
-				"performance appraisal",
-				"perk",
-				"personnel",
-				"petty cash",
-				"phase out",
-				"pick",
-				"picking list",
-				"pie chart",
-				"pilot",
-				"pipeline",
-				"pipeline inventory",
-				"plant capacity",
-				"plant manager",
-				"plot",
-				"plough back",
-				"point of sale",
-				"policy",
-				"portfolio",
-				"portfolio management",
-				"position",
-				"post",
-				"preference shares",
-				"price",
-				"probation",
-				"product",
-				"product life cycle",
-				"product mix",
-				"production cycle",
-				"production schedule",
-				"productive",
-				"profile",
-				"profit",
-				"profit and loss account",
-				"project",
-				"promote",
-				"promotion",
-				"proposal",
-				"prospect",
-				"prospectus",
-				"prosperity",
-				"prototype",
-				"public",
-				"public limited company",
-				"public sector",
-				"publicity",
-				"punctual",
-				"punctuality",
-				"purchase",
-				"purchase ledger",
-				"purchaser",
-				"purchasing power"
+				{
+					"name": "Public Relations"
+				},
+				{
+					"name": "packaging"
+				},
+				{
+					"name": "parent company"
+				},
+				{
+					"name": "part-time"
+				},
+				{
+					"name": "participate"
+				},
+				{
+					"name": "partnership"
+				},
+				{
+					"name": "patent"
+				},
+				{
+					"name": "pay"
+				},
+				{
+					"name": "payroll"
+				},
+				{
+					"name": "peak"
+				},
+				{
+					"name": "penetrate"
+				},
+				{
+					"name": "penetration"
+				},
+				{
+					"name": "pension"
+				},
+				{
+					"name": "per annum"
+				},
+				{
+					"name": "perform"
+				},
+				{
+					"name": "performance"
+				},
+				{
+					"name": "performance appraisal"
+				},
+				{
+					"name": "perk"
+				},
+				{
+					"name": "personnel"
+				},
+				{
+					"name": "petty cash"
+				},
+				{
+					"name": "phase out"
+				},
+				{
+					"name": "pick"
+				},
+				{
+					"name": "picking list"
+				},
+				{
+					"name": "pie chart"
+				},
+				{
+					"name": "pilot"
+				},
+				{
+					"name": "pipeline"
+				},
+				{
+					"name": "pipeline inventory"
+				},
+				{
+					"name": "plant capacity"
+				},
+				{
+					"name": "plant manager"
+				},
+				{
+					"name": "plot"
+				},
+				{
+					"name": "plough back"
+				},
+				{
+					"name": "point of sale"
+				},
+				{
+					"name": "policy"
+				},
+				{
+					"name": "portfolio"
+				},
+				{
+					"name": "portfolio management"
+				},
+				{
+					"name": "position"
+				},
+				{
+					"name": "post"
+				},
+				{
+					"name": "preference shares"
+				},
+				{
+					"name": "price"
+				},
+				{
+					"name": "probation"
+				},
+				{
+					"name": "product"
+				},
+				{
+					"name": "product life cycle"
+				},
+				{
+					"name": "product mix"
+				},
+				{
+					"name": "production cycle"
+				},
+				{
+					"name": "production schedule"
+				},
+				{
+					"name": "productive"
+				},
+				{
+					"name": "profile"
+				},
+				{
+					"name": "profit"
+				},
+				{
+					"name": "profit and loss account"
+				},
+				{
+					"name": "project"
+				},
+				{
+					"name": "promote"
+				},
+				{
+					"name": "promotion"
+				},
+				{
+					"name": "proposal"
+				},
+				{
+					"name": "prospect"
+				},
+				{
+					"name": "prospectus"
+				},
+				{
+					"name": "prosperity"
+				},
+				{
+					"name": "prototype"
+				},
+				{
+					"name": "public"
+				},
+				{
+					"name": "public limited company"
+				},
+				{
+					"name": "public sector"
+				},
+				{
+					"name": "publicity"
+				},
+				{
+					"name": "punctual"
+				},
+				{
+					"name": "punctuality"
+				},
+				{
+					"name": "purchase"
+				},
+				{
+					"name": "purchase ledger"
+				},
+				{
+					"name": "purchaser"
+				},
+				{
+					"name": "purchasing power"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"Quality Circle",
-				"qualification",
-				"qualified",
-				"qualify",
-				"quality",
-				"quality assurance",
-				"quality control",
-				"quarterly",
-				"questionnaire",
-				"quotation",
-				"quote"
+				{
+					"name": "Quality Circle"
+				},
+				{
+					"name": "qualification"
+				},
+				{
+					"name": "qualified"
+				},
+				{
+					"name": "qualify"
+				},
+				{
+					"name": "quality"
+				},
+				{
+					"name": "quality assurance"
+				},
+				{
+					"name": "quality control"
+				},
+				{
+					"name": "quarterly"
+				},
+				{
+					"name": "questionnaire"
+				},
+				{
+					"name": "quotation"
+				},
+				{
+					"name": "quote"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"Sick note",
-				"sack",
-				"sales force",
-				"sales ledger",
-				"sample",
-				"saturate",
-				"saturation",
-				"save",
-				"saving",
-				"scale",
-				"scapegoat",
-				"scare",
-				"scrap",
-				"seasonal",
-				"section",
-				"sector",
-				"security",
-				"segment",
-				"segmentation",
-				"semi-skilled",
-				"senior management",
-				"service",
-				"set up",
-				"settle",
-				"settlement",
-				"share",
-				"share option",
-				"shareholder",
-				"shelf-life",
-				"shift",
-				"shop",
-				"shop floor",
-				"shop steward",
-				"shortlist",
-				"showroom",
-				"sick",
-				"sick leave",
-				"sick pay",
-				"sickness",
-				"sickness benefit",
-				"simulation",
-				"skill",
-				"skimmed milk",
-				"skimming",
-				"slogan",
-				"slump",
-				"soft-sell",
-				"software",
-				"sole",
-				"sole distributor",
-				"solvent",
-				"sourcing",
-				"spare part",
-				"specification",
-				"split",
-				"spokesman",
-				"sponsor",
-				"spread",
-				"stable",
-				"staff",
-				"staff turnover",
-				"stag",
-				"stagnant",
-				"statute",
-				"statutory",
-				"steadily",
-				"stock",
-				"stock exchange",
-				"stock turnover",
-				"stockbroker",
-				"storage",
-				"strategy",
-				"streamline",
-				"stress",
-				"strike",
-				"structure",
-				"subcontract",
-				"subordinate",
-				"subscribe",
-				"subsidiary",
-				"subsidise",
-				"subsidy",
-				"substantially",
-				"summarise",
-				"superior",
-				"supervisor",
-				"supervisory",
-				"supply",
-				"survey",
-				"swot",
-				"synergy"
+				{
+					"name": "Sick note"
+				},
+				{
+					"name": "sack"
+				},
+				{
+					"name": "sales force"
+				},
+				{
+					"name": "sales ledger"
+				},
+				{
+					"name": "sample"
+				},
+				{
+					"name": "saturate"
+				},
+				{
+					"name": "saturation"
+				},
+				{
+					"name": "save"
+				},
+				{
+					"name": "saving"
+				},
+				{
+					"name": "scale"
+				},
+				{
+					"name": "scapegoat"
+				},
+				{
+					"name": "scare"
+				},
+				{
+					"name": "scrap"
+				},
+				{
+					"name": "seasonal"
+				},
+				{
+					"name": "section"
+				},
+				{
+					"name": "sector"
+				},
+				{
+					"name": "security"
+				},
+				{
+					"name": "segment"
+				},
+				{
+					"name": "segmentation"
+				},
+				{
+					"name": "semi-skilled"
+				},
+				{
+					"name": "senior management"
+				},
+				{
+					"name": "service"
+				},
+				{
+					"name": "set up"
+				},
+				{
+					"name": "settle"
+				},
+				{
+					"name": "settlement"
+				},
+				{
+					"name": "share"
+				},
+				{
+					"name": "share option"
+				},
+				{
+					"name": "shareholder"
+				},
+				{
+					"name": "shelf-life"
+				},
+				{
+					"name": "shift"
+				},
+				{
+					"name": "shop"
+				},
+				{
+					"name": "shop floor"
+				},
+				{
+					"name": "shop steward"
+				},
+				{
+					"name": "shortlist"
+				},
+				{
+					"name": "showroom"
+				},
+				{
+					"name": "sick"
+				},
+				{
+					"name": "sick leave"
+				},
+				{
+					"name": "sick pay"
+				},
+				{
+					"name": "sickness"
+				},
+				{
+					"name": "sickness benefit"
+				},
+				{
+					"name": "simulation"
+				},
+				{
+					"name": "skill"
+				},
+				{
+					"name": "skimmed milk"
+				},
+				{
+					"name": "skimming"
+				},
+				{
+					"name": "slogan"
+				},
+				{
+					"name": "slump"
+				},
+				{
+					"name": "soft-sell"
+				},
+				{
+					"name": "software"
+				},
+				{
+					"name": "sole"
+				},
+				{
+					"name": "sole distributor"
+				},
+				{
+					"name": "solvent"
+				},
+				{
+					"name": "sourcing"
+				},
+				{
+					"name": "spare part"
+				},
+				{
+					"name": "specification"
+				},
+				{
+					"name": "split"
+				},
+				{
+					"name": "spokesman"
+				},
+				{
+					"name": "sponsor"
+				},
+				{
+					"name": "spread"
+				},
+				{
+					"name": "stable"
+				},
+				{
+					"name": "staff"
+				},
+				{
+					"name": "staff turnover"
+				},
+				{
+					"name": "stag"
+				},
+				{
+					"name": "stagnant"
+				},
+				{
+					"name": "statute"
+				},
+				{
+					"name": "statutory"
+				},
+				{
+					"name": "steadily"
+				},
+				{
+					"name": "stock"
+				},
+				{
+					"name": "stock exchange"
+				},
+				{
+					"name": "stock turnover"
+				},
+				{
+					"name": "stockbroker"
+				},
+				{
+					"name": "storage"
+				},
+				{
+					"name": "strategy"
+				},
+				{
+					"name": "streamline"
+				},
+				{
+					"name": "stress"
+				},
+				{
+					"name": "strike"
+				},
+				{
+					"name": "structure"
+				},
+				{
+					"name": "subcontract"
+				},
+				{
+					"name": "subordinate"
+				},
+				{
+					"name": "subscribe"
+				},
+				{
+					"name": "subsidiary"
+				},
+				{
+					"name": "subsidise"
+				},
+				{
+					"name": "subsidy"
+				},
+				{
+					"name": "substantially"
+				},
+				{
+					"name": "summarise"
+				},
+				{
+					"name": "superior"
+				},
+				{
+					"name": "supervisor"
+				},
+				{
+					"name": "supervisory"
+				},
+				{
+					"name": "supply"
+				},
+				{
+					"name": "survey"
+				},
+				{
+					"name": "swot"
+				},
+				{
+					"name": "synergy"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"Task Force",
-				"Total Quality Control",
-				"tactic",
-				"tailor",
-				"take on",
-				"take-home pay",
-				"takeover",
-				"tangible assets",
-				"target",
-				"tariff",
-				"task",
-				"tax",
-				"tax allowance",
-				"tax avoidance",
-				"tax-deductible",
-				"taxable",
-				"taxation",
-				"telesales",
-				"temporary",
-				"temporary post",
-				"tender",
-				"territory",
-				"throughput",
-				"tie",
-				"to",
-				"track record",
-				"trade",
-				"trade mark",
-				"trade union",
-				"trading profit",
-				"trainee",
-				"transaction",
-				"transfer",
-				"treasurer",
-				"treasury",
-				"trend",
-				"trouble-shooting",
-				"turnover"
+				{
+					"name": "Task Force"
+				},
+				{
+					"name": "Total Quality Control"
+				},
+				{
+					"name": "tactic"
+				},
+				{
+					"name": "tailor"
+				},
+				{
+					"name": "take on"
+				},
+				{
+					"name": "take-home pay"
+				},
+				{
+					"name": "takeover"
+				},
+				{
+					"name": "tangible assets"
+				},
+				{
+					"name": "target"
+				},
+				{
+					"name": "tariff"
+				},
+				{
+					"name": "task"
+				},
+				{
+					"name": "tax"
+				},
+				{
+					"name": "tax allowance"
+				},
+				{
+					"name": "tax avoidance"
+				},
+				{
+					"name": "tax-deductible"
+				},
+				{
+					"name": "taxable"
+				},
+				{
+					"name": "taxation"
+				},
+				{
+					"name": "telesales"
+				},
+				{
+					"name": "temporary"
+				},
+				{
+					"name": "temporary post"
+				},
+				{
+					"name": "tender"
+				},
+				{
+					"name": "territory"
+				},
+				{
+					"name": "throughput"
+				},
+				{
+					"name": "tie"
+				},
+				{
+					"name": "to"
+				},
+				{
+					"name": "track record"
+				},
+				{
+					"name": "trade"
+				},
+				{
+					"name": "trade mark"
+				},
+				{
+					"name": "trade union"
+				},
+				{
+					"name": "trading profit"
+				},
+				{
+					"name": "trainee"
+				},
+				{
+					"name": "transaction"
+				},
+				{
+					"name": "transfer"
+				},
+				{
+					"name": "treasurer"
+				},
+				{
+					"name": "treasury"
+				},
+				{
+					"name": "trend"
+				},
+				{
+					"name": "trouble-shooting"
+				},
+				{
+					"name": "turnover"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"a variety of",
-				"abroad",
-				"absence",
-				"absent",
-				"absenteeism",
-				"absorb",
-				"abstract",
-				"access",
-				"accommodation",
-				"account",
-				"account executive",
-				"account for",
-				"accountancy",
-				"accountant",
-				"accounts receivable",
-				"achieve",
-				"acknowledge",
-				"acquire",
-				"acquisition",
-				"acting",
-				"activity",
-				"actual",
-				"ad",
-				"adapt",
-				"adjust",
-				"administer",
-				"administration",
-				"adopt",
-				"advertise",
-				"advertisement",
-				"advertising",
-				"after-sales service",
-				"agenda",
-				"agent",
-				"allocate",
-				"amalgamation",
-				"ambition",
-				"amortise",
-				"analyse",
-				"analysis",
-				"analyst",
-				"annual",
-				"annual general meeting",
-				"anticipate",
-				"anticipated",
-				"appeal",
-				"applicant",
-				"application",
-				"apply",
-				"appointee",
-				"appraisal",
-				"appreciate",
-				"appropriate",
-				"approve",
-				"aptitude",
-				"arbitrage",
-				"arbitration",
-				"arrears",
-				"assemble",
-				"assembly-line",
-				"assess",
-				"asset",
-				"assist",
-				"audit",
-				"automate",
-				"average",
-				"awareness"
+				{
+					"name": "a variety of"
+				},
+				{
+					"name": "abroad"
+				},
+				{
+					"name": "absence"
+				},
+				{
+					"name": "absent"
+				},
+				{
+					"name": "absenteeism"
+				},
+				{
+					"name": "absorb"
+				},
+				{
+					"name": "abstract"
+				},
+				{
+					"name": "access"
+				},
+				{
+					"name": "accommodation"
+				},
+				{
+					"name": "account"
+				},
+				{
+					"name": "account executive"
+				},
+				{
+					"name": "account for"
+				},
+				{
+					"name": "accountancy"
+				},
+				{
+					"name": "accountant"
+				},
+				{
+					"name": "accounts receivable"
+				},
+				{
+					"name": "achieve"
+				},
+				{
+					"name": "acknowledge"
+				},
+				{
+					"name": "acquire"
+				},
+				{
+					"name": "acquisition"
+				},
+				{
+					"name": "acting"
+				},
+				{
+					"name": "activity"
+				},
+				{
+					"name": "actual"
+				},
+				{
+					"name": "ad"
+				},
+				{
+					"name": "adapt"
+				},
+				{
+					"name": "adjust"
+				},
+				{
+					"name": "administer"
+				},
+				{
+					"name": "administration"
+				},
+				{
+					"name": "adopt"
+				},
+				{
+					"name": "advertise"
+				},
+				{
+					"name": "advertisement"
+				},
+				{
+					"name": "advertising"
+				},
+				{
+					"name": "after-sales service"
+				},
+				{
+					"name": "agenda"
+				},
+				{
+					"name": "agent"
+				},
+				{
+					"name": "allocate"
+				},
+				{
+					"name": "amalgamation"
+				},
+				{
+					"name": "ambition"
+				},
+				{
+					"name": "amortise"
+				},
+				{
+					"name": "analyse"
+				},
+				{
+					"name": "analysis"
+				},
+				{
+					"name": "analyst"
+				},
+				{
+					"name": "annual"
+				},
+				{
+					"name": "annual general meeting"
+				},
+				{
+					"name": "anticipate"
+				},
+				{
+					"name": "anticipated"
+				},
+				{
+					"name": "appeal"
+				},
+				{
+					"name": "applicant"
+				},
+				{
+					"name": "application"
+				},
+				{
+					"name": "apply"
+				},
+				{
+					"name": "appointee"
+				},
+				{
+					"name": "appraisal"
+				},
+				{
+					"name": "appreciate"
+				},
+				{
+					"name": "appropriate"
+				},
+				{
+					"name": "approve"
+				},
+				{
+					"name": "aptitude"
+				},
+				{
+					"name": "arbitrage"
+				},
+				{
+					"name": "arbitration"
+				},
+				{
+					"name": "arrears"
+				},
+				{
+					"name": "assemble"
+				},
+				{
+					"name": "assembly-line"
+				},
+				{
+					"name": "assess"
+				},
+				{
+					"name": "asset"
+				},
+				{
+					"name": "assist"
+				},
+				{
+					"name": "audit"
+				},
+				{
+					"name": "automate"
+				},
+				{
+					"name": "average"
+				},
+				{
+					"name": "awareness"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"backhander",
-				"backing",
-				"backlog",
-				"bad debt",
-				"balance",
-				"balance of payments",
-				"balance of trade",
-				"balance sheet",
-				"bank statement",
-				"bankrupt",
-				"bankruptcy",
-				"bar chart",
-				"bargain",
-				"base",
-				"batch",
-				"batch production",
-				"bear market",
-				"beat",
-				"behave",
-				"behaviour",
-				"below-the-line advertising",
-				"benchmark",
-				"benefit",
-				"bid",
-				"bill",
-				"billboard",
-				"black",
-				"black list",
-				"black monday",
-				"blue chips",
-				"blue-collar",
-				"board of directors",
-				"bond",
-				"bonus",
-				"book value",
-				"bookkeeper",
-				"boom",
-				"boost",
-				"bottleneck",
-				"bottom",
-				"bounce",
-				"brainstorm",
-				"branch",
-				"brand",
-				"brand leader",
-				"brand loyalty",
-				"break even",
-				"break even point",
-				"breakthrough",
-				"brief",
-				"brochure",
-				"broker",
-				"budget",
-				"buffer inventory",
-				"bulk",
-				"bull market",
-				"bust",
-				"buyout"
+				{
+					"name": "backhander"
+				},
+				{
+					"name": "backing"
+				},
+				{
+					"name": "backlog"
+				},
+				{
+					"name": "bad debt"
+				},
+				{
+					"name": "balance"
+				},
+				{
+					"name": "balance of payments"
+				},
+				{
+					"name": "balance of trade"
+				},
+				{
+					"name": "balance sheet"
+				},
+				{
+					"name": "bank statement"
+				},
+				{
+					"name": "bankrupt"
+				},
+				{
+					"name": "bankruptcy"
+				},
+				{
+					"name": "bar chart"
+				},
+				{
+					"name": "bargain"
+				},
+				{
+					"name": "base"
+				},
+				{
+					"name": "batch"
+				},
+				{
+					"name": "batch production"
+				},
+				{
+					"name": "bear market"
+				},
+				{
+					"name": "beat"
+				},
+				{
+					"name": "behave"
+				},
+				{
+					"name": "behaviour"
+				},
+				{
+					"name": "below-the-line advertising"
+				},
+				{
+					"name": "benchmark"
+				},
+				{
+					"name": "benefit"
+				},
+				{
+					"name": "bid"
+				},
+				{
+					"name": "bill"
+				},
+				{
+					"name": "billboard"
+				},
+				{
+					"name": "black"
+				},
+				{
+					"name": "black list"
+				},
+				{
+					"name": "black monday"
+				},
+				{
+					"name": "blue chips"
+				},
+				{
+					"name": "blue-collar"
+				},
+				{
+					"name": "board of directors"
+				},
+				{
+					"name": "bond"
+				},
+				{
+					"name": "bonus"
+				},
+				{
+					"name": "book value"
+				},
+				{
+					"name": "bookkeeper"
+				},
+				{
+					"name": "boom"
+				},
+				{
+					"name": "boost"
+				},
+				{
+					"name": "bottleneck"
+				},
+				{
+					"name": "bottom"
+				},
+				{
+					"name": "bounce"
+				},
+				{
+					"name": "brainstorm"
+				},
+				{
+					"name": "branch"
+				},
+				{
+					"name": "brand"
+				},
+				{
+					"name": "brand leader"
+				},
+				{
+					"name": "brand loyalty"
+				},
+				{
+					"name": "break even"
+				},
+				{
+					"name": "break even point"
+				},
+				{
+					"name": "breakthrough"
+				},
+				{
+					"name": "brief"
+				},
+				{
+					"name": "brochure"
+				},
+				{
+					"name": "broker"
+				},
+				{
+					"name": "budget"
+				},
+				{
+					"name": "buffer inventory"
+				},
+				{
+					"name": "bulk"
+				},
+				{
+					"name": "bull market"
+				},
+				{
+					"name": "bust"
+				},
+				{
+					"name": "buyout"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"data processing",
-				"deadline",
-				"deal",
-				"dealer",
-				"debit",
-				"debt",
-				"debtor",
-				"declare",
-				"decline",
-				"decoupling inventory",
-				"decrease",
-				"deduct",
-				"default",
-				"defect",
-				"defective",
-				"defer",
-				"deferred payments",
-				"deficit",
-				"delivery cycle",
-				"demand management",
-				"demotivate",
-				"deposit",
-				"depot",
-				"depreciate",
-				"depressing",
-				"deputy",
-				"devalue",
-				"diet",
-				"differentiation",
-				"dimension",
-				"direct",
-				"direct cost",
-				"direct mail",
-				"direct selling",
-				"director",
-				"directory",
-				"discount",
-				"dismiss",
-				"dismissal",
-				"dispatch",
-				"display",
-				"dispose",
-				"dispose of",
-				"distribution",
-				"diversify",
-				"divest",
-				"dividend",
-				"division",
-				"dog",
-				"down-market",
-				"down-time",
-				"dramatic",
-				"drive",
-				"due",
-				"dynamic"
+				{
+					"name": "data processing"
+				},
+				{
+					"name": "deadline"
+				},
+				{
+					"name": "deal"
+				},
+				{
+					"name": "dealer"
+				},
+				{
+					"name": "debit"
+				},
+				{
+					"name": "debt"
+				},
+				{
+					"name": "debtor"
+				},
+				{
+					"name": "declare"
+				},
+				{
+					"name": "decline"
+				},
+				{
+					"name": "decoupling inventory"
+				},
+				{
+					"name": "decrease"
+				},
+				{
+					"name": "deduct"
+				},
+				{
+					"name": "default"
+				},
+				{
+					"name": "defect"
+				},
+				{
+					"name": "defective"
+				},
+				{
+					"name": "defer"
+				},
+				{
+					"name": "deferred payments"
+				},
+				{
+					"name": "deficit"
+				},
+				{
+					"name": "delivery cycle"
+				},
+				{
+					"name": "demand management"
+				},
+				{
+					"name": "demotivate"
+				},
+				{
+					"name": "deposit"
+				},
+				{
+					"name": "depot"
+				},
+				{
+					"name": "depreciate"
+				},
+				{
+					"name": "depressing"
+				},
+				{
+					"name": "deputy"
+				},
+				{
+					"name": "devalue"
+				},
+				{
+					"name": "diet"
+				},
+				{
+					"name": "differentiation"
+				},
+				{
+					"name": "dimension"
+				},
+				{
+					"name": "direct"
+				},
+				{
+					"name": "direct cost"
+				},
+				{
+					"name": "direct mail"
+				},
+				{
+					"name": "direct selling"
+				},
+				{
+					"name": "director"
+				},
+				{
+					"name": "directory"
+				},
+				{
+					"name": "discount"
+				},
+				{
+					"name": "dismiss"
+				},
+				{
+					"name": "dismissal"
+				},
+				{
+					"name": "dispatch"
+				},
+				{
+					"name": "display"
+				},
+				{
+					"name": "dispose"
+				},
+				{
+					"name": "dispose of"
+				},
+				{
+					"name": "distribution"
+				},
+				{
+					"name": "diversify"
+				},
+				{
+					"name": "divest"
+				},
+				{
+					"name": "dividend"
+				},
+				{
+					"name": "division"
+				},
+				{
+					"name": "dog"
+				},
+				{
+					"name": "down-market"
+				},
+				{
+					"name": "down-time"
+				},
+				{
+					"name": "dramatic"
+				},
+				{
+					"name": "drive"
+				},
+				{
+					"name": "due"
+				},
+				{
+					"name": "dynamic"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"earned income",
-				"earning",
-				"efficiency",
-				"endorse",
-				"engage",
-				"entitle",
-				"entitlement",
-				"equity",
-				"equity capital",
-				"evaluate",
-				"eventual",
-				"exaggerate",
-				"exceed",
-				"exhibit",
-				"expenditure",
-				"expense",
-				"expense account",
-				"expertise",
-				"exposure"
+				{
+					"name": "earned income"
+				},
+				{
+					"name": "earning"
+				},
+				{
+					"name": "efficiency"
+				},
+				{
+					"name": "endorse"
+				},
+				{
+					"name": "engage"
+				},
+				{
+					"name": "entitle"
+				},
+				{
+					"name": "entitlement"
+				},
+				{
+					"name": "equity"
+				},
+				{
+					"name": "equity capital"
+				},
+				{
+					"name": "evaluate"
+				},
+				{
+					"name": "eventual"
+				},
+				{
+					"name": "exaggerate"
+				},
+				{
+					"name": "exceed"
+				},
+				{
+					"name": "exhibit"
+				},
+				{
+					"name": "expenditure"
+				},
+				{
+					"name": "expense"
+				},
+				{
+					"name": "expense account"
+				},
+				{
+					"name": "expertise"
+				},
+				{
+					"name": "exposure"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gap",
-				"gearing",
-				"get into debt",
-				"gimmick",
-				"go public",
-				"go public",
-				"goal",
-				"going",
-				"going rate",
-				"going rate",
-				"goods",
-				"goodwill",
-				"gradually",
-				"grapple with",
-				"grievance",
-				"gross",
-				"gross margin",
-				"gross margin",
-				"gross profit",
-				"gross yield",
-				"group",
-				"grow",
-				"growth",
-				"guarantee",
-				"guideline"
+				{
+					"name": "gap"
+				},
+				{
+					"name": "gearing"
+				},
+				{
+					"name": "get into debt"
+				},
+				{
+					"name": "gimmick"
+				},
+				{
+					"name": "go public"
+				},
+				{
+					"name": "go public"
+				},
+				{
+					"name": "goal"
+				},
+				{
+					"name": "going"
+				},
+				{
+					"name": "going rate"
+				},
+				{
+					"name": "going rate"
+				},
+				{
+					"name": "goods"
+				},
+				{
+					"name": "goodwill"
+				},
+				{
+					"name": "gradually"
+				},
+				{
+					"name": "grapple with"
+				},
+				{
+					"name": "grievance"
+				},
+				{
+					"name": "gross"
+				},
+				{
+					"name": "gross margin"
+				},
+				{
+					"name": "gross margin"
+				},
+				{
+					"name": "gross profit"
+				},
+				{
+					"name": "gross yield"
+				},
+				{
+					"name": "group"
+				},
+				{
+					"name": "grow"
+				},
+				{
+					"name": "growth"
+				},
+				{
+					"name": "guarantee"
+				},
+				{
+					"name": "guideline"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hand in",
-				"hand in someone's notice",
-				"handle",
-				"hard sell",
-				"hazard",
-				"head",
-				"health and safety",
-				"hedge",
-				"hidden",
-				"hierarchy",
-				"hire",
-				"hire purchase",
-				"hit",
-				"holder",
-				"holding company",
-				"hostile",
-				"hrd",
-				"human resources",
-				"hype"
+				{
+					"name": "hand in"
+				},
+				{
+					"name": "hand in someone's notice"
+				},
+				{
+					"name": "handle"
+				},
+				{
+					"name": "hard sell"
+				},
+				{
+					"name": "hazard"
+				},
+				{
+					"name": "head"
+				},
+				{
+					"name": "health and safety"
+				},
+				{
+					"name": "hedge"
+				},
+				{
+					"name": "hidden"
+				},
+				{
+					"name": "hierarchy"
+				},
+				{
+					"name": "hire"
+				},
+				{
+					"name": "hire purchase"
+				},
+				{
+					"name": "hit"
+				},
+				{
+					"name": "holder"
+				},
+				{
+					"name": "holding company"
+				},
+				{
+					"name": "hostile"
+				},
+				{
+					"name": "hrd"
+				},
+				{
+					"name": "human resources"
+				},
+				{
+					"name": "hype"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"impact",
-				"implement",
-				"implication",
-				"in the black",
-				"in the red",
-				"incentive",
-				"income",
-				"income tax",
-				"increment",
-				"incur",
-				"indemnity",
-				"index",
-				"indirect costs",
-				"induction",
-				"industrial",
-				"industrial action",
-				"industrial relations",
-				"inefficiency",
-				"inflate",
-				"inflation",
-				"information technology",
-				"infringe",
-				"initial",
-				"innovate",
-				"input",
-				"insider trading",
-				"insolvent",
-				"installment",
-				"insurance",
-				"insure",
-				"intangible assets",
-				"interest",
-				"interest rate",
-				"interim",
-				"intermittent production",
-				"interview",
-				"interviewee",
-				"interviewer",
-				"introduce",
-				"inventory",
-				"invest",
-				"investment",
-				"investor",
-				"invoice",
-				"irrevocable",
-				"issue",
-				"item"
+				{
+					"name": "impact"
+				},
+				{
+					"name": "implement"
+				},
+				{
+					"name": "implication"
+				},
+				{
+					"name": "in the black"
+				},
+				{
+					"name": "in the red"
+				},
+				{
+					"name": "incentive"
+				},
+				{
+					"name": "income"
+				},
+				{
+					"name": "income tax"
+				},
+				{
+					"name": "increment"
+				},
+				{
+					"name": "incur"
+				},
+				{
+					"name": "indemnity"
+				},
+				{
+					"name": "index"
+				},
+				{
+					"name": "indirect costs"
+				},
+				{
+					"name": "induction"
+				},
+				{
+					"name": "industrial"
+				},
+				{
+					"name": "industrial action"
+				},
+				{
+					"name": "industrial relations"
+				},
+				{
+					"name": "inefficiency"
+				},
+				{
+					"name": "inflate"
+				},
+				{
+					"name": "inflation"
+				},
+				{
+					"name": "information technology"
+				},
+				{
+					"name": "infringe"
+				},
+				{
+					"name": "initial"
+				},
+				{
+					"name": "innovate"
+				},
+				{
+					"name": "input"
+				},
+				{
+					"name": "insider trading"
+				},
+				{
+					"name": "insolvent"
+				},
+				{
+					"name": "installment"
+				},
+				{
+					"name": "insurance"
+				},
+				{
+					"name": "insure"
+				},
+				{
+					"name": "intangible assets"
+				},
+				{
+					"name": "interest"
+				},
+				{
+					"name": "interest rate"
+				},
+				{
+					"name": "interim"
+				},
+				{
+					"name": "intermittent production"
+				},
+				{
+					"name": "interview"
+				},
+				{
+					"name": "interviewee"
+				},
+				{
+					"name": "interviewer"
+				},
+				{
+					"name": "introduce"
+				},
+				{
+					"name": "inventory"
+				},
+				{
+					"name": "invest"
+				},
+				{
+					"name": "investment"
+				},
+				{
+					"name": "investor"
+				},
+				{
+					"name": "invoice"
+				},
+				{
+					"name": "irrevocable"
+				},
+				{
+					"name": "issue"
+				},
+				{
+					"name": "item"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"job",
-				"job description",
-				"job lot",
-				"job mobility",
-				"job rotation",
-				"job satisfaction",
-				"job shop",
-				"jobbing",
-				"joint",
-				"journal",
-				"junk bonds",
-				"junk mail",
-				"jurisdiction",
-				"just-in-time"
+				{
+					"name": "job"
+				},
+				{
+					"name": "job description"
+				},
+				{
+					"name": "job lot"
+				},
+				{
+					"name": "job mobility"
+				},
+				{
+					"name": "job rotation"
+				},
+				{
+					"name": "job satisfaction"
+				},
+				{
+					"name": "job shop"
+				},
+				{
+					"name": "jobbing"
+				},
+				{
+					"name": "joint"
+				},
+				{
+					"name": "journal"
+				},
+				{
+					"name": "junk bonds"
+				},
+				{
+					"name": "junk mail"
+				},
+				{
+					"name": "jurisdiction"
+				},
+				{
+					"name": "just-in-time"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"key",
-				"knockdown",
-				"know-how"
+				{
+					"name": "key"
+				},
+				{
+					"name": "knockdown"
+				},
+				{
+					"name": "know-how"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"label",
-				"labour",
-				"labour market",
-				"labour relations",
-				"labour shortage",
-				"launch",
-				"lay-off",
-				"layout",
-				"lead",
-				"lead time",
-				"leaflet",
-				"lease",
-				"ledger",
-				"legal",
-				"lend",
-				"lessee",
-				"lessor",
-				"letter of credit",
-				"leverage",
-				"liability",
-				"licence",
-				"license",
-				"life cycle",
-				"likely",
-				"line manager",
-				"line process",
-				"link",
-				"liquid",
-				"liquid assets",
-				"liquidate",
-				"liquidation",
-				"liquidator",
-				"liquidity",
-				"listed",
-				"listing",
-				"literature",
-				"litigate",
-				"loan",
-				"logo",
-				"lose",
-				"loser",
-				"loss",
-				"lot",
-				"loyalty"
+				{
+					"name": "label"
+				},
+				{
+					"name": "labour"
+				},
+				{
+					"name": "labour market"
+				},
+				{
+					"name": "labour relations"
+				},
+				{
+					"name": "labour shortage"
+				},
+				{
+					"name": "launch"
+				},
+				{
+					"name": "lay-off"
+				},
+				{
+					"name": "layout"
+				},
+				{
+					"name": "lead"
+				},
+				{
+					"name": "lead time"
+				},
+				{
+					"name": "leaflet"
+				},
+				{
+					"name": "lease"
+				},
+				{
+					"name": "ledger"
+				},
+				{
+					"name": "legal"
+				},
+				{
+					"name": "lend"
+				},
+				{
+					"name": "lessee"
+				},
+				{
+					"name": "lessor"
+				},
+				{
+					"name": "letter of credit"
+				},
+				{
+					"name": "leverage"
+				},
+				{
+					"name": "liability"
+				},
+				{
+					"name": "licence"
+				},
+				{
+					"name": "license"
+				},
+				{
+					"name": "life cycle"
+				},
+				{
+					"name": "likely"
+				},
+				{
+					"name": "line manager"
+				},
+				{
+					"name": "line process"
+				},
+				{
+					"name": "link"
+				},
+				{
+					"name": "liquid"
+				},
+				{
+					"name": "liquid assets"
+				},
+				{
+					"name": "liquidate"
+				},
+				{
+					"name": "liquidation"
+				},
+				{
+					"name": "liquidator"
+				},
+				{
+					"name": "liquidity"
+				},
+				{
+					"name": "listed"
+				},
+				{
+					"name": "listing"
+				},
+				{
+					"name": "literature"
+				},
+				{
+					"name": "litigate"
+				},
+				{
+					"name": "loan"
+				},
+				{
+					"name": "logo"
+				},
+				{
+					"name": "lose"
+				},
+				{
+					"name": "loser"
+				},
+				{
+					"name": "loss"
+				},
+				{
+					"name": "lot"
+				},
+				{
+					"name": "loyalty"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"magazine",
-				"mailshot",
-				"maintain",
-				"maintenance",
-				"major",
-				"majority shareholding",
-				"make",
-				"make-to-order",
-				"make-to-stock",
-				"management",
-				"management information system",
-				"manager",
-				"managerial",
-				"managing director",
-				"manning",
-				"manpower",
-				"manpower resources",
-				"manual",
-				"manufacture",
-				"manufacturer",
-				"manufacturing",
-				"manufacturing industry",
-				"margin",
-				"mark-up",
-				"market leader",
-				"market niche",
-				"market penetration",
-				"market price",
-				"market segmentation",
-				"market share",
-				"marketing mix",
-				"mass media",
-				"master production schedule",
-				"material requirements planning",
-				"materials handling",
-				"matrix management",
-				"maximise",
-				"measure",
-				"media",
-				"merchandising",
-				"merge",
-				"merger",
-				"merit",
-				"method study",
-				"middle management",
-				"middleman",
-				"minimise",
-				"mission",
-				"mobility",
-				"moderately",
-				"monopoly",
-				"mortgage",
-				"motivate",
-				"motivated",
-				"motivation",
-				"motive"
+				{
+					"name": "magazine"
+				},
+				{
+					"name": "mailshot"
+				},
+				{
+					"name": "maintain"
+				},
+				{
+					"name": "maintenance"
+				},
+				{
+					"name": "major"
+				},
+				{
+					"name": "majority shareholding"
+				},
+				{
+					"name": "make"
+				},
+				{
+					"name": "make-to-order"
+				},
+				{
+					"name": "make-to-stock"
+				},
+				{
+					"name": "management"
+				},
+				{
+					"name": "management information system"
+				},
+				{
+					"name": "manager"
+				},
+				{
+					"name": "managerial"
+				},
+				{
+					"name": "managing director"
+				},
+				{
+					"name": "manning"
+				},
+				{
+					"name": "manpower"
+				},
+				{
+					"name": "manpower resources"
+				},
+				{
+					"name": "manual"
+				},
+				{
+					"name": "manufacture"
+				},
+				{
+					"name": "manufacturer"
+				},
+				{
+					"name": "manufacturing"
+				},
+				{
+					"name": "manufacturing industry"
+				},
+				{
+					"name": "margin"
+				},
+				{
+					"name": "mark-up"
+				},
+				{
+					"name": "market leader"
+				},
+				{
+					"name": "market niche"
+				},
+				{
+					"name": "market penetration"
+				},
+				{
+					"name": "market price"
+				},
+				{
+					"name": "market segmentation"
+				},
+				{
+					"name": "market share"
+				},
+				{
+					"name": "marketing mix"
+				},
+				{
+					"name": "mass media"
+				},
+				{
+					"name": "master production schedule"
+				},
+				{
+					"name": "material requirements planning"
+				},
+				{
+					"name": "materials handling"
+				},
+				{
+					"name": "matrix management"
+				},
+				{
+					"name": "maximise"
+				},
+				{
+					"name": "measure"
+				},
+				{
+					"name": "media"
+				},
+				{
+					"name": "merchandising"
+				},
+				{
+					"name": "merge"
+				},
+				{
+					"name": "merger"
+				},
+				{
+					"name": "merit"
+				},
+				{
+					"name": "method study"
+				},
+				{
+					"name": "middle management"
+				},
+				{
+					"name": "middleman"
+				},
+				{
+					"name": "minimise"
+				},
+				{
+					"name": "mission"
+				},
+				{
+					"name": "mobility"
+				},
+				{
+					"name": "moderately"
+				},
+				{
+					"name": "monopoly"
+				},
+				{
+					"name": "mortgage"
+				},
+				{
+					"name": "motivate"
+				},
+				{
+					"name": "motivated"
+				},
+				{
+					"name": "motivation"
+				},
+				{
+					"name": "motive"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"negotiable",
-				"negotiate",
-				"net",
-				"net margin",
-				"network",
-				"niche",
-				"nominal ledger",
-				"notice"
+				{
+					"name": "negotiable"
+				},
+				{
+					"name": "negotiate"
+				},
+				{
+					"name": "net"
+				},
+				{
+					"name": "net margin"
+				},
+				{
+					"name": "network"
+				},
+				{
+					"name": "niche"
+				},
+				{
+					"name": "nominal ledger"
+				},
+				{
+					"name": "notice"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"objective",
-				"obsolete",
-				"off-season",
-				"off-the-peg",
-				"off-the-shelf",
-				"offer",
-				"open shop",
-				"opening",
-				"operate",
-				"operating profit",
-				"operations scheduling",
-				"opportunity",
-				"optimize",
-				"option",
-				"orient",
-				"orientation",
-				"out of debt",
-				"outcome",
-				"outgoing",
-				"outlay",
-				"outlet",
-				"outline",
-				"output",
-				"outsource",
-				"outstanding",
-				"overdraft",
-				"overdraft facility",
-				"overdraw",
-				"overhead costs",
-				"overheads",
-				"overpay",
-				"overtime",
-				"overview",
-				"owe"
+				{
+					"name": "objective"
+				},
+				{
+					"name": "obsolete"
+				},
+				{
+					"name": "off-season"
+				},
+				{
+					"name": "off-the-peg"
+				},
+				{
+					"name": "off-the-shelf"
+				},
+				{
+					"name": "offer"
+				},
+				{
+					"name": "open shop"
+				},
+				{
+					"name": "opening"
+				},
+				{
+					"name": "operate"
+				},
+				{
+					"name": "operating profit"
+				},
+				{
+					"name": "operations scheduling"
+				},
+				{
+					"name": "opportunity"
+				},
+				{
+					"name": "optimize"
+				},
+				{
+					"name": "option"
+				},
+				{
+					"name": "orient"
+				},
+				{
+					"name": "orientation"
+				},
+				{
+					"name": "out of debt"
+				},
+				{
+					"name": "outcome"
+				},
+				{
+					"name": "outgoing"
+				},
+				{
+					"name": "outlay"
+				},
+				{
+					"name": "outlet"
+				},
+				{
+					"name": "outline"
+				},
+				{
+					"name": "output"
+				},
+				{
+					"name": "outsource"
+				},
+				{
+					"name": "outstanding"
+				},
+				{
+					"name": "overdraft"
+				},
+				{
+					"name": "overdraft facility"
+				},
+				{
+					"name": "overdraw"
+				},
+				{
+					"name": "overhead costs"
+				},
+				{
+					"name": "overheads"
+				},
+				{
+					"name": "overpay"
+				},
+				{
+					"name": "overtime"
+				},
+				{
+					"name": "overview"
+				},
+				{
+					"name": "owe"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"radically",
-				"raise",
-				"range",
-				"rank",
-				"rapport",
-				"rate",
-				"rating",
-				"ratio",
-				"rationalise",
-				"raw",
-				"raw material",
-				"raw materials inventory",
-				"receipt",
-				"receive",
-				"receiver",
-				"receivership",
-				"recession",
-				"reckon",
-				"recognise",
-				"reconcile",
-				"recoup",
-				"recover",
-				"recovery",
-				"recruit",
-				"recruitment",
-				"red",
-				"reduce",
-				"reduction",
-				"redundancy",
-				"redundant",
-				"reference",
-				"reference number",
-				"refund",
-				"region",
-				"reimburse",
-				"reject",
-				"reliability",
-				"relief",
-				"relocate",
-				"remuneration",
-				"rent",
-				"rep",
-				"report to",
-				"reposition",
-				"represent",
-				"representative",
-				"reputable",
-				"reputation",
-				"research and development",
-				"reserve",
-				"resign",
-				"resignation",
-				"resistance",
-				"respond",
-				"response",
-				"restore",
-				"result",
-				"retail",
-				"retail outlet",
-				"retail price",
-				"retail price index",
-				"retailer",
-				"retained earnings",
-				"retire",
-				"retirement",
-				"return",
-				"return on investment",
-				"return on investment",
-				"revenue",
-				"review",
-				"reward",
-				"rework",
-				"rights issue",
-				"risk capital",
-				"rival",
-				"rocket",
-				"roughly",
-				"round",
-				"round trip",
-				"royalty",
-				"run",
-				"running",
-				"running costs"
+				{
+					"name": "radically"
+				},
+				{
+					"name": "raise"
+				},
+				{
+					"name": "range"
+				},
+				{
+					"name": "rank"
+				},
+				{
+					"name": "rapport"
+				},
+				{
+					"name": "rate"
+				},
+				{
+					"name": "rating"
+				},
+				{
+					"name": "ratio"
+				},
+				{
+					"name": "rationalise"
+				},
+				{
+					"name": "raw"
+				},
+				{
+					"name": "raw material"
+				},
+				{
+					"name": "raw materials inventory"
+				},
+				{
+					"name": "receipt"
+				},
+				{
+					"name": "receive"
+				},
+				{
+					"name": "receiver"
+				},
+				{
+					"name": "receivership"
+				},
+				{
+					"name": "recession"
+				},
+				{
+					"name": "reckon"
+				},
+				{
+					"name": "recognise"
+				},
+				{
+					"name": "reconcile"
+				},
+				{
+					"name": "recoup"
+				},
+				{
+					"name": "recover"
+				},
+				{
+					"name": "recovery"
+				},
+				{
+					"name": "recruit"
+				},
+				{
+					"name": "recruitment"
+				},
+				{
+					"name": "red"
+				},
+				{
+					"name": "reduce"
+				},
+				{
+					"name": "reduction"
+				},
+				{
+					"name": "redundancy"
+				},
+				{
+					"name": "redundant"
+				},
+				{
+					"name": "reference"
+				},
+				{
+					"name": "reference number"
+				},
+				{
+					"name": "refund"
+				},
+				{
+					"name": "region"
+				},
+				{
+					"name": "reimburse"
+				},
+				{
+					"name": "reject"
+				},
+				{
+					"name": "reliability"
+				},
+				{
+					"name": "relief"
+				},
+				{
+					"name": "relocate"
+				},
+				{
+					"name": "remuneration"
+				},
+				{
+					"name": "rent"
+				},
+				{
+					"name": "rep"
+				},
+				{
+					"name": "report to"
+				},
+				{
+					"name": "reposition"
+				},
+				{
+					"name": "represent"
+				},
+				{
+					"name": "representative"
+				},
+				{
+					"name": "reputable"
+				},
+				{
+					"name": "reputation"
+				},
+				{
+					"name": "research and development"
+				},
+				{
+					"name": "reserve"
+				},
+				{
+					"name": "resign"
+				},
+				{
+					"name": "resignation"
+				},
+				{
+					"name": "resistance"
+				},
+				{
+					"name": "respond"
+				},
+				{
+					"name": "response"
+				},
+				{
+					"name": "restore"
+				},
+				{
+					"name": "result"
+				},
+				{
+					"name": "retail"
+				},
+				{
+					"name": "retail outlet"
+				},
+				{
+					"name": "retail price"
+				},
+				{
+					"name": "retail price index"
+				},
+				{
+					"name": "retailer"
+				},
+				{
+					"name": "retained earnings"
+				},
+				{
+					"name": "retire"
+				},
+				{
+					"name": "retirement"
+				},
+				{
+					"name": "return"
+				},
+				{
+					"name": "return on investment"
+				},
+				{
+					"name": "return on investment"
+				},
+				{
+					"name": "revenue"
+				},
+				{
+					"name": "review"
+				},
+				{
+					"name": "reward"
+				},
+				{
+					"name": "rework"
+				},
+				{
+					"name": "rights issue"
+				},
+				{
+					"name": "risk capital"
+				},
+				{
+					"name": "rival"
+				},
+				{
+					"name": "rocket"
+				},
+				{
+					"name": "roughly"
+				},
+				{
+					"name": "round"
+				},
+				{
+					"name": "round trip"
+				},
+				{
+					"name": "royalty"
+				},
+				{
+					"name": "run"
+				},
+				{
+					"name": "running"
+				},
+				{
+					"name": "running costs"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"undertake",
-				"undifferentiated marketing",
-				"unearned income",
-				"uneconomical",
-				"unemployment",
-				"unemployment benefit",
-				"unit",
-				"unit cost",
-				"up to date",
-				"update",
-				"upgrade",
-				"upturn",
-				"usp"
+				{
+					"name": "undertake"
+				},
+				{
+					"name": "undifferentiated marketing"
+				},
+				{
+					"name": "unearned income"
+				},
+				{
+					"name": "uneconomical"
+				},
+				{
+					"name": "unemployment"
+				},
+				{
+					"name": "unemployment benefit"
+				},
+				{
+					"name": "unit"
+				},
+				{
+					"name": "unit cost"
+				},
+				{
+					"name": "up to date"
+				},
+				{
+					"name": "update"
+				},
+				{
+					"name": "upgrade"
+				},
+				{
+					"name": "upturn"
+				},
+				{
+					"name": "usp"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vacancy",
-				"vacant",
-				"valuation",
-				"value",
-				"value added tax",
-				"value added tax",
-				"value-added",
-				"variable",
-				"variable costs",
-				"variation",
-				"variety",
-				"vary",
-				"vendor",
-				"venture",
-				"venue",
-				"viability",
-				"viable",
-				"vision",
-				"vocation",
-				"vocational"
+				{
+					"name": "vacancy"
+				},
+				{
+					"name": "vacant"
+				},
+				{
+					"name": "valuation"
+				},
+				{
+					"name": "value"
+				},
+				{
+					"name": "value added tax"
+				},
+				{
+					"name": "value added tax"
+				},
+				{
+					"name": "value-added"
+				},
+				{
+					"name": "variable"
+				},
+				{
+					"name": "variable costs"
+				},
+				{
+					"name": "variation"
+				},
+				{
+					"name": "variety"
+				},
+				{
+					"name": "vary"
+				},
+				{
+					"name": "vendor"
+				},
+				{
+					"name": "venture"
+				},
+				{
+					"name": "venue"
+				},
+				{
+					"name": "viability"
+				},
+				{
+					"name": "viable"
+				},
+				{
+					"name": "vision"
+				},
+				{
+					"name": "vocation"
+				},
+				{
+					"name": "vocational"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wage",
-				"wage freeze",
-				"warehouse",
-				"wealth",
-				"wealthy",
-				"welfare",
-				"white goods",
-				"white-collar",
-				"wholesale",
-				"wholesaler",
-				"wind up",
-				"withdraw",
-				"withdrawal",
-				"work order",
-				"work station",
-				"work-in-progress",
-				"working capital",
-				"working conditions",
-				"workload",
-				"write off",
-				"write-off"
+				{
+					"name": "wage"
+				},
+				{
+					"name": "wage freeze"
+				},
+				{
+					"name": "warehouse"
+				},
+				{
+					"name": "wealth"
+				},
+				{
+					"name": "wealthy"
+				},
+				{
+					"name": "welfare"
+				},
+				{
+					"name": "white goods"
+				},
+				{
+					"name": "white-collar"
+				},
+				{
+					"name": "wholesale"
+				},
+				{
+					"name": "wholesaler"
+				},
+				{
+					"name": "wind up"
+				},
+				{
+					"name": "withdraw"
+				},
+				{
+					"name": "withdrawal"
+				},
+				{
+					"name": "work order"
+				},
+				{
+					"name": "work station"
+				},
+				{
+					"name": "work-in-progress"
+				},
+				{
+					"name": "working capital"
+				},
+				{
+					"name": "working conditions"
+				},
+				{
+					"name": "workload"
+				},
+				{
+					"name": "write off"
+				},
+				{
+					"name": "write-off"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yield"
+				{
+					"name": "yield"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"zero defect",
-				"zero inventory"
+				{
+					"name": "zero defect"
+				},
+				{
+					"name": "zero inventory"
+				}
 			]
 		}
 	]

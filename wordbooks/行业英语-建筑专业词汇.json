@@ -5,1847 +5,5519 @@
 		{
 			"name": "A",
 			"children": [
-				"a block",
-				"a frame",
-				"a line",
-				"abaciscus",
-				"abacus",
-				"abamurus",
-				"abat jour",
-				"abat vent",
-				"abbrasive wheel",
-				"aberration",
-				"ability",
-				"ablation",
-				"abode",
-				"above ground structure",
-				"abrasion",
-				"abrasion concrete",
-				"abrasion hardness",
-				"abrasion proof",
-				"abrasion resistance",
-				"abrasion test",
-				"abrasion tester",
-				"abrasion value",
-				"abrasive",
-				"abrasive aggregates",
-				"abrasive disk",
-				"abrasive paper",
-				"abrasive tile",
-				"abridged notation",
-				"abs plastic abs",
-				"absolute deformation",
-				"absolute displacement",
-				"absolute error",
-				"absolute humidity",
-				"absolute pressure",
-				"absolute temperature",
-				"absolute value",
-				"absolute viscosity",
-				"absolute weight",
-				"absorbed water",
-				"absorbent",
-				"absorbent filter",
-				"absorber",
-				"absorbing ability",
-				"absorbing ceiling",
-				"absorbing medium",
-				"absorbing well",
-				"absorption",
-				"absorption basin",
-				"absorption chamber",
-				"absorption coefficient",
-				"absorption curve",
-				"absorption factor",
-				"absorption index",
-				"absorption of heat radiations",
-				"absorption of sound",
-				"absorption spectrum",
-				"absorption test",
-				"absorptive capacity",
-				"absorptive forms",
-				"abstraction of heat",
-				"abutment",
-				"abutment wall",
-				"abutting buildings",
-				"abutting joint",
-				"abutting tenon",
-				"abyssinien well",
-				"ac circuit",
-				"academic city",
-				"academy",
-				"academy of architecture",
-				"acanthus",
-				"accelerant",
-				"accelerated ageing",
-				"accelerated curing of concrete",
-				"accelerated test",
-				"accelerated weathering",
-				"accelerating admixture",
-				"accelerating curing",
-				"accelerating test",
-				"accelerator",
-				"acceptance of work",
-				"access",
-				"access balcony",
-				"access door",
-				"access hole",
-				"access ramp",
-				"access road",
-				"access tunnel",
-				"accessory building",
-				"accident prevention",
-				"accident prevention regulations",
-				"accidental loading",
-				"accommodations",
-				"accordion door",
-				"accordion partition",
-				"accumulation",
-				"accumulation of heat",
-				"accuracy",
-				"accuracy of fixing",
-				"accuracy of measuring",
-				"accurate adjustment",
-				"accurate ajusting",
-				"accurate measurement",
-				"acetylene cutting machine",
-				"acetylene welding",
-				"achromatic color",
-				"acid",
-				"acid brick",
-				"acid proof brick",
-				"acid proof cement",
-				"acid proof floortile",
-				"acid proof paint",
-				"acid proof paper",
-				"acid proofing mortar",
-				"acid resistance",
-				"acid resistant brick",
-				"acid resistant floor",
-				"acid resistant steel",
-				"acid resisting concrete",
-				"acid resisting mortar",
-				"acidproof concrete",
-				"acidproof construction",
-				"acoustic absorptivity",
-				"acoustic analysis",
-				"acoustic conductivity",
-				"acoustic design",
-				"acoustic dispersion",
-				"acoustic disturbance",
-				"acoustic field",
-				"acoustic filter",
-				"acoustic frequency",
-				"acoustic instrument",
-				"acoustic investigation",
-				"acoustic lens",
-				"acoustic load",
-				"acoustic material",
-				"acoustic measurement",
-				"acoustic power",
-				"acoustic pressure",
-				"acoustic radiator",
-				"acoustic resistance",
-				"acoustic resonance",
-				"acoustic shadow",
-				"acoustic signal",
-				"acoustic sounding",
-				"acoustic velocity",
-				"acoustic wave",
-				"acoustical board",
-				"acoustical ceiling",
-				"acoustical fiberboard",
-				"acoustical insulation",
-				"acoustical lining",
-				"acoustical plaster",
-				"acoustical resistance",
-				"acoustical screen",
-				"acoustical tile",
-				"acoustics",
-				"acoustics of building",
-				"acryl resin",
-				"acrylic rubber",
-				"actinic glass",
-				"actinograph",
-				"actinometer",
-				"actinometry",
-				"action principle",
-				"activated adsorption",
-				"activated alumina",
-				"activated carbon filter",
-				"activated mortar",
-				"activated sludge",
-				"activating agent",
-				"activation",
-				"activator",
-				"active carbon",
-				"active earth pressure",
-				"active material",
-				"active residential solar heating system",
-				"activity",
-				"activity duration",
-				"activity of cement",
-				"activity time",
-				"actual construction time",
-				"actual damage",
-				"actual dimension",
-				"actual load",
-				"actual size",
-				"actual strength",
-				"acute angle",
-				"acute arch",
-				"addition compound",
-				"additional building",
-				"additional load",
-				"additional services",
-				"additive",
-				"additive cement",
-				"additive method",
-				"adhesion",
-				"adhesion agent",
-				"adhesion factor",
-				"adhesion stress",
-				"adhesive",
-				"adhesive ability",
-				"adhesive failure",
-				"adhesive force",
-				"adhesive power",
-				"adhesiveness",
-				"adiabatic cooling",
-				"adiabatic curing",
-				"adit opening",
-				"adjacent accommodation",
-				"adjacent of window",
-				"adjoining building",
-				"adjustable ball hinge",
-				"adjustable grille",
-				"adjustable spanner",
-				"adjustable wrench",
-				"adjusted net fill",
-				"adjuster",
-				"adjuster for window",
-				"adjusting device",
-				"adjusting valve",
-				"adjusting wedge",
-				"adjustment",
-				"adjustment of mixture",
-				"administration building",
-				"admissible concentration",
-				"admissible value",
-				"admission pipe",
-				"admission valve",
-				"admixture",
-				"admixture effects",
-				"adobe brick",
-				"adobe construction",
-				"adsorbate",
-				"adsorbed water",
-				"adsorbent",
-				"adsorption",
-				"adverse slope",
-				"advisory engineer",
-				"adz",
-				"ae concret",
-				"aerated cement block",
-				"aerated concrete",
-				"aerated spillway",
-				"aeration",
-				"aeration basin",
-				"aeration skylight",
-				"aeration tank",
-				"aerial cableway",
-				"aerial mast",
-				"aerial pipe crossing",
-				"aerial survey",
-				"aerobic treatment",
-				"aerocrete",
-				"aerodrome",
-				"aerodynamic instability",
-				"aerodynamic resistance",
-				"aerofilter",
-				"aerograph",
-				"aeroport",
-				"aerosol paint",
-				"afflux",
-				"afforestation construction",
-				"afforestation of city",
-				"after air filter",
-				"after cooler",
-				"after hardening",
-				"after heater",
-				"after purification",
-				"age hardening",
-				"age strength relation",
-				"ageing",
-				"ageing test",
-				"agent",
-				"agglomerate foam concrete",
-				"agglomerating furnace",
-				"agglomeration",
-				"aggloporite",
-				"aggregate",
-				"aggregate base",
-				"aggregate batcher",
-				"aggregate batching plant",
-				"aggregate bin",
-				"aggregate blending",
-				"aggregate cement ratio",
-				"aggregate coated panel",
-				"aggregate exposure",
-				"aggregate gradation",
-				"aggregate preparation plant",
-				"aggregate production plant",
-				"aggregate size",
-				"aggregate weighing batcher",
-				"aggregation",
-				"aggressive water",
-				"aging proof agent",
-				"agitating truck",
-				"agitation",
-				"agitation tank",
-				"agitator",
-				"agreement",
-				"agreement for construction",
-				"agreement of lease",
-				"agricultural buildings",
-				"agricultural town",
-				"agro cement batcher",
-				"air blast",
-				"air breakwater",
-				"air brick",
-				"air brush",
-				"air bubble",
-				"air bulking",
-				"air change",
-				"air change rate",
-				"air channel",
-				"air chimney",
-				"air chute",
-				"air circulation",
-				"air cleaner",
-				"air cock",
-				"air collector",
-				"air compressor",
-				"air conditioned building",
-				"air conditioner",
-				"air conditioning",
-				"air conditioning load",
-				"air conditioning plant",
-				"air conditioning room",
-				"air conditioning unit",
-				"air conditions",
-				"air content",
-				"air conveying",
-				"air cooled condenser",
-				"air cooler",
-				"air cooling",
-				"air curtain",
-				"air damper",
-				"air dehumidification",
-				"air demand",
-				"air detraining admixture",
-				"air diffuser",
-				"air diffusion",
-				"air diffusion aeration",
-				"air digger",
-				"air discharge grille",
-				"air distribution",
-				"air door",
-				"air draft",
-				"air drain",
-				"air dried lumber",
-				"air drill hammer",
-				"air drying",
-				"air duct",
-				"air entrained agent",
-				"air entrained concrete",
-				"air entraining admixture",
-				"air entraining cement",
-				"air entrainment",
-				"air entrainment test",
-				"air exhaust",
-				"air exhaust opening",
-				"air filter",
-				"air filtration",
-				"air float",
-				"air flow",
-				"air flow meter",
-				"air flow switch",
-				"air free concrete",
-				"air gap",
-				"air hammer",
-				"air handling unit",
-				"air hardening mortar",
-				"air hardening of cement",
-				"air heater",
-				"air heating",
-				"air hoist",
-				"air humidification",
-				"air humidifier",
-				"air humidity",
-				"air hydraulic jack",
-				"air infiltration",
-				"air inflow",
-				"air inlet",
-				"air insulation",
-				"air intake shaft",
-				"air jacket",
-				"air leakage",
-				"air leakage factor",
-				"air lift",
-				"air lift pump",
-				"air lock",
-				"air monitoring",
-				"air mortar",
-				"air outlet",
-				"air output",
-				"air permeability factor",
-				"air pipe line",
-				"air placed concrete",
-				"air placer",
-				"air placing machine",
-				"air pollution control",
-				"air preheater",
-				"air pressure",
-				"air purification",
-				"air purifier",
-				"air receiver",
-				"air register",
-				"air requirement",
-				"air resistance",
-				"air riveting hammer",
-				"air sampling",
-				"air setting refractory cement",
-				"air setting refractory mortar",
-				"air space ratio",
-				"air supply",
-				"air supply grille",
-				"air supply plant",
-				"air supply system",
-				"air supported structure",
-				"air tamper",
-				"air temperature",
-				"air test",
-				"air throw",
-				"air tight concrete",
-				"air tight construction",
-				"air tight door",
-				"air tight seal",
-				"air tight test",
-				"air to air heat recovery unit",
-				"air to air system",
-				"air to water heat exchanger",
-				"air to water system",
-				"air tool",
-				"air treatment",
-				"air trowel",
-				"air ventilator",
-				"air vessel",
-				"air voids",
-				"air volume control",
-				"air water heat pump",
-				"air winch",
-				"airborne noise",
-				"airless spray unit",
-				"airless spraying",
-				"airport facilities",
-				"airslide conveyor",
-				"airstrip",
-				"airview",
-				"aisle",
-				"alabaster",
-				"alarm system",
-				"alarming apparatus",
-				"aligning",
-				"alignment",
-				"alkali aggregate expansion",
-				"alkali discoloration",
-				"alkali resistance",
-				"alkali resistant glass fiber",
-				"alkaline soil",
-				"alkaliproof paint",
-				"alkyd paint",
-				"all air heat pump",
-				"all air system",
-				"all brick building",
-				"all concrete frame",
-				"all flanged tee",
-				"all glass facade",
-				"all in aggregate",
-				"all metal building",
-				"all metal construction",
-				"all outside air system",
-				"all position electrode",
-				"all purpose excavator",
-				"all purpose insulation",
-				"all purpose road",
-				"all purpose room",
-				"all socket cross",
-				"all veneer construction",
-				"all welded steel structure",
-				"all wood construction",
-				"allege",
-				"alley",
-				"alligator shears",
-				"alligator wrench",
-				"alligatoring",
-				"allowable bearing pressure",
-				"allowable bearing value",
-				"allowable error",
-				"allowable load",
-				"allowable noise level",
-				"allowable pile bearing load",
-				"allowable preressure",
-				"allowable pressure",
-				"allowable stress",
-				"allowable stress design",
-				"allowable stresses method",
-				"allowance",
-				"alloy",
-				"alloy steel",
-				"alluvial deposit",
-				"alteration",
-				"alteration work",
-				"alternate bay construction",
-				"alternate bending strength",
-				"alternate depths",
-				"alternate design",
-				"alternate strength",
-				"alternating bending test",
-				"alternating load",
-				"alternating load test",
-				"alternating loading",
-				"alternating stress cycle",
-				"alternating stresses",
-				"altitude",
-				"altitude valve",
-				"alumina",
-				"alumina cement",
-				"aluminium",
-				"aluminium alloy plate",
-				"aluminium alloys",
-				"aluminium coated fabric",
-				"aluminium coated sheet steel",
-				"aluminium foil",
-				"aluminium paint",
-				"aluminium powder",
-				"aluminium trim",
-				"aluminized coating",
-				"aluminizing",
-				"aluminous fire brick",
-				"aluminous sand",
-				"amber",
-				"ambetti",
-				"ambient air",
-				"ambient conditions",
-				"ambient medium",
-				"ambient noise",
-				"ambient temperature",
-				"amendment",
-				"amenities",
-				"ammonia",
-				"amorphous materials",
-				"amorphous structure",
-				"amortization",
-				"amount",
-				"amount of evaporation",
-				"amount of precipitation",
-				"amount of rainfall",
-				"ampere",
-				"amphibious shovel",
-				"amphibious site",
-				"amphitheater",
-				"amplification",
-				"amplitude",
-				"amplitude of ground motion",
-				"amplitude of stress",
-				"amplitude of vibration",
-				"amusement center",
-				"amusement park",
-				"analyser",
-				"analysis",
-				"analysis by successive approximations",
-				"analysis of sections",
-				"analysis of structures",
-				"analysis of truss joints",
-				"analysis of trusses",
-				"analysis of water",
-				"analysis table",
-				"analytic method",
-				"anchor",
-				"anchor bearing plate",
-				"anchor block",
-				"anchor bolt",
-				"anchor cone",
-				"anchor device",
-				"anchor ice",
-				"anchor male cone",
-				"anchor nut",
-				"anchor pile",
-				"anchor plate",
-				"anchor rod",
-				"anchor tie",
-				"anchor wall",
-				"anchorage bond stress",
-				"anchorage by bond",
-				"anchorage device",
-				"anchorage length",
-				"anchorage of reinforcement",
-				"anchorage pier",
-				"anchorage zone",
-				"anchored bulkhead",
-				"anchored retaining wall",
-				"anchored sheet pile wall",
-				"anchored type ceramic veneer",
-				"anchoring",
-				"ancient architecture",
-				"ancillary building",
-				"ancone",
-				"anechoic chamber",
-				"anemograph",
-				"anemometer",
-				"anemoscope",
-				"angle",
-				"angle bar",
-				"angle bead",
-				"angle bending machine",
-				"angle brace",
-				"angle bracket",
-				"angle brick",
-				"angle buttress",
-				"angle capital",
-				"angle cleat",
-				"angle clip",
-				"angle collar",
-				"angle fillet",
-				"angle float",
-				"angle hiptile",
-				"angle iron",
-				"angle iron frame",
-				"angle joint",
-				"angle lighting luminaire",
-				"angle loads method",
-				"angle of a roof",
-				"angle of alteration",
-				"angle of bank",
-				"angle of bend",
-				"angle of curvature",
-				"angle of deviation",
-				"angle of displacement",
-				"angle of external friction",
-				"angle of fall",
-				"angle of friction",
-				"angle of incidence",
-				"angle of inclination",
-				"angle of internal friction",
-				"angle of reflection",
-				"angle of refraction",
-				"angle of repose",
-				"angle of roof",
-				"angle of rotation",
-				"angle of scattering",
-				"angle of shear",
-				"angle of slide",
-				"angle of slope",
-				"angle of torsion",
-				"angle post",
-				"angle rafter",
-				"angle tee y",
-				"angle valve",
-				"angledozer",
-				"angular aggregate",
-				"angular deformation",
-				"anhydrite",
-				"anhydrite cement",
-				"anhydrous gypsum",
-				"animal glue",
-				"annex",
-				"annual flood",
-				"annual mean",
-				"annual range of temperature",
-				"annual runoff",
-				"annual storage reservoir",
-				"annular girder",
-				"annular vault",
-				"annulet",
-				"anodic coating",
-				"anta",
-				"ante chamber",
-				"antefix",
-				"antenna",
-				"antenna mast",
-				"anteport",
-				"anti drumming coating",
-				"anti skinning agent",
-				"anti vibration mounting",
-				"anticorrosion additive",
-				"anticorrosive agent",
-				"anticorrosive coating",
-				"anticorrosive compound",
-				"anticorrosive paint",
-				"anticorrosive protection",
-				"antidazzle visor",
-				"antifoam additive",
-				"antifouling paint",
-				"antifreeze admixture",
-				"antinoise paint",
-				"antioxidant",
-				"antireflective coating",
-				"antirusting agent",
-				"antirusting paint",
-				"antisag agent",
-				"antiseepage cofferdam",
-				"antiseismic construction",
-				"antiseptic",
-				"antiseptic paper",
-				"antislip paint",
-				"antisymmetrical load",
-				"anvil",
-				"apartment",
-				"apartment area",
-				"apartment building",
-				"apartment hotel",
-				"apartment house",
-				"apartment house of corridor access",
-				"aperture",
-				"aperture of door",
-				"aperture of window",
-				"apex",
-				"apex block",
-				"apex stone",
-				"apparatus",
-				"apparent cohesion",
-				"apparent density",
-				"apparent elastic limit",
-				"apparent elastic range",
-				"appearance",
-				"application consistency",
-				"application life",
-				"application of a force",
-				"application of load",
-				"application of roofing felt",
-				"application of solar energy",
-				"application point",
-				"application techniques",
-				"applied column",
-				"applied load",
-				"applied moment",
-				"approach channel",
-				"approach road",
-				"approach span",
-				"approximate analysis",
-				"appurtenances",
-				"apron",
-				"apron wall",
-				"aquatorium",
-				"aqueduct",
-				"aquifer",
-				"arabesque",
-				"arc",
-				"arc boutant",
-				"arc welding",
-				"arcade",
-				"arch",
-				"arch abutment",
-				"arch apex",
-				"arch bar",
-				"arch block",
-				"arch brick",
-				"arch bridge",
-				"arch buttress",
-				"arch camber",
-				"arch center",
-				"arch covering",
-				"arch dam",
-				"arch door",
-				"arch falsework",
-				"arch gravity dam",
-				"arch key",
-				"arch of triumph",
-				"arch stone",
-				"arch structure",
-				"arch thrust",
-				"arch truss",
-				"arch without articulation",
-				"arched barrel roof",
-				"arched beam",
-				"arched ceiling",
-				"arched floor",
-				"arched girder",
-				"arched retaining wall",
-				"arched roof",
-				"arched spillway",
-				"arched window",
-				"architect",
-				"architect",
-				"architectonics",
-				"architects association",
-				"architectural acoustics",
-				"architectural appearance",
-				"architectural bronze",
-				"architectural coating",
-				"architectural complex",
-				"architectural composition",
-				"architectural concept",
-				"architectural concrete",
-				"architectural conservation",
-				"architectural construction",
-				"architectural constructional materials",
-				"architectural decoration",
-				"architectural design",
-				"architectural drawing",
-				"architectural engineering",
-				"architectural finish",
-				"architectural garden",
-				"architectural hardware",
-				"architectural lighting",
-				"architectural monument",
-				"architectural order",
-				"architectural park",
-				"architectural pattern",
-				"architectural planning",
-				"architectural space",
-				"architectural surface",
-				"architectural terra cotta",
-				"architectural volume",
-				"architecture",
-				"archives",
-				"archway",
-				"arcuated architecture",
-				"area",
-				"area method",
-				"area of construction",
-				"area of force",
-				"area of moments",
-				"area of pile head",
-				"area of rivet shaft",
-				"area of section",
-				"area of steel",
-				"area of structure",
-				"arenaceous sand",
-				"areometer",
-				"argillaceous limestone",
-				"argillaceous rocks",
-				"argillite",
-				"argillization",
-				"argon arc welding",
-				"arid climate",
-				"arm",
-				"armature",
-				"armed beam",
-				"armor hose",
-				"armor plate",
-				"armored cable",
-				"armored concrete",
-				"armored concrete floor",
-				"armored concrete slab",
-				"armored glass",
-				"armored plywood",
-				"armored wood",
-				"arrangement",
-				"arrangement of beams",
-				"arrangement of block",
-				"arrangement of reinforcement",
-				"arrester",
-				"arriere voussure",
-				"arris",
-				"arris hiptile",
-				"arris of slab",
-				"arris rail",
-				"arrow diagram",
-				"art",
-				"art gallery",
-				"art museum",
-				"art of building",
-				"arterial drain",
-				"arterial road",
-				"artesian head",
-				"artesian well",
-				"articulated boom",
-				"articulated connection",
-				"articulated hinge concrete",
-				"articulated system",
-				"artificial ageing",
-				"artificial aggregate",
-				"artificial caoutchouc",
-				"artificial climate room",
-				"artificial daylight",
-				"artificial fiber",
-				"artificial illumination",
-				"artificial lake",
-				"artificial leather",
-				"artificial light weight aggregate concrete",
-				"artificial marble",
-				"artificial seasoning",
-				"artificial stone",
-				"artificial ventilation",
-				"artificial weathering",
-				"as built drawings",
-				"as dug gravel",
-				"as mixed concrete",
-				"as placed concrete",
-				"asbestos",
-				"asbestos base asphalt felt",
-				"asbestos base asphalt paper",
-				"asbestos blanket",
-				"asbestos board",
-				"asbestos cement",
-				"asbestos cement cladding",
-				"asbestos cement form board",
-				"asbestos cement pipe",
-				"asbestos cement sheet",
-				"asbestos cloth",
-				"asbestos felt",
-				"asbestos fiber",
-				"asbestos fire curtain",
-				"asbestos millboard",
-				"asbestos mortar",
-				"asbestos packing",
-				"asbestos plaster",
-				"asbestos shingle",
-				"aseismatic construction",
-				"aseismic design",
-				"aseismic joint",
-				"aseismic structures",
-				"aseptic condition",
-				"ash concrete",
-				"ash removal",
-				"ashlar",
-				"ashlar brick",
-				"ashlar facing",
-				"ashlar masonry",
-				"ashlar stone facing",
-				"ashlar work",
-				"ashlaring",
-				"ashpit",
-				"aspect ratio",
-				"asphalt",
-				"asphalt asbestos",
-				"asphalt base course",
-				"asphalt binder course",
-				"asphalt cement",
-				"asphalt coating compound",
-				"asphalt concrete",
-				"asphalt concrete base",
-				"asphalt concrete pavement",
-				"asphalt covering",
-				"asphalt cutter",
-				"asphalt emulsion",
-				"asphalt floor",
-				"asphalt heater",
-				"asphalt inntermediate course",
-				"asphalt joint filler",
-				"asphalt levelling course",
-				"asphalt macadam",
-				"asphalt mastic",
-				"asphalt membrane",
-				"asphalt mortar",
-				"asphalt overlay",
-				"asphalt paint",
-				"asphalt paper",
-				"asphalt pavement structure",
-				"asphalt prime coat",
-				"asphalt primer",
-				"asphalt road",
-				"asphalt seal coat",
-				"asphalt soil stabilization",
-				"asphalt tile",
-				"asphalt varnish",
-				"asphalt wearing course",
-				"asphaltic cement concrete",
-				"asphaltic felt",
-				"asphalting",
-				"asphaltum",
-				"aspiration pipe",
-				"assemblage",
-				"assembler",
-				"assembling",
-				"assembling area",
-				"assembling bolt",
-				"assembling department",
-				"assembling drawing",
-				"assembling floor",
-				"assembling tool",
-				"assembling work",
-				"assembly line",
-				"assembly parts",
-				"assembly room",
-				"assembly stand",
-				"assembly workshop",
-				"assize",
-				"assumed load",
-				"asymmetric structure",
-				"asymmetrically placed load",
-				"asymmetry",
-				"at grade intersection",
-				"at rest earth pressure coefficient",
-				"athletic field",
-				"athletic ground",
-				"atlantes",
-				"atmosphere",
-				"atmosphere absorption",
-				"atmospheric condenser",
-				"atmospheric monitoring",
-				"atmospheric pressure",
-				"atmospheric radiation",
-				"atmospheric steam curing",
-				"atomic blast excavation",
-				"atomic hydrogen welding",
-				"atomic power station",
-				"atomic reactor",
-				"atomic reactor containment structure",
-				"atomization",
-				"atomization mechanism",
-				"atomizer",
-				"atomizing",
-				"atomizing application",
-				"atrium",
-				"attached column",
-				"attached garage",
-				"attenuation",
-				"attenuation factor",
-				"atterberg test",
-				"attic",
-				"attic floor",
-				"attic room",
-				"attic tank",
-				"attic window",
-				"attracting groyne",
-				"attraction",
-				"attrition",
-				"auditorium",
-				"auger",
-				"auger backfiller",
-				"augered pile",
-				"autoclave",
-				"autoclaved aerated concrete",
-				"autoclaved cement",
-				"autoclaved concrete product",
-				"autoclaved light weight concrete",
-				"autoclaving",
-				"autoclaving cycle",
-				"autocrane",
-				"autogenous curing",
-				"autogenous cutting machine",
-				"autogenous healing of concrete",
-				"autogenous shrinkage",
-				"autogenous volume change",
-				"autogenous welding",
-				"autoloader",
-				"automatic air conditioning",
-				"automatic air valve",
-				"automatic arc welding machine",
-				"automatic batcher",
-				"automatic boiler",
-				"automatic closing device",
-				"automatic closing door",
-				"automatic control valve",
-				"automatic cutting off table",
-				"automatic damping batcher scale",
-				"automatic design",
-				"automatic detection",
-				"automatic device",
-				"automatic door",
-				"automatic door operator",
-				"automatic electric door opener",
-				"automatic elevator",
-				"automatic fire alarm system",
-				"automatic fire door",
-				"automatic fire protection system",
-				"automatic fire pump",
-				"automatic flushing cistern",
-				"automatic gas fired water heater",
-				"automatic gate",
-				"automatic heating",
-				"automatic opener",
-				"automatic oxygen cutting",
-				"automatic return of water",
-				"automatic return trap",
-				"automatic siphon",
-				"automatic smoke detector",
-				"automatic sprinkler system",
-				"automatic weigher",
-				"automatic weir",
-				"automatic welding machine",
-				"automation",
-				"automobile",
-				"automobile crane",
-				"autonomous city",
-				"autonomous house",
-				"autosilo",
-				"autostacker",
-				"autostrada",
-				"autumn",
-				"auxiliary bridge",
-				"auxiliary hoist",
-				"auxiliary prestressing",
-				"auxiliary rafter",
-				"auxiliary reinforcement",
-				"auxiliary stairs",
-				"auxiliary structure",
-				"avalanche",
-				"avalanche baffle wall",
-				"avalanche load",
-				"avalanche protection dike",
-				"avalanche protection works",
-				"avant corps",
-				"avenue",
-				"average annual rainfall",
-				"average bond stress",
-				"average error",
-				"average flow",
-				"average grade",
-				"average load",
-				"average temperature",
-				"averge illumination",
-				"awakened cement",
-				"awakened concrete",
-				"awl",
-				"awning",
-				"awning blind",
-				"awning window",
-				"axe",
-				"axed work",
-				"axhammer",
-				"axia strain",
-				"axial compression",
-				"axial deformation",
-				"axial flow fan",
-				"axial force diagram",
-				"axial load",
-				"axial moment of inertia",
-				"axial prestressing",
-				"axial restraint",
-				"axial section",
-				"axial stress",
-				"axial tension",
-				"axial tensioning",
-				"axis",
-				"axis of abscissas",
-				"axis of gravity",
-				"axis of ordinates",
-				"axis of projection",
-				"axis of rotation",
-				"axis of symmetry",
-				"axisymmetrical loading",
-				"axle load",
-				"axonometric projection",
-				"axonometric view",
-				"azimuth"
+				{
+					"name": "a block"
+				},
+				{
+					"name": "a frame"
+				},
+				{
+					"name": "a line"
+				},
+				{
+					"name": "abaciscus"
+				},
+				{
+					"name": "abacus"
+				},
+				{
+					"name": "abamurus"
+				},
+				{
+					"name": "abat jour"
+				},
+				{
+					"name": "abat vent"
+				},
+				{
+					"name": "abbrasive wheel"
+				},
+				{
+					"name": "aberration"
+				},
+				{
+					"name": "ability"
+				},
+				{
+					"name": "ablation"
+				},
+				{
+					"name": "abode"
+				},
+				{
+					"name": "above ground structure"
+				},
+				{
+					"name": "abrasion"
+				},
+				{
+					"name": "abrasion concrete"
+				},
+				{
+					"name": "abrasion hardness"
+				},
+				{
+					"name": "abrasion proof"
+				},
+				{
+					"name": "abrasion resistance"
+				},
+				{
+					"name": "abrasion test"
+				},
+				{
+					"name": "abrasion tester"
+				},
+				{
+					"name": "abrasion value"
+				},
+				{
+					"name": "abrasive"
+				},
+				{
+					"name": "abrasive aggregates"
+				},
+				{
+					"name": "abrasive disk"
+				},
+				{
+					"name": "abrasive paper"
+				},
+				{
+					"name": "abrasive tile"
+				},
+				{
+					"name": "abridged notation"
+				},
+				{
+					"name": "abs plastic abs"
+				},
+				{
+					"name": "absolute deformation"
+				},
+				{
+					"name": "absolute displacement"
+				},
+				{
+					"name": "absolute error"
+				},
+				{
+					"name": "absolute humidity"
+				},
+				{
+					"name": "absolute pressure"
+				},
+				{
+					"name": "absolute temperature"
+				},
+				{
+					"name": "absolute value"
+				},
+				{
+					"name": "absolute viscosity"
+				},
+				{
+					"name": "absolute weight"
+				},
+				{
+					"name": "absorbed water"
+				},
+				{
+					"name": "absorbent"
+				},
+				{
+					"name": "absorbent filter"
+				},
+				{
+					"name": "absorber"
+				},
+				{
+					"name": "absorbing ability"
+				},
+				{
+					"name": "absorbing ceiling"
+				},
+				{
+					"name": "absorbing medium"
+				},
+				{
+					"name": "absorbing well"
+				},
+				{
+					"name": "absorption"
+				},
+				{
+					"name": "absorption basin"
+				},
+				{
+					"name": "absorption chamber"
+				},
+				{
+					"name": "absorption coefficient"
+				},
+				{
+					"name": "absorption curve"
+				},
+				{
+					"name": "absorption factor"
+				},
+				{
+					"name": "absorption index"
+				},
+				{
+					"name": "absorption of heat radiations"
+				},
+				{
+					"name": "absorption of sound"
+				},
+				{
+					"name": "absorption spectrum"
+				},
+				{
+					"name": "absorption test"
+				},
+				{
+					"name": "absorptive capacity"
+				},
+				{
+					"name": "absorptive forms"
+				},
+				{
+					"name": "abstraction of heat"
+				},
+				{
+					"name": "abutment"
+				},
+				{
+					"name": "abutment wall"
+				},
+				{
+					"name": "abutting buildings"
+				},
+				{
+					"name": "abutting joint"
+				},
+				{
+					"name": "abutting tenon"
+				},
+				{
+					"name": "abyssinien well"
+				},
+				{
+					"name": "ac circuit"
+				},
+				{
+					"name": "academic city"
+				},
+				{
+					"name": "academy"
+				},
+				{
+					"name": "academy of architecture"
+				},
+				{
+					"name": "acanthus"
+				},
+				{
+					"name": "accelerant"
+				},
+				{
+					"name": "accelerated ageing"
+				},
+				{
+					"name": "accelerated curing of concrete"
+				},
+				{
+					"name": "accelerated test"
+				},
+				{
+					"name": "accelerated weathering"
+				},
+				{
+					"name": "accelerating admixture"
+				},
+				{
+					"name": "accelerating curing"
+				},
+				{
+					"name": "accelerating test"
+				},
+				{
+					"name": "accelerator"
+				},
+				{
+					"name": "acceptance of work"
+				},
+				{
+					"name": "access"
+				},
+				{
+					"name": "access balcony"
+				},
+				{
+					"name": "access door"
+				},
+				{
+					"name": "access hole"
+				},
+				{
+					"name": "access ramp"
+				},
+				{
+					"name": "access road"
+				},
+				{
+					"name": "access tunnel"
+				},
+				{
+					"name": "accessory building"
+				},
+				{
+					"name": "accident prevention"
+				},
+				{
+					"name": "accident prevention regulations"
+				},
+				{
+					"name": "accidental loading"
+				},
+				{
+					"name": "accommodations"
+				},
+				{
+					"name": "accordion door"
+				},
+				{
+					"name": "accordion partition"
+				},
+				{
+					"name": "accumulation"
+				},
+				{
+					"name": "accumulation of heat"
+				},
+				{
+					"name": "accuracy"
+				},
+				{
+					"name": "accuracy of fixing"
+				},
+				{
+					"name": "accuracy of measuring"
+				},
+				{
+					"name": "accurate adjustment"
+				},
+				{
+					"name": "accurate ajusting"
+				},
+				{
+					"name": "accurate measurement"
+				},
+				{
+					"name": "acetylene cutting machine"
+				},
+				{
+					"name": "acetylene welding"
+				},
+				{
+					"name": "achromatic color"
+				},
+				{
+					"name": "acid"
+				},
+				{
+					"name": "acid brick"
+				},
+				{
+					"name": "acid proof brick"
+				},
+				{
+					"name": "acid proof cement"
+				},
+				{
+					"name": "acid proof floortile"
+				},
+				{
+					"name": "acid proof paint"
+				},
+				{
+					"name": "acid proof paper"
+				},
+				{
+					"name": "acid proofing mortar"
+				},
+				{
+					"name": "acid resistance"
+				},
+				{
+					"name": "acid resistant brick"
+				},
+				{
+					"name": "acid resistant floor"
+				},
+				{
+					"name": "acid resistant steel"
+				},
+				{
+					"name": "acid resisting concrete"
+				},
+				{
+					"name": "acid resisting mortar"
+				},
+				{
+					"name": "acidproof concrete"
+				},
+				{
+					"name": "acidproof construction"
+				},
+				{
+					"name": "acoustic absorptivity"
+				},
+				{
+					"name": "acoustic analysis"
+				},
+				{
+					"name": "acoustic conductivity"
+				},
+				{
+					"name": "acoustic design"
+				},
+				{
+					"name": "acoustic dispersion"
+				},
+				{
+					"name": "acoustic disturbance"
+				},
+				{
+					"name": "acoustic field"
+				},
+				{
+					"name": "acoustic filter"
+				},
+				{
+					"name": "acoustic frequency"
+				},
+				{
+					"name": "acoustic instrument"
+				},
+				{
+					"name": "acoustic investigation"
+				},
+				{
+					"name": "acoustic lens"
+				},
+				{
+					"name": "acoustic load"
+				},
+				{
+					"name": "acoustic material"
+				},
+				{
+					"name": "acoustic measurement"
+				},
+				{
+					"name": "acoustic power"
+				},
+				{
+					"name": "acoustic pressure"
+				},
+				{
+					"name": "acoustic radiator"
+				},
+				{
+					"name": "acoustic resistance"
+				},
+				{
+					"name": "acoustic resonance"
+				},
+				{
+					"name": "acoustic shadow"
+				},
+				{
+					"name": "acoustic signal"
+				},
+				{
+					"name": "acoustic sounding"
+				},
+				{
+					"name": "acoustic velocity"
+				},
+				{
+					"name": "acoustic wave"
+				},
+				{
+					"name": "acoustical board"
+				},
+				{
+					"name": "acoustical ceiling"
+				},
+				{
+					"name": "acoustical fiberboard"
+				},
+				{
+					"name": "acoustical insulation"
+				},
+				{
+					"name": "acoustical lining"
+				},
+				{
+					"name": "acoustical plaster"
+				},
+				{
+					"name": "acoustical resistance"
+				},
+				{
+					"name": "acoustical screen"
+				},
+				{
+					"name": "acoustical tile"
+				},
+				{
+					"name": "acoustics"
+				},
+				{
+					"name": "acoustics of building"
+				},
+				{
+					"name": "acryl resin"
+				},
+				{
+					"name": "acrylic rubber"
+				},
+				{
+					"name": "actinic glass"
+				},
+				{
+					"name": "actinograph"
+				},
+				{
+					"name": "actinometer"
+				},
+				{
+					"name": "actinometry"
+				},
+				{
+					"name": "action principle"
+				},
+				{
+					"name": "activated adsorption"
+				},
+				{
+					"name": "activated alumina"
+				},
+				{
+					"name": "activated carbon filter"
+				},
+				{
+					"name": "activated mortar"
+				},
+				{
+					"name": "activated sludge"
+				},
+				{
+					"name": "activating agent"
+				},
+				{
+					"name": "activation"
+				},
+				{
+					"name": "activator"
+				},
+				{
+					"name": "active carbon"
+				},
+				{
+					"name": "active earth pressure"
+				},
+				{
+					"name": "active material"
+				},
+				{
+					"name": "active residential solar heating system"
+				},
+				{
+					"name": "activity"
+				},
+				{
+					"name": "activity duration"
+				},
+				{
+					"name": "activity of cement"
+				},
+				{
+					"name": "activity time"
+				},
+				{
+					"name": "actual construction time"
+				},
+				{
+					"name": "actual damage"
+				},
+				{
+					"name": "actual dimension"
+				},
+				{
+					"name": "actual load"
+				},
+				{
+					"name": "actual size"
+				},
+				{
+					"name": "actual strength"
+				},
+				{
+					"name": "acute angle"
+				},
+				{
+					"name": "acute arch"
+				},
+				{
+					"name": "addition compound"
+				},
+				{
+					"name": "additional building"
+				},
+				{
+					"name": "additional load"
+				},
+				{
+					"name": "additional services"
+				},
+				{
+					"name": "additive"
+				},
+				{
+					"name": "additive cement"
+				},
+				{
+					"name": "additive method"
+				},
+				{
+					"name": "adhesion"
+				},
+				{
+					"name": "adhesion agent"
+				},
+				{
+					"name": "adhesion factor"
+				},
+				{
+					"name": "adhesion stress"
+				},
+				{
+					"name": "adhesive"
+				},
+				{
+					"name": "adhesive ability"
+				},
+				{
+					"name": "adhesive failure"
+				},
+				{
+					"name": "adhesive force"
+				},
+				{
+					"name": "adhesive power"
+				},
+				{
+					"name": "adhesiveness"
+				},
+				{
+					"name": "adiabatic cooling"
+				},
+				{
+					"name": "adiabatic curing"
+				},
+				{
+					"name": "adit opening"
+				},
+				{
+					"name": "adjacent accommodation"
+				},
+				{
+					"name": "adjacent of window"
+				},
+				{
+					"name": "adjoining building"
+				},
+				{
+					"name": "adjustable ball hinge"
+				},
+				{
+					"name": "adjustable grille"
+				},
+				{
+					"name": "adjustable spanner"
+				},
+				{
+					"name": "adjustable wrench"
+				},
+				{
+					"name": "adjusted net fill"
+				},
+				{
+					"name": "adjuster"
+				},
+				{
+					"name": "adjuster for window"
+				},
+				{
+					"name": "adjusting device"
+				},
+				{
+					"name": "adjusting valve"
+				},
+				{
+					"name": "adjusting wedge"
+				},
+				{
+					"name": "adjustment"
+				},
+				{
+					"name": "adjustment of mixture"
+				},
+				{
+					"name": "administration building"
+				},
+				{
+					"name": "admissible concentration"
+				},
+				{
+					"name": "admissible value"
+				},
+				{
+					"name": "admission pipe"
+				},
+				{
+					"name": "admission valve"
+				},
+				{
+					"name": "admixture"
+				},
+				{
+					"name": "admixture effects"
+				},
+				{
+					"name": "adobe brick"
+				},
+				{
+					"name": "adobe construction"
+				},
+				{
+					"name": "adsorbate"
+				},
+				{
+					"name": "adsorbed water"
+				},
+				{
+					"name": "adsorbent"
+				},
+				{
+					"name": "adsorption"
+				},
+				{
+					"name": "adverse slope"
+				},
+				{
+					"name": "advisory engineer"
+				},
+				{
+					"name": "adz"
+				},
+				{
+					"name": "ae concret"
+				},
+				{
+					"name": "aerated cement block"
+				},
+				{
+					"name": "aerated concrete"
+				},
+				{
+					"name": "aerated spillway"
+				},
+				{
+					"name": "aeration"
+				},
+				{
+					"name": "aeration basin"
+				},
+				{
+					"name": "aeration skylight"
+				},
+				{
+					"name": "aeration tank"
+				},
+				{
+					"name": "aerial cableway"
+				},
+				{
+					"name": "aerial mast"
+				},
+				{
+					"name": "aerial pipe crossing"
+				},
+				{
+					"name": "aerial survey"
+				},
+				{
+					"name": "aerobic treatment"
+				},
+				{
+					"name": "aerocrete"
+				},
+				{
+					"name": "aerodrome"
+				},
+				{
+					"name": "aerodynamic instability"
+				},
+				{
+					"name": "aerodynamic resistance"
+				},
+				{
+					"name": "aerofilter"
+				},
+				{
+					"name": "aerograph"
+				},
+				{
+					"name": "aeroport"
+				},
+				{
+					"name": "aerosol paint"
+				},
+				{
+					"name": "afflux"
+				},
+				{
+					"name": "afforestation construction"
+				},
+				{
+					"name": "afforestation of city"
+				},
+				{
+					"name": "after air filter"
+				},
+				{
+					"name": "after cooler"
+				},
+				{
+					"name": "after hardening"
+				},
+				{
+					"name": "after heater"
+				},
+				{
+					"name": "after purification"
+				},
+				{
+					"name": "age hardening"
+				},
+				{
+					"name": "age strength relation"
+				},
+				{
+					"name": "ageing"
+				},
+				{
+					"name": "ageing test"
+				},
+				{
+					"name": "agent"
+				},
+				{
+					"name": "agglomerate foam concrete"
+				},
+				{
+					"name": "agglomerating furnace"
+				},
+				{
+					"name": "agglomeration"
+				},
+				{
+					"name": "aggloporite"
+				},
+				{
+					"name": "aggregate"
+				},
+				{
+					"name": "aggregate base"
+				},
+				{
+					"name": "aggregate batcher"
+				},
+				{
+					"name": "aggregate batching plant"
+				},
+				{
+					"name": "aggregate bin"
+				},
+				{
+					"name": "aggregate blending"
+				},
+				{
+					"name": "aggregate cement ratio"
+				},
+				{
+					"name": "aggregate coated panel"
+				},
+				{
+					"name": "aggregate exposure"
+				},
+				{
+					"name": "aggregate gradation"
+				},
+				{
+					"name": "aggregate preparation plant"
+				},
+				{
+					"name": "aggregate production plant"
+				},
+				{
+					"name": "aggregate size"
+				},
+				{
+					"name": "aggregate weighing batcher"
+				},
+				{
+					"name": "aggregation"
+				},
+				{
+					"name": "aggressive water"
+				},
+				{
+					"name": "aging proof agent"
+				},
+				{
+					"name": "agitating truck"
+				},
+				{
+					"name": "agitation"
+				},
+				{
+					"name": "agitation tank"
+				},
+				{
+					"name": "agitator"
+				},
+				{
+					"name": "agreement"
+				},
+				{
+					"name": "agreement for construction"
+				},
+				{
+					"name": "agreement of lease"
+				},
+				{
+					"name": "agricultural buildings"
+				},
+				{
+					"name": "agricultural town"
+				},
+				{
+					"name": "agro cement batcher"
+				},
+				{
+					"name": "air blast"
+				},
+				{
+					"name": "air breakwater"
+				},
+				{
+					"name": "air brick"
+				},
+				{
+					"name": "air brush"
+				},
+				{
+					"name": "air bubble"
+				},
+				{
+					"name": "air bulking"
+				},
+				{
+					"name": "air change"
+				},
+				{
+					"name": "air change rate"
+				},
+				{
+					"name": "air channel"
+				},
+				{
+					"name": "air chimney"
+				},
+				{
+					"name": "air chute"
+				},
+				{
+					"name": "air circulation"
+				},
+				{
+					"name": "air cleaner"
+				},
+				{
+					"name": "air cock"
+				},
+				{
+					"name": "air collector"
+				},
+				{
+					"name": "air compressor"
+				},
+				{
+					"name": "air conditioned building"
+				},
+				{
+					"name": "air conditioner"
+				},
+				{
+					"name": "air conditioning"
+				},
+				{
+					"name": "air conditioning load"
+				},
+				{
+					"name": "air conditioning plant"
+				},
+				{
+					"name": "air conditioning room"
+				},
+				{
+					"name": "air conditioning unit"
+				},
+				{
+					"name": "air conditions"
+				},
+				{
+					"name": "air content"
+				},
+				{
+					"name": "air conveying"
+				},
+				{
+					"name": "air cooled condenser"
+				},
+				{
+					"name": "air cooler"
+				},
+				{
+					"name": "air cooling"
+				},
+				{
+					"name": "air curtain"
+				},
+				{
+					"name": "air damper"
+				},
+				{
+					"name": "air dehumidification"
+				},
+				{
+					"name": "air demand"
+				},
+				{
+					"name": "air detraining admixture"
+				},
+				{
+					"name": "air diffuser"
+				},
+				{
+					"name": "air diffusion"
+				},
+				{
+					"name": "air diffusion aeration"
+				},
+				{
+					"name": "air digger"
+				},
+				{
+					"name": "air discharge grille"
+				},
+				{
+					"name": "air distribution"
+				},
+				{
+					"name": "air door"
+				},
+				{
+					"name": "air draft"
+				},
+				{
+					"name": "air drain"
+				},
+				{
+					"name": "air dried lumber"
+				},
+				{
+					"name": "air drill hammer"
+				},
+				{
+					"name": "air drying"
+				},
+				{
+					"name": "air duct"
+				},
+				{
+					"name": "air entrained agent"
+				},
+				{
+					"name": "air entrained concrete"
+				},
+				{
+					"name": "air entraining admixture"
+				},
+				{
+					"name": "air entraining cement"
+				},
+				{
+					"name": "air entrainment"
+				},
+				{
+					"name": "air entrainment test"
+				},
+				{
+					"name": "air exhaust"
+				},
+				{
+					"name": "air exhaust opening"
+				},
+				{
+					"name": "air filter"
+				},
+				{
+					"name": "air filtration"
+				},
+				{
+					"name": "air float"
+				},
+				{
+					"name": "air flow"
+				},
+				{
+					"name": "air flow meter"
+				},
+				{
+					"name": "air flow switch"
+				},
+				{
+					"name": "air free concrete"
+				},
+				{
+					"name": "air gap"
+				},
+				{
+					"name": "air hammer"
+				},
+				{
+					"name": "air handling unit"
+				},
+				{
+					"name": "air hardening mortar"
+				},
+				{
+					"name": "air hardening of cement"
+				},
+				{
+					"name": "air heater"
+				},
+				{
+					"name": "air heating"
+				},
+				{
+					"name": "air hoist"
+				},
+				{
+					"name": "air humidification"
+				},
+				{
+					"name": "air humidifier"
+				},
+				{
+					"name": "air humidity"
+				},
+				{
+					"name": "air hydraulic jack"
+				},
+				{
+					"name": "air infiltration"
+				},
+				{
+					"name": "air inflow"
+				},
+				{
+					"name": "air inlet"
+				},
+				{
+					"name": "air insulation"
+				},
+				{
+					"name": "air intake shaft"
+				},
+				{
+					"name": "air jacket"
+				},
+				{
+					"name": "air leakage"
+				},
+				{
+					"name": "air leakage factor"
+				},
+				{
+					"name": "air lift"
+				},
+				{
+					"name": "air lift pump"
+				},
+				{
+					"name": "air lock"
+				},
+				{
+					"name": "air monitoring"
+				},
+				{
+					"name": "air mortar"
+				},
+				{
+					"name": "air outlet"
+				},
+				{
+					"name": "air output"
+				},
+				{
+					"name": "air permeability factor"
+				},
+				{
+					"name": "air pipe line"
+				},
+				{
+					"name": "air placed concrete"
+				},
+				{
+					"name": "air placer"
+				},
+				{
+					"name": "air placing machine"
+				},
+				{
+					"name": "air pollution control"
+				},
+				{
+					"name": "air preheater"
+				},
+				{
+					"name": "air pressure"
+				},
+				{
+					"name": "air purification"
+				},
+				{
+					"name": "air purifier"
+				},
+				{
+					"name": "air receiver"
+				},
+				{
+					"name": "air register"
+				},
+				{
+					"name": "air requirement"
+				},
+				{
+					"name": "air resistance"
+				},
+				{
+					"name": "air riveting hammer"
+				},
+				{
+					"name": "air sampling"
+				},
+				{
+					"name": "air setting refractory cement"
+				},
+				{
+					"name": "air setting refractory mortar"
+				},
+				{
+					"name": "air space ratio"
+				},
+				{
+					"name": "air supply"
+				},
+				{
+					"name": "air supply grille"
+				},
+				{
+					"name": "air supply plant"
+				},
+				{
+					"name": "air supply system"
+				},
+				{
+					"name": "air supported structure"
+				},
+				{
+					"name": "air tamper"
+				},
+				{
+					"name": "air temperature"
+				},
+				{
+					"name": "air test"
+				},
+				{
+					"name": "air throw"
+				},
+				{
+					"name": "air tight concrete"
+				},
+				{
+					"name": "air tight construction"
+				},
+				{
+					"name": "air tight door"
+				},
+				{
+					"name": "air tight seal"
+				},
+				{
+					"name": "air tight test"
+				},
+				{
+					"name": "air to air heat recovery unit"
+				},
+				{
+					"name": "air to air system"
+				},
+				{
+					"name": "air to water heat exchanger"
+				},
+				{
+					"name": "air to water system"
+				},
+				{
+					"name": "air tool"
+				},
+				{
+					"name": "air treatment"
+				},
+				{
+					"name": "air trowel"
+				},
+				{
+					"name": "air ventilator"
+				},
+				{
+					"name": "air vessel"
+				},
+				{
+					"name": "air voids"
+				},
+				{
+					"name": "air volume control"
+				},
+				{
+					"name": "air water heat pump"
+				},
+				{
+					"name": "air winch"
+				},
+				{
+					"name": "airborne noise"
+				},
+				{
+					"name": "airless spray unit"
+				},
+				{
+					"name": "airless spraying"
+				},
+				{
+					"name": "airport facilities"
+				},
+				{
+					"name": "airslide conveyor"
+				},
+				{
+					"name": "airstrip"
+				},
+				{
+					"name": "airview"
+				},
+				{
+					"name": "aisle"
+				},
+				{
+					"name": "alabaster"
+				},
+				{
+					"name": "alarm system"
+				},
+				{
+					"name": "alarming apparatus"
+				},
+				{
+					"name": "aligning"
+				},
+				{
+					"name": "alignment"
+				},
+				{
+					"name": "alkali aggregate expansion"
+				},
+				{
+					"name": "alkali discoloration"
+				},
+				{
+					"name": "alkali resistance"
+				},
+				{
+					"name": "alkali resistant glass fiber"
+				},
+				{
+					"name": "alkaline soil"
+				},
+				{
+					"name": "alkaliproof paint"
+				},
+				{
+					"name": "alkyd paint"
+				},
+				{
+					"name": "all air heat pump"
+				},
+				{
+					"name": "all air system"
+				},
+				{
+					"name": "all brick building"
+				},
+				{
+					"name": "all concrete frame"
+				},
+				{
+					"name": "all flanged tee"
+				},
+				{
+					"name": "all glass facade"
+				},
+				{
+					"name": "all in aggregate"
+				},
+				{
+					"name": "all metal building"
+				},
+				{
+					"name": "all metal construction"
+				},
+				{
+					"name": "all outside air system"
+				},
+				{
+					"name": "all position electrode"
+				},
+				{
+					"name": "all purpose excavator"
+				},
+				{
+					"name": "all purpose insulation"
+				},
+				{
+					"name": "all purpose road"
+				},
+				{
+					"name": "all purpose room"
+				},
+				{
+					"name": "all socket cross"
+				},
+				{
+					"name": "all veneer construction"
+				},
+				{
+					"name": "all welded steel structure"
+				},
+				{
+					"name": "all wood construction"
+				},
+				{
+					"name": "allege"
+				},
+				{
+					"name": "alley"
+				},
+				{
+					"name": "alligator shears"
+				},
+				{
+					"name": "alligator wrench"
+				},
+				{
+					"name": "alligatoring"
+				},
+				{
+					"name": "allowable bearing pressure"
+				},
+				{
+					"name": "allowable bearing value"
+				},
+				{
+					"name": "allowable error"
+				},
+				{
+					"name": "allowable load"
+				},
+				{
+					"name": "allowable noise level"
+				},
+				{
+					"name": "allowable pile bearing load"
+				},
+				{
+					"name": "allowable preressure"
+				},
+				{
+					"name": "allowable pressure"
+				},
+				{
+					"name": "allowable stress"
+				},
+				{
+					"name": "allowable stress design"
+				},
+				{
+					"name": "allowable stresses method"
+				},
+				{
+					"name": "allowance"
+				},
+				{
+					"name": "alloy"
+				},
+				{
+					"name": "alloy steel"
+				},
+				{
+					"name": "alluvial deposit"
+				},
+				{
+					"name": "alteration"
+				},
+				{
+					"name": "alteration work"
+				},
+				{
+					"name": "alternate bay construction"
+				},
+				{
+					"name": "alternate bending strength"
+				},
+				{
+					"name": "alternate depths"
+				},
+				{
+					"name": "alternate design"
+				},
+				{
+					"name": "alternate strength"
+				},
+				{
+					"name": "alternating bending test"
+				},
+				{
+					"name": "alternating load"
+				},
+				{
+					"name": "alternating load test"
+				},
+				{
+					"name": "alternating loading"
+				},
+				{
+					"name": "alternating stress cycle"
+				},
+				{
+					"name": "alternating stresses"
+				},
+				{
+					"name": "altitude"
+				},
+				{
+					"name": "altitude valve"
+				},
+				{
+					"name": "alumina"
+				},
+				{
+					"name": "alumina cement"
+				},
+				{
+					"name": "aluminium"
+				},
+				{
+					"name": "aluminium alloy plate"
+				},
+				{
+					"name": "aluminium alloys"
+				},
+				{
+					"name": "aluminium coated fabric"
+				},
+				{
+					"name": "aluminium coated sheet steel"
+				},
+				{
+					"name": "aluminium foil"
+				},
+				{
+					"name": "aluminium paint"
+				},
+				{
+					"name": "aluminium powder"
+				},
+				{
+					"name": "aluminium trim"
+				},
+				{
+					"name": "aluminized coating"
+				},
+				{
+					"name": "aluminizing"
+				},
+				{
+					"name": "aluminous fire brick"
+				},
+				{
+					"name": "aluminous sand"
+				},
+				{
+					"name": "amber"
+				},
+				{
+					"name": "ambetti"
+				},
+				{
+					"name": "ambient air"
+				},
+				{
+					"name": "ambient conditions"
+				},
+				{
+					"name": "ambient medium"
+				},
+				{
+					"name": "ambient noise"
+				},
+				{
+					"name": "ambient temperature"
+				},
+				{
+					"name": "amendment"
+				},
+				{
+					"name": "amenities"
+				},
+				{
+					"name": "ammonia"
+				},
+				{
+					"name": "amorphous materials"
+				},
+				{
+					"name": "amorphous structure"
+				},
+				{
+					"name": "amortization"
+				},
+				{
+					"name": "amount"
+				},
+				{
+					"name": "amount of evaporation"
+				},
+				{
+					"name": "amount of precipitation"
+				},
+				{
+					"name": "amount of rainfall"
+				},
+				{
+					"name": "ampere"
+				},
+				{
+					"name": "amphibious shovel"
+				},
+				{
+					"name": "amphibious site"
+				},
+				{
+					"name": "amphitheater"
+				},
+				{
+					"name": "amplification"
+				},
+				{
+					"name": "amplitude"
+				},
+				{
+					"name": "amplitude of ground motion"
+				},
+				{
+					"name": "amplitude of stress"
+				},
+				{
+					"name": "amplitude of vibration"
+				},
+				{
+					"name": "amusement center"
+				},
+				{
+					"name": "amusement park"
+				},
+				{
+					"name": "analyser"
+				},
+				{
+					"name": "analysis"
+				},
+				{
+					"name": "analysis by successive approximations"
+				},
+				{
+					"name": "analysis of sections"
+				},
+				{
+					"name": "analysis of structures"
+				},
+				{
+					"name": "analysis of truss joints"
+				},
+				{
+					"name": "analysis of trusses"
+				},
+				{
+					"name": "analysis of water"
+				},
+				{
+					"name": "analysis table"
+				},
+				{
+					"name": "analytic method"
+				},
+				{
+					"name": "anchor"
+				},
+				{
+					"name": "anchor bearing plate"
+				},
+				{
+					"name": "anchor block"
+				},
+				{
+					"name": "anchor bolt"
+				},
+				{
+					"name": "anchor cone"
+				},
+				{
+					"name": "anchor device"
+				},
+				{
+					"name": "anchor ice"
+				},
+				{
+					"name": "anchor male cone"
+				},
+				{
+					"name": "anchor nut"
+				},
+				{
+					"name": "anchor pile"
+				},
+				{
+					"name": "anchor plate"
+				},
+				{
+					"name": "anchor rod"
+				},
+				{
+					"name": "anchor tie"
+				},
+				{
+					"name": "anchor wall"
+				},
+				{
+					"name": "anchorage bond stress"
+				},
+				{
+					"name": "anchorage by bond"
+				},
+				{
+					"name": "anchorage device"
+				},
+				{
+					"name": "anchorage length"
+				},
+				{
+					"name": "anchorage of reinforcement"
+				},
+				{
+					"name": "anchorage pier"
+				},
+				{
+					"name": "anchorage zone"
+				},
+				{
+					"name": "anchored bulkhead"
+				},
+				{
+					"name": "anchored retaining wall"
+				},
+				{
+					"name": "anchored sheet pile wall"
+				},
+				{
+					"name": "anchored type ceramic veneer"
+				},
+				{
+					"name": "anchoring"
+				},
+				{
+					"name": "ancient architecture"
+				},
+				{
+					"name": "ancillary building"
+				},
+				{
+					"name": "ancone"
+				},
+				{
+					"name": "anechoic chamber"
+				},
+				{
+					"name": "anemograph"
+				},
+				{
+					"name": "anemometer"
+				},
+				{
+					"name": "anemoscope"
+				},
+				{
+					"name": "angle"
+				},
+				{
+					"name": "angle bar"
+				},
+				{
+					"name": "angle bead"
+				},
+				{
+					"name": "angle bending machine"
+				},
+				{
+					"name": "angle brace"
+				},
+				{
+					"name": "angle bracket"
+				},
+				{
+					"name": "angle brick"
+				},
+				{
+					"name": "angle buttress"
+				},
+				{
+					"name": "angle capital"
+				},
+				{
+					"name": "angle cleat"
+				},
+				{
+					"name": "angle clip"
+				},
+				{
+					"name": "angle collar"
+				},
+				{
+					"name": "angle fillet"
+				},
+				{
+					"name": "angle float"
+				},
+				{
+					"name": "angle hiptile"
+				},
+				{
+					"name": "angle iron"
+				},
+				{
+					"name": "angle iron frame"
+				},
+				{
+					"name": "angle joint"
+				},
+				{
+					"name": "angle lighting luminaire"
+				},
+				{
+					"name": "angle loads method"
+				},
+				{
+					"name": "angle of a roof"
+				},
+				{
+					"name": "angle of alteration"
+				},
+				{
+					"name": "angle of bank"
+				},
+				{
+					"name": "angle of bend"
+				},
+				{
+					"name": "angle of curvature"
+				},
+				{
+					"name": "angle of deviation"
+				},
+				{
+					"name": "angle of displacement"
+				},
+				{
+					"name": "angle of external friction"
+				},
+				{
+					"name": "angle of fall"
+				},
+				{
+					"name": "angle of friction"
+				},
+				{
+					"name": "angle of incidence"
+				},
+				{
+					"name": "angle of inclination"
+				},
+				{
+					"name": "angle of internal friction"
+				},
+				{
+					"name": "angle of reflection"
+				},
+				{
+					"name": "angle of refraction"
+				},
+				{
+					"name": "angle of repose"
+				},
+				{
+					"name": "angle of roof"
+				},
+				{
+					"name": "angle of rotation"
+				},
+				{
+					"name": "angle of scattering"
+				},
+				{
+					"name": "angle of shear"
+				},
+				{
+					"name": "angle of slide"
+				},
+				{
+					"name": "angle of slope"
+				},
+				{
+					"name": "angle of torsion"
+				},
+				{
+					"name": "angle post"
+				},
+				{
+					"name": "angle rafter"
+				},
+				{
+					"name": "angle tee y"
+				},
+				{
+					"name": "angle valve"
+				},
+				{
+					"name": "angledozer"
+				},
+				{
+					"name": "angular aggregate"
+				},
+				{
+					"name": "angular deformation"
+				},
+				{
+					"name": "anhydrite"
+				},
+				{
+					"name": "anhydrite cement"
+				},
+				{
+					"name": "anhydrous gypsum"
+				},
+				{
+					"name": "animal glue"
+				},
+				{
+					"name": "annex"
+				},
+				{
+					"name": "annual flood"
+				},
+				{
+					"name": "annual mean"
+				},
+				{
+					"name": "annual range of temperature"
+				},
+				{
+					"name": "annual runoff"
+				},
+				{
+					"name": "annual storage reservoir"
+				},
+				{
+					"name": "annular girder"
+				},
+				{
+					"name": "annular vault"
+				},
+				{
+					"name": "annulet"
+				},
+				{
+					"name": "anodic coating"
+				},
+				{
+					"name": "anta"
+				},
+				{
+					"name": "ante chamber"
+				},
+				{
+					"name": "antefix"
+				},
+				{
+					"name": "antenna"
+				},
+				{
+					"name": "antenna mast"
+				},
+				{
+					"name": "anteport"
+				},
+				{
+					"name": "anti drumming coating"
+				},
+				{
+					"name": "anti skinning agent"
+				},
+				{
+					"name": "anti vibration mounting"
+				},
+				{
+					"name": "anticorrosion additive"
+				},
+				{
+					"name": "anticorrosive agent"
+				},
+				{
+					"name": "anticorrosive coating"
+				},
+				{
+					"name": "anticorrosive compound"
+				},
+				{
+					"name": "anticorrosive paint"
+				},
+				{
+					"name": "anticorrosive protection"
+				},
+				{
+					"name": "antidazzle visor"
+				},
+				{
+					"name": "antifoam additive"
+				},
+				{
+					"name": "antifouling paint"
+				},
+				{
+					"name": "antifreeze admixture"
+				},
+				{
+					"name": "antinoise paint"
+				},
+				{
+					"name": "antioxidant"
+				},
+				{
+					"name": "antireflective coating"
+				},
+				{
+					"name": "antirusting agent"
+				},
+				{
+					"name": "antirusting paint"
+				},
+				{
+					"name": "antisag agent"
+				},
+				{
+					"name": "antiseepage cofferdam"
+				},
+				{
+					"name": "antiseismic construction"
+				},
+				{
+					"name": "antiseptic"
+				},
+				{
+					"name": "antiseptic paper"
+				},
+				{
+					"name": "antislip paint"
+				},
+				{
+					"name": "antisymmetrical load"
+				},
+				{
+					"name": "anvil"
+				},
+				{
+					"name": "apartment"
+				},
+				{
+					"name": "apartment area"
+				},
+				{
+					"name": "apartment building"
+				},
+				{
+					"name": "apartment hotel"
+				},
+				{
+					"name": "apartment house"
+				},
+				{
+					"name": "apartment house of corridor access"
+				},
+				{
+					"name": "aperture"
+				},
+				{
+					"name": "aperture of door"
+				},
+				{
+					"name": "aperture of window"
+				},
+				{
+					"name": "apex"
+				},
+				{
+					"name": "apex block"
+				},
+				{
+					"name": "apex stone"
+				},
+				{
+					"name": "apparatus"
+				},
+				{
+					"name": "apparent cohesion"
+				},
+				{
+					"name": "apparent density"
+				},
+				{
+					"name": "apparent elastic limit"
+				},
+				{
+					"name": "apparent elastic range"
+				},
+				{
+					"name": "appearance"
+				},
+				{
+					"name": "application consistency"
+				},
+				{
+					"name": "application life"
+				},
+				{
+					"name": "application of a force"
+				},
+				{
+					"name": "application of load"
+				},
+				{
+					"name": "application of roofing felt"
+				},
+				{
+					"name": "application of solar energy"
+				},
+				{
+					"name": "application point"
+				},
+				{
+					"name": "application techniques"
+				},
+				{
+					"name": "applied column"
+				},
+				{
+					"name": "applied load"
+				},
+				{
+					"name": "applied moment"
+				},
+				{
+					"name": "approach channel"
+				},
+				{
+					"name": "approach road"
+				},
+				{
+					"name": "approach span"
+				},
+				{
+					"name": "approximate analysis"
+				},
+				{
+					"name": "appurtenances"
+				},
+				{
+					"name": "apron"
+				},
+				{
+					"name": "apron wall"
+				},
+				{
+					"name": "aquatorium"
+				},
+				{
+					"name": "aqueduct"
+				},
+				{
+					"name": "aquifer"
+				},
+				{
+					"name": "arabesque"
+				},
+				{
+					"name": "arc"
+				},
+				{
+					"name": "arc boutant"
+				},
+				{
+					"name": "arc welding"
+				},
+				{
+					"name": "arcade"
+				},
+				{
+					"name": "arch"
+				},
+				{
+					"name": "arch abutment"
+				},
+				{
+					"name": "arch apex"
+				},
+				{
+					"name": "arch bar"
+				},
+				{
+					"name": "arch block"
+				},
+				{
+					"name": "arch brick"
+				},
+				{
+					"name": "arch bridge"
+				},
+				{
+					"name": "arch buttress"
+				},
+				{
+					"name": "arch camber"
+				},
+				{
+					"name": "arch center"
+				},
+				{
+					"name": "arch covering"
+				},
+				{
+					"name": "arch dam"
+				},
+				{
+					"name": "arch door"
+				},
+				{
+					"name": "arch falsework"
+				},
+				{
+					"name": "arch gravity dam"
+				},
+				{
+					"name": "arch key"
+				},
+				{
+					"name": "arch of triumph"
+				},
+				{
+					"name": "arch stone"
+				},
+				{
+					"name": "arch structure"
+				},
+				{
+					"name": "arch thrust"
+				},
+				{
+					"name": "arch truss"
+				},
+				{
+					"name": "arch without articulation"
+				},
+				{
+					"name": "arched barrel roof"
+				},
+				{
+					"name": "arched beam"
+				},
+				{
+					"name": "arched ceiling"
+				},
+				{
+					"name": "arched floor"
+				},
+				{
+					"name": "arched girder"
+				},
+				{
+					"name": "arched retaining wall"
+				},
+				{
+					"name": "arched roof"
+				},
+				{
+					"name": "arched spillway"
+				},
+				{
+					"name": "arched window"
+				},
+				{
+					"name": "architect"
+				},
+				{
+					"name": "architect"
+				},
+				{
+					"name": "architectonics"
+				},
+				{
+					"name": "architects association"
+				},
+				{
+					"name": "architectural acoustics"
+				},
+				{
+					"name": "architectural appearance"
+				},
+				{
+					"name": "architectural bronze"
+				},
+				{
+					"name": "architectural coating"
+				},
+				{
+					"name": "architectural complex"
+				},
+				{
+					"name": "architectural composition"
+				},
+				{
+					"name": "architectural concept"
+				},
+				{
+					"name": "architectural concrete"
+				},
+				{
+					"name": "architectural conservation"
+				},
+				{
+					"name": "architectural construction"
+				},
+				{
+					"name": "architectural constructional materials"
+				},
+				{
+					"name": "architectural decoration"
+				},
+				{
+					"name": "architectural design"
+				},
+				{
+					"name": "architectural drawing"
+				},
+				{
+					"name": "architectural engineering"
+				},
+				{
+					"name": "architectural finish"
+				},
+				{
+					"name": "architectural garden"
+				},
+				{
+					"name": "architectural hardware"
+				},
+				{
+					"name": "architectural lighting"
+				},
+				{
+					"name": "architectural monument"
+				},
+				{
+					"name": "architectural order"
+				},
+				{
+					"name": "architectural park"
+				},
+				{
+					"name": "architectural pattern"
+				},
+				{
+					"name": "architectural planning"
+				},
+				{
+					"name": "architectural space"
+				},
+				{
+					"name": "architectural surface"
+				},
+				{
+					"name": "architectural terra cotta"
+				},
+				{
+					"name": "architectural volume"
+				},
+				{
+					"name": "architecture"
+				},
+				{
+					"name": "archives"
+				},
+				{
+					"name": "archway"
+				},
+				{
+					"name": "arcuated architecture"
+				},
+				{
+					"name": "area"
+				},
+				{
+					"name": "area method"
+				},
+				{
+					"name": "area of construction"
+				},
+				{
+					"name": "area of force"
+				},
+				{
+					"name": "area of moments"
+				},
+				{
+					"name": "area of pile head"
+				},
+				{
+					"name": "area of rivet shaft"
+				},
+				{
+					"name": "area of section"
+				},
+				{
+					"name": "area of steel"
+				},
+				{
+					"name": "area of structure"
+				},
+				{
+					"name": "arenaceous sand"
+				},
+				{
+					"name": "areometer"
+				},
+				{
+					"name": "argillaceous limestone"
+				},
+				{
+					"name": "argillaceous rocks"
+				},
+				{
+					"name": "argillite"
+				},
+				{
+					"name": "argillization"
+				},
+				{
+					"name": "argon arc welding"
+				},
+				{
+					"name": "arid climate"
+				},
+				{
+					"name": "arm"
+				},
+				{
+					"name": "armature"
+				},
+				{
+					"name": "armed beam"
+				},
+				{
+					"name": "armor hose"
+				},
+				{
+					"name": "armor plate"
+				},
+				{
+					"name": "armored cable"
+				},
+				{
+					"name": "armored concrete"
+				},
+				{
+					"name": "armored concrete floor"
+				},
+				{
+					"name": "armored concrete slab"
+				},
+				{
+					"name": "armored glass"
+				},
+				{
+					"name": "armored plywood"
+				},
+				{
+					"name": "armored wood"
+				},
+				{
+					"name": "arrangement"
+				},
+				{
+					"name": "arrangement of beams"
+				},
+				{
+					"name": "arrangement of block"
+				},
+				{
+					"name": "arrangement of reinforcement"
+				},
+				{
+					"name": "arrester"
+				},
+				{
+					"name": "arriere voussure"
+				},
+				{
+					"name": "arris"
+				},
+				{
+					"name": "arris hiptile"
+				},
+				{
+					"name": "arris of slab"
+				},
+				{
+					"name": "arris rail"
+				},
+				{
+					"name": "arrow diagram"
+				},
+				{
+					"name": "art"
+				},
+				{
+					"name": "art gallery"
+				},
+				{
+					"name": "art museum"
+				},
+				{
+					"name": "art of building"
+				},
+				{
+					"name": "arterial drain"
+				},
+				{
+					"name": "arterial road"
+				},
+				{
+					"name": "artesian head"
+				},
+				{
+					"name": "artesian well"
+				},
+				{
+					"name": "articulated boom"
+				},
+				{
+					"name": "articulated connection"
+				},
+				{
+					"name": "articulated hinge concrete"
+				},
+				{
+					"name": "articulated system"
+				},
+				{
+					"name": "artificial ageing"
+				},
+				{
+					"name": "artificial aggregate"
+				},
+				{
+					"name": "artificial caoutchouc"
+				},
+				{
+					"name": "artificial climate room"
+				},
+				{
+					"name": "artificial daylight"
+				},
+				{
+					"name": "artificial fiber"
+				},
+				{
+					"name": "artificial illumination"
+				},
+				{
+					"name": "artificial lake"
+				},
+				{
+					"name": "artificial leather"
+				},
+				{
+					"name": "artificial light weight aggregate concrete"
+				},
+				{
+					"name": "artificial marble"
+				},
+				{
+					"name": "artificial seasoning"
+				},
+				{
+					"name": "artificial stone"
+				},
+				{
+					"name": "artificial ventilation"
+				},
+				{
+					"name": "artificial weathering"
+				},
+				{
+					"name": "as built drawings"
+				},
+				{
+					"name": "as dug gravel"
+				},
+				{
+					"name": "as mixed concrete"
+				},
+				{
+					"name": "as placed concrete"
+				},
+				{
+					"name": "asbestos"
+				},
+				{
+					"name": "asbestos base asphalt felt"
+				},
+				{
+					"name": "asbestos base asphalt paper"
+				},
+				{
+					"name": "asbestos blanket"
+				},
+				{
+					"name": "asbestos board"
+				},
+				{
+					"name": "asbestos cement"
+				},
+				{
+					"name": "asbestos cement cladding"
+				},
+				{
+					"name": "asbestos cement form board"
+				},
+				{
+					"name": "asbestos cement pipe"
+				},
+				{
+					"name": "asbestos cement sheet"
+				},
+				{
+					"name": "asbestos cloth"
+				},
+				{
+					"name": "asbestos felt"
+				},
+				{
+					"name": "asbestos fiber"
+				},
+				{
+					"name": "asbestos fire curtain"
+				},
+				{
+					"name": "asbestos millboard"
+				},
+				{
+					"name": "asbestos mortar"
+				},
+				{
+					"name": "asbestos packing"
+				},
+				{
+					"name": "asbestos plaster"
+				},
+				{
+					"name": "asbestos shingle"
+				},
+				{
+					"name": "aseismatic construction"
+				},
+				{
+					"name": "aseismic design"
+				},
+				{
+					"name": "aseismic joint"
+				},
+				{
+					"name": "aseismic structures"
+				},
+				{
+					"name": "aseptic condition"
+				},
+				{
+					"name": "ash concrete"
+				},
+				{
+					"name": "ash removal"
+				},
+				{
+					"name": "ashlar"
+				},
+				{
+					"name": "ashlar brick"
+				},
+				{
+					"name": "ashlar facing"
+				},
+				{
+					"name": "ashlar masonry"
+				},
+				{
+					"name": "ashlar stone facing"
+				},
+				{
+					"name": "ashlar work"
+				},
+				{
+					"name": "ashlaring"
+				},
+				{
+					"name": "ashpit"
+				},
+				{
+					"name": "aspect ratio"
+				},
+				{
+					"name": "asphalt"
+				},
+				{
+					"name": "asphalt asbestos"
+				},
+				{
+					"name": "asphalt base course"
+				},
+				{
+					"name": "asphalt binder course"
+				},
+				{
+					"name": "asphalt cement"
+				},
+				{
+					"name": "asphalt coating compound"
+				},
+				{
+					"name": "asphalt concrete"
+				},
+				{
+					"name": "asphalt concrete base"
+				},
+				{
+					"name": "asphalt concrete pavement"
+				},
+				{
+					"name": "asphalt covering"
+				},
+				{
+					"name": "asphalt cutter"
+				},
+				{
+					"name": "asphalt emulsion"
+				},
+				{
+					"name": "asphalt floor"
+				},
+				{
+					"name": "asphalt heater"
+				},
+				{
+					"name": "asphalt inntermediate course"
+				},
+				{
+					"name": "asphalt joint filler"
+				},
+				{
+					"name": "asphalt levelling course"
+				},
+				{
+					"name": "asphalt macadam"
+				},
+				{
+					"name": "asphalt mastic"
+				},
+				{
+					"name": "asphalt membrane"
+				},
+				{
+					"name": "asphalt mortar"
+				},
+				{
+					"name": "asphalt overlay"
+				},
+				{
+					"name": "asphalt paint"
+				},
+				{
+					"name": "asphalt paper"
+				},
+				{
+					"name": "asphalt pavement structure"
+				},
+				{
+					"name": "asphalt prime coat"
+				},
+				{
+					"name": "asphalt primer"
+				},
+				{
+					"name": "asphalt road"
+				},
+				{
+					"name": "asphalt seal coat"
+				},
+				{
+					"name": "asphalt soil stabilization"
+				},
+				{
+					"name": "asphalt tile"
+				},
+				{
+					"name": "asphalt varnish"
+				},
+				{
+					"name": "asphalt wearing course"
+				},
+				{
+					"name": "asphaltic cement concrete"
+				},
+				{
+					"name": "asphaltic felt"
+				},
+				{
+					"name": "asphalting"
+				},
+				{
+					"name": "asphaltum"
+				},
+				{
+					"name": "aspiration pipe"
+				},
+				{
+					"name": "assemblage"
+				},
+				{
+					"name": "assembler"
+				},
+				{
+					"name": "assembling"
+				},
+				{
+					"name": "assembling area"
+				},
+				{
+					"name": "assembling bolt"
+				},
+				{
+					"name": "assembling department"
+				},
+				{
+					"name": "assembling drawing"
+				},
+				{
+					"name": "assembling floor"
+				},
+				{
+					"name": "assembling tool"
+				},
+				{
+					"name": "assembling work"
+				},
+				{
+					"name": "assembly line"
+				},
+				{
+					"name": "assembly parts"
+				},
+				{
+					"name": "assembly room"
+				},
+				{
+					"name": "assembly stand"
+				},
+				{
+					"name": "assembly workshop"
+				},
+				{
+					"name": "assize"
+				},
+				{
+					"name": "assumed load"
+				},
+				{
+					"name": "asymmetric structure"
+				},
+				{
+					"name": "asymmetrically placed load"
+				},
+				{
+					"name": "asymmetry"
+				},
+				{
+					"name": "at grade intersection"
+				},
+				{
+					"name": "at rest earth pressure coefficient"
+				},
+				{
+					"name": "athletic field"
+				},
+				{
+					"name": "athletic ground"
+				},
+				{
+					"name": "atlantes"
+				},
+				{
+					"name": "atmosphere"
+				},
+				{
+					"name": "atmosphere absorption"
+				},
+				{
+					"name": "atmospheric condenser"
+				},
+				{
+					"name": "atmospheric monitoring"
+				},
+				{
+					"name": "atmospheric pressure"
+				},
+				{
+					"name": "atmospheric radiation"
+				},
+				{
+					"name": "atmospheric steam curing"
+				},
+				{
+					"name": "atomic blast excavation"
+				},
+				{
+					"name": "atomic hydrogen welding"
+				},
+				{
+					"name": "atomic power station"
+				},
+				{
+					"name": "atomic reactor"
+				},
+				{
+					"name": "atomic reactor containment structure"
+				},
+				{
+					"name": "atomization"
+				},
+				{
+					"name": "atomization mechanism"
+				},
+				{
+					"name": "atomizer"
+				},
+				{
+					"name": "atomizing"
+				},
+				{
+					"name": "atomizing application"
+				},
+				{
+					"name": "atrium"
+				},
+				{
+					"name": "attached column"
+				},
+				{
+					"name": "attached garage"
+				},
+				{
+					"name": "attenuation"
+				},
+				{
+					"name": "attenuation factor"
+				},
+				{
+					"name": "atterberg test"
+				},
+				{
+					"name": "attic"
+				},
+				{
+					"name": "attic floor"
+				},
+				{
+					"name": "attic room"
+				},
+				{
+					"name": "attic tank"
+				},
+				{
+					"name": "attic window"
+				},
+				{
+					"name": "attracting groyne"
+				},
+				{
+					"name": "attraction"
+				},
+				{
+					"name": "attrition"
+				},
+				{
+					"name": "auditorium"
+				},
+				{
+					"name": "auger"
+				},
+				{
+					"name": "auger backfiller"
+				},
+				{
+					"name": "augered pile"
+				},
+				{
+					"name": "autoclave"
+				},
+				{
+					"name": "autoclaved aerated concrete"
+				},
+				{
+					"name": "autoclaved cement"
+				},
+				{
+					"name": "autoclaved concrete product"
+				},
+				{
+					"name": "autoclaved light weight concrete"
+				},
+				{
+					"name": "autoclaving"
+				},
+				{
+					"name": "autoclaving cycle"
+				},
+				{
+					"name": "autocrane"
+				},
+				{
+					"name": "autogenous curing"
+				},
+				{
+					"name": "autogenous cutting machine"
+				},
+				{
+					"name": "autogenous healing of concrete"
+				},
+				{
+					"name": "autogenous shrinkage"
+				},
+				{
+					"name": "autogenous volume change"
+				},
+				{
+					"name": "autogenous welding"
+				},
+				{
+					"name": "autoloader"
+				},
+				{
+					"name": "automatic air conditioning"
+				},
+				{
+					"name": "automatic air valve"
+				},
+				{
+					"name": "automatic arc welding machine"
+				},
+				{
+					"name": "automatic batcher"
+				},
+				{
+					"name": "automatic boiler"
+				},
+				{
+					"name": "automatic closing device"
+				},
+				{
+					"name": "automatic closing door"
+				},
+				{
+					"name": "automatic control valve"
+				},
+				{
+					"name": "automatic cutting off table"
+				},
+				{
+					"name": "automatic damping batcher scale"
+				},
+				{
+					"name": "automatic design"
+				},
+				{
+					"name": "automatic detection"
+				},
+				{
+					"name": "automatic device"
+				},
+				{
+					"name": "automatic door"
+				},
+				{
+					"name": "automatic door operator"
+				},
+				{
+					"name": "automatic electric door opener"
+				},
+				{
+					"name": "automatic elevator"
+				},
+				{
+					"name": "automatic fire alarm system"
+				},
+				{
+					"name": "automatic fire door"
+				},
+				{
+					"name": "automatic fire protection system"
+				},
+				{
+					"name": "automatic fire pump"
+				},
+				{
+					"name": "automatic flushing cistern"
+				},
+				{
+					"name": "automatic gas fired water heater"
+				},
+				{
+					"name": "automatic gate"
+				},
+				{
+					"name": "automatic heating"
+				},
+				{
+					"name": "automatic opener"
+				},
+				{
+					"name": "automatic oxygen cutting"
+				},
+				{
+					"name": "automatic return of water"
+				},
+				{
+					"name": "automatic return trap"
+				},
+				{
+					"name": "automatic siphon"
+				},
+				{
+					"name": "automatic smoke detector"
+				},
+				{
+					"name": "automatic sprinkler system"
+				},
+				{
+					"name": "automatic weigher"
+				},
+				{
+					"name": "automatic weir"
+				},
+				{
+					"name": "automatic welding machine"
+				},
+				{
+					"name": "automation"
+				},
+				{
+					"name": "automobile"
+				},
+				{
+					"name": "automobile crane"
+				},
+				{
+					"name": "autonomous city"
+				},
+				{
+					"name": "autonomous house"
+				},
+				{
+					"name": "autosilo"
+				},
+				{
+					"name": "autostacker"
+				},
+				{
+					"name": "autostrada"
+				},
+				{
+					"name": "autumn"
+				},
+				{
+					"name": "auxiliary bridge"
+				},
+				{
+					"name": "auxiliary hoist"
+				},
+				{
+					"name": "auxiliary prestressing"
+				},
+				{
+					"name": "auxiliary rafter"
+				},
+				{
+					"name": "auxiliary reinforcement"
+				},
+				{
+					"name": "auxiliary stairs"
+				},
+				{
+					"name": "auxiliary structure"
+				},
+				{
+					"name": "avalanche"
+				},
+				{
+					"name": "avalanche baffle wall"
+				},
+				{
+					"name": "avalanche load"
+				},
+				{
+					"name": "avalanche protection dike"
+				},
+				{
+					"name": "avalanche protection works"
+				},
+				{
+					"name": "avant corps"
+				},
+				{
+					"name": "avenue"
+				},
+				{
+					"name": "average annual rainfall"
+				},
+				{
+					"name": "average bond stress"
+				},
+				{
+					"name": "average error"
+				},
+				{
+					"name": "average flow"
+				},
+				{
+					"name": "average grade"
+				},
+				{
+					"name": "average load"
+				},
+				{
+					"name": "average temperature"
+				},
+				{
+					"name": "averge illumination"
+				},
+				{
+					"name": "awakened cement"
+				},
+				{
+					"name": "awakened concrete"
+				},
+				{
+					"name": "awl"
+				},
+				{
+					"name": "awning"
+				},
+				{
+					"name": "awning blind"
+				},
+				{
+					"name": "awning window"
+				},
+				{
+					"name": "axe"
+				},
+				{
+					"name": "axed work"
+				},
+				{
+					"name": "axhammer"
+				},
+				{
+					"name": "axia strain"
+				},
+				{
+					"name": "axial compression"
+				},
+				{
+					"name": "axial deformation"
+				},
+				{
+					"name": "axial flow fan"
+				},
+				{
+					"name": "axial force diagram"
+				},
+				{
+					"name": "axial load"
+				},
+				{
+					"name": "axial moment of inertia"
+				},
+				{
+					"name": "axial prestressing"
+				},
+				{
+					"name": "axial restraint"
+				},
+				{
+					"name": "axial section"
+				},
+				{
+					"name": "axial stress"
+				},
+				{
+					"name": "axial tension"
+				},
+				{
+					"name": "axial tensioning"
+				},
+				{
+					"name": "axis"
+				},
+				{
+					"name": "axis of abscissas"
+				},
+				{
+					"name": "axis of gravity"
+				},
+				{
+					"name": "axis of ordinates"
+				},
+				{
+					"name": "axis of projection"
+				},
+				{
+					"name": "axis of rotation"
+				},
+				{
+					"name": "axis of symmetry"
+				},
+				{
+					"name": "axisymmetrical loading"
+				},
+				{
+					"name": "axle load"
+				},
+				{
+					"name": "axonometric projection"
+				},
+				{
+					"name": "axonometric view"
+				},
+				{
+					"name": "azimuth"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"back",
-				"back arch",
-				"back elevation",
-				"back facade",
-				"back painting",
-				"back pressure",
-				"back saw",
-				"back siphonage",
-				"back square",
-				"back surge",
-				"back to back houses",
-				"back up block",
-				"back up wall",
-				"back view",
-				"back water",
-				"backbone",
-				"backer board",
-				"backfill",
-				"backfill compactor",
-				"backflow barrier",
-				"background heating",
-				"background noise level",
-				"backhoe pullshovel",
-				"backhoe shovel",
-				"backhouse",
-				"backing brick",
-				"backing coat",
-				"backplastered construction",
-				"backstay anchor",
-				"backwater jump",
-				"backwater structure",
-				"backyard",
-				"bacteria bed",
-				"bacteria filter",
-				"badger",
-				"badger plane",
-				"badigeon",
-				"baffle beam",
-				"baffle diffuser",
-				"baffle paint",
-				"baffle pier",
-				"baffle plate",
-				"baffle wall",
-				"bag cleaning device",
-				"bag conveyor",
-				"bag dam",
-				"bag filter",
-				"bag of cement",
-				"baggage elevator",
-				"bagwork",
-				"bail handle",
-				"baked brick",
-				"baked enamel finish",
-				"bakelite cement",
-				"baking",
-				"balance",
-				"balance pressure",
-				"balance storage",
-				"balanced cantilever method",
-				"balanced construction of plywood",
-				"balanced draught",
-				"balanced earthworks",
-				"balanced erection",
-				"balanced flue",
-				"balanced flue heater",
-				"balanced gate",
-				"balanced load",
-				"balanced moment",
-				"balanced reinforcement",
-				"balanced ventilation system",
-				"balancing",
-				"balancing of stresses",
-				"balancing reservoir",
-				"balcony",
-				"balcony door",
-				"balcony exterior exit",
-				"balcony slab",
-				"balcony window",
-				"balk",
-				"ball",
-				"ball bearing",
-				"ball clay",
-				"ball grinder",
-				"ball joint",
-				"ball jointed rocker bearing",
-				"ball lock",
-				"ball mill",
-				"ball room",
-				"ball test",
-				"ball valve",
-				"ballast",
-				"ballast concrete",
-				"ballast covering",
-				"ballast crusher",
-				"ballast pit",
-				"balloon frame construction",
-				"baluster",
-				"baluster of a staircase",
-				"balustrade",
-				"bamboo concrete",
-				"bamboo filament",
-				"band",
-				"band better lumber",
-				"band chain",
-				"band filter",
-				"band iron",
-				"band saw",
-				"band screen",
-				"bandstand",
-				"bank",
-				"bank measure",
-				"bank protection dam",
-				"bank protection structure",
-				"bank protection work",
-				"bank revetment",
-				"bank run gravel",
-				"bank sloping",
-				"banked up water level",
-				"bankhead",
-				"banking",
-				"banquet room",
-				"banquette",
-				"bar",
-				"bar arrangement drawing",
-				"bar bender",
-				"bar bending machine",
-				"bar cropping machine",
-				"bar cross section",
-				"bar cutter",
-				"bar frame",
-				"bar grizzly",
-				"bar list",
-				"bar slope",
-				"bar spacers",
-				"bar spacing",
-				"bar stress",
-				"bar system",
-				"barbed nail",
-				"bark",
-				"barn",
-				"barrack",
-				"barrack for dwelling",
-				"barrage",
-				"barrage power station",
-				"barrel",
-				"barrel of cement",
-				"barrel roof",
-				"barrel theory",
-				"barrel vault",
-				"barricade",
-				"barricade lantern",
-				"barrier railings",
-				"barrier shielding",
-				"barrier wall",
-				"barrow",
-				"barrow run",
-				"basalt sand",
-				"bascule bridge",
-				"base",
-				"base bid",
-				"base coat",
-				"base course",
-				"base flow",
-				"base line",
-				"base of a column",
-				"base plate",
-				"base wall",
-				"baseboard",
-				"baseboard heating",
-				"baseboard radiator",
-				"basement",
-				"basement extension",
-				"basement floor",
-				"basement house",
-				"basement wall",
-				"basic brick",
-				"basic design",
-				"basic floor area",
-				"basic funds",
-				"basic hydrologic data",
-				"basic items of work",
-				"basic load",
-				"basic production cost",
-				"basilica",
-				"basin",
-				"basin for shipping",
-				"basin lock",
-				"basket handle arch",
-				"basque",
-				"bat",
-				"batch",
-				"batch box",
-				"batch counter",
-				"batch feeder",
-				"batch heater",
-				"batch mixer",
-				"batch of concrete",
-				"batch of mortar",
-				"batch weights",
-				"batched water",
-				"batcher",
-				"batching by volume",
-				"batching cycle",
-				"batching tower",
-				"batchmeter",
-				"batchmeter control",
-				"bath",
-				"bath house",
-				"bath trap",
-				"bathing beach",
-				"bathroom",
-				"bathroom equipment",
-				"bathroom tile",
-				"batten",
-				"batten cleat",
-				"batten door",
-				"batten plates",
-				"batter",
-				"batter pile",
-				"battering",
-				"battery cyclon",
-				"battery garages",
-				"baudelot cooler",
-				"baudelot evaporator",
-				"bauge",
-				"bay",
-				"bay bridge",
-				"bay window",
-				"beacon",
-				"bead plane",
-				"beam",
-				"beam anchorage",
-				"beam and girder construction",
-				"beam and girder framing",
-				"beam and girder slab",
-				"beam and slab floor",
-				"beam aperture",
-				"beam bottom",
-				"beam calculation",
-				"beam ceiling",
-				"beam column connection",
-				"beam construction",
-				"beam deflection",
-				"beam deflexion",
-				"beam design formula",
-				"beam flanges out of square",
-				"beam forms",
-				"beam grid",
-				"beam grillage",
-				"beam hangers",
-				"beam on elastic foundation",
-				"beam sides",
-				"beam steel",
-				"beam to beam connection",
-				"beam to beam moment connection",
-				"beam to column connection",
-				"beam vibrator",
-				"beam with overhangs",
-				"beamless slab construction",
-				"bearable load",
-				"bearer",
-				"bearing",
-				"bearing bar",
-				"bearing bed",
-				"bearing block",
-				"bearing capacity",
-				"bearing carrier",
-				"bearing course",
-				"bearing length",
-				"bearing partition",
-				"bearing pile",
-				"bearing plate",
-				"bearing pressure",
-				"bearing stress",
-				"bearing structure",
-				"bearing support",
-				"bearing surface",
-				"bearing test",
-				"bearing wall",
-				"bearing wall construction",
-				"beaumontage",
-				"beautification",
-				"beauty",
-				"beauty parlour",
-				"bed",
-				"bed and joint width",
-				"bed closet",
-				"bed groin",
-				"bed joint",
-				"bed load trap",
-				"bed mortar",
-				"bed of brick",
-				"bed of mortar",
-				"bed of sand",
-				"bed plate",
-				"bed plate foundation",
-				"bed roughness",
-				"bed scour",
-				"bedding value",
-				"bedroom",
-				"bedroom furniture",
-				"bedside cabinet",
-				"behavior in service",
-				"behavior of structure",
-				"bell",
-				"bell end",
-				"bell mouth",
-				"bell tower",
-				"belled out pile",
-				"belled up pile",
-				"bellow framed door",
-				"bellows seal",
-				"below ground tank",
-				"belt conveyor",
-				"belt course",
-				"belt stress",
-				"belt type bucket elevator",
-				"belt type concrete placer",
-				"belt type water strainer",
-				"bench mark",
-				"bench test",
-				"bend",
-				"bend test",
-				"bending",
-				"bending analysis",
-				"bending bench",
-				"bending failure",
-				"bending line",
-				"bending machine",
-				"bending moment",
-				"bending moment coefficients",
-				"bending moment diagram",
-				"bending point",
-				"bending press",
-				"bending schedule",
-				"bending strength",
-				"bending stress",
-				"bending tensile test",
-				"bending theory",
-				"bent bar anchorage",
-				"bent frame",
-				"bent member",
-				"bent pipe",
-				"bent reinforcement bar",
-				"bent up bar",
-				"bentonite",
-				"bentonite mud",
-				"bentonite slurry",
-				"berm",
-				"berth",
-				"berthing facilities",
-				"betonac",
-				"bevel",
-				"bevel board",
-				"bevel siding",
-				"bevelled glass",
-				"bezantee",
-				"bi level",
-				"biaxial stress",
-				"bid",
-				"bifold door",
-				"bifurcation",
-				"big city",
-				"bilateral symmetry",
-				"bilinear diagram",
-				"bill of materials",
-				"bimoment",
-				"bin",
-				"bin type retaining wall",
-				"binder",
-				"binding material",
-				"binding of stones",
-				"binding rafter",
-				"binding reinforcement",
-				"binding wire",
-				"bio filter",
-				"biofilter",
-				"biological control",
-				"biological monitoring",
-				"biological sewage treatment",
-				"biological shielding concrete",
-				"bionical architecture",
-				"biparting door",
-				"bipod",
-				"birch",
-				"bird eye view",
-				"bishop",
-				"bitumastic",
-				"bitumastic paint",
-				"bitumastic sealer",
-				"bitumen",
-				"bitumen boiler",
-				"bitumen macadam",
-				"bitumen slip coating",
-				"bitumen tar binder",
-				"bituminated filler",
-				"bituminizing",
-				"bituminous cements",
-				"bituminous coating",
-				"bituminous concrete",
-				"bituminous felt",
-				"bituminous grout",
-				"bituminous mixing plant",
-				"bituminous plastic cement",
-				"bituminous putty",
-				"bituminous waterproofing",
-				"bivalent heat pump system",
-				"black varnish",
-				"blacksmith",
-				"blacksmith welding",
-				"blacktop",
-				"blade paddle mixer",
-				"blaine test",
-				"blank wall",
-				"blank window",
-				"blanket",
-				"blanket grouting",
-				"blast",
-				"blast area",
-				"blast coil",
-				"blast furnace",
-				"blast furnace cement",
-				"blast furnace gas",
-				"blast furnace slag",
-				"blast furnace slag aggregate",
-				"blast gate",
-				"blast hole",
-				"blast resistant construction",
-				"blasting",
-				"blasting agent",
-				"blasting cap",
-				"blasting machine",
-				"bleaching",
-				"bleaching agent",
-				"bleb",
-				"bleed pipe",
-				"bleeder valve",
-				"bleeding",
-				"blending",
-				"blending bin",
-				"blind drain",
-				"blind flange",
-				"blind hoistway",
-				"blind nailing",
-				"blind wall",
-				"blister",
-				"bloater",
-				"bloating",
-				"bloating agent",
-				"block",
-				"block construction",
-				"block cutting machine",
-				"block foundation",
-				"block house",
-				"block making machine",
-				"block mould",
-				"block of city",
-				"block paving",
-				"block plan",
-				"blockboard",
-				"blockwork",
-				"blotchy appearance",
-				"blotter coat",
-				"blow",
-				"blow bending test",
-				"blow down branch",
-				"blow gun",
-				"blow off valve",
-				"blower",
-				"blown out concrete",
-				"blueprint",
-				"blueprint drawing",
-				"blueprint paper",
-				"board and batten",
-				"board room",
-				"board type insulant",
-				"board walk",
-				"boarded partition",
-				"boasting",
-				"boatswain",
-				"bobble breakwater",
-				"body brick",
-				"body coat",
-				"body of masonry",
-				"bog drainage",
-				"boiled oil",
-				"boiler",
-				"boiler accessories",
-				"boiler brickwork",
-				"boiler efficiency",
-				"boiler evaporating surface",
-				"boiler fixture",
-				"boiler flow temperature",
-				"boiler grate",
-				"boiler heating surface",
-				"boiler house",
-				"boiler incrustation",
-				"boiler plant",
-				"boiler plate",
-				"boiler power",
-				"boiler room",
-				"boiler unit",
-				"boiler water",
-				"boiling",
-				"boiling point",
-				"boiling water method",
-				"bolt",
-				"bolt sleeve",
-				"bolted connection",
-				"bond",
-				"bond area",
-				"bond course",
-				"bond failure",
-				"bond plaster",
-				"bond strength",
-				"bond stress",
-				"bond zone",
-				"bonded gravel screen",
-				"bonded post tensioning",
-				"bonded tendons",
-				"bonder header",
-				"bonding adhesive",
-				"bonding admixture",
-				"bonding cement",
-				"bone glue",
-				"book shop",
-				"boom",
-				"boom angle",
-				"boom derrick",
-				"boom hoist",
-				"booster",
-				"booth",
-				"bootstrap system",
-				"border heating",
-				"border line",
-				"bore hole",
-				"bore pit",
-				"bore well filter",
-				"bored pile",
-				"bored well",
-				"borehole",
-				"borehole casing",
-				"borehole pump",
-				"borer holes",
-				"boring",
-				"boring machine",
-				"born city",
-				"borrow pit",
-				"borrowed light",
-				"botanical garden",
-				"bottom chord",
-				"bottom chord stress",
-				"bottom discharge opening",
-				"bottom fiber",
-				"bottom flange",
-				"bottom gate",
-				"bottom hinged ventilator",
-				"bottom intake",
-				"bottom layer of the reinforcing steel",
-				"bottom of foundation",
-				"bottom pipe distribution",
-				"bottom rail",
-				"bottom reinforcement bars",
-				"bottom sill",
-				"bottom view",
-				"boulder",
-				"boulder clay",
-				"boulder concrete",
-				"boulder foundation",
-				"boulevard",
-				"boundary",
-				"boundary action",
-				"boundary conditions",
-				"boundary force",
-				"boundary layer",
-				"boundary member",
-				"boundary stress",
-				"boundary wall",
-				"bow",
-				"bow",
-				"bow window",
-				"bowel urinal",
-				"bowlder stone",
-				"bowstring truss",
-				"box",
-				"box caisson",
-				"box column",
-				"box foundation",
-				"box frame of window",
-				"box frame type reinforced concrete construction",
-				"box framed construction",
-				"box girder",
-				"box pile",
-				"box section",
-				"box shaped module open on two sides",
-				"box stairs",
-				"box system",
-				"brace",
-				"braced arch",
-				"braced frame",
-				"braced frame construction",
-				"braced structures",
-				"bracing boom",
-				"bracket",
-				"bracket scaffolds",
-				"bracket type retaining wall",
-				"braided nylon rope",
-				"branch",
-				"brand of cement",
-				"breadth",
-				"breadth of section",
-				"breakdown test",
-				"breaker",
-				"breakfast room",
-				"breaking",
-				"breaking bending moment",
-				"breaking cross section",
-				"breaking elongation",
-				"breaking joints",
-				"breaking load",
-				"breaking plant",
-				"breaking strength",
-				"breaking stress",
-				"breaking test",
-				"breaking up",
-				"breakstone",
-				"breast",
-				"breast wall",
-				"breeching",
-				"breeze concrete",
-				"bressummer",
-				"brettis",
-				"brick",
-				"brick and brick",
-				"brick arch",
-				"brick bat",
-				"brick beam",
-				"brick cement",
-				"brick clad building",
-				"brick clay",
-				"brick concrete",
-				"brick construction",
-				"brick cutter",
-				"brick facing",
-				"brick field",
-				"brick flooring",
-				"brick foundation",
-				"brick hammer",
-				"brick jointer",
-				"brick making",
-				"brick masonry",
-				"brick nogging",
-				"brick nogging building",
-				"brick on edge",
-				"brick on end",
-				"brick on end soldier arch",
-				"brick paving",
-				"brick veneer construction",
-				"brick wall",
-				"bricklayer",
-				"brickwork",
-				"brickwork casing",
-				"bridge",
-				"bridge abutment",
-				"bridge arch",
-				"bridge construction",
-				"bridge crane",
-				"bridge crossing",
-				"bridge deck",
-				"bridge design",
-				"bridge engineering",
-				"bridge girder",
-				"bridge opening",
-				"bridge pier",
-				"bridge truss",
-				"bridgeboard",
-				"bridging",
-				"bridle wire rope sling",
-				"brightness",
-				"brikyard",
-				"brine air cooler",
-				"brittle failure",
-				"brittle fracture",
-				"brittle lacquer technique",
-				"brittleness",
-				"broad crested weir",
-				"broad flanged beam",
-				"broadstep",
-				"broken concrete",
-				"broken country",
-				"broken course",
-				"broken stone concrete",
-				"broom finish",
-				"brown coat",
-				"brush",
-				"brush mark",
-				"brush matting",
-				"brush revetment",
-				"brushed plywood",
-				"brushed surface",
-				"brushwood",
-				"brushwood mattress",
-				"brushwork",
-				"bubble",
-				"bubble breakwater",
-				"bubble concrete",
-				"bucket",
-				"bucket conveyor",
-				"bucket ladder dredge"
+				{
+					"name": "back"
+				},
+				{
+					"name": "back arch"
+				},
+				{
+					"name": "back elevation"
+				},
+				{
+					"name": "back facade"
+				},
+				{
+					"name": "back painting"
+				},
+				{
+					"name": "back pressure"
+				},
+				{
+					"name": "back saw"
+				},
+				{
+					"name": "back siphonage"
+				},
+				{
+					"name": "back square"
+				},
+				{
+					"name": "back surge"
+				},
+				{
+					"name": "back to back houses"
+				},
+				{
+					"name": "back up block"
+				},
+				{
+					"name": "back up wall"
+				},
+				{
+					"name": "back view"
+				},
+				{
+					"name": "back water"
+				},
+				{
+					"name": "backbone"
+				},
+				{
+					"name": "backer board"
+				},
+				{
+					"name": "backfill"
+				},
+				{
+					"name": "backfill compactor"
+				},
+				{
+					"name": "backflow barrier"
+				},
+				{
+					"name": "background heating"
+				},
+				{
+					"name": "background noise level"
+				},
+				{
+					"name": "backhoe pullshovel"
+				},
+				{
+					"name": "backhoe shovel"
+				},
+				{
+					"name": "backhouse"
+				},
+				{
+					"name": "backing brick"
+				},
+				{
+					"name": "backing coat"
+				},
+				{
+					"name": "backplastered construction"
+				},
+				{
+					"name": "backstay anchor"
+				},
+				{
+					"name": "backwater jump"
+				},
+				{
+					"name": "backwater structure"
+				},
+				{
+					"name": "backyard"
+				},
+				{
+					"name": "bacteria bed"
+				},
+				{
+					"name": "bacteria filter"
+				},
+				{
+					"name": "badger"
+				},
+				{
+					"name": "badger plane"
+				},
+				{
+					"name": "badigeon"
+				},
+				{
+					"name": "baffle beam"
+				},
+				{
+					"name": "baffle diffuser"
+				},
+				{
+					"name": "baffle paint"
+				},
+				{
+					"name": "baffle pier"
+				},
+				{
+					"name": "baffle plate"
+				},
+				{
+					"name": "baffle wall"
+				},
+				{
+					"name": "bag cleaning device"
+				},
+				{
+					"name": "bag conveyor"
+				},
+				{
+					"name": "bag dam"
+				},
+				{
+					"name": "bag filter"
+				},
+				{
+					"name": "bag of cement"
+				},
+				{
+					"name": "baggage elevator"
+				},
+				{
+					"name": "bagwork"
+				},
+				{
+					"name": "bail handle"
+				},
+				{
+					"name": "baked brick"
+				},
+				{
+					"name": "baked enamel finish"
+				},
+				{
+					"name": "bakelite cement"
+				},
+				{
+					"name": "baking"
+				},
+				{
+					"name": "balance"
+				},
+				{
+					"name": "balance pressure"
+				},
+				{
+					"name": "balance storage"
+				},
+				{
+					"name": "balanced cantilever method"
+				},
+				{
+					"name": "balanced construction of plywood"
+				},
+				{
+					"name": "balanced draught"
+				},
+				{
+					"name": "balanced earthworks"
+				},
+				{
+					"name": "balanced erection"
+				},
+				{
+					"name": "balanced flue"
+				},
+				{
+					"name": "balanced flue heater"
+				},
+				{
+					"name": "balanced gate"
+				},
+				{
+					"name": "balanced load"
+				},
+				{
+					"name": "balanced moment"
+				},
+				{
+					"name": "balanced reinforcement"
+				},
+				{
+					"name": "balanced ventilation system"
+				},
+				{
+					"name": "balancing"
+				},
+				{
+					"name": "balancing of stresses"
+				},
+				{
+					"name": "balancing reservoir"
+				},
+				{
+					"name": "balcony"
+				},
+				{
+					"name": "balcony door"
+				},
+				{
+					"name": "balcony exterior exit"
+				},
+				{
+					"name": "balcony slab"
+				},
+				{
+					"name": "balcony window"
+				},
+				{
+					"name": "balk"
+				},
+				{
+					"name": "ball"
+				},
+				{
+					"name": "ball bearing"
+				},
+				{
+					"name": "ball clay"
+				},
+				{
+					"name": "ball grinder"
+				},
+				{
+					"name": "ball joint"
+				},
+				{
+					"name": "ball jointed rocker bearing"
+				},
+				{
+					"name": "ball lock"
+				},
+				{
+					"name": "ball mill"
+				},
+				{
+					"name": "ball room"
+				},
+				{
+					"name": "ball test"
+				},
+				{
+					"name": "ball valve"
+				},
+				{
+					"name": "ballast"
+				},
+				{
+					"name": "ballast concrete"
+				},
+				{
+					"name": "ballast covering"
+				},
+				{
+					"name": "ballast crusher"
+				},
+				{
+					"name": "ballast pit"
+				},
+				{
+					"name": "balloon frame construction"
+				},
+				{
+					"name": "baluster"
+				},
+				{
+					"name": "baluster of a staircase"
+				},
+				{
+					"name": "balustrade"
+				},
+				{
+					"name": "bamboo concrete"
+				},
+				{
+					"name": "bamboo filament"
+				},
+				{
+					"name": "band"
+				},
+				{
+					"name": "band better lumber"
+				},
+				{
+					"name": "band chain"
+				},
+				{
+					"name": "band filter"
+				},
+				{
+					"name": "band iron"
+				},
+				{
+					"name": "band saw"
+				},
+				{
+					"name": "band screen"
+				},
+				{
+					"name": "bandstand"
+				},
+				{
+					"name": "bank"
+				},
+				{
+					"name": "bank measure"
+				},
+				{
+					"name": "bank protection dam"
+				},
+				{
+					"name": "bank protection structure"
+				},
+				{
+					"name": "bank protection work"
+				},
+				{
+					"name": "bank revetment"
+				},
+				{
+					"name": "bank run gravel"
+				},
+				{
+					"name": "bank sloping"
+				},
+				{
+					"name": "banked up water level"
+				},
+				{
+					"name": "bankhead"
+				},
+				{
+					"name": "banking"
+				},
+				{
+					"name": "banquet room"
+				},
+				{
+					"name": "banquette"
+				},
+				{
+					"name": "bar"
+				},
+				{
+					"name": "bar arrangement drawing"
+				},
+				{
+					"name": "bar bender"
+				},
+				{
+					"name": "bar bending machine"
+				},
+				{
+					"name": "bar cropping machine"
+				},
+				{
+					"name": "bar cross section"
+				},
+				{
+					"name": "bar cutter"
+				},
+				{
+					"name": "bar frame"
+				},
+				{
+					"name": "bar grizzly"
+				},
+				{
+					"name": "bar list"
+				},
+				{
+					"name": "bar slope"
+				},
+				{
+					"name": "bar spacers"
+				},
+				{
+					"name": "bar spacing"
+				},
+				{
+					"name": "bar stress"
+				},
+				{
+					"name": "bar system"
+				},
+				{
+					"name": "barbed nail"
+				},
+				{
+					"name": "bark"
+				},
+				{
+					"name": "barn"
+				},
+				{
+					"name": "barrack"
+				},
+				{
+					"name": "barrack for dwelling"
+				},
+				{
+					"name": "barrage"
+				},
+				{
+					"name": "barrage power station"
+				},
+				{
+					"name": "barrel"
+				},
+				{
+					"name": "barrel of cement"
+				},
+				{
+					"name": "barrel roof"
+				},
+				{
+					"name": "barrel theory"
+				},
+				{
+					"name": "barrel vault"
+				},
+				{
+					"name": "barricade"
+				},
+				{
+					"name": "barricade lantern"
+				},
+				{
+					"name": "barrier railings"
+				},
+				{
+					"name": "barrier shielding"
+				},
+				{
+					"name": "barrier wall"
+				},
+				{
+					"name": "barrow"
+				},
+				{
+					"name": "barrow run"
+				},
+				{
+					"name": "basalt sand"
+				},
+				{
+					"name": "bascule bridge"
+				},
+				{
+					"name": "base"
+				},
+				{
+					"name": "base bid"
+				},
+				{
+					"name": "base coat"
+				},
+				{
+					"name": "base course"
+				},
+				{
+					"name": "base flow"
+				},
+				{
+					"name": "base line"
+				},
+				{
+					"name": "base of a column"
+				},
+				{
+					"name": "base plate"
+				},
+				{
+					"name": "base wall"
+				},
+				{
+					"name": "baseboard"
+				},
+				{
+					"name": "baseboard heating"
+				},
+				{
+					"name": "baseboard radiator"
+				},
+				{
+					"name": "basement"
+				},
+				{
+					"name": "basement extension"
+				},
+				{
+					"name": "basement floor"
+				},
+				{
+					"name": "basement house"
+				},
+				{
+					"name": "basement wall"
+				},
+				{
+					"name": "basic brick"
+				},
+				{
+					"name": "basic design"
+				},
+				{
+					"name": "basic floor area"
+				},
+				{
+					"name": "basic funds"
+				},
+				{
+					"name": "basic hydrologic data"
+				},
+				{
+					"name": "basic items of work"
+				},
+				{
+					"name": "basic load"
+				},
+				{
+					"name": "basic production cost"
+				},
+				{
+					"name": "basilica"
+				},
+				{
+					"name": "basin"
+				},
+				{
+					"name": "basin for shipping"
+				},
+				{
+					"name": "basin lock"
+				},
+				{
+					"name": "basket handle arch"
+				},
+				{
+					"name": "basque"
+				},
+				{
+					"name": "bat"
+				},
+				{
+					"name": "batch"
+				},
+				{
+					"name": "batch box"
+				},
+				{
+					"name": "batch counter"
+				},
+				{
+					"name": "batch feeder"
+				},
+				{
+					"name": "batch heater"
+				},
+				{
+					"name": "batch mixer"
+				},
+				{
+					"name": "batch of concrete"
+				},
+				{
+					"name": "batch of mortar"
+				},
+				{
+					"name": "batch weights"
+				},
+				{
+					"name": "batched water"
+				},
+				{
+					"name": "batcher"
+				},
+				{
+					"name": "batching by volume"
+				},
+				{
+					"name": "batching cycle"
+				},
+				{
+					"name": "batching tower"
+				},
+				{
+					"name": "batchmeter"
+				},
+				{
+					"name": "batchmeter control"
+				},
+				{
+					"name": "bath"
+				},
+				{
+					"name": "bath house"
+				},
+				{
+					"name": "bath trap"
+				},
+				{
+					"name": "bathing beach"
+				},
+				{
+					"name": "bathroom"
+				},
+				{
+					"name": "bathroom equipment"
+				},
+				{
+					"name": "bathroom tile"
+				},
+				{
+					"name": "batten"
+				},
+				{
+					"name": "batten cleat"
+				},
+				{
+					"name": "batten door"
+				},
+				{
+					"name": "batten plates"
+				},
+				{
+					"name": "batter"
+				},
+				{
+					"name": "batter pile"
+				},
+				{
+					"name": "battering"
+				},
+				{
+					"name": "battery cyclon"
+				},
+				{
+					"name": "battery garages"
+				},
+				{
+					"name": "baudelot cooler"
+				},
+				{
+					"name": "baudelot evaporator"
+				},
+				{
+					"name": "bauge"
+				},
+				{
+					"name": "bay"
+				},
+				{
+					"name": "bay bridge"
+				},
+				{
+					"name": "bay window"
+				},
+				{
+					"name": "beacon"
+				},
+				{
+					"name": "bead plane"
+				},
+				{
+					"name": "beam"
+				},
+				{
+					"name": "beam anchorage"
+				},
+				{
+					"name": "beam and girder construction"
+				},
+				{
+					"name": "beam and girder framing"
+				},
+				{
+					"name": "beam and girder slab"
+				},
+				{
+					"name": "beam and slab floor"
+				},
+				{
+					"name": "beam aperture"
+				},
+				{
+					"name": "beam bottom"
+				},
+				{
+					"name": "beam calculation"
+				},
+				{
+					"name": "beam ceiling"
+				},
+				{
+					"name": "beam column connection"
+				},
+				{
+					"name": "beam construction"
+				},
+				{
+					"name": "beam deflection"
+				},
+				{
+					"name": "beam deflexion"
+				},
+				{
+					"name": "beam design formula"
+				},
+				{
+					"name": "beam flanges out of square"
+				},
+				{
+					"name": "beam forms"
+				},
+				{
+					"name": "beam grid"
+				},
+				{
+					"name": "beam grillage"
+				},
+				{
+					"name": "beam hangers"
+				},
+				{
+					"name": "beam on elastic foundation"
+				},
+				{
+					"name": "beam sides"
+				},
+				{
+					"name": "beam steel"
+				},
+				{
+					"name": "beam to beam connection"
+				},
+				{
+					"name": "beam to beam moment connection"
+				},
+				{
+					"name": "beam to column connection"
+				},
+				{
+					"name": "beam vibrator"
+				},
+				{
+					"name": "beam with overhangs"
+				},
+				{
+					"name": "beamless slab construction"
+				},
+				{
+					"name": "bearable load"
+				},
+				{
+					"name": "bearer"
+				},
+				{
+					"name": "bearing"
+				},
+				{
+					"name": "bearing bar"
+				},
+				{
+					"name": "bearing bed"
+				},
+				{
+					"name": "bearing block"
+				},
+				{
+					"name": "bearing capacity"
+				},
+				{
+					"name": "bearing carrier"
+				},
+				{
+					"name": "bearing course"
+				},
+				{
+					"name": "bearing length"
+				},
+				{
+					"name": "bearing partition"
+				},
+				{
+					"name": "bearing pile"
+				},
+				{
+					"name": "bearing plate"
+				},
+				{
+					"name": "bearing pressure"
+				},
+				{
+					"name": "bearing stress"
+				},
+				{
+					"name": "bearing structure"
+				},
+				{
+					"name": "bearing support"
+				},
+				{
+					"name": "bearing surface"
+				},
+				{
+					"name": "bearing test"
+				},
+				{
+					"name": "bearing wall"
+				},
+				{
+					"name": "bearing wall construction"
+				},
+				{
+					"name": "beaumontage"
+				},
+				{
+					"name": "beautification"
+				},
+				{
+					"name": "beauty"
+				},
+				{
+					"name": "beauty parlour"
+				},
+				{
+					"name": "bed"
+				},
+				{
+					"name": "bed and joint width"
+				},
+				{
+					"name": "bed closet"
+				},
+				{
+					"name": "bed groin"
+				},
+				{
+					"name": "bed joint"
+				},
+				{
+					"name": "bed load trap"
+				},
+				{
+					"name": "bed mortar"
+				},
+				{
+					"name": "bed of brick"
+				},
+				{
+					"name": "bed of mortar"
+				},
+				{
+					"name": "bed of sand"
+				},
+				{
+					"name": "bed plate"
+				},
+				{
+					"name": "bed plate foundation"
+				},
+				{
+					"name": "bed roughness"
+				},
+				{
+					"name": "bed scour"
+				},
+				{
+					"name": "bedding value"
+				},
+				{
+					"name": "bedroom"
+				},
+				{
+					"name": "bedroom furniture"
+				},
+				{
+					"name": "bedside cabinet"
+				},
+				{
+					"name": "behavior in service"
+				},
+				{
+					"name": "behavior of structure"
+				},
+				{
+					"name": "bell"
+				},
+				{
+					"name": "bell end"
+				},
+				{
+					"name": "bell mouth"
+				},
+				{
+					"name": "bell tower"
+				},
+				{
+					"name": "belled out pile"
+				},
+				{
+					"name": "belled up pile"
+				},
+				{
+					"name": "bellow framed door"
+				},
+				{
+					"name": "bellows seal"
+				},
+				{
+					"name": "below ground tank"
+				},
+				{
+					"name": "belt conveyor"
+				},
+				{
+					"name": "belt course"
+				},
+				{
+					"name": "belt stress"
+				},
+				{
+					"name": "belt type bucket elevator"
+				},
+				{
+					"name": "belt type concrete placer"
+				},
+				{
+					"name": "belt type water strainer"
+				},
+				{
+					"name": "bench mark"
+				},
+				{
+					"name": "bench test"
+				},
+				{
+					"name": "bend"
+				},
+				{
+					"name": "bend test"
+				},
+				{
+					"name": "bending"
+				},
+				{
+					"name": "bending analysis"
+				},
+				{
+					"name": "bending bench"
+				},
+				{
+					"name": "bending failure"
+				},
+				{
+					"name": "bending line"
+				},
+				{
+					"name": "bending machine"
+				},
+				{
+					"name": "bending moment"
+				},
+				{
+					"name": "bending moment coefficients"
+				},
+				{
+					"name": "bending moment diagram"
+				},
+				{
+					"name": "bending point"
+				},
+				{
+					"name": "bending press"
+				},
+				{
+					"name": "bending schedule"
+				},
+				{
+					"name": "bending strength"
+				},
+				{
+					"name": "bending stress"
+				},
+				{
+					"name": "bending tensile test"
+				},
+				{
+					"name": "bending theory"
+				},
+				{
+					"name": "bent bar anchorage"
+				},
+				{
+					"name": "bent frame"
+				},
+				{
+					"name": "bent member"
+				},
+				{
+					"name": "bent pipe"
+				},
+				{
+					"name": "bent reinforcement bar"
+				},
+				{
+					"name": "bent up bar"
+				},
+				{
+					"name": "bentonite"
+				},
+				{
+					"name": "bentonite mud"
+				},
+				{
+					"name": "bentonite slurry"
+				},
+				{
+					"name": "berm"
+				},
+				{
+					"name": "berth"
+				},
+				{
+					"name": "berthing facilities"
+				},
+				{
+					"name": "betonac"
+				},
+				{
+					"name": "bevel"
+				},
+				{
+					"name": "bevel board"
+				},
+				{
+					"name": "bevel siding"
+				},
+				{
+					"name": "bevelled glass"
+				},
+				{
+					"name": "bezantee"
+				},
+				{
+					"name": "bi level"
+				},
+				{
+					"name": "biaxial stress"
+				},
+				{
+					"name": "bid"
+				},
+				{
+					"name": "bifold door"
+				},
+				{
+					"name": "bifurcation"
+				},
+				{
+					"name": "big city"
+				},
+				{
+					"name": "bilateral symmetry"
+				},
+				{
+					"name": "bilinear diagram"
+				},
+				{
+					"name": "bill of materials"
+				},
+				{
+					"name": "bimoment"
+				},
+				{
+					"name": "bin"
+				},
+				{
+					"name": "bin type retaining wall"
+				},
+				{
+					"name": "binder"
+				},
+				{
+					"name": "binding material"
+				},
+				{
+					"name": "binding of stones"
+				},
+				{
+					"name": "binding rafter"
+				},
+				{
+					"name": "binding reinforcement"
+				},
+				{
+					"name": "binding wire"
+				},
+				{
+					"name": "bio filter"
+				},
+				{
+					"name": "biofilter"
+				},
+				{
+					"name": "biological control"
+				},
+				{
+					"name": "biological monitoring"
+				},
+				{
+					"name": "biological sewage treatment"
+				},
+				{
+					"name": "biological shielding concrete"
+				},
+				{
+					"name": "bionical architecture"
+				},
+				{
+					"name": "biparting door"
+				},
+				{
+					"name": "bipod"
+				},
+				{
+					"name": "birch"
+				},
+				{
+					"name": "bird eye view"
+				},
+				{
+					"name": "bishop"
+				},
+				{
+					"name": "bitumastic"
+				},
+				{
+					"name": "bitumastic paint"
+				},
+				{
+					"name": "bitumastic sealer"
+				},
+				{
+					"name": "bitumen"
+				},
+				{
+					"name": "bitumen boiler"
+				},
+				{
+					"name": "bitumen macadam"
+				},
+				{
+					"name": "bitumen slip coating"
+				},
+				{
+					"name": "bitumen tar binder"
+				},
+				{
+					"name": "bituminated filler"
+				},
+				{
+					"name": "bituminizing"
+				},
+				{
+					"name": "bituminous cements"
+				},
+				{
+					"name": "bituminous coating"
+				},
+				{
+					"name": "bituminous concrete"
+				},
+				{
+					"name": "bituminous felt"
+				},
+				{
+					"name": "bituminous grout"
+				},
+				{
+					"name": "bituminous mixing plant"
+				},
+				{
+					"name": "bituminous plastic cement"
+				},
+				{
+					"name": "bituminous putty"
+				},
+				{
+					"name": "bituminous waterproofing"
+				},
+				{
+					"name": "bivalent heat pump system"
+				},
+				{
+					"name": "black varnish"
+				},
+				{
+					"name": "blacksmith"
+				},
+				{
+					"name": "blacksmith welding"
+				},
+				{
+					"name": "blacktop"
+				},
+				{
+					"name": "blade paddle mixer"
+				},
+				{
+					"name": "blaine test"
+				},
+				{
+					"name": "blank wall"
+				},
+				{
+					"name": "blank window"
+				},
+				{
+					"name": "blanket"
+				},
+				{
+					"name": "blanket grouting"
+				},
+				{
+					"name": "blast"
+				},
+				{
+					"name": "blast area"
+				},
+				{
+					"name": "blast coil"
+				},
+				{
+					"name": "blast furnace"
+				},
+				{
+					"name": "blast furnace cement"
+				},
+				{
+					"name": "blast furnace gas"
+				},
+				{
+					"name": "blast furnace slag"
+				},
+				{
+					"name": "blast furnace slag aggregate"
+				},
+				{
+					"name": "blast gate"
+				},
+				{
+					"name": "blast hole"
+				},
+				{
+					"name": "blast resistant construction"
+				},
+				{
+					"name": "blasting"
+				},
+				{
+					"name": "blasting agent"
+				},
+				{
+					"name": "blasting cap"
+				},
+				{
+					"name": "blasting machine"
+				},
+				{
+					"name": "bleaching"
+				},
+				{
+					"name": "bleaching agent"
+				},
+				{
+					"name": "bleb"
+				},
+				{
+					"name": "bleed pipe"
+				},
+				{
+					"name": "bleeder valve"
+				},
+				{
+					"name": "bleeding"
+				},
+				{
+					"name": "blending"
+				},
+				{
+					"name": "blending bin"
+				},
+				{
+					"name": "blind drain"
+				},
+				{
+					"name": "blind flange"
+				},
+				{
+					"name": "blind hoistway"
+				},
+				{
+					"name": "blind nailing"
+				},
+				{
+					"name": "blind wall"
+				},
+				{
+					"name": "blister"
+				},
+				{
+					"name": "bloater"
+				},
+				{
+					"name": "bloating"
+				},
+				{
+					"name": "bloating agent"
+				},
+				{
+					"name": "block"
+				},
+				{
+					"name": "block construction"
+				},
+				{
+					"name": "block cutting machine"
+				},
+				{
+					"name": "block foundation"
+				},
+				{
+					"name": "block house"
+				},
+				{
+					"name": "block making machine"
+				},
+				{
+					"name": "block mould"
+				},
+				{
+					"name": "block of city"
+				},
+				{
+					"name": "block paving"
+				},
+				{
+					"name": "block plan"
+				},
+				{
+					"name": "blockboard"
+				},
+				{
+					"name": "blockwork"
+				},
+				{
+					"name": "blotchy appearance"
+				},
+				{
+					"name": "blotter coat"
+				},
+				{
+					"name": "blow"
+				},
+				{
+					"name": "blow bending test"
+				},
+				{
+					"name": "blow down branch"
+				},
+				{
+					"name": "blow gun"
+				},
+				{
+					"name": "blow off valve"
+				},
+				{
+					"name": "blower"
+				},
+				{
+					"name": "blown out concrete"
+				},
+				{
+					"name": "blueprint"
+				},
+				{
+					"name": "blueprint drawing"
+				},
+				{
+					"name": "blueprint paper"
+				},
+				{
+					"name": "board and batten"
+				},
+				{
+					"name": "board room"
+				},
+				{
+					"name": "board type insulant"
+				},
+				{
+					"name": "board walk"
+				},
+				{
+					"name": "boarded partition"
+				},
+				{
+					"name": "boasting"
+				},
+				{
+					"name": "boatswain"
+				},
+				{
+					"name": "bobble breakwater"
+				},
+				{
+					"name": "body brick"
+				},
+				{
+					"name": "body coat"
+				},
+				{
+					"name": "body of masonry"
+				},
+				{
+					"name": "bog drainage"
+				},
+				{
+					"name": "boiled oil"
+				},
+				{
+					"name": "boiler"
+				},
+				{
+					"name": "boiler accessories"
+				},
+				{
+					"name": "boiler brickwork"
+				},
+				{
+					"name": "boiler efficiency"
+				},
+				{
+					"name": "boiler evaporating surface"
+				},
+				{
+					"name": "boiler fixture"
+				},
+				{
+					"name": "boiler flow temperature"
+				},
+				{
+					"name": "boiler grate"
+				},
+				{
+					"name": "boiler heating surface"
+				},
+				{
+					"name": "boiler house"
+				},
+				{
+					"name": "boiler incrustation"
+				},
+				{
+					"name": "boiler plant"
+				},
+				{
+					"name": "boiler plate"
+				},
+				{
+					"name": "boiler power"
+				},
+				{
+					"name": "boiler room"
+				},
+				{
+					"name": "boiler unit"
+				},
+				{
+					"name": "boiler water"
+				},
+				{
+					"name": "boiling"
+				},
+				{
+					"name": "boiling point"
+				},
+				{
+					"name": "boiling water method"
+				},
+				{
+					"name": "bolt"
+				},
+				{
+					"name": "bolt sleeve"
+				},
+				{
+					"name": "bolted connection"
+				},
+				{
+					"name": "bond"
+				},
+				{
+					"name": "bond area"
+				},
+				{
+					"name": "bond course"
+				},
+				{
+					"name": "bond failure"
+				},
+				{
+					"name": "bond plaster"
+				},
+				{
+					"name": "bond strength"
+				},
+				{
+					"name": "bond stress"
+				},
+				{
+					"name": "bond zone"
+				},
+				{
+					"name": "bonded gravel screen"
+				},
+				{
+					"name": "bonded post tensioning"
+				},
+				{
+					"name": "bonded tendons"
+				},
+				{
+					"name": "bonder header"
+				},
+				{
+					"name": "bonding adhesive"
+				},
+				{
+					"name": "bonding admixture"
+				},
+				{
+					"name": "bonding cement"
+				},
+				{
+					"name": "bone glue"
+				},
+				{
+					"name": "book shop"
+				},
+				{
+					"name": "boom"
+				},
+				{
+					"name": "boom angle"
+				},
+				{
+					"name": "boom derrick"
+				},
+				{
+					"name": "boom hoist"
+				},
+				{
+					"name": "booster"
+				},
+				{
+					"name": "booth"
+				},
+				{
+					"name": "bootstrap system"
+				},
+				{
+					"name": "border heating"
+				},
+				{
+					"name": "border line"
+				},
+				{
+					"name": "bore hole"
+				},
+				{
+					"name": "bore pit"
+				},
+				{
+					"name": "bore well filter"
+				},
+				{
+					"name": "bored pile"
+				},
+				{
+					"name": "bored well"
+				},
+				{
+					"name": "borehole"
+				},
+				{
+					"name": "borehole casing"
+				},
+				{
+					"name": "borehole pump"
+				},
+				{
+					"name": "borer holes"
+				},
+				{
+					"name": "boring"
+				},
+				{
+					"name": "boring machine"
+				},
+				{
+					"name": "born city"
+				},
+				{
+					"name": "borrow pit"
+				},
+				{
+					"name": "borrowed light"
+				},
+				{
+					"name": "botanical garden"
+				},
+				{
+					"name": "bottom chord"
+				},
+				{
+					"name": "bottom chord stress"
+				},
+				{
+					"name": "bottom discharge opening"
+				},
+				{
+					"name": "bottom fiber"
+				},
+				{
+					"name": "bottom flange"
+				},
+				{
+					"name": "bottom gate"
+				},
+				{
+					"name": "bottom hinged ventilator"
+				},
+				{
+					"name": "bottom intake"
+				},
+				{
+					"name": "bottom layer of the reinforcing steel"
+				},
+				{
+					"name": "bottom of foundation"
+				},
+				{
+					"name": "bottom pipe distribution"
+				},
+				{
+					"name": "bottom rail"
+				},
+				{
+					"name": "bottom reinforcement bars"
+				},
+				{
+					"name": "bottom sill"
+				},
+				{
+					"name": "bottom view"
+				},
+				{
+					"name": "boulder"
+				},
+				{
+					"name": "boulder clay"
+				},
+				{
+					"name": "boulder concrete"
+				},
+				{
+					"name": "boulder foundation"
+				},
+				{
+					"name": "boulevard"
+				},
+				{
+					"name": "boundary"
+				},
+				{
+					"name": "boundary action"
+				},
+				{
+					"name": "boundary conditions"
+				},
+				{
+					"name": "boundary force"
+				},
+				{
+					"name": "boundary layer"
+				},
+				{
+					"name": "boundary member"
+				},
+				{
+					"name": "boundary stress"
+				},
+				{
+					"name": "boundary wall"
+				},
+				{
+					"name": "bow"
+				},
+				{
+					"name": "bow"
+				},
+				{
+					"name": "bow window"
+				},
+				{
+					"name": "bowel urinal"
+				},
+				{
+					"name": "bowlder stone"
+				},
+				{
+					"name": "bowstring truss"
+				},
+				{
+					"name": "box"
+				},
+				{
+					"name": "box caisson"
+				},
+				{
+					"name": "box column"
+				},
+				{
+					"name": "box foundation"
+				},
+				{
+					"name": "box frame of window"
+				},
+				{
+					"name": "box frame type reinforced concrete construction"
+				},
+				{
+					"name": "box framed construction"
+				},
+				{
+					"name": "box girder"
+				},
+				{
+					"name": "box pile"
+				},
+				{
+					"name": "box section"
+				},
+				{
+					"name": "box shaped module open on two sides"
+				},
+				{
+					"name": "box stairs"
+				},
+				{
+					"name": "box system"
+				},
+				{
+					"name": "brace"
+				},
+				{
+					"name": "braced arch"
+				},
+				{
+					"name": "braced frame"
+				},
+				{
+					"name": "braced frame construction"
+				},
+				{
+					"name": "braced structures"
+				},
+				{
+					"name": "bracing boom"
+				},
+				{
+					"name": "bracket"
+				},
+				{
+					"name": "bracket scaffolds"
+				},
+				{
+					"name": "bracket type retaining wall"
+				},
+				{
+					"name": "braided nylon rope"
+				},
+				{
+					"name": "branch"
+				},
+				{
+					"name": "brand of cement"
+				},
+				{
+					"name": "breadth"
+				},
+				{
+					"name": "breadth of section"
+				},
+				{
+					"name": "breakdown test"
+				},
+				{
+					"name": "breaker"
+				},
+				{
+					"name": "breakfast room"
+				},
+				{
+					"name": "breaking"
+				},
+				{
+					"name": "breaking bending moment"
+				},
+				{
+					"name": "breaking cross section"
+				},
+				{
+					"name": "breaking elongation"
+				},
+				{
+					"name": "breaking joints"
+				},
+				{
+					"name": "breaking load"
+				},
+				{
+					"name": "breaking plant"
+				},
+				{
+					"name": "breaking strength"
+				},
+				{
+					"name": "breaking stress"
+				},
+				{
+					"name": "breaking test"
+				},
+				{
+					"name": "breaking up"
+				},
+				{
+					"name": "breakstone"
+				},
+				{
+					"name": "breast"
+				},
+				{
+					"name": "breast wall"
+				},
+				{
+					"name": "breeching"
+				},
+				{
+					"name": "breeze concrete"
+				},
+				{
+					"name": "bressummer"
+				},
+				{
+					"name": "brettis"
+				},
+				{
+					"name": "brick"
+				},
+				{
+					"name": "brick and brick"
+				},
+				{
+					"name": "brick arch"
+				},
+				{
+					"name": "brick bat"
+				},
+				{
+					"name": "brick beam"
+				},
+				{
+					"name": "brick cement"
+				},
+				{
+					"name": "brick clad building"
+				},
+				{
+					"name": "brick clay"
+				},
+				{
+					"name": "brick concrete"
+				},
+				{
+					"name": "brick construction"
+				},
+				{
+					"name": "brick cutter"
+				},
+				{
+					"name": "brick facing"
+				},
+				{
+					"name": "brick field"
+				},
+				{
+					"name": "brick flooring"
+				},
+				{
+					"name": "brick foundation"
+				},
+				{
+					"name": "brick hammer"
+				},
+				{
+					"name": "brick jointer"
+				},
+				{
+					"name": "brick making"
+				},
+				{
+					"name": "brick masonry"
+				},
+				{
+					"name": "brick nogging"
+				},
+				{
+					"name": "brick nogging building"
+				},
+				{
+					"name": "brick on edge"
+				},
+				{
+					"name": "brick on end"
+				},
+				{
+					"name": "brick on end soldier arch"
+				},
+				{
+					"name": "brick paving"
+				},
+				{
+					"name": "brick veneer construction"
+				},
+				{
+					"name": "brick wall"
+				},
+				{
+					"name": "bricklayer"
+				},
+				{
+					"name": "brickwork"
+				},
+				{
+					"name": "brickwork casing"
+				},
+				{
+					"name": "bridge"
+				},
+				{
+					"name": "bridge abutment"
+				},
+				{
+					"name": "bridge arch"
+				},
+				{
+					"name": "bridge construction"
+				},
+				{
+					"name": "bridge crane"
+				},
+				{
+					"name": "bridge crossing"
+				},
+				{
+					"name": "bridge deck"
+				},
+				{
+					"name": "bridge design"
+				},
+				{
+					"name": "bridge engineering"
+				},
+				{
+					"name": "bridge girder"
+				},
+				{
+					"name": "bridge opening"
+				},
+				{
+					"name": "bridge pier"
+				},
+				{
+					"name": "bridge truss"
+				},
+				{
+					"name": "bridgeboard"
+				},
+				{
+					"name": "bridging"
+				},
+				{
+					"name": "bridle wire rope sling"
+				},
+				{
+					"name": "brightness"
+				},
+				{
+					"name": "brikyard"
+				},
+				{
+					"name": "brine air cooler"
+				},
+				{
+					"name": "brittle failure"
+				},
+				{
+					"name": "brittle fracture"
+				},
+				{
+					"name": "brittle lacquer technique"
+				},
+				{
+					"name": "brittleness"
+				},
+				{
+					"name": "broad crested weir"
+				},
+				{
+					"name": "broad flanged beam"
+				},
+				{
+					"name": "broadstep"
+				},
+				{
+					"name": "broken concrete"
+				},
+				{
+					"name": "broken country"
+				},
+				{
+					"name": "broken course"
+				},
+				{
+					"name": "broken stone concrete"
+				},
+				{
+					"name": "broom finish"
+				},
+				{
+					"name": "brown coat"
+				},
+				{
+					"name": "brush"
+				},
+				{
+					"name": "brush mark"
+				},
+				{
+					"name": "brush matting"
+				},
+				{
+					"name": "brush revetment"
+				},
+				{
+					"name": "brushed plywood"
+				},
+				{
+					"name": "brushed surface"
+				},
+				{
+					"name": "brushwood"
+				},
+				{
+					"name": "brushwood mattress"
+				},
+				{
+					"name": "brushwork"
+				},
+				{
+					"name": "bubble"
+				},
+				{
+					"name": "bubble breakwater"
+				},
+				{
+					"name": "bubble concrete"
+				},
+				{
+					"name": "bucket"
+				},
+				{
+					"name": "bucket conveyor"
+				},
+				{
+					"name": "bucket ladder dredge"
+				}
 			]
 		}
 	]

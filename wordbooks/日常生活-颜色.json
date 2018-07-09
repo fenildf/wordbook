@@ -5,254 +5,520 @@
 		{
 			"name": "A",
 			"children": [
-				"amaranth",
-				"amber",
-				"amethyst",
-				"apricot",
-				"argent",
-				"ash",
-				"aubergine",
-				"auburn",
-				"azure"
+				{
+					"name": "amaranth"
+				},
+				{
+					"name": "amber"
+				},
+				{
+					"name": "amethyst"
+				},
+				{
+					"name": "apricot"
+				},
+				{
+					"name": "argent"
+				},
+				{
+					"name": "ash"
+				},
+				{
+					"name": "aubergine"
+				},
+				{
+					"name": "auburn"
+				},
+				{
+					"name": "azure"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"beige",
-				"bisque",
-				"black",
-				"blue",
-				"bluish",
-				"bronze",
-				"brown",
-				"buff"
+				{
+					"name": "beige"
+				},
+				{
+					"name": "bisque"
+				},
+				{
+					"name": "black"
+				},
+				{
+					"name": "blue"
+				},
+				{
+					"name": "bluish"
+				},
+				{
+					"name": "bronze"
+				},
+				{
+					"name": "brown"
+				},
+				{
+					"name": "buff"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"cadet",
-				"camel",
-				"cameo",
-				"caramel",
-				"carmine",
-				"carnation",
-				"celadon",
-				"celeste",
-				"cerise",
-				"cherry",
-				"chestnut",
-				"chili",
-				"chinchilla",
-				"chocolate",
-				"cinnamon",
-				"claret",
-				"clay",
-				"cochineal",
-				"coffee",
-				"coral",
-				"cream",
-				"crimson",
-				"crocus",
-				"crystal"
+				{
+					"name": "cadet"
+				},
+				{
+					"name": "camel"
+				},
+				{
+					"name": "cameo"
+				},
+				{
+					"name": "caramel"
+				},
+				{
+					"name": "carmine"
+				},
+				{
+					"name": "carnation"
+				},
+				{
+					"name": "celadon"
+				},
+				{
+					"name": "celeste"
+				},
+				{
+					"name": "cerise"
+				},
+				{
+					"name": "cherry"
+				},
+				{
+					"name": "chestnut"
+				},
+				{
+					"name": "chili"
+				},
+				{
+					"name": "chinchilla"
+				},
+				{
+					"name": "chocolate"
+				},
+				{
+					"name": "cinnamon"
+				},
+				{
+					"name": "claret"
+				},
+				{
+					"name": "clay"
+				},
+				{
+					"name": "cochineal"
+				},
+				{
+					"name": "coffee"
+				},
+				{
+					"name": "coral"
+				},
+				{
+					"name": "cream"
+				},
+				{
+					"name": "crimson"
+				},
+				{
+					"name": "crocus"
+				},
+				{
+					"name": "crystal"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"damson",
-				"doe",
-				"drab",
-				"dun"
+				{
+					"name": "damson"
+				},
+				{
+					"name": "doe"
+				},
+				{
+					"name": "drab"
+				},
+				{
+					"name": "dun"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eucalyptus"
+				{
+					"name": "eucalyptus"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"flesh",
-				"fuchsia"
+				{
+					"name": "flesh"
+				},
+				{
+					"name": "fuchsia"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gamboge",
-				"garnet",
-				"gold",
-				"grape",
-				"gray",
-				"green",
-				"grey"
+				{
+					"name": "gamboge"
+				},
+				{
+					"name": "garnet"
+				},
+				{
+					"name": "gold"
+				},
+				{
+					"name": "grape"
+				},
+				{
+					"name": "gray"
+				},
+				{
+					"name": "green"
+				},
+				{
+					"name": "grey"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"heliotrope",
-				"henna",
-				"heron",
-				"hyacinth"
+				{
+					"name": "heliotrope"
+				},
+				{
+					"name": "henna"
+				},
+				{
+					"name": "heron"
+				},
+				{
+					"name": "hyacinth"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"incarnadine",
-				"indigo",
-				"iridescent",
-				"iris",
-				"ivory"
+				{
+					"name": "incarnadine"
+				},
+				{
+					"name": "indigo"
+				},
+				{
+					"name": "iridescent"
+				},
+				{
+					"name": "iris"
+				},
+				{
+					"name": "ivory"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"jasper",
-				"jewelry"
+				{
+					"name": "jasper"
+				},
+				{
+					"name": "jewelry"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"khaki"
+				{
+					"name": "khaki"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lake",
-				"laterite",
-				"lilac",
-				"lithopone"
+				{
+					"name": "lake"
+				},
+				{
+					"name": "laterite"
+				},
+				{
+					"name": "lilac"
+				},
+				{
+					"name": "lithopone"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"madder",
-				"magenta",
-				"maize",
-				"maroon",
-				"marron",
-				"mauve",
-				"mignonette",
-				"mouse",
-				"mulberry",
-				"mustard"
+				{
+					"name": "madder"
+				},
+				{
+					"name": "magenta"
+				},
+				{
+					"name": "maize"
+				},
+				{
+					"name": "maroon"
+				},
+				{
+					"name": "marron"
+				},
+				{
+					"name": "mauve"
+				},
+				{
+					"name": "mignonette"
+				},
+				{
+					"name": "mouse"
+				},
+				{
+					"name": "mulberry"
+				},
+				{
+					"name": "mustard"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"navy"
+				{
+					"name": "navy"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"ocher",
-				"off-white",
-				"orange",
-				"orchid"
+				{
+					"name": "ocher"
+				},
+				{
+					"name": "off-white"
+				},
+				{
+					"name": "orange"
+				},
+				{
+					"name": "orchid"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"peach",
-				"peacock blue",
-				"pink",
-				"plum",
-				"ponceau",
-				"poppy",
-				"primrose",
-				"prune",
-				"puce",
-				"purple",
-				"putty"
+				{
+					"name": "peach"
+				},
+				{
+					"name": "peacock blue"
+				},
+				{
+					"name": "pink"
+				},
+				{
+					"name": "plum"
+				},
+				{
+					"name": "ponceau"
+				},
+				{
+					"name": "poppy"
+				},
+				{
+					"name": "primrose"
+				},
+				{
+					"name": "prune"
+				},
+				{
+					"name": "puce"
+				},
+				{
+					"name": "purple"
+				},
+				{
+					"name": "putty"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rainbow",
-				"raisin",
-				"rattan",
-				"red",
-				"rose",
-				"ruby",
-				"rust"
+				{
+					"name": "rainbow"
+				},
+				{
+					"name": "raisin"
+				},
+				{
+					"name": "rattan"
+				},
+				{
+					"name": "red"
+				},
+				{
+					"name": "rose"
+				},
+				{
+					"name": "ruby"
+				},
+				{
+					"name": "rust"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"sallow",
-				"salmon",
-				"sapphire",
-				"scarlet",
-				"sepia",
-				"shell",
-				"sienna",
-				"silver",
-				"slate",
-				"snow-white",
-				"sorrel",
-				"spearmint"
+				{
+					"name": "sallow"
+				},
+				{
+					"name": "salmon"
+				},
+				{
+					"name": "sapphire"
+				},
+				{
+					"name": "scarlet"
+				},
+				{
+					"name": "sepia"
+				},
+				{
+					"name": "shell"
+				},
+				{
+					"name": "sienna"
+				},
+				{
+					"name": "silver"
+				},
+				{
+					"name": "slate"
+				},
+				{
+					"name": "snow-white"
+				},
+				{
+					"name": "sorrel"
+				},
+				{
+					"name": "spearmint"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tan",
-				"tangerine",
-				"taupe",
-				"tawny",
-				"terra cotta"
+				{
+					"name": "tan"
+				},
+				{
+					"name": "tangerine"
+				},
+				{
+					"name": "taupe"
+				},
+				{
+					"name": "tawny"
+				},
+				{
+					"name": "terra cotta"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"ultramarine",
-				"umber"
+				{
+					"name": "ultramarine"
+				},
+				{
+					"name": "umber"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vermilion",
-				"violet",
-				"viridian",
-				"viridis"
+				{
+					"name": "vermilion"
+				},
+				{
+					"name": "violet"
+				},
+				{
+					"name": "viridian"
+				},
+				{
+					"name": "viridis"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"white",
-				"wine",
-				"wood"
+				{
+					"name": "white"
+				},
+				{
+					"name": "wine"
+				},
+				{
+					"name": "wood"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yellow"
+				{
+					"name": "yellow"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"zephyr",
-				"zinc"
+				{
+					"name": "zephyr"
+				},
+				{
+					"name": "zinc"
+				}
 			]
 		}
 	]

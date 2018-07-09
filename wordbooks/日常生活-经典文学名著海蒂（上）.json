@@ -5,352 +5,884 @@
 		{
 			"name": "F",
 			"children": [
-				"Frankfurt",
-				"Frenchman",
-				"fate",
-				"fellow",
-				"fetch",
-				"fever",
-				"fight",
-				"figure",
-				"fir",
-				"flash",
-				"fling",
-				"flock",
-				"fond",
-				"footpath",
-				"force",
-				"former",
-				"forth",
-				"forward",
-				"fragrance",
-				"frock",
-				"frost",
-				"fuller",
-				"fuss"
+				{
+					"name": "Frankfurt"
+				},
+				{
+					"name": "Frenchman"
+				},
+				{
+					"name": "fate"
+				},
+				{
+					"name": "fellow"
+				},
+				{
+					"name": "fetch"
+				},
+				{
+					"name": "fever"
+				},
+				{
+					"name": "fight"
+				},
+				{
+					"name": "figure"
+				},
+				{
+					"name": "fir"
+				},
+				{
+					"name": "flash"
+				},
+				{
+					"name": "fling"
+				},
+				{
+					"name": "flock"
+				},
+				{
+					"name": "fond"
+				},
+				{
+					"name": "footpath"
+				},
+				{
+					"name": "force"
+				},
+				{
+					"name": "former"
+				},
+				{
+					"name": "forth"
+				},
+				{
+					"name": "forward"
+				},
+				{
+					"name": "fragrance"
+				},
+				{
+					"name": "frock"
+				},
+				{
+					"name": "frost"
+				},
+				{
+					"name": "fuller"
+				},
+				{
+					"name": "fuss"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"Hamlet",
-				"habit",
-				"habitation",
-				"hatred",
-				"hay",
-				"heap",
-				"heat",
-				"heathen",
-				"heed",
-				"helpless",
-				"hermit",
-				"hither",
-				"hollow",
-				"horrify",
-				"horror",
-				"hurl",
-				"hut"
+				{
+					"name": "Hamlet"
+				},
+				{
+					"name": "habit"
+				},
+				{
+					"name": "habitation"
+				},
+				{
+					"name": "hatred"
+				},
+				{
+					"name": "hay"
+				},
+				{
+					"name": "heap"
+				},
+				{
+					"name": "heat"
+				},
+				{
+					"name": "heathen"
+				},
+				{
+					"name": "heed"
+				},
+				{
+					"name": "helpless"
+				},
+				{
+					"name": "hermit"
+				},
+				{
+					"name": "hither"
+				},
+				{
+					"name": "hollow"
+				},
+				{
+					"name": "horrify"
+				},
+				{
+					"name": "horror"
+				},
+				{
+					"name": "hurl"
+				},
+				{
+					"name": "hut"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"Indian",
-				"ignorance",
-				"immediately",
-				"immense",
-				"increase",
-				"incredible",
-				"indeed",
-				"infant",
-				"inhale",
-				"insist",
-				"instant",
-				"intend",
-				"inward",
-				"irritable"
+				{
+					"name": "Indian"
+				},
+				{
+					"name": "ignorance"
+				},
+				{
+					"name": "immediately"
+				},
+				{
+					"name": "immense"
+				},
+				{
+					"name": "increase"
+				},
+				{
+					"name": "incredible"
+				},
+				{
+					"name": "indeed"
+				},
+				{
+					"name": "infant"
+				},
+				{
+					"name": "inhale"
+				},
+				{
+					"name": "insist"
+				},
+				{
+					"name": "instant"
+				},
+				{
+					"name": "intend"
+				},
+				{
+					"name": "inward"
+				},
+				{
+					"name": "irritable"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"above",
-				"abrupt",
-				"accidentally",
-				"acknowledge",
-				"acquaint",
-				"acquaintance",
-				"adelaide",
-				"affair",
-				"afford",
-				"afloat",
-				"against",
-				"agitation",
-				"aglow",
-				"ahead",
-				"alarm",
-				"animation",
-				"answerable",
-				"anxiety",
-				"anxious",
-				"apparently",
-				"appearance",
-				"apprentice",
-				"apprenticeship",
-				"approach",
-				"armor",
-				"arrange",
-				"ascend",
-				"ascent",
-				"ascertain",
-				"aside",
-				"asseverate",
-				"association",
-				"assure",
-				"attack",
-				"attend",
-				"attire",
-				"await",
-				"awake"
+				{
+					"name": "above"
+				},
+				{
+					"name": "abrupt"
+				},
+				{
+					"name": "accidentally"
+				},
+				{
+					"name": "acknowledge"
+				},
+				{
+					"name": "acquaint"
+				},
+				{
+					"name": "acquaintance"
+				},
+				{
+					"name": "adelaide"
+				},
+				{
+					"name": "affair"
+				},
+				{
+					"name": "afford"
+				},
+				{
+					"name": "afloat"
+				},
+				{
+					"name": "against"
+				},
+				{
+					"name": "agitation"
+				},
+				{
+					"name": "aglow"
+				},
+				{
+					"name": "ahead"
+				},
+				{
+					"name": "alarm"
+				},
+				{
+					"name": "animation"
+				},
+				{
+					"name": "answerable"
+				},
+				{
+					"name": "anxiety"
+				},
+				{
+					"name": "anxious"
+				},
+				{
+					"name": "apparently"
+				},
+				{
+					"name": "appearance"
+				},
+				{
+					"name": "apprentice"
+				},
+				{
+					"name": "apprenticeship"
+				},
+				{
+					"name": "approach"
+				},
+				{
+					"name": "armor"
+				},
+				{
+					"name": "arrange"
+				},
+				{
+					"name": "ascend"
+				},
+				{
+					"name": "ascent"
+				},
+				{
+					"name": "ascertain"
+				},
+				{
+					"name": "aside"
+				},
+				{
+					"name": "asseverate"
+				},
+				{
+					"name": "association"
+				},
+				{
+					"name": "assure"
+				},
+				{
+					"name": "attack"
+				},
+				{
+					"name": "attend"
+				},
+				{
+					"name": "attire"
+				},
+				{
+					"name": "await"
+				},
+				{
+					"name": "awake"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"bare",
-				"beam",
-				"beaten",
-				"beggary",
-				"being",
-				"below",
-				"beneath",
-				"beyond",
-				"bitterest",
-				"blind",
-				"blow",
-				"branch",
-				"bravely",
-				"brawl",
-				"break",
-				"breech",
-				"bright",
-				"broken-down",
-				"brown",
-				"browse",
-				"bundle",
-				"burden",
-				"bush",
-				"bushy"
+				{
+					"name": "bare"
+				},
+				{
+					"name": "beam"
+				},
+				{
+					"name": "beaten"
+				},
+				{
+					"name": "beggary"
+				},
+				{
+					"name": "being"
+				},
+				{
+					"name": "below"
+				},
+				{
+					"name": "beneath"
+				},
+				{
+					"name": "beyond"
+				},
+				{
+					"name": "bitterest"
+				},
+				{
+					"name": "blind"
+				},
+				{
+					"name": "blow"
+				},
+				{
+					"name": "branch"
+				},
+				{
+					"name": "bravely"
+				},
+				{
+					"name": "brawl"
+				},
+				{
+					"name": "break"
+				},
+				{
+					"name": "breech"
+				},
+				{
+					"name": "bright"
+				},
+				{
+					"name": "broken-down"
+				},
+				{
+					"name": "brown"
+				},
+				{
+					"name": "browse"
+				},
+				{
+					"name": "bundle"
+				},
+				{
+					"name": "burden"
+				},
+				{
+					"name": "bush"
+				},
+				{
+					"name": "bushy"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"capable",
-				"carpenter",
-				"cart",
-				"chambermaid",
-				"chapter",
-				"charge",
-				"check",
-				"church",
-				"clad",
-				"clamber",
-				"climber",
-				"command",
-				"companion",
-				"complaint",
-				"concern",
-				"confidential",
-				"conscience",
-				"consequently",
-				"continue",
-				"contrary",
-				"conversation",
-				"cousin",
-				"creak",
-				"creature",
-				"crimson",
-				"curiosity",
-				"curious",
-				"curtly",
-				"custom"
+				{
+					"name": "capable"
+				},
+				{
+					"name": "carpenter"
+				},
+				{
+					"name": "cart"
+				},
+				{
+					"name": "chambermaid"
+				},
+				{
+					"name": "chapter"
+				},
+				{
+					"name": "charge"
+				},
+				{
+					"name": "check"
+				},
+				{
+					"name": "church"
+				},
+				{
+					"name": "clad"
+				},
+				{
+					"name": "clamber"
+				},
+				{
+					"name": "climber"
+				},
+				{
+					"name": "command"
+				},
+				{
+					"name": "companion"
+				},
+				{
+					"name": "complaint"
+				},
+				{
+					"name": "concern"
+				},
+				{
+					"name": "confidential"
+				},
+				{
+					"name": "conscience"
+				},
+				{
+					"name": "consequently"
+				},
+				{
+					"name": "continue"
+				},
+				{
+					"name": "contrary"
+				},
+				{
+					"name": "conversation"
+				},
+				{
+					"name": "cousin"
+				},
+				{
+					"name": "creak"
+				},
+				{
+					"name": "creature"
+				},
+				{
+					"name": "crimson"
+				},
+				{
+					"name": "curiosity"
+				},
+				{
+					"name": "curious"
+				},
+				{
+					"name": "curtly"
+				},
+				{
+					"name": "custom"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"deed",
-				"defiant",
-				"delicate",
-				"delight",
-				"descend",
-				"deserve",
-				"dete",
-				"determine",
-				"dilapidate",
-				"direction",
-				"directly",
-				"disappear",
-				"disfigured",
-				"dismay",
-				"distinguish",
-				"doubt",
-				"dreadful",
-				"dwell"
+				{
+					"name": "deed"
+				},
+				{
+					"name": "defiant"
+				},
+				{
+					"name": "delicate"
+				},
+				{
+					"name": "delight"
+				},
+				{
+					"name": "descend"
+				},
+				{
+					"name": "deserve"
+				},
+				{
+					"name": "dete"
+				},
+				{
+					"name": "determine"
+				},
+				{
+					"name": "dilapidate"
+				},
+				{
+					"name": "direction"
+				},
+				{
+					"name": "directly"
+				},
+				{
+					"name": "disappear"
+				},
+				{
+					"name": "disfigured"
+				},
+				{
+					"name": "dismay"
+				},
+				{
+					"name": "distinguish"
+				},
+				{
+					"name": "doubt"
+				},
+				{
+					"name": "dreadful"
+				},
+				{
+					"name": "dwell"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eagerly",
-				"earn",
-				"earning",
-				"ease",
-				"elder",
-				"embitter",
-				"encourage",
-				"endeavor",
-				"engine",
-				"enmity",
-				"enquire",
-				"entirely",
-				"especially",
-				"event",
-				"excellent",
-				"exclaim",
-				"exhaust",
-				"exhort",
-				"expect",
-				"expose",
-				"express",
-				"extra",
-				"eyebrow"
+				{
+					"name": "eagerly"
+				},
+				{
+					"name": "earn"
+				},
+				{
+					"name": "earning"
+				},
+				{
+					"name": "ease"
+				},
+				{
+					"name": "elder"
+				},
+				{
+					"name": "embitter"
+				},
+				{
+					"name": "encourage"
+				},
+				{
+					"name": "endeavor"
+				},
+				{
+					"name": "engine"
+				},
+				{
+					"name": "enmity"
+				},
+				{
+					"name": "enquire"
+				},
+				{
+					"name": "entirely"
+				},
+				{
+					"name": "especially"
+				},
+				{
+					"name": "event"
+				},
+				{
+					"name": "excellent"
+				},
+				{
+					"name": "exclaim"
+				},
+				{
+					"name": "exhaust"
+				},
+				{
+					"name": "exhort"
+				},
+				{
+					"name": "expect"
+				},
+				{
+					"name": "expose"
+				},
+				{
+					"name": "express"
+				},
+				{
+					"name": "extra"
+				},
+				{
+					"name": "eyebrow"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gamble",
-				"gape",
-				"gather",
-				"gaze",
-				"general",
-				"generally",
-				"gentle",
-				"gentleman",
-				"gesture",
-				"glee",
-				"glimpse",
-				"goat",
-				"goatherd",
-				"godless",
-				"good-for-nothing",
-				"gossip",
-				"gradually",
-				"grand",
-				"grandfather",
-				"grandmother",
-				"grave",
-				"gray",
-				"greet",
-				"grief",
-				"grin",
-				"grind",
-				"gruffly"
+				{
+					"name": "gamble"
+				},
+				{
+					"name": "gape"
+				},
+				{
+					"name": "gather"
+				},
+				{
+					"name": "gaze"
+				},
+				{
+					"name": "general"
+				},
+				{
+					"name": "generally"
+				},
+				{
+					"name": "gentle"
+				},
+				{
+					"name": "gentleman"
+				},
+				{
+					"name": "gesture"
+				},
+				{
+					"name": "glee"
+				},
+				{
+					"name": "glimpse"
+				},
+				{
+					"name": "goat"
+				},
+				{
+					"name": "goatherd"
+				},
+				{
+					"name": "godless"
+				},
+				{
+					"name": "good-for-nothing"
+				},
+				{
+					"name": "gossip"
+				},
+				{
+					"name": "gradually"
+				},
+				{
+					"name": "grand"
+				},
+				{
+					"name": "grandfather"
+				},
+				{
+					"name": "grandmother"
+				},
+				{
+					"name": "grave"
+				},
+				{
+					"name": "gray"
+				},
+				{
+					"name": "greet"
+				},
+				{
+					"name": "grief"
+				},
+				{
+					"name": "grin"
+				},
+				{
+					"name": "grind"
+				},
+				{
+					"name": "gruffly"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"joyfully"
+				{
+					"name": "joyfully"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"kin",
-				"kindly",
-				"knee",
-				"knit"
+				{
+					"name": "kin"
+				},
+				{
+					"name": "kindly"
+				},
+				{
+					"name": "knee"
+				},
+				{
+					"name": "knit"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"laboriously",
-				"lad"
+				{
+					"name": "laboriously"
+				},
+				{
+					"name": "lad"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"thus",
-				"tidy",
-				"tire",
-				"tone",
-				"tongue",
-				"towards",
-				"track",
-				"trade",
-				"treatment",
-				"tremble"
+				{
+					"name": "thus"
+				},
+				{
+					"name": "tidy"
+				},
+				{
+					"name": "tire"
+				},
+				{
+					"name": "tone"
+				},
+				{
+					"name": "tongue"
+				},
+				{
+					"name": "towards"
+				},
+				{
+					"name": "track"
+				},
+				{
+					"name": "trade"
+				},
+				{
+					"name": "treatment"
+				},
+				{
+					"name": "tremble"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"understand",
-				"undertake",
-				"undo",
-				"undress",
-				"unfasten",
-				"unflinching",
-				"unwilling",
-				"unwind",
-				"upon",
-				"utter"
+				{
+					"name": "understand"
+				},
+				{
+					"name": "undertake"
+				},
+				{
+					"name": "undo"
+				},
+				{
+					"name": "undress"
+				},
+				{
+					"name": "unfasten"
+				},
+				{
+					"name": "unflinching"
+				},
+				{
+					"name": "unwilling"
+				},
+				{
+					"name": "unwind"
+				},
+				{
+					"name": "upon"
+				},
+				{
+					"name": "utter"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"valley",
-				"visible",
-				"vow"
+				{
+					"name": "valley"
+				},
+				{
+					"name": "visible"
+				},
+				{
+					"name": "vow"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wander",
-				"warmly",
-				"warn",
-				"wayfarer",
-				"weight",
-				"whence",
-				"whereabouts",
-				"whereupon",
-				"whine",
-				"whisper",
-				"whistle",
-				"whither",
-				"wilder",
-				"willingly",
-				"wonder",
-				"woollen",
-				"wrapper",
-				"wrathful",
-				"wretched"
+				{
+					"name": "wander"
+				},
+				{
+					"name": "warmly"
+				},
+				{
+					"name": "warn"
+				},
+				{
+					"name": "wayfarer"
+				},
+				{
+					"name": "weight"
+				},
+				{
+					"name": "whence"
+				},
+				{
+					"name": "whereabouts"
+				},
+				{
+					"name": "whereupon"
+				},
+				{
+					"name": "whine"
+				},
+				{
+					"name": "whisper"
+				},
+				{
+					"name": "whistle"
+				},
+				{
+					"name": "whither"
+				},
+				{
+					"name": "wilder"
+				},
+				{
+					"name": "willingly"
+				},
+				{
+					"name": "wonder"
+				},
+				{
+					"name": "woollen"
+				},
+				{
+					"name": "wrapper"
+				},
+				{
+					"name": "wrathful"
+				},
+				{
+					"name": "wretched"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yet",
-				"yonder",
-				"younger",
-				"youth"
+				{
+					"name": "yet"
+				},
+				{
+					"name": "yonder"
+				},
+				{
+					"name": "younger"
+				},
+				{
+					"name": "youth"
+				}
 			]
 		}
 	]

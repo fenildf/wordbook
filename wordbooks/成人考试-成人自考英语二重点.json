@@ -5,306 +5,716 @@
 		{
 			"name": "A",
 			"children": [
-				"a good deal of",
-				"above all",
-				"accomplish",
-				"accomplished",
-				"acknowledge",
-				"acquire",
-				"activity",
-				"advantage",
-				"advantageous",
-				"amount to",
-				"amplify",
-				"analytical",
-				"analyze",
-				"applicable",
-				"application",
-				"apply",
-				"appoint",
-				"appointment",
-				"appreciate",
-				"appropriate",
-				"as a rule",
-				"assemble",
-				"assembly",
-				"assignment",
-				"at a disadvantage",
-				"attain",
-				"attainment",
-				"attribute",
-				"attributive"
+				{
+					"name": "a good deal of"
+				},
+				{
+					"name": "above all"
+				},
+				{
+					"name": "accomplish"
+				},
+				{
+					"name": "accomplished"
+				},
+				{
+					"name": "acknowledge"
+				},
+				{
+					"name": "acquire"
+				},
+				{
+					"name": "activity"
+				},
+				{
+					"name": "advantage"
+				},
+				{
+					"name": "advantageous"
+				},
+				{
+					"name": "amount to"
+				},
+				{
+					"name": "amplify"
+				},
+				{
+					"name": "analytical"
+				},
+				{
+					"name": "analyze"
+				},
+				{
+					"name": "applicable"
+				},
+				{
+					"name": "application"
+				},
+				{
+					"name": "apply"
+				},
+				{
+					"name": "appoint"
+				},
+				{
+					"name": "appointment"
+				},
+				{
+					"name": "appreciate"
+				},
+				{
+					"name": "appropriate"
+				},
+				{
+					"name": "as a rule"
+				},
+				{
+					"name": "assemble"
+				},
+				{
+					"name": "assembly"
+				},
+				{
+					"name": "assignment"
+				},
+				{
+					"name": "at a disadvantage"
+				},
+				{
+					"name": "attain"
+				},
+				{
+					"name": "attainment"
+				},
+				{
+					"name": "attribute"
+				},
+				{
+					"name": "attributive"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"barrier",
-				"basis",
-				"be deserving of",
-				"be sensitive to",
-				"bias",
-				"burden",
-				"by nature"
+				{
+					"name": "barrier"
+				},
+				{
+					"name": "basis"
+				},
+				{
+					"name": "be deserving of"
+				},
+				{
+					"name": "be sensitive to"
+				},
+				{
+					"name": "bias"
+				},
+				{
+					"name": "burden"
+				},
+				{
+					"name": "by nature"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"capture",
-				"carry out",
-				"coincide",
-				"compassion",
-				"compassionate",
-				"compensatory",
-				"concerned",
-				"confront",
-				"conquer",
-				"conquerable",
-				"consist of",
-				"constitutional",
-				"contemplate",
-				"conventional",
-				"convict",
-				"convince",
-				"convincing",
-				"course of action",
-				"crash",
-				"curtail"
+				{
+					"name": "capture"
+				},
+				{
+					"name": "carry out"
+				},
+				{
+					"name": "coincide"
+				},
+				{
+					"name": "compassion"
+				},
+				{
+					"name": "compassionate"
+				},
+				{
+					"name": "compensatory"
+				},
+				{
+					"name": "concerned"
+				},
+				{
+					"name": "confront"
+				},
+				{
+					"name": "conquer"
+				},
+				{
+					"name": "conquerable"
+				},
+				{
+					"name": "consist of"
+				},
+				{
+					"name": "constitutional"
+				},
+				{
+					"name": "contemplate"
+				},
+				{
+					"name": "conventional"
+				},
+				{
+					"name": "convict"
+				},
+				{
+					"name": "convince"
+				},
+				{
+					"name": "convincing"
+				},
+				{
+					"name": "course of action"
+				},
+				{
+					"name": "crash"
+				},
+				{
+					"name": "curtail"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"deal with",
-				"debate",
-				"decline",
-				"deem",
-				"definitive",
-				"degrade",
-				"delighted",
-				"delightful",
-				"democratic",
-				"deprive",
-				"desirable",
-				"desire",
-				"despite",
-				"deteriorate",
-				"discredit",
-				"disorder",
-				"distinct",
-				"distinction",
-				"distinctive",
-				"distinguish from",
-				"ditch",
-				"domestic",
-				"dominance",
-				"dominant"
+				{
+					"name": "deal with"
+				},
+				{
+					"name": "debate"
+				},
+				{
+					"name": "decline"
+				},
+				{
+					"name": "deem"
+				},
+				{
+					"name": "definitive"
+				},
+				{
+					"name": "degrade"
+				},
+				{
+					"name": "delighted"
+				},
+				{
+					"name": "delightful"
+				},
+				{
+					"name": "democratic"
+				},
+				{
+					"name": "deprive"
+				},
+				{
+					"name": "desirable"
+				},
+				{
+					"name": "desire"
+				},
+				{
+					"name": "despite"
+				},
+				{
+					"name": "deteriorate"
+				},
+				{
+					"name": "discredit"
+				},
+				{
+					"name": "disorder"
+				},
+				{
+					"name": "distinct"
+				},
+				{
+					"name": "distinction"
+				},
+				{
+					"name": "distinctive"
+				},
+				{
+					"name": "distinguish from"
+				},
+				{
+					"name": "ditch"
+				},
+				{
+					"name": "domestic"
+				},
+				{
+					"name": "dominance"
+				},
+				{
+					"name": "dominant"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"efficiency",
-				"eliminate",
-				"elusive",
-				"encounter",
-				"enhance",
-				"evaluate",
-				"evolve",
-				"exceptional",
-				"external"
+				{
+					"name": "efficiency"
+				},
+				{
+					"name": "eliminate"
+				},
+				{
+					"name": "elusive"
+				},
+				{
+					"name": "encounter"
+				},
+				{
+					"name": "enhance"
+				},
+				{
+					"name": "evaluate"
+				},
+				{
+					"name": "evolve"
+				},
+				{
+					"name": "exceptional"
+				},
+				{
+					"name": "external"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"feasible",
-				"flexible",
-				"formerly",
-				"foster"
+				{
+					"name": "feasible"
+				},
+				{
+					"name": "flexible"
+				},
+				{
+					"name": "formerly"
+				},
+				{
+					"name": "foster"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"glitter"
+				{
+					"name": "glitter"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"habitual",
-				"harmony",
-				"have no idea"
+				{
+					"name": "habitual"
+				},
+				{
+					"name": "harmony"
+				},
+				{
+					"name": "have no idea"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"imperative",
-				"improvise",
-				"in existence",
-				"in other words",
-				"in part",
-				"in the way",
-				"in this case",
-				"in unison",
-				"inactivate",
-				"inactive",
-				"inconsiderate",
-				"inevitable",
-				"infiltrate",
-				"initial",
-				"inspiration",
-				"inspirational",
-				"inspire",
-				"integrate",
-				"interview",
-				"interviewee",
-				"interviewer",
-				"irrelevant"
+				{
+					"name": "imperative"
+				},
+				{
+					"name": "improvise"
+				},
+				{
+					"name": "in existence"
+				},
+				{
+					"name": "in other words"
+				},
+				{
+					"name": "in part"
+				},
+				{
+					"name": "in the way"
+				},
+				{
+					"name": "in this case"
+				},
+				{
+					"name": "in unison"
+				},
+				{
+					"name": "inactivate"
+				},
+				{
+					"name": "inactive"
+				},
+				{
+					"name": "inconsiderate"
+				},
+				{
+					"name": "inevitable"
+				},
+				{
+					"name": "infiltrate"
+				},
+				{
+					"name": "initial"
+				},
+				{
+					"name": "inspiration"
+				},
+				{
+					"name": "inspirational"
+				},
+				{
+					"name": "inspire"
+				},
+				{
+					"name": "integrate"
+				},
+				{
+					"name": "interview"
+				},
+				{
+					"name": "interviewee"
+				},
+				{
+					"name": "interviewer"
+				},
+				{
+					"name": "irrelevant"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"literal"
+				{
+					"name": "literal"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"maintenance",
-				"make a difference to",
-				"make a guess at",
-				"make use of",
-				"marvel",
-				"marvellous",
-				"minimum",
-				"miserable",
-				"mislead",
-				"moderation",
-				"modest",
-				"monopolize",
-				"motivate"
+				{
+					"name": "maintenance"
+				},
+				{
+					"name": "make a difference to"
+				},
+				{
+					"name": "make a guess at"
+				},
+				{
+					"name": "make use of"
+				},
+				{
+					"name": "marvel"
+				},
+				{
+					"name": "marvellous"
+				},
+				{
+					"name": "minimum"
+				},
+				{
+					"name": "miserable"
+				},
+				{
+					"name": "mislead"
+				},
+				{
+					"name": "moderation"
+				},
+				{
+					"name": "modest"
+				},
+				{
+					"name": "monopolize"
+				},
+				{
+					"name": "motivate"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"negative",
-				"neutral",
-				"nominate",
-				"nominated",
-				"nomination",
-				"nominee"
+				{
+					"name": "negative"
+				},
+				{
+					"name": "neutral"
+				},
+				{
+					"name": "nominate"
+				},
+				{
+					"name": "nominated"
+				},
+				{
+					"name": "nomination"
+				},
+				{
+					"name": "nominee"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"open up",
-				"opt",
-				"overcome"
+				{
+					"name": "open up"
+				},
+				{
+					"name": "opt"
+				},
+				{
+					"name": "overcome"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"partial",
-				"persist",
-				"perspective",
-				"pervasive",
-				"pledge",
-				"precede",
-				"predict",
-				"preliminary",
-				"prevail",
-				"prevalent",
-				"primarily",
-				"privilege",
-				"profound",
-				"progressive",
-				"promotion",
-				"promotional",
-				"prospect",
-				"protect against",
-				"protect from"
+				{
+					"name": "partial"
+				},
+				{
+					"name": "persist"
+				},
+				{
+					"name": "perspective"
+				},
+				{
+					"name": "pervasive"
+				},
+				{
+					"name": "pledge"
+				},
+				{
+					"name": "precede"
+				},
+				{
+					"name": "predict"
+				},
+				{
+					"name": "preliminary"
+				},
+				{
+					"name": "prevail"
+				},
+				{
+					"name": "prevalent"
+				},
+				{
+					"name": "primarily"
+				},
+				{
+					"name": "privilege"
+				},
+				{
+					"name": "profound"
+				},
+				{
+					"name": "progressive"
+				},
+				{
+					"name": "promotion"
+				},
+				{
+					"name": "promotional"
+				},
+				{
+					"name": "prospect"
+				},
+				{
+					"name": "protect against"
+				},
+				{
+					"name": "protect from"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"recruit",
-				"refine",
-				"reinforce",
-				"repressive",
-				"resolve",
-				"respectively",
-				"restriction",
-				"revision"
+				{
+					"name": "recruit"
+				},
+				{
+					"name": "refine"
+				},
+				{
+					"name": "reinforce"
+				},
+				{
+					"name": "repressive"
+				},
+				{
+					"name": "resolve"
+				},
+				{
+					"name": "respectively"
+				},
+				{
+					"name": "restriction"
+				},
+				{
+					"name": "revision"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"satisfaction",
-				"satisfying",
-				"scarce",
-				"shackle",
-				"shrink",
-				"simulate",
-				"skilled",
-				"span",
-				"specific",
-				"speculation about",
-				"spontaneous",
-				"strategically",
-				"subside",
-				"subtle",
-				"swallow up",
-				"synchronize",
-				"synthesis"
+				{
+					"name": "satisfaction"
+				},
+				{
+					"name": "satisfying"
+				},
+				{
+					"name": "scarce"
+				},
+				{
+					"name": "shackle"
+				},
+				{
+					"name": "shrink"
+				},
+				{
+					"name": "simulate"
+				},
+				{
+					"name": "skilled"
+				},
+				{
+					"name": "span"
+				},
+				{
+					"name": "specific"
+				},
+				{
+					"name": "speculation about"
+				},
+				{
+					"name": "spontaneous"
+				},
+				{
+					"name": "strategically"
+				},
+				{
+					"name": "subside"
+				},
+				{
+					"name": "subtle"
+				},
+				{
+					"name": "swallow up"
+				},
+				{
+					"name": "synchronize"
+				},
+				{
+					"name": "synthesis"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"take into account",
-				"take place",
-				"turn down",
-				"typical",
-				"typically"
+				{
+					"name": "take into account"
+				},
+				{
+					"name": "take place"
+				},
+				{
+					"name": "turn down"
+				},
+				{
+					"name": "typical"
+				},
+				{
+					"name": "typically"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"ultimate",
-				"under no circumstances",
-				"under the circumstances",
-				"undergo",
-				"undertake",
-				"unison",
-				"universal",
-				"up to"
+				{
+					"name": "ultimate"
+				},
+				{
+					"name": "under no circumstances"
+				},
+				{
+					"name": "under the circumstances"
+				},
+				{
+					"name": "undergo"
+				},
+				{
+					"name": "undertake"
+				},
+				{
+					"name": "unison"
+				},
+				{
+					"name": "universal"
+				},
+				{
+					"name": "up to"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vividly",
-				"voluntary"
+				{
+					"name": "vividly"
+				},
+				{
+					"name": "voluntary"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"watch over",
-				"when it comes to",
-				"whereas",
-				"withdraw"
+				{
+					"name": "watch over"
+				},
+				{
+					"name": "when it comes to"
+				},
+				{
+					"name": "whereas"
+				},
+				{
+					"name": "withdraw"
+				}
 			]
 		}
 	]

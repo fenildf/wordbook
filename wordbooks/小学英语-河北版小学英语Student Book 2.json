@@ -5,98 +5,182 @@
 		{
 			"name": "F",
 			"children": [
-				"Friday",
-				"fourteen",
-				"fruit"
+				{
+					"name": "Friday"
+				},
+				{
+					"name": "fourteen"
+				},
+				{
+					"name": "fruit"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"Monday",
-				"milk",
-				"morning"
+				{
+					"name": "Monday"
+				},
+				{
+					"name": "milk"
+				},
+				{
+					"name": "morning"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"Sunday",
-				"shirt",
-				"shoes",
-				"sixteen",
-				"skirt",
-				"small",
-				"socks",
-				"soup",
-				"strawberry",
-				"supper",
-				"sweater"
+				{
+					"name": "Sunday"
+				},
+				{
+					"name": "shirt"
+				},
+				{
+					"name": "shoes"
+				},
+				{
+					"name": "sixteen"
+				},
+				{
+					"name": "skirt"
+				},
+				{
+					"name": "small"
+				},
+				{
+					"name": "socks"
+				},
+				{
+					"name": "soup"
+				},
+				{
+					"name": "strawberry"
+				},
+				{
+					"name": "supper"
+				},
+				{
+					"name": "sweater"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"TV",
-				"Thursday",
-				"Tuesday",
-				"thirsty",
-				"thirteen",
-				"thirty",
-				"twelve",
-				"twenty",
-				"twenty-one"
+				{
+					"name": "TV"
+				},
+				{
+					"name": "Thursday"
+				},
+				{
+					"name": "Tuesday"
+				},
+				{
+					"name": "thirsty"
+				},
+				{
+					"name": "thirteen"
+				},
+				{
+					"name": "thirty"
+				},
+				{
+					"name": "twelve"
+				},
+				{
+					"name": "twenty"
+				},
+				{
+					"name": "twenty-one"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"apple"
+				{
+					"name": "apple"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"bed",
-				"bellow",
-				"beside",
-				"big",
-				"blouse",
-				"breakfast"
+				{
+					"name": "bed"
+				},
+				{
+					"name": "bellow"
+				},
+				{
+					"name": "beside"
+				},
+				{
+					"name": "big"
+				},
+				{
+					"name": "blouse"
+				},
+				{
+					"name": "breakfast"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dress",
-				"dresser",
-				"drink",
-				"dumplings"
+				{
+					"name": "dress"
+				},
+				{
+					"name": "dresser"
+				},
+				{
+					"name": "drink"
+				},
+				{
+					"name": "dumplings"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eleven",
-				"evening"
+				{
+					"name": "eleven"
+				},
+				{
+					"name": "evening"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hungry"
+				{
+					"name": "hungry"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"noodles"
+				{
+					"name": "noodles"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"pop"
+				{
+					"name": "pop"
+				}
 			]
 		}
 	]

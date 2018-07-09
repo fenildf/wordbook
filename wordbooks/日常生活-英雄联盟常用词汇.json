@@ -5,223 +5,437 @@
 		{
 			"name": "A",
 			"children": [
-				"AD",
-				"ADC",
-				"AFK",
-				"AFK",
-				"AOE",
-				"AP",
-				"APC",
-				"aced",
-				"all back",
-				"ally",
-				"armor penetration",
-				"attack speed"
+				{
+					"name": "AD"
+				},
+				{
+					"name": "ADC"
+				},
+				{
+					"name": "AFK"
+				},
+				{
+					"name": "AFK"
+				},
+				{
+					"name": "AOE"
+				},
+				{
+					"name": "AP"
+				},
+				{
+					"name": "APC"
+				},
+				{
+					"name": "aced"
+				},
+				{
+					"name": "all back"
+				},
+				{
+					"name": "ally"
+				},
+				{
+					"name": "armor penetration"
+				},
+				{
+					"name": "attack speed"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"B/3",
-				"Bot",
-				"b",
-				"baron",
-				"blink",
-				"bot",
-				"bottom",
-				"brb",
-				"buff"
+				{
+					"name": "B/3"
+				},
+				{
+					"name": "Bot"
+				},
+				{
+					"name": "b"
+				},
+				{
+					"name": "baron"
+				},
+				{
+					"name": "blink"
+				},
+				{
+					"name": "bot"
+				},
+				{
+					"name": "bottom"
+				},
+				{
+					"name": "brb"
+				},
+				{
+					"name": "buff"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"CD",
-				"creep",
-				"creeps",
-				"crit"
+				{
+					"name": "CD"
+				},
+				{
+					"name": "creep"
+				},
+				{
+					"name": "creeps"
+				},
+				{
+					"name": "crit"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"DC",
-				"DPS",
-				"Dced",
-				"DeBuff",
-				"damage",
-				"defeat",
-				"delay",
-				"disconnect",
-				"dominate",
-				"dont fight under the tower",
-				"dont go alone",
-				"double kill"
+				{
+					"name": "DC"
+				},
+				{
+					"name": "DPS"
+				},
+				{
+					"name": "Dced"
+				},
+				{
+					"name": "DeBuff"
+				},
+				{
+					"name": "damage"
+				},
+				{
+					"name": "defeat"
+				},
+				{
+					"name": "delay"
+				},
+				{
+					"name": "disconnect"
+				},
+				{
+					"name": "dominate"
+				},
+				{
+					"name": "dont fight under the tower"
+				},
+				{
+					"name": "dont go alone"
+				},
+				{
+					"name": "double kill"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"FB",
-				"farm",
-				"flash",
-				"frozen"
+				{
+					"name": "FB"
+				},
+				{
+					"name": "farm"
+				},
+				{
+					"name": "flash"
+				},
+				{
+					"name": "frozen"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"GG",
-				"GL",
-				"gank",
-				"guys"
+				{
+					"name": "GG"
+				},
+				{
+					"name": "GL"
+				},
+				{
+					"name": "gank"
+				},
+				{
+					"name": "guys"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"HF",
-				"HP regen",
-				"have ult",
-				"heal"
+				{
+					"name": "HF"
+				},
+				{
+					"name": "HP regen"
+				},
+				{
+					"name": "have ult"
+				},
+				{
+					"name": "heal"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"KS",
-				"kill the dragon",
-				"killing Spree"
+				{
+					"name": "KS"
+				},
+				{
+					"name": "kill the dragon"
+				},
+				{
+					"name": "killing Spree"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"LAG",
-				"Lag",
-				"legendary",
-				"life steak"
+				{
+					"name": "LAG"
+				},
+				{
+					"name": "Lag"
+				},
+				{
+					"name": "legendary"
+				},
+				{
+					"name": "life steak"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"Mid",
-				"magic resist",
-				"mana regen",
-				"mia",
-				"mia",
-				"mid",
-				"mis",
-				"movement speed"
+				{
+					"name": "Mid"
+				},
+				{
+					"name": "magic resist"
+				},
+				{
+					"name": "mana regen"
+				},
+				{
+					"name": "mia"
+				},
+				{
+					"name": "mia"
+				},
+				{
+					"name": "mid"
+				},
+				{
+					"name": "mis"
+				},
+				{
+					"name": "movement speed"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"TP",
-				"Top",
-				"top",
-				"triple kill",
-				"turret",
-				"tutorial"
+				{
+					"name": "TP"
+				},
+				{
+					"name": "Top"
+				},
+				{
+					"name": "top"
+				},
+				{
+					"name": "triple kill"
+				},
+				{
+					"name": "turret"
+				},
+				{
+					"name": "tutorial"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"executed",
-				"exhaust"
+				{
+					"name": "executed"
+				},
+				{
+					"name": "exhaust"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"ignite",
-				"inhibitor",
-				"invisible"
+				{
+					"name": "ignite"
+				},
+				{
+					"name": "inhibitor"
+				},
+				{
+					"name": "invisible"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"jungle"
+				{
+					"name": "jungle"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"noob",
-				"nuke"
+				{
+					"name": "noob"
+				},
+				{
+					"name": "nuke"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"offtank",
-				"oracle"
+				{
+					"name": "offtank"
+				},
+				{
+					"name": "oracle"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"penetration",
-				"penta kill",
-				"push"
+				{
+					"name": "penetration"
+				},
+				{
+					"name": "penta kill"
+				},
+				{
+					"name": "push"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quadro kill"
+				{
+					"name": "quadro kill"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rampage",
-				"range",
-				"reconnect",
-				"regen",
-				"regroup"
+				{
+					"name": "rampage"
+				},
+				{
+					"name": "range"
+				},
+				{
+					"name": "reconnect"
+				},
+				{
+					"name": "regen"
+				},
+				{
+					"name": "regroup"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"shutdown",
-				"silence",
-				"slain",
-				"slow",
-				"smite",
-				"solo",
-				"spawn",
-				"spell penetration",
-				"spell vamp",
-				"stick together",
-				"stun",
-				"summoner"
+				{
+					"name": "shutdown"
+				},
+				{
+					"name": "silence"
+				},
+				{
+					"name": "slain"
+				},
+				{
+					"name": "slow"
+				},
+				{
+					"name": "smite"
+				},
+				{
+					"name": "solo"
+				},
+				{
+					"name": "spawn"
+				},
+				{
+					"name": "spell penetration"
+				},
+				{
+					"name": "spell vamp"
+				},
+				{
+					"name": "stick together"
+				},
+				{
+					"name": "stun"
+				},
+				{
+					"name": "summoner"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"u should back",
-				"unstoppable"
+				{
+					"name": "u should back"
+				},
+				{
+					"name": "unstoppable"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"victory",
-				"vision wards"
+				{
+					"name": "victory"
+				},
+				{
+					"name": "vision wards"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wards",
-				"wtf"
+				{
+					"name": "wards"
+				},
+				{
+					"name": "wtf"
+				}
 			]
 		}
 	]

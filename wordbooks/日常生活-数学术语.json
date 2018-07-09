@@ -5,330 +5,748 @@
 		{
 			"name": "A",
 			"children": [
-				"abscissa",
-				"add",
-				"addend",
-				"addition",
-				"aggregate",
-				"algebra",
-				"amplitude",
-				"angle",
-				"arc",
-				"area",
-				"arithmetic",
-				"augend",
-				"average",
-				"axiom",
-				"axis"
+				{
+					"name": "abscissa"
+				},
+				{
+					"name": "add"
+				},
+				{
+					"name": "addend"
+				},
+				{
+					"name": "addition"
+				},
+				{
+					"name": "aggregate"
+				},
+				{
+					"name": "algebra"
+				},
+				{
+					"name": "amplitude"
+				},
+				{
+					"name": "angle"
+				},
+				{
+					"name": "arc"
+				},
+				{
+					"name": "area"
+				},
+				{
+					"name": "arithmetic"
+				},
+				{
+					"name": "augend"
+				},
+				{
+					"name": "average"
+				},
+				{
+					"name": "axiom"
+				},
+				{
+					"name": "axis"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"barycentre",
-				"base"
+				{
+					"name": "barycentre"
+				},
+				{
+					"name": "base"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"calculation",
-				"calculus",
-				"carry",
-				"center",
-				"centre",
-				"circle",
-				"circumference",
-				"coefficient",
-				"combination",
-				"complement",
-				"cone",
-				"congruent",
-				"constant",
-				"coordinate",
-				"cosecant",
-				"cosine",
-				"cotangent",
-				"cube",
-				"cylinder"
+				{
+					"name": "calculation"
+				},
+				{
+					"name": "calculus"
+				},
+				{
+					"name": "carry"
+				},
+				{
+					"name": "center"
+				},
+				{
+					"name": "centre"
+				},
+				{
+					"name": "circle"
+				},
+				{
+					"name": "circumference"
+				},
+				{
+					"name": "coefficient"
+				},
+				{
+					"name": "combination"
+				},
+				{
+					"name": "complement"
+				},
+				{
+					"name": "cone"
+				},
+				{
+					"name": "congruent"
+				},
+				{
+					"name": "constant"
+				},
+				{
+					"name": "coordinate"
+				},
+				{
+					"name": "cosecant"
+				},
+				{
+					"name": "cosine"
+				},
+				{
+					"name": "cotangent"
+				},
+				{
+					"name": "cube"
+				},
+				{
+					"name": "cylinder"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"decagon",
-				"decimal",
-				"degree",
-				"denominator",
-				"derivative",
-				"determinant",
-				"diameter",
-				"diamond",
-				"difference",
-				"differential",
-				"digit",
-				"distribution",
-				"divide",
-				"dividend",
-				"divisible",
-				"division",
-				"divisor",
-				"domain"
+				{
+					"name": "decagon"
+				},
+				{
+					"name": "decimal"
+				},
+				{
+					"name": "degree"
+				},
+				{
+					"name": "denominator"
+				},
+				{
+					"name": "derivative"
+				},
+				{
+					"name": "determinant"
+				},
+				{
+					"name": "diameter"
+				},
+				{
+					"name": "diamond"
+				},
+				{
+					"name": "difference"
+				},
+				{
+					"name": "differential"
+				},
+				{
+					"name": "digit"
+				},
+				{
+					"name": "distribution"
+				},
+				{
+					"name": "divide"
+				},
+				{
+					"name": "dividend"
+				},
+				{
+					"name": "divisible"
+				},
+				{
+					"name": "division"
+				},
+				{
+					"name": "divisor"
+				},
+				{
+					"name": "domain"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"element",
-				"ellipse",
-				"equation",
-				"evolution",
-				"exponent",
-				"extraction"
+				{
+					"name": "element"
+				},
+				{
+					"name": "ellipse"
+				},
+				{
+					"name": "equation"
+				},
+				{
+					"name": "evolution"
+				},
+				{
+					"name": "exponent"
+				},
+				{
+					"name": "extraction"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"factor",
-				"factorial",
-				"formula",
-				"fraction",
-				"function"
+				{
+					"name": "factor"
+				},
+				{
+					"name": "factorial"
+				},
+				{
+					"name": "formula"
+				},
+				{
+					"name": "fraction"
+				},
+				{
+					"name": "function"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"geometry",
-				"graph"
+				{
+					"name": "geometry"
+				},
+				{
+					"name": "graph"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"height",
-				"hemisphere",
-				"heptagon",
-				"hexagon",
-				"hexahedron",
-				"histogram",
-				"hyperbola",
-				"hypotenuse",
-				"hypothesis"
+				{
+					"name": "height"
+				},
+				{
+					"name": "hemisphere"
+				},
+				{
+					"name": "heptagon"
+				},
+				{
+					"name": "hexagon"
+				},
+				{
+					"name": "hexahedron"
+				},
+				{
+					"name": "histogram"
+				},
+				{
+					"name": "hyperbola"
+				},
+				{
+					"name": "hypotenuse"
+				},
+				{
+					"name": "hypothesis"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"icosahedron",
-				"image",
-				"incenter",
-				"inequation",
-				"infinitesimal",
-				"integer",
-				"integral",
-				"intercede",
-				"intersect",
-				"intersection",
-				"irrational"
+				{
+					"name": "icosahedron"
+				},
+				{
+					"name": "image"
+				},
+				{
+					"name": "incenter"
+				},
+				{
+					"name": "inequation"
+				},
+				{
+					"name": "infinitesimal"
+				},
+				{
+					"name": "integer"
+				},
+				{
+					"name": "integral"
+				},
+				{
+					"name": "intercede"
+				},
+				{
+					"name": "intersect"
+				},
+				{
+					"name": "intersection"
+				},
+				{
+					"name": "irrational"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"leg",
-				"length",
-				"limit",
-				"line",
-				"loca",
-				"locus",
-				"logarithm"
+				{
+					"name": "leg"
+				},
+				{
+					"name": "length"
+				},
+				{
+					"name": "limit"
+				},
+				{
+					"name": "line"
+				},
+				{
+					"name": "loca"
+				},
+				{
+					"name": "locus"
+				},
+				{
+					"name": "logarithm"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"mapping",
-				"matrix",
-				"minuend",
-				"minus",
-				"monotonicity",
-				"multinomial",
-				"multiple",
-				"multiplicand",
-				"multiplication",
-				"multiplicator",
-				"multiplier",
-				"multiply"
+				{
+					"name": "mapping"
+				},
+				{
+					"name": "matrix"
+				},
+				{
+					"name": "minuend"
+				},
+				{
+					"name": "minus"
+				},
+				{
+					"name": "monotonicity"
+				},
+				{
+					"name": "multinomial"
+				},
+				{
+					"name": "multiple"
+				},
+				{
+					"name": "multiplicand"
+				},
+				{
+					"name": "multiplication"
+				},
+				{
+					"name": "multiplicator"
+				},
+				{
+					"name": "multiplier"
+				},
+				{
+					"name": "multiply"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"negative",
-				"nil",
-				"nought",
-				"null",
-				"number",
-				"numerator"
+				{
+					"name": "negative"
+				},
+				{
+					"name": "nil"
+				},
+				{
+					"name": "nought"
+				},
+				{
+					"name": "null"
+				},
+				{
+					"name": "number"
+				},
+				{
+					"name": "numerator"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"octagon",
-				"octahedron",
-				"operation",
-				"operator",
-				"ordinate",
-				"origin"
+				{
+					"name": "octagon"
+				},
+				{
+					"name": "octahedron"
+				},
+				{
+					"name": "operation"
+				},
+				{
+					"name": "operator"
+				},
+				{
+					"name": "ordinate"
+				},
+				{
+					"name": "origin"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"parabola",
-				"parallel",
-				"parallelepiped",
-				"parallelogram",
-				"parity",
-				"pentagon",
-				"per capita",
-				"percent",
-				"percentage",
-				"percentile",
-				"perimeter",
-				"period",
-				"periodicity",
-				"permutation",
-				"phase",
-				"pi",
-				"plane",
-				"plus",
-				"point",
-				"polygon",
-				"polyhedron",
-				"polynomial",
-				"positive",
-				"power",
-				"prism",
-				"probability",
-				"product",
-				"proposition",
-				"prove",
-				"pyramid"
+				{
+					"name": "parabola"
+				},
+				{
+					"name": "parallel"
+				},
+				{
+					"name": "parallelepiped"
+				},
+				{
+					"name": "parallelogram"
+				},
+				{
+					"name": "parity"
+				},
+				{
+					"name": "pentagon"
+				},
+				{
+					"name": "per capita"
+				},
+				{
+					"name": "percent"
+				},
+				{
+					"name": "percentage"
+				},
+				{
+					"name": "percentile"
+				},
+				{
+					"name": "perimeter"
+				},
+				{
+					"name": "period"
+				},
+				{
+					"name": "periodicity"
+				},
+				{
+					"name": "permutation"
+				},
+				{
+					"name": "phase"
+				},
+				{
+					"name": "pi"
+				},
+				{
+					"name": "plane"
+				},
+				{
+					"name": "plus"
+				},
+				{
+					"name": "point"
+				},
+				{
+					"name": "polygon"
+				},
+				{
+					"name": "polyhedron"
+				},
+				{
+					"name": "polynomial"
+				},
+				{
+					"name": "positive"
+				},
+				{
+					"name": "power"
+				},
+				{
+					"name": "prism"
+				},
+				{
+					"name": "probability"
+				},
+				{
+					"name": "product"
+				},
+				{
+					"name": "proposition"
+				},
+				{
+					"name": "prove"
+				},
+				{
+					"name": "pyramid"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quadrant",
-				"quadrilateral",
-				"quotient"
+				{
+					"name": "quadrant"
+				},
+				{
+					"name": "quadrilateral"
+				},
+				{
+					"name": "quotient"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"radial",
-				"radian",
-				"radius",
-				"range",
-				"ratio",
-				"real number",
-				"rectangle",
-				"remainder",
-				"rhomb",
-				"rhombus",
-				"ring",
-				"rotation",
-				"round"
+				{
+					"name": "radial"
+				},
+				{
+					"name": "radian"
+				},
+				{
+					"name": "radius"
+				},
+				{
+					"name": "range"
+				},
+				{
+					"name": "ratio"
+				},
+				{
+					"name": "real number"
+				},
+				{
+					"name": "rectangle"
+				},
+				{
+					"name": "remainder"
+				},
+				{
+					"name": "rhomb"
+				},
+				{
+					"name": "rhombus"
+				},
+				{
+					"name": "ring"
+				},
+				{
+					"name": "rotation"
+				},
+				{
+					"name": "round"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"secant",
-				"sector",
-				"segment",
-				"semicircle",
-				"sequence",
-				"series",
-				"set",
-				"side",
-				"significance",
-				"similar",
-				"sine",
-				"slope",
-				"solid",
-				"solution",
-				"space",
-				"sphere",
-				"square",
-				"statistics",
-				"subset",
-				"subtract",
-				"subtraction",
-				"subtrahend",
-				"sum"
+				{
+					"name": "secant"
+				},
+				{
+					"name": "sector"
+				},
+				{
+					"name": "segment"
+				},
+				{
+					"name": "semicircle"
+				},
+				{
+					"name": "sequence"
+				},
+				{
+					"name": "series"
+				},
+				{
+					"name": "set"
+				},
+				{
+					"name": "side"
+				},
+				{
+					"name": "significance"
+				},
+				{
+					"name": "similar"
+				},
+				{
+					"name": "sine"
+				},
+				{
+					"name": "slope"
+				},
+				{
+					"name": "solid"
+				},
+				{
+					"name": "solution"
+				},
+				{
+					"name": "space"
+				},
+				{
+					"name": "sphere"
+				},
+				{
+					"name": "square"
+				},
+				{
+					"name": "statistics"
+				},
+				{
+					"name": "subset"
+				},
+				{
+					"name": "subtract"
+				},
+				{
+					"name": "subtraction"
+				},
+				{
+					"name": "subtrahend"
+				},
+				{
+					"name": "sum"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tangent",
-				"tenth",
-				"tetrahedron",
-				"theorem",
-				"times",
-				"trapezoid",
-				"triangle",
-				"trigonometry"
+				{
+					"name": "tangent"
+				},
+				{
+					"name": "tenth"
+				},
+				{
+					"name": "tetrahedron"
+				},
+				{
+					"name": "theorem"
+				},
+				{
+					"name": "times"
+				},
+				{
+					"name": "trapezoid"
+				},
+				{
+					"name": "triangle"
+				},
+				{
+					"name": "trigonometry"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"undersurface",
-				"union",
-				"unknown"
+				{
+					"name": "undersurface"
+				},
+				{
+					"name": "union"
+				},
+				{
+					"name": "unknown"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"variable",
-				"variance",
-				"void",
-				"volume"
+				{
+					"name": "variable"
+				},
+				{
+					"name": "variance"
+				},
+				{
+					"name": "void"
+				},
+				{
+					"name": "volume"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"weight",
-				"width"
+				{
+					"name": "weight"
+				},
+				{
+					"name": "width"
+				}
 			]
 		},
 		{
 			"name": "X",
 			"children": [
-				"x-axis",
-				"x-coordinate"
+				{
+					"name": "x-axis"
+				},
+				{
+					"name": "x-coordinate"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"y-axis"
+				{
+					"name": "y-axis"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"z-axis",
-				"zero"
+				{
+					"name": "z-axis"
+				},
+				{
+					"name": "zero"
+				}
 			]
 		}
 	]

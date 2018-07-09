@@ -5,750 +5,2048 @@
 		{
 			"name": "D",
 			"children": [
-				"Democrat",
-				"dastardly",
-				"dauntless",
-				"dawdle",
-				"debilitate",
-				"decadent",
-				"decadent",
-				"deciduous",
-				"decrepit",
-				"default",
-				"defer",
-				"defiance",
-				"demagogue",
-				"demented",
-				"democracy",
-				"democratic",
-				"democratize",
-				"demolish",
-				"demote",
-				"denizen",
-				"dependent",
-				"depreciate",
-				"dermatologist",
-				"dermis",
-				"despise",
-				"deviate",
-				"devour",
-				"devour",
-				"diameter",
-				"diathermy",
-				"dilapidated",
-				"disaster",
-				"discipline",
-				"discord",
-				"discredit",
-				"discreet",
-				"discrepancy",
-				"discrepancy",
-				"disintegrate",
-				"disrepair",
-				"dissent",
-				"dissent",
-				"distract",
-				"divulge",
-				"docile",
-				"domicile",
-				"dovetail",
-				"dowry",
-				"dynamic"
+				{
+					"name": "Democrat"
+				},
+				{
+					"name": "dastardly"
+				},
+				{
+					"name": "dauntless"
+				},
+				{
+					"name": "dawdle"
+				},
+				{
+					"name": "debilitate"
+				},
+				{
+					"name": "decadent"
+				},
+				{
+					"name": "decadent"
+				},
+				{
+					"name": "deciduous"
+				},
+				{
+					"name": "decrepit"
+				},
+				{
+					"name": "default"
+				},
+				{
+					"name": "defer"
+				},
+				{
+					"name": "defiance"
+				},
+				{
+					"name": "demagogue"
+				},
+				{
+					"name": "demented"
+				},
+				{
+					"name": "democracy"
+				},
+				{
+					"name": "democratic"
+				},
+				{
+					"name": "democratize"
+				},
+				{
+					"name": "demolish"
+				},
+				{
+					"name": "demote"
+				},
+				{
+					"name": "denizen"
+				},
+				{
+					"name": "dependent"
+				},
+				{
+					"name": "depreciate"
+				},
+				{
+					"name": "dermatologist"
+				},
+				{
+					"name": "dermis"
+				},
+				{
+					"name": "despise"
+				},
+				{
+					"name": "deviate"
+				},
+				{
+					"name": "devour"
+				},
+				{
+					"name": "devour"
+				},
+				{
+					"name": "diameter"
+				},
+				{
+					"name": "diathermy"
+				},
+				{
+					"name": "dilapidated"
+				},
+				{
+					"name": "disaster"
+				},
+				{
+					"name": "discipline"
+				},
+				{
+					"name": "discord"
+				},
+				{
+					"name": "discredit"
+				},
+				{
+					"name": "discreet"
+				},
+				{
+					"name": "discrepancy"
+				},
+				{
+					"name": "discrepancy"
+				},
+				{
+					"name": "disintegrate"
+				},
+				{
+					"name": "disrepair"
+				},
+				{
+					"name": "dissent"
+				},
+				{
+					"name": "dissent"
+				},
+				{
+					"name": "distract"
+				},
+				{
+					"name": "divulge"
+				},
+				{
+					"name": "docile"
+				},
+				{
+					"name": "domicile"
+				},
+				{
+					"name": "dovetail"
+				},
+				{
+					"name": "dowry"
+				},
+				{
+					"name": "dynamic"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"Elysian",
-				"economic",
-				"economical",
-				"edible",
-				"electrocardiogram",
-				"elicit",
-				"elite",
-				"elucidate",
-				"emancipate",
-				"embroil",
-				"emigrate",
-				"eminent",
-				"enamored",
-				"encore",
-				"encyclopedia",
-				"enervate",
-				"enervate",
-				"engender",
-				"enigma",
-				"enlighten",
-				"ennui",
-				"entail",
-				"entente",
-				"entre nous",
-				"entrepreneur",
-				"envision",
-				"envoy",
-				"epidemic",
-				"epidermis",
-				"epigram",
-				"epithet",
-				"equanimity",
-				"equilateral",
-				"erosion",
-				"esprit de corps",
-				"essence",
-				"estrange",
-				"evoke",
-				"excise",
-				"exclusive",
-				"exhibit",
-				"expel",
-				"extracurricular",
-				"extraneous",
-				"extravagant"
+				{
+					"name": "Elysian"
+				},
+				{
+					"name": "economic"
+				},
+				{
+					"name": "economical"
+				},
+				{
+					"name": "edible"
+				},
+				{
+					"name": "electrocardiogram"
+				},
+				{
+					"name": "elicit"
+				},
+				{
+					"name": "elite"
+				},
+				{
+					"name": "elucidate"
+				},
+				{
+					"name": "emancipate"
+				},
+				{
+					"name": "embroil"
+				},
+				{
+					"name": "emigrate"
+				},
+				{
+					"name": "eminent"
+				},
+				{
+					"name": "enamored"
+				},
+				{
+					"name": "encore"
+				},
+				{
+					"name": "encyclopedia"
+				},
+				{
+					"name": "enervate"
+				},
+				{
+					"name": "enervate"
+				},
+				{
+					"name": "engender"
+				},
+				{
+					"name": "enigma"
+				},
+				{
+					"name": "enlighten"
+				},
+				{
+					"name": "ennui"
+				},
+				{
+					"name": "entail"
+				},
+				{
+					"name": "entente"
+				},
+				{
+					"name": "entre nous"
+				},
+				{
+					"name": "entrepreneur"
+				},
+				{
+					"name": "envision"
+				},
+				{
+					"name": "envoy"
+				},
+				{
+					"name": "epidemic"
+				},
+				{
+					"name": "epidermis"
+				},
+				{
+					"name": "epigram"
+				},
+				{
+					"name": "epithet"
+				},
+				{
+					"name": "equanimity"
+				},
+				{
+					"name": "equilateral"
+				},
+				{
+					"name": "erosion"
+				},
+				{
+					"name": "esprit de corps"
+				},
+				{
+					"name": "essence"
+				},
+				{
+					"name": "estrange"
+				},
+				{
+					"name": "evoke"
+				},
+				{
+					"name": "excise"
+				},
+				{
+					"name": "exclusive"
+				},
+				{
+					"name": "exhibit"
+				},
+				{
+					"name": "expel"
+				},
+				{
+					"name": "extracurricular"
+				},
+				{
+					"name": "extraneous"
+				},
+				{
+					"name": "extravagant"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"Herculean",
-				"hector",
-				"heed",
-				"hermetic",
-				"heterogeneous",
-				"hidalgo",
-				"homogeneous",
-				"homogenize",
-				"homonym",
-				"hors d'oeuvres",
-				"hypodermic",
-				"hypothesis"
+				{
+					"name": "Herculean"
+				},
+				{
+					"name": "hector"
+				},
+				{
+					"name": "heed"
+				},
+				{
+					"name": "hermetic"
+				},
+				{
+					"name": "heterogeneous"
+				},
+				{
+					"name": "hidalgo"
+				},
+				{
+					"name": "homogeneous"
+				},
+				{
+					"name": "homogenize"
+				},
+				{
+					"name": "homonym"
+				},
+				{
+					"name": "hors d'oeuvres"
+				},
+				{
+					"name": "hypodermic"
+				},
+				{
+					"name": "hypothesis"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"Lucullan",
-				"labyrinthine",
-				"laconic",
-				"laissez-faire",
-				"largo",
-				"latent",
-				"lateral",
-				"legato",
-				"legerdemain",
-				"lento",
-				"lethargic",
-				"lettre de cachet",
-				"liaison",
-				"libretto",
-				"literacy",
-				"literal",
-				"literary",
-				"literate",
-				"litigation",
-				"lucid",
-				"luminary",
-				"luminous",
-				"lurk",
-				"luscious"
+				{
+					"name": "Lucullan"
+				},
+				{
+					"name": "labyrinthine"
+				},
+				{
+					"name": "laconic"
+				},
+				{
+					"name": "laissez-faire"
+				},
+				{
+					"name": "largo"
+				},
+				{
+					"name": "latent"
+				},
+				{
+					"name": "lateral"
+				},
+				{
+					"name": "legato"
+				},
+				{
+					"name": "legerdemain"
+				},
+				{
+					"name": "lento"
+				},
+				{
+					"name": "lethargic"
+				},
+				{
+					"name": "lettre de cachet"
+				},
+				{
+					"name": "liaison"
+				},
+				{
+					"name": "libretto"
+				},
+				{
+					"name": "literacy"
+				},
+				{
+					"name": "literal"
+				},
+				{
+					"name": "literary"
+				},
+				{
+					"name": "literate"
+				},
+				{
+					"name": "litigation"
+				},
+				{
+					"name": "lucid"
+				},
+				{
+					"name": "luminary"
+				},
+				{
+					"name": "luminous"
+				},
+				{
+					"name": "lurk"
+				},
+				{
+					"name": "luscious"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"Pan-American",
-				"panacea",
-				"pandemonium",
-				"panoply",
-				"panorama",
-				"pantomime",
-				"pedagogue",
-				"pedagogy",
-				"pediatrician",
-				"pediatrics",
-				"perennial",
-				"perennial",
-				"perforate",
-				"permeate",
-				"perplex",
-				"persist",
-				"pertinent",
-				"perturb",
-				"perverse",
-				"phantom",
-				"phenomenal",
-				"phenomenon",
-				"photometer",
-				"picayune",
-				"pittance",
-				"pliable",
-				"plutocracy",
-				"postdate",
-				"postgraduate",
-				"postmortem",
-				"postscript",
-				"precede",
-				"preclude",
-				"preconceive",
-				"preface",
-				"prerequisite",
-				"pressing",
-				"preview",
-				"procrastinate",
-				"protagonist",
-				"protocol",
-				"protoplasm",
-				"prototype",
-				"protozoan",
-				"protract",
-				"pseudonym",
-				"puny",
-				"pyromania"
+				{
+					"name": "Pan-American"
+				},
+				{
+					"name": "panacea"
+				},
+				{
+					"name": "pandemonium"
+				},
+				{
+					"name": "panoply"
+				},
+				{
+					"name": "panorama"
+				},
+				{
+					"name": "pantomime"
+				},
+				{
+					"name": "pedagogue"
+				},
+				{
+					"name": "pedagogy"
+				},
+				{
+					"name": "pediatrician"
+				},
+				{
+					"name": "pediatrics"
+				},
+				{
+					"name": "perennial"
+				},
+				{
+					"name": "perennial"
+				},
+				{
+					"name": "perforate"
+				},
+				{
+					"name": "permeate"
+				},
+				{
+					"name": "perplex"
+				},
+				{
+					"name": "persist"
+				},
+				{
+					"name": "pertinent"
+				},
+				{
+					"name": "perturb"
+				},
+				{
+					"name": "perverse"
+				},
+				{
+					"name": "phantom"
+				},
+				{
+					"name": "phenomenal"
+				},
+				{
+					"name": "phenomenon"
+				},
+				{
+					"name": "photometer"
+				},
+				{
+					"name": "picayune"
+				},
+				{
+					"name": "pittance"
+				},
+				{
+					"name": "pliable"
+				},
+				{
+					"name": "plutocracy"
+				},
+				{
+					"name": "postdate"
+				},
+				{
+					"name": "postgraduate"
+				},
+				{
+					"name": "postmortem"
+				},
+				{
+					"name": "postscript"
+				},
+				{
+					"name": "precede"
+				},
+				{
+					"name": "preclude"
+				},
+				{
+					"name": "preconceive"
+				},
+				{
+					"name": "preface"
+				},
+				{
+					"name": "prerequisite"
+				},
+				{
+					"name": "pressing"
+				},
+				{
+					"name": "preview"
+				},
+				{
+					"name": "procrastinate"
+				},
+				{
+					"name": "protagonist"
+				},
+				{
+					"name": "protocol"
+				},
+				{
+					"name": "protoplasm"
+				},
+				{
+					"name": "prototype"
+				},
+				{
+					"name": "protozoan"
+				},
+				{
+					"name": "protract"
+				},
+				{
+					"name": "pseudonym"
+				},
+				{
+					"name": "puny"
+				},
+				{
+					"name": "pyromania"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"abroad",
-				"accede",
-				"accord",
-				"acquiesce",
-				"acronym",
-				"adroit",
-				"affluent",
-				"agronomy",
-				"alias",
-				"allegiance",
-				"altercation",
-				"ambidextrous",
-				"anachronism",
-				"anonymous",
-				"antagonist",
-				"antagonize",
-				"antibiotic",
-				"antibody",
-				"antidote",
-				"antipathy",
-				"antiseptic",
-				"antithesis",
-				"antitoxin",
-				"antonym",
-				"apprehensive",
-				"apprise",
-				"aristocracy",
-				"aristocrat",
-				"aster",
-				"asterisk",
-				"asteroid",
-				"astrologer",
-				"astronaut",
-				"astronomical",
-				"at variance",
-				"audacious",
-				"authentic",
-				"autobiography",
-				"autocracy",
-				"autocrat",
-				"autograph",
-				"automatic",
-				"automation",
-				"automaton",
-				"autonomous",
-				"autonomy",
-				"autopsy",
-				"avarice",
-				"avowal"
+				{
+					"name": "abroad"
+				},
+				{
+					"name": "accede"
+				},
+				{
+					"name": "accord"
+				},
+				{
+					"name": "acquiesce"
+				},
+				{
+					"name": "acronym"
+				},
+				{
+					"name": "adroit"
+				},
+				{
+					"name": "affluent"
+				},
+				{
+					"name": "agronomy"
+				},
+				{
+					"name": "alias"
+				},
+				{
+					"name": "allegiance"
+				},
+				{
+					"name": "altercation"
+				},
+				{
+					"name": "ambidextrous"
+				},
+				{
+					"name": "anachronism"
+				},
+				{
+					"name": "anonymous"
+				},
+				{
+					"name": "antagonist"
+				},
+				{
+					"name": "antagonize"
+				},
+				{
+					"name": "antibiotic"
+				},
+				{
+					"name": "antibody"
+				},
+				{
+					"name": "antidote"
+				},
+				{
+					"name": "antipathy"
+				},
+				{
+					"name": "antiseptic"
+				},
+				{
+					"name": "antithesis"
+				},
+				{
+					"name": "antitoxin"
+				},
+				{
+					"name": "antonym"
+				},
+				{
+					"name": "apprehensive"
+				},
+				{
+					"name": "apprise"
+				},
+				{
+					"name": "aristocracy"
+				},
+				{
+					"name": "aristocrat"
+				},
+				{
+					"name": "aster"
+				},
+				{
+					"name": "asterisk"
+				},
+				{
+					"name": "asteroid"
+				},
+				{
+					"name": "astrologer"
+				},
+				{
+					"name": "astronaut"
+				},
+				{
+					"name": "astronomical"
+				},
+				{
+					"name": "at variance"
+				},
+				{
+					"name": "audacious"
+				},
+				{
+					"name": "authentic"
+				},
+				{
+					"name": "autobiography"
+				},
+				{
+					"name": "autocracy"
+				},
+				{
+					"name": "autocrat"
+				},
+				{
+					"name": "autograph"
+				},
+				{
+					"name": "automatic"
+				},
+				{
+					"name": "automation"
+				},
+				{
+					"name": "automaton"
+				},
+				{
+					"name": "autonomous"
+				},
+				{
+					"name": "autonomy"
+				},
+				{
+					"name": "autopsy"
+				},
+				{
+					"name": "avarice"
+				},
+				{
+					"name": "avowal"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"bacchanalian",
-				"bagatelle",
-				"baritone",
-				"barometer",
-				"bas-relief",
-				"basso",
-				"baton",
-				"benediction",
-				"benefactor",
-				"beneficial",
-				"beneficiary",
-				"benevolent",
-				"bicameral",
-				"bicentennial",
-				"biennial",
-				"bilateral",
-				"bilingual",
-				"billet-doux",
-				"bimonthly",
-				"bipartisan",
-				"bisect",
-				"bon mot",
-				"bonbon",
-				"bouffant",
-				"bourgeoisie",
-				"bravura",
-				"brochure"
+				{
+					"name": "bacchanalian"
+				},
+				{
+					"name": "bagatelle"
+				},
+				{
+					"name": "baritone"
+				},
+				{
+					"name": "barometer"
+				},
+				{
+					"name": "bas-relief"
+				},
+				{
+					"name": "basso"
+				},
+				{
+					"name": "baton"
+				},
+				{
+					"name": "benediction"
+				},
+				{
+					"name": "benefactor"
+				},
+				{
+					"name": "beneficial"
+				},
+				{
+					"name": "beneficiary"
+				},
+				{
+					"name": "benevolent"
+				},
+				{
+					"name": "bicameral"
+				},
+				{
+					"name": "bicentennial"
+				},
+				{
+					"name": "biennial"
+				},
+				{
+					"name": "bilateral"
+				},
+				{
+					"name": "bilingual"
+				},
+				{
+					"name": "billet-doux"
+				},
+				{
+					"name": "bimonthly"
+				},
+				{
+					"name": "bipartisan"
+				},
+				{
+					"name": "bisect"
+				},
+				{
+					"name": "bon mot"
+				},
+				{
+					"name": "bonbon"
+				},
+				{
+					"name": "bouffant"
+				},
+				{
+					"name": "bourgeoisie"
+				},
+				{
+					"name": "bravura"
+				},
+				{
+					"name": "brochure"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"cartographer",
-				"cellophane",
-				"chronic",
-				"chronicle",
-				"chronological",
-				"chronology",
-				"chronometer",
-				"circumference",
-				"circumlocution",
-				"circumnavigate",
-				"circumscribe",
-				"circumspect",
-				"circumvent",
-				"citadel",
-				"clandestine",
-				"cleavage",
-				"coalesce",
-				"cogent",
-				"coherence",
-				"coherent",
-				"collaborate",
-				"collusion",
-				"colossal",
-				"commodious",
-				"commute",
-				"compact",
-				"compatible",
-				"compromise",
-				"compulsory",
-				"con",
-				"concord",
-				"concurrent",
-				"condiment",
-				"confine",
-				"conform",
-				"congenital",
-				"congregation",
-				"consistent",
-				"contraband",
-				"contravene",
-				"controversy",
-				"convene",
-				"correspond",
-				"correspond",
-				"counter",
-				"countermand",
-				"cower",
-				"craven",
-				"cryptogram"
+				{
+					"name": "cartographer"
+				},
+				{
+					"name": "cellophane"
+				},
+				{
+					"name": "chronic"
+				},
+				{
+					"name": "chronicle"
+				},
+				{
+					"name": "chronological"
+				},
+				{
+					"name": "chronology"
+				},
+				{
+					"name": "chronometer"
+				},
+				{
+					"name": "circumference"
+				},
+				{
+					"name": "circumlocution"
+				},
+				{
+					"name": "circumnavigate"
+				},
+				{
+					"name": "circumscribe"
+				},
+				{
+					"name": "circumspect"
+				},
+				{
+					"name": "circumvent"
+				},
+				{
+					"name": "citadel"
+				},
+				{
+					"name": "clandestine"
+				},
+				{
+					"name": "cleavage"
+				},
+				{
+					"name": "coalesce"
+				},
+				{
+					"name": "cogent"
+				},
+				{
+					"name": "coherence"
+				},
+				{
+					"name": "coherent"
+				},
+				{
+					"name": "collaborate"
+				},
+				{
+					"name": "collusion"
+				},
+				{
+					"name": "colossal"
+				},
+				{
+					"name": "commodious"
+				},
+				{
+					"name": "commute"
+				},
+				{
+					"name": "compact"
+				},
+				{
+					"name": "compatible"
+				},
+				{
+					"name": "compromise"
+				},
+				{
+					"name": "compulsory"
+				},
+				{
+					"name": "con"
+				},
+				{
+					"name": "concord"
+				},
+				{
+					"name": "concurrent"
+				},
+				{
+					"name": "condiment"
+				},
+				{
+					"name": "confine"
+				},
+				{
+					"name": "conform"
+				},
+				{
+					"name": "congenital"
+				},
+				{
+					"name": "congregation"
+				},
+				{
+					"name": "consistent"
+				},
+				{
+					"name": "contraband"
+				},
+				{
+					"name": "contravene"
+				},
+				{
+					"name": "controversy"
+				},
+				{
+					"name": "convene"
+				},
+				{
+					"name": "correspond"
+				},
+				{
+					"name": "correspond"
+				},
+				{
+					"name": "counter"
+				},
+				{
+					"name": "countermand"
+				},
+				{
+					"name": "cower"
+				},
+				{
+					"name": "craven"
+				},
+				{
+					"name": "cryptogram"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"facade",
-				"fait accompli",
-				"falsetto",
-				"fancy",
-				"fantastic",
-				"fantasy",
-				"faux pas",
-				"fiasco",
-				"filet",
-				"finale",
-				"finale",
-				"financial",
-				"finesse",
-				"finis",
-				"flamboyant",
-				"flimsy",
-				"fluctuate",
-				"fluent",
-				"fluid",
-				"flux",
-				"forearm",
-				"forebear",
-				"foreboding",
-				"forecast",
-				"forefront",
-				"foregoing",
-				"foremost",
-				"foreshadow",
-				"foresight",
-				"foreword",
-				"formidable",
-				"forte",
-				"forte",
-				"fortissimo",
-				"fortitude",
-				"foyer",
-				"frail",
-				"fresco",
-				"friction"
+				{
+					"name": "facade"
+				},
+				{
+					"name": "fait accompli"
+				},
+				{
+					"name": "falsetto"
+				},
+				{
+					"name": "fancy"
+				},
+				{
+					"name": "fantastic"
+				},
+				{
+					"name": "fantasy"
+				},
+				{
+					"name": "faux pas"
+				},
+				{
+					"name": "fiasco"
+				},
+				{
+					"name": "filet"
+				},
+				{
+					"name": "finale"
+				},
+				{
+					"name": "finale"
+				},
+				{
+					"name": "financial"
+				},
+				{
+					"name": "finesse"
+				},
+				{
+					"name": "finis"
+				},
+				{
+					"name": "flamboyant"
+				},
+				{
+					"name": "flimsy"
+				},
+				{
+					"name": "fluctuate"
+				},
+				{
+					"name": "fluent"
+				},
+				{
+					"name": "fluid"
+				},
+				{
+					"name": "flux"
+				},
+				{
+					"name": "forearm"
+				},
+				{
+					"name": "forebear"
+				},
+				{
+					"name": "foreboding"
+				},
+				{
+					"name": "forecast"
+				},
+				{
+					"name": "forefront"
+				},
+				{
+					"name": "foregoing"
+				},
+				{
+					"name": "foremost"
+				},
+				{
+					"name": "foreshadow"
+				},
+				{
+					"name": "foresight"
+				},
+				{
+					"name": "foreword"
+				},
+				{
+					"name": "formidable"
+				},
+				{
+					"name": "forte"
+				},
+				{
+					"name": "forte"
+				},
+				{
+					"name": "fortissimo"
+				},
+				{
+					"name": "fortitude"
+				},
+				{
+					"name": "foyer"
+				},
+				{
+					"name": "frail"
+				},
+				{
+					"name": "fresco"
+				},
+				{
+					"name": "friction"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gastronome",
-				"gaucho",
-				"gendarme",
-				"genealogy",
-				"genesis",
-				"genre",
-				"gondola",
-				"grandee",
-				"graphic",
-				"graphite",
-				"gratuitous",
-				"grave",
-				"gregarious",
-				"grotto",
-				"gusto"
+				{
+					"name": "gastronome"
+				},
+				{
+					"name": "gaucho"
+				},
+				{
+					"name": "gendarme"
+				},
+				{
+					"name": "genealogy"
+				},
+				{
+					"name": "genesis"
+				},
+				{
+					"name": "genre"
+				},
+				{
+					"name": "gondola"
+				},
+				{
+					"name": "grandee"
+				},
+				{
+					"name": "graphic"
+				},
+				{
+					"name": "graphite"
+				},
+				{
+					"name": "gratuitous"
+				},
+				{
+					"name": "grave"
+				},
+				{
+					"name": "gregarious"
+				},
+				{
+					"name": "grotto"
+				},
+				{
+					"name": "gusto"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"ignore",
-				"immigrate",
-				"imminent",
-				"imminent",
-				"impel",
-				"imperative",
-				"implicate",
-				"impregnable",
-				"impugn",
-				"inadvertent",
-				"incapacitate",
-				"incarcerate",
-				"incipient",
-				"incise",
-				"inclusive",
-				"incontrovertible",
-				"incumbent",
-				"indispensable",
-				"indomitable",
-				"infinite",
-				"infinitesimal",
-				"infirmity",
-				"inflate",
-				"infraction",
-				"inhibit",
-				"inmate",
-				"inordinate",
-				"inscribe",
-				"insubordinate",
-				"insurgent",
-				"insurgent",
-				"insurrection",
-				"intercede",
-				"intercept",
-				"interlude",
-				"intermediary",
-				"intermission",
-				"intermittent",
-				"intersect",
-				"intervene",
-				"intimidate",
-				"intramural",
-				"intraparty",
-				"intrastate",
-				"intravenous",
-				"invigorate",
-				"invoke",
-				"iota",
-				"irreconcilable"
+				{
+					"name": "ignore"
+				},
+				{
+					"name": "immigrate"
+				},
+				{
+					"name": "imminent"
+				},
+				{
+					"name": "imminent"
+				},
+				{
+					"name": "impel"
+				},
+				{
+					"name": "imperative"
+				},
+				{
+					"name": "implicate"
+				},
+				{
+					"name": "impregnable"
+				},
+				{
+					"name": "impugn"
+				},
+				{
+					"name": "inadvertent"
+				},
+				{
+					"name": "incapacitate"
+				},
+				{
+					"name": "incarcerate"
+				},
+				{
+					"name": "incipient"
+				},
+				{
+					"name": "incise"
+				},
+				{
+					"name": "inclusive"
+				},
+				{
+					"name": "incontrovertible"
+				},
+				{
+					"name": "incumbent"
+				},
+				{
+					"name": "indispensable"
+				},
+				{
+					"name": "indomitable"
+				},
+				{
+					"name": "infinite"
+				},
+				{
+					"name": "infinitesimal"
+				},
+				{
+					"name": "infirmity"
+				},
+				{
+					"name": "inflate"
+				},
+				{
+					"name": "infraction"
+				},
+				{
+					"name": "inhibit"
+				},
+				{
+					"name": "inmate"
+				},
+				{
+					"name": "inordinate"
+				},
+				{
+					"name": "inscribe"
+				},
+				{
+					"name": "insubordinate"
+				},
+				{
+					"name": "insurgent"
+				},
+				{
+					"name": "insurgent"
+				},
+				{
+					"name": "insurrection"
+				},
+				{
+					"name": "intercede"
+				},
+				{
+					"name": "intercept"
+				},
+				{
+					"name": "interlude"
+				},
+				{
+					"name": "intermediary"
+				},
+				{
+					"name": "intermission"
+				},
+				{
+					"name": "intermittent"
+				},
+				{
+					"name": "intersect"
+				},
+				{
+					"name": "intervene"
+				},
+				{
+					"name": "intimidate"
+				},
+				{
+					"name": "intramural"
+				},
+				{
+					"name": "intraparty"
+				},
+				{
+					"name": "intrastate"
+				},
+				{
+					"name": "intravenous"
+				},
+				{
+					"name": "invigorate"
+				},
+				{
+					"name": "invoke"
+				},
+				{
+					"name": "iota"
+				},
+				{
+					"name": "irreconcilable"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"maestro",
-				"magnanimous",
-				"magnitude",
-				"majolica",
-				"maladjusted",
-				"maladroit",
-				"malaise",
-				"malcontent",
-				"malediction",
-				"malefactor",
-				"malevolent",
-				"malice",
-				"malnutrition",
-				"maltreat",
-				"manacle",
-				"mandate",
-				"mania",
-				"maniac",
-				"maniacal",
-				"manipulate",
-				"manual",
-				"manuscript",
-				"martial",
-				"martinet",
-				"meek",
-				"mentor",
-				"mercurial",
-				"meter",
-				"meticulous",
-				"mezzo-soprano",
-				"mezzotint",
-				"migrate",
-				"milieu",
-				"mirage",
-				"misbelief",
-				"misdeed",
-				"misfire",
-				"misgiving",
-				"mishap",
-				"mislay",
-				"mislead",
-				"misstep",
-				"moderato",
-				"monogram",
-				"monograph",
-				"mot juste",
-				"multilateral",
-				"musicale",
-				"myrmidon"
+				{
+					"name": "maestro"
+				},
+				{
+					"name": "magnanimous"
+				},
+				{
+					"name": "magnitude"
+				},
+				{
+					"name": "majolica"
+				},
+				{
+					"name": "maladjusted"
+				},
+				{
+					"name": "maladroit"
+				},
+				{
+					"name": "malaise"
+				},
+				{
+					"name": "malcontent"
+				},
+				{
+					"name": "malediction"
+				},
+				{
+					"name": "malefactor"
+				},
+				{
+					"name": "malevolent"
+				},
+				{
+					"name": "malice"
+				},
+				{
+					"name": "malnutrition"
+				},
+				{
+					"name": "maltreat"
+				},
+				{
+					"name": "manacle"
+				},
+				{
+					"name": "mandate"
+				},
+				{
+					"name": "mania"
+				},
+				{
+					"name": "maniac"
+				},
+				{
+					"name": "maniacal"
+				},
+				{
+					"name": "manipulate"
+				},
+				{
+					"name": "manual"
+				},
+				{
+					"name": "manuscript"
+				},
+				{
+					"name": "martial"
+				},
+				{
+					"name": "martinet"
+				},
+				{
+					"name": "meek"
+				},
+				{
+					"name": "mentor"
+				},
+				{
+					"name": "mercurial"
+				},
+				{
+					"name": "meter"
+				},
+				{
+					"name": "meticulous"
+				},
+				{
+					"name": "mezzo-soprano"
+				},
+				{
+					"name": "mezzotint"
+				},
+				{
+					"name": "migrate"
+				},
+				{
+					"name": "milieu"
+				},
+				{
+					"name": "mirage"
+				},
+				{
+					"name": "misbelief"
+				},
+				{
+					"name": "misdeed"
+				},
+				{
+					"name": "misfire"
+				},
+				{
+					"name": "misgiving"
+				},
+				{
+					"name": "mishap"
+				},
+				{
+					"name": "mislay"
+				},
+				{
+					"name": "mislead"
+				},
+				{
+					"name": "misstep"
+				},
+				{
+					"name": "moderato"
+				},
+				{
+					"name": "monogram"
+				},
+				{
+					"name": "monograph"
+				},
+				{
+					"name": "mot juste"
+				},
+				{
+					"name": "multilateral"
+				},
+				{
+					"name": "musicale"
+				},
+				{
+					"name": "myrmidon"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"naive",
-				"necessitate",
-				"nemesis",
-				"nemesis",
-				"noblesse oblige",
-				"nomad",
-				"nomadic",
-				"nonchalant",
-				"notwithstanding",
-				"nouveaux riches"
+				{
+					"name": "naive"
+				},
+				{
+					"name": "necessitate"
+				},
+				{
+					"name": "nemesis"
+				},
+				{
+					"name": "nemesis"
+				},
+				{
+					"name": "noblesse oblige"
+				},
+				{
+					"name": "nomad"
+				},
+				{
+					"name": "nomadic"
+				},
+				{
+					"name": "nonchalant"
+				},
+				{
+					"name": "notwithstanding"
+				},
+				{
+					"name": "nouveaux riches"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"oblige",
-				"obliterate",
-				"obsess",
-				"obstacle",
-				"obstruct",
-				"obtrude",
-				"obviate",
-				"obviate",
-				"odometer",
-				"odyssey",
-				"onomatopoeia",
-				"opera",
-				"oratorio",
-				"orthodontist",
-				"orthodox",
-				"orthography",
-				"orthopedic",
-				"orthopedist",
-				"outgrow",
-				"outlandish",
-				"outlast",
-				"outlook",
-				"output",
-				"outrun",
-				"outspoken",
-				"outwit",
-				"overbearing",
-				"overburden",
-				"overconfident",
-				"overdose",
-				"overestimate",
-				"overshadow",
-				"oversupply",
-				"overwhelm"
+				{
+					"name": "oblige"
+				},
+				{
+					"name": "obliterate"
+				},
+				{
+					"name": "obsess"
+				},
+				{
+					"name": "obstacle"
+				},
+				{
+					"name": "obstruct"
+				},
+				{
+					"name": "obtrude"
+				},
+				{
+					"name": "obviate"
+				},
+				{
+					"name": "obviate"
+				},
+				{
+					"name": "odometer"
+				},
+				{
+					"name": "odyssey"
+				},
+				{
+					"name": "onomatopoeia"
+				},
+				{
+					"name": "opera"
+				},
+				{
+					"name": "oratorio"
+				},
+				{
+					"name": "orthodontist"
+				},
+				{
+					"name": "orthodox"
+				},
+				{
+					"name": "orthography"
+				},
+				{
+					"name": "orthopedic"
+				},
+				{
+					"name": "orthopedist"
+				},
+				{
+					"name": "outgrow"
+				},
+				{
+					"name": "outlandish"
+				},
+				{
+					"name": "outlast"
+				},
+				{
+					"name": "outlook"
+				},
+				{
+					"name": "output"
+				},
+				{
+					"name": "outrun"
+				},
+				{
+					"name": "outspoken"
+				},
+				{
+					"name": "outwit"
+				},
+				{
+					"name": "overbearing"
+				},
+				{
+					"name": "overburden"
+				},
+				{
+					"name": "overconfident"
+				},
+				{
+					"name": "overdose"
+				},
+				{
+					"name": "overestimate"
+				},
+				{
+					"name": "overshadow"
+				},
+				{
+					"name": "oversupply"
+				},
+				{
+					"name": "overwhelm"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"raconteur",
-				"rapport",
-				"rapprochement",
-				"redound",
-				"redundant",
-				"regenerate",
-				"relent",
-				"remiss",
-				"rendezvous",
-				"renegade",
-				"repartee",
-				"repertoire",
-				"resolution",
-				"resolve",
-				"revise",
-				"riposte",
-				"robust",
-				"rotunda"
+				{
+					"name": "raconteur"
+				},
+				{
+					"name": "rapport"
+				},
+				{
+					"name": "rapprochement"
+				},
+				{
+					"name": "redound"
+				},
+				{
+					"name": "redundant"
+				},
+				{
+					"name": "regenerate"
+				},
+				{
+					"name": "relent"
+				},
+				{
+					"name": "remiss"
+				},
+				{
+					"name": "rendezvous"
+				},
+				{
+					"name": "renegade"
+				},
+				{
+					"name": "repartee"
+				},
+				{
+					"name": "repertoire"
+				},
+				{
+					"name": "resolution"
+				},
+				{
+					"name": "resolve"
+				},
+				{
+					"name": "revise"
+				},
+				{
+					"name": "riposte"
+				},
+				{
+					"name": "robust"
+				},
+				{
+					"name": "rotunda"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"scribe",
-				"script",
-				"scrupulous",
-				"scrutinize",
-				"secede",
-				"secession",
-				"seclude",
-				"secure",
-				"sedition",
-				"sedition",
-				"segregate",
-				"segregation",
-				"semiannual",
-				"semicircle",
-				"semiconscious",
-				"semidetached",
-				"semimonthly",
-				"semiskilled",
-				"similarity",
-				"simile",
-				"simulate",
-				"simultaneous",
-				"slake",
-				"slovenly",
-				"sojourn",
-				"sole",
-				"solicitude",
-				"soliloquy",
-				"solitary",
-				"solitude",
-				"solo",
-				"soluble",
-				"solvent",
-				"speedometer",
-				"sporadic",
-				"stenographer",
-				"submit",
-				"subscriber",
-				"succulent",
-				"superabundance",
-				"superfluous",
-				"superimpose",
-				"suspend",
-				"suspense",
-				"symmetry",
-				"synchronize",
-				"synonym",
-				"synthesis",
-				"synthetic"
+				{
+					"name": "scribe"
+				},
+				{
+					"name": "script"
+				},
+				{
+					"name": "scrupulous"
+				},
+				{
+					"name": "scrutinize"
+				},
+				{
+					"name": "secede"
+				},
+				{
+					"name": "secession"
+				},
+				{
+					"name": "seclude"
+				},
+				{
+					"name": "secure"
+				},
+				{
+					"name": "sedition"
+				},
+				{
+					"name": "sedition"
+				},
+				{
+					"name": "segregate"
+				},
+				{
+					"name": "segregation"
+				},
+				{
+					"name": "semiannual"
+				},
+				{
+					"name": "semicircle"
+				},
+				{
+					"name": "semiconscious"
+				},
+				{
+					"name": "semidetached"
+				},
+				{
+					"name": "semimonthly"
+				},
+				{
+					"name": "semiskilled"
+				},
+				{
+					"name": "similarity"
+				},
+				{
+					"name": "simile"
+				},
+				{
+					"name": "simulate"
+				},
+				{
+					"name": "simultaneous"
+				},
+				{
+					"name": "slake"
+				},
+				{
+					"name": "slovenly"
+				},
+				{
+					"name": "sojourn"
+				},
+				{
+					"name": "sole"
+				},
+				{
+					"name": "solicitude"
+				},
+				{
+					"name": "soliloquy"
+				},
+				{
+					"name": "solitary"
+				},
+				{
+					"name": "solitude"
+				},
+				{
+					"name": "solo"
+				},
+				{
+					"name": "soluble"
+				},
+				{
+					"name": "solvent"
+				},
+				{
+					"name": "speedometer"
+				},
+				{
+					"name": "sporadic"
+				},
+				{
+					"name": "stenographer"
+				},
+				{
+					"name": "submit"
+				},
+				{
+					"name": "subscriber"
+				},
+				{
+					"name": "succulent"
+				},
+				{
+					"name": "superabundance"
+				},
+				{
+					"name": "superfluous"
+				},
+				{
+					"name": "superimpose"
+				},
+				{
+					"name": "suspend"
+				},
+				{
+					"name": "suspense"
+				},
+				{
+					"name": "symmetry"
+				},
+				{
+					"name": "synchronize"
+				},
+				{
+					"name": "synonym"
+				},
+				{
+					"name": "synthesis"
+				},
+				{
+					"name": "synthetic"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tantalize",
-				"taxidermist",
-				"technocracy",
-				"tempera",
-				"tenacious",
-				"tenor",
-				"terpsichorean",
-				"terra cotta",
-				"thermal",
-				"thermometer",
-				"thermonuclear",
-				"thermostat",
-				"thesis",
-				"thespian",
-				"titanic",
-				"toreador",
-				"torero",
-				"torso",
-				"toupee",
-				"tour de force",
-				"tractable",
-				"transgress",
-				"translucent",
-				"transpose",
-				"tremolo",
-				"trespass",
-				"trio",
-				"typographical"
+				{
+					"name": "tantalize"
+				},
+				{
+					"name": "taxidermist"
+				},
+				{
+					"name": "technocracy"
+				},
+				{
+					"name": "tempera"
+				},
+				{
+					"name": "tenacious"
+				},
+				{
+					"name": "tenor"
+				},
+				{
+					"name": "terpsichorean"
+				},
+				{
+					"name": "terra cotta"
+				},
+				{
+					"name": "thermal"
+				},
+				{
+					"name": "thermometer"
+				},
+				{
+					"name": "thermonuclear"
+				},
+				{
+					"name": "thermostat"
+				},
+				{
+					"name": "thesis"
+				},
+				{
+					"name": "thespian"
+				},
+				{
+					"name": "titanic"
+				},
+				{
+					"name": "toreador"
+				},
+				{
+					"name": "torero"
+				},
+				{
+					"name": "torso"
+				},
+				{
+					"name": "toupee"
+				},
+				{
+					"name": "tour de force"
+				},
+				{
+					"name": "tractable"
+				},
+				{
+					"name": "transgress"
+				},
+				{
+					"name": "translucent"
+				},
+				{
+					"name": "transpose"
+				},
+				{
+					"name": "tremolo"
+				},
+				{
+					"name": "trespass"
+				},
+				{
+					"name": "trio"
+				},
+				{
+					"name": "typographical"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"unabridged",
-				"unanimous",
-				"unbiased",
-				"unconcern",
-				"undeceive",
-				"underbrush",
-				"underdeveloped",
-				"undergraduate",
-				"underpayment",
-				"underprivileged",
-				"underscore",
-				"undersell",
-				"undersigned",
-				"understatement",
-				"understudy",
-				"unilateral",
-				"unnerve",
-				"unquenchable",
-				"unscramble",
-				"unshackle",
-				"unwary",
-				"upcoming",
-				"update",
-				"upgrade",
-				"upheaval",
-				"upkeep",
-				"upright",
-				"uproot",
-				"upstart",
-				"upturn"
+				{
+					"name": "unabridged"
+				},
+				{
+					"name": "unanimous"
+				},
+				{
+					"name": "unbiased"
+				},
+				{
+					"name": "unconcern"
+				},
+				{
+					"name": "undeceive"
+				},
+				{
+					"name": "underbrush"
+				},
+				{
+					"name": "underdeveloped"
+				},
+				{
+					"name": "undergraduate"
+				},
+				{
+					"name": "underpayment"
+				},
+				{
+					"name": "underprivileged"
+				},
+				{
+					"name": "underscore"
+				},
+				{
+					"name": "undersell"
+				},
+				{
+					"name": "undersigned"
+				},
+				{
+					"name": "understatement"
+				},
+				{
+					"name": "understudy"
+				},
+				{
+					"name": "unilateral"
+				},
+				{
+					"name": "unnerve"
+				},
+				{
+					"name": "unquenchable"
+				},
+				{
+					"name": "unscramble"
+				},
+				{
+					"name": "unshackle"
+				},
+				{
+					"name": "unwary"
+				},
+				{
+					"name": "upcoming"
+				},
+				{
+					"name": "update"
+				},
+				{
+					"name": "upgrade"
+				},
+				{
+					"name": "upheaval"
+				},
+				{
+					"name": "upkeep"
+				},
+				{
+					"name": "upright"
+				},
+				{
+					"name": "uproot"
+				},
+				{
+					"name": "upstart"
+				},
+				{
+					"name": "upturn"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vaquero",
-				"vehement",
-				"vendetta",
-				"veracity",
-				"verdict",
-				"verify",
-				"veritable",
-				"verity",
-				"vibrato",
-				"video",
-				"vigilance",
-				"vignette",
-				"vigor",
-				"virtuoso",
-				"vis-a-vis",
-				"visibility",
-				"visual",
-				"vivace",
-				"vogue"
+				{
+					"name": "vaquero"
+				},
+				{
+					"name": "vehement"
+				},
+				{
+					"name": "vendetta"
+				},
+				{
+					"name": "veracity"
+				},
+				{
+					"name": "verdict"
+				},
+				{
+					"name": "verify"
+				},
+				{
+					"name": "veritable"
+				},
+				{
+					"name": "verity"
+				},
+				{
+					"name": "vibrato"
+				},
+				{
+					"name": "video"
+				},
+				{
+					"name": "vigilance"
+				},
+				{
+					"name": "vignette"
+				},
+				{
+					"name": "vigor"
+				},
+				{
+					"name": "virtuoso"
+				},
+				{
+					"name": "vis-a-vis"
+				},
+				{
+					"name": "visibility"
+				},
+				{
+					"name": "visual"
+				},
+				{
+					"name": "vivace"
+				},
+				{
+					"name": "vogue"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"withdraw",
-				"withdrawal",
-				"withdrawn",
-				"withhold",
-				"withholding tax",
-				"withstand"
+				{
+					"name": "withdraw"
+				},
+				{
+					"name": "withdrawal"
+				},
+				{
+					"name": "withdrawn"
+				},
+				{
+					"name": "withhold"
+				},
+				{
+					"name": "withholding tax"
+				},
+				{
+					"name": "withstand"
+				}
 			]
 		}
 	]

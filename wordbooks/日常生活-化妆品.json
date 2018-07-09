@@ -5,72 +5,114 @@
 		{
 			"name": "B",
 			"children": [
-				"blusher"
+				{
+					"name": "blusher"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"cosmetic",
-				"cream"
+				{
+					"name": "cosmetic"
+				},
+				{
+					"name": "cream"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"enamel",
-				"essence",
-				"eye shadow",
-				"eyeliner"
+				{
+					"name": "enamel"
+				},
+				{
+					"name": "essence"
+				},
+				{
+					"name": "eye shadow"
+				},
+				{
+					"name": "eyeliner"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"foundation"
+				{
+					"name": "foundation"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lip gloss",
-				"lipstick",
-				"lotion"
+				{
+					"name": "lip gloss"
+				},
+				{
+					"name": "lipstick"
+				},
+				{
+					"name": "lotion"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"manicure",
-				"mascara",
-				"masque",
-				"milk",
-				"mousse"
+				{
+					"name": "manicure"
+				},
+				{
+					"name": "mascara"
+				},
+				{
+					"name": "masque"
+				},
+				{
+					"name": "milk"
+				},
+				{
+					"name": "mousse"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"perfume"
+				{
+					"name": "perfume"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"shampoo",
-				"sunblock"
+				{
+					"name": "shampoo"
+				},
+				{
+					"name": "sunblock"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"toner"
+				{
+					"name": "toner"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"whitening"
+				{
+					"name": "whitening"
+				}
 			]
 		}
 	]

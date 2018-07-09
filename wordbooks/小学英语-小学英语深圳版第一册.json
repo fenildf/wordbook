@@ -5,243 +5,537 @@
 		{
 			"name": "C",
 			"children": [
-				"CD",
-				"call",
-				"can",
-				"can't",
-				"cat",
-				"children",
-				"class",
-				"classroom",
-				"clock",
-				"close",
-				"clown",
-				"come on",
-				"computer game"
+				{
+					"name": "CD"
+				},
+				{
+					"name": "call"
+				},
+				{
+					"name": "can"
+				},
+				{
+					"name": "can't"
+				},
+				{
+					"name": "cat"
+				},
+				{
+					"name": "children"
+				},
+				{
+					"name": "class"
+				},
+				{
+					"name": "classroom"
+				},
+				{
+					"name": "clock"
+				},
+				{
+					"name": "close"
+				},
+				{
+					"name": "clown"
+				},
+				{
+					"name": "come on"
+				},
+				{
+					"name": "computer game"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"Young Pioneer",
-				"yellow",
-				"yes",
-				"young"
+				{
+					"name": "Young Pioneer"
+				},
+				{
+					"name": "yellow"
+				},
+				{
+					"name": "yes"
+				},
+				{
+					"name": "young"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"afternoon",
-				"am",
-				"an",
-				"and",
-				"apple"
+				{
+					"name": "afternoon"
+				},
+				{
+					"name": "am"
+				},
+				{
+					"name": "an"
+				},
+				{
+					"name": "and"
+				},
+				{
+					"name": "apple"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"bag",
-				"ball",
-				"banana",
-				"bear",
-				"bed",
-				"big",
-				"bin",
-				"bird",
-				"black",
-				"blue",
-				"board",
-				"boy",
-				"brown",
-				"bye-bye"
+				{
+					"name": "bag"
+				},
+				{
+					"name": "ball"
+				},
+				{
+					"name": "banana"
+				},
+				{
+					"name": "bear"
+				},
+				{
+					"name": "bed"
+				},
+				{
+					"name": "big"
+				},
+				{
+					"name": "bin"
+				},
+				{
+					"name": "bird"
+				},
+				{
+					"name": "black"
+				},
+				{
+					"name": "blue"
+				},
+				{
+					"name": "board"
+				},
+				{
+					"name": "boy"
+				},
+				{
+					"name": "brown"
+				},
+				{
+					"name": "bye-bye"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dad",
-				"dance",
-				"do",
-				"do a show",
-				"dog",
-				"doll",
-				"draw"
+				{
+					"name": "dad"
+				},
+				{
+					"name": "dance"
+				},
+				{
+					"name": "do"
+				},
+				{
+					"name": "do a show"
+				},
+				{
+					"name": "dog"
+				},
+				{
+					"name": "doll"
+				},
+				{
+					"name": "draw"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eight",
-				"elephant"
+				{
+					"name": "eight"
+				},
+				{
+					"name": "elephant"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"fat",
-				"finger",
-				"fish",
-				"five",
-				"flower",
-				"fly",
-				"for",
-				"four",
-				"fruit"
+				{
+					"name": "fat"
+				},
+				{
+					"name": "finger"
+				},
+				{
+					"name": "fish"
+				},
+				{
+					"name": "five"
+				},
+				{
+					"name": "flower"
+				},
+				{
+					"name": "fly"
+				},
+				{
+					"name": "for"
+				},
+				{
+					"name": "four"
+				},
+				{
+					"name": "fruit"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"giraffe",
-				"girl",
-				"go",
-				"grade",
-				"grass",
-				"gray",
-				"green"
+				{
+					"name": "giraffe"
+				},
+				{
+					"name": "girl"
+				},
+				{
+					"name": "go"
+				},
+				{
+					"name": "grade"
+				},
+				{
+					"name": "grass"
+				},
+				{
+					"name": "gray"
+				},
+				{
+					"name": "green"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"have",
-				"help",
-				"here",
-				"hole",
-				"home",
-				"how"
+				{
+					"name": "have"
+				},
+				{
+					"name": "help"
+				},
+				{
+					"name": "here"
+				},
+				{
+					"name": "hole"
+				},
+				{
+					"name": "home"
+				},
+				{
+					"name": "how"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"in",
-				"it"
+				{
+					"name": "in"
+				},
+				{
+					"name": "it"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"let",
-				"let's",
-				"like",
-				"lion",
-				"look at",
-				"lychee"
+				{
+					"name": "let"
+				},
+				{
+					"name": "let's"
+				},
+				{
+					"name": "like"
+				},
+				{
+					"name": "lion"
+				},
+				{
+					"name": "look at"
+				},
+				{
+					"name": "lychee"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"me",
-				"meet",
-				"miaow",
-				"miss",
-				"monkey",
-				"mouth",
-				"mr",
-				"much",
-				"mum"
+				{
+					"name": "me"
+				},
+				{
+					"name": "meet"
+				},
+				{
+					"name": "miaow"
+				},
+				{
+					"name": "miss"
+				},
+				{
+					"name": "monkey"
+				},
+				{
+					"name": "mouth"
+				},
+				{
+					"name": "mr"
+				},
+				{
+					"name": "much"
+				},
+				{
+					"name": "mum"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"nice",
-				"nine",
-				"nose",
-				"not"
+				{
+					"name": "nice"
+				},
+				{
+					"name": "nine"
+				},
+				{
+					"name": "nose"
+				},
+				{
+					"name": "not"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"on",
-				"one",
-				"oops",
-				"orange",
-				"orange",
-				"our",
-				"out",
-				"ow"
+				{
+					"name": "on"
+				},
+				{
+					"name": "one"
+				},
+				{
+					"name": "oops"
+				},
+				{
+					"name": "orange"
+				},
+				{
+					"name": "orange"
+				},
+				{
+					"name": "our"
+				},
+				{
+					"name": "out"
+				},
+				{
+					"name": "ow"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"panda",
-				"pear",
-				"pen",
-				"picture",
-				"pioneer",
-				"please",
-				"point",
-				"point to",
-				"put"
+				{
+					"name": "panda"
+				},
+				{
+					"name": "pear"
+				},
+				{
+					"name": "pen"
+				},
+				{
+					"name": "picture"
+				},
+				{
+					"name": "pioneer"
+				},
+				{
+					"name": "please"
+				},
+				{
+					"name": "point"
+				},
+				{
+					"name": "point to"
+				},
+				{
+					"name": "put"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rabbit",
-				"read",
-				"red",
-				"robot",
-				"run"
+				{
+					"name": "rabbit"
+				},
+				{
+					"name": "read"
+				},
+				{
+					"name": "red"
+				},
+				{
+					"name": "robot"
+				},
+				{
+					"name": "run"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"salad",
-				"see",
-				"seven",
-				"short",
-				"show",
-				"sing",
-				"sit down",
-				"six",
-				"slide",
-				"small",
-				"stand",
-				"stand up",
-				"stare",
-				"storybook",
-				"swim",
-				"swimming pool"
+				{
+					"name": "salad"
+				},
+				{
+					"name": "see"
+				},
+				{
+					"name": "seven"
+				},
+				{
+					"name": "short"
+				},
+				{
+					"name": "show"
+				},
+				{
+					"name": "sing"
+				},
+				{
+					"name": "sit down"
+				},
+				{
+					"name": "six"
+				},
+				{
+					"name": "slide"
+				},
+				{
+					"name": "small"
+				},
+				{
+					"name": "stand"
+				},
+				{
+					"name": "stand up"
+				},
+				{
+					"name": "stare"
+				},
+				{
+					"name": "storybook"
+				},
+				{
+					"name": "swim"
+				},
+				{
+					"name": "swimming pool"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tall",
-				"ten",
-				"thanks",
-				"that",
-				"the",
-				"thin",
-				"three",
-				"too",
-				"tow",
-				"toy",
-				"toy box",
-				"tree",
-				"turn",
-				"turtle"
+				{
+					"name": "tall"
+				},
+				{
+					"name": "ten"
+				},
+				{
+					"name": "thanks"
+				},
+				{
+					"name": "that"
+				},
+				{
+					"name": "the"
+				},
+				{
+					"name": "thin"
+				},
+				{
+					"name": "three"
+				},
+				{
+					"name": "too"
+				},
+				{
+					"name": "tow"
+				},
+				{
+					"name": "toy"
+				},
+				{
+					"name": "toy box"
+				},
+				{
+					"name": "tree"
+				},
+				{
+					"name": "turn"
+				},
+				{
+					"name": "turtle"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"want",
-				"watch",
-				"welcome",
-				"white",
-				"wow",
-				"write",
-				"wrong"
+				{
+					"name": "want"
+				},
+				{
+					"name": "watch"
+				},
+				{
+					"name": "welcome"
+				},
+				{
+					"name": "white"
+				},
+				{
+					"name": "wow"
+				},
+				{
+					"name": "write"
+				},
+				{
+					"name": "wrong"
+				}
 			]
 		}
 	]

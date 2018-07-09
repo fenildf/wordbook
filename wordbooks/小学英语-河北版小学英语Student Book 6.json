@@ -5,61 +5,101 @@
 		{
 			"name": "C",
 			"children": [
-				"computer",
-				"corner"
+				{
+					"name": "computer"
+				},
+				{
+					"name": "corner"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"envelop",
-				"everyone"
+				{
+					"name": "envelop"
+				},
+				{
+					"name": "everyone"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"helped",
-				"hurt"
+				{
+					"name": "helped"
+				},
+				{
+					"name": "hurt"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"men"
+				{
+					"name": "men"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"played",
-				"point",
-				"postcard"
+				{
+					"name": "played"
+				},
+				{
+					"name": "point"
+				},
+				{
+					"name": "postcard"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quietly"
+				{
+					"name": "quietly"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"send",
-				"shopped",
-				"sleep",
-				"slowly",
-				"some",
-				"stamp"
+				{
+					"name": "send"
+				},
+				{
+					"name": "shopped"
+				},
+				{
+					"name": "sleep"
+				},
+				{
+					"name": "slowly"
+				},
+				{
+					"name": "some"
+				},
+				{
+					"name": "stamp"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"went",
-				"woman",
-				"women"
+				{
+					"name": "went"
+				},
+				{
+					"name": "woman"
+				},
+				{
+					"name": "women"
+				}
 			]
 		}
 	]

@@ -5,396 +5,946 @@
 		{
 			"name": "B",
 			"children": [
-				"Beowulf",
-				"bang",
-				"barge",
-				"bash",
-				"bastard",
-				"bathrobe",
-				"beard",
-				"beat-up",
-				"behave",
-				"biology",
-				"black-and-white",
-				"blanket",
-				"bore",
-				"broad",
-				"brush",
-				"buck",
-				"buddy",
-				"bull",
-				"bumpy",
-				"bury"
+				{
+					"name": "Beowulf"
+				},
+				{
+					"name": "bang"
+				},
+				{
+					"name": "barge"
+				},
+				{
+					"name": "bash"
+				},
+				{
+					"name": "bastard"
+				},
+				{
+					"name": "bathrobe"
+				},
+				{
+					"name": "beard"
+				},
+				{
+					"name": "beat-up"
+				},
+				{
+					"name": "behave"
+				},
+				{
+					"name": "biology"
+				},
+				{
+					"name": "black-and-white"
+				},
+				{
+					"name": "blanket"
+				},
+				{
+					"name": "bore"
+				},
+				{
+					"name": "broad"
+				},
+				{
+					"name": "brush"
+				},
+				{
+					"name": "buck"
+				},
+				{
+					"name": "buddy"
+				},
+				{
+					"name": "bull"
+				},
+				{
+					"name": "bumpy"
+				},
+				{
+					"name": "bury"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"Catcher",
-				"Caucasian",
-				"cadillac",
-				"camel",
-				"campus",
-				"cannon",
-				"cement",
-				"challenge",
-				"chapel",
-				"charm",
-				"checkup",
-				"chest",
-				"chiffonier",
-				"chin",
-				"chuck",
-				"closet",
-				"clunk",
-				"comb",
-				"commit",
-				"complicate",
-				"compulsory",
-				"conceited",
-				"concern",
-				"conference",
-				"continent",
-				"corny",
-				"cosy",
-				"crap",
-				"crew",
-				"crook",
-				"crumby",
-				"cry",
-				"curtain"
+				{
+					"name": "Catcher"
+				},
+				{
+					"name": "Caucasian"
+				},
+				{
+					"name": "cadillac"
+				},
+				{
+					"name": "camel"
+				},
+				{
+					"name": "campus"
+				},
+				{
+					"name": "cannon"
+				},
+				{
+					"name": "cement"
+				},
+				{
+					"name": "challenge"
+				},
+				{
+					"name": "chapel"
+				},
+				{
+					"name": "charm"
+				},
+				{
+					"name": "checkup"
+				},
+				{
+					"name": "chest"
+				},
+				{
+					"name": "chiffonier"
+				},
+				{
+					"name": "chin"
+				},
+				{
+					"name": "chuck"
+				},
+				{
+					"name": "closet"
+				},
+				{
+					"name": "clunk"
+				},
+				{
+					"name": "comb"
+				},
+				{
+					"name": "commit"
+				},
+				{
+					"name": "complicate"
+				},
+				{
+					"name": "compulsory"
+				},
+				{
+					"name": "conceited"
+				},
+				{
+					"name": "concern"
+				},
+				{
+					"name": "conference"
+				},
+				{
+					"name": "continent"
+				},
+				{
+					"name": "corny"
+				},
+				{
+					"name": "cosy"
+				},
+				{
+					"name": "crap"
+				},
+				{
+					"name": "crew"
+				},
+				{
+					"name": "crook"
+				},
+				{
+					"name": "crumby"
+				},
+				{
+					"name": "cry"
+				},
+				{
+					"name": "curtain"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"Navajo",
-				"nasty",
-				"native",
-				"nerve"
+				{
+					"name": "Navajo"
+				},
+				{
+					"name": "nasty"
+				},
+				{
+					"name": "native"
+				},
+				{
+					"name": "nerve"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"Pennsylvania",
-				"pajamas",
-				"pant",
-				"parlor",
-				"particular",
-				"peak",
-				"peculiar",
-				"phase",
-				"phony",
-				"pick",
-				"pile",
-				"pimple",
-				"pinch",
-				"pole",
-				"polo",
-				"posture",
-				"practically",
-				"prep",
-				"press",
-				"prince",
-				"prostitute",
-				"puke"
+				{
+					"name": "Pennsylvania"
+				},
+				{
+					"name": "pajamas"
+				},
+				{
+					"name": "pant"
+				},
+				{
+					"name": "parlor"
+				},
+				{
+					"name": "particular"
+				},
+				{
+					"name": "peak"
+				},
+				{
+					"name": "peculiar"
+				},
+				{
+					"name": "phase"
+				},
+				{
+					"name": "phony"
+				},
+				{
+					"name": "pick"
+				},
+				{
+					"name": "pile"
+				},
+				{
+					"name": "pimple"
+				},
+				{
+					"name": "pinch"
+				},
+				{
+					"name": "pole"
+				},
+				{
+					"name": "polo"
+				},
+				{
+					"name": "posture"
+				},
+				{
+					"name": "practically"
+				},
+				{
+					"name": "prep"
+				},
+				{
+					"name": "press"
+				},
+				{
+					"name": "prince"
+				},
+				{
+					"name": "prostitute"
+				},
+				{
+					"name": "puke"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"Saxon",
-				"sack",
-				"sadist",
-				"sadistic",
-				"sake",
-				"sarcastic",
-				"scissor",
-				"scratch",
-				"scrawny",
-				"section",
-				"senior",
-				"sense",
-				"serious",
-				"shape",
-				"shave",
-				"shifting",
-				"shot",
-				"shove",
-				"show up",
-				"shower",
-				"showing",
-				"slap",
-				"slob",
-				"sneak",
-				"sore",
-				"speed",
-				"spill",
-				"splendid",
-				"stick",
-				"stiff",
-				"stink",
-				"stoop",
-				"strad",
-				"strap",
-				"stretch",
-				"strictly",
-				"stuff",
-				"subway",
-				"suicide",
-				"superior",
-				"suppose",
-				"surround",
-				"swell"
+				{
+					"name": "Saxon"
+				},
+				{
+					"name": "sack"
+				},
+				{
+					"name": "sadist"
+				},
+				{
+					"name": "sadistic"
+				},
+				{
+					"name": "sake"
+				},
+				{
+					"name": "sarcastic"
+				},
+				{
+					"name": "scissor"
+				},
+				{
+					"name": "scratch"
+				},
+				{
+					"name": "scrawny"
+				},
+				{
+					"name": "section"
+				},
+				{
+					"name": "senior"
+				},
+				{
+					"name": "sense"
+				},
+				{
+					"name": "serious"
+				},
+				{
+					"name": "shape"
+				},
+				{
+					"name": "shave"
+				},
+				{
+					"name": "shifting"
+				},
+				{
+					"name": "shot"
+				},
+				{
+					"name": "shove"
+				},
+				{
+					"name": "show up"
+				},
+				{
+					"name": "shower"
+				},
+				{
+					"name": "showing"
+				},
+				{
+					"name": "slap"
+				},
+				{
+					"name": "slob"
+				},
+				{
+					"name": "sneak"
+				},
+				{
+					"name": "sore"
+				},
+				{
+					"name": "speed"
+				},
+				{
+					"name": "spill"
+				},
+				{
+					"name": "splendid"
+				},
+				{
+					"name": "stick"
+				},
+				{
+					"name": "stiff"
+				},
+				{
+					"name": "stink"
+				},
+				{
+					"name": "stoop"
+				},
+				{
+					"name": "strad"
+				},
+				{
+					"name": "strap"
+				},
+				{
+					"name": "stretch"
+				},
+				{
+					"name": "strictly"
+				},
+				{
+					"name": "stuff"
+				},
+				{
+					"name": "subway"
+				},
+				{
+					"name": "suicide"
+				},
+				{
+					"name": "superior"
+				},
+				{
+					"name": "suppose"
+				},
+				{
+					"name": "surround"
+				},
+				{
+					"name": "swell"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"Yellowstone",
-				"yawn",
-				"yell"
+				{
+					"name": "Yellowstone"
+				},
+				{
+					"name": "yawn"
+				},
+				{
+					"name": "yell"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"absolutely",
-				"academic",
-				"account",
-				"admit",
-				"aggravating",
-				"alley",
-				"alternative",
-				"amusing",
-				"annex",
-				"apiece",
-				"apply",
-				"ass",
-				"autobiography",
-				"awful",
-				"ax"
+				{
+					"name": "absolutely"
+				},
+				{
+					"name": "academic"
+				},
+				{
+					"name": "account"
+				},
+				{
+					"name": "admit"
+				},
+				{
+					"name": "aggravating"
+				},
+				{
+					"name": "alley"
+				},
+				{
+					"name": "alternative"
+				},
+				{
+					"name": "amusing"
+				},
+				{
+					"name": "annex"
+				},
+				{
+					"name": "apiece"
+				},
+				{
+					"name": "apply"
+				},
+				{
+					"name": "ass"
+				},
+				{
+					"name": "autobiography"
+				},
+				{
+					"name": "awful"
+				},
+				{
+					"name": "ax"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"damn",
-				"deaf",
-				"depress",
-				"depressing",
-				"desire",
-				"disgusting",
-				"disturbance",
-				"dorm",
-				"dough",
-				"drive up",
-				"drop",
-				"dump"
+				{
+					"name": "damn"
+				},
+				{
+					"name": "deaf"
+				},
+				{
+					"name": "depress"
+				},
+				{
+					"name": "depressing"
+				},
+				{
+					"name": "desire"
+				},
+				{
+					"name": "disgusting"
+				},
+				{
+					"name": "disturbance"
+				},
+				{
+					"name": "dorm"
+				},
+				{
+					"name": "dough"
+				},
+				{
+					"name": "drive up"
+				},
+				{
+					"name": "drop"
+				},
+				{
+					"name": "dump"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"essay"
+				{
+					"name": "essay"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"fag",
-				"false",
-				"falsetto",
-				"fart",
-				"fence",
-				"fencing",
-				"fiddle",
-				"figure",
-				"fingernail",
-				"firecracker",
-				"flannel",
-				"flunk",
-				"foil",
-				"folk",
-				"frequent"
+				{
+					"name": "fag"
+				},
+				{
+					"name": "false"
+				},
+				{
+					"name": "falsetto"
+				},
+				{
+					"name": "fart"
+				},
+				{
+					"name": "fence"
+				},
+				{
+					"name": "fencing"
+				},
+				{
+					"name": "fiddle"
+				},
+				{
+					"name": "figure"
+				},
+				{
+					"name": "fingernail"
+				},
+				{
+					"name": "firecracker"
+				},
+				{
+					"name": "flannel"
+				},
+				{
+					"name": "flunk"
+				},
+				{
+					"name": "foil"
+				},
+				{
+					"name": "folk"
+				},
+				{
+					"name": "frequent"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gear",
-				"giggle",
-				"gimme",
-				"glance",
-				"goddam",
-				"goner",
-				"grandstand",
-				"grippe",
-				"grope",
-				"grunt",
-				"gut",
-				"gym"
+				{
+					"name": "gear"
+				},
+				{
+					"name": "giggle"
+				},
+				{
+					"name": "gimme"
+				},
+				{
+					"name": "glance"
+				},
+				{
+					"name": "goddam"
+				},
+				{
+					"name": "goner"
+				},
+				{
+					"name": "grandstand"
+				},
+				{
+					"name": "grippe"
+				},
+				{
+					"name": "grope"
+				},
+				{
+					"name": "grunt"
+				},
+				{
+					"name": "gut"
+				},
+				{
+					"name": "gym"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"haif",
-				"hairy",
-				"handy",
-				"heck",
-				"hell",
-				"helluva",
-				"hemisphere",
-				"hemorrhage",
-				"hint",
-				"hoarse",
-				"horny",
-				"horse",
-				"hotshot",
-				"hound"
+				{
+					"name": "haif"
+				},
+				{
+					"name": "hairy"
+				},
+				{
+					"name": "handy"
+				},
+				{
+					"name": "heck"
+				},
+				{
+					"name": "hell"
+				},
+				{
+					"name": "helluva"
+				},
+				{
+					"name": "hemisphere"
+				},
+				{
+					"name": "hemorrhage"
+				},
+				{
+					"name": "hint"
+				},
+				{
+					"name": "hoarse"
+				},
+				{
+					"name": "horny"
+				},
+				{
+					"name": "horse"
+				},
+				{
+					"name": "hotshot"
+				},
+				{
+					"name": "hound"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"illiterate",
-				"inch",
-				"innumerable",
-				"instance",
-				"insult",
-				"insulting",
-				"intelligent",
-				"interrupt",
-				"ironical",
-				"irritate"
+				{
+					"name": "illiterate"
+				},
+				{
+					"name": "inch"
+				},
+				{
+					"name": "innumerable"
+				},
+				{
+					"name": "instance"
+				},
+				{
+					"name": "insult"
+				},
+				{
+					"name": "insulting"
+				},
+				{
+					"name": "intelligent"
+				},
+				{
+					"name": "interrupt"
+				},
+				{
+					"name": "ironical"
+				},
+				{
+					"name": "irritate"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"jaguar",
-				"jock",
-				"junior"
+				{
+					"name": "jaguar"
+				},
+				{
+					"name": "jock"
+				},
+				{
+					"name": "junior"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"kid",
-				"kit"
+				{
+					"name": "kid"
+				},
+				{
+					"name": "kit"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lagoon",
-				"lap",
-				"leather",
-				"lecture",
-				"lemme",
-				"liable",
-				"liar",
-				"locomotive",
-				"lot",
-				"lousy"
+				{
+					"name": "lagoon"
+				},
+				{
+					"name": "lap"
+				},
+				{
+					"name": "leather"
+				},
+				{
+					"name": "lecture"
+				},
+				{
+					"name": "lemme"
+				},
+				{
+					"name": "liable"
+				},
+				{
+					"name": "liar"
+				},
+				{
+					"name": "locomotive"
+				},
+				{
+					"name": "lot"
+				},
+				{
+					"name": "lousy"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"maid",
-				"manure",
-				"mash",
-				"meant",
-				"memorial",
-				"mold",
-				"mood",
-				"moron",
-				"mossy"
+				{
+					"name": "maid"
+				},
+				{
+					"name": "manure"
+				},
+				{
+					"name": "mash"
+				},
+				{
+					"name": "meant"
+				},
+				{
+					"name": "memorial"
+				},
+				{
+					"name": "mold"
+				},
+				{
+					"name": "mood"
+				},
+				{
+					"name": "moron"
+				},
+				{
+					"name": "mossy"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"occupied",
-				"optional",
-				"ostracize",
-				"ot",
-				"ought"
+				{
+					"name": "occupied"
+				},
+				{
+					"name": "optional"
+				},
+				{
+					"name": "ostracize"
+				},
+				{
+					"name": "ot"
+				},
+				{
+					"name": "ought"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"qualm",
-				"quick",
-				"quit"
+				{
+					"name": "qualm"
+				},
+				{
+					"name": "quick"
+				},
+				{
+					"name": "quit"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"race",
-				"racket",
-				"rate",
-				"ratty",
-				"reside",
-				"reversible",
-				"revolutionary",
-				"riddle",
-				"rip",
-				"rock",
-				"roof",
-				"rostrum",
-				"rot",
-				"round",
-				"route",
-				"routine",
-				"rye"
+				{
+					"name": "race"
+				},
+				{
+					"name": "racket"
+				},
+				{
+					"name": "rate"
+				},
+				{
+					"name": "ratty"
+				},
+				{
+					"name": "reside"
+				},
+				{
+					"name": "reversible"
+				},
+				{
+					"name": "revolutionary"
+				},
+				{
+					"name": "riddle"
+				},
+				{
+					"name": "rip"
+				},
+				{
+					"name": "rock"
+				},
+				{
+					"name": "roof"
+				},
+				{
+					"name": "rostrum"
+				},
+				{
+					"name": "rot"
+				},
+				{
+					"name": "round"
+				},
+				{
+					"name": "route"
+				},
+				{
+					"name": "routine"
+				},
+				{
+					"name": "rye"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tab",
-				"tack",
-				"teat",
-				"terrific",
-				"terrifically",
-				"tickle",
-				"tie",
-				"torso",
-				"touchy",
-				"tough",
-				"towel",
-				"trick",
-				"truck",
-				"turd",
-				"type"
+				{
+					"name": "tab"
+				},
+				{
+					"name": "tack"
+				},
+				{
+					"name": "teat"
+				},
+				{
+					"name": "terrific"
+				},
+				{
+					"name": "terrifically"
+				},
+				{
+					"name": "tickle"
+				},
+				{
+					"name": "tie"
+				},
+				{
+					"name": "torso"
+				},
+				{
+					"name": "touchy"
+				},
+				{
+					"name": "tough"
+				},
+				{
+					"name": "towel"
+				},
+				{
+					"name": "trick"
+				},
+				{
+					"name": "truck"
+				},
+				{
+					"name": "turd"
+				},
+				{
+					"name": "type"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"unbutton",
-				"underneath",
-				"undertaking"
+				{
+					"name": "unbutton"
+				},
+				{
+					"name": "underneath"
+				},
+				{
+					"name": "undertaking"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vocabulary"
+				{
+					"name": "vocabulary"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wind",
-				"wing",
-				"wooden"
+				{
+					"name": "wind"
+				},
+				{
+					"name": "wing"
+				},
+				{
+					"name": "wooden"
+				}
 			]
 		}
 	]

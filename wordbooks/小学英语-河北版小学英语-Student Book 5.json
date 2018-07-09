@@ -5,35 +5,63 @@
 		{
 			"name": "A",
 			"children": [
-				"Australia",
-				"arrive",
-				"aunt"
+				{
+					"name": "Australia"
+				},
+				{
+					"name": "arrive"
+				},
+				{
+					"name": "aunt"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"Chinese",
-				"coat",
-				"come",
-				"country",
-				"cousin"
+				{
+					"name": "Chinese"
+				},
+				{
+					"name": "coat"
+				},
+				{
+					"name": "come"
+				},
+				{
+					"name": "country"
+				},
+				{
+					"name": "cousin"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gray"
+				{
+					"name": "gray"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"this",
-				"those",
-				"ticket",
-				"train",
-				"trip"
+				{
+					"name": "this"
+				},
+				{
+					"name": "those"
+				},
+				{
+					"name": "ticket"
+				},
+				{
+					"name": "train"
+				},
+				{
+					"name": "trip"
+				}
 			]
 		}
 	]

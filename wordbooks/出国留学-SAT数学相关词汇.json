@@ -5,321 +5,751 @@
 		{
 			"name": "A",
 			"children": [
-				"abscissa",
-				"absolute value",
-				"acute angle",
-				"add",
-				"adjacent angle",
-				"algebraic term",
-				"alternate angle",
-				"altitude",
-				"angle bisector",
-				"anti clockwise",
-				"approximate",
-				"arc",
-				"arithmetic mean",
-				"arithmetic progression sequence",
-				"arm"
+				{
+					"name": "abscissa"
+				},
+				{
+					"name": "absolute value"
+				},
+				{
+					"name": "acute angle"
+				},
+				{
+					"name": "add"
+				},
+				{
+					"name": "adjacent angle"
+				},
+				{
+					"name": "algebraic term"
+				},
+				{
+					"name": "alternate angle"
+				},
+				{
+					"name": "altitude"
+				},
+				{
+					"name": "angle bisector"
+				},
+				{
+					"name": "anti clockwise"
+				},
+				{
+					"name": "approximate"
+				},
+				{
+					"name": "arc"
+				},
+				{
+					"name": "arithmetic mean"
+				},
+				{
+					"name": "arithmetic progression sequence"
+				},
+				{
+					"name": "arm"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"base",
-				"base",
-				"bisect"
+				{
+					"name": "base"
+				},
+				{
+					"name": "base"
+				},
+				{
+					"name": "bisect"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"cardinal",
-				"center of acircle",
-				"central angle",
-				"chord",
-				"circular cylinder",
-				"circumscribe",
-				"combination",
-				"common denominator",
-				"common divisor",
-				"common factor",
-				"common fraction",
-				"common logarithm",
-				"common multiple",
-				"common ratio",
-				"complement aryangle",
-				"complementary function",
-				"complex fraction",
-				"complex plane",
-				"composite number",
-				"concentric circles",
-				"cone",
-				"congruent",
-				"consecutive number",
-				"constant",
-				"coordinate system",
-				"corresponding angle",
-				"cros section",
-				"cube",
-				"cube",
-				"cube root"
+				{
+					"name": "cardinal"
+				},
+				{
+					"name": "center of acircle"
+				},
+				{
+					"name": "central angle"
+				},
+				{
+					"name": "chord"
+				},
+				{
+					"name": "circular cylinder"
+				},
+				{
+					"name": "circumscribe"
+				},
+				{
+					"name": "combination"
+				},
+				{
+					"name": "common denominator"
+				},
+				{
+					"name": "common divisor"
+				},
+				{
+					"name": "common factor"
+				},
+				{
+					"name": "common fraction"
+				},
+				{
+					"name": "common logarithm"
+				},
+				{
+					"name": "common multiple"
+				},
+				{
+					"name": "common ratio"
+				},
+				{
+					"name": "complement aryangle"
+				},
+				{
+					"name": "complementary function"
+				},
+				{
+					"name": "complex fraction"
+				},
+				{
+					"name": "complex plane"
+				},
+				{
+					"name": "composite number"
+				},
+				{
+					"name": "concentric circles"
+				},
+				{
+					"name": "cone"
+				},
+				{
+					"name": "congruent"
+				},
+				{
+					"name": "consecutive number"
+				},
+				{
+					"name": "constant"
+				},
+				{
+					"name": "coordinate system"
+				},
+				{
+					"name": "corresponding angle"
+				},
+				{
+					"name": "cros section"
+				},
+				{
+					"name": "cube"
+				},
+				{
+					"name": "cube"
+				},
+				{
+					"name": "cube root"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"decagon",
-				"decimal fraction",
-				"decimal scale",
-				"denominator",
-				"depth",
-				"diagonal",
-				"diameter",
-				"difference",
-				"digit",
-				"direct proportion",
-				"distinct",
-				"divide",
-				"dividend",
-				"divisible",
-				"divisor"
+				{
+					"name": "decagon"
+				},
+				{
+					"name": "decimal fraction"
+				},
+				{
+					"name": "decimal scale"
+				},
+				{
+					"name": "denominator"
+				},
+				{
+					"name": "depth"
+				},
+				{
+					"name": "diagonal"
+				},
+				{
+					"name": "diameter"
+				},
+				{
+					"name": "difference"
+				},
+				{
+					"name": "digit"
+				},
+				{
+					"name": "direct proportion"
+				},
+				{
+					"name": "distinct"
+				},
+				{
+					"name": "divide"
+				},
+				{
+					"name": "dividend"
+				},
+				{
+					"name": "divisible"
+				},
+				{
+					"name": "divisor"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"edge",
-				"endpoint",
-				"equilateral",
-				"equilateral triangle",
-				"equivalent equation",
-				"estimation",
-				"even integer",
-				"even number",
-				"exponent",
-				"exterior angle"
+				{
+					"name": "edge"
+				},
+				{
+					"name": "endpoint"
+				},
+				{
+					"name": "equilateral"
+				},
+				{
+					"name": "equilateral triangle"
+				},
+				{
+					"name": "equivalent equation"
+				},
+				{
+					"name": "estimation"
+				},
+				{
+					"name": "even integer"
+				},
+				{
+					"name": "even number"
+				},
+				{
+					"name": "exponent"
+				},
+				{
+					"name": "exterior angle"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"face of a solid",
-				"factor",
-				"factorial",
-				"factorization",
-				"fine"
+				{
+					"name": "face of a solid"
+				},
+				{
+					"name": "factor"
+				},
+				{
+					"name": "factorial"
+				},
+				{
+					"name": "factorization"
+				},
+				{
+					"name": "fine"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"geometric mean",
-				"geometric progression sequence",
-				"go"
+				{
+					"name": "geometric mean"
+				},
+				{
+					"name": "geometric progression sequence"
+				},
+				{
+					"name": "go"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"heptagon",
-				"hexagon",
-				"hypotenuse"
+				{
+					"name": "heptagon"
+				},
+				{
+					"name": "hexagon"
+				},
+				{
+					"name": "hypotenuse"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"improper fraction",
-				"included angle",
-				"included side",
-				"inequality",
-				"infinite decimal",
-				"inscribe",
-				"inscribed triangle",
-				"integer，whole number",
-				"intercept",
-				"interior angle",
-				"intersect",
-				"inverse",
-				"inverse function",
-				"irrational number",
-				"isosceles triangle"
+				{
+					"name": "improper fraction"
+				},
+				{
+					"name": "included angle"
+				},
+				{
+					"name": "included side"
+				},
+				{
+					"name": "inequality"
+				},
+				{
+					"name": "infinite decimal"
+				},
+				{
+					"name": "inscribe"
+				},
+				{
+					"name": "inscribed triangle"
+				},
+				{
+					"name": "integer，whole number"
+				},
+				{
+					"name": "intercept"
+				},
+				{
+					"name": "interior angle"
+				},
+				{
+					"name": "intersect"
+				},
+				{
+					"name": "inverse"
+				},
+				{
+					"name": "inverse function"
+				},
+				{
+					"name": "irrational number"
+				},
+				{
+					"name": "isosceles triangle"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"least common multiple",
-				"leastcommon denominator",
-				"leg",
-				"like terms terms",
-				"line segment",
-				"linear",
-				"linear equation",
-				"literal coefficient"
+				{
+					"name": "least common multiple"
+				},
+				{
+					"name": "leastcommon denominator"
+				},
+				{
+					"name": "leg"
+				},
+				{
+					"name": "like terms terms"
+				},
+				{
+					"name": "line segment"
+				},
+				{
+					"name": "linear"
+				},
+				{
+					"name": "linear equation"
+				},
+				{
+					"name": "literal coefficient"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"median",
-				"midpoint",
-				"mixed number",
-				"mode",
-				"multilateral",
-				"multiple",
-				"multiply"
+				{
+					"name": "median"
+				},
+				{
+					"name": "midpoint"
+				},
+				{
+					"name": "mixed number"
+				},
+				{
+					"name": "mode"
+				},
+				{
+					"name": "multilateral"
+				},
+				{
+					"name": "multiple"
+				},
+				{
+					"name": "multiply"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"natural number",
-				"negative number",
-				"negative whole number",
-				"nonagon",
-				"nonnegative",
-				"number line",
-				"numerator",
-				"numerical coefficient"
+				{
+					"name": "natural number"
+				},
+				{
+					"name": "negative number"
+				},
+				{
+					"name": "negative whole number"
+				},
+				{
+					"name": "nonagon"
+				},
+				{
+					"name": "nonnegative"
+				},
+				{
+					"name": "number line"
+				},
+				{
+					"name": "numerator"
+				},
+				{
+					"name": "numerical coefficient"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"oblique",
-				"obtuse angle",
-				"octagon",
-				"odd integer",
-				"odd number",
-				"opposite",
-				"ordinal",
-				"ordinate",
-				"origin",
-				"original equation"
+				{
+					"name": "oblique"
+				},
+				{
+					"name": "obtuse angle"
+				},
+				{
+					"name": "octagon"
+				},
+				{
+					"name": "odd integer"
+				},
+				{
+					"name": "odd number"
+				},
+				{
+					"name": "opposite"
+				},
+				{
+					"name": "ordinal"
+				},
+				{
+					"name": "ordinate"
+				},
+				{
+					"name": "origin"
+				},
+				{
+					"name": "original equation"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"parallel lines",
-				"parallelogram",
-				"parentheses",
-				"pentagon",
-				"perimeter",
-				"permutation",
-				"perpendicular",
-				"plan",
-				"plane",
-				"plane geometry",
-				"plus",
-				"polygon",
-				"positive number",
-				"positive whole number",
-				"power",
-				"prime factor",
-				"prime number",
-				"product",
-				"proper fraction",
-				"proper subset",
-				"proportion",
-				"pythagorean theorem"
+				{
+					"name": "parallel lines"
+				},
+				{
+					"name": "parallelogram"
+				},
+				{
+					"name": "parentheses"
+				},
+				{
+					"name": "pentagon"
+				},
+				{
+					"name": "perimeter"
+				},
+				{
+					"name": "permutation"
+				},
+				{
+					"name": "perpendicular"
+				},
+				{
+					"name": "plan"
+				},
+				{
+					"name": "plane"
+				},
+				{
+					"name": "plane geometry"
+				},
+				{
+					"name": "plus"
+				},
+				{
+					"name": "polygon"
+				},
+				{
+					"name": "positive number"
+				},
+				{
+					"name": "positive whole number"
+				},
+				{
+					"name": "power"
+				},
+				{
+					"name": "prime factor"
+				},
+				{
+					"name": "prime number"
+				},
+				{
+					"name": "product"
+				},
+				{
+					"name": "proper fraction"
+				},
+				{
+					"name": "proper subset"
+				},
+				{
+					"name": "proportion"
+				},
+				{
+					"name": "pythagorean theorem"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quadrant",
-				"quadrilateral",
-				"quarter",
-				"quotient"
+				{
+					"name": "quadrant"
+				},
+				{
+					"name": "quadrilateral"
+				},
+				{
+					"name": "quarter"
+				},
+				{
+					"name": "quotient"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"radian",
-				"radical sign",
-				"radius",
-				"range",
-				"rational number",
-				"rea lnumber",
-				"reciprocal",
-				"rectangle",
-				"rectangular coordinate",
-				"rectangular solid",
-				"recurring decimal",
-				"regular polygon",
-				"regular polyhedron",
-				"regular solid",
-				"remainder",
-				"rhombus",
-				"right angle",
-				"right triangle",
-				"root sign",
-				"round angle",
-				"round off",
-				"round to"
+				{
+					"name": "radian"
+				},
+				{
+					"name": "radical sign"
+				},
+				{
+					"name": "radius"
+				},
+				{
+					"name": "range"
+				},
+				{
+					"name": "rational number"
+				},
+				{
+					"name": "rea lnumber"
+				},
+				{
+					"name": "reciprocal"
+				},
+				{
+					"name": "rectangle"
+				},
+				{
+					"name": "rectangular coordinate"
+				},
+				{
+					"name": "rectangular solid"
+				},
+				{
+					"name": "recurring decimal"
+				},
+				{
+					"name": "regular polygon"
+				},
+				{
+					"name": "regular polyhedron"
+				},
+				{
+					"name": "regular solid"
+				},
+				{
+					"name": "remainder"
+				},
+				{
+					"name": "rhombus"
+				},
+				{
+					"name": "right angle"
+				},
+				{
+					"name": "right triangle"
+				},
+				{
+					"name": "root sign"
+				},
+				{
+					"name": "round angle"
+				},
+				{
+					"name": "round off"
+				},
+				{
+					"name": "round to"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"scalene triangle",
-				"segment of a circle",
-				"semicircle",
-				"side",
-				"simple fraction",
-				"slope",
-				"solid",
-				"solution set",
-				"sphere",
-				"square",
-				"square root",
-				"straight angle",
-				"straight line",
-				"subtract",
-				"supplement aryangles",
-				"surface area"
+				{
+					"name": "scalene triangle"
+				},
+				{
+					"name": "segment of a circle"
+				},
+				{
+					"name": "semicircle"
+				},
+				{
+					"name": "side"
+				},
+				{
+					"name": "simple fraction"
+				},
+				{
+					"name": "slope"
+				},
+				{
+					"name": "solid"
+				},
+				{
+					"name": "solution set"
+				},
+				{
+					"name": "sphere"
+				},
+				{
+					"name": "square"
+				},
+				{
+					"name": "square root"
+				},
+				{
+					"name": "straight angle"
+				},
+				{
+					"name": "straight line"
+				},
+				{
+					"name": "subtract"
+				},
+				{
+					"name": "supplement aryangles"
+				},
+				{
+					"name": "surface area"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"table",
-				"tangent",
-				"tens",
-				"times",
-				"transversal",
-				"trapezoid",
-				"treat",
-				"triangle inequality",
-				"trigonometric function",
-				"trigonometry"
+				{
+					"name": "table"
+				},
+				{
+					"name": "tangent"
+				},
+				{
+					"name": "tens"
+				},
+				{
+					"name": "times"
+				},
+				{
+					"name": "transversal"
+				},
+				{
+					"name": "trapezoid"
+				},
+				{
+					"name": "treat"
+				},
+				{
+					"name": "triangle inequality"
+				},
+				{
+					"name": "trigonometric function"
+				},
+				{
+					"name": "trigonometry"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"union",
-				"unit",
-				"units"
+				{
+					"name": "union"
+				},
+				{
+					"name": "unit"
+				},
+				{
+					"name": "units"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"variable",
-				"vertex",
-				"vertical angle",
-				"volume",
-				"vulgar fraction"
+				{
+					"name": "variable"
+				},
+				{
+					"name": "vertex"
+				},
+				{
+					"name": "vertical angle"
+				},
+				{
+					"name": "volume"
+				},
+				{
+					"name": "vulgar fraction"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"weighted average"
+				{
+					"name": "weighted average"
+				}
 			]
 		}
 	]

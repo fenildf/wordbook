@@ -5,324 +5,740 @@
 		{
 			"name": "A",
 			"children": [
-				"Acropolis",
-				"aerialist",
-				"aesthetic",
-				"ailment",
-				"alia",
-				"alias",
-				"allusion",
-				"amalgam",
-				"amid",
-				"amphitheater",
-				"anoint",
-				"antebellum",
-				"anthracite",
-				"arsenic",
-				"astigmatic",
-				"avail",
-				"axle"
+				{
+					"name": "Acropolis"
+				},
+				{
+					"name": "aerialist"
+				},
+				{
+					"name": "aesthetic"
+				},
+				{
+					"name": "ailment"
+				},
+				{
+					"name": "alia"
+				},
+				{
+					"name": "alias"
+				},
+				{
+					"name": "allusion"
+				},
+				{
+					"name": "amalgam"
+				},
+				{
+					"name": "amid"
+				},
+				{
+					"name": "amphitheater"
+				},
+				{
+					"name": "anoint"
+				},
+				{
+					"name": "antebellum"
+				},
+				{
+					"name": "anthracite"
+				},
+				{
+					"name": "arsenic"
+				},
+				{
+					"name": "astigmatic"
+				},
+				{
+					"name": "avail"
+				},
+				{
+					"name": "axle"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"Czar",
-				"canal",
-				"caper",
-				"chaplain",
-				"chloroform",
-				"cholera",
-				"clamor",
-				"colitis",
-				"conflagration",
-				"contusion",
-				"cordially",
-				"cornice",
-				"cove",
-				"cringe"
+				{
+					"name": "Czar"
+				},
+				{
+					"name": "canal"
+				},
+				{
+					"name": "caper"
+				},
+				{
+					"name": "chaplain"
+				},
+				{
+					"name": "chloroform"
+				},
+				{
+					"name": "cholera"
+				},
+				{
+					"name": "clamor"
+				},
+				{
+					"name": "colitis"
+				},
+				{
+					"name": "conflagration"
+				},
+				{
+					"name": "contusion"
+				},
+				{
+					"name": "cordially"
+				},
+				{
+					"name": "cornice"
+				},
+				{
+					"name": "cove"
+				},
+				{
+					"name": "cringe"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"beatitude",
-				"benediction",
-				"betroth",
-				"betrothed",
-				"bewitch",
-				"birch",
-				"bleakness",
-				"boisterous",
-				"bordello",
-				"bough",
-				"boulder",
-				"bramble",
-				"briar",
-				"brimstone",
-				"bristle",
-				"brothel",
-				"bulrush",
-				"bunt",
-				"bustle"
+				{
+					"name": "beatitude"
+				},
+				{
+					"name": "benediction"
+				},
+				{
+					"name": "betroth"
+				},
+				{
+					"name": "betrothed"
+				},
+				{
+					"name": "bewitch"
+				},
+				{
+					"name": "birch"
+				},
+				{
+					"name": "bleakness"
+				},
+				{
+					"name": "boisterous"
+				},
+				{
+					"name": "bordello"
+				},
+				{
+					"name": "bough"
+				},
+				{
+					"name": "boulder"
+				},
+				{
+					"name": "bramble"
+				},
+				{
+					"name": "briar"
+				},
+				{
+					"name": "brimstone"
+				},
+				{
+					"name": "bristle"
+				},
+				{
+					"name": "brothel"
+				},
+				{
+					"name": "bulrush"
+				},
+				{
+					"name": "bunt"
+				},
+				{
+					"name": "bustle"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dabble",
-				"delve",
-				"destitution",
-				"dignitary",
-				"dilapidate",
-				"diphtheria",
-				"disavow",
-				"discordant",
-				"disdain",
-				"don",
-				"dotage",
-				"douse",
-				"dung"
+				{
+					"name": "dabble"
+				},
+				{
+					"name": "delve"
+				},
+				{
+					"name": "destitution"
+				},
+				{
+					"name": "dignitary"
+				},
+				{
+					"name": "dilapidate"
+				},
+				{
+					"name": "diphtheria"
+				},
+				{
+					"name": "disavow"
+				},
+				{
+					"name": "discordant"
+				},
+				{
+					"name": "disdain"
+				},
+				{
+					"name": "don"
+				},
+				{
+					"name": "dotage"
+				},
+				{
+					"name": "douse"
+				},
+				{
+					"name": "dung"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eerie",
-				"effervescence",
-				"elixir",
-				"embankment",
-				"embellishment",
-				"emblem",
-				"enamel",
-				"encumbrance",
-				"entice",
-				"equinoctial",
-				"evanescence",
-				"exasperate",
-				"excavation",
-				"excelsior",
-				"excursion",
-				"exertion"
+				{
+					"name": "eerie"
+				},
+				{
+					"name": "effervescence"
+				},
+				{
+					"name": "elixir"
+				},
+				{
+					"name": "embankment"
+				},
+				{
+					"name": "embellishment"
+				},
+				{
+					"name": "emblem"
+				},
+				{
+					"name": "enamel"
+				},
+				{
+					"name": "encumbrance"
+				},
+				{
+					"name": "entice"
+				},
+				{
+					"name": "equinoctial"
+				},
+				{
+					"name": "evanescence"
+				},
+				{
+					"name": "exasperate"
+				},
+				{
+					"name": "excavation"
+				},
+				{
+					"name": "excelsior"
+				},
+				{
+					"name": "excursion"
+				},
+				{
+					"name": "exertion"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"faze",
-				"flaunt",
-				"fleck",
-				"flinch"
+				{
+					"name": "faze"
+				},
+				{
+					"name": "flaunt"
+				},
+				{
+					"name": "fleck"
+				},
+				{
+					"name": "flinch"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gauntlet",
-				"geranium",
-				"gild",
-				"gleaming",
-				"gore",
-				"gorse",
-				"gouge",
-				"grandeur",
-				"grudge",
-				"gruesome",
-				"guild"
+				{
+					"name": "gauntlet"
+				},
+				{
+					"name": "geranium"
+				},
+				{
+					"name": "gild"
+				},
+				{
+					"name": "gleaming"
+				},
+				{
+					"name": "gore"
+				},
+				{
+					"name": "gorse"
+				},
+				{
+					"name": "gouge"
+				},
+				{
+					"name": "grandeur"
+				},
+				{
+					"name": "grudge"
+				},
+				{
+					"name": "gruesome"
+				},
+				{
+					"name": "guild"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"halted",
-				"hollyhock",
-				"huff",
-				"hydraulic"
+				{
+					"name": "halted"
+				},
+				{
+					"name": "hollyhock"
+				},
+				{
+					"name": "huff"
+				},
+				{
+					"name": "hydraulic"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"idyll",
-				"imbecile",
-				"immutable",
-				"incandescent",
-				"incognito",
-				"incongruity",
-				"indecorous",
-				"insouciance",
-				"irrefutable"
+				{
+					"name": "idyll"
+				},
+				{
+					"name": "imbecile"
+				},
+				{
+					"name": "immutable"
+				},
+				{
+					"name": "incandescent"
+				},
+				{
+					"name": "incognito"
+				},
+				{
+					"name": "incongruity"
+				},
+				{
+					"name": "indecorous"
+				},
+				{
+					"name": "insouciance"
+				},
+				{
+					"name": "irrefutable"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"juxtaposition"
+				{
+					"name": "juxtaposition"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"kiln"
+				{
+					"name": "kiln"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lackluster",
-				"lagoon",
-				"laud",
-				"lavish",
-				"licorice",
-				"loam",
-				"locomotive",
-				"lucid",
-				"lunacy",
-				"lurid",
-				"lush"
+				{
+					"name": "lackluster"
+				},
+				{
+					"name": "lagoon"
+				},
+				{
+					"name": "laud"
+				},
+				{
+					"name": "lavish"
+				},
+				{
+					"name": "licorice"
+				},
+				{
+					"name": "loam"
+				},
+				{
+					"name": "locomotive"
+				},
+				{
+					"name": "lucid"
+				},
+				{
+					"name": "lunacy"
+				},
+				{
+					"name": "lurid"
+				},
+				{
+					"name": "lush"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"macadam",
-				"malaise",
-				"malignant",
-				"mantel",
-				"masquerade",
-				"mausoleum",
-				"melancholia",
-				"mica",
-				"mortar",
-				"muster"
+				{
+					"name": "macadam"
+				},
+				{
+					"name": "malaise"
+				},
+				{
+					"name": "malignant"
+				},
+				{
+					"name": "mantel"
+				},
+				{
+					"name": "masquerade"
+				},
+				{
+					"name": "mausoleum"
+				},
+				{
+					"name": "melancholia"
+				},
+				{
+					"name": "mica"
+				},
+				{
+					"name": "mortar"
+				},
+				{
+					"name": "muster"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"nostalgia"
+				{
+					"name": "nostalgia"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"ointment",
-				"ornamental",
-				"outlandish"
+				{
+					"name": "ointment"
+				},
+				{
+					"name": "ornamental"
+				},
+				{
+					"name": "outlandish"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"palpable",
-				"peddler",
-				"peepshow",
-				"pester",
-				"picturesque",
-				"pigment",
-				"pique",
-				"plinth",
-				"plummet",
-				"pneumonia",
-				"primrose",
-				"proliferation",
-				"propinquity",
-				"pummel",
-				"putrefaction"
+				{
+					"name": "palpable"
+				},
+				{
+					"name": "peddler"
+				},
+				{
+					"name": "peepshow"
+				},
+				{
+					"name": "pester"
+				},
+				{
+					"name": "picturesque"
+				},
+				{
+					"name": "pigment"
+				},
+				{
+					"name": "pique"
+				},
+				{
+					"name": "plinth"
+				},
+				{
+					"name": "plummet"
+				},
+				{
+					"name": "pneumonia"
+				},
+				{
+					"name": "primrose"
+				},
+				{
+					"name": "proliferation"
+				},
+				{
+					"name": "propinquity"
+				},
+				{
+					"name": "pummel"
+				},
+				{
+					"name": "putrefaction"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quicklime"
+				{
+					"name": "quicklime"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rag",
-				"rancor",
-				"rebuke",
-				"refulgent",
-				"replevin",
-				"retrenchment",
-				"rig",
-				"rigging",
-				"rove"
+				{
+					"name": "rag"
+				},
+				{
+					"name": "rancor"
+				},
+				{
+					"name": "rebuke"
+				},
+				{
+					"name": "refulgent"
+				},
+				{
+					"name": "replevin"
+				},
+				{
+					"name": "retrenchment"
+				},
+				{
+					"name": "rig"
+				},
+				{
+					"name": "rigging"
+				},
+				{
+					"name": "rove"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"saddle",
-				"salamander",
-				"satyr",
-				"scamp",
-				"scarlet",
-				"scurry",
-				"shanty",
-				"shim",
-				"shirk",
-				"skein",
-				"sled",
-				"sod",
-				"spasm",
-				"squall",
-				"squeamish",
-				"staunch",
-				"stave",
-				"stave off",
-				"stenographer",
-				"streaky",
-				"strenuous",
-				"stump",
-				"swindle",
-				"sylvan"
+				{
+					"name": "saddle"
+				},
+				{
+					"name": "salamander"
+				},
+				{
+					"name": "satyr"
+				},
+				{
+					"name": "scamp"
+				},
+				{
+					"name": "scarlet"
+				},
+				{
+					"name": "scurry"
+				},
+				{
+					"name": "shanty"
+				},
+				{
+					"name": "shim"
+				},
+				{
+					"name": "shirk"
+				},
+				{
+					"name": "skein"
+				},
+				{
+					"name": "sled"
+				},
+				{
+					"name": "sod"
+				},
+				{
+					"name": "spasm"
+				},
+				{
+					"name": "squall"
+				},
+				{
+					"name": "squeamish"
+				},
+				{
+					"name": "staunch"
+				},
+				{
+					"name": "stave"
+				},
+				{
+					"name": "stave off"
+				},
+				{
+					"name": "stenographer"
+				},
+				{
+					"name": "streaky"
+				},
+				{
+					"name": "strenuous"
+				},
+				{
+					"name": "stump"
+				},
+				{
+					"name": "swindle"
+				},
+				{
+					"name": "sylvan"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tambourine",
-				"tether",
-				"throng",
-				"titillate",
-				"transient",
-				"trepan",
-				"troika",
-				"tuberculosis",
-				"tuft",
-				"tweak",
-				"typesetter",
-				"typhoid",
-				"typhus"
+				{
+					"name": "tambourine"
+				},
+				{
+					"name": "tether"
+				},
+				{
+					"name": "throng"
+				},
+				{
+					"name": "titillate"
+				},
+				{
+					"name": "transient"
+				},
+				{
+					"name": "trepan"
+				},
+				{
+					"name": "troika"
+				},
+				{
+					"name": "tuberculosis"
+				},
+				{
+					"name": "tuft"
+				},
+				{
+					"name": "tweak"
+				},
+				{
+					"name": "typesetter"
+				},
+				{
+					"name": "typhoid"
+				},
+				{
+					"name": "typhus"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"ulcerate",
-				"upend",
-				"upended",
-				"utterance"
+				{
+					"name": "ulcerate"
+				},
+				{
+					"name": "upend"
+				},
+				{
+					"name": "upended"
+				},
+				{
+					"name": "utterance"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vat",
-				"veer",
-				"victual",
-				"viscera",
-				"vulgarity"
+				{
+					"name": "vat"
+				},
+				{
+					"name": "veer"
+				},
+				{
+					"name": "victual"
+				},
+				{
+					"name": "viscera"
+				},
+				{
+					"name": "vulgarity"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"walrus",
-				"woeful",
-				"writ"
+				{
+					"name": "walrus"
+				},
+				{
+					"name": "woeful"
+				},
+				{
+					"name": "writ"
+				}
 			]
 		}
 	]

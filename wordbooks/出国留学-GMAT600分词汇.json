@@ -5,905 +5,2483 @@
 		{
 			"name": "B",
 			"children": [
-				"Byzantine",
-				"banal",
-				"baroque",
-				"batten",
-				"beacon",
-				"beatific",
-				"bedeck",
-				"bellicose",
-				"benevolent",
-				"benign",
-				"bevy",
-				"bifurcate",
-				"biota",
-				"blaspheme",
-				"blunt",
-				"blurt",
-				"bonus",
-				"boom",
-				"boorish",
-				"bottleneck",
-				"bovine",
-				"breach",
-				"break-even",
-				"breakdown",
-				"broker",
-				"brunette",
-				"brusque",
-				"brutality",
-				"bucolic",
-				"buffer",
-				"bumble",
-				"bumptious",
-				"burdensome",
-				"bypass"
+				{
+					"name": "Byzantine"
+				},
+				{
+					"name": "banal"
+				},
+				{
+					"name": "baroque"
+				},
+				{
+					"name": "batten"
+				},
+				{
+					"name": "beacon"
+				},
+				{
+					"name": "beatific"
+				},
+				{
+					"name": "bedeck"
+				},
+				{
+					"name": "bellicose"
+				},
+				{
+					"name": "benevolent"
+				},
+				{
+					"name": "benign"
+				},
+				{
+					"name": "bevy"
+				},
+				{
+					"name": "bifurcate"
+				},
+				{
+					"name": "biota"
+				},
+				{
+					"name": "blaspheme"
+				},
+				{
+					"name": "blunt"
+				},
+				{
+					"name": "blurt"
+				},
+				{
+					"name": "bonus"
+				},
+				{
+					"name": "boom"
+				},
+				{
+					"name": "boorish"
+				},
+				{
+					"name": "bottleneck"
+				},
+				{
+					"name": "bovine"
+				},
+				{
+					"name": "breach"
+				},
+				{
+					"name": "break-even"
+				},
+				{
+					"name": "breakdown"
+				},
+				{
+					"name": "broker"
+				},
+				{
+					"name": "brunette"
+				},
+				{
+					"name": "brusque"
+				},
+				{
+					"name": "brutality"
+				},
+				{
+					"name": "bucolic"
+				},
+				{
+					"name": "buffer"
+				},
+				{
+					"name": "bumble"
+				},
+				{
+					"name": "bumptious"
+				},
+				{
+					"name": "burdensome"
+				},
+				{
+					"name": "bypass"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"abaft",
-				"abatement",
-				"abdication",
-				"abdominal",
-				"abeam",
-				"abecedarian",
-				"abhorrence",
-				"abnegation",
-				"abrogate",
-				"absolve",
-				"abstemious",
-				"abstruse",
-				"accession",
-				"acquisition",
-				"acrimony",
-				"actuarial",
-				"acumen",
-				"adamant",
-				"adroit",
-				"adulation",
-				"aerial",
-				"aesthetic",
-				"affiliation",
-				"affinity",
-				"affluent",
-				"aggressive",
-				"alchemy",
-				"alignment",
-				"allegiance",
-				"allotment",
-				"allusive",
-				"alluvial",
-				"altruism",
-				"amenable",
-				"amphibian",
-				"ample",
-				"amplify",
-				"anachronistic",
-				"analogous",
-				"anathema",
-				"animated",
-				"animosity",
-				"anneal",
-				"annihilate",
-				"annular",
-				"anodyne",
-				"antipathy",
-				"apathetic",
-				"aphelion",
-				"aplomb",
-				"apogee",
-				"apostate",
-				"appraisal",
-				"apprenticeship",
-				"appropriation",
-				"aptitude",
-				"aquatic",
-				"aquiline",
-				"arachnid",
-				"arbitration",
-				"ardour",
-				"aria",
-				"arrear",
-				"articulate",
-				"ascetic",
-				"aspiration",
-				"assess",
-				"assets",
-				"assiduity",
-				"assuage",
-				"astute",
-				"asunder",
-				"asylum",
-				"asymmetry",
-				"atrocity",
-				"attest",
-				"attorney",
-				"auction",
-				"audit",
-				"aurora",
-				"auspicious",
-				"autarchy",
-				"authoritarian",
-				"autocrat",
-				"autonomy",
-				"auxiliary",
-				"avarice",
-				"averse",
-				"avuncular",
-				"azimuth",
-				"azure"
+				{
+					"name": "abaft"
+				},
+				{
+					"name": "abatement"
+				},
+				{
+					"name": "abdication"
+				},
+				{
+					"name": "abdominal"
+				},
+				{
+					"name": "abeam"
+				},
+				{
+					"name": "abecedarian"
+				},
+				{
+					"name": "abhorrence"
+				},
+				{
+					"name": "abnegation"
+				},
+				{
+					"name": "abrogate"
+				},
+				{
+					"name": "absolve"
+				},
+				{
+					"name": "abstemious"
+				},
+				{
+					"name": "abstruse"
+				},
+				{
+					"name": "accession"
+				},
+				{
+					"name": "acquisition"
+				},
+				{
+					"name": "acrimony"
+				},
+				{
+					"name": "actuarial"
+				},
+				{
+					"name": "acumen"
+				},
+				{
+					"name": "adamant"
+				},
+				{
+					"name": "adroit"
+				},
+				{
+					"name": "adulation"
+				},
+				{
+					"name": "aerial"
+				},
+				{
+					"name": "aesthetic"
+				},
+				{
+					"name": "affiliation"
+				},
+				{
+					"name": "affinity"
+				},
+				{
+					"name": "affluent"
+				},
+				{
+					"name": "aggressive"
+				},
+				{
+					"name": "alchemy"
+				},
+				{
+					"name": "alignment"
+				},
+				{
+					"name": "allegiance"
+				},
+				{
+					"name": "allotment"
+				},
+				{
+					"name": "allusive"
+				},
+				{
+					"name": "alluvial"
+				},
+				{
+					"name": "altruism"
+				},
+				{
+					"name": "amenable"
+				},
+				{
+					"name": "amphibian"
+				},
+				{
+					"name": "ample"
+				},
+				{
+					"name": "amplify"
+				},
+				{
+					"name": "anachronistic"
+				},
+				{
+					"name": "analogous"
+				},
+				{
+					"name": "anathema"
+				},
+				{
+					"name": "animated"
+				},
+				{
+					"name": "animosity"
+				},
+				{
+					"name": "anneal"
+				},
+				{
+					"name": "annihilate"
+				},
+				{
+					"name": "annular"
+				},
+				{
+					"name": "anodyne"
+				},
+				{
+					"name": "antipathy"
+				},
+				{
+					"name": "apathetic"
+				},
+				{
+					"name": "aphelion"
+				},
+				{
+					"name": "aplomb"
+				},
+				{
+					"name": "apogee"
+				},
+				{
+					"name": "apostate"
+				},
+				{
+					"name": "appraisal"
+				},
+				{
+					"name": "apprenticeship"
+				},
+				{
+					"name": "appropriation"
+				},
+				{
+					"name": "aptitude"
+				},
+				{
+					"name": "aquatic"
+				},
+				{
+					"name": "aquiline"
+				},
+				{
+					"name": "arachnid"
+				},
+				{
+					"name": "arbitration"
+				},
+				{
+					"name": "ardour"
+				},
+				{
+					"name": "aria"
+				},
+				{
+					"name": "arrear"
+				},
+				{
+					"name": "articulate"
+				},
+				{
+					"name": "ascetic"
+				},
+				{
+					"name": "aspiration"
+				},
+				{
+					"name": "assess"
+				},
+				{
+					"name": "assets"
+				},
+				{
+					"name": "assiduity"
+				},
+				{
+					"name": "assuage"
+				},
+				{
+					"name": "astute"
+				},
+				{
+					"name": "asunder"
+				},
+				{
+					"name": "asylum"
+				},
+				{
+					"name": "asymmetry"
+				},
+				{
+					"name": "atrocity"
+				},
+				{
+					"name": "attest"
+				},
+				{
+					"name": "attorney"
+				},
+				{
+					"name": "auction"
+				},
+				{
+					"name": "audit"
+				},
+				{
+					"name": "aurora"
+				},
+				{
+					"name": "auspicious"
+				},
+				{
+					"name": "autarchy"
+				},
+				{
+					"name": "authoritarian"
+				},
+				{
+					"name": "autocrat"
+				},
+				{
+					"name": "autonomy"
+				},
+				{
+					"name": "auxiliary"
+				},
+				{
+					"name": "avarice"
+				},
+				{
+					"name": "averse"
+				},
+				{
+					"name": "avuncular"
+				},
+				{
+					"name": "azimuth"
+				},
+				{
+					"name": "azure"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"caliber",
-				"candid",
-				"canine",
-				"canon",
-				"captious",
-				"cardiac",
-				"cardinal",
-				"caries",
-				"carnivore",
-				"carom",
-				"carrion",
-				"carve",
-				"cascade",
-				"castigate",
-				"categorize",
-				"catholic",
-				"caustic",
-				"cauterize",
-				"cavalier",
-				"cede",
-				"celestial",
-				"cellular",
-				"censure",
-				"census",
-				"cerulean",
-				"chagrin",
-				"chandler",
-				"charlatan",
-				"chary",
-				"chasm",
-				"chaste",
-				"chastise",
-				"chauvinism",
-				"checkered",
-				"chemotherapy",
-				"chide",
-				"choleric",
-				"chromatic",
-				"chronic",
-				"clandestinely",
-				"clarify",
-				"coalesce",
-				"codicil",
-				"coercion",
-				"coeval",
-				"cogent",
-				"cohesion",
-				"cohort",
-				"comatose",
-				"comely",
-				"commutator",
-				"concatenate",
-				"conciliation",
-				"concise",
-				"concur",
-				"conflagration",
-				"conformity",
-				"conglomerate",
-				"consignment",
-				"constrain",
-				"constraint",
-				"contentious",
-				"continent",
-				"contingent",
-				"contumacious",
-				"contumely",
-				"conversion",
-				"conveyance",
-				"coordination",
-				"copious",
-				"corroborate",
-				"coterie",
-				"counteract",
-				"coupon",
-				"coverage",
-				"crestfallen",
-				"criterion",
-				"crusade",
-				"cuneiform",
-				"cupidity",
-				"curmudgeon",
-				"currency",
-				"curtail",
-				"cynosure",
-				"czarist"
+				{
+					"name": "caliber"
+				},
+				{
+					"name": "candid"
+				},
+				{
+					"name": "canine"
+				},
+				{
+					"name": "canon"
+				},
+				{
+					"name": "captious"
+				},
+				{
+					"name": "cardiac"
+				},
+				{
+					"name": "cardinal"
+				},
+				{
+					"name": "caries"
+				},
+				{
+					"name": "carnivore"
+				},
+				{
+					"name": "carom"
+				},
+				{
+					"name": "carrion"
+				},
+				{
+					"name": "carve"
+				},
+				{
+					"name": "cascade"
+				},
+				{
+					"name": "castigate"
+				},
+				{
+					"name": "categorize"
+				},
+				{
+					"name": "catholic"
+				},
+				{
+					"name": "caustic"
+				},
+				{
+					"name": "cauterize"
+				},
+				{
+					"name": "cavalier"
+				},
+				{
+					"name": "cede"
+				},
+				{
+					"name": "celestial"
+				},
+				{
+					"name": "cellular"
+				},
+				{
+					"name": "censure"
+				},
+				{
+					"name": "census"
+				},
+				{
+					"name": "cerulean"
+				},
+				{
+					"name": "chagrin"
+				},
+				{
+					"name": "chandler"
+				},
+				{
+					"name": "charlatan"
+				},
+				{
+					"name": "chary"
+				},
+				{
+					"name": "chasm"
+				},
+				{
+					"name": "chaste"
+				},
+				{
+					"name": "chastise"
+				},
+				{
+					"name": "chauvinism"
+				},
+				{
+					"name": "checkered"
+				},
+				{
+					"name": "chemotherapy"
+				},
+				{
+					"name": "chide"
+				},
+				{
+					"name": "choleric"
+				},
+				{
+					"name": "chromatic"
+				},
+				{
+					"name": "chronic"
+				},
+				{
+					"name": "clandestinely"
+				},
+				{
+					"name": "clarify"
+				},
+				{
+					"name": "coalesce"
+				},
+				{
+					"name": "codicil"
+				},
+				{
+					"name": "coercion"
+				},
+				{
+					"name": "coeval"
+				},
+				{
+					"name": "cogent"
+				},
+				{
+					"name": "cohesion"
+				},
+				{
+					"name": "cohort"
+				},
+				{
+					"name": "comatose"
+				},
+				{
+					"name": "comely"
+				},
+				{
+					"name": "commutator"
+				},
+				{
+					"name": "concatenate"
+				},
+				{
+					"name": "conciliation"
+				},
+				{
+					"name": "concise"
+				},
+				{
+					"name": "concur"
+				},
+				{
+					"name": "conflagration"
+				},
+				{
+					"name": "conformity"
+				},
+				{
+					"name": "conglomerate"
+				},
+				{
+					"name": "consignment"
+				},
+				{
+					"name": "constrain"
+				},
+				{
+					"name": "constraint"
+				},
+				{
+					"name": "contentious"
+				},
+				{
+					"name": "continent"
+				},
+				{
+					"name": "contingent"
+				},
+				{
+					"name": "contumacious"
+				},
+				{
+					"name": "contumely"
+				},
+				{
+					"name": "conversion"
+				},
+				{
+					"name": "conveyance"
+				},
+				{
+					"name": "coordination"
+				},
+				{
+					"name": "copious"
+				},
+				{
+					"name": "corroborate"
+				},
+				{
+					"name": "coterie"
+				},
+				{
+					"name": "counteract"
+				},
+				{
+					"name": "coupon"
+				},
+				{
+					"name": "coverage"
+				},
+				{
+					"name": "crestfallen"
+				},
+				{
+					"name": "criterion"
+				},
+				{
+					"name": "crusade"
+				},
+				{
+					"name": "cuneiform"
+				},
+				{
+					"name": "cupidity"
+				},
+				{
+					"name": "curmudgeon"
+				},
+				{
+					"name": "currency"
+				},
+				{
+					"name": "curtail"
+				},
+				{
+					"name": "cynosure"
+				},
+				{
+					"name": "czarist"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dearth",
-				"debacle",
-				"debenture",
-				"decentralization",
-				"deciduous",
-				"decipher",
-				"decorous",
-				"decry",
-				"deduction",
-				"deficiency",
-				"deficit",
-				"degrade",
-				"delegate",
-				"deluge",
-				"delve",
-				"deploy",
-				"depreciate",
-				"desiccate",
-				"destitute",
-				"desultory",
-				"deterrent",
-				"devastate",
-				"deviation",
-				"dexterous",
-				"dialectic",
-				"dialectics",
-				"diaphanous",
-				"diatonic",
-				"diatribe",
-				"didactic",
-				"differential",
-				"diffident",
-				"dilatory",
-				"dilemma",
-				"dilettante",
-				"directorate",
-				"dirge",
-				"disastrously",
-				"disbursement",
-				"disconsolate",
-				"discreet",
-				"discrete",
-				"discretion",
-				"discrimination",
-				"dispatch",
-				"disport",
-				"dissolution",
-				"dissonant",
-				"dissuade",
-				"distribution",
-				"divergence",
-				"diversification",
-				"dividend",
-				"divine",
-				"doctrinaire",
-				"dolt",
-				"dominant",
-				"dorsal",
-				"doting",
-				"downgrading",
-				"dregs",
-				"duplicity",
-				"duress"
+				{
+					"name": "dearth"
+				},
+				{
+					"name": "debacle"
+				},
+				{
+					"name": "debenture"
+				},
+				{
+					"name": "decentralization"
+				},
+				{
+					"name": "deciduous"
+				},
+				{
+					"name": "decipher"
+				},
+				{
+					"name": "decorous"
+				},
+				{
+					"name": "decry"
+				},
+				{
+					"name": "deduction"
+				},
+				{
+					"name": "deficiency"
+				},
+				{
+					"name": "deficit"
+				},
+				{
+					"name": "degrade"
+				},
+				{
+					"name": "delegate"
+				},
+				{
+					"name": "deluge"
+				},
+				{
+					"name": "delve"
+				},
+				{
+					"name": "deploy"
+				},
+				{
+					"name": "depreciate"
+				},
+				{
+					"name": "desiccate"
+				},
+				{
+					"name": "destitute"
+				},
+				{
+					"name": "desultory"
+				},
+				{
+					"name": "deterrent"
+				},
+				{
+					"name": "devastate"
+				},
+				{
+					"name": "deviation"
+				},
+				{
+					"name": "dexterous"
+				},
+				{
+					"name": "dialectic"
+				},
+				{
+					"name": "dialectics"
+				},
+				{
+					"name": "diaphanous"
+				},
+				{
+					"name": "diatonic"
+				},
+				{
+					"name": "diatribe"
+				},
+				{
+					"name": "didactic"
+				},
+				{
+					"name": "differential"
+				},
+				{
+					"name": "diffident"
+				},
+				{
+					"name": "dilatory"
+				},
+				{
+					"name": "dilemma"
+				},
+				{
+					"name": "dilettante"
+				},
+				{
+					"name": "directorate"
+				},
+				{
+					"name": "dirge"
+				},
+				{
+					"name": "disastrously"
+				},
+				{
+					"name": "disbursement"
+				},
+				{
+					"name": "disconsolate"
+				},
+				{
+					"name": "discreet"
+				},
+				{
+					"name": "discrete"
+				},
+				{
+					"name": "discretion"
+				},
+				{
+					"name": "discrimination"
+				},
+				{
+					"name": "dispatch"
+				},
+				{
+					"name": "disport"
+				},
+				{
+					"name": "dissolution"
+				},
+				{
+					"name": "dissonant"
+				},
+				{
+					"name": "dissuade"
+				},
+				{
+					"name": "distribution"
+				},
+				{
+					"name": "divergence"
+				},
+				{
+					"name": "diversification"
+				},
+				{
+					"name": "dividend"
+				},
+				{
+					"name": "divine"
+				},
+				{
+					"name": "doctrinaire"
+				},
+				{
+					"name": "dolt"
+				},
+				{
+					"name": "dominant"
+				},
+				{
+					"name": "dorsal"
+				},
+				{
+					"name": "doting"
+				},
+				{
+					"name": "downgrading"
+				},
+				{
+					"name": "dregs"
+				},
+				{
+					"name": "duplicity"
+				},
+				{
+					"name": "duress"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"ebullient",
-				"ecstasy",
-				"effulgent",
-				"effusive",
-				"egregious",
-				"elation",
-				"elegiacal",
-				"emanate",
-				"emancipate",
-				"emetic",
-				"emolument",
-				"empirical",
-				"encumber",
-				"enervate",
-				"engulf",
-				"enigma",
-				"enjoin",
-				"ennui",
-				"entrepreneur",
-				"ephemeral",
-				"epicure",
-				"equilibrium",
-				"equitable",
-				"equity",
-				"erudite",
-				"esoteric",
-				"ethereal",
-				"eulogy",
-				"euphonious",
-				"evanescent",
-				"evoke",
-				"excruciating",
-				"exculpate",
-				"execrable",
-				"exegesis",
-				"exemplary",
-				"exemption",
-				"exhort",
-				"exhume",
-				"exigency",
-				"exiguous",
-				"exodus",
-				"exonerate",
-				"expectancy",
-				"expeditiously",
-				"expenditure",
-				"explicit",
-				"expunge",
-				"extemporaneous"
+				{
+					"name": "ebullient"
+				},
+				{
+					"name": "ecstasy"
+				},
+				{
+					"name": "effulgent"
+				},
+				{
+					"name": "effusive"
+				},
+				{
+					"name": "egregious"
+				},
+				{
+					"name": "elation"
+				},
+				{
+					"name": "elegiacal"
+				},
+				{
+					"name": "emanate"
+				},
+				{
+					"name": "emancipate"
+				},
+				{
+					"name": "emetic"
+				},
+				{
+					"name": "emolument"
+				},
+				{
+					"name": "empirical"
+				},
+				{
+					"name": "encumber"
+				},
+				{
+					"name": "enervate"
+				},
+				{
+					"name": "engulf"
+				},
+				{
+					"name": "enigma"
+				},
+				{
+					"name": "enjoin"
+				},
+				{
+					"name": "ennui"
+				},
+				{
+					"name": "entrepreneur"
+				},
+				{
+					"name": "ephemeral"
+				},
+				{
+					"name": "epicure"
+				},
+				{
+					"name": "equilibrium"
+				},
+				{
+					"name": "equitable"
+				},
+				{
+					"name": "equity"
+				},
+				{
+					"name": "erudite"
+				},
+				{
+					"name": "esoteric"
+				},
+				{
+					"name": "ethereal"
+				},
+				{
+					"name": "eulogy"
+				},
+				{
+					"name": "euphonious"
+				},
+				{
+					"name": "evanescent"
+				},
+				{
+					"name": "evoke"
+				},
+				{
+					"name": "excruciating"
+				},
+				{
+					"name": "exculpate"
+				},
+				{
+					"name": "execrable"
+				},
+				{
+					"name": "exegesis"
+				},
+				{
+					"name": "exemplary"
+				},
+				{
+					"name": "exemption"
+				},
+				{
+					"name": "exhort"
+				},
+				{
+					"name": "exhume"
+				},
+				{
+					"name": "exigency"
+				},
+				{
+					"name": "exiguous"
+				},
+				{
+					"name": "exodus"
+				},
+				{
+					"name": "exonerate"
+				},
+				{
+					"name": "expectancy"
+				},
+				{
+					"name": "expeditiously"
+				},
+				{
+					"name": "expenditure"
+				},
+				{
+					"name": "explicit"
+				},
+				{
+					"name": "expunge"
+				},
+				{
+					"name": "extemporaneous"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"fallible",
-				"fatuous",
-				"fauna",
-				"fealty",
-				"fecundity",
-				"feign",
-				"ferment",
-				"fervor",
-				"fetid",
-				"fetish",
-				"fidelity",
-				"fiduciary",
-				"flagging",
-				"flaunt",
-				"flora",
-				"flout",
-				"fluctuation",
-				"flux",
-				"foment",
-				"foreboding",
-				"forensic",
-				"franchise",
-				"frugal",
-				"furtive",
-				"fusion"
+				{
+					"name": "fallible"
+				},
+				{
+					"name": "fatuous"
+				},
+				{
+					"name": "fauna"
+				},
+				{
+					"name": "fealty"
+				},
+				{
+					"name": "fecundity"
+				},
+				{
+					"name": "feign"
+				},
+				{
+					"name": "ferment"
+				},
+				{
+					"name": "fervor"
+				},
+				{
+					"name": "fetid"
+				},
+				{
+					"name": "fetish"
+				},
+				{
+					"name": "fidelity"
+				},
+				{
+					"name": "fiduciary"
+				},
+				{
+					"name": "flagging"
+				},
+				{
+					"name": "flaunt"
+				},
+				{
+					"name": "flora"
+				},
+				{
+					"name": "flout"
+				},
+				{
+					"name": "fluctuation"
+				},
+				{
+					"name": "flux"
+				},
+				{
+					"name": "foment"
+				},
+				{
+					"name": "foreboding"
+				},
+				{
+					"name": "forensic"
+				},
+				{
+					"name": "franchise"
+				},
+				{
+					"name": "frugal"
+				},
+				{
+					"name": "furtive"
+				},
+				{
+					"name": "fusion"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gadgeteer",
-				"galvanize",
-				"gamut",
-				"garrulous",
-				"gauche",
-				"germane",
-				"germinate",
-				"gourmand",
-				"gourmet",
-				"gradient",
-				"gregarious"
+				{
+					"name": "gadgeteer"
+				},
+				{
+					"name": "galvanize"
+				},
+				{
+					"name": "gamut"
+				},
+				{
+					"name": "garrulous"
+				},
+				{
+					"name": "gauche"
+				},
+				{
+					"name": "germane"
+				},
+				{
+					"name": "germinate"
+				},
+				{
+					"name": "gourmand"
+				},
+				{
+					"name": "gourmet"
+				},
+				{
+					"name": "gradient"
+				},
+				{
+					"name": "gregarious"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"halcyon",
-				"harbinger",
-				"harness",
-				"heinous",
-				"heretic",
-				"heritage",
-				"heterogeneity",
-				"hiatus",
-				"hierarchy",
-				"hieroglyphic",
-				"histrionic",
-				"holocaust",
-				"horrid",
-				"hubbub",
-				"hybrid",
-				"hyperbole",
-				"hyperborean"
+				{
+					"name": "halcyon"
+				},
+				{
+					"name": "harbinger"
+				},
+				{
+					"name": "harness"
+				},
+				{
+					"name": "heinous"
+				},
+				{
+					"name": "heretic"
+				},
+				{
+					"name": "heritage"
+				},
+				{
+					"name": "heterogeneity"
+				},
+				{
+					"name": "hiatus"
+				},
+				{
+					"name": "hierarchy"
+				},
+				{
+					"name": "hieroglyphic"
+				},
+				{
+					"name": "histrionic"
+				},
+				{
+					"name": "holocaust"
+				},
+				{
+					"name": "horrid"
+				},
+				{
+					"name": "hubbub"
+				},
+				{
+					"name": "hybrid"
+				},
+				{
+					"name": "hyperbole"
+				},
+				{
+					"name": "hyperborean"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"iconoclast",
-				"idol",
-				"idolater",
-				"igneous",
-				"illicit",
-				"imbroglio",
-				"immerse",
-				"immersion",
-				"immiscible",
-				"immunological",
-				"immutable",
-				"impact",
-				"impasse",
-				"impeccable",
-				"impermeable",
-				"impervious",
-				"implicate",
-				"impresario",
-				"impromptu",
-				"imprudent",
-				"impudent",
-				"inadvertent",
-				"inane",
-				"incarcerate",
-				"incarnadine",
-				"inception",
-				"incidence",
-				"incinerate",
-				"incipient",
-				"incite",
-				"incorporeal",
-				"incorrigible",
-				"incorruptible",
-				"increment",
-				"incriminate",
-				"incumbent",
-				"incursion",
-				"indemnity",
-				"indenture",
-				"indigenous",
-				"indigent",
-				"indisputable",
-				"inductive",
-				"ineffable",
-				"ineluctable",
-				"inept",
-				"inexorable",
-				"infallible",
-				"inflammatory",
-				"ingenious",
-				"iniquitous",
-				"injudicious",
-				"injunction",
-				"innate",
-				"inordinate",
-				"insane",
-				"insidious",
-				"insipid",
-				"insolvency",
-				"insular",
-				"insulin",
-				"intact",
-				"intangible",
-				"integral",
-				"integrationist",
-				"interdiction",
-				"interlock",
-				"intermediary",
-				"intern",
-				"intimidate",
-				"intoxicate",
-				"intransigent",
-				"intrepid",
-				"intricate",
-				"intrigue",
-				"inundation",
-				"inure",
-				"inventory",
-				"invidious",
-				"irascible",
-				"irradiation",
-				"irreconcilable",
-				"irrevocable"
+				{
+					"name": "iconoclast"
+				},
+				{
+					"name": "idol"
+				},
+				{
+					"name": "idolater"
+				},
+				{
+					"name": "igneous"
+				},
+				{
+					"name": "illicit"
+				},
+				{
+					"name": "imbroglio"
+				},
+				{
+					"name": "immerse"
+				},
+				{
+					"name": "immersion"
+				},
+				{
+					"name": "immiscible"
+				},
+				{
+					"name": "immunological"
+				},
+				{
+					"name": "immutable"
+				},
+				{
+					"name": "impact"
+				},
+				{
+					"name": "impasse"
+				},
+				{
+					"name": "impeccable"
+				},
+				{
+					"name": "impermeable"
+				},
+				{
+					"name": "impervious"
+				},
+				{
+					"name": "implicate"
+				},
+				{
+					"name": "impresario"
+				},
+				{
+					"name": "impromptu"
+				},
+				{
+					"name": "imprudent"
+				},
+				{
+					"name": "impudent"
+				},
+				{
+					"name": "inadvertent"
+				},
+				{
+					"name": "inane"
+				},
+				{
+					"name": "incarcerate"
+				},
+				{
+					"name": "incarnadine"
+				},
+				{
+					"name": "inception"
+				},
+				{
+					"name": "incidence"
+				},
+				{
+					"name": "incinerate"
+				},
+				{
+					"name": "incipient"
+				},
+				{
+					"name": "incite"
+				},
+				{
+					"name": "incorporeal"
+				},
+				{
+					"name": "incorrigible"
+				},
+				{
+					"name": "incorruptible"
+				},
+				{
+					"name": "increment"
+				},
+				{
+					"name": "incriminate"
+				},
+				{
+					"name": "incumbent"
+				},
+				{
+					"name": "incursion"
+				},
+				{
+					"name": "indemnity"
+				},
+				{
+					"name": "indenture"
+				},
+				{
+					"name": "indigenous"
+				},
+				{
+					"name": "indigent"
+				},
+				{
+					"name": "indisputable"
+				},
+				{
+					"name": "inductive"
+				},
+				{
+					"name": "ineffable"
+				},
+				{
+					"name": "ineluctable"
+				},
+				{
+					"name": "inept"
+				},
+				{
+					"name": "inexorable"
+				},
+				{
+					"name": "infallible"
+				},
+				{
+					"name": "inflammatory"
+				},
+				{
+					"name": "ingenious"
+				},
+				{
+					"name": "iniquitous"
+				},
+				{
+					"name": "injudicious"
+				},
+				{
+					"name": "injunction"
+				},
+				{
+					"name": "innate"
+				},
+				{
+					"name": "inordinate"
+				},
+				{
+					"name": "insane"
+				},
+				{
+					"name": "insidious"
+				},
+				{
+					"name": "insipid"
+				},
+				{
+					"name": "insolvency"
+				},
+				{
+					"name": "insular"
+				},
+				{
+					"name": "insulin"
+				},
+				{
+					"name": "intact"
+				},
+				{
+					"name": "intangible"
+				},
+				{
+					"name": "integral"
+				},
+				{
+					"name": "integrationist"
+				},
+				{
+					"name": "interdiction"
+				},
+				{
+					"name": "interlock"
+				},
+				{
+					"name": "intermediary"
+				},
+				{
+					"name": "intern"
+				},
+				{
+					"name": "intimidate"
+				},
+				{
+					"name": "intoxicate"
+				},
+				{
+					"name": "intransigent"
+				},
+				{
+					"name": "intrepid"
+				},
+				{
+					"name": "intricate"
+				},
+				{
+					"name": "intrigue"
+				},
+				{
+					"name": "inundation"
+				},
+				{
+					"name": "inure"
+				},
+				{
+					"name": "inventory"
+				},
+				{
+					"name": "invidious"
+				},
+				{
+					"name": "irascible"
+				},
+				{
+					"name": "irradiation"
+				},
+				{
+					"name": "irreconcilable"
+				},
+				{
+					"name": "irrevocable"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"jayhawker",
-				"jejune",
-				"jurisdiction"
+				{
+					"name": "jayhawker"
+				},
+				{
+					"name": "jejune"
+				},
+				{
+					"name": "jurisdiction"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"kin",
-				"kinetic",
-				"kleptomaniac"
+				{
+					"name": "kin"
+				},
+				{
+					"name": "kinetic"
+				},
+				{
+					"name": "kleptomaniac"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"labial",
-				"laconic",
-				"lacuna",
-				"lament",
-				"languish",
-				"lariat",
-				"larva",
-				"lascivious",
-				"laud",
-				"lax",
-				"leeward",
-				"legitimate",
-				"lesion",
-				"lethargic",
-				"levity",
-				"lewd",
-				"liabilities",
-				"libel",
-				"limpid",
-				"linear",
-				"liquidate",
-				"lissome",
-				"lithe",
-				"littoral",
-				"liturgical",
-				"loquacious",
-				"lucid",
-				"ludicrous",
-				"lugubrious",
-				"luminesce",
-				"lustful",
-				"lymph"
+				{
+					"name": "labial"
+				},
+				{
+					"name": "laconic"
+				},
+				{
+					"name": "lacuna"
+				},
+				{
+					"name": "lament"
+				},
+				{
+					"name": "languish"
+				},
+				{
+					"name": "lariat"
+				},
+				{
+					"name": "larva"
+				},
+				{
+					"name": "lascivious"
+				},
+				{
+					"name": "laud"
+				},
+				{
+					"name": "lax"
+				},
+				{
+					"name": "leeward"
+				},
+				{
+					"name": "legitimate"
+				},
+				{
+					"name": "lesion"
+				},
+				{
+					"name": "lethargic"
+				},
+				{
+					"name": "levity"
+				},
+				{
+					"name": "lewd"
+				},
+				{
+					"name": "liabilities"
+				},
+				{
+					"name": "libel"
+				},
+				{
+					"name": "limpid"
+				},
+				{
+					"name": "linear"
+				},
+				{
+					"name": "liquidate"
+				},
+				{
+					"name": "lissome"
+				},
+				{
+					"name": "lithe"
+				},
+				{
+					"name": "littoral"
+				},
+				{
+					"name": "liturgical"
+				},
+				{
+					"name": "loquacious"
+				},
+				{
+					"name": "lucid"
+				},
+				{
+					"name": "ludicrous"
+				},
+				{
+					"name": "lugubrious"
+				},
+				{
+					"name": "luminesce"
+				},
+				{
+					"name": "lustful"
+				},
+				{
+					"name": "lymph"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"madrigal",
-				"malign",
-				"malignant",
-				"malingering",
-				"maneuver",
-				"mantle",
-				"manumission",
-				"marital",
-				"marrow",
-				"marshal",
-				"marsupial",
-				"martial",
-				"martinet",
-				"maudlin",
-				"meager",
-				"mediate",
-				"medieval",
-				"mercenary",
-				"mercurial",
-				"merge",
-				"meridian",
-				"metabolism",
-				"metamorphose",
-				"mete",
-				"metrical",
-				"miasma",
-				"millennium",
-				"misanthropy",
-				"miscegenation",
-				"misogamy",
-				"misogynist",
-				"mitigate",
-				"mollify",
-				"monetary",
-				"monolithic",
-				"moot",
-				"morass",
-				"moratorium",
-				"morbid",
-				"mordant",
-				"moribund",
-				"mufti",
-				"mummer",
-				"mundane",
-				"munificent"
+				{
+					"name": "madrigal"
+				},
+				{
+					"name": "malign"
+				},
+				{
+					"name": "malignant"
+				},
+				{
+					"name": "malingering"
+				},
+				{
+					"name": "maneuver"
+				},
+				{
+					"name": "mantle"
+				},
+				{
+					"name": "manumission"
+				},
+				{
+					"name": "marital"
+				},
+				{
+					"name": "marrow"
+				},
+				{
+					"name": "marshal"
+				},
+				{
+					"name": "marsupial"
+				},
+				{
+					"name": "martial"
+				},
+				{
+					"name": "martinet"
+				},
+				{
+					"name": "maudlin"
+				},
+				{
+					"name": "meager"
+				},
+				{
+					"name": "mediate"
+				},
+				{
+					"name": "medieval"
+				},
+				{
+					"name": "mercenary"
+				},
+				{
+					"name": "mercurial"
+				},
+				{
+					"name": "merge"
+				},
+				{
+					"name": "meridian"
+				},
+				{
+					"name": "metabolism"
+				},
+				{
+					"name": "metamorphose"
+				},
+				{
+					"name": "mete"
+				},
+				{
+					"name": "metrical"
+				},
+				{
+					"name": "miasma"
+				},
+				{
+					"name": "millennium"
+				},
+				{
+					"name": "misanthropy"
+				},
+				{
+					"name": "miscegenation"
+				},
+				{
+					"name": "misogamy"
+				},
+				{
+					"name": "misogynist"
+				},
+				{
+					"name": "mitigate"
+				},
+				{
+					"name": "mollify"
+				},
+				{
+					"name": "monetary"
+				},
+				{
+					"name": "monolithic"
+				},
+				{
+					"name": "moot"
+				},
+				{
+					"name": "morass"
+				},
+				{
+					"name": "moratorium"
+				},
+				{
+					"name": "morbid"
+				},
+				{
+					"name": "mordant"
+				},
+				{
+					"name": "moribund"
+				},
+				{
+					"name": "mufti"
+				},
+				{
+					"name": "mummer"
+				},
+				{
+					"name": "mundane"
+				},
+				{
+					"name": "munificent"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"nadir",
-				"nebulous",
-				"necromancy",
-				"nefarious",
-				"nepotism",
-				"nescient",
-				"neurotic",
-				"niggardly",
-				"noisome",
-				"norm",
-				"nostrum",
-				"notation",
-				"nucleic",
-				"nugatory",
-				"numismatist"
+				{
+					"name": "nadir"
+				},
+				{
+					"name": "nebulous"
+				},
+				{
+					"name": "necromancy"
+				},
+				{
+					"name": "nefarious"
+				},
+				{
+					"name": "nepotism"
+				},
+				{
+					"name": "nescient"
+				},
+				{
+					"name": "neurotic"
+				},
+				{
+					"name": "niggardly"
+				},
+				{
+					"name": "noisome"
+				},
+				{
+					"name": "norm"
+				},
+				{
+					"name": "nostrum"
+				},
+				{
+					"name": "notation"
+				},
+				{
+					"name": "nucleic"
+				},
+				{
+					"name": "nugatory"
+				},
+				{
+					"name": "numismatist"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"obdurate",
-				"obese",
-				"obfuscate",
-				"objurgate",
-				"obliterate",
-				"obloquy",
-				"obsequious",
-				"obsidian",
-				"obstreperous",
-				"obtuse",
-				"officious",
-				"olfactory",
-				"oligarchy",
-				"ominous",
-				"omniscient",
-				"opalescent",
-				"opprobrious",
-				"optimize",
-				"opulent",
-				"ostracism",
-				"otiose",
-				"outmode",
-				"overcharge",
-				"overdraft",
-				"overdue",
-				"overhaul",
-				"overlap",
-				"oviduct"
+				{
+					"name": "obdurate"
+				},
+				{
+					"name": "obese"
+				},
+				{
+					"name": "obfuscate"
+				},
+				{
+					"name": "objurgate"
+				},
+				{
+					"name": "obliterate"
+				},
+				{
+					"name": "obloquy"
+				},
+				{
+					"name": "obsequious"
+				},
+				{
+					"name": "obsidian"
+				},
+				{
+					"name": "obstreperous"
+				},
+				{
+					"name": "obtuse"
+				},
+				{
+					"name": "officious"
+				},
+				{
+					"name": "olfactory"
+				},
+				{
+					"name": "oligarchy"
+				},
+				{
+					"name": "ominous"
+				},
+				{
+					"name": "omniscient"
+				},
+				{
+					"name": "opalescent"
+				},
+				{
+					"name": "opprobrious"
+				},
+				{
+					"name": "optimize"
+				},
+				{
+					"name": "opulent"
+				},
+				{
+					"name": "ostracism"
+				},
+				{
+					"name": "otiose"
+				},
+				{
+					"name": "outmode"
+				},
+				{
+					"name": "overcharge"
+				},
+				{
+					"name": "overdraft"
+				},
+				{
+					"name": "overdue"
+				},
+				{
+					"name": "overhaul"
+				},
+				{
+					"name": "overlap"
+				},
+				{
+					"name": "oviduct"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"panacea",
-				"panegyric",
-				"paradigm",
-				"paradox",
-				"pariah",
-				"parochial",
-				"parricide",
-				"parsimonious",
-				"partnership",
-				"parvenu",
-				"patent",
-				"patrician",
-				"patrimony",
-				"payroll",
-				"pecuniary",
-				"pelage",
-				"pensive",
-				"penurious",
-				"peremptory",
-				"perfidy",
-				"peripatetic",
-				"peripheral",
-				"perjure",
-				"perk",
-				"permeate",
-				"perquisite",
-				"perspicacious",
-				"peruke",
-				"peruse",
-				"pervasive",
-				"pessimistic",
-				"pestle",
-				"pious",
-				"piquant",
-				"pique",
-				"pitch",
-				"pithy",
-				"pledge",
-				"plethora",
-				"polemics",
-				"portentous",
-				"predecessor",
-				"preeminence",
-				"preemptive",
-				"premature",
-				"premium",
-				"prescribe",
-				"presumably",
-				"prevail",
-				"probability",
-				"proboscis",
-				"procrastinate",
-				"procure",
-				"prodigal",
-				"proficiency",
-				"prognosticate",
-				"proliferate",
-				"proprietor",
-				"proscribe",
-				"provenance",
-				"proxy",
-				"psychic",
-				"psychopathology",
-				"publicity",
-				"puerile",
-				"pugnacious",
-				"purblind",
-				"purview",
-				"pusillanimous",
-				"pyromaniac"
+				{
+					"name": "panacea"
+				},
+				{
+					"name": "panegyric"
+				},
+				{
+					"name": "paradigm"
+				},
+				{
+					"name": "paradox"
+				},
+				{
+					"name": "pariah"
+				},
+				{
+					"name": "parochial"
+				},
+				{
+					"name": "parricide"
+				},
+				{
+					"name": "parsimonious"
+				},
+				{
+					"name": "partnership"
+				},
+				{
+					"name": "parvenu"
+				},
+				{
+					"name": "patent"
+				},
+				{
+					"name": "patrician"
+				},
+				{
+					"name": "patrimony"
+				},
+				{
+					"name": "payroll"
+				},
+				{
+					"name": "pecuniary"
+				},
+				{
+					"name": "pelage"
+				},
+				{
+					"name": "pensive"
+				},
+				{
+					"name": "penurious"
+				},
+				{
+					"name": "peremptory"
+				},
+				{
+					"name": "perfidy"
+				},
+				{
+					"name": "peripatetic"
+				},
+				{
+					"name": "peripheral"
+				},
+				{
+					"name": "perjure"
+				},
+				{
+					"name": "perk"
+				},
+				{
+					"name": "permeate"
+				},
+				{
+					"name": "perquisite"
+				},
+				{
+					"name": "perspicacious"
+				},
+				{
+					"name": "peruke"
+				},
+				{
+					"name": "peruse"
+				},
+				{
+					"name": "pervasive"
+				},
+				{
+					"name": "pessimistic"
+				},
+				{
+					"name": "pestle"
+				},
+				{
+					"name": "pious"
+				},
+				{
+					"name": "piquant"
+				},
+				{
+					"name": "pique"
+				},
+				{
+					"name": "pitch"
+				},
+				{
+					"name": "pithy"
+				},
+				{
+					"name": "pledge"
+				},
+				{
+					"name": "plethora"
+				},
+				{
+					"name": "polemics"
+				},
+				{
+					"name": "portentous"
+				},
+				{
+					"name": "predecessor"
+				},
+				{
+					"name": "preeminence"
+				},
+				{
+					"name": "preemptive"
+				},
+				{
+					"name": "premature"
+				},
+				{
+					"name": "premium"
+				},
+				{
+					"name": "prescribe"
+				},
+				{
+					"name": "presumably"
+				},
+				{
+					"name": "prevail"
+				},
+				{
+					"name": "probability"
+				},
+				{
+					"name": "proboscis"
+				},
+				{
+					"name": "procrastinate"
+				},
+				{
+					"name": "procure"
+				},
+				{
+					"name": "prodigal"
+				},
+				{
+					"name": "proficiency"
+				},
+				{
+					"name": "prognosticate"
+				},
+				{
+					"name": "proliferate"
+				},
+				{
+					"name": "proprietor"
+				},
+				{
+					"name": "proscribe"
+				},
+				{
+					"name": "provenance"
+				},
+				{
+					"name": "proxy"
+				},
+				{
+					"name": "psychic"
+				},
+				{
+					"name": "psychopathology"
+				},
+				{
+					"name": "publicity"
+				},
+				{
+					"name": "puerile"
+				},
+				{
+					"name": "pugnacious"
+				},
+				{
+					"name": "purblind"
+				},
+				{
+					"name": "purview"
+				},
+				{
+					"name": "pusillanimous"
+				},
+				{
+					"name": "pyromaniac"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quack",
-				"quaff",
-				"quagmire",
-				"qualms",
-				"quantum",
-				"quell",
-				"querulous",
-				"quirk",
-				"quit"
+				{
+					"name": "quack"
+				},
+				{
+					"name": "quaff"
+				},
+				{
+					"name": "quagmire"
+				},
+				{
+					"name": "qualms"
+				},
+				{
+					"name": "quantum"
+				},
+				{
+					"name": "quell"
+				},
+				{
+					"name": "querulous"
+				},
+				{
+					"name": "quirk"
+				},
+				{
+					"name": "quit"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rating",
-				"recalcitrant",
-				"recidivism",
-				"reciprocal",
-				"reconciliation",
-				"redress",
-				"redundant",
-				"refund",
-				"rehabilitation",
-				"reiterate",
-				"rejection",
-				"rejuvenate",
-				"rental",
-				"repugnance",
-				"rescind",
-				"reside",
-				"resignation",
-				"resurrection",
-				"retrospect",
-				"reverence",
-				"revoke"
+				{
+					"name": "rating"
+				},
+				{
+					"name": "recalcitrant"
+				},
+				{
+					"name": "recidivism"
+				},
+				{
+					"name": "reciprocal"
+				},
+				{
+					"name": "reconciliation"
+				},
+				{
+					"name": "redress"
+				},
+				{
+					"name": "redundant"
+				},
+				{
+					"name": "refund"
+				},
+				{
+					"name": "rehabilitation"
+				},
+				{
+					"name": "reiterate"
+				},
+				{
+					"name": "rejection"
+				},
+				{
+					"name": "rejuvenate"
+				},
+				{
+					"name": "rental"
+				},
+				{
+					"name": "repugnance"
+				},
+				{
+					"name": "rescind"
+				},
+				{
+					"name": "reside"
+				},
+				{
+					"name": "resignation"
+				},
+				{
+					"name": "resurrection"
+				},
+				{
+					"name": "retrospect"
+				},
+				{
+					"name": "reverence"
+				},
+				{
+					"name": "revoke"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"sabotage",
-				"saga",
-				"sagacious",
-				"salubrious",
-				"sanctimonious",
-				"sanction",
-				"sanguinary",
-				"sanguine",
-				"sanitary",
-				"sardonic",
-				"sartorial",
-				"saturnine",
-				"satyr",
-				"scavenger",
-				"scintilla",
-				"scourge",
-				"segment",
-				"seniority",
-				"serum",
-				"servile",
-				"similitude",
-				"sinister",
-				"skyrocket",
-				"slander",
-				"sloth",
-				"slough",
-				"slowdown",
-				"slump",
-				"solace",
-				"solecism",
-				"soliloquy",
-				"soporific",
-				"spatula",
-				"spectrum",
-				"spiral",
-				"stagnate",
-				"stance",
-				"sterile",
-				"stigmatize",
-				"stipulate",
-				"stolid",
-				"strife",
-				"stringent",
-				"suavity",
-				"subscription",
-				"sumptuary",
-				"sumptuous",
-				"superficial",
-				"superintend",
-				"supine",
-				"suppliant",
-				"surcharge",
-				"surreptitious"
+				{
+					"name": "sabotage"
+				},
+				{
+					"name": "saga"
+				},
+				{
+					"name": "sagacious"
+				},
+				{
+					"name": "salubrious"
+				},
+				{
+					"name": "sanctimonious"
+				},
+				{
+					"name": "sanction"
+				},
+				{
+					"name": "sanguinary"
+				},
+				{
+					"name": "sanguine"
+				},
+				{
+					"name": "sanitary"
+				},
+				{
+					"name": "sardonic"
+				},
+				{
+					"name": "sartorial"
+				},
+				{
+					"name": "saturnine"
+				},
+				{
+					"name": "satyr"
+				},
+				{
+					"name": "scavenger"
+				},
+				{
+					"name": "scintilla"
+				},
+				{
+					"name": "scourge"
+				},
+				{
+					"name": "segment"
+				},
+				{
+					"name": "seniority"
+				},
+				{
+					"name": "serum"
+				},
+				{
+					"name": "servile"
+				},
+				{
+					"name": "similitude"
+				},
+				{
+					"name": "sinister"
+				},
+				{
+					"name": "skyrocket"
+				},
+				{
+					"name": "slander"
+				},
+				{
+					"name": "sloth"
+				},
+				{
+					"name": "slough"
+				},
+				{
+					"name": "slowdown"
+				},
+				{
+					"name": "slump"
+				},
+				{
+					"name": "solace"
+				},
+				{
+					"name": "solecism"
+				},
+				{
+					"name": "soliloquy"
+				},
+				{
+					"name": "soporific"
+				},
+				{
+					"name": "spatula"
+				},
+				{
+					"name": "spectrum"
+				},
+				{
+					"name": "spiral"
+				},
+				{
+					"name": "stagnate"
+				},
+				{
+					"name": "stance"
+				},
+				{
+					"name": "sterile"
+				},
+				{
+					"name": "stigmatize"
+				},
+				{
+					"name": "stipulate"
+				},
+				{
+					"name": "stolid"
+				},
+				{
+					"name": "strife"
+				},
+				{
+					"name": "stringent"
+				},
+				{
+					"name": "suavity"
+				},
+				{
+					"name": "subscription"
+				},
+				{
+					"name": "sumptuary"
+				},
+				{
+					"name": "sumptuous"
+				},
+				{
+					"name": "superficial"
+				},
+				{
+					"name": "superintend"
+				},
+				{
+					"name": "supine"
+				},
+				{
+					"name": "suppliant"
+				},
+				{
+					"name": "surcharge"
+				},
+				{
+					"name": "surreptitious"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tacit",
-				"taciturn",
-				"tactics",
-				"tactile",
-				"tally",
-				"tangible",
-				"tariff",
-				"tedium",
-				"teleology",
-				"temerity",
-				"tendentious",
-				"tepid",
-				"therapeutic",
-				"timorous",
-				"tirade",
-				"tithe",
-				"tonsure",
-				"torpid",
-				"tractable",
-				"truculent",
-				"turbid",
-				"turnover",
-				"tyro"
+				{
+					"name": "tacit"
+				},
+				{
+					"name": "taciturn"
+				},
+				{
+					"name": "tactics"
+				},
+				{
+					"name": "tactile"
+				},
+				{
+					"name": "tally"
+				},
+				{
+					"name": "tangible"
+				},
+				{
+					"name": "tariff"
+				},
+				{
+					"name": "tedium"
+				},
+				{
+					"name": "teleology"
+				},
+				{
+					"name": "temerity"
+				},
+				{
+					"name": "tendentious"
+				},
+				{
+					"name": "tepid"
+				},
+				{
+					"name": "therapeutic"
+				},
+				{
+					"name": "timorous"
+				},
+				{
+					"name": "tirade"
+				},
+				{
+					"name": "tithe"
+				},
+				{
+					"name": "tonsure"
+				},
+				{
+					"name": "torpid"
+				},
+				{
+					"name": "tractable"
+				},
+				{
+					"name": "truculent"
+				},
+				{
+					"name": "turbid"
+				},
+				{
+					"name": "turnover"
+				},
+				{
+					"name": "tyro"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"unctuous",
-				"underwrite",
-				"unload",
-				"ursine",
-				"usury"
+				{
+					"name": "unctuous"
+				},
+				{
+					"name": "underwrite"
+				},
+				{
+					"name": "unload"
+				},
+				{
+					"name": "ursine"
+				},
+				{
+					"name": "usury"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"vacancy",
-				"valedictory",
-				"validate",
-				"vapid",
-				"vehement",
-				"venal",
-				"vend",
-				"vendetta",
-				"venial",
-				"verbose",
-				"vindicate",
-				"virago",
-				"virile",
-				"vivacious",
-				"vocal",
-				"volatile",
-				"voluminous",
-				"voracious",
-				"voucher"
+				{
+					"name": "vacancy"
+				},
+				{
+					"name": "valedictory"
+				},
+				{
+					"name": "validate"
+				},
+				{
+					"name": "vapid"
+				},
+				{
+					"name": "vehement"
+				},
+				{
+					"name": "venal"
+				},
+				{
+					"name": "vend"
+				},
+				{
+					"name": "vendetta"
+				},
+				{
+					"name": "venial"
+				},
+				{
+					"name": "verbose"
+				},
+				{
+					"name": "vindicate"
+				},
+				{
+					"name": "virago"
+				},
+				{
+					"name": "virile"
+				},
+				{
+					"name": "vivacious"
+				},
+				{
+					"name": "vocal"
+				},
+				{
+					"name": "volatile"
+				},
+				{
+					"name": "voluminous"
+				},
+				{
+					"name": "voracious"
+				},
+				{
+					"name": "voucher"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wane",
-				"warrant",
-				"wary",
-				"wholesale",
-				"wreak"
+				{
+					"name": "wane"
+				},
+				{
+					"name": "warrant"
+				},
+				{
+					"name": "wary"
+				},
+				{
+					"name": "wholesale"
+				},
+				{
+					"name": "wreak"
+				}
 			]
 		}
 	]

@@ -5,384 +5,910 @@
 		{
 			"name": "B",
 			"children": [
-				"British system",
-				"bag",
-				"balance of payments",
-				"bargain",
-				"bid",
-				"bid firm",
-				"bonded cargo",
-				"bonded warehouse",
-				"book",
-				"box",
-				"bulk cargo",
-				"bulk pack",
-				"bushel",
-				"business discussion",
-				"business negotiation",
-				"buying rate"
+				{
+					"name": "British system"
+				},
+				{
+					"name": "bag"
+				},
+				{
+					"name": "balance of payments"
+				},
+				{
+					"name": "bargain"
+				},
+				{
+					"name": "bid"
+				},
+				{
+					"name": "bid firm"
+				},
+				{
+					"name": "bonded cargo"
+				},
+				{
+					"name": "bonded warehouse"
+				},
+				{
+					"name": "book"
+				},
+				{
+					"name": "box"
+				},
+				{
+					"name": "bulk cargo"
+				},
+				{
+					"name": "bulk pack"
+				},
+				{
+					"name": "bushel"
+				},
+				{
+					"name": "business discussion"
+				},
+				{
+					"name": "business negotiation"
+				},
+				{
+					"name": "buying rate"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"CIF",
-				"cable reply",
-				"call at",
-				"cancel an order",
-				"capacity",
-				"cargo",
-				"cargo receipt",
-				"carrier",
-				"carton",
-				"case",
-				"catalogue",
-				"certificate of origin",
-				"charter",
-				"claim",
-				"clearance of customs",
-				"commercial value",
-				"commodity",
-				"commodity code",
-				"compensation trade",
-				"compensatory trade",
-				"confirm an order",
-				"consignee",
-				"consignment",
-				"consignor",
-				"consumer pack",
-				"container",
-				"cooperative enterprise",
-				"counter offer",
-				"counter sample",
-				"cubic meter",
-				"currency",
-				"current price",
-				"customs duty"
+				{
+					"name": "CIF"
+				},
+				{
+					"name": "cable reply"
+				},
+				{
+					"name": "call at"
+				},
+				{
+					"name": "cancel an order"
+				},
+				{
+					"name": "capacity"
+				},
+				{
+					"name": "cargo"
+				},
+				{
+					"name": "cargo receipt"
+				},
+				{
+					"name": "carrier"
+				},
+				{
+					"name": "carton"
+				},
+				{
+					"name": "case"
+				},
+				{
+					"name": "catalogue"
+				},
+				{
+					"name": "certificate of origin"
+				},
+				{
+					"name": "charter"
+				},
+				{
+					"name": "claim"
+				},
+				{
+					"name": "clearance of customs"
+				},
+				{
+					"name": "commercial value"
+				},
+				{
+					"name": "commodity"
+				},
+				{
+					"name": "commodity code"
+				},
+				{
+					"name": "compensation trade"
+				},
+				{
+					"name": "compensatory trade"
+				},
+				{
+					"name": "confirm an order"
+				},
+				{
+					"name": "consignee"
+				},
+				{
+					"name": "consignment"
+				},
+				{
+					"name": "consignor"
+				},
+				{
+					"name": "consumer pack"
+				},
+				{
+					"name": "container"
+				},
+				{
+					"name": "cooperative enterprise"
+				},
+				{
+					"name": "counter offer"
+				},
+				{
+					"name": "counter sample"
+				},
+				{
+					"name": "cubic meter"
+				},
+				{
+					"name": "currency"
+				},
+				{
+					"name": "current price"
+				},
+				{
+					"name": "customs duty"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"FOB",
-				"firm offer",
-				"fixed rate",
-				"floating rate",
-				"foreign currency",
-				"foreign exchange",
-				"forward price",
-				"free trade zone",
-				"freight",
-				"freight charges",
-				"freight rates"
+				{
+					"name": "FOB"
+				},
+				{
+					"name": "firm offer"
+				},
+				{
+					"name": "fixed rate"
+				},
+				{
+					"name": "floating rate"
+				},
+				{
+					"name": "foreign currency"
+				},
+				{
+					"name": "foreign exchange"
+				},
+				{
+					"name": "forward price"
+				},
+				{
+					"name": "free trade zone"
+				},
+				{
+					"name": "freight"
+				},
+				{
+					"name": "freight charges"
+				},
+				{
+					"name": "freight rates"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"a fresh order",
-				"a heavy investment",
-				"a repeat order",
-				"accept an order",
-				"accumulative commission",
-				"agency",
-				"agency agreement",
-				"agent",
-				"air cargo",
-				"air freight charge",
-				"air way bill",
-				"airway bill",
-				"amount",
-				"arbitral tribunal",
-				"arbitration",
-				"area",
-				"article",
-				"article No.",
-				"auction"
+				{
+					"name": "a fresh order"
+				},
+				{
+					"name": "a heavy investment"
+				},
+				{
+					"name": "a repeat order"
+				},
+				{
+					"name": "accept an order"
+				},
+				{
+					"name": "accumulative commission"
+				},
+				{
+					"name": "agency"
+				},
+				{
+					"name": "agency agreement"
+				},
+				{
+					"name": "agent"
+				},
+				{
+					"name": "air cargo"
+				},
+				{
+					"name": "air freight charge"
+				},
+				{
+					"name": "air way bill"
+				},
+				{
+					"name": "airway bill"
+				},
+				{
+					"name": "amount"
+				},
+				{
+					"name": "arbitral tribunal"
+				},
+				{
+					"name": "arbitration"
+				},
+				{
+					"name": "area"
+				},
+				{
+					"name": "article"
+				},
+				{
+					"name": "article No."
+				},
+				{
+					"name": "auction"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"date of importation",
-				"date of shipment",
-				"dealer",
-				"declaration form",
-				"delivery",
-				"description",
-				"description of goods",
-				"devaluation",
-				"direct investment",
-				"direct quotation",
-				"discount",
-				"disputes",
-				"dozen",
-				"dumping",
-				"duplicate sample",
-				"duty-paying value"
+				{
+					"name": "date of importation"
+				},
+				{
+					"name": "date of shipment"
+				},
+				{
+					"name": "dealer"
+				},
+				{
+					"name": "declaration form"
+				},
+				{
+					"name": "delivery"
+				},
+				{
+					"name": "description"
+				},
+				{
+					"name": "description of goods"
+				},
+				{
+					"name": "devaluation"
+				},
+				{
+					"name": "direct investment"
+				},
+				{
+					"name": "direct quotation"
+				},
+				{
+					"name": "discount"
+				},
+				{
+					"name": "disputes"
+				},
+				{
+					"name": "dozen"
+				},
+				{
+					"name": "dumping"
+				},
+				{
+					"name": "duplicate sample"
+				},
+				{
+					"name": "duty-paying value"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"enterprise",
-				"exchange dumping",
-				"exclusive agency",
-				"exclusive right",
-				"execute an order",
-				"export",
-				"export credit",
-				"export license",
-				"export subsidy",
-				"extras"
+				{
+					"name": "enterprise"
+				},
+				{
+					"name": "exchange dumping"
+				},
+				{
+					"name": "exclusive agency"
+				},
+				{
+					"name": "exclusive right"
+				},
+				{
+					"name": "execute an order"
+				},
+				{
+					"name": "export"
+				},
+				{
+					"name": "export credit"
+				},
+				{
+					"name": "export license"
+				},
+				{
+					"name": "export subsidy"
+				},
+				{
+					"name": "extras"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gallon",
-				"general agent",
-				"general inquiry",
-				"general practice",
-				"gift-wrap",
-				"gold points",
-				"gold standard",
-				"goods",
-				"gross for net",
-				"gross weight"
+				{
+					"name": "gallon"
+				},
+				{
+					"name": "general agent"
+				},
+				{
+					"name": "general inquiry"
+				},
+				{
+					"name": "general practice"
+				},
+				{
+					"name": "gift-wrap"
+				},
+				{
+					"name": "gold points"
+				},
+				{
+					"name": "gold standard"
+				},
+				{
+					"name": "goods"
+				},
+				{
+					"name": "gross for net"
+				},
+				{
+					"name": "gross weight"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hard currency"
+				{
+					"name": "hard currency"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"immediate payment",
-				"import",
-				"import license",
-				"import quotas",
-				"in loose packing",
-				"indent",
-				"indirect quotation",
-				"inflation",
-				"inner packing",
-				"inquiry",
-				"insurance agent",
-				"insurance policy",
-				"investment environment",
-				"investment intent",
-				"investment partner",
-				"investor",
-				"invitation of tender",
-				"invoice"
+				{
+					"name": "immediate payment"
+				},
+				{
+					"name": "import"
+				},
+				{
+					"name": "import license"
+				},
+				{
+					"name": "import quotas"
+				},
+				{
+					"name": "in loose packing"
+				},
+				{
+					"name": "indent"
+				},
+				{
+					"name": "indirect quotation"
+				},
+				{
+					"name": "inflation"
+				},
+				{
+					"name": "inner packing"
+				},
+				{
+					"name": "inquiry"
+				},
+				{
+					"name": "insurance agent"
+				},
+				{
+					"name": "insurance policy"
+				},
+				{
+					"name": "investment environment"
+				},
+				{
+					"name": "investment intent"
+				},
+				{
+					"name": "investment partner"
+				},
+				{
+					"name": "investor"
+				},
+				{
+					"name": "invitation of tender"
+				},
+				{
+					"name": "invoice"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"joint venture enterprise",
-				"jute bag"
+				{
+					"name": "joint venture enterprise"
+				},
+				{
+					"name": "jute bag"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"kilogram"
+				{
+					"name": "kilogram"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"landed weight",
-				"landing charges",
-				"large packing",
-				"length",
-				"letter of credit",
-				"lighter",
-				"long ton",
-				"luggage"
+				{
+					"name": "landed weight"
+				},
+				{
+					"name": "landing charges"
+				},
+				{
+					"name": "large packing"
+				},
+				{
+					"name": "length"
+				},
+				{
+					"name": "letter of credit"
+				},
+				{
+					"name": "lighter"
+				},
+				{
+					"name": "long ton"
+				},
+				{
+					"name": "luggage"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"means of transport",
-				"metric system",
-				"metric ton",
-				"mint par",
-				"mode of trade",
-				"more or less clause"
+				{
+					"name": "means of transport"
+				},
+				{
+					"name": "metric system"
+				},
+				{
+					"name": "metric ton"
+				},
+				{
+					"name": "mint par"
+				},
+				{
+					"name": "mode of trade"
+				},
+				{
+					"name": "more or less clause"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"name of trading country",
-				"net price",
-				"net weight",
-				"notify party",
-				"nude packing",
-				"number"
+				{
+					"name": "name of trading country"
+				},
+				{
+					"name": "net price"
+				},
+				{
+					"name": "net weight"
+				},
+				{
+					"name": "notify party"
+				},
+				{
+					"name": "nude packing"
+				},
+				{
+					"name": "number"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"ocean bill of  lading",
-				"offer",
-				"offer firm",
-				"optional charges",
-				"optional port",
-				"original B/L",
-				"original sample",
-				"ounce"
+				{
+					"name": "ocean bill of  lading"
+				},
+				{
+					"name": "offer"
+				},
+				{
+					"name": "offer firm"
+				},
+				{
+					"name": "optional charges"
+				},
+				{
+					"name": "optional port"
+				},
+				{
+					"name": "original B/L"
+				},
+				{
+					"name": "original sample"
+				},
+				{
+					"name": "ounce"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"packing",
-				"packing list",
-				"pair",
-				"pamphlet",
-				"paper money system",
-				"payment",
-				"penalty",
-				"piece",
-				"plastic bag",
-				"port",
-				"port dues",
-				"port of delivery",
-				"port to port shipment",
-				"postal items",
-				"pound",
-				"price",
-				"price indication",
-				"price term",
-				"prompt delivery",
-				"purchase",
-				"purchase confirmation",
-				"purchase contract"
+				{
+					"name": "packing"
+				},
+				{
+					"name": "packing list"
+				},
+				{
+					"name": "pair"
+				},
+				{
+					"name": "pamphlet"
+				},
+				{
+					"name": "paper money system"
+				},
+				{
+					"name": "payment"
+				},
+				{
+					"name": "penalty"
+				},
+				{
+					"name": "piece"
+				},
+				{
+					"name": "plastic bag"
+				},
+				{
+					"name": "port"
+				},
+				{
+					"name": "port dues"
+				},
+				{
+					"name": "port of delivery"
+				},
+				{
+					"name": "port to port shipment"
+				},
+				{
+					"name": "postal items"
+				},
+				{
+					"name": "pound"
+				},
+				{
+					"name": "price"
+				},
+				{
+					"name": "price indication"
+				},
+				{
+					"name": "price term"
+				},
+				{
+					"name": "prompt delivery"
+				},
+				{
+					"name": "purchase"
+				},
+				{
+					"name": "purchase confirmation"
+				},
+				{
+					"name": "purchase contract"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quality",
-				"quantity",
-				"quotation",
-				"quote"
+				{
+					"name": "quality"
+				},
+				{
+					"name": "quantity"
+				},
+				{
+					"name": "quotation"
+				},
+				{
+					"name": "quote"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"rate",
-				"rate of exchange",
-				"ream",
-				"reference price",
-				"reference sample",
-				"reply immediately",
-				"representative sample",
-				"retail price",
-				"return commission",
-				"revaluation"
+				{
+					"name": "rate"
+				},
+				{
+					"name": "rate of exchange"
+				},
+				{
+					"name": "ream"
+				},
+				{
+					"name": "reference price"
+				},
+				{
+					"name": "reference sample"
+				},
+				{
+					"name": "reply immediately"
+				},
+				{
+					"name": "representative sample"
+				},
+				{
+					"name": "retail price"
+				},
+				{
+					"name": "return commission"
+				},
+				{
+					"name": "revaluation"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"sales confirmation",
-				"sales contract",
-				"sales department",
-				"sample",
-				"sea cargo",
-				"sealed sample",
-				"selling rate",
-				"set",
-				"shipper",
-				"shipping",
-				"shipping agent",
-				"shipping documents",
-				"shipping liner",
-				"shipping marks",
-				"shipping order",
-				"shipping space",
-				"shipping weight",
-				"short ton",
-				"shrunk packaging",
-				"soft currency",
-				"sole agency",
-				"specific inquiry",
-				"specifications",
-				"spot price",
-				"stamp duty",
-				"standard type",
-				"state-owned enterprise",
-				"steamship",
-				"subject to prior sale",
-				"submission of tender"
+				{
+					"name": "sales confirmation"
+				},
+				{
+					"name": "sales contract"
+				},
+				{
+					"name": "sales department"
+				},
+				{
+					"name": "sample"
+				},
+				{
+					"name": "sea cargo"
+				},
+				{
+					"name": "sealed sample"
+				},
+				{
+					"name": "selling rate"
+				},
+				{
+					"name": "set"
+				},
+				{
+					"name": "shipper"
+				},
+				{
+					"name": "shipping"
+				},
+				{
+					"name": "shipping agent"
+				},
+				{
+					"name": "shipping documents"
+				},
+				{
+					"name": "shipping liner"
+				},
+				{
+					"name": "shipping marks"
+				},
+				{
+					"name": "shipping order"
+				},
+				{
+					"name": "shipping space"
+				},
+				{
+					"name": "shipping weight"
+				},
+				{
+					"name": "short ton"
+				},
+				{
+					"name": "shrunk packaging"
+				},
+				{
+					"name": "soft currency"
+				},
+				{
+					"name": "sole agency"
+				},
+				{
+					"name": "specific inquiry"
+				},
+				{
+					"name": "specifications"
+				},
+				{
+					"name": "spot price"
+				},
+				{
+					"name": "stamp duty"
+				},
+				{
+					"name": "standard type"
+				},
+				{
+					"name": "state-owned enterprise"
+				},
+				{
+					"name": "steamship"
+				},
+				{
+					"name": "subject to prior sale"
+				},
+				{
+					"name": "submission of tender"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tanker",
-				"tare",
-				"terms and country",
-				"terms of payment",
-				"theoretical weight",
-				"time charter",
-				"time of delivery",
-				"time of shipment",
-				"time of validity",
-				"to accept an offer",
-				"to effect delivery",
-				"to extend an offer",
-				"to make delivery",
-				"to postpone delivery",
-				"to renew an offer",
-				"to withdraw an offer",
-				"tolerance",
-				"total amount",
-				"total price"
+				{
+					"name": "tanker"
+				},
+				{
+					"name": "tare"
+				},
+				{
+					"name": "terms and country"
+				},
+				{
+					"name": "terms of payment"
+				},
+				{
+					"name": "theoretical weight"
+				},
+				{
+					"name": "time charter"
+				},
+				{
+					"name": "time of delivery"
+				},
+				{
+					"name": "time of shipment"
+				},
+				{
+					"name": "time of validity"
+				},
+				{
+					"name": "to accept an offer"
+				},
+				{
+					"name": "to effect delivery"
+				},
+				{
+					"name": "to extend an offer"
+				},
+				{
+					"name": "to make delivery"
+				},
+				{
+					"name": "to postpone delivery"
+				},
+				{
+					"name": "to renew an offer"
+				},
+				{
+					"name": "to withdraw an offer"
+				},
+				{
+					"name": "tolerance"
+				},
+				{
+					"name": "total amount"
+				},
+				{
+					"name": "total price"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"unit price",
-				"usual practice"
+				{
+					"name": "unit price"
+				},
+				{
+					"name": "usual practice"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"value",
-				"value of foreign trade",
-				"volume",
-				"voyage charter"
+				{
+					"name": "value"
+				},
+				{
+					"name": "value of foreign trade"
+				},
+				{
+					"name": "volume"
+				},
+				{
+					"name": "voyage charter"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"weight",
-				"wharfage",
-				"wholesale price",
-				"without engagement",
-				"wooden case",
-				"world market price"
+				{
+					"name": "weight"
+				},
+				{
+					"name": "wharfage"
+				},
+				{
+					"name": "wholesale price"
+				},
+				{
+					"name": "without engagement"
+				},
+				{
+					"name": "wooden case"
+				},
+				{
+					"name": "world market price"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"zippered bag"
+				{
+					"name": "zippered bag"
+				}
 			]
 		}
 	]

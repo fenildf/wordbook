@@ -5,92 +5,174 @@
 		{
 			"name": "T",
 			"children": [
-				"T-shirt",
-				"teeth",
-				"thought",
-				"throw"
+				{
+					"name": "T-shirt"
+				},
+				{
+					"name": "teeth"
+				},
+				{
+					"name": "thought"
+				},
+				{
+					"name": "throw"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"before",
-				"begin",
-				"bone",
-				"bought",
-				"brush"
+				{
+					"name": "before"
+				},
+				{
+					"name": "begin"
+				},
+				{
+					"name": "bone"
+				},
+				{
+					"name": "bought"
+				},
+				{
+					"name": "brush"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"catch",
-				"cloud",
-				"comb",
-				"cookies"
+				{
+					"name": "catch"
+				},
+				{
+					"name": "cloud"
+				},
+				{
+					"name": "comb"
+				},
+				{
+					"name": "cookies"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"flower",
-				"fly",
-				"forget"
+				{
+					"name": "flower"
+				},
+				{
+					"name": "fly"
+				},
+				{
+					"name": "forget"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"high",
-				"hit",
-				"homework",
-				"hour"
+				{
+					"name": "high"
+				},
+				{
+					"name": "hit"
+				},
+				{
+					"name": "homework"
+				},
+				{
+					"name": "hour"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lie",
-				"light",
-				"lose",
-				"low"
+				{
+					"name": "lie"
+				},
+				{
+					"name": "light"
+				},
+				{
+					"name": "lose"
+				},
+				{
+					"name": "low"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"muscle"
+				{
+					"name": "muscle"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"pea",
-				"ping-pong",
-				"player"
+				{
+					"name": "pea"
+				},
+				{
+					"name": "ping-pong"
+				},
+				{
+					"name": "player"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"shorts",
-				"skin",
-				"skip",
-				"sky",
-				"someone",
-				"sport",
-				"strong",
-				"sugar",
-				"surprise",
-				"swim",
-				"swimsuit"
+				{
+					"name": "shorts"
+				},
+				{
+					"name": "skin"
+				},
+				{
+					"name": "skip"
+				},
+				{
+					"name": "sky"
+				},
+				{
+					"name": "someone"
+				},
+				{
+					"name": "sport"
+				},
+				{
+					"name": "strong"
+				},
+				{
+					"name": "sugar"
+				},
+				{
+					"name": "surprise"
+				},
+				{
+					"name": "swim"
+				},
+				{
+					"name": "swimsuit"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"will",
-				"win"
+				{
+					"name": "will"
+				},
+				{
+					"name": "win"
+				}
 			]
 		}
 	]

@@ -5,251 +5,651 @@
 		{
 			"name": "C",
 			"children": [
-				"CIF",
-				"CV",
-				"cad",
-				"call on",
-				"campaign",
-				"candidate",
-				"canteen",
-				"canvass",
-				"capacity",
-				"capital",
-				"caption",
-				"capture",
-				"case study",
-				"cash",
-				"cash flow",
-				"catalogue",
-				"catastrophe",
-				"ceo",
-				"chain",
-				"challenger",
-				"channel",
-				"charge",
-				"chart",
-				"checkout",
-				"chief",
-				"circular",
-				"circulate",
-				"claim",
-				"client",
-				"cold",
-				"commercialise",
-				"commission",
-				"commitment",
-				"commodity",
-				"company",
-				"compensate",
-				"compensation",
-				"competition",
-				"competitive",
-				"competitor",
-				"component",
-				"concentrated marketing",
-				"condition",
-				"configuration",
-				"conflict",
-				"conglomerate",
-				"consolidate",
-				"consortium",
-				"constant",
-				"consultant",
-				"consumables",
-				"consumer durables",
-				"consumer goods",
-				"contingency",
-				"contractor",
-				"contribute",
-				"contribution",
-				"conveyor",
-				"core time",
-				"cost",
-				"cost-effective",
-				"costing",
-				"credit",
-				"credit control",
-				"credit limit",
-				"credit rating",
-				"creditor",
-				"creditworthiness",
-				"crisis",
-				"critical",
-				"critical path analysis",
-				"currency",
-				"current",
-				"current account",
-				"current asset",
-				"current assets",
-				"customise",
-				"cut-throat",
-				"cycle time"
+				{
+					"name": "CIF"
+				},
+				{
+					"name": "CV"
+				},
+				{
+					"name": "cad"
+				},
+				{
+					"name": "call on"
+				},
+				{
+					"name": "campaign"
+				},
+				{
+					"name": "candidate"
+				},
+				{
+					"name": "canteen"
+				},
+				{
+					"name": "canvass"
+				},
+				{
+					"name": "capacity"
+				},
+				{
+					"name": "capital"
+				},
+				{
+					"name": "caption"
+				},
+				{
+					"name": "capture"
+				},
+				{
+					"name": "case study"
+				},
+				{
+					"name": "cash"
+				},
+				{
+					"name": "cash flow"
+				},
+				{
+					"name": "catalogue"
+				},
+				{
+					"name": "catastrophe"
+				},
+				{
+					"name": "ceo"
+				},
+				{
+					"name": "chain"
+				},
+				{
+					"name": "challenger"
+				},
+				{
+					"name": "channel"
+				},
+				{
+					"name": "charge"
+				},
+				{
+					"name": "chart"
+				},
+				{
+					"name": "checkout"
+				},
+				{
+					"name": "chief"
+				},
+				{
+					"name": "circular"
+				},
+				{
+					"name": "circulate"
+				},
+				{
+					"name": "claim"
+				},
+				{
+					"name": "client"
+				},
+				{
+					"name": "cold"
+				},
+				{
+					"name": "commercialise"
+				},
+				{
+					"name": "commission"
+				},
+				{
+					"name": "commitment"
+				},
+				{
+					"name": "commodity"
+				},
+				{
+					"name": "company"
+				},
+				{
+					"name": "compensate"
+				},
+				{
+					"name": "compensation"
+				},
+				{
+					"name": "competition"
+				},
+				{
+					"name": "competitive"
+				},
+				{
+					"name": "competitor"
+				},
+				{
+					"name": "component"
+				},
+				{
+					"name": "concentrated marketing"
+				},
+				{
+					"name": "condition"
+				},
+				{
+					"name": "configuration"
+				},
+				{
+					"name": "conflict"
+				},
+				{
+					"name": "conglomerate"
+				},
+				{
+					"name": "consolidate"
+				},
+				{
+					"name": "consortium"
+				},
+				{
+					"name": "constant"
+				},
+				{
+					"name": "consultant"
+				},
+				{
+					"name": "consumables"
+				},
+				{
+					"name": "consumer durables"
+				},
+				{
+					"name": "consumer goods"
+				},
+				{
+					"name": "contingency"
+				},
+				{
+					"name": "contractor"
+				},
+				{
+					"name": "contribute"
+				},
+				{
+					"name": "contribution"
+				},
+				{
+					"name": "conveyor"
+				},
+				{
+					"name": "core time"
+				},
+				{
+					"name": "cost"
+				},
+				{
+					"name": "cost-effective"
+				},
+				{
+					"name": "costing"
+				},
+				{
+					"name": "credit"
+				},
+				{
+					"name": "credit control"
+				},
+				{
+					"name": "credit limit"
+				},
+				{
+					"name": "credit rating"
+				},
+				{
+					"name": "creditor"
+				},
+				{
+					"name": "creditworthiness"
+				},
+				{
+					"name": "crisis"
+				},
+				{
+					"name": "critical"
+				},
+				{
+					"name": "critical path analysis"
+				},
+				{
+					"name": "currency"
+				},
+				{
+					"name": "current"
+				},
+				{
+					"name": "current account"
+				},
+				{
+					"name": "current asset"
+				},
+				{
+					"name": "current assets"
+				},
+				{
+					"name": "customise"
+				},
+				{
+					"name": "cut-throat"
+				},
+				{
+					"name": "cycle time"
+				}
 			]
 		},
 		{
 			"name": "A",
 			"children": [
-				"abroad",
-				"absent",
-				"absenteeism",
-				"absorb",
-				"abstract",
-				"access",
-				"accommodation",
-				"account",
-				"account executive",
-				"account for",
-				"accountancy",
-				"achieve",
-				"acknowledge",
-				"acquire",
-				"acquisition",
-				"acting",
-				"activity",
-				"actual",
-				"adapt",
-				"adjust",
-				"administration",
-				"adopt",
-				"advertising",
-				"after-sales service",
-				"agenda",
-				"allocate",
-				"amalgamation",
-				"ambition",
-				"amortize",
-				"analysis",
-				"analyst",
-				"analyze",
-				"anticipate",
-				"anticipated",
-				"appeal",
-				"applicant",
-				"application",
-				"apply",
-				"appointee",
-				"appraisal",
-				"appreciate",
-				"appropriate",
-				"approve",
-				"aptitude",
-				"arbitrage",
-				"arrears",
-				"assemble",
-				"assembly-line",
-				"assess",
-				"asset",
-				"assist",
-				"automate",
-				"average",
-				"awareness"
+				{
+					"name": "abroad"
+				},
+				{
+					"name": "absent"
+				},
+				{
+					"name": "absenteeism"
+				},
+				{
+					"name": "absorb"
+				},
+				{
+					"name": "abstract"
+				},
+				{
+					"name": "access"
+				},
+				{
+					"name": "accommodation"
+				},
+				{
+					"name": "account"
+				},
+				{
+					"name": "account executive"
+				},
+				{
+					"name": "account for"
+				},
+				{
+					"name": "accountancy"
+				},
+				{
+					"name": "achieve"
+				},
+				{
+					"name": "acknowledge"
+				},
+				{
+					"name": "acquire"
+				},
+				{
+					"name": "acquisition"
+				},
+				{
+					"name": "acting"
+				},
+				{
+					"name": "activity"
+				},
+				{
+					"name": "actual"
+				},
+				{
+					"name": "adapt"
+				},
+				{
+					"name": "adjust"
+				},
+				{
+					"name": "administration"
+				},
+				{
+					"name": "adopt"
+				},
+				{
+					"name": "advertising"
+				},
+				{
+					"name": "after-sales service"
+				},
+				{
+					"name": "agenda"
+				},
+				{
+					"name": "allocate"
+				},
+				{
+					"name": "amalgamation"
+				},
+				{
+					"name": "ambition"
+				},
+				{
+					"name": "amortize"
+				},
+				{
+					"name": "analysis"
+				},
+				{
+					"name": "analyst"
+				},
+				{
+					"name": "analyze"
+				},
+				{
+					"name": "anticipate"
+				},
+				{
+					"name": "anticipated"
+				},
+				{
+					"name": "appeal"
+				},
+				{
+					"name": "applicant"
+				},
+				{
+					"name": "application"
+				},
+				{
+					"name": "apply"
+				},
+				{
+					"name": "appointee"
+				},
+				{
+					"name": "appraisal"
+				},
+				{
+					"name": "appreciate"
+				},
+				{
+					"name": "appropriate"
+				},
+				{
+					"name": "approve"
+				},
+				{
+					"name": "aptitude"
+				},
+				{
+					"name": "arbitrage"
+				},
+				{
+					"name": "arrears"
+				},
+				{
+					"name": "assemble"
+				},
+				{
+					"name": "assembly-line"
+				},
+				{
+					"name": "assess"
+				},
+				{
+					"name": "asset"
+				},
+				{
+					"name": "assist"
+				},
+				{
+					"name": "automate"
+				},
+				{
+					"name": "average"
+				},
+				{
+					"name": "awareness"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"backhander",
-				"backing",
-				"backlog",
-				"bad debt",
-				"balance",
-				"balance of payments",
-				"balance sheet",
-				"bank statement",
-				"bankrupt",
-				"bankruptcy",
-				"bar chart",
-				"bargain",
-				"base",
-				"batch",
-				"batch production",
-				"bear market",
-				"beat",
-				"behave",
-				"behavior",
-				"behaviour",
-				"below-the-line advertising",
-				"benchmark",
-				"benefit",
-				"bid",
-				"billboard",
-				"black",
-				"black list",
-				"black monday",
-				"blue chips",
-				"blue-collar",
-				"board of directors",
-				"bond",
-				"bonus",
-				"book value",
-				"bookkeeper",
-				"boom",
-				"boost",
-				"bottleneck",
-				"bottom",
-				"bounce",
-				"brainstorm",
-				"branch",
-				"brand leader",
-				"brand loyalty",
-				"break even",
-				"breakthrough",
-				"brief",
-				"brochure",
-				"broker",
-				"budget",
-				"bulk",
-				"bull market",
-				"bust",
-				"buyout"
+				{
+					"name": "backhander"
+				},
+				{
+					"name": "backing"
+				},
+				{
+					"name": "backlog"
+				},
+				{
+					"name": "bad debt"
+				},
+				{
+					"name": "balance"
+				},
+				{
+					"name": "balance of payments"
+				},
+				{
+					"name": "balance sheet"
+				},
+				{
+					"name": "bank statement"
+				},
+				{
+					"name": "bankrupt"
+				},
+				{
+					"name": "bankruptcy"
+				},
+				{
+					"name": "bar chart"
+				},
+				{
+					"name": "bargain"
+				},
+				{
+					"name": "base"
+				},
+				{
+					"name": "batch"
+				},
+				{
+					"name": "batch production"
+				},
+				{
+					"name": "bear market"
+				},
+				{
+					"name": "beat"
+				},
+				{
+					"name": "behave"
+				},
+				{
+					"name": "behavior"
+				},
+				{
+					"name": "behaviour"
+				},
+				{
+					"name": "below-the-line advertising"
+				},
+				{
+					"name": "benchmark"
+				},
+				{
+					"name": "benefit"
+				},
+				{
+					"name": "bid"
+				},
+				{
+					"name": "billboard"
+				},
+				{
+					"name": "black"
+				},
+				{
+					"name": "black list"
+				},
+				{
+					"name": "black monday"
+				},
+				{
+					"name": "blue chips"
+				},
+				{
+					"name": "blue-collar"
+				},
+				{
+					"name": "board of directors"
+				},
+				{
+					"name": "bond"
+				},
+				{
+					"name": "bonus"
+				},
+				{
+					"name": "book value"
+				},
+				{
+					"name": "bookkeeper"
+				},
+				{
+					"name": "boom"
+				},
+				{
+					"name": "boost"
+				},
+				{
+					"name": "bottleneck"
+				},
+				{
+					"name": "bottom"
+				},
+				{
+					"name": "bounce"
+				},
+				{
+					"name": "brainstorm"
+				},
+				{
+					"name": "branch"
+				},
+				{
+					"name": "brand leader"
+				},
+				{
+					"name": "brand loyalty"
+				},
+				{
+					"name": "break even"
+				},
+				{
+					"name": "breakthrough"
+				},
+				{
+					"name": "brief"
+				},
+				{
+					"name": "brochure"
+				},
+				{
+					"name": "broker"
+				},
+				{
+					"name": "budget"
+				},
+				{
+					"name": "bulk"
+				},
+				{
+					"name": "bull market"
+				},
+				{
+					"name": "bust"
+				},
+				{
+					"name": "buyout"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"damage"
+				{
+					"name": "damage"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"fixed asset",
-				"fixed costs",
-				"fringe benefits",
-				"frozen asset"
+				{
+					"name": "fixed asset"
+				},
+				{
+					"name": "fixed costs"
+				},
+				{
+					"name": "fringe benefits"
+				},
+				{
+					"name": "frozen asset"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"in the black",
-				"intangible asset"
+				{
+					"name": "in the black"
+				},
+				{
+					"name": "intangible asset"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"letter of credit",
-				"limited"
+				{
+					"name": "letter of credit"
+				},
+				{
+					"name": "limited"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"running costs"
+				{
+					"name": "running costs"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"sickness benefit"
+				{
+					"name": "sickness benefit"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"variable costs",
-				"version"
+				{
+					"name": "variable costs"
+				},
+				{
+					"name": "version"
+				}
 			]
 		}
 	]

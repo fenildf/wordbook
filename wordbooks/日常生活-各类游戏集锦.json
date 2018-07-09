@@ -5,101 +5,161 @@
 		{
 			"name": "A",
 			"children": [
-				"ACT",
-				"AVG"
+				{
+					"name": "ACT"
+				},
+				{
+					"name": "AVG"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"DAN",
-				"DC",
-				"domino",
-				"dominoes",
-				"double blank"
+				{
+					"name": "DAN"
+				},
+				{
+					"name": "DC"
+				},
+				{
+					"name": "domino"
+				},
+				{
+					"name": "dominoes"
+				},
+				{
+					"name": "double blank"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"ETC"
+				{
+					"name": "ETC"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"FC",
-				"FPG",
-				"FTG",
-				"forfeits",
-				"fps"
+				{
+					"name": "FC"
+				},
+				{
+					"name": "FPG"
+				},
+				{
+					"name": "FTG"
+				},
+				{
+					"name": "forfeits"
+				},
+				{
+					"name": "fps"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"GB",
-				"GG",
-				"guessing game"
+				{
+					"name": "GB"
+				},
+				{
+					"name": "GG"
+				},
+				{
+					"name": "guessing game"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"RPG",
-				"riddle"
+				{
+					"name": "RPG"
+				},
+				{
+					"name": "riddle"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"TAB"
+				{
+					"name": "TAB"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"bingo",
-				"blindman's buff"
+				{
+					"name": "bingo"
+				},
+				{
+					"name": "blindman's buff"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"charade",
-				"crossword puzzle"
+				{
+					"name": "charade"
+				},
+				{
+					"name": "crossword puzzle"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hunt-the-thimble"
+				{
+					"name": "hunt-the-thimble"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"lotto",
-				"ludo"
+				{
+					"name": "lotto"
+				},
+				{
+					"name": "ludo"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"monopoly"
+				{
+					"name": "monopoly"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"player",
-				"puss-in-the-corner"
+				{
+					"name": "player"
+				},
+				{
+					"name": "puss-in-the-corner"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"solitaire"
+				{
+					"name": "solitaire"
+				}
 			]
 		}
 	]

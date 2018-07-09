@@ -5,304 +5,710 @@
 		{
 			"name": "A",
 			"children": [
-				"AM Showers",
-				"AM Snow Showers",
-				"AM T-Storms",
-				"air mass",
-				"avalanche"
+				{
+					"name": "AM Showers"
+				},
+				{
+					"name": "AM Snow Showers"
+				},
+				{
+					"name": "AM T-Storms"
+				},
+				{
+					"name": "air mass"
+				},
+				{
+					"name": "avalanche"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"Clear",
-				"Clouds Early / Clearing Late",
-				"Cloudy",
-				"Cloudy / Wind",
-				"calm",
-				"chilly",
-				"clear",
-				"cloudy day",
-				"coastal climate",
-				"cold front",
-				"constant wind",
-				"continental climate",
-				"cool",
-				"cyclone"
+				{
+					"name": "Clear"
+				},
+				{
+					"name": "Clouds Early / Clearing Late"
+				},
+				{
+					"name": "Cloudy"
+				},
+				{
+					"name": "Cloudy / Wind"
+				},
+				{
+					"name": "calm"
+				},
+				{
+					"name": "chilly"
+				},
+				{
+					"name": "clear"
+				},
+				{
+					"name": "cloudy day"
+				},
+				{
+					"name": "coastal climate"
+				},
+				{
+					"name": "cold front"
+				},
+				{
+					"name": "constant wind"
+				},
+				{
+					"name": "continental climate"
+				},
+				{
+					"name": "cool"
+				},
+				{
+					"name": "cyclone"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"Drifting Snow",
-				"Drizzle",
-				"Drought",
-				"Dust",
-				"desert climate",
-				"dew",
-				"downpour"
+				{
+					"name": "Drifting Snow"
+				},
+				{
+					"name": "Drizzle"
+				},
+				{
+					"name": "Drought"
+				},
+				{
+					"name": "Dust"
+				},
+				{
+					"name": "desert climate"
+				},
+				{
+					"name": "dew"
+				},
+				{
+					"name": "downpour"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"Epidemic",
-				"earthquake",
-				"east wind",
-				"eye of a storm"
+				{
+					"name": "Epidemic"
+				},
+				{
+					"name": "earthquake"
+				},
+				{
+					"name": "east wind"
+				},
+				{
+					"name": "eye of a storm"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"Fair",
-				"Famine",
-				"Few Showers",
-				"Few Snow Showers",
-				"Few Snow Showers / Wind",
-				"Fog",
-				"favorable wind",
-				"flood",
-				"fog",
-				"forest climate",
-				"freakish weather",
-				"freezing point",
-				"fresh breeze",
-				"frontal edge",
-				"frost"
+				{
+					"name": "Fair"
+				},
+				{
+					"name": "Famine"
+				},
+				{
+					"name": "Few Showers"
+				},
+				{
+					"name": "Few Snow Showers"
+				},
+				{
+					"name": "Few Snow Showers / Wind"
+				},
+				{
+					"name": "Fog"
+				},
+				{
+					"name": "favorable wind"
+				},
+				{
+					"name": "flood"
+				},
+				{
+					"name": "fog"
+				},
+				{
+					"name": "forest climate"
+				},
+				{
+					"name": "freakish weather"
+				},
+				{
+					"name": "freezing point"
+				},
+				{
+					"name": "fresh breeze"
+				},
+				{
+					"name": "frontal edge"
+				},
+				{
+					"name": "frost"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"Hail",
-				"Hailstorm",
-				"Haze",
-				"Heavy Rain",
-				"Heavy Rain Icy",
-				"Heavy Snow",
-				"Heavy T-Storm",
-				"Hurricanes",
-				"hail",
-				"headwind",
-				"heat wave",
-				"heavy rain",
-				"high seas",
-				"high-pressure",
-				"highland climate",
-				"humid climate",
-				"hurricane"
+				{
+					"name": "Hail"
+				},
+				{
+					"name": "Hailstorm"
+				},
+				{
+					"name": "Haze"
+				},
+				{
+					"name": "Heavy Rain"
+				},
+				{
+					"name": "Heavy Rain Icy"
+				},
+				{
+					"name": "Heavy Snow"
+				},
+				{
+					"name": "Heavy T-Storm"
+				},
+				{
+					"name": "Hurricanes"
+				},
+				{
+					"name": "hail"
+				},
+				{
+					"name": "headwind"
+				},
+				{
+					"name": "heat wave"
+				},
+				{
+					"name": "heavy rain"
+				},
+				{
+					"name": "high seas"
+				},
+				{
+					"name": "high-pressure"
+				},
+				{
+					"name": "highland climate"
+				},
+				{
+					"name": "humid climate"
+				},
+				{
+					"name": "hurricane"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"Isolated T-Storms",
-				"ice",
-				"ice age",
-				"ice storm",
-				"icicle",
-				"intermittent rain"
+				{
+					"name": "Isolated T-Storms"
+				},
+				{
+					"name": "ice"
+				},
+				{
+					"name": "ice age"
+				},
+				{
+					"name": "ice storm"
+				},
+				{
+					"name": "icicle"
+				},
+				{
+					"name": "intermittent rain"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"Light Drizzle",
-				"Light Rain",
-				"Light Rain Shower",
-				"Light Rain Shower and Windy",
-				"Light Rain with Thunder",
-				"Light Snow",
-				"Light Snow Fall",
-				"Light Snow Grains",
-				"Light Snow Shower",
-				"Lightening",
-				"lahar",
-				"landslide",
-				"light breeze",
-				"light seas",
-				"lightning",
-				"littoral climate",
-				"local rains",
-				"low-pressure"
+				{
+					"name": "Light Drizzle"
+				},
+				{
+					"name": "Light Rain"
+				},
+				{
+					"name": "Light Rain Shower"
+				},
+				{
+					"name": "Light Rain Shower and Windy"
+				},
+				{
+					"name": "Light Rain with Thunder"
+				},
+				{
+					"name": "Light Snow"
+				},
+				{
+					"name": "Light Snow Fall"
+				},
+				{
+					"name": "Light Snow Grains"
+				},
+				{
+					"name": "Light Snow Shower"
+				},
+				{
+					"name": "Lightening"
+				},
+				{
+					"name": "lahar"
+				},
+				{
+					"name": "landslide"
+				},
+				{
+					"name": "light breeze"
+				},
+				{
+					"name": "light seas"
+				},
+				{
+					"name": "lightning"
+				},
+				{
+					"name": "littoral climate"
+				},
+				{
+					"name": "local rains"
+				},
+				{
+					"name": "low-pressure"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"Mist",
-				"Mostly Clear",
-				"Mostly Cloudy",
-				"Mostly Cloudy/ Windy",
-				"Mostly Sunny",
-				"maelstrom",
-				"marine climate",
-				"moderate breeze",
-				"moderate seas",
-				"monsoon climate",
-				"monster waves",
-				"mountain climate",
-				"mudflow",
-				"muggy weather"
+				{
+					"name": "Mist"
+				},
+				{
+					"name": "Mostly Clear"
+				},
+				{
+					"name": "Mostly Cloudy"
+				},
+				{
+					"name": "Mostly Cloudy/ Windy"
+				},
+				{
+					"name": "Mostly Sunny"
+				},
+				{
+					"name": "maelstrom"
+				},
+				{
+					"name": "marine climate"
+				},
+				{
+					"name": "moderate breeze"
+				},
+				{
+					"name": "moderate seas"
+				},
+				{
+					"name": "monsoon climate"
+				},
+				{
+					"name": "monster waves"
+				},
+				{
+					"name": "mountain climate"
+				},
+				{
+					"name": "mudflow"
+				},
+				{
+					"name": "muggy weather"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"Natural Disaster",
-				"near gale",
-				"north wind",
-				"northeast trades",
-				"northeaster",
-				"northwester"
+				{
+					"name": "Natural Disaster"
+				},
+				{
+					"name": "near gale"
+				},
+				{
+					"name": "north wind"
+				},
+				{
+					"name": "northeast trades"
+				},
+				{
+					"name": "northeaster"
+				},
+				{
+					"name": "northwester"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"PM Light Rain",
-				"PM Rain / Wind",
-				"PM Showers",
-				"PM Snow Showers",
-				"PM T-Storms",
-				"Partly Cloudy",
-				"Partly Cloudy/ Windy",
-				"plateau climate",
-				"polar climate"
+				{
+					"name": "PM Light Rain"
+				},
+				{
+					"name": "PM Rain / Wind"
+				},
+				{
+					"name": "PM Showers"
+				},
+				{
+					"name": "PM Snow Showers"
+				},
+				{
+					"name": "PM T-Storms"
+				},
+				{
+					"name": "Partly Cloudy"
+				},
+				{
+					"name": "Partly Cloudy/ Windy"
+				},
+				{
+					"name": "plateau climate"
+				},
+				{
+					"name": "polar climate"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"Rain",
-				"Rain / Snow Showers",
-				"Rain / Snow Showers Early",
-				"Rain / Wind",
-				"Rain Shower",
-				"Rain Shower/ Windy",
-				"Rain and Snow",
-				"rainbow",
-				"raindrops",
-				"rainfall",
-				"rainy season",
-				"rippled",
-				"rough seas"
+				{
+					"name": "Rain"
+				},
+				{
+					"name": "Rain / Snow Showers"
+				},
+				{
+					"name": "Rain / Snow Showers Early"
+				},
+				{
+					"name": "Rain / Wind"
+				},
+				{
+					"name": "Rain Shower"
+				},
+				{
+					"name": "Rain Shower/ Windy"
+				},
+				{
+					"name": "Rain and Snow"
+				},
+				{
+					"name": "rainbow"
+				},
+				{
+					"name": "raindrops"
+				},
+				{
+					"name": "rainfall"
+				},
+				{
+					"name": "rainy season"
+				},
+				{
+					"name": "rippled"
+				},
+				{
+					"name": "rough seas"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"Scattered Showers",
-				"Scattered Showers / Wind",
-				"Scattered Snow Showers",
-				"Scattered Snow Showers / Wind",
-				"Scattered Strong Storms",
-				"Scattered T-Storms",
-				"Showers",
-				"Showers / Wind",
-				"Showers Early",
-				"Showers Late",
-				"Showers in the Vicinity",
-				"Smoke",
-				"Snow",
-				"Snow / Rain Icy Mix",
-				"Snow Shower",
-				"Snow and Fog",
-				"Snowflakes",
-				"Solar flare",
-				"Sunny",
-				"Sunny / Wind",
-				"Sunny Day",
-				"scorching heat",
-				"smooth wavelets",
-				"snow",
-				"snow flake",
-				"snowdrift",
-				"southeaster",
-				"southwester",
-				"squall",
-				"storm",
-				"strong breeze",
-				"strong gale",
-				"sub-tropical climate",
-				"supervolcano"
+				{
+					"name": "Scattered Showers"
+				},
+				{
+					"name": "Scattered Showers / Wind"
+				},
+				{
+					"name": "Scattered Snow Showers"
+				},
+				{
+					"name": "Scattered Snow Showers / Wind"
+				},
+				{
+					"name": "Scattered Strong Storms"
+				},
+				{
+					"name": "Scattered T-Storms"
+				},
+				{
+					"name": "Showers"
+				},
+				{
+					"name": "Showers / Wind"
+				},
+				{
+					"name": "Showers Early"
+				},
+				{
+					"name": "Showers Late"
+				},
+				{
+					"name": "Showers in the Vicinity"
+				},
+				{
+					"name": "Smoke"
+				},
+				{
+					"name": "Snow"
+				},
+				{
+					"name": "Snow / Rain Icy Mix"
+				},
+				{
+					"name": "Snow Shower"
+				},
+				{
+					"name": "Snow and Fog"
+				},
+				{
+					"name": "Snowflakes"
+				},
+				{
+					"name": "Solar flare"
+				},
+				{
+					"name": "Sunny"
+				},
+				{
+					"name": "Sunny / Wind"
+				},
+				{
+					"name": "Sunny Day"
+				},
+				{
+					"name": "scorching heat"
+				},
+				{
+					"name": "smooth wavelets"
+				},
+				{
+					"name": "snow"
+				},
+				{
+					"name": "snow flake"
+				},
+				{
+					"name": "snowdrift"
+				},
+				{
+					"name": "southeaster"
+				},
+				{
+					"name": "southwester"
+				},
+				{
+					"name": "squall"
+				},
+				{
+					"name": "storm"
+				},
+				{
+					"name": "strong breeze"
+				},
+				{
+					"name": "strong gale"
+				},
+				{
+					"name": "sub-tropical climate"
+				},
+				{
+					"name": "supervolcano"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"T-Storms",
-				"T-Storms Early",
-				"T-Storms Late",
-				"Thunder",
-				"Thunder in the Vicinity",
-				"Tsunami",
-				"temperate arid climate",
-				"temperate climate",
-				"temperate desert climate",
-				"temperate grassy climate",
-				"thunder",
-				"tidal wave",
-				"tornado",
-				"trade wind",
-				"tropical climate",
-				"tropical marine climate",
-				"tropical monsson climate",
-				"tropical rainy climate",
-				"typhoon"
+				{
+					"name": "T-Storms"
+				},
+				{
+					"name": "T-Storms Early"
+				},
+				{
+					"name": "T-Storms Late"
+				},
+				{
+					"name": "Thunder"
+				},
+				{
+					"name": "Thunder in the Vicinity"
+				},
+				{
+					"name": "Tsunami"
+				},
+				{
+					"name": "temperate arid climate"
+				},
+				{
+					"name": "temperate climate"
+				},
+				{
+					"name": "temperate desert climate"
+				},
+				{
+					"name": "temperate grassy climate"
+				},
+				{
+					"name": "thunder"
+				},
+				{
+					"name": "tidal wave"
+				},
+				{
+					"name": "tornado"
+				},
+				{
+					"name": "trade wind"
+				},
+				{
+					"name": "tropical climate"
+				},
+				{
+					"name": "tropical marine climate"
+				},
+				{
+					"name": "tropical monsson climate"
+				},
+				{
+					"name": "tropical rainy climate"
+				},
+				{
+					"name": "typhoon"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"Windy",
-				"Windy / Snowy",
-				"Windy Rain",
-				"Wintry Mix",
-				"warm front",
-				"weather forecast",
-				"welcome rain",
-				"wildfire",
-				"wind scale",
-				"winter monsoon climate"
+				{
+					"name": "Windy"
+				},
+				{
+					"name": "Windy / Snowy"
+				},
+				{
+					"name": "Windy Rain"
+				},
+				{
+					"name": "Wintry Mix"
+				},
+				{
+					"name": "warm front"
+				},
+				{
+					"name": "weather forecast"
+				},
+				{
+					"name": "welcome rain"
+				},
+				{
+					"name": "wildfire"
+				},
+				{
+					"name": "wind scale"
+				},
+				{
+					"name": "winter monsoon climate"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"barometric pressure",
-				"blizzard",
-				"breeze"
+				{
+					"name": "barometric pressure"
+				},
+				{
+					"name": "blizzard"
+				},
+				{
+					"name": "breeze"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"gale",
-				"gentle breeze",
-				"gusty wind"
+				{
+					"name": "gale"
+				},
+				{
+					"name": "gentle breeze"
+				},
+				{
+					"name": "gusty wind"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"very high seas",
-				"very rough seas",
-				"violent storm",
-				"volcanic earthquake"
+				{
+					"name": "very high seas"
+				},
+				{
+					"name": "very rough seas"
+				},
+				{
+					"name": "violent storm"
+				},
+				{
+					"name": "volcanic earthquake"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"zero"
+				{
+					"name": "zero"
+				}
 			]
 		},
 		{
 			"name": "",
 			"children": [
-				"AM Clouds / PM Sun"
+				{
+					"name": "AM Clouds / PM Sun"
+				}
 			]
 		}
 	]

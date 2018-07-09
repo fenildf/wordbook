@@ -5,79 +5,145 @@
 		{
 			"name": "B",
 			"children": [
-				"boots",
-				"bring"
+				{
+					"name": "boots"
+				},
+				{
+					"name": "bring"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"circle",
-				"clean",
-				"cook"
+				{
+					"name": "circle"
+				},
+				{
+					"name": "clean"
+				},
+				{
+					"name": "cook"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dry"
+				{
+					"name": "dry"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"line"
+				{
+					"name": "line"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"mittens"
+				{
+					"name": "mittens"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"room"
+				{
+					"name": "room"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"shape",
-				"shower",
-				"sink",
-				"skate",
-				"ski",
-				"snow",
-				"something",
-				"sometimes",
-				"song",
-				"special",
-				"spring",
-				"square",
-				"star",
-				"stove",
-				"summer",
-				"sun"
+				{
+					"name": "shape"
+				},
+				{
+					"name": "shower"
+				},
+				{
+					"name": "sink"
+				},
+				{
+					"name": "skate"
+				},
+				{
+					"name": "ski"
+				},
+				{
+					"name": "snow"
+				},
+				{
+					"name": "something"
+				},
+				{
+					"name": "sometimes"
+				},
+				{
+					"name": "song"
+				},
+				{
+					"name": "special"
+				},
+				{
+					"name": "spring"
+				},
+				{
+					"name": "square"
+				},
+				{
+					"name": "star"
+				},
+				{
+					"name": "stove"
+				},
+				{
+					"name": "summer"
+				},
+				{
+					"name": "sun"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"think",
-				"today",
-				"toilet",
-				"tomorrow",
-				"toys",
-				"triangle"
+				{
+					"name": "think"
+				},
+				{
+					"name": "today"
+				},
+				{
+					"name": "toilet"
+				},
+				{
+					"name": "tomorrow"
+				},
+				{
+					"name": "toys"
+				},
+				{
+					"name": "triangle"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wind",
-				"winter"
+				{
+					"name": "wind"
+				},
+				{
+					"name": "winter"
+				}
 			]
 		}
 	]

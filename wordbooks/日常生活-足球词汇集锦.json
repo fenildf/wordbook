@@ -5,441 +5,1081 @@
 		{
 			"name": "A",
 			"children": [
-				"Adaptor",
-				"Attacking Midfielder",
-				"a hat trick",
-				"aficionado",
-				"aggregate score",
-				"all-out attacking",
-				"arch-rival",
-				"assistant referee",
-				"away ground",
-				"away match"
+				{
+					"name": "Adaptor"
+				},
+				{
+					"name": "Attacking Midfielder"
+				},
+				{
+					"name": "a hat trick"
+				},
+				{
+					"name": "aficionado"
+				},
+				{
+					"name": "aggregate score"
+				},
+				{
+					"name": "all-out attacking"
+				},
+				{
+					"name": "arch-rival"
+				},
+				{
+					"name": "assistant referee"
+				},
+				{
+					"name": "away ground"
+				},
+				{
+					"name": "away match"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"Ball",
-				"Ballboys",
-				"Boots",
-				"Brazilian formation",
-				"back",
-				"back heel pass",
-				"back line",
-				"backfield",
-				"ball handling",
-				"ball picker",
-				"ball playing skill",
-				"banish",
-				"base of post",
-				"beat the offside trap",
-				"bench",
-				"bicycle kick",
-				"block tackle",
-				"body check",
-				"boot",
-				"break through",
-				"budding star",
-				"bullt"
+				{
+					"name": "Ball"
+				},
+				{
+					"name": "Ballboys"
+				},
+				{
+					"name": "Boots"
+				},
+				{
+					"name": "Brazilian formation"
+				},
+				{
+					"name": "back"
+				},
+				{
+					"name": "back heel pass"
+				},
+				{
+					"name": "back line"
+				},
+				{
+					"name": "backfield"
+				},
+				{
+					"name": "ball handling"
+				},
+				{
+					"name": "ball picker"
+				},
+				{
+					"name": "ball playing skill"
+				},
+				{
+					"name": "banish"
+				},
+				{
+					"name": "base of post"
+				},
+				{
+					"name": "beat the offside trap"
+				},
+				{
+					"name": "bench"
+				},
+				{
+					"name": "bicycle kick"
+				},
+				{
+					"name": "block tackle"
+				},
+				{
+					"name": "body check"
+				},
+				{
+					"name": "boot"
+				},
+				{
+					"name": "break through"
+				},
+				{
+					"name": "budding star"
+				},
+				{
+					"name": "bullt"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"Captain",
-				"Center Back",
-				"Coach",
-				"Corporate boxes",
-				"capacity crowd",
-				"central breakthrough",
-				"centre forward",
-				"centre half back",
-				"champion",
-				"charity soccer match",
-				"chest-high ball",
-				"chesting",
-				"chip",
-				"clean catching",
-				"clear",
-				"clearance kick",
-				"close pass",
-				"close-marking defence",
-				"close-range shot",
-				"competition regulations",
-				"consecutive passes",
-				"control the midfield",
-				"corner area",
-				"corner ball",
-				"corner kick",
-				"cross pass",
-				"crossbar",
-				"cup"
+				{
+					"name": "Captain"
+				},
+				{
+					"name": "Center Back"
+				},
+				{
+					"name": "Coach"
+				},
+				{
+					"name": "Corporate boxes"
+				},
+				{
+					"name": "capacity crowd"
+				},
+				{
+					"name": "central breakthrough"
+				},
+				{
+					"name": "centre forward"
+				},
+				{
+					"name": "centre half back"
+				},
+				{
+					"name": "champion"
+				},
+				{
+					"name": "charity soccer match"
+				},
+				{
+					"name": "chest-high ball"
+				},
+				{
+					"name": "chesting"
+				},
+				{
+					"name": "chip"
+				},
+				{
+					"name": "clean catching"
+				},
+				{
+					"name": "clear"
+				},
+				{
+					"name": "clearance kick"
+				},
+				{
+					"name": "close pass"
+				},
+				{
+					"name": "close-marking defence"
+				},
+				{
+					"name": "close-range shot"
+				},
+				{
+					"name": "competition regulations"
+				},
+				{
+					"name": "consecutive passes"
+				},
+				{
+					"name": "control the midfield"
+				},
+				{
+					"name": "corner area"
+				},
+				{
+					"name": "corner ball"
+				},
+				{
+					"name": "corner kick"
+				},
+				{
+					"name": "cross pass"
+				},
+				{
+					"name": "crossbar"
+				},
+				{
+					"name": "cup"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"FIFA",
-				"First-aid kit",
-				"Fixture list",
-				"fair charge",
-				"favourists",
-				"field",
-				"final eight",
-				"final match",
-				"finger-tip save",
-				"first division team",
-				"first half",
-				"first leg",
-				"five-a-side-football",
-				"flank",
-				"flank pass",
-				"flying headar",
-				"flying header",
-				"football hooligan",
-				"football player",
-				"formation",
-				"forward",
-				"forward line",
-				"foul marker",
-				"foul play",
-				"four backs system",
-				"four-three-three formation",
-				"four-two-four formation",
-				"free kick",
-				"friendly match",
-				"full time"
+				{
+					"name": "FIFA"
+				},
+				{
+					"name": "First-aid kit"
+				},
+				{
+					"name": "Fixture list"
+				},
+				{
+					"name": "fair charge"
+				},
+				{
+					"name": "favourists"
+				},
+				{
+					"name": "field"
+				},
+				{
+					"name": "final eight"
+				},
+				{
+					"name": "final match"
+				},
+				{
+					"name": "finger-tip save"
+				},
+				{
+					"name": "first division team"
+				},
+				{
+					"name": "first half"
+				},
+				{
+					"name": "first leg"
+				},
+				{
+					"name": "five-a-side-football"
+				},
+				{
+					"name": "flank"
+				},
+				{
+					"name": "flank pass"
+				},
+				{
+					"name": "flying headar"
+				},
+				{
+					"name": "flying header"
+				},
+				{
+					"name": "football hooligan"
+				},
+				{
+					"name": "football player"
+				},
+				{
+					"name": "formation"
+				},
+				{
+					"name": "forward"
+				},
+				{
+					"name": "forward line"
+				},
+				{
+					"name": "foul marker"
+				},
+				{
+					"name": "foul play"
+				},
+				{
+					"name": "four backs system"
+				},
+				{
+					"name": "four-three-three formation"
+				},
+				{
+					"name": "four-two-four formation"
+				},
+				{
+					"name": "free kick"
+				},
+				{
+					"name": "friendly match"
+				},
+				{
+					"name": "full time"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"Gloves",
-				"Golden Ball",
-				"Groundsman",
-				"goal",
-				"goal area",
-				"goal drought",
-				"goal kick",
-				"goal line",
-				"goal net",
-				"goal post",
-				"goal-buster",
-				"goalkeeper",
-				"goalless draw",
-				"goalpost",
-				"goals",
-				"golden ball",
-				"golden boots",
-				"golden goal",
-				"grazing shot",
-				"group preliminaries",
-				"group round robin",
-				"grouping"
+				{
+					"name": "Gloves"
+				},
+				{
+					"name": "Golden Ball"
+				},
+				{
+					"name": "Groundsman"
+				},
+				{
+					"name": "goal"
+				},
+				{
+					"name": "goal area"
+				},
+				{
+					"name": "goal drought"
+				},
+				{
+					"name": "goal kick"
+				},
+				{
+					"name": "goal line"
+				},
+				{
+					"name": "goal net"
+				},
+				{
+					"name": "goal post"
+				},
+				{
+					"name": "goal-buster"
+				},
+				{
+					"name": "goalkeeper"
+				},
+				{
+					"name": "goalless draw"
+				},
+				{
+					"name": "goalpost"
+				},
+				{
+					"name": "goals"
+				},
+				{
+					"name": "golden ball"
+				},
+				{
+					"name": "golden boots"
+				},
+				{
+					"name": "golden goal"
+				},
+				{
+					"name": "grazing shot"
+				},
+				{
+					"name": "group preliminaries"
+				},
+				{
+					"name": "group round robin"
+				},
+				{
+					"name": "grouping"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"Half",
-				"half back",
-				"half-time break",
-				"half-volley",
-				"half-way line",
-				"hand ball",
-				"hard tackle",
-				"hat-trick",
-				"head coach",
-				"header",
-				"high lobbing pass",
-				"home team",
-				"honour"
+				{
+					"name": "Half"
+				},
+				{
+					"name": "half back"
+				},
+				{
+					"name": "half-time break"
+				},
+				{
+					"name": "half-volley"
+				},
+				{
+					"name": "half-way line"
+				},
+				{
+					"name": "hand ball"
+				},
+				{
+					"name": "hard tackle"
+				},
+				{
+					"name": "hat-trick"
+				},
+				{
+					"name": "head coach"
+				},
+				{
+					"name": "header"
+				},
+				{
+					"name": "high lobbing pass"
+				},
+				{
+					"name": "home team"
+				},
+				{
+					"name": "honour"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"Kick-off",
-				"key player",
-				"keyman",
-				"kick-out",
-				"kickoff circle",
-				"knee pads"
+				{
+					"name": "Kick-off"
+				},
+				{
+					"name": "key player"
+				},
+				{
+					"name": "keyman"
+				},
+				{
+					"name": "kick-out"
+				},
+				{
+					"name": "kickoff circle"
+				},
+				{
+					"name": "knee pads"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"Left Midfielder",
-				"Libero",
-				"league",
-				"league table",
-				"left",
-				"left back",
-				"left half back",
-				"line-up",
-				"lineman",
-				"linesman",
-				"lobbing pass",
-				"locker room",
-				"long drive",
-				"long pass",
-				"long shot"
+				{
+					"name": "Left Midfielder"
+				},
+				{
+					"name": "Libero"
+				},
+				{
+					"name": "league"
+				},
+				{
+					"name": "league table"
+				},
+				{
+					"name": "left"
+				},
+				{
+					"name": "left back"
+				},
+				{
+					"name": "left half back"
+				},
+				{
+					"name": "line-up"
+				},
+				{
+					"name": "lineman"
+				},
+				{
+					"name": "linesman"
+				},
+				{
+					"name": "lobbing pass"
+				},
+				{
+					"name": "locker room"
+				},
+				{
+					"name": "long drive"
+				},
+				{
+					"name": "long pass"
+				},
+				{
+					"name": "long shot"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"Mascots",
-				"man wall",
-				"march in",
-				"marking",
-				"match ban",
-				"medal",
-				"medal presentation",
-				"medal presentation ceremony",
-				"midfied",
-				"mishit"
+				{
+					"name": "Mascots"
+				},
+				{
+					"name": "man wall"
+				},
+				{
+					"name": "march in"
+				},
+				{
+					"name": "marking"
+				},
+				{
+					"name": "match ban"
+				},
+				{
+					"name": "medal"
+				},
+				{
+					"name": "medal presentation"
+				},
+				{
+					"name": "medal presentation ceremony"
+				},
+				{
+					"name": "midfied"
+				},
+				{
+					"name": "mishit"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"Nets",
-				"Notebook",
-				"nutmeg"
+				{
+					"name": "Nets"
+				},
+				{
+					"name": "Notebook"
+				},
+				{
+					"name": "nutmeg"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"Pump",
-				"pass",
-				"penalise",
-				"penalty area",
-				"penalty for a foul",
-				"penalty kick",
-				"penalty mark",
-				"penalty shoot-out",
-				"place kick",
-				"player",
-				"player in",
-				"playmaker",
-				"preliminary match",
-				"professional",
-				"professional soccer player",
-				"promotion"
+				{
+					"name": "Pump"
+				},
+				{
+					"name": "pass"
+				},
+				{
+					"name": "penalise"
+				},
+				{
+					"name": "penalty area"
+				},
+				{
+					"name": "penalty for a foul"
+				},
+				{
+					"name": "penalty kick"
+				},
+				{
+					"name": "penalty mark"
+				},
+				{
+					"name": "penalty shoot-out"
+				},
+				{
+					"name": "place kick"
+				},
+				{
+					"name": "player"
+				},
+				{
+					"name": "player in"
+				},
+				{
+					"name": "playmaker"
+				},
+				{
+					"name": "preliminary match"
+				},
+				{
+					"name": "professional"
+				},
+				{
+					"name": "professional soccer player"
+				},
+				{
+					"name": "promotion"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"Right Back",
-				"Right Midfielder",
-				"Running-track",
-				"ranking",
-				"red card",
-				"referee",
-				"refuse obedience to the referee",
-				"relegation",
-				"return leg",
-				"right back",
-				"right half back",
-				"rioter",
-				"rolling pass",
-				"round robin",
-				"round-robin",
-				"runner-up"
+				{
+					"name": "Right Back"
+				},
+				{
+					"name": "Right Midfielder"
+				},
+				{
+					"name": "Running-track"
+				},
+				{
+					"name": "ranking"
+				},
+				{
+					"name": "red card"
+				},
+				{
+					"name": "referee"
+				},
+				{
+					"name": "refuse obedience to the referee"
+				},
+				{
+					"name": "relegation"
+				},
+				{
+					"name": "return leg"
+				},
+				{
+					"name": "right back"
+				},
+				{
+					"name": "right half back"
+				},
+				{
+					"name": "rioter"
+				},
+				{
+					"name": "rolling pass"
+				},
+				{
+					"name": "round robin"
+				},
+				{
+					"name": "round-robin"
+				},
+				{
+					"name": "runner-up"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"Shinguards",
-				"Shirts",
-				"Skipper",
-				"Socks",
-				"Spectator",
-				"Stopwatch",
-				"Strips",
-				"Studs",
-				"Substitute",
-				"Supporters",
-				"Sweeper",
-				"save",
-				"scissor pass",
-				"scorer",
-				"second division",
-				"second half",
-				"semi-final",
-				"send a player off",
-				"send-off",
-				"sent off",
-				"set a wall",
-				"shielding",
-				"shootout",
-				"short pass",
-				"shorts",
-				"side attack",
-				"side line",
-				"sliding tackle",
-				"soccer commentator",
-				"spot pass",
-				"stadium",
-				"stands",
-				"star-studded",
-				"stockings",
-				"stopping",
-				"striker",
-				"supporting player",
-				"suspend",
-				"sweeper"
+				{
+					"name": "Shinguards"
+				},
+				{
+					"name": "Shirts"
+				},
+				{
+					"name": "Skipper"
+				},
+				{
+					"name": "Socks"
+				},
+				{
+					"name": "Spectator"
+				},
+				{
+					"name": "Stopwatch"
+				},
+				{
+					"name": "Strips"
+				},
+				{
+					"name": "Studs"
+				},
+				{
+					"name": "Substitute"
+				},
+				{
+					"name": "Supporters"
+				},
+				{
+					"name": "Sweeper"
+				},
+				{
+					"name": "save"
+				},
+				{
+					"name": "scissor pass"
+				},
+				{
+					"name": "scorer"
+				},
+				{
+					"name": "second division"
+				},
+				{
+					"name": "second half"
+				},
+				{
+					"name": "semi-final"
+				},
+				{
+					"name": "send a player off"
+				},
+				{
+					"name": "send-off"
+				},
+				{
+					"name": "sent off"
+				},
+				{
+					"name": "set a wall"
+				},
+				{
+					"name": "shielding"
+				},
+				{
+					"name": "shootout"
+				},
+				{
+					"name": "short pass"
+				},
+				{
+					"name": "shorts"
+				},
+				{
+					"name": "side attack"
+				},
+				{
+					"name": "side line"
+				},
+				{
+					"name": "sliding tackle"
+				},
+				{
+					"name": "soccer commentator"
+				},
+				{
+					"name": "spot pass"
+				},
+				{
+					"name": "stadium"
+				},
+				{
+					"name": "stands"
+				},
+				{
+					"name": "star-studded"
+				},
+				{
+					"name": "stockings"
+				},
+				{
+					"name": "stopping"
+				},
+				{
+					"name": "striker"
+				},
+				{
+					"name": "supporting player"
+				},
+				{
+					"name": "suspend"
+				},
+				{
+					"name": "sweeper"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"Tracksuit",
-				"tackle",
-				"take a pass",
-				"the away goals rule",
-				"third place",
-				"throw-in",
-				"ticket-office",
-				"time out",
-				"time wasting tactics",
-				"to break loose",
-				"to break through",
-				"to break up an attack",
-				"to cheat",
-				"to control the midfield",
-				"to disorganize the defence",
-				"to fall back",
-				"to intercept",
-				"to set a wall",
-				"to set the pace",
-				"to shoot",
-				"to take a pass",
-				"to trap",
-				"to ward off an assault",
-				"top scorer",
-				"trainer",
-				"transfer",
-				"trap",
-				"treatment room",
-				"triangular pass",
-				"triple crown",
-				"tunnel",
-				"turnstiles"
+				{
+					"name": "Tracksuit"
+				},
+				{
+					"name": "tackle"
+				},
+				{
+					"name": "take a pass"
+				},
+				{
+					"name": "the away goals rule"
+				},
+				{
+					"name": "third place"
+				},
+				{
+					"name": "throw-in"
+				},
+				{
+					"name": "ticket-office"
+				},
+				{
+					"name": "time out"
+				},
+				{
+					"name": "time wasting tactics"
+				},
+				{
+					"name": "to break loose"
+				},
+				{
+					"name": "to break through"
+				},
+				{
+					"name": "to break up an attack"
+				},
+				{
+					"name": "to cheat"
+				},
+				{
+					"name": "to control the midfield"
+				},
+				{
+					"name": "to disorganize the defence"
+				},
+				{
+					"name": "to fall back"
+				},
+				{
+					"name": "to intercept"
+				},
+				{
+					"name": "to set a wall"
+				},
+				{
+					"name": "to set the pace"
+				},
+				{
+					"name": "to shoot"
+				},
+				{
+					"name": "to take a pass"
+				},
+				{
+					"name": "to trap"
+				},
+				{
+					"name": "to ward off an assault"
+				},
+				{
+					"name": "top scorer"
+				},
+				{
+					"name": "trainer"
+				},
+				{
+					"name": "transfer"
+				},
+				{
+					"name": "trap"
+				},
+				{
+					"name": "treatment room"
+				},
+				{
+					"name": "triangular pass"
+				},
+				{
+					"name": "triple crown"
+				},
+				{
+					"name": "tunnel"
+				},
+				{
+					"name": "turnstiles"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"Underdog",
-				"up-rising star",
-				"utility player"
+				{
+					"name": "Underdog"
+				},
+				{
+					"name": "up-rising star"
+				},
+				{
+					"name": "utility player"
+				}
 			]
 		},
 		{
 			"name": "V",
 			"children": [
-				"VIP box",
-				"violent conduct",
-				"visiters team",
-				"volley",
-				"volley pass"
+				{
+					"name": "VIP box"
+				},
+				{
+					"name": "violent conduct"
+				},
+				{
+					"name": "visiters team"
+				},
+				{
+					"name": "volley"
+				},
+				{
+					"name": "volley pass"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"Warm-down",
-				"warming up competition",
-				"wing play",
-				"wing-back",
-				"winger",
-				"woodwork"
+				{
+					"name": "Warm-down"
+				},
+				{
+					"name": "warming up competition"
+				},
+				{
+					"name": "wing play"
+				},
+				{
+					"name": "wing-back"
+				},
+				{
+					"name": "winger"
+				},
+				{
+					"name": "woodwork"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"dark horse",
-				"dead chick",
-				"defending champion",
-				"defending midfielder",
-				"defensive wall",
-				"delay the game",
-				"deny a goal",
-				"direct free kick",
-				"direct freekick",
-				"disqualification",
-				"diving header",
-				"draw",
-				"drawing lots",
-				"dribble",
-				"dribbling",
-				"dugout"
+				{
+					"name": "dark horse"
+				},
+				{
+					"name": "dead chick"
+				},
+				{
+					"name": "defending champion"
+				},
+				{
+					"name": "defending midfielder"
+				},
+				{
+					"name": "defensive wall"
+				},
+				{
+					"name": "delay the game"
+				},
+				{
+					"name": "deny a goal"
+				},
+				{
+					"name": "direct free kick"
+				},
+				{
+					"name": "direct freekick"
+				},
+				{
+					"name": "disqualification"
+				},
+				{
+					"name": "diving header"
+				},
+				{
+					"name": "draw"
+				},
+				{
+					"name": "drawing lots"
+				},
+				{
+					"name": "dribble"
+				},
+				{
+					"name": "dribbling"
+				},
+				{
+					"name": "dugout"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eighth-final",
-				"eliminate",
-				"elimination match",
-				"encounter",
-				"exhibition match",
-				"extra time"
+				{
+					"name": "eighth-final"
+				},
+				{
+					"name": "eliminate"
+				},
+				{
+					"name": "elimination match"
+				},
+				{
+					"name": "encounter"
+				},
+				{
+					"name": "exhibition match"
+				},
+				{
+					"name": "extra time"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"indirect free kick",
-				"injury time",
-				"inside left forward",
-				"inside right forward",
-				"intercept",
-				"invitational tournament"
+				{
+					"name": "indirect free kick"
+				},
+				{
+					"name": "injury time"
+				},
+				{
+					"name": "inside left forward"
+				},
+				{
+					"name": "inside right forward"
+				},
+				{
+					"name": "intercept"
+				},
+				{
+					"name": "invitational tournament"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"jersey",
-				"journalist"
+				{
+					"name": "jersey"
+				},
+				{
+					"name": "journalist"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"obstruction",
-				"off-side trap",
-				"offensive player",
-				"offside",
-				"on a home and away basis",
-				"one-sided game",
-				"onside",
-				"outside left forward",
-				"outside right",
-				"overhead kick",
-				"overlap",
-				"own goal"
+				{
+					"name": "obstruction"
+				},
+				{
+					"name": "off-side trap"
+				},
+				{
+					"name": "offensive player"
+				},
+				{
+					"name": "offside"
+				},
+				{
+					"name": "on a home and away basis"
+				},
+				{
+					"name": "one-sided game"
+				},
+				{
+					"name": "onside"
+				},
+				{
+					"name": "outside left forward"
+				},
+				{
+					"name": "outside right"
+				},
+				{
+					"name": "overhead kick"
+				},
+				{
+					"name": "overlap"
+				},
+				{
+					"name": "own goal"
+				}
 			]
 		},
 		{
 			"name": "Q",
 			"children": [
-				"quarter-final"
+				{
+					"name": "quarter-final"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yellow card"
+				{
+					"name": "yellow card"
+				}
 			]
 		}
 	]

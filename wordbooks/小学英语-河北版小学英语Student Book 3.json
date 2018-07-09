@@ -5,37 +5,59 @@
 		{
 			"name": "B",
 			"children": [
-				"buy"
+				{
+					"name": "buy"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"cat",
-				"classroom",
-				"clerk",
-				"cow"
+				{
+					"name": "cat"
+				},
+				{
+					"name": "classroom"
+				},
+				{
+					"name": "clerk"
+				},
+				{
+					"name": "cow"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"forty"
+				{
+					"name": "forty"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"shop",
-				"shopping",
-				"sixty"
+				{
+					"name": "shop"
+				},
+				{
+					"name": "shopping"
+				},
+				{
+					"name": "sixty"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"tree",
-				"truck"
+				{
+					"name": "tree"
+				},
+				{
+					"name": "truck"
+				}
 			]
 		}
 	]

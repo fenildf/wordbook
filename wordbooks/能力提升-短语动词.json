@@ -5,547 +5,1409 @@
 		{
 			"name": "A",
 			"children": [
-				"abide by",
-				"add up to",
-				"adhere to",
-				"agree with",
-				"aim at",
-				"allow for",
-				"approve of"
+				{
+					"name": "abide by"
+				},
+				{
+					"name": "add up to"
+				},
+				{
+					"name": "adhere to"
+				},
+				{
+					"name": "agree with"
+				},
+				{
+					"name": "aim at"
+				},
+				{
+					"name": "allow for"
+				},
+				{
+					"name": "approve of"
+				}
 			]
 		},
 		{
 			"name": "B",
 			"children": [
-				"back up",
-				"bargain for",
-				"become of",
-				"belong to",
-				"blow up",
-				"break down",
-				"break into",
-				"break up",
-				"bring up"
+				{
+					"name": "back up"
+				},
+				{
+					"name": "bargain for"
+				},
+				{
+					"name": "become of"
+				},
+				{
+					"name": "belong to"
+				},
+				{
+					"name": "blow up"
+				},
+				{
+					"name": "break down"
+				},
+				{
+					"name": "break into"
+				},
+				{
+					"name": "break up"
+				},
+				{
+					"name": "bring up"
+				}
 			]
 		},
 		{
 			"name": "C",
 			"children": [
-				"call back",
-				"call off",
-				"call on",
-				"call up",
-				"calm down",
-				"care for",
-				"catch up",
-				"check in",
-				"check out",
-				"cheer up",
-				"chip in",
-				"clean up",
-				"come across",
-				"come down with",
-				"come forward",
-				"come from",
-				"come out",
-				"count on",
-				"cross out",
-				"cut back on",
-				"cut in",
-				"cut off"
+				{
+					"name": "call back"
+				},
+				{
+					"name": "call off"
+				},
+				{
+					"name": "call on"
+				},
+				{
+					"name": "call up"
+				},
+				{
+					"name": "calm down"
+				},
+				{
+					"name": "care for"
+				},
+				{
+					"name": "catch up"
+				},
+				{
+					"name": "check in"
+				},
+				{
+					"name": "check out"
+				},
+				{
+					"name": "cheer up"
+				},
+				{
+					"name": "chip in"
+				},
+				{
+					"name": "clean up"
+				},
+				{
+					"name": "come across"
+				},
+				{
+					"name": "come down with"
+				},
+				{
+					"name": "come forward"
+				},
+				{
+					"name": "come from"
+				},
+				{
+					"name": "come out"
+				},
+				{
+					"name": "count on"
+				},
+				{
+					"name": "cross out"
+				},
+				{
+					"name": "cut back on"
+				},
+				{
+					"name": "cut in"
+				},
+				{
+					"name": "cut off"
+				}
 			]
 		},
 		{
 			"name": "D",
 			"children": [
-				"deal with",
-				"decide on",
-				"depend on",
-				"depend upon",
-				"deprive of",
-				"do away with",
-				"do over",
-				"do up",
-				"dress up",
-				"drop back",
-				"drop by",
-				"drop off",
-				"drop out",
-				"dry up"
+				{
+					"name": "deal with"
+				},
+				{
+					"name": "decide on"
+				},
+				{
+					"name": "depend on"
+				},
+				{
+					"name": "depend upon"
+				},
+				{
+					"name": "deprive of"
+				},
+				{
+					"name": "do away with"
+				},
+				{
+					"name": "do over"
+				},
+				{
+					"name": "do up"
+				},
+				{
+					"name": "dress up"
+				},
+				{
+					"name": "drop back"
+				},
+				{
+					"name": "drop by"
+				},
+				{
+					"name": "drop off"
+				},
+				{
+					"name": "drop out"
+				},
+				{
+					"name": "dry up"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"eat in",
-				"eat out",
-				"eat up",
-				"end in",
-				"end up",
-				"end with",
-				"engage in",
-				"enter into",
-				"explain away"
+				{
+					"name": "eat in"
+				},
+				{
+					"name": "eat out"
+				},
+				{
+					"name": "eat up"
+				},
+				{
+					"name": "end in"
+				},
+				{
+					"name": "end up"
+				},
+				{
+					"name": "end with"
+				},
+				{
+					"name": "engage in"
+				},
+				{
+					"name": "enter into"
+				},
+				{
+					"name": "explain away"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"face up to",
-				"fall apart",
-				"fall behind",
-				"fall off",
-				"fall out with",
-				"fear for",
-				"figure out",
-				"fill in",
-				"fill up",
-				"find out",
-				"finish off",
-				"finish up",
-				"fit in",
-				"fix up",
-				"follow through",
-				"follow up",
-				"fool about",
-				"fool around"
+				{
+					"name": "face up to"
+				},
+				{
+					"name": "fall apart"
+				},
+				{
+					"name": "fall behind"
+				},
+				{
+					"name": "fall off"
+				},
+				{
+					"name": "fall out with"
+				},
+				{
+					"name": "fear for"
+				},
+				{
+					"name": "figure out"
+				},
+				{
+					"name": "fill in"
+				},
+				{
+					"name": "fill up"
+				},
+				{
+					"name": "find out"
+				},
+				{
+					"name": "finish off"
+				},
+				{
+					"name": "finish up"
+				},
+				{
+					"name": "fit in"
+				},
+				{
+					"name": "fix up"
+				},
+				{
+					"name": "follow through"
+				},
+				{
+					"name": "follow up"
+				},
+				{
+					"name": "fool about"
+				},
+				{
+					"name": "fool around"
+				}
 			]
 		},
 		{
 			"name": "G",
 			"children": [
-				"get across",
-				"get ahead",
-				"get along",
-				"get along with",
-				"get around",
-				"get away",
-				"get away with",
-				"get back",
-				"get on",
-				"get on with",
-				"get out of",
-				"get over",
-				"get through",
-				"get together",
-				"give away",
-				"give in",
-				"give off",
-				"give up",
-				"go after",
-				"go ahead",
-				"go along with",
-				"go for",
-				"go into",
-				"go off",
-				"go on",
-				"go on with",
-				"go over",
-				"go through",
-				"grow into"
+				{
+					"name": "get across"
+				},
+				{
+					"name": "get ahead"
+				},
+				{
+					"name": "get along"
+				},
+				{
+					"name": "get along with"
+				},
+				{
+					"name": "get around"
+				},
+				{
+					"name": "get away"
+				},
+				{
+					"name": "get away with"
+				},
+				{
+					"name": "get back"
+				},
+				{
+					"name": "get on"
+				},
+				{
+					"name": "get on with"
+				},
+				{
+					"name": "get out of"
+				},
+				{
+					"name": "get over"
+				},
+				{
+					"name": "get through"
+				},
+				{
+					"name": "get together"
+				},
+				{
+					"name": "give away"
+				},
+				{
+					"name": "give in"
+				},
+				{
+					"name": "give off"
+				},
+				{
+					"name": "give up"
+				},
+				{
+					"name": "go after"
+				},
+				{
+					"name": "go ahead"
+				},
+				{
+					"name": "go along with"
+				},
+				{
+					"name": "go for"
+				},
+				{
+					"name": "go into"
+				},
+				{
+					"name": "go off"
+				},
+				{
+					"name": "go on"
+				},
+				{
+					"name": "go on with"
+				},
+				{
+					"name": "go over"
+				},
+				{
+					"name": "go through"
+				},
+				{
+					"name": "grow into"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"hand around",
-				"hand down",
-				"hand in",
-				"hand on",
-				"hand out",
-				"hand round",
-				"hang around",
-				"hang off",
-				"hang on",
-				"hang out",
-				"hang over",
-				"hang up",
-				"hang up on",
-				"help out",
-				"hold back",
-				"hold down",
-				"hold on",
-				"hold on to",
-				"hold up",
-				"hurry up"
+				{
+					"name": "hand around"
+				},
+				{
+					"name": "hand down"
+				},
+				{
+					"name": "hand in"
+				},
+				{
+					"name": "hand on"
+				},
+				{
+					"name": "hand out"
+				},
+				{
+					"name": "hand round"
+				},
+				{
+					"name": "hang around"
+				},
+				{
+					"name": "hang off"
+				},
+				{
+					"name": "hang on"
+				},
+				{
+					"name": "hang out"
+				},
+				{
+					"name": "hang over"
+				},
+				{
+					"name": "hang up"
+				},
+				{
+					"name": "hang up on"
+				},
+				{
+					"name": "help out"
+				},
+				{
+					"name": "hold back"
+				},
+				{
+					"name": "hold down"
+				},
+				{
+					"name": "hold on"
+				},
+				{
+					"name": "hold on to"
+				},
+				{
+					"name": "hold up"
+				},
+				{
+					"name": "hurry up"
+				}
 			]
 		},
 		{
 			"name": "I",
 			"children": [
-				"improve on",
-				"improve upon",
-				"intrude upon",
-				"iron out"
+				{
+					"name": "improve on"
+				},
+				{
+					"name": "improve upon"
+				},
+				{
+					"name": "intrude upon"
+				},
+				{
+					"name": "iron out"
+				}
 			]
 		},
 		{
 			"name": "J",
 			"children": [
-				"join in",
-				"join up",
-				"jot down",
-				"jump at"
+				{
+					"name": "join in"
+				},
+				{
+					"name": "join up"
+				},
+				{
+					"name": "jot down"
+				},
+				{
+					"name": "jump at"
+				}
 			]
 		},
 		{
 			"name": "K",
 			"children": [
-				"keep away",
-				"keep away from",
-				"keep back",
-				"keep down",
-				"keep from",
-				"keep off",
-				"keep on",
-				"keep out",
-				"keep out of",
-				"keep up",
-				"keep up with",
-				"kick back",
-				"knock down",
-				"knock out",
-				"knock over",
-				"know of"
+				{
+					"name": "keep away"
+				},
+				{
+					"name": "keep away from"
+				},
+				{
+					"name": "keep back"
+				},
+				{
+					"name": "keep down"
+				},
+				{
+					"name": "keep from"
+				},
+				{
+					"name": "keep off"
+				},
+				{
+					"name": "keep on"
+				},
+				{
+					"name": "keep out"
+				},
+				{
+					"name": "keep out of"
+				},
+				{
+					"name": "keep up"
+				},
+				{
+					"name": "keep up with"
+				},
+				{
+					"name": "kick back"
+				},
+				{
+					"name": "knock down"
+				},
+				{
+					"name": "knock out"
+				},
+				{
+					"name": "knock over"
+				},
+				{
+					"name": "know of"
+				}
 			]
 		},
 		{
 			"name": "L",
 			"children": [
-				"laugh off",
-				"lay aside",
-				"lay down",
-				"lay off",
-				"lay out",
-				"leave aside",
-				"leave behind",
-				"leave out",
-				"let down",
-				"let in",
-				"let off",
-				"let out",
-				"lie ahead",
-				"lie behind",
-				"live through",
-				"look after",
-				"look ahead",
-				"look at",
-				"look down on",
-				"look for",
-				"look forward to",
-				"look into",
-				"look out",
-				"look out for",
-				"look over",
-				"look up",
-				"look up to"
+				{
+					"name": "laugh off"
+				},
+				{
+					"name": "lay aside"
+				},
+				{
+					"name": "lay down"
+				},
+				{
+					"name": "lay off"
+				},
+				{
+					"name": "lay out"
+				},
+				{
+					"name": "leave aside"
+				},
+				{
+					"name": "leave behind"
+				},
+				{
+					"name": "leave out"
+				},
+				{
+					"name": "let down"
+				},
+				{
+					"name": "let in"
+				},
+				{
+					"name": "let off"
+				},
+				{
+					"name": "let out"
+				},
+				{
+					"name": "lie ahead"
+				},
+				{
+					"name": "lie behind"
+				},
+				{
+					"name": "live through"
+				},
+				{
+					"name": "look after"
+				},
+				{
+					"name": "look ahead"
+				},
+				{
+					"name": "look at"
+				},
+				{
+					"name": "look down on"
+				},
+				{
+					"name": "look for"
+				},
+				{
+					"name": "look forward to"
+				},
+				{
+					"name": "look into"
+				},
+				{
+					"name": "look out"
+				},
+				{
+					"name": "look out for"
+				},
+				{
+					"name": "look over"
+				},
+				{
+					"name": "look up"
+				},
+				{
+					"name": "look up to"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"make into",
-				"make out",
-				"make up",
-				"map out",
-				"mark down",
-				"mark out",
-				"mark up",
-				"meet up",
-				"meet with",
-				"mess up",
-				"miss out",
-				"mix up",
-				"mourn for",
-				"move in",
-				"move on",
-				"move over",
-				"move up"
+				{
+					"name": "make into"
+				},
+				{
+					"name": "make out"
+				},
+				{
+					"name": "make up"
+				},
+				{
+					"name": "map out"
+				},
+				{
+					"name": "mark down"
+				},
+				{
+					"name": "mark out"
+				},
+				{
+					"name": "mark up"
+				},
+				{
+					"name": "meet up"
+				},
+				{
+					"name": "meet with"
+				},
+				{
+					"name": "mess up"
+				},
+				{
+					"name": "miss out"
+				},
+				{
+					"name": "mix up"
+				},
+				{
+					"name": "mourn for"
+				},
+				{
+					"name": "move in"
+				},
+				{
+					"name": "move on"
+				},
+				{
+					"name": "move over"
+				},
+				{
+					"name": "move up"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"name after",
-				"narrow down",
-				"nod off",
-				"notch up"
+				{
+					"name": "name after"
+				},
+				{
+					"name": "narrow down"
+				},
+				{
+					"name": "nod off"
+				},
+				{
+					"name": "notch up"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"occur to",
-				"open up",
-				"opt out",
-				"over",
-				"own up"
+				{
+					"name": "occur to"
+				},
+				{
+					"name": "open up"
+				},
+				{
+					"name": "opt out"
+				},
+				{
+					"name": "over"
+				},
+				{
+					"name": "own up"
+				}
 			]
 		},
 		{
 			"name": "P",
 			"children": [
-				"pair off",
-				"pass away",
-				"pass by",
-				"pass down",
-				"pass on",
-				"pass out",
-				"pay back",
-				"pay for",
-				"pay off",
-				"pay out",
-				"pick out",
-				"pick up",
-				"pick up on",
-				"piss off",
-				"plan on",
-				"play along",
-				"play along with",
-				"play at",
-				"play down",
-				"play up",
-				"plead with",
-				"point out",
-				"pop in",
-				"pop up",
-				"press on",
-				"provide for",
-				"pull down",
-				"pull in",
-				"pull out",
-				"pull through",
-				"pull up",
-				"push ahead",
-				"push around",
-				"push aside",
-				"push down",
-				"push for",
-				"push in",
-				"push on",
-				"push up",
-				"put across",
-				"put aside",
-				"put at",
-				"put away",
-				"put down",
-				"put down to",
-				"put forward",
-				"put in",
-				"put off",
-				"put on",
-				"put out",
-				"put through",
-				"put together",
-				"put up",
-				"put up with"
+				{
+					"name": "pair off"
+				},
+				{
+					"name": "pass away"
+				},
+				{
+					"name": "pass by"
+				},
+				{
+					"name": "pass down"
+				},
+				{
+					"name": "pass on"
+				},
+				{
+					"name": "pass out"
+				},
+				{
+					"name": "pay back"
+				},
+				{
+					"name": "pay for"
+				},
+				{
+					"name": "pay off"
+				},
+				{
+					"name": "pay out"
+				},
+				{
+					"name": "pick out"
+				},
+				{
+					"name": "pick up"
+				},
+				{
+					"name": "pick up on"
+				},
+				{
+					"name": "piss off"
+				},
+				{
+					"name": "plan on"
+				},
+				{
+					"name": "play along"
+				},
+				{
+					"name": "play along with"
+				},
+				{
+					"name": "play at"
+				},
+				{
+					"name": "play down"
+				},
+				{
+					"name": "play up"
+				},
+				{
+					"name": "plead with"
+				},
+				{
+					"name": "point out"
+				},
+				{
+					"name": "pop in"
+				},
+				{
+					"name": "pop up"
+				},
+				{
+					"name": "press on"
+				},
+				{
+					"name": "provide for"
+				},
+				{
+					"name": "pull down"
+				},
+				{
+					"name": "pull in"
+				},
+				{
+					"name": "pull out"
+				},
+				{
+					"name": "pull through"
+				},
+				{
+					"name": "pull up"
+				},
+				{
+					"name": "push ahead"
+				},
+				{
+					"name": "push around"
+				},
+				{
+					"name": "push aside"
+				},
+				{
+					"name": "push down"
+				},
+				{
+					"name": "push for"
+				},
+				{
+					"name": "push in"
+				},
+				{
+					"name": "push on"
+				},
+				{
+					"name": "push up"
+				},
+				{
+					"name": "put across"
+				},
+				{
+					"name": "put aside"
+				},
+				{
+					"name": "put at"
+				},
+				{
+					"name": "put away"
+				},
+				{
+					"name": "put down"
+				},
+				{
+					"name": "put down to"
+				},
+				{
+					"name": "put forward"
+				},
+				{
+					"name": "put in"
+				},
+				{
+					"name": "put off"
+				},
+				{
+					"name": "put on"
+				},
+				{
+					"name": "put out"
+				},
+				{
+					"name": "put through"
+				},
+				{
+					"name": "put together"
+				},
+				{
+					"name": "put up"
+				},
+				{
+					"name": "put up with"
+				}
 			]
 		},
 		{
 			"name": "R",
 			"children": [
-				"read on",
-				"read out",
-				"read over",
-				"read through",
-				"reason out",
-				"reason with",
-				"reconcile with",
-				"rely on",
-				"remind of",
-				"ride off",
-				"ring back",
-				"ring off",
-				"ring up",
-				"rise against",
-				"round off",
-				"round up",
-				"rule out",
-				"run across",
-				"run away",
-				"run down",
-				"run into",
-				"run off",
-				"run on",
-				"run out",
-				"run out of",
-				"run over",
-				"run through",
-				"run up against",
-				"rush into"
+				{
+					"name": "read on"
+				},
+				{
+					"name": "read out"
+				},
+				{
+					"name": "read over"
+				},
+				{
+					"name": "read through"
+				},
+				{
+					"name": "reason out"
+				},
+				{
+					"name": "reason with"
+				},
+				{
+					"name": "reconcile with"
+				},
+				{
+					"name": "rely on"
+				},
+				{
+					"name": "remind of"
+				},
+				{
+					"name": "ride off"
+				},
+				{
+					"name": "ring back"
+				},
+				{
+					"name": "ring off"
+				},
+				{
+					"name": "ring up"
+				},
+				{
+					"name": "rise against"
+				},
+				{
+					"name": "round off"
+				},
+				{
+					"name": "round up"
+				},
+				{
+					"name": "rule out"
+				},
+				{
+					"name": "run across"
+				},
+				{
+					"name": "run away"
+				},
+				{
+					"name": "run down"
+				},
+				{
+					"name": "run into"
+				},
+				{
+					"name": "run off"
+				},
+				{
+					"name": "run on"
+				},
+				{
+					"name": "run out"
+				},
+				{
+					"name": "run out of"
+				},
+				{
+					"name": "run over"
+				},
+				{
+					"name": "run through"
+				},
+				{
+					"name": "run up against"
+				},
+				{
+					"name": "rush into"
+				}
 			]
 		},
 		{
 			"name": "S",
 			"children": [
-				"save on",
-				"save up",
-				"screw up",
-				"search out",
-				"see about",
-				"see off",
-				"see out",
-				"see through",
-				"sell off",
-				"sell out",
-				"send away",
-				"send for",
-				"send in",
-				"send on",
-				"send out",
-				"serve out",
-				"serve up",
-				"set about",
-				"set aside",
-				"set back",
-				"set down",
-				"set for",
-				"set off",
-				"set out",
-				"set up",
-				"settle down",
-				"settle for",
-				"settle in",
-				"settle into",
-				"settle on",
-				"settle up",
-				"shoot down",
-				"show off",
-				"show up",
-				"shut down",
-				"shut out",
-				"shut up",
-				"sign on",
-				"sign up",
-				"sit back",
-				"sit up",
-				"sleep in",
-				"slip off",
-				"slow down",
-				"smash up",
-				"sort out",
-				"sort through",
-				"spark off",
-				"speak out",
-				"speak up",
-				"speed up",
-				"spell out",
-				"split up",
-				"spring up",
-				"stamp out",
-				"stand by",
-				"stand down",
-				"stand out",
-				"stand up for",
-				"stand up to",
-				"start off",
-				"start over",
-				"stay on",
-				"stay up",
-				"step back",
-				"step down",
-				"step in",
-				"step up",
-				"stick to",
-				"stir up",
-				"stop off",
-				"stop over",
-				"sum up",
-				"switch off",
-				"switch on"
+				{
+					"name": "save on"
+				},
+				{
+					"name": "save up"
+				},
+				{
+					"name": "screw up"
+				},
+				{
+					"name": "search out"
+				},
+				{
+					"name": "see about"
+				},
+				{
+					"name": "see off"
+				},
+				{
+					"name": "see out"
+				},
+				{
+					"name": "see through"
+				},
+				{
+					"name": "sell off"
+				},
+				{
+					"name": "sell out"
+				},
+				{
+					"name": "send away"
+				},
+				{
+					"name": "send for"
+				},
+				{
+					"name": "send in"
+				},
+				{
+					"name": "send on"
+				},
+				{
+					"name": "send out"
+				},
+				{
+					"name": "serve out"
+				},
+				{
+					"name": "serve up"
+				},
+				{
+					"name": "set about"
+				},
+				{
+					"name": "set aside"
+				},
+				{
+					"name": "set back"
+				},
+				{
+					"name": "set down"
+				},
+				{
+					"name": "set for"
+				},
+				{
+					"name": "set off"
+				},
+				{
+					"name": "set out"
+				},
+				{
+					"name": "set up"
+				},
+				{
+					"name": "settle down"
+				},
+				{
+					"name": "settle for"
+				},
+				{
+					"name": "settle in"
+				},
+				{
+					"name": "settle into"
+				},
+				{
+					"name": "settle on"
+				},
+				{
+					"name": "settle up"
+				},
+				{
+					"name": "shoot down"
+				},
+				{
+					"name": "show off"
+				},
+				{
+					"name": "show up"
+				},
+				{
+					"name": "shut down"
+				},
+				{
+					"name": "shut out"
+				},
+				{
+					"name": "shut up"
+				},
+				{
+					"name": "sign on"
+				},
+				{
+					"name": "sign up"
+				},
+				{
+					"name": "sit back"
+				},
+				{
+					"name": "sit up"
+				},
+				{
+					"name": "sleep in"
+				},
+				{
+					"name": "slip off"
+				},
+				{
+					"name": "slow down"
+				},
+				{
+					"name": "smash up"
+				},
+				{
+					"name": "sort out"
+				},
+				{
+					"name": "sort through"
+				},
+				{
+					"name": "spark off"
+				},
+				{
+					"name": "speak out"
+				},
+				{
+					"name": "speak up"
+				},
+				{
+					"name": "speed up"
+				},
+				{
+					"name": "spell out"
+				},
+				{
+					"name": "split up"
+				},
+				{
+					"name": "spring up"
+				},
+				{
+					"name": "stamp out"
+				},
+				{
+					"name": "stand by"
+				},
+				{
+					"name": "stand down"
+				},
+				{
+					"name": "stand out"
+				},
+				{
+					"name": "stand up for"
+				},
+				{
+					"name": "stand up to"
+				},
+				{
+					"name": "start off"
+				},
+				{
+					"name": "start over"
+				},
+				{
+					"name": "stay on"
+				},
+				{
+					"name": "stay up"
+				},
+				{
+					"name": "step back"
+				},
+				{
+					"name": "step down"
+				},
+				{
+					"name": "step in"
+				},
+				{
+					"name": "step up"
+				},
+				{
+					"name": "stick to"
+				},
+				{
+					"name": "stir up"
+				},
+				{
+					"name": "stop off"
+				},
+				{
+					"name": "stop over"
+				},
+				{
+					"name": "sum up"
+				},
+				{
+					"name": "switch off"
+				},
+				{
+					"name": "switch on"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"take after",
-				"take apart",
-				"take away",
-				"take back",
-				"take down",
-				"take for",
-				"take in",
-				"take off",
-				"take on",
-				"take out",
-				"take over",
-				"take up",
-				"talk over",
-				"tear apart",
-				"tear down",
-				"tear up",
-				"tell apart",
-				"tell off",
-				"think over",
-				"think up",
-				"throw away",
-				"throw in",
-				"throw up",
-				"tie up",
-				"tire out",
-				"touch off",
-				"track down",
-				"try on",
-				"try out",
-				"tuck in",
-				"turn around",
-				"turn away",
-				"turn down",
-				"turn off",
-				"turn out",
-				"turn over",
-				"turn to",
-				"turn up"
+				{
+					"name": "take after"
+				},
+				{
+					"name": "take apart"
+				},
+				{
+					"name": "take away"
+				},
+				{
+					"name": "take back"
+				},
+				{
+					"name": "take down"
+				},
+				{
+					"name": "take for"
+				},
+				{
+					"name": "take in"
+				},
+				{
+					"name": "take off"
+				},
+				{
+					"name": "take on"
+				},
+				{
+					"name": "take out"
+				},
+				{
+					"name": "take over"
+				},
+				{
+					"name": "take up"
+				},
+				{
+					"name": "talk over"
+				},
+				{
+					"name": "tear apart"
+				},
+				{
+					"name": "tear down"
+				},
+				{
+					"name": "tear up"
+				},
+				{
+					"name": "tell apart"
+				},
+				{
+					"name": "tell off"
+				},
+				{
+					"name": "think over"
+				},
+				{
+					"name": "think up"
+				},
+				{
+					"name": "throw away"
+				},
+				{
+					"name": "throw in"
+				},
+				{
+					"name": "throw up"
+				},
+				{
+					"name": "tie up"
+				},
+				{
+					"name": "tire out"
+				},
+				{
+					"name": "touch off"
+				},
+				{
+					"name": "track down"
+				},
+				{
+					"name": "try on"
+				},
+				{
+					"name": "try out"
+				},
+				{
+					"name": "tuck in"
+				},
+				{
+					"name": "turn around"
+				},
+				{
+					"name": "turn away"
+				},
+				{
+					"name": "turn down"
+				},
+				{
+					"name": "turn off"
+				},
+				{
+					"name": "turn out"
+				},
+				{
+					"name": "turn over"
+				},
+				{
+					"name": "turn to"
+				},
+				{
+					"name": "turn up"
+				}
 			]
 		},
 		{
 			"name": "U",
 			"children": [
-				"up",
-				"use up"
+				{
+					"name": "up"
+				},
+				{
+					"name": "use up"
+				}
 			]
 		},
 		{
 			"name": "W",
 			"children": [
-				"wait on",
-				"wait up for",
-				"wake up",
-				"walk away from",
-				"walk into",
-				"walk off with",
-				"walk out on",
-				"warm up",
-				"wash down",
-				"wash out",
-				"waste away",
-				"watch out",
-				"watch out for",
-				"watch over",
-				"wear down",
-				"wear off",
-				"wear out",
-				"weigh down",
-				"win over",
-				"wind down",
-				"work off",
-				"work on",
-				"work out",
-				"work up",
-				"write off",
-				"write up"
+				{
+					"name": "wait on"
+				},
+				{
+					"name": "wait up for"
+				},
+				{
+					"name": "wake up"
+				},
+				{
+					"name": "walk away from"
+				},
+				{
+					"name": "walk into"
+				},
+				{
+					"name": "walk off with"
+				},
+				{
+					"name": "walk out on"
+				},
+				{
+					"name": "warm up"
+				},
+				{
+					"name": "wash down"
+				},
+				{
+					"name": "wash out"
+				},
+				{
+					"name": "waste away"
+				},
+				{
+					"name": "watch out"
+				},
+				{
+					"name": "watch out for"
+				},
+				{
+					"name": "watch over"
+				},
+				{
+					"name": "wear down"
+				},
+				{
+					"name": "wear off"
+				},
+				{
+					"name": "wear out"
+				},
+				{
+					"name": "weigh down"
+				},
+				{
+					"name": "win over"
+				},
+				{
+					"name": "wind down"
+				},
+				{
+					"name": "work off"
+				},
+				{
+					"name": "work on"
+				},
+				{
+					"name": "work out"
+				},
+				{
+					"name": "work up"
+				},
+				{
+					"name": "write off"
+				},
+				{
+					"name": "write up"
+				}
 			]
 		},
 		{
 			"name": "Y",
 			"children": [
-				"yearn for"
+				{
+					"name": "yearn for"
+				}
 			]
 		},
 		{
 			"name": "Z",
 			"children": [
-				"zero in on"
+				{
+					"name": "zero in on"
+				}
 			]
 		}
 	]

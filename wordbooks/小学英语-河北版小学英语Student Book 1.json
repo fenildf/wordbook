@@ -5,62 +5,104 @@
 		{
 			"name": "B",
 			"children": [
-				"book",
-				"boy",
-				"brother"
+				{
+					"name": "book"
+				},
+				{
+					"name": "boy"
+				},
+				{
+					"name": "brother"
+				}
 			]
 		},
 		{
 			"name": "E",
 			"children": [
-				"elbow",
-				"eye"
+				{
+					"name": "elbow"
+				},
+				{
+					"name": "eye"
+				}
 			]
 		},
 		{
 			"name": "F",
 			"children": [
-				"finger",
-				"five",
-				"foot",
-				"four"
+				{
+					"name": "finger"
+				},
+				{
+					"name": "five"
+				},
+				{
+					"name": "foot"
+				},
+				{
+					"name": "four"
+				}
 			]
 		},
 		{
 			"name": "H",
 			"children": [
-				"head",
-				"hello",
-				"hi",
-				"hot"
+				{
+					"name": "head"
+				},
+				{
+					"name": "hello"
+				},
+				{
+					"name": "hi"
+				},
+				{
+					"name": "hot"
+				}
 			]
 		},
 		{
 			"name": "M",
 			"children": [
-				"mouth"
+				{
+					"name": "mouth"
+				}
 			]
 		},
 		{
 			"name": "N",
 			"children": [
-				"nose"
+				{
+					"name": "nose"
+				}
 			]
 		},
 		{
 			"name": "O",
 			"children": [
-				"one",
-				"orange"
+				{
+					"name": "one"
+				},
+				{
+					"name": "orange"
+				}
 			]
 		},
 		{
 			"name": "T",
 			"children": [
-				"ten",
-				"three",
-				"toe",
-				"two"
+				{
+					"name": "ten"
+				},
+				{
+					"name": "three"
+				},
+				{
+					"name": "toe"
+				},
+				{
+					"name": "two"
+				}
 			]
 		}
 	]
