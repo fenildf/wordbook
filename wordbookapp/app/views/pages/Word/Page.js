@@ -31,7 +31,7 @@ class Page extends Component{
     _onData({state,key},isThis){
         switch(key){
             case actions.WORD_GET_MEANING:
-                isThis &&(this.props.word.meaning = state.meaning);
+                isThis && (this.props.word.meaning = state.meaning);
                 return false;
             case actions.SET_WORD_PAGE_THEME:
                 this.setState({theme:state.wordPageTheme});

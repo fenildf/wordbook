@@ -60,14 +60,14 @@ class Pages extends Component {
             item0 = item1;
             item1 = item2;
             item2 = {};
-            page0 = <Page key={item0.name} word={item0}/>
-            page1 = <Page key={item1.name} ref={v=>this._currentPage=v} word={item1}/>
+            page0 = <Page key={item0.name} ref={v=>this._currentPage=v} word={item0}/>
+            page1 = <Page key={item1.name} word={item1}/>
             position = 0;
         } else if (item2 == null) {
             item2 = item1;
             item1 = item0;
-            page1 = <Page key={item1.name} ref={v=>this._currentPage=v} word={item1}/>
-            page2 = <Page key={item2.name} word={item2}/>
+            page1 = <Page key={item1.name} word={item1}/>
+            page2 = <Page key={item2.name} ref={v=>this._currentPage=v} word={item2}/>
             item0 = {};
             position = 2;
         }else{
