@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import {
     View,
+    Platform
 } from 'react-native';
 
 import {
@@ -21,7 +22,12 @@ class Pages extends Component {
     }
     componentDidMount(){
         this._wordIndex = this._findWordIndex(this.props.word,this.props.dataSource);
-        this._update();
+        if(Platform.OS==='ios'){
+            setTimeout(()=>this._update(),100)
+        }else{
+            this._update();
+        }
+        
     }
     componentDidUpdate(){
         if(this.props.autoTranslate && !this.state.autoTranslate){
