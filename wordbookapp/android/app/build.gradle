@@ -112,7 +112,7 @@ android {
         applicationId "host.spencer.wordbookapp"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 10
+        versionCode 11
         versionName "1.5.1"
         ndk {
             abiFilters "armeabi-v7a", "x86"
