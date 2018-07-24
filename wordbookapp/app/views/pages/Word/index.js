@@ -14,6 +14,7 @@ import FontIcon from './../../components/FontIcon';
 import Pages from './Pages';
 import TouchableOpacity from '../../components/TouchableOpacity';
 import Text from '../../components/Text';
+import Title from './Title';
 
 import Header from './../../components/Header';
 
@@ -29,7 +30,6 @@ class Word extends Component {
         let sectionName = params.sectionName;
         let bookName = params.bookName;
         this.navigationOptions = {
-            title: bookName,
             header:null,
         }
         this.state = {
@@ -100,6 +100,7 @@ class Word extends Component {
     }
     _onWordSelected=(word)=>{
         this.state.word = word;
+        this._titleRef.setTitle(word.name);
     }
     _mark(word,isRemember){
         dispatch(actions.USER_MARK_WORD,{
@@ -121,7 +122,10 @@ class Word extends Component {
                     style={styles.header}
                     rightButton={this._renderRightButton()}
                     leftButton={this._renderLeftButton()}
-                    title={<View><Text style={styles.title}>{this.state.bookName}</Text></View>}/>
+                    title={<Title 
+                            titleStyle={styles.title}
+                            ref={(v)=>this._titleRef = v} 
+                            defaultTitle={word.name}/>}/>
                 <View
                     style={styles.wrapper}>
                     {words&&words.length>0&&<Pages 
