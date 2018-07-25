@@ -14,35 +14,37 @@ function renderMeading(meaning) {
     if (!meaning) {
         return null;
     }
-    if (meaning.error) {
+    let {s, m, se, ee, sa,tr,error} = meaning;
+    if (error) {
         return (
             <EmptyText 
                 style={styles.textColor}
                 text='抱歉，未能找到该单词的解释。'/>
         )
     }
+   
     return [
         <BasicMeaning
             key={'BasicMeaning'}
-            data={meaning.baesInfo} />,
+            s={s}
+            m={m}
+            tr={tr} />,
         <Sentence
             key={'Sentence'}
-            data={meaning.sentence} />,
+            data={se} />,
         <StemsAffixes
             key={'StemsAffixes'}
-            data={meaning.stems_affixes} />,
+            data={sa} />,
         <EEMeaning
             key={'EEMeaning'}
-            data={meaning.ee_mean} />,
+            data={ee} />,
 
     ]
 }
 
 function BasicMeaning(props) {
-    let data = props.data;
-    try {
-        let symbols = data.symbols[0];
-        let parts = symbols.parts;
+    let {s,m,tr} = props;
+    if(s&&m){
         return (
             <View
                 style={styles.itemStyle}>
@@ -51,16 +53,16 @@ function BasicMeaning(props) {
                         style={styles.textColor}>
                         英
                     </Text>
-                    {symbols.ph_en_mp3 ? <Voice style={[styles.voice, styles.marginLeft]} voice={symbols.ph_en_mp3} /> : null}
-                    <Text style={[styles.marginLeft,styles.textColor]}>[{symbols.ph_en}]</Text>
+                    {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
+                    <Text style={[styles.marginLeft,styles.textColor]}>[{s.en}]</Text>
                     <Text style={[styles.marginLeft,styles.textColor]}>
                         美
                     </Text>
-                    {symbols.ph_am_mp3 ? <Voice style={[styles.voice, styles.marginLeft]} voice={symbols.ph_am_mp3} /> : null}
-                    <Text style={[styles.marginLeft,styles.textColor]}>[{symbols.ph_am}]</Text>
+                    {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
+                    <Text style={[styles.marginLeft,styles.textColor]}>[{s.am}]</Text>
                 </View>
                 {
-                    parts.map(function (part) {
+                    m.map(function (part) {
                         return (
                             <Text
                                 style={styles.textColor}
@@ -73,17 +75,18 @@ function BasicMeaning(props) {
 
             </View>
         )
-    } catch (e) {
-        if(data.translate_result){
-            return <EmptyText 
-                        style={styles.textColor}
-                        text={data.translate_result}/>
-        }
+    }else if(tr){
+        return (
+            <EmptyText 
+                style={styles.textColor}
+                text={tr}/>
+        );
+    }else{
         return (
             <EmptyText 
                 style={styles.textColor}
                 text='抱歉，未能找到该单词的解释。'/>
-        )
+        ) 
     }
 
 }
@@ -100,14 +103,14 @@ function Sentence(props) {
                     return (
                         <View
                             style={[styles.marginBottom]}
-                            key={s.Network_id}>
-                            {s.tts_mp3 ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.tts_mp3} /> : null}
+                            key={s.en}>
+                            {s.voice ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.tts_mp3} /> : null}
                             <Text style={[styles.marginBottom,styles.textColor]}>
-                                {s.Network_en}
+                                {s.en}
                             </Text>
                             <Text
                                 style={[styles.marginBottom,styles.textColor]}>
-                                {s.Network_cn}
+                                {s.cn}
                             </Text>
                         </View>
                     )
@@ -188,21 +191,21 @@ function StemsAffixes(props) {
         return null;
     }
 }
-function renderMeaing(means) {
+function renderEEMeaning(means) {
     return means.map(function (mean, i) {
         return (
             <View
-                key={i + ''}>
+                key={mean.mean}>
                 <Text
                     style={[styles.marginBottom,styles.textColor]}>
-                    {mean.word_mean}
+                    {mean.mean}
                 </Text>
                 {mean.sentences.map(function (sentence) {
                     return (
                         <Text
                             style={[styles.marginBottom,styles.textColor]}
-                            key={sentence.sentence}>
-                            {sentence.sentence}
+                            key={sentence}>
+                            {sentence}
                         </Text>
                     );
                 })}
@@ -225,12 +228,12 @@ function EEMeaning(props) {
             {data.map(function (meaning) {
                 return (
                     <View
-                        key={meaning.part_name}>
+                        key={meaning.part}>
                         <Text
                             style={[styles.marginBottom,styles.textColor]}>
-                            {meaning.part_name}
+                            {meaning.part}
                         </Text>
-                        {renderMeaing(meaning.means)}
+                        {renderEEMeaning(meaning.means)}
                     </View>
                 )
             })}
