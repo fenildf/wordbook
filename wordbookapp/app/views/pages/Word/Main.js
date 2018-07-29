@@ -20,19 +20,29 @@ function Main(props) {
     return (
         <View
             style={styles.wrapper}>
-            <Text
-                style={styles.name}>{word.name}</Text>
-            <Text
-                style={[styles.textColor,styles.marginLeft]}>
-                英
-            </Text>
-            {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
-            <Text style={[styles.marginLeft, styles.textColor]}>[{s.en}]</Text>
-            <Text style={[styles.marginLeft, styles.textColor]}>
-                美
-            </Text>
-            {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
-            <Text style={[styles.marginLeft, styles.textColor]}>[{s.am}]</Text>
+            <View
+                style={[styles.row,{borderTopWidth:0}]}>
+                  <Text
+                    style={styles.name}>{word.name}</Text>
+            </View>
+            <View
+                style={styles.row}>
+                <Text
+                    syle={[styles.textColor,styles.marginLeft]}>
+                    英
+                </Text>
+                {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
+                <Text style={[styles.marginLeft, styles.textColor]}>[{s.en}]</Text>
+            </View>
+            <View
+                style={styles.row}>
+                <Text style={[styles.marginLeft, styles.textColor]}>
+                    美
+                </Text>
+                {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
+                <Text style={[styles.marginLeft, styles.textColor]}>[{s.am}]</Text>
+            </View>
+            
         </View>
     );
 }
@@ -40,12 +50,13 @@ function Main(props) {
 
 const styles = StyleSheet.create(function (theme) {
     return {
-        wrapper: {
-            justifyContent: 'space-between',
+        row: {
             alignItems: 'center',
             height: theme.itemHeightM,
             flexDirection: 'row',
-            paddingHorizontal: theme.paddingHorizontal
+            paddingHorizontal: theme.paddingHorizontal,
+            borderTopColor: theme.borderColor,
+            borderTopWidth: theme.px,
         },
         name: {
             color: theme.wordPageColor

@@ -44,23 +44,10 @@ function renderMeading(meaning) {
 
 function BasicMeaning(props) {
     let {s,m,tr} = props;
-    if(s&&m){
+    if(m){
         return (
             <View
                 style={styles.itemStyle}>
-                <View style={[styles.marginBottom, styles.row]}>
-                    <Text
-                        style={styles.textColor}>
-                        英
-                    </Text>
-                    {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
-                    <Text style={[styles.marginLeft,styles.textColor]}>[{s.en}]</Text>
-                    <Text style={[styles.marginLeft,styles.textColor]}>
-                        美
-                    </Text>
-                    {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
-                    <Text style={[styles.marginLeft,styles.textColor]}>[{s.am}]</Text>
-                </View>
                 {
                     m.map(function (part) {
                         return (
