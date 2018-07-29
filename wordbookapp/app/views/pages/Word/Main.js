@@ -36,7 +36,8 @@ function Main(props) {
             </View>
             <View
                 style={styles.row}>
-                <Text style={[styles.marginLeft, styles.textColor]}>
+                <Text 
+                    style={[styles.marginLeft, styles.textColor]}>
                     美
                 </Text>
                 {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
@@ -54,7 +55,7 @@ const styles = StyleSheet.create(function (theme) {
             alignItems: 'center',
             height: theme.itemHeightM,
             flexDirection: 'row',
-            paddingHorizontal: theme.paddingHorizontal,
+            marginLeft: theme.paddingHorizontal,
             borderTopColor: theme.borderColor,
             borderTopWidth: theme.px,
         },

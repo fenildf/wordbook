@@ -250,7 +250,7 @@ const styles = StyleSheet.create(function (theme) {
         wrapper: {
             flex: 1,
             backgroundColor:theme.wordPageBackgroundColor,
-            marginLeft: theme.paddingHorizontal,
+            paddingLeft: theme.paddingHorizontal,
             paddingRight: theme.paddingHorizontal,
             borderTopColor: theme.borderColor,
             borderTopWidth: theme.px,
