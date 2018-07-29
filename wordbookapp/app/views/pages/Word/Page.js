@@ -18,15 +18,22 @@ import StyleSheet from './../../../util/StyleSheet';
 class Page extends Component{
     constructor(...props){
         super(...props);
-        this.state={}
+        this.state={
+            showMeaning:false
+        }
         this.dispatcher = createDispatcher(this,this._onData);
     }
     componentWillUnmount(){
         this.dispatcher.release();
     }
-    showMeaning(){
-        // this.setState({meaning:null})
+    componentDidMount() {
         this._onShowMeaning();
+    }
+    
+    showMeaning(){
+        this.setState({showMeaning:true})
+        // this.setState({meaning:null})
+        // this._onShowMeaning();
     }
     _onData({state,key},isThis){
         switch(key){
@@ -41,32 +48,38 @@ class Page extends Component{
  
     _onShowMeaning = () => {
         let {word}=this.props;
-        let {
-            meaning
-        } = this.state;
+        // let {
+        //     meaning
+        // } = this.state;
         
-        if(meaning){
-            return;
+        // if(meaning){
+        //     return;
+        // }
+        if(!word.meaning){
+            this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
         }
-        if(word.meaning){
-            return this.setState({meaning:word.meaning});
-        }
-        this.dispatcher.dispatch(actions.WORD_GET_MEANING,word.name);
     }
     
     render(){
         let {word} = this.props;
-        let {meaning} = this.state;
+        let {showMeaning} = this.state;
+        let {meaning} = word;
         return (
             <View
                 style={styles.wrapper}>
                  <Main
                     theme={this.state.theme}
                     onShowMeaning={this._onShowMeaning}
+                    meaning={meaning}
                     word={word} />
-                <Meaning
-                    theme={this.state.theme}
-                    meaning={meaning} />
+                {
+                    showMeaning?
+                        <Meaning
+                            theme={this.state.theme}
+                            meaning={meaning} />
+                            :
+                        null
+                }
             </View>
         );
     }

@@ -35,6 +35,9 @@ class Pages extends Component {
         }
         this.state.autoTranslate = this.props.autoTranslate;
     }
+    translate(){
+        this._currentPage&&this._currentPage.showMeaning();
+    }
     _setPage(page) {
         if (page===undefined) {
             return;

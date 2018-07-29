@@ -17,6 +17,8 @@ import Text from '../../components/Text';
 import Title from './Title';
 
 import Header from './../../components/Header';
+import Translate from './Translate';
+
 
 const PAGES_REF = 'PAGES_REF';
 class Word extends Component {
@@ -100,7 +102,7 @@ class Word extends Component {
     }
     _onWordSelected=(word)=>{
         this.state.word = word;
-        this._titleRef.setTitle(word.name);
+        // this._titleRef.setTitle(word.name);
     }
     _mark(word,isRemember){
         dispatch(actions.USER_MARK_WORD,{
@@ -109,11 +111,15 @@ class Word extends Component {
             word
         });
     }
+    _translate=()=>{
+        this.refs[PAGES_REF] && this.refs[PAGES_REF].translate();
+    }
     render() {
         let {
             words,
             word,
-            autoTranslate
+            autoTranslate,
+            sectionName
         } = this.state;
         return (
             <View
@@ -125,7 +131,7 @@ class Word extends Component {
                     title={<Title 
                             titleStyle={styles.title}
                             ref={(v)=>this._titleRef = v} 
-                            defaultTitle={word.name}/>}/>
+                            defaultTitle={sectionName}/>}/>
                 <View
                     style={styles.wrapper}>
                     {words&&words.length>0&&<Pages 
@@ -142,6 +148,8 @@ class Word extends Component {
                     onRemember={this._onRemember}
                     onForget={this._onForget}
                     />
+                <Translate
+                    onPress={this._translate} />
             </View>
 
         )
