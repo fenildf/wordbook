@@ -25,7 +25,7 @@ function Main(props) {
                   <Text
                     style={styles.name}>{word.name}</Text>
             </View>
-            <View
+            {s.en&&<View
                 style={styles.row}>
                 <Text
                     syle={[styles.textColor,styles.marginLeft]}>
@@ -33,8 +33,8 @@ function Main(props) {
                 </Text>
                 {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
                 <Text style={[styles.marginLeft, styles.textColor]}>[{s.en}]</Text>
-            </View>
-            <View
+            </View>}
+           {s.am&& <View
                 style={styles.row}>
                 <Text 
                     style={[styles.marginLeft, styles.textColor]}>
@@ -42,7 +42,7 @@ function Main(props) {
                 </Text>
                 {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
                 <Text style={[styles.marginLeft, styles.textColor]}>[{s.am}]</Text>
-            </View>
+            </View>}
             
         </View>
     );
