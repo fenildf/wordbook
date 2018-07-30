@@ -91,7 +91,7 @@ function Sentence(props) {
                         <View
                             style={[styles.marginBottom]}
                             key={s.en}>
-                            {s.voice ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.tts_mp3} /> : null}
+                            {s.voice ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.voice} /> : null}
                             <Text style={[styles.marginBottom,styles.textColor]}>
                                 {s.en}
                             </Text>
