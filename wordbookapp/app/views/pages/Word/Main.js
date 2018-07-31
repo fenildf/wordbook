@@ -28,7 +28,7 @@ function Main(props) {
             {s.en&&<View
                 style={styles.row}>
                 <Text
-                    syle={[styles.textColor,styles.marginLeft]}>
+                    syle={[styles.textColor]}>
                     英
                 </Text>
                 {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
@@ -37,7 +37,7 @@ function Main(props) {
            {s.am&& <View
                 style={styles.row}>
                 <Text 
-                    style={[styles.marginLeft, styles.textColor]}>
+                    style={[ styles.textColor]}>
                     美
                 </Text>
                 {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
