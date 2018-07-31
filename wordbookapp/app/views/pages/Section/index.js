@@ -43,6 +43,9 @@ class Section extends Component{
         let section = this.state.section
         this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName:section.bookName,sectionName:section.name})
     }
+    componentWillUnmount(){
+        this.dispatcher.release();
+    }
     _renderItem=({item,index})=>{
         let {section} = this.state;
         return (
