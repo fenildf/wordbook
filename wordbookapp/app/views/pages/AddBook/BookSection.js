@@ -4,12 +4,12 @@ import React, { Component } from 'react';
 import {
     View,
 } from 'react-native';
-import SelectableItem from './SelectableItem';
+import Item from './Item';
 
 function BookSection(books,onSelected,selectdBooks) {
     return books.map(book => {
         return (
-            <SelectableItem
+            <Item
                 onSelected={(isSelected) => onSelected(isSelected, book)}
                 key={book.name}
                 selected={!!selectdBooks[book.name]}

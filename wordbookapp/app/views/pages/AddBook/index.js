@@ -11,11 +11,12 @@ import StyleSheet from './../../../util/StyleSheet';
 
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';
-import BookSection from './BookSection';
-
-import FoldableItem from './../../components/FoldableItem';
-import Search from './Search';
 import TouchableOpacity from '../../components/TouchableOpacity';
+import TitleBar from './../../components/TitleBar';
+
+const TitleBarItem = TitleBar.Item;
+import Item from './Item'
+
 
 class AddBook extends Component {
     static routeConfig = {
@@ -49,39 +50,39 @@ class AddBook extends Component {
         this.dispatcher.release();
     }
 
-    _selectedItem = (isSelected, book) => {
-        if (isSelected) {
-            this._selectedBooks[book.name] = book;
-        } else {
-            delete this._selectedBooks[book.name];
-        }
-    }
-    _closeItem=(state,index)=>{
-        if(!state){
-            this.setState({selectItem:index});
-            this.refs.ScrollView.scrollTo({
-                y:0,
-                animated:false
-            })
-        }else{
-            this.setState({selectItem:null});
-        }
-    }
-    _renderBooks() {
-        let classify = this.state.classify;
-        return classify.map((item, index) => {
-            return (
-                <FoldableItem
-                    key={item.name}
-                    fold={this.state.selectItem!==index}
-                    onStateChange={(state) => this._closeItem(state,index)}
-                    style={[styles.itemStyle, styles.borderTop]}
-                    title={item.name}>
-                    {BookSection(item.children, this._selectedItem,this._selectedBooks)}
-                </FoldableItem>
-            )
-        });
-    }
+    // _selectedItem = (isSelected, book) => {
+    //     if (isSelected) {
+    //         this._selectedBooks[book.name] = book;
+    //     } else {
+    //         delete this._selectedBooks[book.name];
+    //     }
+    // }
+    // _closeItem=(state,index)=>{
+    //     if(!state){
+    //         this.setState({selectItem:index});
+    //         this.refs.ScrollView.scrollTo({
+    //             y:0,
+    //             animated:false
+    //         })
+    //     }else{
+    //         this.setState({selectItem:null});
+    //     }
+    // }
+    // _renderBooks() {
+    //     let classify = this.state.classify;
+    //     return classify.map((item, index) => {
+    //         return (
+    //             <FoldableItem
+    //                 key={item.name}
+    //                 fold={this.state.selectItem!==index}
+    //                 onStateChange={(state) => this._closeItem(state,index)}
+    //                 style={[styles.itemStyle, styles.borderTop]}
+    //                 title={item.name}>
+    //                 {BookSection(item.children, this._selectedItem,this._selectedBooks)}
+    //             </FoldableItem>
+    //         )
+    //     });
+    // }
     _renderRightButton() {
         return (
             <TouchableOpacity
@@ -90,18 +91,43 @@ class AddBook extends Component {
             </TouchableOpacity>
         )
     }
+    _renderPages(){
+        let classify = this.state.classify;
+        return classify.map((item, index) => {
+            return (
+                <TitleBarItem
+                    key={item.name}
+                    title={item.name}>
+                    <View>
+                        <ScrollView>
+                            {
+                                item.children.map(child=>{
+                                    return (
+                                        <Item 
+                                            key={child.name}
+                                            name={child.name}
+                                            classify={child.classify}
+                                            count={child.count}/>
+                                    );
+                                })
+                            }
+                        </ScrollView>
+                    </View>
+                </TitleBarItem>
+            )
+        });
+    }
     render() {
         return (
             <View 
                 style={styles.wrapper}>
-                <Search 
-                    onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'SearchBook'})}/>
-                <ScrollView
-                    ref='ScrollView'
+                {/* <Search 
+                    onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'SearchBook'})}/> */}
+                
+                <TitleBar
                     style={styles.wrapper}>
-                    {this._renderBooks()}
-                </ScrollView>
-               
+                    {this._renderPages()}
+                </TitleBar>
             </View>
         )
     }
