@@ -160,24 +160,7 @@ function getData(type, payload) {
             return getDataBySql(sql1);
         case 'wordBook':
             sql1 = 'select name,count,create_time as createTime from user_word_book where name in (select name from wordbook.books group by name)';
-            return getDataBySql(sql1).then(data => {
-                return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
-                    data.unshift({
-                        name: '我的单词本',
-                        count: book.count
-                    });
-                    let now = Date.now();
-                    return getDataBySql(`select count(name) as count from user_study_word 
-                                        where ${now} - ifnull(remember_time,0)>${TEMP_TIME_INTERVAL} and 
-                                        ${now} - ifnull(first_remember_time,${now}) <${THREE_DAY_MILLISECONDS}`).then(([book]) => {
-                            data.unshift({
-                                name: '我的生词本',
-                                count: book.count
-                            });
-                            return data;
-                        })
-                })
-            });
+            return getDataBySql(sql1);
         case 'classify':
             sql1 = `select name from wordbook.classify`
             return getDataBySql(sql1);

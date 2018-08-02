@@ -12,14 +12,15 @@ function BookItem(props){
     let {
         onPress,
         book,
-        onLongPress
+        onLongPress,
+        style
     } = props;
 
     return (
         <IconItem 
             onPress={onPress}
             onLongPress={onLongPress}
-            style={styles.button}>
+            style={[styles.button,style]}>
             <View
                 style={styles.main}>
                 <Text

@@ -28,6 +28,7 @@ const styles = StyleSheet.create(function(theme){
         wrapper:{
             height:48,
             backgroundColor:theme.backgroundColor,
+            flex:1
         },
         view:{
             flexDirection:'row',
@@ -36,8 +37,8 @@ const styles = StyleSheet.create(function(theme){
             marginVertical:6,
             flex:1,
             borderRadius:18,
-            marginHorizontal:theme.paddingHorizontal,
-            backgroundColor:theme.borderColor
+            marginLeft:theme.paddingHorizontal,
+            backgroundColor:'#f0f0f0'
         }
     }
 })
