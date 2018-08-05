@@ -21,14 +21,15 @@ class Title extends Component{
     render(){
         let {
             onClick,
-            item
+            item,
+            index
         } = this.props;
         let {
             selected
-        } = this.state;
+        } = this.props;
         return (
             <TouchableOpacity
-                onPress={()=>onClick(item)}
+                onPress={()=>onClick(index)}
                 style={styles.wrapper}>
                 <Text
                     style={[styles.text,selected&&styles.selected]}>
@@ -41,6 +42,7 @@ class Title extends Component{
 
 const HEIGHT = 36;
 const WIDTH = 96;
+
 let TITLE;
 function setSelected(title){
     if(TITLE){

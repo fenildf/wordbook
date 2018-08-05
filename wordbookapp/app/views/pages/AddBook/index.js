@@ -25,7 +25,7 @@ class AddBook extends Component {
     constructor(...props) {
         super(...props);
         this.navigationOptions = {
-            title: '单词本',
+            title: '添加单词本',
         }
         this.state = {
             classify: [],
@@ -36,7 +36,12 @@ class AddBook extends Component {
         }
         this.dispatcher = createDispatcher(this, this._onData);
     }
-    _onData(data) {
+    _onData({key,state}) {
+        
+    }
+    _add(item){
+        this.dispatcher.dispatch(actions.USER_ADD_BOOKS,{[item.name]:item});
+        dispatch(actions.TOAST,'添加成功');
     }
   
     componentDidMount() {
@@ -61,6 +66,7 @@ class AddBook extends Component {
                                             key={child.name}
                                             name={child.name}
                                             classify={child.classify}
+                                            onPress={()=>this._add(item)}
                                             count={child.count}/>
                                     );
                                 })
@@ -74,8 +80,8 @@ class AddBook extends Component {
     render() {
         return (
             <TitleBar
-                    style={styles.wrapper}>
-                    {this._renderPages()}
+                style={styles.wrapper}>
+                {this._renderPages()}
             </TitleBar>
         )
     }

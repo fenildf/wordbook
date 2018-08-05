@@ -6,6 +6,9 @@ import Item from './Item';
 import Header from './Header';
 import StyleSheet from './../../../util/StyleSheet';
 
+
+const HEADER_REF = 'HEADER_REF';
+const PAGE_REF = 'PAGE_REF';
 class TitleBar extends Component{
     constructor(...props){
         super(...props);
@@ -21,6 +24,12 @@ class TitleBar extends Component{
         });
         return {headers,pages};
     }
+    _onPageSelected=({nativeEvent:{position}})=>{
+        this.refs[HEADER_REF].setHeader(position);
+    }
+    _onHeaderSelected=(position)=>{
+        this.refs[PAGE_REF].setPageWithoutAnimation(position);
+    }
     render(){
         let {
             style,
@@ -34,9 +43,13 @@ class TitleBar extends Component{
             <View
                 style={style}>
                 <Header 
+                    ref={HEADER_REF}
                     style={styles.header}
+                    onItemClick={this._onHeaderSelected}
                     data={headers}/>
                 <ViewPager
+                    ref={PAGE_REF}
+                    onPageSelected={this._onPageSelected}
                     style={styles.viewpager}>
                     {pages}
                 </ViewPager>  
