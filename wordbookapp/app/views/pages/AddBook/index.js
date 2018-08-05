@@ -66,7 +66,7 @@ class AddBook extends Component {
                                             key={child.name}
                                             name={child.name}
                                             classify={child.classify}
-                                            onPress={()=>this._add(item)}
+                                            onPress={()=>this._add(child)}
                                             count={child.count}/>
                                     );
                                 })

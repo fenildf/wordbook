@@ -4,6 +4,9 @@ import {
     View,
 } from 'react-native';
 
+import TouchableOpacity from './../../components/TouchableOpacity';
+import Text from './../../components/Text';
+import StyleSheet from './../../../util/StyleSheet';
 class AddWord extends Component{
     static routeConfig = {
         name:'AddWord'
@@ -16,10 +19,22 @@ class AddWord extends Component{
     }
     render(){
         return (
-            <View>
+            <View
+                style={styles.wrapper}>
+                <TouchableOpacity>
+                    <Text>
+                    </Text>
+                </TouchableOpacity>
             </View>
         );
     }
 }
 
+const  styles = StyleSheet.create(theme=>{
+    return {
+        wrapper:{
+            flex:1
+        }
+    }
+})
 export default AddWord;
