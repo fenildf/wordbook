@@ -9,7 +9,7 @@ const defaultStyle = {
     color:'#333',
     padding:0
 }
-class Text extends RNTextInput{
+class TextInput extends RNTextInput{
     static defaultProps={
         ...RNTextInput.defaultProps,
         underlineColorAndroid:'transparent'
@@ -19,4 +19,4 @@ class Text extends RNTextInput{
     }
 }
 
-export default Text;
+export default TextInput;
