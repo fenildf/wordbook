@@ -84,6 +84,7 @@ const  styles = StyleSheet.create(theme=>{
     },
     input:{
         height:theme.itemHeightH,
+        flex:1
     },
     button:{
         height:theme.itemHeightH,
