@@ -16,11 +16,11 @@ import TouchableOpacity from './../../components/TouchableOpacity';
 function More(){
     return (
         <TouchableOpacity
-            onPress={()=>dispatch(actions.APP_NAVIGATE, { routeName: 'AddBook' })}
+            onPress={()=>dispatch(actions.APP_NAVIGATE, { routeName: 'AddWord' })}
             style={styles.more}>
             <Text
                 style={styles.text}>
-                添加
+                加新
             </Text>
         </TouchableOpacity>
     )
