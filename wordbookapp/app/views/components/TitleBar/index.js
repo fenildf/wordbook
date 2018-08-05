@@ -39,6 +39,9 @@ class TitleBar extends Component{
             headers,
             pages
         } = this._classify(children);
+        if(pages.length<1){
+            return null;
+        }
         return (
             <View
                 style={style}>
@@ -52,7 +55,7 @@ class TitleBar extends Component{
                     onPageSelected={this._onPageSelected}
                     style={styles.viewpager}>
                     {pages}
-                </ViewPager>  
+                </ViewPager>
             </View>
         )
     }

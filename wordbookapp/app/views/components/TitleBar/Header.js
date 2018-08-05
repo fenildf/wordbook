@@ -34,6 +34,9 @@ class Header extends Component {
                 item={item} />
         )
     }
+    _getItemLayout=(data, index) => {
+        return { length: Title.WIDTH, offset: Title.WIDTH * index, index };
+    }
     _keyExtractor = (item) => {
         return item.title;
     }
@@ -47,10 +50,8 @@ class Header extends Component {
                     renderItem={this._renderItem}
                     keyExtractor={this._keyExtractor}
                     getItemLayout={this._getItemLayout}
+                    extraData={this.state.selected}
                     horizontal={true}
-                    getItemLayout={(data, index) => (
-                        { length: Title.WIDTH, offset: Title.WIDTH * index, index }
-                    )}
                 />
             </View>
 
