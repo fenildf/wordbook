@@ -196,6 +196,7 @@ function setAutoTranslate($payload){
         autoTranslate:$payload()
     }
 }
+
 export default {
     appInit,
     appNavigate,

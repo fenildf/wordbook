@@ -1,6 +1,7 @@
 'use strict'
 import app from './../controller/app';
 import actions from './../constants/actions';
+import word from '../controller/word';
 
 export default [
     {
@@ -46,5 +47,9 @@ export default [
     {
         key:actions.APP_UPDATE_HEADER,
         controller:app.trans
+    },
+    {
+        key:actions.APP_WORD_BOOK,
+        controller:word.wordBook
     }
 ]

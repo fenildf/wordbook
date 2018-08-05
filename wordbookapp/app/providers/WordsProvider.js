@@ -205,6 +205,24 @@ function getData(type, payload) {
                 sql1 = `select * from wordbook.words as b where book_name="${payload.bookName || '%'}" and section_name="${payload.sectionName || '%'}"`;
             }
             return getDataBySql(sql1);
+        case 'user':
+            let data;
+            return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
+                data =[{
+                    name: '我的单词本',
+                    count: book.count
+                }];
+                let now = Date.now();
+                return getDataBySql(`select count(name) as count from user_study_word 
+                                    where ${now} - ifnull(remember_time,0)>${TEMP_TIME_INTERVAL} and 
+                                    ${now} - ifnull(first_remember_time,${now}) <${THREE_DAY_MILLISECONDS}`).then(([book]) => {
+                        data.unshift({
+                            name: '我的生词本',
+                            count: book.count
+                        });
+                        return data;
+                    });
+            })
 
 
     }

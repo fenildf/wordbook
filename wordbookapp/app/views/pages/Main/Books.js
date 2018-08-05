@@ -55,7 +55,7 @@ class Books extends Component {
                 book={item}
                 style={index===0&&{borderTopWidth:0} }
                 onLongPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'BookManager'})}
-                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Book',params:{item}})}/>
+                onPress={()=>dispatch(actions.APP_NAVIGATE,{routeName:'Book',params:{book:item}})}/>
         );
     }
     _keyExtractor=(item)=>{
@@ -89,7 +89,8 @@ const styles = StyleSheet.create(theme=>{
             backgroundColor:'#fff'
         },
         header:{
-            flexDirection:'row'
+            flexDirection:'row',
+            height:40
         },
         more:{
             justifyContent:'center',

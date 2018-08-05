@@ -7,6 +7,7 @@ import StyleSheet from './../../../util/StyleSheet';
 import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
 import Books from './Books';
+import WordBook from './WordBook';
 
 
 const acitveColor = '#413d3c';
@@ -60,7 +61,7 @@ class TabBar extends Component{
                     <Books /> 
                 </View>
                 <View>
-                    <Text>2</Text>
+                    <WordBook />
                 </View>
             </Tab>
         )

@@ -51,11 +51,19 @@ function searchBook(word,$payload){
         return {result}
     });
 }
+
+/**单词页面初始化数据 */
+function wordBook(word){
+    return word('user').then((items)=>{
+        return {data:{items}}
+    });
+}
 export default {
     getBooks,
     getSections,
     getWords,
     getMeaning,
     getClassify,
-    searchBook
+    searchBook,
+    wordBook
 }
