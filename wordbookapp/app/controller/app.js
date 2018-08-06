@@ -130,8 +130,8 @@ function fillTableWithBook($persist,$connect) {
 
 function appInit(myStudyWord, myWordBook, word, dbversion,$persist,theme,wordPageTheme) {
     let promise;
-    if(dbversion!=3){
-        $persist('dbversion','3');
+    if(dbversion!=4){
+        $persist('dbversion','4');
         promise = SQLHelper.deleteDatabase().then(SQLHelper.ready);
     }else{
         promise = SQLHelper.ready();
