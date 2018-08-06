@@ -31,8 +31,8 @@ function Main(props) {
                     syle={[styles.textColor]}>
                     英
                 </Text>
-                {s.enVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.enVoice} /> : null}
-                <Text style={[styles.marginLeft, styles.textColor]}>[{s.en}]</Text>
+                {s.enVoice ? <Voice style={[styles.voice]} voice={s.enVoice} /> : null}
+                <Text style={[styles.textColor]}>[{s.en}]</Text>
             </View>||null}
            {s.am&& <View
                 style={styles.row}>
@@ -40,8 +40,8 @@ function Main(props) {
                     style={[ styles.textColor]}>
                     美
                 </Text>
-                {s.amVoice ? <Voice style={[styles.voice, styles.marginLeft]} voice={s.amVoice} /> : null}
-                <Text style={[styles.marginLeft, styles.textColor]}>[{s.am}]</Text>
+                {s.amVoice ? <Voice style={[styles.voice]} voice={s.amVoice} /> : null}
+                <Text style={[styles.textColor]}>[{s.am}]</Text>
             </View>||null}
             
         </View>
@@ -67,8 +67,9 @@ const styles = StyleSheet.create(function (theme) {
         },
         voice: {
             backgroundColor:theme.wordPageBackgroundColor,
-            height: 18,
-            width: 20
+            height: 38,
+            padding:10,
+            width: 40
         },
         marginLeft: {
             marginLeft: 4

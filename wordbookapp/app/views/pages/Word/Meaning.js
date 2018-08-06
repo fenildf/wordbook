@@ -91,7 +91,7 @@ function Sentence(props) {
                         <View
                             style={[styles.marginBottom]}
                             key={s.en}>
-                            {s.voice ? <Voice style={[styles.voice, styles.marginBottom]} voice={s.voice} /> : null}
+                            {s.voice ? <Voice style={[styles.voice]} voice={s.voice} /> : null}
                             <Text style={[styles.marginBottom,styles.textColor]}>
                                 {s.en}
                             </Text>
@@ -272,8 +272,10 @@ const styles = StyleSheet.create(function (theme) {
         },
         voice: {
             backgroundColor:theme.wordPageBackgroundColor,
-            height: 18,
-            width: 20
+            height: 38,
+            paddingVertical:10,
+            paddingRight:20,
+            width: 40,
         },
         marginLeft: {
             marginLeft: 4
