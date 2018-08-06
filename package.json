@@ -11,6 +11,7 @@
         "wordbook": "node scripts/wordbook.js",
         "wordbook2app": "node scripts/wordbook2app.js",
         "db2app": "node scripts/db.js",
+        "source2json":"node scripts/source2json.js",
         "test": "jest"
     },
     "devDependencies": {
