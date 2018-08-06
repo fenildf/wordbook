@@ -4,7 +4,7 @@ import {
     View,
 } from 'react-native';
 
-import ScrollView from './../../components/ScrollView';
+import FlatList from './../../components/FlatList';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
 import StyleSheet from './../../../util/StyleSheet';
@@ -13,6 +13,7 @@ import actions from '../../../constants/actions';
 import Text from './../../components/Text';
 import TouchableOpacity from '../../components/TouchableOpacity';
 import TitleBar from './../../components/TitleBar';
+
 
 const TitleBarItem = TitleBar.Item;
 import Item from './Item'
@@ -57,22 +58,17 @@ class AddBook extends Component {
                 <TitleBarItem
                     key={item.name}
                     title={item.name}>
-                    <View>
-                        <ScrollView>
-                            {
-                                item.children.map(child=>{
-                                    return (
-                                        <Item 
-                                            key={child.name}
-                                            name={child.name}
-                                            classify={child.classify}
-                                            onPress={()=>this._add(child)}
-                                            count={child.count}/>
-                                    );
-                                })
-                            }
-                        </ScrollView>
-                    </View>
+                    <FlatList 
+                        keyExtractor={item=>item.name}
+                        data={item.children}
+                        renderItem={({item})=> (
+                                            <Item 
+                                                key={item.name}
+                                                name={item.name}
+                                                classify={item.classify}
+                                                onPress={()=>this._add(item)}
+                                                count={item.count}/>
+                                        )}/>
                 </TitleBarItem>
             )
         });

@@ -5,6 +5,7 @@ import {View} from 'react-native';
 import Item from './Item';
 import Header from './Header';
 import StyleSheet from './../../../util/StyleSheet';
+import LazyView from './../LazyView';
 
 
 const HEADER_REF = 'HEADER_REF';
@@ -12,23 +13,26 @@ const PAGE_REF = 'PAGE_REF';
 class TitleBar extends Component{
     constructor(...props){
         super(...props);
+        this.views = [];
     }
     _classify(children){
 
         let headers = [];
         let pages = [];
-        React.Children.forEach(children,child=>{
+        React.Children.forEach(children,(child,index)=>{
              let {title,children} = child.props;
              headers.push({title});
-             pages.push(children);
+             pages.push(<View key={index}><LazyView  ref={v=>this.views[index]=v} child={children} load={index===0}/></View>);
         });
         return {headers,pages};
     }
     _onPageSelected=({nativeEvent:{position}})=>{
         this.refs[HEADER_REF].setHeader(position);
+        this.views[position] && this.views[position].load();
     }
     _onHeaderSelected=(position)=>{
         this.refs[PAGE_REF].setPageWithoutAnimation(position);
+        this.views[position] && this.views[position].load();
     }
     render(){
         let {
