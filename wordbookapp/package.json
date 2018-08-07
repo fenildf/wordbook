@@ -25,6 +25,7 @@
     "react-native": "^0.55.4",
     "react-native-alertui": "^1.0.0",
     "react-native-awesome-viewpager": "^1.0.9",
+    "react-native-fs": "^2.10.14",
     "react-native-improver": "^0.2.0",
     "react-native-modalui": "^1.0.4",
     "react-native-sqlite-storage": "^3.3.5",

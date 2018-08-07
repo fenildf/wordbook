@@ -176,7 +176,36 @@ userTables.push({
         'user_id default(1)'
     ],
 });
-
+userTables.push({
+    name: 'user_books',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null UNIQUE',
+        'is_remember  default(0)',
+        'is_temp_remember  default(0)',
+        'last_read_time interger not null',
+        'create_time interger',
+        'remember_times interger default(0)',
+        'first_remember_time interger',
+        'remember_time interger',
+        'user_id default(1)'
+    ],
+});
+userTables.push({
+    name: 'user_books',
+    column: [
+        'id integer primary key autoincrement not null',
+        'name text not null UNIQUE',
+        'is_remember  default(0)',
+        'is_temp_remember  default(0)',
+        'last_read_time interger not null',
+        'create_time interger',
+        'remember_times interger default(0)',
+        'first_remember_time interger',
+        'remember_time interger',
+        'user_id default(1)'
+    ],
+});
 
 function getColumn(item) {
     return item.match(/^[\S]*?(?=\s)/)[0];
