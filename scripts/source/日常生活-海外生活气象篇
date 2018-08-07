@@ -1,7 +1,7 @@
 #classify:日常生活
 #name:海外生活气象篇
 ##A
-AM Showers,AM Snow Showers,AM T-Storms,air mass,avalanche
+AM Showers,AM Snow Showers,AM T-Storms,air mass,avalanche,AM Clouds / PM Sun
 ##C
 Clear,Clouds Early / Clearing Late,Cloudy,Cloudy / Wind,calm,chilly,clear,cloudy day,coastal climate,cold front,constant wind,continental climate,cool,cyclone
 ##D
@@ -38,5 +38,3 @@ gale,gentle breeze,gusty wind
 very high seas,very rough seas,violent storm,volcanic earthquake
 ##Z
 zero
-##﻿
-﻿AM Clouds / PM Sun

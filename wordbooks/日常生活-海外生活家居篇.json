@@ -720,6 +720,9 @@
 				},
 				{
 					"name": "towel ring"
+				},
+				{
+					"name": "tea table"
 				}
 			]
 		},
@@ -875,14 +878,6 @@
 				},
 				{
 					"name": "watering can"
-				}
-			]
-		},
-		{
-			"name": "",
-			"children": [
-				{
-					"name": "tea table"
 				}
 			]
 		}

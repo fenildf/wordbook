@@ -6,7 +6,7 @@ const WORDBOOK_DIR = 'wordbooks';
 
 const sources = fs.readdirSync(SOURCE_DIR);
 const book = require('./Book');
-
+const parse = require('./../wordbookapp/app/util/BookParser')
 
 function parseSource(text) {
     let lines = text.split('\n');
@@ -15,48 +15,50 @@ function parseSource(text) {
     let onBookHeader = false;
     for (let i = 0, l = lines.length; i < l; i++) {
         let line = lines[i];
-        if(!line||/^\s+$/.test(line)){
+        if (!line || /^\s+$/.test(line)) {
             continue;
         }
         line = line.trim();
-        let c0=line[0];
-        let c1=line[1];
-        if(c0=='#'){
-            if(c1!='#'){
+        let c0 = line[0];
+        let c1 = line[1];
+        if (c0 == '#') {
+            if (c1 != '#') {
                 let info = line.slice(1).split(':');
-                if(!onBookHeader){
-                    if(b){
+                if (!onBookHeader) {
+                    if (b) {
                         saveBook(b);
                     }
                     b = book.Book();
                     onBookHeader = true;
                 }
-                b[info[0]]=info[1];
-            }else{
+                b[info[0]] = info[1];
+            } else {
                 children = [];
                 onBookHeader = false;
-                b.children.push(book.Item(line.slice(2),children));
+                b.children.push(book.Item(line.slice(2), children));
             }
-        }else{
+        } else {
             onBookHeader = false;
-            line.split(',').forEach((word)=>{
+            line.split(',').forEach((word) => {
                 children.push(book.Item(word.trim()));
             })
         }
     }
     saveBook(b)
-
 }
 
-function saveBook(book){
-    let path = 'wordbooks/'+book.classify+'-'+book.name+'.json';
-    fs.createWriteStream(path).end(JSON.stringify(book,null,'\t'));
+function saveBook(book) {
+    let path = 'wordbooks/' + book.classify + '-' + book.name + '.json';
+    fs.createWriteStream(path).end(JSON.stringify(book, null, '\t'));
 }
 
-function readText(path){
+function readText(path) {
     return fs.readFileSync(path).toString();
 }
 
-sources.forEach((source)=>{
-    parseSource(readText(SOURCE_DIR+'/'+source))
+sources.forEach((source, i) => {
+    parse(readText(SOURCE_DIR + '/' + source)).forEach(book => saveBook(book));
 })
+
+// let books = parse(readText(SOURCE_DIR+'/'+sources[0]));
+// saveBook(books[0]);

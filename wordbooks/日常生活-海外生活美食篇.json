@@ -276,6 +276,9 @@
 				},
 				{
 					"name": "curry rice"
+				},
+				{
+					"name": "coffee pot"
 				}
 			]
 		},
@@ -1210,14 +1213,6 @@
 			"children": [
 				{
 					"name": "yam"
-				}
-			]
-		},
-		{
-			"name": "",
-			"children": [
-				{
-					"name": "coffee pot"
 				}
 			]
 		}

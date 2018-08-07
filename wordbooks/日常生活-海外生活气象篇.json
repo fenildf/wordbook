@@ -19,6 +19,9 @@
 				},
 				{
 					"name": "avalanche"
+				},
+				{
+					"name": "AM Clouds / PM Sun"
 				}
 			]
 		},
@@ -700,14 +703,6 @@
 			"children": [
 				{
 					"name": "zero"
-				}
-			]
-		},
-		{
-			"name": "",
-			"children": [
-				{
-					"name": "AM Clouds / PM Sun"
 				}
 			]
 		}
