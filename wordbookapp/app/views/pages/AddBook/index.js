@@ -7,7 +7,7 @@ import {
 import FlatList from './../../components/FlatList';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 import actions from '../../../constants/actions';
 import Text from './../../components/Text';

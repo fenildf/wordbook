@@ -9,7 +9,7 @@ import { dispatch } from 'febrest';
 import actions from '../../../constants/actions';
 import Footer from './Footer';
 import Main from './Main';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import FontIcon from './../../components/FontIcon';
 import Pages from './Pages';
 import TouchableOpacity from '../../components/TouchableOpacity';

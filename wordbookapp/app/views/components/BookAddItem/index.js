@@ -6,7 +6,7 @@ import {
 import Text from './../Text';
 import TouchableOpacity from './../TouchableOpacity';
 import FontIcon from './../FontIcon';
-import StyleSheet from './../../../util/StyleSheet'
+import StyleSheet from 'react-native-theme-stylesheet';
 
 function BookAddItem({name,classify,count,style,onPress}){
     return (

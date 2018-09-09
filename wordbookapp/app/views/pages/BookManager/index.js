@@ -10,7 +10,7 @@ import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import ScrollView from './../../components/ScrollView';
 import actions from '../../../constants/actions';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import Item from './Item';
 import Button from './Button';
 

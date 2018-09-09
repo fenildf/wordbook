@@ -5,8 +5,6 @@ import {
 } from 'react-native';
 
 import { createDispatcher } from 'react-febrest';
-import { dispatch } from 'febrest';
-import actions from '../../../constants/actions';
 import TabBar from './TabBar';
 
 class Main extends Component {

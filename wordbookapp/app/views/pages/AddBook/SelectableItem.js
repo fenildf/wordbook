@@ -2,7 +2,7 @@
 import Text from './../../components/Text';
 
 import React from 'react';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import RadioItem from './../../components/RadioItem';
 
 function SelectableItem({onSelected,name,count}) {

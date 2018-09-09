@@ -4,7 +4,7 @@ import {View} from 'react-native';
 
 import TouchableOpactity from './../../components/TouchableOpacity';
 import Text from './../../components/Text';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 class Translate extends Component{
     constructor(...props){
         super(...props);

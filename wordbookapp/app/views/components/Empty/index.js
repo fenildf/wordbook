@@ -2,7 +2,7 @@
 import React from 'react';
 import {View} from 'react-native';
 import Text from './../Text';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 function Empty({text}){
     return (

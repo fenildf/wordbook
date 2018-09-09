@@ -4,7 +4,7 @@ import {
     View
 } from 'react-native'
 
-import StyleSheet from './../../../util/StyleSheet'
+import StyleSheet from 'react-native-theme-stylesheet'
 import Item from './../Item';
 import Text from './../Text';
 class FoldableItem extends Component {

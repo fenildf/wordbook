@@ -13,7 +13,7 @@ import Footer from './Footer';
 import Main from './Main';
 import Meaning from './Meaning';
 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 class Page extends Component{
     constructor(...props){

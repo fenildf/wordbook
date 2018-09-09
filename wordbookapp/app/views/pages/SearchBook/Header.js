@@ -7,7 +7,7 @@ import {View} from 'react-native';
 import actions from '../../../constants/actions';
 import {dispatch} from 'febrest';
 import TextInput from './../../components/TextInput';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 function Header({onChangeText,onSubmitEditing}){
     return (

@@ -10,7 +10,7 @@ import {createDispatcher} from 'react-febrest';
 import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
 import Item from './Item';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 
 class Section extends Component{

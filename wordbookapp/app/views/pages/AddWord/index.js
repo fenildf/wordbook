@@ -6,7 +6,7 @@ import {
 
 import TouchableOpacity from './../../components/TouchableOpacity';
 import Text from './../../components/Text';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import TextInput from './../../components/TextInput';
 import {dispatch} from 'febrest';
 import actions from './../../../constants/actions'

@@ -4,7 +4,7 @@ import {ViewPager} from 'react-native-awesome-viewpager';
 import {View} from 'react-native';
 import Item from './Item';
 import Header from './Header';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import LazyView from './../LazyView';
 
 

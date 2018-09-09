@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Text from './../../components/Text';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import Row from './../../components/Item';
 function Item(props) {
     let {

@@ -4,7 +4,7 @@ import React from 'react';
 
 import Text from './../../components/Text';
 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import Item from './../../components/Item';
 function AddButton(props){
     let {

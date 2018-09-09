@@ -1,5 +1,5 @@
 import SQLHelper from './../util/SQLHelper';
-import StyleSheet from './../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 import WordPageBlackTheme from './../views/themes/WordPageTheme.black';
 import WordPageWhiteTheme from './../views/themes/WordPageTheme.white';

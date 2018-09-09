@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import Item from './../Item';
-import StyleSheet from './../../../util/StyleSheet'
+import StyleSheet from 'react-native-theme-stylesheet';
 import FontIcon from '../FontIcon';
 class IconItem extends Component {
     constructor(...props) {

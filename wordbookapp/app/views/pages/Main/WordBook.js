@@ -3,7 +3,7 @@
 import React,{Component} from 'react';
 import {View} from 'react-native';
 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import Text from './../../components/Text';
 import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';

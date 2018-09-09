@@ -5,7 +5,7 @@ import {View} from 'react-native';
 import FontIcon from './../../components/FontIcon';
 import TouchableOpacity from './../../components/TouchableOpacity';
 import Text from './../../components/Text';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 function Search({onPress}){
     return (

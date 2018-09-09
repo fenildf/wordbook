@@ -6,7 +6,7 @@ import {
     View
 } from 'react-native';
 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 import Header from './Header';
 import {createDispatcher} from 'react-febrest'

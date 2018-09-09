@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {TabBar as Tab} from 'react-native-awesome-viewpager';
 import {View} from 'react-native';
 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
 import Books from './Books';

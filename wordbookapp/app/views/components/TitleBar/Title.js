@@ -4,7 +4,7 @@ import React,{Component} from 'react';
 import {View} from 'react-native';
 import Text from './../Text';
 import TouchableOpacity from './../TouchableOpacity';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 class Title extends Component{
     constructor(...props){
         super(...props);

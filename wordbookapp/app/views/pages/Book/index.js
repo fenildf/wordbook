@@ -12,7 +12,7 @@ import {dispatch} from 'febrest';
 import actions from '../../../constants/actions';
 import FlatList from './../../components/FlatList';
 import Item from './Item';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 class Book extends Component{
     static routeConfig = {
         name:'Book'

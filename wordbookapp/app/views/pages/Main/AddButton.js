@@ -6,7 +6,7 @@ import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
 
 import TouchableOpacity from './../../components/TouchableOpacity'; 
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import IconItem from './../../components/IconItem';
 function AddButton(props){
     let {

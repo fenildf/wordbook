@@ -30,6 +30,7 @@
     "react-native-modalui": "^1.0.4",
     "react-native-sqlite-storage": "^3.3.5",
     "react-native-storage-tool": "0.0.1",
+    "react-native-theme-stylesheet": "^1.0.0",
     "react-native-vector-icons": "^4.6.0",
     "react-navigation": "^2.0.4"
   }

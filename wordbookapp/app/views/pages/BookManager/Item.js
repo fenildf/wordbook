@@ -4,7 +4,7 @@ import React from 'react';
 
 import Text from './../../components/Text';
 import {View} from 'react-native';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import RadioItem from './../../components/RadioItem';
 function Item(props){
     let {

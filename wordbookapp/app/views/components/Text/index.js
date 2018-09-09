@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Text as RNText} from 'react-native';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 
 const styles = StyleSheet.create(function(theme){
     return {

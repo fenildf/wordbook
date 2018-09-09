@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import Text from './../Text';
 import TouchableOpacity from './../TouchableOpacity';
 import FontIcon from './../FontIcon';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import {dispatch} from 'febrest';
 import actions from './../../../constants/actions'
 import Header from './../Header'

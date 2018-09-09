@@ -3,7 +3,7 @@ import React from 'react';
 import { View } from 'react-native';
 import Text from './../../components/Text';
 import Item from './../../components/Item';
-import StyleSheet from './../../../util/StyleSheet';
+import StyleSheet from 'react-native-theme-stylesheet';
 import actions from '../../../constants/actions';
 import { dispatch } from 'febrest';
 class Section extends React.Component {
