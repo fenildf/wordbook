@@ -1,88 +1,48 @@
 'use strict'
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
     StyleSheet,
     View,
-    Text,
-    TouchableOpacity,
     PanResponder,
     Animated
 } from 'react-native';
+// import StyleSheet from 'react-native-theme-stylesheet';
 import PropTypes from 'prop-types';
-import Text from './../Text';
-import StyleSheet from 'react-native-theme-stylesheet'
-class SwipeView extends Component {
+
+let CURRENT_SLIDE = undefined;
+class SwpieView extends Component {
+    static defaultProps={
+        actionBarWidth: 156,
+        scrollable:true
+    }
     constructor(...props) {
         super(...props);
         this.state = {
-            // height: 60 * rem,
             width: 0,
-            btnWidth: 74
         }
         this.x = 0;
         this.animatedValue = new Animated.Value(0);
-        this._panResponder;
-        this._scrollView;
+
+        this._panResponder = PanResponder.create({
+            onMoveShouldSetPanResponder: this._onMoveShouldSetPanResponder,
+            onPanResponderTerminationRequest: this._onPanResponderTerminationRequest,
+            onPanResponderMove: this._onPanResponderMove,
+            onPanResponderEnd: this._onPanResponderEnd
+        })
         this._touched = false;
-        this._index = i++;
         this.isUnfold = false;
+
+        this.animatedValue.addListener(this._onScroll);
+
     }
     componentWillUnmount() {
-        delete S[this._index + ''];
+        if(CURRENT_SLIDE == this){
+            CURRENT_SLIDE = undefined;
+        }
+        this.animatedValue.removeListener(this._onScroll);
     }
-
-    componentWillMount() {
-        S[this._index + ''] = this;
-        var self = this;
-        this._panResponder = PanResponder.create({
-            onMoveShouldSetPanResponder: function (e, gestureState) {
-                for (var s in S) {
-                    if (S[s].isUnfold && S[s] != self) {
-                        S[s].isUnfold = false;
-                        S[s].hideButton();
-                    }
-                }
-                if (self._touched) {
-                    return self._touched;
-                }
-                if (Math.abs(gestureState.dx)>1) {
-                    self._touched = true;
-                }
-                return self._touched;
-            },
-            onPanResponderTerminationRequest: (evt, gestureState) => false,
-            onPanResponderMove: function (e, gestureState) {
-                var x = self.x + gestureState.dx;
-                if (x > 0) {
-                    x = 0;
-                } else if (x < -self.state.btnWidth) {
-                    x = -(self.state.btnWidth);
-                }
-                self.scrollTo(x);
-            },
-            onPanResponderEnd: function (e, gestureState) {
-                self._touched = false;
-                if (-self.x - gestureState.dx < (self.state.btnWidth / 2)) {
-                    self.x = 0;
-                    self.scrollTo(0, true);
-                    self.isUnfold = false;
-                } else {
-                    self.x = -self.state.btnWidth;
-                    self.scrollTo(-self.state.btnWidth, true);
-                    self.isUnfold = true;
-                }
-            },
-            onPanResponderRelease: function () {
-
-            }
-        })
-    }
-
-    _onScroll() {
-
-    }
-    _onItemDelete() {
-        this.props.onItemDelete && this.props.onItemDelete();
+    _onScroll=(e)=>{
+        this.props.onScroll&&this.props.onScroll(e);
     }
     scrollTo(x, animated) {
         if (animated) {
@@ -98,62 +58,104 @@ class SwipeView extends Component {
             this.animatedValue.setValue(x);
         }
     }
-    hideButton(animated) {
+    hideActionBar(animated) {
         this.x = 0;
         this.scrollTo(0, animated);
     }
+    _onLayout = (e) => {
+        let { width } = e.nativeEvent.layout;
+        if (width !== this.state.width) {
+            this.setState({
+                width
+            });
+        }
+    }
+    _onMoveShouldSetPanResponder = (e, gestureState) => {
+        if(!this.props.scrollable){
+            return false;
+        }
+        if(CURRENT_SLIDE&&CURRENT_SLIDE!==this && CURRENT_SLIDE.isUnfold){
+            CURRENT_SLIDE.isUnfold = false;
+            CURRENT_SLIDE.hideActionBar();
+        }
+        if (this._touched) {
+            return this._touched;
+        }
+        if (Math.abs(gestureState.dx) > 1) {
+            this._touched = true;
+        }
+        return this._touched;
+    }
+    _onPanResponderTerminationRequest = (e) => {
+        return false;
+    }
+    _onPanResponderMove = (e, gestureState) => {
+        let x = this.x + gestureState.dx;
+        let { actionBarWidth } = this.props;
+        if (x > 0) {
+            x = 0;
+        } else if (x < -actionBarWidth) {
+            x = -actionBarWidth;
+        }
+        this.scrollTo(x);
+    }
+    _onPanResponderEnd = (e, gestureState) => {
+        this._touched = false;
+        let { actionBarWidth } = this.props;
+
+        if (-this.x - gestureState.dx < actionBarWidth / 2) {
+            this.x = 0;
+            this.scrollTo(0, true);
+            this.isUnfold = false;
+        } else {
+            this.x = -actionBarWidth;
+            this.scrollTo(this.x, true);
+            this.isUnfold = true;
+            CURRENT_SLIDE = this;
+        }
+    }
+    _renderActionBar() {
+        let {
+            actionBarWidth,
+        } = this.props;
+        let actionBar = this.props.renderActionBar({
+            actionBarWidth,
+        });
+        return actionBar;
+    }
     render() {
-        var style = {
-            height: this.state.height,
-            width: this.state.width,
-            flexDirection: 'row'
-        }
-        var btnStyle = {
-            height: this.state.height,
-            width: this.state.btnWidth,
-            backgroundColor: '#FB4100',
-            flexDirection: 'row',
-            justifyContent: 'center',
-            alignItems: 'center'
-        }
+        let {
+            actionBarWidth
+        } = this.props;
+        let {
+            width
+        } = this.state;
         return (
             <View
-                style = {[style, this.props.style]}
-                onLayout = {(e) => {
-                    var {height, width} = e.nativeEvent.layout;
-                    if (height != this.state.height || width !== this.state.width) {
-                        this.setState({
-                            height: height,
-                            width: width
-                        });
-                    }
-                } }>
+                style={[styles.row, this.props.style]}
+                onLayout={this._onLayout}>
                 <Animated.View
                     {...this._panResponder.panHandlers}
-                    style = {{ flexDirection: 'row', transform: [{ translateX: this.animatedValue }] }}>
+                    style={[styles.row, { transform: [{ translateX: this.animatedValue }] }]}>
                     <View
-                        style = {{ height: this.state.height, width: this.state.width }}>
+                        style={{ width: this.state.width }}>
                         {this.props.children}
                     </View>
-                    <TouchableOpacity
-                        style = {btnStyle}
-                        onPress = {() => this._onItemDelete() }>
-                        <Text style = {{ fontSize: 16, color: '#fff' }}>删除</Text>
-                    </TouchableOpacity>
+                    <View
+                        style={{ width: actionBarWidth }}>
+                        {this.props.actionButtons}
+                    </View>
                 </Animated.View>
 
             </View>
         );
     }
 }
-SlideToDelete.propTypes = {
-    onItemDelete: PropTypes.func
-}
-SlideToDelete.defaultProps = {
 
-}
 const styles = StyleSheet.create({
-
+    row: {
+        flexDirection: 'row'
+    }
 });
 
-export default SlideToDelete;
+export default SwpieView;

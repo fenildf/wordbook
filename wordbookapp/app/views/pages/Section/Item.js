@@ -5,15 +5,18 @@ import React from 'react';
 import Text from './../../components/Text';
 import StyleSheet from 'react-native-theme-stylesheet';
 import Row from './../../components/Item';
+import SwipeRow from './../../components/SwipeRow'
 function Item(props) {
     let {
         onPress,
-        data
+        data,
+        onLongPress
     } = props;
 
     return (
         <Row
             onPress={onPress}
+            onLongPress={onLongPress}
             style={styles.button}>
             <Text
                 style={styles.name}>
