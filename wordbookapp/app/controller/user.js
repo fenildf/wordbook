@@ -113,6 +113,16 @@ function markWord($payload, $persist) {
 
     $persist('word', {type:'userStudyWord',items:[studyWord]});
 }
+function removeWord($payload,$persist) {
+    let payload = $payload();
+    let word = {
+        name: payload.name,
+    };
+    $persist('word', {type:'userWordRemove',items:[word]});
+}
+function editWord() {
+    
+}
 export default {
     addBook,
     getBooks,
@@ -120,5 +130,7 @@ export default {
     isRealRemember,
     isTempRemember,
     getCustomizedBooks,
-    removeBooks
+    removeBooks,
+    removeWord,
+    editWord
 }

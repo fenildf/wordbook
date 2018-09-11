@@ -51,7 +51,7 @@ class Section extends Component {
     }
     _onItemLongPress = ({ nativeEvent }, item) => {
         let { bookName } = this.state.section;
-        if (bookName != '我的单词本' || bookName !== '我的生词本') {
+        if (bookName != '我的单词本' && bookName !== '我的生词本') {
             return;
         }
         this._contextMenu.show({
@@ -59,18 +59,20 @@ class Section extends Component {
             left: nativeEvent.pageX,
         });
         this._contextWord = item;
+        console.log(this._contextWord)
     }
     _onItemPress = ({ nativeEvent }, item) => {
+        let { section } = this.state;
         dispatch(actions.APP_NAVIGATE, { routeName: 'Word', params: { bookName: section.bookName, sectionName: section.name, word: item } })
     }
-    _removeWord() {
-
+    _removeWord=()=> {
+        dispatch(actions.USER_REMOVE_WORD,this._contextWord);
+        this._contextMenu.hide();
     }
-    _editWord() {
+    _editWord=()=> {
 
     }
     _renderItem = ({ item, index }) => {
-        let { section } = this.state;
         return (
             <Item
                 onPress={(event) => this._onItemPress(event, item)}
@@ -90,7 +92,8 @@ class Section extends Component {
                     renderItem={this._renderItem}
                     keyExtractor={this._keyExtractor}
                     style={styles.wrapper}
-                    data={this.state.words} />
+                    data={this.state.words} 
+                    onTouchStart={()=>this._contextMenu.hide()}/>
                 <ContextMenu
                     ref={(menu) => this._contextMenu = menu}>
                     <TouchableOpacity

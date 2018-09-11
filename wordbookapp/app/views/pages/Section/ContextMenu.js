@@ -14,7 +14,7 @@ class ContextMenu extends Component {
         }
     }
     //不要传
-    hide({ top, left, right, bottom }) {
+    hide(top, left, right, bottom ) {
         this.setState({ display: 'none', top, left, right, bottom })
     }
     show({ top, left, right, bottom }) {

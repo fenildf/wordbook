@@ -89,9 +89,10 @@ const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
 function setData(data) {
+    let condition
     switch (data.type) {    
         case 'wordBookRemove':
-            let condition = 'name in (';
+            condition = 'name in (';
             data.items.forEach(book=>{
                 condition +=`"${book.name}",`;
             }); 
@@ -137,6 +138,14 @@ function setData(data) {
                     ]
                 );
             });  
+        case 'userWordRemove':
+            condition = 'name in (';
+            data.items.forEach(word=>{
+                condition +=`"${word.name}",`;
+            }); 
+            condition = condition.slice(0,-1);
+            condition +=')'; 
+            return SQLHelper.remove('user_study_word',condition);   
 
     }
 }
