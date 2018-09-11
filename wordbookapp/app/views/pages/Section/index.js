@@ -70,6 +70,8 @@ class Section extends Component {
         this._contextMenu.hide();
     }
     _editWord=()=> {
+        dispatch(actions.APP_NAVIGATE,{routeName:'EditWord',params:{word:this._contextWord.name}})
+        this._contextMenu.hide();
 
     }
     _renderItem = ({ item, index }) => {

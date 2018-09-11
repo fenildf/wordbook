@@ -7,39 +7,39 @@ let isReady = false;
 const WORD_DB_NAME = 'wordbook';
 const USER_DB_NAME = 'word';
 
-function openDatabase(){
-    return new Promise((resolve)=>{
+function openDatabase() {
+    return new Promise((resolve) => {
         userdb = SQLite.openDatabase(
             //历史原因 userdb name是word
             { name: USER_DB_NAME, createFromLocation: "~data/database.db" },
-            function(){
+            function () {
                 worddb = SQLite.openDatabase(
-                {name:WORD_DB_NAME,createFromLocation:'~data/word.db'},
-                function(){
+                    { name: WORD_DB_NAME, createFromLocation: '~data/word.db' },
+                    function () {
                         userdb.attach(WORD_DB_NAME, 'wordbook', function () {
                             resolve();
                         });
-                },
-                function(){
+                    },
+                    function () {
 
-                })
+                    })
             },
-            function(){
-                
+            function () {
+
             }
         )
     });
 }
-function deleteDatabase(){
-    return new Promise((resolve,reject)=>{
-        SQLite.deleteDatabase({name:WORD_DB_NAME},()=>{
+function deleteDatabase() {
+    return new Promise((resolve, reject) => {
+        SQLite.deleteDatabase({ name: WORD_DB_NAME }, () => {
             resolve();
-        },function(){
+        }, function () {
             resolve();
         });
     })
 }
-   
+
 function ready() {
     if (isReady) {
         return Promise.resolve();
@@ -51,8 +51,8 @@ function ready() {
         return readyPromise;
     }
 }
-function error(err){
-    console.log('execute sql err:',err);
+function error(err) {
+    console.log('execute sql err:', err);
     alert(err.message);
 }
 
@@ -68,65 +68,69 @@ function executeSql(sql, data = []) {
                 },
                 error
             )
-        },error);
+        }, error);
     }))
 }
 
-function createTable(name,column){
-   let sql =  "CREATE TABLE IF NOT EXISTS " + name + "(" +column.join(',') +");";
-   return executeSql(sql);
+function createTable(name, column) {
+    let sql = "CREATE TABLE IF NOT EXISTS " + name + "(" + column.join(',') + ");";
+    return executeSql(sql);
 }
-function insertOrReplace(tableName,columns,data){
+function insertOrReplace(tableName, columns, data) {
     let sql = "INSERT OR REPLACE INTO " +
-                tableName +
-                "(" + columns.join(',') +
-                ") VALUES (" +
-                data.map(v=>{
-                    if(/\(.*?\)/.test(v)){
-                        return v;
-                    }else{
-                        return '"'+v+'"';
-                    }
-                }).join(',') +
-                ")";
+        tableName +
+        "(" + columns.join(',') +
+        ") VALUES (" +
+        data.map(v => {
+            if (/\(.*?\)/.test(v)) {
+                return v;
+            } else {
+                return '"' + v + '"';
+            }
+        }).join(',') +
+        ")";
 
     return executeSql(sql);
 }
-function transaction(fn){
+function transaction(fn) {
     return ready().then(() => new Promise((resolve, reject) => {
         let db = userdb;
         db.transaction(tx => {
             fn(tx);
-        },error,resolve);
-    })) 
+        }, error, resolve);
+    }))
 }
-function insertOrReplace2(tableName,columns,data){
+function insertOrReplace2(tableName, columns, data) {
     let sql = "INSERT OR REPLACE INTO " +
-                tableName +
-                "(" + columns.join(',') +
-                ") VALUES (" +
-                data.join(',') +
-                ")";
+        tableName +
+        "(" + columns.join(',') +
+        ") VALUES (" +
+        data.join(',') +
+        ")";
 
     return executeSql(sql);
 }
 
-function insertOrIgnore(tableName,columns,data){
+function insertOrIgnore(tableName, columns, data) {
     let sql = "INSERT OR IGNORE INTO " +
-                tableName +
-                "(" + columns.join(',') +
-                ") VALUES (" +
-                data.map(v=>'"'+v+'"').join(',') +
-                ")";
+        tableName +
+        "(" + columns.join(',') +
+        ") VALUES (" +
+        data.map(v => '"' + v + '"').join(',') +
+        ")";
 
     return executeSql(sql);
 }
-function remove(tableName,condition){
-    let sql = 'DELETE FROM ' + tableName+' where '+condition;
-    console.log(sql)
+function remove(tableName, condition) {
+    let sql = 'DELETE FROM ' + tableName + ' where ' + condition;
     return executeSql(sql);
 }
-export  default{
+
+function update(tableName, values, condition) {
+    let sql = 'UPDATE ' + tableName + ' SET ' + values + ' WHERE ' + condition;
+    return executeSql(sql);
+}
+export default {
     executeSql,
     createTable,
     insertOrReplace,
@@ -135,5 +139,6 @@ export  default{
     remove,
     transaction,
     deleteDatabase,
-    ready
+    ready,
+    update
 }

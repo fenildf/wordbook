@@ -24,7 +24,7 @@ function addBook($payload, $persist) {
         ok: true
     }
 }
-function removeBooks($payload, $persist){
+function removeBooks($payload, $persist) {
     let books = $payload();
     let userWordBook = {
 
@@ -36,15 +36,15 @@ function removeBooks($payload, $persist){
             let book = books[name];
             userWordBook[name] = {
                 name: book.name,
-                removed:true
+                removed: true
             }
         }
     }
     let userWordBookArray = Object.values(userWordBook);
-    if(userWordBookArray.length<1){
+    if (userWordBookArray.length < 1) {
         return {
             ok: false,
-            message:'请选择要移除的单词本'
+            message: '请选择要移除的单词本'
         }
     }
     $persist('word', { items: userWordBookArray, type: 'wordBookRemove' });
@@ -66,7 +66,7 @@ function getBooks(word) {
 
 }
 
-function getCustomizedBooks(word){
+function getCustomizedBooks(word) {
     return word('wordCustomizedBook').then((books) => {
         return {
             books
@@ -99,10 +99,6 @@ function markWord($payload, $persist) {
     let payload = $payload();
     let now = Date.now();
 
-    let book = {
-        name: payload.bookName,
-        lastReadTime: now
-    };
     let word = payload.word;
     let isRemember = payload.isRemember;
     let studyWord = {
@@ -111,17 +107,22 @@ function markWord($payload, $persist) {
         lastReadTime: now,
     };
 
-    $persist('word', {type:'userStudyWord',items:[studyWord]});
+    $persist('word', { type: 'userStudyWord', items: [studyWord] });
 }
-function removeWord($payload,$persist) {
+function removeWord($payload, $persist) {
     let payload = $payload();
     let word = {
         name: payload.name,
     };
-    $persist('word', {type:'userWordRemove',items:[word]});
+    $persist('word', { type: 'userWordRemove', items: [word] });
 }
-function editWord() {
-    
+function editWord($payload, $persist) {
+    let payload = $payload();
+    let word = {
+        oldName: payload.oldName,
+        name: payload.name
+    }
+    $persist('word', { type: 'userWordEdit', word });
 }
 export default {
     addBook,

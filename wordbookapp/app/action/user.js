@@ -26,5 +26,9 @@ export default [
     {
         key: actions.USER_REMOVE_WORD,
         controller: user.removeWord
+    },
+    {
+        key: actions.USER_EDIT_WORD,
+        controller: user.editWord
     }
 ]

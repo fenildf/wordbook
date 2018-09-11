@@ -12,7 +12,8 @@ const pages = [
     require('./Word').default,
     require('./BookManager').default,
     require('./SearchBook').default,
-    require('./AddWord').default
+    require('./AddWord').default,
+    require('./EditWord').default
 ]
 
 const routes = {

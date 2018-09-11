@@ -146,6 +146,8 @@ function setData(data) {
             condition = condition.slice(0,-1);
             condition +=')'; 
             return SQLHelper.remove('user_study_word',condition);   
+        case 'userWordEdit':
+            return SQLHelper.update('user_study_word',`name='${data.word.name}'`,`name='${data.word.oldName}'`);   
 
     }
 }
