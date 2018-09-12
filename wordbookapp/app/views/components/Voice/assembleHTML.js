@@ -14,6 +14,7 @@ function js() {
     audio.onended = function () {
         stopAnimation();
         isPlaying = false;
+        nativeWebView && nativeWebView.invokeMethod('end');
     };
     context.fillStyle = color;
     context.strokeStyle = color;
@@ -110,13 +111,14 @@ function js() {
         nativeWebView && nativeWebView.invokeMethod('play');
         playAnimation();
         audio.load();
+        
         // audio.currentTime = 0;
         isPlaying = true;
         audio.oncanplay = function () {
             audio.play();
             setTimeout(function () {
                 audio.onended && audio.onended();
-            }, audio.duration * 1000);
+            }, audio.duration * 1000 );
         }
 
     }

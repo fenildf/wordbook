@@ -1,6 +1,6 @@
 'use strict'
 
-import React from 'react';
+import React, { Component } from 'react';
 
 import FontIcon from './../../components/FontIcon';
 import Text from './../../components/Text';
@@ -10,42 +10,58 @@ import StyleSheet from 'react-native-theme-stylesheet';
 import IconItem from './../../components/IconItem';
 import Voice from './../../components/Voice';
 
-function Main(props) {
-    let {
-        word,
-        meaning={}
-    } = props;
+class Main extends Component {
+    constructor(...props) {
+        super(...props);
+    }
+    _play = () => {
+        if (this._enVoice) {
+            this._enVoice.play().then(() => {
+                this._amVoice && this._amVoice.play()
+            })
+        } else {
+            this._amVoice && this._amVoice.play()
+        }
+    }
+    render() {
+        let {
+            word,
+            meaning = {}
+        } = this.props;
 
-    let s = meaning.s||{};
-    return (
-        <View
-            style={styles.wrapper}>
+        let s = meaning.s || {};
+        return (
             <View
-                style={[styles.row,{borderTopWidth:0}]}>
-                  <Text
-                    style={styles.name}>{word.name}</Text>
+                style={styles.wrapper}>
+                <TouchableOpacity
+                    style={[styles.row, { borderTopWidth: 0 }]}
+                    onPress={this._play}>
+                    <Text
+                        style={styles.name}>{word.name}</Text>
+                </TouchableOpacity>
+                {s.en && <Voice
+                    iconStyle={[styles.voice]}
+                    ref={(v) => this._enVoice = v}
+                    style={styles.row}
+                    voice={s.enVoice}>
+                    <Text
+                        syle={[styles.textColor]}>
+                        英 [{s.en}]
+                    </Text>
+                </Voice> || null}
+                {s.am && <Voice
+                    style={styles.row}
+                    ref={(v) => this._amVoice = v}
+                    iconStyle={[styles.voice]}
+                    voice={s.amVoice}>
+                    <Text
+                        style={[styles.textColor]}>
+                        美 [{s.am}]
+                    </Text>
+                </Voice> || null}
             </View>
-            {s.en&&<View
-                style={styles.row}>
-                <Text
-                    syle={[styles.textColor]}>
-                    英
-                </Text>
-                {s.enVoice ? <Voice style={[styles.voice]} voice={s.enVoice} /> : null}
-                <Text style={[styles.textColor]}>[{s.en}]</Text>
-            </View>||null}
-           {s.am&& <View
-                style={styles.row}>
-                <Text 
-                    style={[ styles.textColor]}>
-                    美
-                </Text>
-                {s.amVoice ? <Voice style={[styles.voice]} voice={s.amVoice} /> : null}
-                <Text style={[styles.textColor]}>[{s.am}]</Text>
-            </View>||null}
-            
-        </View>
-    );
+        );
+    }
 }
 
 
@@ -66,16 +82,13 @@ const styles = StyleSheet.create(function (theme) {
             color: '#b8879c'
         },
         voice: {
-            backgroundColor:theme.wordPageBackgroundColor,
-            height: 38,
-            padding:10,
-            width: 40
+            backgroundColor: theme.wordPageBackgroundColor
         },
         marginLeft: {
             marginLeft: 4
         },
-        textColor:{
-            color:theme.wordPageColor
+        textColor: {
+            color: theme.wordPageColor
         },
     }
 });
