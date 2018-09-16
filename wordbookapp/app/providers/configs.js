@@ -10,7 +10,7 @@ export default [
     {
         name:'dbversion',
         type:'storage',
-        defaultState:1
+        defaultState:2
     },
     {
         name:'theme',
