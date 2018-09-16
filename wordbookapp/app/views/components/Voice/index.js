@@ -11,8 +11,8 @@ class Voice extends Component {
         this._playWating;
     }
     componentDidMount() {
-        // this.refs.webview.injectMethod('play', this._onPlay);
-        // this.refs.webview.injectMethod('end', this._onEnd);
+        this.refs.webview.injectMethod('play', this._onPlay);
+        this.refs.webview.injectMethod('end', this._onEnd);
     }
     componentWillUnmount() {
         if (CURRENT_PALYER === this) {

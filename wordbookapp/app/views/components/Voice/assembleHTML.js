@@ -118,7 +118,7 @@ function js() {
             audio.play();
             setTimeout(function () {
                 audio.onended && audio.onended();
-            }, audio.duration * 1000 );
+            }, audio.duration * 1000+1000 );
         }
 
     }

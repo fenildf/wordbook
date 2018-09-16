@@ -64,15 +64,15 @@ class Pages extends Component {
             item1 = item2;
             item2 = {};
             page0 = <Page key={item0.name} ref={v=>this._currentPage=v} word={item0}/>
-            page1 = <Page key={item1.name} word={item1}/>
+            page1 = item1?<Page key={item1.name} word={item1}/>:null;//item1当只有一个单词的时候可能是null
             item = item0;
             position = 0;
         } else if (item2 == null) {
             item2 = item1;
             item1 = item0;
             item = item2;
-            page1 = <Page key={item1.name} word={item1}/>
-            page2 = <Page key={item2.name} ref={v=>this._currentPage=v} word={item2}/>
+            page1 = item1?<Page key={item1.name} word={item1}/>:null;//item1当只有一个单词的时候可能是null
+            page2 = item2?<Page key={item2.name} ref={v=>this._currentPage=v} word={item2}/>:null
             item0 = {};
             position = 2;
         }else{
@@ -141,6 +141,7 @@ class Pages extends Component {
                 ref='VIEWPAGER_REF'
                 initialPage={1}
                 onPageSelected={this._onPageSelected}
+                scrollEnabled={dataSource.length>1}
                 style={this.props.style}>
                  <View>
                     <C 
