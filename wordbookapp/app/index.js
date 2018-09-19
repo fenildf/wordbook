@@ -16,8 +16,8 @@ import routes from './views/pages';
 import { NativeManager } from './native';
 import NavigationManager from './util/NavigationManager';
 import Screen from './views/components/Screen';
-import { createDispatcher } from 'react-febrest';
 import actions from './constants/actions';
+import { dispatch, subscribe, unsubscribe } from 'febrest';
 
 class Entry extends Component {
     constructor(...props) {
@@ -27,32 +27,33 @@ class Entry extends Component {
             init: false,
             navigation: null,
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-
+        subscribe(this._onData)
     }
-    _onData(data, isThis) {
+    _onData = (data) => {
         switch (data.key) {
-            case actions.APP_INIT:
-                let initialRouteName = NativeManager.ENV === 'DEBUG' ? 'PageList' : 'Main';
-                this.state.navigation = NavigationManager.createStackNavigator(routes, { initialRouteName });
-                return false;
             case actions.APP_RESET_NAVIGATOR:
                 this.resetNavigator(state.routeName);
                 return true;
-
         }
     }
     componentDidUpdate(prevProps, prevState) {
-        if(!prevState.init&&this.state.init){
+        if (!prevState.init && this.state.init) {
             InteractionManager.runAfterInteractions(() => NativeManager.hideLoadingView())
         }
     }
-    
+    componentWillUnmount() {
+        unsubscribe(this._onData);
+    }
     componentDidMount() {
         APPContext.Routes = routes;
 
         InteractionManager.runAfterInteractions(() => {
-            this.dispatcher.dispatch(actions.APP_INIT);
+            dispatch(actions.APP_INIT).then((data) => {
+                let initialRouteName = NativeManager.ENV === 'DEBUG' ? 'PageList' : 'Main';
+                this.state.navigation = NavigationManager.createStackNavigator(routes, { initialRouteName });
+                this.state.init = true;
+                this.forceUpdate();
+            });
         });
 
     }

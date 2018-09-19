@@ -14,7 +14,7 @@ function getMeaning(word) {
             error
         } = json;
         let symbols = baesInfo && baesInfo.symbols && baesInfo.symbols[0];
-        let s, m, se, ee, sa,tr;
+        let s, m, se, ee, sa, tr;
         if (symbols) {
             s = {
                 en: symbols.ph_en,
@@ -67,7 +67,7 @@ function getMeaning(word) {
                 })
             }
         });
-        sa = stems_affixes && stems_affixes.map(item=>{
+        sa = stems_affixes && stems_affixes.map(item => {
             let {
                 type,
                 type_value,
@@ -81,18 +81,18 @@ function getMeaning(word) {
                 word_parts
             }
         });
-        return {s, m, se, ee, sa,tr,error};
+        return { s, m, se, ee, sa, tr, error };
     });
 }
 class MeaningProvider extends Provider {
     constructor(config) {
         super(config);
     }
-    getState() {
-        return getMeaning;
+    query(state, action, payload) {
+        return getMeaning(action, payload);
     }
-    setState() {
-        return;
+    update(state, action, payload) {
+        return null;
     }
 }
 

@@ -81,73 +81,73 @@ function getDataBySql(sql) {
 function insertOrReplace(table, column, data) {
     return SQLHelper.insertOrReplace(table, column, data)
 }
-function insertOrReplace2(table, column, data){
+function insertOrReplace2(table, column, data) {
     return SQLHelper.insertOrReplace2(table, column, data)
 }
 const TEMP_TIME_INTERVAL = 4 * 3600 * 1000;
 const ONE_DAY_MILLISECONDS = 24 * 3600 * 1000;
 const THREE_DAY_MILLISECONDS = 3 * ONE_DAY_MILLISECONDS;
 
-function setData(data) {
+function setData(type,payload) {
     let condition
-    switch (data.type) {    
+    switch (type) {
         case 'wordBookRemove':
             condition = 'name in (';
-            data.items.forEach(book=>{
-                condition +=`"${book.name}",`;
-            }); 
-            condition = condition.slice(0,-1);
-            condition +=')'; 
-            return SQLHelper.remove('user_word_book',condition);    
+            payload.items.forEach(book => {
+                condition += `"${book.name}",`;
+            });
+            condition = condition.slice(0, -1);
+            condition += ')';
+            return SQLHelper.remove('user_word_book', condition);
         case 'wordBookAdd':
-            return data.items.map((book)=>{
+            return payload.items.map((book) => {
                 let name = book.name;
                 let count = book.count;
                 let position = book.position;
                 let current_word = book.currentWord;
-                let create_time = book.createTime||Date.now();
+                let create_time = book.createTime || Date.now();
                 let last_read_time = book.lastReadTime || create_time;
-                let column = ['name', 'count', 'position', 'current_word','create_time','last_read_time'];
-                let data =  [`"${name}"`, `"${count}"`, `"${position}"`, `"${current_word}"`, 
-                            `ifnull((select create_time from user_word_book where name = '${name}'),${create_time})`,
-                            `"${last_read_time}"`];
-                
+                let column = ['name', 'count', 'position', 'current_word', 'create_time', 'last_read_time'];
+                let data = [`"${name}"`, `"${count}"`, `"${position}"`, `"${current_word}"`,
+                `ifnull((select create_time from user_word_book where name = '${name}'),${create_time})`,
+                `"${last_read_time}"`];
+
                 return insertOrReplace2(
                     'user_word_book ',
                     column,
-                    data                    
+                    data
                 );
-            });  
+            });
         case 'userStudyWord':
-            return data.items.map((word)=>{
+            return payload.items.map((word) => {
                 let name = word.name;
                 let is_temp_remember = word.isTempRemember;
-                let last_read_time = word.lastReadTime;                
+                let last_read_time = word.lastReadTime;
                 return insertOrReplace2(
                     'user_study_word ',
-                    ['name', 'is_remember', 'is_temp_remember', 'last_read_time', 'create_time','remember_times','first_remember_time','remember_time'],
+                    ['name', 'is_remember', 'is_temp_remember', 'last_read_time', 'create_time', 'remember_times', 'first_remember_time', 'remember_time'],
                     [
-                        `"${name}"`, 
-                        is_temp_remember?`1`:'0',
-                        is_temp_remember?'1':'0', 
+                        `"${name}"`,
+                        is_temp_remember ? `1` : '0',
+                        is_temp_remember ? '1' : '0',
                         `"${last_read_time}"`,
-                        `ifnull((select create_time from user_study_word where name = '${name}'),${last_read_time})` , 
-                        is_temp_remember?`ifnull((select remember_times from user_study_word where name = '${name}'),0)+1`:'0',
-                        is_temp_remember?`ifnull(((select first_remember_time from user_study_word where name = '${name}')),${last_read_time})`:'null',
-                        is_temp_remember?last_read_time:'null',
+                        `ifnull((select create_time from user_study_word where name = '${name}'),${last_read_time})`,
+                        is_temp_remember ? `ifnull((select remember_times from user_study_word where name = '${name}'),0)+1` : '0',
+                        is_temp_remember ? `ifnull(((select first_remember_time from user_study_word where name = '${name}')),${last_read_time})` : 'null',
+                        is_temp_remember ? last_read_time : 'null',
                     ]
                 );
-            });  
+            });
         case 'userWordRemove':
             condition = 'name in (';
-            data.items.forEach(word=>{
-                condition +=`"${word.name}",`;
-            }); 
-            condition = condition.slice(0,-1);
-            condition +=')'; 
-            return SQLHelper.remove('user_study_word',condition);   
+            payload.items.forEach(word => {
+                condition += `"${word.name}",`;
+            });
+            condition = condition.slice(0, -1);
+            condition += ')';
+            return SQLHelper.remove('user_study_word', condition);
         case 'userWordEdit':
-            return SQLHelper.update('user_study_word',`name='${data.word.name}'`,`name='${data.word.oldName}'`);   
+            return SQLHelper.update('user_study_word', `name='${payload.word.name}'`, `name='${payload.word.oldName}'`);
 
     }
 }
@@ -157,7 +157,7 @@ function getData(type, payload) {
 
     switch (type) {
         case 'search':
-            sql1 =`select book_name as name,book_classify as classify,count(book_name) as count 
+            sql1 = `select book_name as name,book_classify as classify,count(book_name) as count 
                     from wordbook.words 
                     where book_name like '%${payload}%' or classify like '%${payload}%'
                     group by book_name 
@@ -219,7 +219,7 @@ function getData(type, payload) {
         case 'user':
             let data;
             return getDataBySql('select count(name) as count from user_study_word').then(([book]) => {
-                data =[{
+                data = [{
                     name: '我的单词本',
                     count: book.count
                 }];
@@ -241,13 +241,12 @@ function getData(type, payload) {
 class WordsProvider extends Provider {
     constructor(config) {
         super(config);
-        this.state = config.state || {};
     }
-    setState(state) {
-        return setData(state);
+    update(state, action, payload) {
+        return setData(action,payload);
     }
-    getState() {
-        return getData
+    query(state, action, payload) {
+        return getData(action,payload)
     }
 }
 

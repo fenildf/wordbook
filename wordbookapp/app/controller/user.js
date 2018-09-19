@@ -1,5 +1,5 @@
-function addBook($payload, $persist) {
-    let books = $payload();
+function addBook($payload, $update) {
+    let books = $payload;
     let userWordBook = {
 
     }
@@ -19,13 +19,13 @@ function addBook($payload, $persist) {
         }
 
     }
-    $persist('word', { items: Object.values(userWordBook), type: 'wordBookAdd' });
+    $update('word', 'wordBookAdd', { items: Object.values(userWordBook) });
     return {
         ok: true
     }
 }
-function removeBooks($payload, $persist) {
-    let books = $payload();
+function removeBooks($payload, $update) {
+    let books = $payload;
     let userWordBook = {
 
     }
@@ -47,7 +47,7 @@ function removeBooks($payload, $persist) {
             message: '请选择要移除的单词本'
         }
     }
-    $persist('word', { items: userWordBookArray, type: 'wordBookRemove' });
+    $update('word', 'wordBookRemove', { items: userWordBookArray });
     return {
         ok: true
     }
@@ -95,8 +95,8 @@ function isRealRemember(studyWord, now) {
             studyWord.rememberTimes > 3 &&
             (now - studyWord.firstRememberTime > THREE_DAY_MILLISECONDS));
 }
-function markWord($payload, $persist) {
-    let payload = $payload();
+function markWord($payload, $update) {
+    let payload = $payload;
     let now = Date.now();
 
     let word = payload.word;
@@ -107,22 +107,22 @@ function markWord($payload, $persist) {
         lastReadTime: now,
     };
 
-    $persist('word', { type: 'userStudyWord', items: [studyWord] });
+    $update('word', 'userStudyWord', { items: [studyWord] });
 }
-function removeWord($payload, $persist) {
-    let payload = $payload();
+function removeWord($payload, $update) {
+    let payload = $payload;
     let word = {
         name: payload.name,
     };
-    $persist('word', { type: 'userWordRemove', items: [word] });
+    $update('word', 'userWordRemove', { items: [word] });
 }
-function editWord($payload, $persist) {
-    let payload = $payload();
+function editWord($payload, $update) {
+    let payload = $payload;
     let word = {
         oldName: payload.oldName,
         name: payload.name
     }
-    $persist('word', { type: 'userWordEdit', word });
+    $update('word', 'userWordEdit', { word });
 }
 export default {
     addBook,

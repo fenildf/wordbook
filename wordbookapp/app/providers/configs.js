@@ -1,29 +1,33 @@
+import MeaningProvier from './MeaningProvider'
+import StorageProvider from './StorageProvider'
+import WordsProvider from './WordsProvider'
+
 export default [
     {
         name:'word',
-        type:'word'
+        type: WordsProvider
     },
     {
         name:'meaning',
-        type:'meaning'
+        type: MeaningProvier
     },
     {
         name:'dbversion',
-        type:'storage',
+        type:StorageProvider,
         defaultState:2
     },
     {
         name:'theme',
-        type:'storage',
+        type:StorageProvider,
     },
     {
         name:'wordPageTheme',
-        type:'storage',
+        type: StorageProvider,
         defaultState:'white'
     },
     {
         name:'myWordBook',
-        type:'storage',
+        type: StorageProvider,
         defaultState:{
             '我的生词本':{
                 name:'我的生词本',
@@ -39,6 +43,6 @@ export default [
     },                     
     {
         name:'myStudyWord',
-        type:'storage',
+        type: StorageProvider,
     }
 ]

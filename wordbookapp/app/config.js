@@ -1,31 +1,21 @@
 'use strict'
 import {
-    useProvider,
-    injectProvider,
-    createActions,
+    registerProvider,
+    registerAction,
     onError
 }  from 'febrest';
 
 require('./router');
 require('./ui');
 import action from './action';
-import WordsProvider from './providers/WordsProvider';
-
-import StorageProvider from './providers/StorageProvider';
-
-import MeaningProvider from './providers/MeaningProvider';
 
 
 import providerConfigs from './providers/configs';
 
 
-createActions(action)
+registerAction(action)
 
-useProvider('word',WordsProvider);
-useProvider('storage',StorageProvider);
-useProvider('meaning',MeaningProvider);
-
-injectProvider(providerConfigs);
+registerProvider(providerConfigs);
 
 onError(function(error){
     throw error;
@@ -44,7 +34,7 @@ let promiseThen = Promise.prototype.then;
             try{
                 return fn1.call(null,data);
             }catch(e){
-                alert(e.message)
+                console.warn(e)
             }
         }else{
             return data;
@@ -54,7 +44,7 @@ let promiseThen = Promise.prototype.then;
             try{
                 return fn2.call(null,data);
             }catch(e){
-                alert(e.message)
+                console.warn(e)
             }
         }else{
             return data;

@@ -8,38 +8,32 @@ const PERFIX = 'StorageProvider_';
 class StorageProvider extends Provider {
     constructor(config) {
         super(config);
-        this.synced = false;
         this.key = PERFIX + this.name;
     }
-    getState() {
-        if (this.synced) {
-            return super.getState();
-        } else {
-            return AsyncStorage.getItem(this.key).then((v)=>{
-                let state;
-                if(v && v!='0'){
-                    try {
-                        state = JSON.parse(v);
-                    }catch(e){
-                        state = v;
-                    }
-                    this.state = state;
+    onCreate(state) {
+        return AsyncStorage.getItem(this.key).then((v)=>{
+            let state;
+            if(v && v!='0'){
+                try {
+                    state = JSON.parse(v);
+                }catch(e){
+                    state = v;
                 }
-                this.synced = true;
-                return super.getState();
-            });
-        }
-        return this.state;
+            }
+            return state;
+        });
     }
-    setState(state) {
-        super.setState(state);
+    query(state,action,payload) {
+        return state;
+    }
+    update(state,action,payload) {
         let v;
         try {
             v = JSON.stringify(state);
         } catch (e) {
             v = state;
         }
-        return AsyncStorage.setItem(this.key, v);
+        return AsyncStorage.setItem(this.key, v).then(()=>state);
     }
 }
 
