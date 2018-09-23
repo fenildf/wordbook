@@ -24,35 +24,21 @@ class Page extends Component {
     componentDidMount() {
         this._onShowMeaning();
     }
+    componentWillUnmount() {
+    }
 
     showMeaning() {
         this.setState({ showMeaning: true })
         // this.setState({meaning:null})
         // this._onShowMeaning();
     }
-    _onData({ state, key }, isThis) {
-        switch (key) {
-            case actions.WORD_GET_MEANING:
-                isThis && (this.props.word.meaning = state.meaning);
-                return false;
-            case actions.SET_WORD_PAGE_THEME:
-                this.setState({ theme: state.wordPageTheme });
-                return true;
-        }
-    }
-
     _onShowMeaning = () => {
         let { word } = this.props;
-        // let {
-        //     meaning
-        // } = this.state;
-
-        // if(meaning){
-        //     return;
-        // }
         if (!word.meaning) {
             dispatch(actions.WORD_GET_MEANING, word.name).then(({ state }) => {
-                this.setState(state);
+                //需要优化
+                this.props.word.meaning = state.meaning;
+                this.forceUpdate();
             });
         }
     }
@@ -65,14 +51,11 @@ class Page extends Component {
             <View
                 style={styles.wrapper}>
                 <Main
-                    theme={this.state.theme}
-                    onShowMeaning={this._onShowMeaning}
                     meaning={meaning}
                     word={word} />
                 {
                     showMeaning ?
                         <Meaning
-                            theme={this.state.theme}
                             meaning={meaning} />
                         :
                         null

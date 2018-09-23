@@ -201,10 +201,12 @@ function setWordPageTheme(wordPageTheme, $update) {
     })
 }
 
-function setAutoTranslate($payload) {
-    return {
+function setAutoTranslate($payload,$bordercast,$action) {
+    let action = $action.name;
+    $bordercast(action,{
         autoTranslate: $payload
-    }
+    });
+    return null;
 }
 
 export default {

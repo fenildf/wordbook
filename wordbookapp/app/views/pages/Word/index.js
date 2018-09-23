@@ -53,16 +53,9 @@ class Word extends Component {
                     children={ <FontIcon style={styles.backArrow} name='ios-arrow-round-back-outline'/>}/>
     }
     _onRightButtonPress=()=>{
-        dispatch(actions.SET_WORD_PAGE_THEME)
-    }
-    _onData({state,key}) {
-        switch(key){
-            case actions.USER_MARK_WORD:
-                return true;
-            case actions.SET_WORD_PAGE_THEME:
-                this.setState(state);
-                return true;
-        }
+        dispatch(actions.SET_WORD_PAGE_THEME).then(({state})=>{
+            this.setState(state);
+        })
     }
     _onProviderChange=(change)=>{
         if(change.word){
@@ -78,13 +71,13 @@ class Word extends Component {
             sectionName
         } = this.state;
         dispatch(actions.WORD_GET_WORDS,{bookName,sectionName}).then(({state})=>{
-            this.setState({state});
+            this.setState(state);
         });
     }
     _onAutoTranslate=()=>{
         let {autoTranslate} = this.state;
         dispatch(actions.SET_AUTO_TRANSLATE,!autoTranslate).then(({state})=>{
-            this.setState({state});
+            this.setState(state);
         });
     }
     _onForget = () => {
