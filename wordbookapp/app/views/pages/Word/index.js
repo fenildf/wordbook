@@ -4,7 +4,6 @@ import React,{Component} from 'react'
 import {
     View
 } from 'react-native';
-import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
 import actions from '../../../constants/actions';
 import Footer from './Footer';
@@ -42,8 +41,6 @@ class Word extends Component {
             autoTranslate:false,
             meaning:null
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-        // this.dispatcher.watch(this._onProviderChange)
     }
     _renderRightButton(){
         return <TouchableOpacity 
@@ -72,9 +69,6 @@ class Word extends Component {
             this._fetchData();
         }
     }
-    componentWillUnmount(){
-        this.dispatcher.release();
-    }
     componentDidMount() {
         this._fetchData();
     }
@@ -83,11 +77,15 @@ class Word extends Component {
             bookName,
             sectionName
         } = this.state;
-        this.dispatcher.dispatch(actions.WORD_GET_WORDS,{bookName,sectionName});
+        dispatch(actions.WORD_GET_WORDS,{bookName,sectionName}).then(({state})=>{
+            this.setState({state});
+        });
     }
     _onAutoTranslate=()=>{
         let {autoTranslate} = this.state;
-        this.dispatcher.dispatch(actions.SET_AUTO_TRANSLATE,!autoTranslate);
+        dispatch(actions.SET_AUTO_TRANSLATE,!autoTranslate).then(({state})=>{
+            this.setState({state});
+        });
     }
     _onForget = () => {
         this._next();

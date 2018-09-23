@@ -14,11 +14,11 @@ export default [
     },
     {
         name:actions.APP_NAVIGATE_GOBACK,
-        controller:app.appNavigate
+        controller:app.appGoBack
     },
     {
         name:actions.APP_RESET_NAVIGATOR,
-        controller:app.appNavigate
+        controller:app.navigateReset
     },
     {
         name:actions.TOAST,

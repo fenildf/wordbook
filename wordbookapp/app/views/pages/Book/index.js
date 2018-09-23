@@ -6,9 +6,7 @@ import {
     InteractionManager
 } from 'react-native';
 
-
-import {createDispatcher} from 'react-febrest';
-import {dispatch} from 'febrest';
+import {dispatch,watch,unwatch} from 'febrest';
 import actions from '../../../constants/actions';
 import FlatList from './../../components/FlatList';
 import Item from './Item';
@@ -28,8 +26,7 @@ class Book extends Component{
             sections:[],
             book
         }
-        this.dispatcher = createDispatcher(this,this._onData);
-        this.dispatcher.watch(this._onProviderChange)
+        watch(this._onProviderChange)
 
     }
     componentDidUpdate(){
@@ -38,7 +35,7 @@ class Book extends Component{
         // });
     }
     componentWillUnmount(){
-        this.dispatcher.release();
+        unwatch(this._onProviderChange)
     }
     componentDidMount() {
         this._getWords();
@@ -50,7 +47,7 @@ class Book extends Component{
     }
     _getWords(){
         let {name,classify} = this.state.book
-        this.dispatcher.dispatch(actions.WORD_GET_SECTIONS,{bookName:name,classify})
+        dispatch(actions.WORD_GET_SECTIONS,{bookName:name,classify}).then(({state})=>this.setState(state));
     }
     _renderItem=({item,index})=>{
         let {book:{name}} = this.state;

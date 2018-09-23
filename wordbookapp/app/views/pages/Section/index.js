@@ -6,8 +6,7 @@ import {
 } from 'react-native';
 
 import FlatList from './../../components/FlatList';
-import { createDispatcher } from 'react-febrest';
-import { dispatch } from 'febrest';
+import { dispatch,watch,unwatch} from 'febrest';
 import actions from '../../../constants/actions';
 import Item from './Item';
 import StyleSheet from 'react-native-theme-stylesheet';
@@ -29,25 +28,26 @@ class Section extends Component {
             words: [],
             section
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-        this.dispatcher.watch(this._onProviderChange)
+        watch(this._onProviderChange)
         this._contextMenu = null;
         this._contextWord = null;
-    }
-    _onData(data) {
     }
     _onProviderChange = (change) => {
         if (change.word) {
             let section = this.state.section
-            this.dispatcher.dispatch(actions.WORD_GET_WORDS, { bookName: section.bookName, sectionName: section.name })
+            dispatch(actions.WORD_GET_WORDS, { bookName: section.bookName, sectionName: section.name }).then(({state})=>{
+                this.setState(state);
+            })
         }
     }
     componentDidMount() {
         let section = this.state.section
-        this.dispatcher.dispatch(actions.WORD_GET_WORDS, { bookName: section.bookName, sectionName: section.name })
+        dispatch(actions.WORD_GET_WORDS, { bookName: section.bookName, sectionName: section.name }).then(({state})=>{
+            this.setState(state);
+        })
     }
     componentWillUnmount() {
-        this.dispatcher.release();
+        unwatch(this._onProviderChange)
     }
     _onItemLongPress = ({ nativeEvent }, item) => {
         let { bookName } = this.state.section;

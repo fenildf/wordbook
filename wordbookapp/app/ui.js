@@ -5,21 +5,21 @@ import {
 import actions from './constants/actions';
 import NavigationManager from './util/NavigationManager';
 
-subscribe(function (data) {
+subscribe(function (evt) {
     let {
         key,
-        state
-    } = data;
+        data
+    } = evt;
     let screen = NavigationManager.getCurrentScreen();
     switch (key) {
         case actions.TOAST:
-            screen.toast(state.message||state);
+            screen.toast(data.message||data);
             return;
         case actions.ALERT:
-            screen.alert(state);
+            screen.alert(data);
             return;
         case actions.POPUP:
-            screen.showPopup(state);
+            screen.showPopup(data);
             return;
         default:
             return;

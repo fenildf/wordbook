@@ -5,7 +5,6 @@ import {
 } from 'react-native';
 
 import FlatList from './../../components/FlatList';
-import { createDispatcher } from 'react-febrest';
 import { dispatch } from 'febrest';
 import StyleSheet from 'react-native-theme-stylesheet';
 
@@ -35,21 +34,19 @@ class AddBook extends Component {
         this._selectedBooks = {
 
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-    }
-    _onData({key,state}) {
-        
     }
     _add(item){
-        this.dispatcher.dispatch(actions.USER_ADD_BOOKS,{[item.name]:item});
-        dispatch(actions.TOAST,'添加成功');
+        dispatch(actions.USER_ADD_BOOKS,{[item.name]:item}).then(()=>{
+            dispatch(actions.TOAST,'添加成功');
+        });
     }
   
     componentDidMount() {
-        this.dispatcher.dispatch(actions.WORD_GET_CLASSIFY);
+        dispatch(actions.WORD_GET_CLASSIFY).then(({state})=>{
+            this.setState(state);
+        });
     }
     componentWillUnmount() {
-        this.dispatcher.release();
     }
     _renderPages(){
         let classify = this.state.classify;

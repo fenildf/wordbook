@@ -5,15 +5,15 @@ import {
 import actions from './constants/actions';
 import NavigationManager from './util/NavigationManager';
 
-subscribe(function (data) {
+subscribe(function (event) {
     let {
         key,
-        state
-    } = data;
+        data
+    } = event;
     if (key === actions.APP_NAVIGATE) {
-        switch (state.routeName) {
+        switch (data.routeName) {
             default:
-                NavigationManager.navigate(state.routeName, state.params);
+                NavigationManager.navigate(data.routeName, data.params);
                 return;
         }
     }else if(key === actions.APP_NAVIGATE_GOBACK){

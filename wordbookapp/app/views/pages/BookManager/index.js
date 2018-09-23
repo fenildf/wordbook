@@ -1,100 +1,90 @@
 'use strict'
-import React,{Component}from 'react'
+import React, { Component } from 'react'
 
 import {
     View,
 } from 'react-native';
 
 
-import {createDispatcher} from 'react-febrest';
-import {dispatch} from 'febrest';
+import { dispatch } from 'febrest';
 import ScrollView from './../../components/ScrollView';
 import actions from '../../../constants/actions';
 import StyleSheet from 'react-native-theme-stylesheet';
 import Item from './Item';
 import Button from './Button';
 
-class BookManager extends Component{
+class BookManager extends Component {
     static routeConfig = {
-        name:'BookManager'
+        name: 'BookManager'
     }
-    constructor(...props){
+    constructor(...props) {
         super(...props);
         this.navigationOptions = {
-            title:'管理我的单词本'
+            title: '管理我的单词本'
         }
         this.state = {
-            books:[]
+            books: []
         }
-        this.dispatcher = createDispatcher(this,this._onData);
         this._selectedBooks = {};
     }
     componentDidMount() {
         this._fetchData();
     }
-    componentWillUnmount(){
-        this.dispatcher.release();
+    componentWillUnmount() {
     }
-    _fetchData(){
-        this.dispatcher.dispatch(actions.USER_GET_CUSTOMIZED_BOOKS);
+    _fetchData() {
+        dispatch(actions.USER_GET_CUSTOMIZED_BOOKS).then(({ state }) => this.setState(state));
     }
-    _onData({key,state},isThis){
-        if(!isThis){
-            return;
-        }
-        switch(key){
-            case actions.USER_REMOVE_BOOKS:
-                if(state.ok){
-                    dispatch(actions.APP_NAVIGATE_GOBACK);
-                }else{
-                    dispatch(actions.TOAST,state.message);
-                }
-        }
-    }
-    _onSelected(isSelected,book){
+    _onSelected(isSelected, book) {
         if (isSelected) {
             this._selectedBooks[book.name] = book;
         } else {
             delete this._selectedBooks[book.name];
         }
     }
-    _renderItems(){
-        let {books} = this.state;
-        if(!books){
+    _renderItems() {
+        let { books } = this.state;
+        if (!books) {
             return null;
         }
-        return books.map(book=>{
+        return books.map(book => {
             return (
-                <Item 
-                    onSelected={(isSelected)=>this._onSelected(isSelected,book)}
+                <Item
+                    onSelected={(isSelected) => this._onSelected(isSelected, book)}
                     key={book.name}
-                    book={book}/>
+                    book={book} />
             );
         });
     }
-    _deleteBooks=()=>{
-        this.dispatcher.dispatch(actions.USER_REMOVE_BOOKS,this._selectedBooks);
-        
+    _deleteBooks = () => {
+        dispatch(actions.USER_REMOVE_BOOKS, this._selectedBooks).then(({ state }) => {
+            if (state.ok) {
+                dispatch(actions.APP_NAVIGATE_GOBACK);
+            } else {
+                dispatch(actions.TOAST, state.message);
+            }
+        });
+
     }
-    render(){
+    render() {
         return (
-            <View 
+            <View
                 style={styles.wrapper}>
                 <ScrollView
                     style={styles.wrapper}>
                     {this._renderItems()}
                 </ScrollView>
-                <Button 
-                    onPress={this._deleteBooks}/>
+                <Button
+                    onPress={this._deleteBooks} />
             </View>
         );
     }
 }
 
-const styles = StyleSheet.create(function(theme){
+const styles = StyleSheet.create(function (theme) {
     return {
-        wrapper:{
-            flex:1
+        wrapper: {
+            flex: 1
         }
     };
 })

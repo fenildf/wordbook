@@ -4,8 +4,7 @@ import {View} from 'react-native';
 
 import StyleSheet from 'react-native-theme-stylesheet';
 import Text from './../../components/Text';
-import { createDispatcher } from 'react-febrest';
-import { dispatch } from 'febrest';
+import { dispatch,watch,unwatch } from 'febrest';
 import actions from '../../../constants/actions';
 import FlatList from './../../components/FlatList';
 import BookItem from './BookItem';
@@ -32,17 +31,18 @@ class Books extends Component {
         this.state = {
 
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-        this.dispatcher.watch(this._watch);
+        watch(this._watch);
     }
     componentDidMount() {
         this._getBooks();
     }
     componentWillUnmount() {
-        this.dispatcher.release();
+        unwatch(this._watch);
     }
     _getBooks() {
-        this.dispatcher.dispatch(actions.USER_GET_BOOKS);
+        dispatch(actions.USER_GET_BOOKS).then(({state})=>{
+            this.setState(state);
+        });
     }
     _watch=(changed)=> {
         if (changed.word) {

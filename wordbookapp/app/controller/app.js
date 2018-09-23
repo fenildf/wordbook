@@ -5,8 +5,8 @@ import WordPageBlackTheme from './../views/themes/WordPageTheme.black';
 import WordPageWhiteTheme from './../views/themes/WordPageTheme.white';
 import BaseTheme from './../views/themes/BaseTheme';
 
-function fixOldVersion(myStudyWord, myWordBook,$update) {
-    return SQLHelper.transaction((tx)=>{
+function fixOldVersion(myStudyWord, myWordBook, $update) {
+    return SQLHelper.transaction((tx) => {
         tx.executeSql(`CREATE TABLE IF NOT EXISTS user_study_word (${[
             'id integer primary key autoincrement not null',
             'name text not null UNIQUE',
@@ -18,7 +18,7 @@ function fixOldVersion(myStudyWord, myWordBook,$update) {
             'first_remember_time interger',
             'remember_time interger',
             'user_id default(1)'
-    
+
         ].join(',')});`);
         tx.executeSql(`CREATE TABLE IF NOT EXISTS user_word_book (${
             [
@@ -31,8 +31,8 @@ function fixOldVersion(myStudyWord, myWordBook,$update) {
                 'last_read_time interger not null',
                 'user_id default(1)'
             ].join(',')
-        });`);
-    }).then(()=>{
+            });`);
+    }).then(() => {
         let tasks = [];
         if (myStudyWord) {
             Object.values(myStudyWord).forEach((word, i) => {
@@ -62,12 +62,12 @@ function fixOldVersion(myStudyWord, myWordBook,$update) {
                 ));
             });
         }
-        return Promise.all(tasks).then(()=>{
-            $update('myStudyWord',null,'');
-            $update('myWordBook',null,'');
-        }); 
+        return Promise.all(tasks).then(() => {
+            $update('myStudyWord', null, '');
+            $update('myWordBook', null, '');
+        });
     })
-    
+
 }
 
 function fillTableWithBook() {
@@ -77,8 +77,8 @@ function fillTableWithBook() {
     const bookSql = 'insert or ignore into books(name,book_classify) values(?,?)';
     const sectionSql = 'insert or ignore into sections(name,book_name,book_classify) values(?,?,?)';
     const wordSql = 'insert or ignore into words(name,book_name,section_name,book_classify) values(?,?,?,?)';
-    while (book!=null) {
-        tasks.push((function(book){
+    while (book != null) {
+        tasks.push((function (book) {
             return SQLHelper.transaction(function (tx) {
                 let i = 1,
                     l = book.length
@@ -105,15 +105,15 @@ function fillTableWithBook() {
                         temp += c;
                     }
                 }
-                tx.executeSql(bookSql, [bookname, classify], () => {}, (err) => console.log(err,));
+                tx.executeSql(bookSql, [bookname, classify], () => { }, (err) => console.log(err));
                 for (; i < l; i++) {
                     let c = book[i];
                     if (c == ':') {
                         sectionname = temp;
-                        tx.executeSql(sectionSql, [sectionname,bookname, classify], () => {}, (err) => console.log(err));
+                        tx.executeSql(sectionSql, [sectionname, bookname, classify], () => { }, (err) => console.log(err));
                         temp = '';
-                    } else if(c == ','){
-                        tx.executeSql(wordSql,[temp,bookname,sectionname,classify], () => {}, (err) => console.log(err));
+                    } else if (c == ',') {
+                        tx.executeSql(wordSql, [temp, bookname, sectionname, classify], () => { }, (err) => console.log(err));
                         temp = '';
                     } else if (c == '#') {
                         temp = '';
@@ -128,78 +128,90 @@ function fillTableWithBook() {
     return tasks;
 }
 
-function appInit(myStudyWord, myWordBook, word, dbversion,$update,theme,wordPageTheme) {
+function appInit(myStudyWord, myWordBook, word, dbversion, $update, theme, wordPageTheme) {
     let promise;
-    if(dbversion!=6){
-        $update('dbversion',null,'6');
+    if (dbversion != 6) {
+        $update('dbversion', null, '6');
         promise = SQLHelper.deleteDatabase().then(SQLHelper.ready);
-    }else{
+    } else {
         promise = SQLHelper.ready();
     }
-    return promise.then(()=>{
-        return fixOldVersion(myStudyWord, myWordBook,$update).then(
+    return promise.then(() => {
+        return fixOldVersion(myStudyWord, myWordBook, $update).then(
             () => {
                 StyleSheet.addTheme(BaseTheme);
-                return StyleSheet.addTheme(switchWordPageThemeWidthName(wordPageTheme)).then(()=>{
+                return StyleSheet.addTheme(switchWordPageThemeWidthName(wordPageTheme)).then(() => {
                     return {
                         theme,
                         wordPageTheme,
                         init: true
                     }
                 });
-                
+
             }
         )
     })
 }
 
-function appNavigate($payload) {
-    return $payload;
-
+function appNavigate($payload, $bordercast) {
+    $bordercast('APP_NAVIGATE', $payload);
+    return null;
 }
-function trans($payload) {
-    return $payload;
+function appGoBack($payload, $bordercast) {
+    $bordercast('APP_NAVIGATE_GOBACK', $payload);
+    return null;
 }
-function setTheme(theme,$payload){
+function navigateReset($payload, $bordercast) {
+    $bordercast('APP_RESET_NAVIGATOR', $payload);
+    return null;
+}
+function trans($payload,$bordercast,$action) {
+    let action = $action.name;
+    $bordercast(action, $payload);
+    return null;;
+}
+function setTheme(theme, $payload) {
     /**
      * todos:主题设置功能
     */
 }
-function switchWordPageThemeWidthName(name){
-    switch(name){
+function switchWordPageThemeWidthName(name) {
+    switch (name) {
         case 'black':
             return WordPageBlackTheme;
         default:
-            return  WordPageWhiteTheme;
+            return WordPageWhiteTheme;
     }
 }
-function setWordPageTheme(wordPageTheme,$update){
+function setWordPageTheme(wordPageTheme, $update) {
     let name;
-    if(wordPageTheme=='black'){
+    if (wordPageTheme == 'black') {
         name = 'white';
-    }else{
+    } else {
         name = 'black'
     }
     let theme = switchWordPageThemeWidthName(name);
-   
-    return StyleSheet.addTheme(theme).then(()=>{
-        $update('wordPageTheme',null,name);
+
+    return StyleSheet.addTheme(theme).then(() => {
+        $update('wordPageTheme', null, name);
         return {
-            wordPageTheme:name,
-            ok:true
+            wordPageTheme: name,
+            ok: true
         }
     })
 }
 
-function setAutoTranslate($payload){
+function setAutoTranslate($payload) {
     return {
-        autoTranslate:$payload
+        autoTranslate: $payload
     }
 }
 
 export default {
     appInit,
     appNavigate,
+    appGoBack,
+    navigateReset,
     trans,
     setTheme,
     setWordPageTheme,

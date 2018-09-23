@@ -1,15 +1,14 @@
 'use strict'
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import {
     StyleSheet
 } from 'react-native';
 
-import { createDispatcher } from 'react-febrest';
 import TabBar from './TabBar';
-
+import { dispatch } from 'febrest';
 class Main extends Component {
     static routeConfig = {
-        name:'Main'
+        name: 'Main'
     }
     constructor(...props) {
         super(...props);
@@ -20,20 +19,15 @@ class Main extends Component {
         this.state = {
             books: []
         }
-        this.dispatcher = createDispatcher(this, this._onData);
-    }
-    
-    _onData(data) {
     }
 
     componentDidMount() {
     }
     componentWillUnmount() {
-        this.dispatcher.release();
     }
     render() {
         return (
-            <TabBar style={styles.wrapper}/>
+            <TabBar style={styles.wrapper} />
         )
     }
 }

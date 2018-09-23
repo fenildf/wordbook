@@ -9,7 +9,6 @@ import {
 import StyleSheet from 'react-native-theme-stylesheet';
 
 import Header from './Header';
-import {createDispatcher} from 'react-febrest'
 import actions from '../../../constants/actions';
 import {dispatch} from 'febrest';
 import FlatList from './../../components/FlatList';
@@ -28,28 +27,16 @@ class SearchBook extends Component{
         }
         this.state={
             searchText:''
-        }
-        this.dispatcher = createDispatcher(this,this._onData);
-    }
+        }    }
     _search=()=>{
         let {searchText} = this.state;
         if(!searchText){
            return dispatch(actions.TOAST,'请输入搜索内容');
         }
-        this.dispatcher.dispatch(actions.SEARCH_BOOK,{searchText});
-    }
-    _onData({key,state},isThis){
-        if(!isThis){
-            return true;
-        }
-        switch(key){
-            case actions.USER_ADD_BOOKS:
-                dispatch(actions.TOAST,'添加成功');
-                return true;
-        }
+        dispatch(actions.SEARCH_BOOK,{searchText}).then(({state})=>this.setState(state));
     }
     _add(item){
-        this.dispatcher.dispatch(actions.USER_ADD_BOOKS,{[item.name]:item});
+        dispatch(actions.USER_ADD_BOOKS,{[item.name]:item}).then(()=>dispatch(actions.TOAST,'添加成功'));
     }
     _renderItem=({item})=>{
         return (
